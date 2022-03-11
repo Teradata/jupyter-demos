@@ -1,0 +1,165 @@
+Set username to: jovyan
+usermod: no changes
+Executing the command: jupyter lab
+[I 2022-03-11 22:03:00.058 ServerApp] jupyterlab | extension was successfully linked.
+[W 2022-03-11 22:03:00.065 NotebookApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-11 22:03:00.066 NotebookApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-11 22:03:00.066 NotebookApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-03-11 22:03:00.080 ServerApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2022-03-11 22:03:00.465 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-03-11 22:03:00.551 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.8/site-packages/jupyterlab
+[I 2022-03-11 22:03:00.551 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 2022-03-11 22:03:00.556 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-03-11 22:03:00.562 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-03-11 22:03:00.563 ServerApp] Serving notebooks from local directory: /home/jovyan/JupyterLabRoot
+[I 2022-03-11 22:03:00.563 ServerApp] Jupyter Server 1.4.1 is running at:
+[I 2022-03-11 22:03:00.564 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-03-11 22:03:00.569 ServerApp] No web browser found: could not locate runnable browser.
+[C 2022-03-11 22:03:00.570 ServerApp]
+
+To access the server, open this file in a browser:
+file:///home/jovyan/.local/share/jupyter/runtime/jpserver-24-open.html
+Or copy and paste one of these URLs:
+[W 2022-03-11 22:03:01.548 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:01.549 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:01.549 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:01.550 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:01.561 ServerApp] 403 GET /api/kernels/f6456bda-ac11-4794-96bf-a3092a8a956f/channels?session_id=fad770b2-c798-4075-9d3f-864b74f82d0b (141.206.235.11) 15.04ms referer=None
+[W 2022-03-11 22:03:01.747 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:01.747 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:01.748 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:01.749 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:01.749 ServerApp] 403 GET /api/kernels/f6456bda-ac11-4794-96bf-a3092a8a956f/channels?session_id=9d382734-5498-4d4c-9865-01d24e89a52e (141.206.235.11) 4.69ms referer=None
+[W 2022-03-11 22:03:01.925 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:01.925 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:01.925 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:01.926 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:01.927 ServerApp] 403 GET /api/kernels/81622186-6948-42bc-9eeb-81f85e5aa5ac/channels?session_id=b66fb8fd-d45b-40b8-b4da-dcb3f5e5e334 (141.206.235.11) 4.30ms referer=None
+[W 2022-03-11 22:03:02.095 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:02.096 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:02.096 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:02.097 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:02.098 ServerApp] 403 GET /api/kernels/f6456bda-ac11-4794-96bf-a3092a8a956f/channels?session_id=fad770b2-c798-4075-9d3f-864b74f82d0b (141.206.235.11) 4.69ms referer=None
+[W 2022-03-11 22:03:02.266 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:02.266 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:02.267 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:02.268 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:02.269 ServerApp] 403 GET /api/kernels/8cc07833-a03d-421c-9e63-0efc12b04fd0/channels?session_id=255319b6-2b61-405f-a2f5-d113d8c45680 (141.206.235.11) 5.04ms referer=None
+[W 2022-03-11 22:03:03.659 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:03.659 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:03.660 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:03.660 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:03.662 ServerApp] 403 GET /api/kernels/f6456bda-ac11-4794-96bf-a3092a8a956f/channels?session_id=9d382734-5498-4d4c-9865-01d24e89a52e (141.206.235.11) 6.10ms referer=None
+[W 2022-03-11 22:03:04.413 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:04.414 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:04.414 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:04.415 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:04.415 ServerApp] 403 GET /api/kernels/8cc07833-a03d-421c-9e63-0efc12b04fd0/channels?session_id=255319b6-2b61-405f-a2f5-d113d8c45680 (141.206.235.11) 4.15ms referer=None
+[W 2022-03-11 22:03:04.747 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:04.748 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:04.748 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:04.749 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:04.750 ServerApp] 403 GET /api/kernels/81622186-6948-42bc-9eeb-81f85e5aa5ac/channels?session_id=b66fb8fd-d45b-40b8-b4da-dcb3f5e5e334 (141.206.235.11) 4.17ms referer=None
+[W 2022-03-11 22:03:06.923 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:06.924 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:06.924 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:06.925 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:06.926 ServerApp] 403 GET /api/kernels/f6456bda-ac11-4794-96bf-a3092a8a956f/channels?session_id=fad770b2-c798-4075-9d3f-864b74f82d0b (141.206.235.11) 4.18ms referer=None
+[W 2022-03-11 22:03:07.329 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:07.330 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:07.330 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:07.331 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:07.332 ServerApp] 403 GET /api/kernels/8cc07833-a03d-421c-9e63-0efc12b04fd0/channels?session_id=255319b6-2b61-405f-a2f5-d113d8c45680 (141.206.235.11) 4.62ms referer=None
+[W 2022-03-11 22:03:08.010 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:08.010 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:08.010 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:08.011 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:08.012 ServerApp] 403 GET /api/kernels/81622186-6948-42bc-9eeb-81f85e5aa5ac/channels?session_id=b66fb8fd-d45b-40b8-b4da-dcb3f5e5e334 (141.206.235.11) 3.82ms referer=None
+[W 2022-03-11 22:03:08.389 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:08.390 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:08.390 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:08.391 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:08.392 ServerApp] 403 GET /api/kernels/f6456bda-ac11-4794-96bf-a3092a8a956f/channels?session_id=9d382734-5498-4d4c-9865-01d24e89a52e (141.206.235.11) 5.96ms referer=None
+[W 2022-03-11 22:03:08.406 ServerApp] Clearing invalid/expired login cookie username-35-222-86-203-8888
+[W 2022-03-11 22:03:08.407 ServerApp] Forbidden
+[W 2022-03-11 22:03:08.407 ServerApp] 403 GET /api/kernelspecs?1647036188096 (141.206.235.11) 1.99ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
+[W 2022-03-11 22:03:09.381 ServerApp] Forbidden
+[W 2022-03-11 22:03:09.381 ServerApp] 403 GET /api/contents?content=1&1647036189184 (141.206.235.11) 1.58ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
+[W 2022-03-11 22:03:10.273 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:10.274 ServerApp] 403 GET /api/kernels/f6456bda-ac11-4794-96bf-a3092a8a956f/channels?session_id=fad770b2-c798-4075-9d3f-864b74f82d0b (141.206.235.11) 3.71ms referer=None
+[W 2022-03-11 22:03:13.960 ServerApp] Forbidden
+[W 2022-03-11 22:03:13.961 ServerApp] 403 GET /api/terminals?1647036193744 (141.206.235.11) 1.57ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
+[I 2022-03-11 22:03:15.370 LabApp] 302 GET /lab/tree/TimeSeriesAnalysis.ipynb (141.206.235.11) 1.04ms
+[W 2022-03-11 22:03:15.712 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:15.714 ServerApp] 403 GET /api/kernels/81622186-6948-42bc-9eeb-81f85e5aa5ac/channels?session_id=b66fb8fd-d45b-40b8-b4da-dcb3f5e5e334 (141.206.235.11) 3.43ms referer=None
+[W 2022-03-11 22:03:16.001 ServerApp] Forbidden
+[W 2022-03-11 22:03:16.002 ServerApp] 403 GET /api/contents/TimeSeriesAnalysis.ipynb?content=0&1647036195791 (141.206.235.11) 1.95ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
+[W 2022-03-11 22:03:16.157 ServerApp] Forbidden
+[W 2022-03-11 22:03:16.158 ServerApp] 403 GET /api/kernels?1647036195941 (141.206.235.11) 1.50ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
+[W 2022-03-11 22:03:16.338 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:16.340 ServerApp] 403 GET /api/kernels/8cc07833-a03d-421c-9e63-0efc12b04fd0/channels?session_id=255319b6-2b61-405f-a2f5-d113d8c45680 (141.206.235.11) 3.86ms referer=None
+[I 2022-03-11 22:03:18.686 ServerApp] 302 POST /login?next=%2Flab%2Ftree%2FTimeSeriesAnalysis.ipynb (141.206.235.11) 2.06ms
+[W 2022-03-11 22:03:19.471 ServerApp] Forbidden
+[W 2022-03-11 22:03:19.472 ServerApp] 403 GET /api/contents?content=1&1647036199275 (141.206.235.11) 1.47ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
+[W 2022-03-11 22:03:19.866 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:19.867 ServerApp] 403 GET /api/kernels/f6456bda-ac11-4794-96bf-a3092a8a956f/channels?session_id=9d382734-5498-4d4c-9865-01d24e89a52e (141.206.235.11) 2.80ms referer=None
+[W 2022-03-11 22:03:21.904 ServerApp] Forbidden
+[W 2022-03-11 22:03:21.904 ServerApp] 403 GET /api/sessions?1647036201700 (141.206.235.11) 2.27ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
+[W 2022-03-11 22:03:22.017 ServerApp] Forbidden
+[W 2022-03-11 22:03:22.018 ServerApp] 403 GET /api/kernels?1647036201726 (141.206.235.11) 1.76ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
+[I 2022-03-11 22:03:26.297 ServerApp] Kernel started: 850d71b2-e2da-4e42-9184-5cef6cabbe45
+[I 2022-03-11 22:03:26.345 ServerApp] Kernel started: 56e45109-ba86-4786-9427-ff333592f4d4
+init 1650
+time="2022-03-11T22:03:26Z" level=info msg="User Settings Dir = '/home/jovyan/JupyterLabRoot/.usersettings'"
+Teradata JupyterLab kernel config: /home/jovyan/.local/share/jupyter/runtime/kernel-850d71b2-e2da-4e42-9184-5cef6cabbe45.json
+init 1650
+time="2022-03-11T22:03:26Z" level=info msg="User Settings Dir = '/home/jovyan/JupyterLabRoot/.usersettings'"
+Teradata JupyterLab kernel config: /home/jovyan/.local/share/jupyter/runtime/kernel-56e45109-ba86-4786-9427-ff333592f4d4.json
+[W 2022-03-11 22:03:28.194 ServerApp] Forbidden
+[W 2022-03-11 22:03:28.195 ServerApp] 403 GET /api/terminals?1647036205782 (141.206.235.11) 2015.41ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
+[I 2022-03-11 22:03:28.210 LabApp] Build is up to date
+[W 2022-03-11 22:03:28.223 ServerApp] Forbidden
+[W 2022-03-11 22:03:28.224 ServerApp] 403 GET /api/kernels?1647036207438 (141.206.235.11) 11.26ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
+[W 2022-03-11 22:03:28.865 ServerApp] Forbidden
+[W 2022-03-11 22:03:28.866 ServerApp] 403 GET /api/kernels?1647036206821 (141.206.235.11) 641.32ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
+[W 2022-03-11 22:03:30.049 ServerApp] Forbidden
+[W 2022-03-11 22:03:30.050 ServerApp] 403 GET /api/contents?content=1&1647036209371 (141.206.235.11) 15.18ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
+[W 2022-03-11 22:03:30.699 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:30.701 ServerApp] 403 GET /api/kernels/f6456bda-ac11-4794-96bf-a3092a8a956f/channels?session_id=9d382734-5498-4d4c-9865-01d24e89a52e (141.206.235.11) 646.10ms referer=None
+[W 2022-03-11 22:03:30.786 LabApp] Failed to fetch package metadata for 'teradata_database_explorer': <HTTPError 404: 'Not Found'>
+[W 2022-03-11 22:03:31.099 LabApp] Failed to fetch package metadata for 'teradata_connection_manager': <HTTPError 404: 'Not Found'>
+[W 2022-03-11 22:03:31.404 LabApp] Failed to fetch package metadata for 'teradata_preferences': <HTTPError 404: 'Not Found'>
+[I 2022-03-11 22:03:31.475 ServerApp] Writing notebook-signing key to /home/jovyan/.local/share/jupyter/notebook_secret
+[W 2022-03-11 22:03:31.481 ServerApp] Notebook TimeSeriesAnalysis.ipynb is not trusted
+[W 2022-03-11 22:03:31.721 LabApp] Failed to fetch package metadata for 'teradata_resultset_renderer': <HTTPError 404: 'Not Found'>
+[W 2022-03-11 22:03:31.901 LabApp] Failed to fetch package metadata for 'teradata_sqlhighlighter': <HTTPError 404: 'Not Found'>
+-[W 2022-03-11 22:03:31.920 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:31.930 ServerApp] 403 GET /api/kernels/f6456bda-ac11-4794-96bf-a3092a8a956f/channels?session_id=fad770b2-c798-4075-9d3f-864b74f82d0b (141.206.235.11) 13.27ms referer=None
+|/-|/-|/-|[W 2022-03-11 22:03:33.489 ServerApp] Forbidden
+[W 2022-03-11 22:03:33.489 ServerApp] 403 GET /api/kernels?1647036213294 (141.206.235.11) 1.43ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
+[I 2022-03-11 22:03:33.947 ServerApp] Kernel started: 03584fa2-c821-4bba-9239-c23982fa72d6
+init 1650
+time="2022-03-11T22:03:34Z" level=info msg="User Settings Dir = '/home/jovyan/JupyterLabRoot/.usersettings'"
+Teradata JupyterLab kernel config: /home/jovyan/.local/share/jupyter/runtime/kernel-03584fa2-c821-4bba-9239-c23982fa72d6.json
+[W 2022-03-11 22:03:34.939 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:34.941 ServerApp] 403 GET /api/kernels/8cc07833-a03d-421c-9e63-0efc12b04fd0/channels?session_id=255319b6-2b61-405f-a2f5-d113d8c45680 (141.206.235.11) 3.58ms referer=None
+[W 2022-03-11 22:03:39.848 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:39.849 ServerApp] 403 GET /api/kernels/f6456bda-ac11-4794-96bf-a3092a8a956f/channels?session_id=fad770b2-c798-4075-9d3f-864b74f82d0b (141.206.235.11) 3.08ms referer=None
+[W 2022-03-11 22:03:40.202 ServerApp] Forbidden
+[W 2022-03-11 22:03:40.203 ServerApp] 403 GET /api/contents?content=1&1647036220016 (141.206.235.11) 1.83ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
+[I 2022-03-11 22:03:41.914 ServerApp] Saving file at /TimeSeriesAnalysis.ipynb
+[W 2022-03-11 22:03:41.916 ServerApp] Notebook TimeSeriesAnalysis.ipynb is not trusted
+[W 2022-03-11 22:03:45.146 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:45.147 ServerApp] 403 GET /api/kernels/81622186-6948-42bc-9eeb-81f85e5aa5ac/channels?session_id=b66fb8fd-d45b-40b8-b4da-dcb3f5e5e334 (141.206.235.11) 3.40ms referer=None
+[W 2022-03-11 22:03:47.791 ServerApp] Couldn't authenticate WebSocket connection
+[W 2022-03-11 22:03:47.792 ServerApp] 403 GET /api/kernels/f6456bda-ac11-4794-96bf-a3092a8a956f/channels?session_id=9d382734-5498-4d4c-9865-01d24e89a52e (141.206.235.11) 3.42ms referer=None
+[W 2022-03-11 22:03:50.300 ServerApp] Forbidden
+[W 2022-03-11 22:03:50.301 ServerApp] 403 GET /api/contents?content=1&1647036230116 (141.206.235.11) 1.77ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
+[W 2022-03-11 22:04:00.390 ServerApp] Forbidden
+[W 2022-03-11 22:04:00.391 ServerApp] 403 GET /api/terminals?1647036240207 (141.206.235.11) 1.47ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
+[W 2022-03-11 22:04:00.411 ServerApp] Forbidden
+[W 2022-03-11 22:04:00.412 ServerApp] 403 GET /api/contents?content=1&1647036240211 (141.206.235.11) 1.89ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
+[W 2022-03-11 22:04:01.307 ServerApp] Forbidden
+[W 2022-03-11 22:04:01.307 ServerApp] 403 GET /api/kernels?1647036241107 (141.206.235.11) 1.58ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
+[W 2022-03-11 22:04:05.971 ServerApp] Forbidden
+[W 2022-03-11 22:04:05.972 ServerApp] 403 GET /api/kernels?1647036245774 (141.206.235.11) 1.37ms referer=http://35.222.86.203:8888/lab/tree/TimeSeriesAnalysis.ipynb
