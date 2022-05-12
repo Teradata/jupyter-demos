@@ -6,5 +6,8 @@
 
     // Autosave Documents
     // Whether to autosave documents
-    "autosave": false
+    "autosave": false,
+    defaultViewers: {
+       markdown: "Markdown Preview"
+     } 
 }
