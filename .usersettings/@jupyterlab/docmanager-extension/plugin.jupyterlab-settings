@@ -8,6 +8,6 @@
     // Whether to autosave documents
     "autosave": false,
     defaultViewers: {
-       markdown: "Markdown Preview"
+       markdown: "Markdown Preview" 
      } 
 }
