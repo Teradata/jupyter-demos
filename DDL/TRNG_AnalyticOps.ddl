@@ -1,0 +1,17 @@
+create database TRNG_AnalyticOps from demonow as perm=0;
+create foreign table gs_tables_db."TRNG_AnalyticOps_AOA_MODELS_3a7e54f5",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-AnalyticOps/AOA-MODELS-3a7e54f5/'));
+create foreign table gs_tables_db."TRNG_AnalyticOps_AOA_MODELS_d68791b5",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-AnalyticOps/AOA-MODELS-d68791b5/'));
+create foreign table gs_tables_db."TRNG_AnalyticOps_ml__td_xgboost0_15808958607830",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-AnalyticOps/ml--td-xgboost0-15808958607830/'));
+create foreign table gs_tables_db."TRNG_AnalyticOps_pandas_iris",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-AnalyticOps/pandas-iris/'));
+create foreign table gs_tables_db."TRNG_AnalyticOps_PIMA_EVALUATION_METRICS",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-AnalyticOps/PIMA-EVALUATION-METRICS/'));
+create foreign table gs_tables_db."TRNG_AnalyticOps_PIMA_PREDICTIONS",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-AnalyticOps/PIMA-PREDICTIONS/'));
+create foreign table gs_tables_db."TRNG_AnalyticOps_PIMA_TEST",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-AnalyticOps/PIMA-TEST/'));
+create foreign table gs_tables_db."TRNG_AnalyticOps_PIMA_TRAIN",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-AnalyticOps/PIMA-TRAIN/'));
+replace view TRNG_AnalyticOps.AOA_MODELS_3a7e54f5 as locking row for access select * from  gs_tables_db."TRNG_AnalyticOps_AOA_MODELS_3a7e54f5";
+replace view TRNG_AnalyticOps.AOA_MODELS_d68791b5 as locking row for access select * from  gs_tables_db."TRNG_AnalyticOps_AOA_MODELS_d68791b5";
+replace view TRNG_AnalyticOps.PIMA_EVALUATION_METRICS as locking row for access select * from  gs_tables_db."TRNG_AnalyticOps_PIMA_EVALUATION_METRICS";
+replace view TRNG_AnalyticOps.PIMA_PREDICTIONS as locking row for access select * from  gs_tables_db."TRNG_AnalyticOps_PIMA_PREDICTIONS";
+replace view TRNG_AnalyticOps.PIMA_TEST as locking row for access select * from  gs_tables_db."TRNG_AnalyticOps_PIMA_TEST";
+replace view TRNG_AnalyticOps.PIMA_TRAIN as locking row for access select * from  gs_tables_db."TRNG_AnalyticOps_PIMA_TRAIN";
+replace view TRNG_AnalyticOps.ml__td_xgboost0_15808958607830 as locking row for access select * from  gs_tables_db."TRNG_AnalyticOps_ml__td_xgboost0_15808958607830";
+replace view TRNG_AnalyticOps.pandas_iris as locking row for access select * from  gs_tables_db."TRNG_AnalyticOps_pandas_iris";

@@ -1,0 +1,1 @@
+TRNG_TDU_TD01 has 361 tables, 325.5 MB. The largest: fire_calls, fire_incidents, chips_weblog

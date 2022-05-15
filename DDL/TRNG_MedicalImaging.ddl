@@ -1,0 +1,17 @@
+create database TRNG_MedicalImaging from demonow as perm=0;
+create foreign table gs_tables_db."TRNG_MedicalImaging_d_device",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-MedicalImaging/d-device/'));
+create foreign table gs_tables_db."TRNG_MedicalImaging_d_patient",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-MedicalImaging/d-patient/'));
+create foreign table gs_tables_db."TRNG_MedicalImaging_k_case",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-MedicalImaging/k-case/'));
+create foreign table gs_tables_db."TRNG_MedicalImaging_r_image_device",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-MedicalImaging/r-image-device/'));
+create foreign table gs_tables_db."TRNG_MedicalImaging_sec_auth_user_patient",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-MedicalImaging/sec-auth-user-patient/'));
+create foreign table gs_tables_db."TRNG_MedicalImaging_sec_patient",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-MedicalImaging/sec-patient/'));
+create foreign table gs_tables_db."TRNG_MedicalImaging_stg_clinical_case",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-MedicalImaging/stg-clinical-case/'));
+create foreign table gs_tables_db."TRNG_MedicalImaging_s_dicom_t",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-MedicalImaging/s-dicom-t/'));
+replace view TRNG_MedicalImaging.d_device as locking row for access select * from  gs_tables_db."TRNG_MedicalImaging_d_device";
+replace view TRNG_MedicalImaging.d_patient as locking row for access select * from  gs_tables_db."TRNG_MedicalImaging_d_patient";
+replace view TRNG_MedicalImaging.k_case as locking row for access select * from  gs_tables_db."TRNG_MedicalImaging_k_case";
+replace view TRNG_MedicalImaging.r_image_device as locking row for access select * from  gs_tables_db."TRNG_MedicalImaging_r_image_device";
+replace view TRNG_MedicalImaging.s_dicom_t as locking row for access select * from  gs_tables_db."TRNG_MedicalImaging_s_dicom_t";
+replace view TRNG_MedicalImaging.sec_auth_user_patient as locking row for access select * from  gs_tables_db."TRNG_MedicalImaging_sec_auth_user_patient";
+replace view TRNG_MedicalImaging.sec_patient as locking row for access select * from  gs_tables_db."TRNG_MedicalImaging_sec_patient";
+replace view TRNG_MedicalImaging.stg_clinical_case as locking row for access select * from  gs_tables_db."TRNG_MedicalImaging_stg_clinical_case";

@@ -1,0 +1,1 @@
+TRNG_RETAILDSE has 19 tables, 7.7 MB. The largest: WEB_COMMENT, PURCHASE, CUSTOMER

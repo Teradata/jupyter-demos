@@ -1,0 +1,1 @@
+TRNG_UX has 3 tables, 0.3 MB. The largest: UXUserDatabase, QUALITY, INSIGHTS_DOVETAIL

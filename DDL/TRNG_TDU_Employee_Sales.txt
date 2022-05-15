@@ -1,0 +1,1 @@
+TRNG_TDU_Employee_Sales has 13 tables, 0.4 MB. The largest: Customer, Location, Location_Phone

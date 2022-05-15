@@ -1,0 +1,1 @@
+TRNG_MedicalImaging has 12 tables, 1.7 MB. The largest: s_dicom_t, r_image_device, k_case

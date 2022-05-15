@@ -1,0 +1,1 @@
+TRNG_IndoorSensor has 2 tables, 0.6 MB. The largest: connectivity, sensor_locations

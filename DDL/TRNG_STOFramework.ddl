@@ -1,0 +1,17 @@
+create database TRNG_STOFramework from demonow as perm=0;
+create foreign table gs_tables_db."TRNG_STOFramework_demo_temp",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-STOFramework/demo-temp/'));
+create foreign table gs_tables_db."TRNG_STOFramework_models_description",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-STOFramework/models-description/'));
+create foreign table gs_tables_db."TRNG_STOFramework_models_metadata_model_TBL",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-STOFramework/models-metadata-model-TBL/'));
+create foreign table gs_tables_db."TRNG_STOFramework_redefinition",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-STOFramework/redefinition/'));
+create foreign table gs_tables_db."TRNG_STOFramework_Results",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-STOFramework/Results/'));
+create foreign table gs_tables_db."TRNG_STOFramework_STO_Output",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-STOFramework/STO-Output/'));
+create foreign table gs_tables_db."TRNG_STOFramework_test_dataset",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-STOFramework/test-dataset/'));
+create foreign table gs_tables_db."TRNG_STOFramework_test_dataset_redistributed",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-STOFramework/test-dataset-redistributed/'));
+replace view TRNG_STOFramework.Results as locking row for access select * from  gs_tables_db."TRNG_STOFramework_Results";
+replace view TRNG_STOFramework.STO_Output as locking row for access select * from  gs_tables_db."TRNG_STOFramework_STO_Output";
+replace view TRNG_STOFramework.demo_temp as locking row for access select * from  gs_tables_db."TRNG_STOFramework_demo_temp";
+replace view TRNG_STOFramework.models_description as locking row for access select * from  gs_tables_db."TRNG_STOFramework_models_description";
+replace view TRNG_STOFramework.models_metadata_model_TBL as locking row for access select * from  gs_tables_db."TRNG_STOFramework_models_metadata_model_TBL";
+replace view TRNG_STOFramework.redefinition as locking row for access select * from  gs_tables_db."TRNG_STOFramework_redefinition";
+replace view TRNG_STOFramework.test_dataset as locking row for access select * from  gs_tables_db."TRNG_STOFramework_test_dataset";
+replace view TRNG_STOFramework.test_dataset_redistributed as locking row for access select * from  gs_tables_db."TRNG_STOFramework_test_dataset_redistributed";

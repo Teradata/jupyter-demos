@@ -1,0 +1,1 @@
+TRNG_MOVIES has 11 tables, 1125.2 MB. The largest: tweets_prep, tweets, tweets_tag_NSFW2

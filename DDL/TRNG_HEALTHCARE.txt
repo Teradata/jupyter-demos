@@ -1,0 +1,1 @@
+TRNG_HEALTHCARE has 82 tables, 948.1 MB. The largest: va_observations_full, va_medications, va_encounters

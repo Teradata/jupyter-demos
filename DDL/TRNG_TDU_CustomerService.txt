@@ -1,0 +1,1 @@
+TRNG_TDU_CustomerService has 21 tables, 0.8 MB. The largest: Accounts, emp_phone_2010, agent_sales

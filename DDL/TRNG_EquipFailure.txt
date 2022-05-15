@@ -1,0 +1,1 @@
+TRNG_EquipFailure has 13 tables, 6.8 MB. The largest: DEMO_EQUIP_TESTING, DEMO_EQUIP_TRAINING_model_pred, DEMO_EQUIP_TRAINING

@@ -1,0 +1,1 @@
+TRNG_DOJTextAnalysis has 13 tables, 20.3 MB. The largest: AMZ_FINE_FOOD_REVIEWS, AMZ_FINE_FOOD_REVIEWS_text_out, AMZ_FINE_FOOD_REVIEWS3_text_ou

@@ -1,0 +1,1 @@
+TRNG_CNPFraud has 33 tables, 17.8 MB. The largest: cc_transactions, accounts, credit_limit

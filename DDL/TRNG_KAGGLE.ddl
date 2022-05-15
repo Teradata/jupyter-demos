@@ -1,0 +1,11 @@
+create database TRNG_KAGGLE from demonow as perm=0;
+create foreign table gs_tables_db."TRNG_KAGGLE_AMZ_FINE_FOOD_REVIEWS",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-KAGGLE/AMZ-FINE-FOOD-REVIEWS/'));
+create foreign table gs_tables_db."TRNG_KAGGLE_AMZ_FINE_FOOD_REVIEWS_text_out",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-KAGGLE/AMZ-FINE-FOOD-REVIEWS-text-out/'));
+create foreign table gs_tables_db."TRNG_KAGGLE_BORDER_CROSSING",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-KAGGLE/BORDER-CROSSING/'));
+create foreign table gs_tables_db."TRNG_KAGGLE_BORDER_CROSSING_SCRATCH",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-KAGGLE/BORDER-CROSSING-SCRATCH/'));
+create foreign table gs_tables_db."TRNG_KAGGLE_super_heroes",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-KAGGLE/super-heroes/'));
+replace view TRNG_KAGGLE.AMZ_FINE_FOOD_REVIEWS as locking row for access select * from  gs_tables_db."TRNG_KAGGLE_AMZ_FINE_FOOD_REVIEWS";
+replace view TRNG_KAGGLE.AMZ_FINE_FOOD_REVIEWS_text_out as locking row for access select * from  gs_tables_db."TRNG_KAGGLE_AMZ_FINE_FOOD_REVIEWS_text_out";
+replace view TRNG_KAGGLE.BORDER_CROSSING as locking row for access select * from  gs_tables_db."TRNG_KAGGLE_BORDER_CROSSING";
+replace view TRNG_KAGGLE.BORDER_CROSSING_SCRATCH as locking row for access select * from  gs_tables_db."TRNG_KAGGLE_BORDER_CROSSING_SCRATCH";
+replace view TRNG_KAGGLE.super_heroes as locking row for access select * from  gs_tables_db."TRNG_KAGGLE_super_heroes";
