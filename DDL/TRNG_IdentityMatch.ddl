@@ -1,5 +1,47 @@
 create database TRNG_IdentityMatch from demonow as perm=0;
-create foreign table gs_tables_db."TRNG_IdentityMatch_AC_CUSTOMER_EXTERNAL_DATA",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-IdentityMatch/AC-CUSTOMER-EXTERNAL-DATA/'));
-create foreign table gs_tables_db."TRNG_IdentityMatch_REF_GOLDEN_CUST",  external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-IdentityMatch/REF-GOLDEN-CUST/'));
-replace view TRNG_IdentityMatch.AC_CUSTOMER_EXTERNAL_DATA as locking row for access select * from  gs_tables_db."TRNG_IdentityMatch_AC_CUSTOMER_EXTERNAL_DATA";
-replace view TRNG_IdentityMatch.REF_GOLDEN_CUST as locking row for access select * from  gs_tables_db."TRNG_IdentityMatch_REF_GOLDEN_CUST";
+create foreign table gs_tables_db."TRNG_IdentityMatch_AC_CUSTOMER_EXTERNAL_DATA", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-IdentityMatch/AC-CUSTOMER-EXTERNAL-DATA/'));
+create foreign table gs_tables_db."TRNG_IdentityMatch_REF_GOLDEN_CUST", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-IdentityMatch/REF-GOLDEN-CUST/'));
+replace view TRNG_IdentityMatch.AC_CUSTOMER_EXTERNAL_DATA as locking row for access select
+"COOKIE"
+,"GNDR_TYPE_CD"
+,"FRST_NAME"
+,"MDL_NAME"
+,"LAST_NAME"
+,"ADDR_SBTYPE_CD"
+,"ADDR_LN_1_TXT"
+,"ADDR_LN_2_TXT"
+,"ADDR_LN_3_TXT"
+,"ADDR_LN_4_TXT"
+,"ST_OR_PROV_CD"
+,"CITY_NAME"
+,"COUNTY"
+,"CTRY_ID"
+,"POSTL_CD"
+,"TLPHN_E164_NUM"
+,"TLPHN_CTRY_CD_NUM"
+,"ELCTRNC_ADDR_TXT"
+,"ELEC_ADDR_SBTYPE_CD"
+,"SOURCE"
+from gs_tables_db.TRNG_IdentityMatch_AC_CUSTOMER_EXTERNAL_DATA;
+replace view TRNG_IdentityMatch.REF_GOLDEN_CUST as locking row for access select
+"CUST_ID"
+,"GNDR_TYPE_CD"
+,"FRST_NAME"
+,"MDL_NAME"
+,"LAST_NAME"
+,"FULL_NAME"
+,"ADDR_SBTYPE_CD"
+,"ADDR_LN_1_TXT"
+,"ADDR_LN_2_TXT"
+,"ADDR_LN_3_TXT"
+,"ADDR_LN_4_TXT"
+,"ST_OR_PROV_CD"
+,"CITY_NAME"
+,"COUNTY"
+,"CTRY_ID"
+,"POSTL_CD"
+,"TLPHN_E164_NUM"
+,"TLPHN_CTRY_CD_NUM"
+,"ELCTRNC_ADDR_TXT"
+,"ELEC_ADDR_SBTYPE_CD"
+from gs_tables_db.TRNG_IdentityMatch_REF_GOLDEN_CUST;

@@ -6,6 +6,10 @@ import data for high performance tactical queries, and work seamlessly with clou
 
 If you haven't used Jupyter before, please check out the notebooks under 'Jupyter Usage'.
 
+<b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Data Dictionary</b>
+<br>All of the demonstrations will cite what database is needed. The Data Dictionary Notebook is an index to all of the databases and provides selections to either run the demonstrations from NOS or import the tables to local Teradata Tables.
+* [Data Dictionary](UseCases/Data_Dictionary/Data_Dictionary.ipynb)
+
 <b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Jupyter Usage</b>
 * [Basic Jupyter Usage](Menus/Basic_Jupyter_Usage.md)
 * [Import/Export Notebooks](Menus/Import/Export_Notebooks.md)
