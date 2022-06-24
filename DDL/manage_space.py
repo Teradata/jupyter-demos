@@ -34,6 +34,7 @@ where	space.databasename in (
 	from	dbc.childrenv 
 	where	parent = 'demonow') 
     and tablename = 'All'
+    and space.databasename <> 'gs_tables_db'
 group by 1, 4, 5 
 union 
 select	' DBC remaining space'
@@ -84,7 +85,7 @@ print ("The total space used by all tables is",f'{int(round(curperm / 1024**2,0)
 print ("The space remaining to allocate from DBC is",f'{int(round(usable,0)):,}', "MB which reserves 1 GB of free space for DBC logging.")
 
 print ('\nIf you would like to delete databases, type the word "drop" followed by the line numbers from the list above you want to delete.')
-print ("if gs_tables_db and demo_user are selected, it will only delete their contents.")
+print ("if demo_user is selected, it will only delete its contents.")
 delete_req = input("Enter your drop request or just press enter: ")
 delete_num = delete_req.split()
 if len(delete_num) == 0:
@@ -121,7 +122,14 @@ for i in delete_num:
             print ("Dropping " + tbl_list[int(i)][0])
             cur.execute("give " + tbl_list[int(i)][0] + " to dbc;")
             cur.execute("drop database " + tbl_list[int(i)][0] +";")
-
+        cur.execute("""select 'drop table gs_tables_db.' || trim(tablename) || ';' (title '') 
+        from dbc.tablesv 
+        where databasename = 'gs_tables_db' and 
+        tablename like '""" + tbl_list[int(i)][0] + "%' order by 1;")
+        drop_list = cur.fetchall()
+        for stmt in drop_list:
+            print ("Executing:", stmt[0])
+            cur.execute(stmt[0])
 after_time = time.time()
 secs = "{:.1f}".format(after_time - before_time) 
 print ("\nDrop processing complete.  That took",secs,"seconds.")
