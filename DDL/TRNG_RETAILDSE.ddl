@@ -81,7 +81,7 @@ replace view TRNG_RETAILDSE.STORE_VISIT as locking row for access select
 ,"ACTION"
 from gs_tables_db.TRNG_RETAILDSE_STORE_VISIT;
 replace view TRNG_RETAILDSE.WEB as locking row for access select
-,"TD_TIMECODE"
+"TD_TIMECODE"
 ,"customer_id"
 ,"SERVER_ID"
 ,"PAGE"
@@ -100,6 +100,6 @@ replace view TRNG_RETAILDSE.WEB_LOG as locking row for access select
 ,"PAGE"
 ,"BROWSE_ID"
 from gs_tables_db.TRNG_RETAILDSE_WEB_LOG;
-replace view TRNG_RETAILDSE.WEB_LOG_JSON_ONLY as locking row for access select
-"WEBLOG"
-from gs_tables_db.TRNG_RETAILDSE_WEB_LOG_JSON_ONLY;
+--replace view TRNG_RETAILDSE.WEB_LOG_JSON_ONLY as locking row for access select
+--"WEBLOG"
+--from gs_tables_db.TRNG_RETAILDSE_WEB_LOG_JSON_ONLY;

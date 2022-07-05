@@ -12,8 +12,8 @@ replace view TRNG_KneeReplacement.knee_replacement as locking row for access sel
 ,"email"
 ,"state"
 from gs_tables_db.TRNG_KneeReplacement_knee_replacement;
-CREATE VIEW knee_replacement_events AS
+replace VIEW TRNG_KneeReplacement.knee_replacement_events AS
 SELECT memberid as entity_id, tstamp AS datestamp, shortdesc as event,
 memberid, proccode, diagcode, shortdesc, amount, tstamp, firstname, lastname, email, state        
-FROM knee_replacement;
+FROM gs_tables_db."TRNG_KneeReplacement_knee_replacement";
 

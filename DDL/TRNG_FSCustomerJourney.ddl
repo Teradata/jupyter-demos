@@ -94,7 +94,7 @@ replace view TRNG_FSCustomerJourney.ich_banking as locking row for access select
 ,"interaction_session_number"
 ,"interaction_timestamp"
 ,"interaction_source"
-,"interaction_type"
+,TRANSLATE (interaction_type using UNICODE_TO_LATIN) as interaction_type
 ,"sales_channel"
 ,"conversion_id"
 ,"product_category"
