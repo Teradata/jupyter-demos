@@ -4,7 +4,7 @@ These demonstrations will walk you through the industry - leading functionality 
 Vantage Analytics. This product can analyze data from cloud storage, ingest data from streaming services,
 import data for high performance tactical queries, and work seamlessly with cloud native analytics.
 
-If you haven't used Jupyter before, please check out the notebooks under 'Jupyter Usage'.
+If you haven't used Jupyter before, please check out the notebooks under 'Jupyter Usage'.  Also check out [Release Notes](ReleaseNotes.md)<br><br>
 <b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Data Dictionary</b>
 <br>All of the demonstrations will cite what database is needed. The Data Dictionary Notebook is an index to 
 all of the databases and provides selections to either run the demonstrations from NOS or import the tables to local Teradata Tables.
