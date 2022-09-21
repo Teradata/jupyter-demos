@@ -1,4 +1,4 @@
-create database TRNG_EquipFailure from demonow as perm=0;
+create database TRNG_EquipFailure from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_EquipFailure_DEMO_EQUIP_TRAINING_stat_output", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-EquipFailure/DEMO-EQUIP-TRAINING-stat-output/'));
 create foreign table gs_tables_db."TRNG_EquipFailure_DEMO_EQUIP_LOGS_text_output", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-EquipFailure/DEMO-EQUIP-LOGS-text-output/'));
 create foreign table gs_tables_db."TRNG_EquipFailure_DEMO_EQUIP_EVENTS", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-EquipFailure/DEMO-EQUIP-EVENTS/'));

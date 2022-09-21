@@ -1,4 +1,4 @@
-create database TRNG_LondonTube from demonow as perm=0;
+create database TRNG_LondonTube from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_LondonTube_TubeStations", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-LondonTube/TubeStations/'));
 create foreign table gs_tables_db."TRNG_LondonTube_TubeLines", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-LondonTube/TubeLines/'));
 create foreign table gs_tables_db."TRNG_LondonTube_stepFree_NN", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-LondonTube/stepFree-NN/'));

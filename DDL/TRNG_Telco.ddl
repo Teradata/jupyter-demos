@@ -1,4 +1,4 @@
-create database TRNG_Telco from demonow as perm=0;
+create database TRNG_Telco from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_Telco_telco_events", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-Telco/telco-events/'));
 create foreign table gs_tables_db."TRNG_Telco_telco_testing", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-Telco/telco-testing/'));
 create foreign table gs_tables_db."TRNG_Telco_telco_training", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-Telco/telco-training/'));

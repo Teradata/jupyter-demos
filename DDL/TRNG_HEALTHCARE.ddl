@@ -1,4 +1,4 @@
-create database TRNG_HEALTHCARE from demonow as perm=0;
+create database TRNG_HEALTHCARE from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_HEALTHCARE_CARRIER_CLAIMS_CUST", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-HEALTHCARE/CARRIER-CLAIMS-CUST/'));
 create foreign table gs_tables_db."TRNG_HEALTHCARE_PRESCRIPTION_DRUG_EVENTS", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-HEALTHCARE/PRESCRIPTION-DRUG-EVENTS/'));
 create foreign table gs_tables_db."TRNG_HEALTHCARE_INPATIENT_CLAIMS", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-HEALTHCARE/INPATIENT-CLAIMS/'));

@@ -1,4 +1,4 @@
-create database TRNG_BYOM from demonow as perm=0;
+create database TRNG_BYOM from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_BYOM_svm_iris_new", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-BYOM/svm-iris-new/'));
 create foreign table gs_tables_db."TRNG_BYOM_h2o_encypt_lic", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-BYOM/h2o-encypt-lic/'));
 create foreign table gs_tables_db."TRNG_BYOM_boston", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-BYOM/boston/'));

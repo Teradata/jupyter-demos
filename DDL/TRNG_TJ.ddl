@@ -1,4 +1,4 @@
-create database TRNG_TJ from demonow as perm=0;
+create database TRNG_TJ from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_TJ_dwh_coveo_events", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TJ/dwh-coveo-events/'));
 create foreign table gs_tables_db."TRNG_TJ_query_traintoken", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TJ/query-traintoken/'));
 create foreign table gs_tables_db."TRNG_TJ_stg_coveo", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TJ/stg-coveo/'));

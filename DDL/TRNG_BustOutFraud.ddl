@@ -1,4 +1,4 @@
-create database TRNG_BustOutFraud from demonow as perm=0;
+create database TRNG_BustOutFraud from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_BustOutFraud_trans_feature_month_derived", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-BustOutFraud/trans-feature-month-derived/'));
 create foreign table gs_tables_db."TRNG_BustOutFraud_acct_statement", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-BustOutFraud/acct-statement/'));
 create foreign table gs_tables_db."TRNG_BustOutFraud_party", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-BustOutFraud/party/'));

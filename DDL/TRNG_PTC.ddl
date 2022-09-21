@@ -1,4 +1,4 @@
-create database TRNG_PTC from demonow as perm=0;
+create database TRNG_PTC from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_PTC_edr_er_log_up_8335_08042020", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-PTC/edr-er-log-up-8335-08042020/'));
 create foreign table gs_tables_db."TRNG_PTC_edr_er_log_8437_0806_08072020", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-PTC/edr-er-log-8437-0806-08072020/'));
 create foreign table gs_tables_db."TRNG_PTC_ER_Data_for_Locos", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-PTC/ER-Data-for-Locos/'));

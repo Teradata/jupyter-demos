@@ -1,4 +1,4 @@
-create database TRNG_DataScienceExploration from demonow as perm=0;
+create database TRNG_DataScienceExploration from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_DataScienceExploration_TITANIC_TRAIN", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-DataScienceExploration/TITANIC-TRAIN/'));
 create foreign table gs_tables_db."TRNG_DataScienceExploration_MOVIE_LENS_MOVIES", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-DataScienceExploration/MOVIE-LENS-MOVIES/'));
 create foreign table gs_tables_db."TRNG_DataScienceExploration_TITANIC_TEST", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-DataScienceExploration/TITANIC-TEST/'));

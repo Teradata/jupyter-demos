@@ -1,4 +1,4 @@
-create database TRNG_CNPFraud from demonow as perm=0;
+create database TRNG_CNPFraud from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_CNPFraud_merchant", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-CNPFraud/merchant/'));
 create foreign table gs_tables_db."TRNG_CNPFraud_fraud_type", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-CNPFraud/fraud-type/'));
 create foreign table gs_tables_db."TRNG_CNPFraud_accounts", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-CNPFraud/accounts/'));

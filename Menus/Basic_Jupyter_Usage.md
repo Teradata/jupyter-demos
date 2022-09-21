@@ -6,7 +6,7 @@
 * [Getting Started with Jupyter Notebook and Python Pandas](../UseCases/GettingStarted_Jupyter_Pandas/GettingStarted_Jupyter_Pandas.ipynb)
 <br>Jupyter notebook is by far the most common modern user interface for analysts, data scientists, and developers.  Python Pandas is one of the most popular data management libraries in the open source ecosystem.  This notebook provides step-by-step instruction on the basics of Jupyter notebook and Python Pandas</br>
  
-* [Basics of the Teradataml Python Package - Vantage LIVE Overview](../UseCases/Python_Teradataml_Basics/Python_Teradataml_Basics.ipynb)
+* [Basics of the Teradataml Python Package](../UseCases/Python_Teradataml_Basics/Python_Teradataml_Basics.ipynb)
 <br>This reviews the basic capabilities of the teradataml package for Vantage: 
 1. Connecting to Vantage 
 2. Teratada DataFrames 

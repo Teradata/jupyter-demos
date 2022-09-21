@@ -1,4 +1,4 @@
-create database TRNG_Covid360 from demonow as perm=0;
+create database TRNG_Covid360 from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_Covid360_SEM_H_SITE", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-Covid360/SEM-H-SITE/'));
 create foreign table gs_tables_db."TRNG_Covid360_ADS_age_factor", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-Covid360/ADS-age-factor/'));
 create foreign table gs_tables_db."TRNG_Covid360_SEM_R_PERSON_RISK_CALCULATION_FACTOR", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-Covid360/SEM-R-PERSON-RISK-CALCULATION-FACTOR/'));

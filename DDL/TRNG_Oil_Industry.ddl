@@ -1,4 +1,4 @@
-create database TRNG_Oil_Industry from demonow as perm=0;
+create database TRNG_Oil_Industry from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_Oil_Industry_test1", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-Oil-Industry/test1/'));
 create foreign table gs_tables_db."TRNG_Oil_Industry_SRFC_SENSOR_RIG_STATES", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-Oil-Industry/SRFC-SENSOR-RIG-STATES/'));
 create foreign table gs_tables_db."TRNG_Oil_Industry_ac_monthly", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-Oil-Industry/ac-monthly/'));

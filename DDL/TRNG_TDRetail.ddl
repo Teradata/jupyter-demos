@@ -1,4 +1,4 @@
-create database TRNG_TDRetail from demonow as perm=0;
+create database TRNG_TDRetail from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_TDRetail_BRAND", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TDRetail/BRAND/'));
 create foreign table gs_tables_db."TRNG_TDRetail_SALES_TRANSACTION", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TDRetail/SALES-TRANSACTION/'));
 create foreign table gs_tables_db."TRNG_TDRetail_LLOYDS_LM_Logistic_MDL_txt", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TDRetail/LLOYDS-LM-Logistic-MDL-txt/'));

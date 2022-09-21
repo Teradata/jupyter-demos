@@ -1,4 +1,4 @@
-create database TRNG_TeradataSocial from demonow as perm=0;
+create database TRNG_TeradataSocial from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_TeradataSocial_Events", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TeradataSocial/Events/'));
 create foreign table gs_tables_db."TRNG_TeradataSocial_Events_stg", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TeradataSocial/Events-stg/'));
 create foreign table gs_tables_db."TRNG_TeradataSocial_Sprinklr", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TeradataSocial/Sprinklr/'));

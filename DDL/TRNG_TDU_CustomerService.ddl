@@ -1,4 +1,4 @@
-create database TRNG_TDU_CustomerService from demonow as perm=0;
+create database TRNG_TDU_CustomerService from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_TDU_CustomerService_agent_sales", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TDU-CustomerService/agent-sales/'));
 create foreign table gs_tables_db."TRNG_TDU_CustomerService_employee_phone", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TDU-CustomerService/employee-phone/'));
 create foreign table gs_tables_db."TRNG_TDU_CustomerService_location_employee", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TDU-CustomerService/location-employee/'));

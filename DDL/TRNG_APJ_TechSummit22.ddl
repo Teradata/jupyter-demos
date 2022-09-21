@@ -1,4 +1,4 @@
-create database TRNG_APJ_TechSummit22 from demonow as perm=0;
+create database TRNG_APJ_TechSummit22 from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_APJ_TechSummit22_MEDIQAN_MEDI_CAMP_REGISTRATION", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-APJ-TechSummit22/MEDIQAN-MEDI-CAMP-REGISTRATION/'));
 create foreign table gs_tables_db."TRNG_APJ_TechSummit22_MEDIQAN_CAMP_DETAILS", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-APJ-TechSummit22/MEDIQAN-CAMP-DETAILS/'));
 create foreign table gs_tables_db."TRNG_APJ_TechSummit22_MEDIQAN_MEDI_CAMP_ATTENDANCE_DETAILS", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-APJ-TechSummit22/MEDIQAN-MEDI-CAMP-ATTENDANCE-DETAILS/'));

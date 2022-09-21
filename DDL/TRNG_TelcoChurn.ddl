@@ -1,4 +1,4 @@
-create database TRNG_TelcoChurn from demonow as perm=0;
+create database TRNG_TelcoChurn from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_TelcoChurn_MobilePayEvents", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TelcoChurn/MobilePayEvents/'));
 create foreign table gs_tables_db."TRNG_TelcoChurn_csi_telco_churn_predict_svm", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TelcoChurn/csi-telco-churn-predict-svm/'));
 create foreign table gs_tables_db."TRNG_TelcoChurn_csi_telco_links", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TelcoChurn/csi-telco-links/'));

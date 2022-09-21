@@ -1,4 +1,4 @@
-create database TRNG_Government from demonow as perm=0;
+create database TRNG_Government from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_Government_pam_problem_trucks_data", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-Government/pam-problem-trucks-data/'));
 create foreign table gs_tables_db."TRNG_Government_COVID19_RAWMOD", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-Government/COVID19-RAWMOD/'));
 create foreign table gs_tables_db."TRNG_Government_pam_maintenance_depots", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-Government/pam-maintenance-depots/'));

@@ -5,9 +5,9 @@ Vantage Analytics. This product can analyze data from cloud storage, ingest data
 import data for high performance tactical queries, and work seamlessly with cloud native analytics.
 
 If you haven't used Jupyter before, please check out the notebooks under 'Jupyter Usage'.
-
 <b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Data Dictionary</b>
-<br>All of the demonstrations will cite what database is needed. The Data Dictionary Notebook is an index to all of the databases and provides selections to either run the demonstrations from NOS or import the tables to local Teradata Tables.
+<br>All of the demonstrations will cite what database is needed. The Data Dictionary Notebook is an index to 
+all of the databases and provides selections to either run the demonstrations from NOS or import the tables to local Teradata Tables.
 * [Data Dictionary](UseCases/Data_Dictionary/Data_Dictionary.ipynb)
 
 <b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Jupyter Usage</b>
@@ -22,6 +22,8 @@ If you haven't used Jupyter before, please check out the notebooks under 'Jupyte
 * [Government](Menus/Government.md)
 * [Healthcare](Menus/Healthcare.md)
 * [Manufacturing](Menus/Manufacturing.md)
+* [Retail](Menus/Retail.md)
+* [Travel & Transportation](Menus/Travel_&_Transportation.md)
 
 <b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Vantage Functions</b>
 * [Analytic Function](Menus/Analytic_Function.md)
@@ -36,5 +38,5 @@ If you haven't used Jupyter before, please check out the notebooks under 'Jupyte
 * [Secure Zones](Menus/Secure_Zones.md)
 * [TimeSeries](Menus/TimeSeries.md)
 * [Temporal](Menus/Temporal.md)
-
+ 
 Copyright © 2022 Teradata Corporation

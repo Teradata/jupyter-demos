@@ -1,4 +1,4 @@
-create database TRNG_MOVIES from demonow as perm=0;
+create database TRNG_MOVIES from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_MOVIES_tweets_prep", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-MOVIES/tweets-prep/'));
 create foreign table gs_tables_db."TRNG_MOVIES_gniptweets", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-MOVIES/gniptweets/'));
 create foreign table gs_tables_db."TRNG_MOVIES_tweets_tag_NSFW2", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-MOVIES/tweets-tag-NSFW2/'));

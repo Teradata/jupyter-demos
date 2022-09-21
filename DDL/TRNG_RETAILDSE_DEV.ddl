@@ -1,4 +1,4 @@
-create database TRNG_RETAILDSE_DEV from demonow as perm=0;
+create database TRNG_RETAILDSE_DEV from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_RETAILDSE_DEV_CUST_STORE_EVENTS", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-RETAILDSE-DEV/CUST-STORE-EVENTS/'));
 create foreign table gs_tables_db."TRNG_RETAILDSE_DEV_TwmExploreValues", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-RETAILDSE-DEV/TwmExploreValues/'));
 create foreign table gs_tables_db."TRNG_RETAILDSE_DEV_ASSOC_10PURCHASES", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-RETAILDSE-DEV/ASSOC-10PURCHASES/'));

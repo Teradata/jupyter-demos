@@ -1,4 +1,4 @@
-create database TRNG_MedicalImaging from demonow as perm=0;
+create database TRNG_MedicalImaging from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_MedicalImaging_sec_patient", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-MedicalImaging/sec-patient/'));
 create foreign table gs_tables_db."TRNG_MedicalImaging_r_image_device", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-MedicalImaging/r-image-device/'));
 create foreign table gs_tables_db."TRNG_MedicalImaging_d_device", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-MedicalImaging/d-device/'));

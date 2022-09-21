@@ -1,4 +1,4 @@
-create database TRNG_TelcoNetwork from demonow as perm=0;
+create database TRNG_TelcoNetwork from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_TelcoNetwork_peak_customers_in_economic_zone", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TelcoNetwork/peak-customers-in-economic-zone/'));
 create foreign table gs_tables_db."TRNG_TelcoNetwork_peak_smartphone_app_usage", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TelcoNetwork/peak-smartphone-app-usage/'));
 create foreign table gs_tables_db."TRNG_TelcoNetwork_max_customers_cellsite_connreqs", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TelcoNetwork/max-customers-cellsite-connreqs/'));

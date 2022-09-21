@@ -1,4 +1,4 @@
-create database TRNG_RETAILDSE from demonow as perm=0;
+create database TRNG_RETAILDSE from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_RETAILDSE_ATTRIBUTION_MODEL_LAST_CLICK", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-RETAILDSE/ATTRIBUTION-MODEL-LAST-CLICK/'));
 create foreign table gs_tables_db."TRNG_RETAILDSE_WEB_LOG_JSON_ONLY", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-RETAILDSE/WEB-LOG-JSON-ONLY/'));
 create foreign table gs_tables_db."TRNG_RETAILDSE_STORE_VISIT", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-RETAILDSE/STORE-VISIT/'));
@@ -94,7 +94,7 @@ replace view TRNG_RETAILDSE.WEB_COMMENT as locking row for access select
 ,"comment_summary"
 from gs_tables_db.TRNG_RETAILDSE_WEB_COMMENT;
 replace view TRNG_RETAILDSE.WEB_LOG as locking row for access select
-,"TD_TIMECODE"
+"TD_TIMECODE"
 ,"CUSTOMER_ID"
 ,"SERVER_ID"
 ,"PAGE"

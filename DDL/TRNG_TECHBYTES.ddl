@@ -1,4 +1,4 @@
-create database TRNG_TECHBYTES from demonow as perm=0;
+create database TRNG_TECHBYTES from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_TECHBYTES_Acct_Ind", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TECHBYTES/Acct-Ind/'));
 create foreign table gs_tables_db."TRNG_TECHBYTES_Customer", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TECHBYTES/Customer/'));
 create foreign table gs_tables_db."TRNG_TECHBYTES_Cust_Ind", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TECHBYTES/Cust-Ind/'));

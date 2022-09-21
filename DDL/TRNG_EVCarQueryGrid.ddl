@@ -1,4 +1,4 @@
-create database TRNG_EVCarQueryGrid from demonow as perm=0;
+create database TRNG_EVCarQueryGrid from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_EVCarQueryGrid_dtc", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-EVCarQueryGrid/dtc/'));
 create foreign table gs_tables_db."TRNG_EVCarQueryGrid_vehicles", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-EVCarQueryGrid/vehicles/'));
 create foreign table gs_tables_db."TRNG_EVCarQueryGrid_bom", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-EVCarQueryGrid/bom/'));

@@ -1,4 +1,4 @@
-create database TRNG_DS from demonow as perm=0;
+create database TRNG_DS from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_DS_Orders_2021", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-DS/Orders-2021/'));
 create foreign table gs_tables_db."TRNG_DS_Orders", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-DS/Orders/'));
 create foreign table gs_tables_db."TRNG_DS_Orders_1600", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-DS/Orders-1600/'));

@@ -1,4 +1,4 @@
-create database TRNG_XSP from demonow as perm=0;
+create database TRNG_XSP from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_XSP_TWMS_T", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-XSP/TWMS-T/'));
 create foreign table gs_tables_db."TRNG_XSP_TWMS_Normal", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-XSP/TWMS-Normal/'));
 create foreign table gs_tables_db."TRNG_XSP_twm_transactions", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-XSP/twm-transactions/'));

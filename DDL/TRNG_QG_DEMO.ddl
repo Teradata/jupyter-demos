@@ -1,4 +1,4 @@
-create database TRNG_QG_DEMO from demonow as perm=0;
+create database TRNG_QG_DEMO from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_QG_DEMO_customer", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-QG-DEMO/customer/'));
 create foreign table gs_tables_db."TRNG_QG_DEMO_macheye_customer_accounts", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-QG-DEMO/macheye-customer-accounts/'));
 create foreign table gs_tables_db."TRNG_QG_DEMO_macheye_customer", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-QG-DEMO/macheye-customer/'));

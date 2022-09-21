@@ -1,4 +1,4 @@
-create database TRNG_SQLE_TEST from demonow as perm=0;
+create database TRNG_SQLE_TEST from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_SQLE_TEST_sls_visit_web_full", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-SQLE-TEST/sls-visit-web-full/'));
 create foreign table gs_tables_db."TRNG_SQLE_TEST_wine_attribute_test", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-SQLE-TEST/wine-attribute-test/'));
 create foreign table gs_tables_db."TRNG_SQLE_TEST_LINE_ITEM_JUICE", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-SQLE-TEST/LINE-ITEM-JUICE/'));

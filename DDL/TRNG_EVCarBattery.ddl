@@ -1,4 +1,4 @@
-create database TRNG_EVCarBattery from demonow as perm=0;
+create database TRNG_EVCarBattery from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_EVCarBattery_dealers", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-EVCarBattery/dealers/'));
 create foreign table gs_tables_db."TRNG_EVCarBattery_customers", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-EVCarBattery/customers/'));
 create foreign table gs_tables_db."TRNG_EVCarBattery_badbatts", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-EVCarBattery/badbatts/'));

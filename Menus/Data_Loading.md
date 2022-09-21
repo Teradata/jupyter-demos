@@ -1,6 +1,6 @@
 <b style = 'font-size:28px;font-family:Arial;color:#E37C4D'>Data Loading Demonstrations</b>
  
-* [Data Prep and Transformation at Scale with Python and Vantage - Vantage LIVE Overview](../UseCases/DataPrepAndDiscovery/DataPrepAndDiscovery.ipynb)
+* [Data Prep and Transformation at Scale with Python and Vantage](../UseCases/DataPrepAndDiscovery/DataPrepAndDiscovery.ipynb)
 <br>Lengthy notebook that reviews data management, data discovery, and basic transformations as part of the analytics lifecycle, using teradataml and python pandas data.  Demo uses fake Financial Transaction and customer data.
 
 Use cases include: 

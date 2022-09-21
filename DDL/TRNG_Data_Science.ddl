@@ -1,4 +1,4 @@
-create database TRNG_Data_Science from demonow as perm=0;
+create database TRNG_Data_Science from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_Data_Science_species", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-Data-Science/species/'));
 create foreign table gs_tables_db."TRNG_Data_Science_plots", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-Data-Science/plots/'));
 create foreign table gs_tables_db."TRNG_Data_Science_surveys", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-Data-Science/surveys/'));

@@ -1,4 +1,4 @@
-create database TRNG_AustinBikeShare from demonow as perm=0;
+create database TRNG_AustinBikeShare from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_AustinBikeShare_trips", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-AustinBikeShare/trips/'));
 create foreign table gs_tables_db."TRNG_AustinBikeShare_Weather", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-AustinBikeShare/Weather/'));
 replace view TRNG_AustinBikeShare.trips as locking row for access select

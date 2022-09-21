@@ -1,4 +1,4 @@
-create database TRNG_ColoradoCrimeDrug from demonow as perm=0;
+create database TRNG_ColoradoCrimeDrug from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_ColoradoCrimeDrug_MARIJUANA_SALES_REVENUE", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-ColoradoCrimeDrug/MARIJUANA-SALES-REVENUE/'));
 create foreign table gs_tables_db."TRNG_ColoradoCrimeDrug_EMPLOYMENT", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-ColoradoCrimeDrug/EMPLOYMENT/'));
 create foreign table gs_tables_db."TRNG_ColoradoCrimeDrug_DUI_ARREST", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-ColoradoCrimeDrug/DUI-ARREST/'));

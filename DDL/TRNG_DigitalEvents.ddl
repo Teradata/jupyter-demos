@@ -1,4 +1,4 @@
-create database TRNG_DigitalEvents from demonow as perm=0;
+create database TRNG_DigitalEvents from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_DigitalEvents_Mobile_Money_Txns", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-DigitalEvents/Mobile-Money-Txns/'));
 create foreign table gs_tables_db."TRNG_DigitalEvents_Digital_Retail_Events", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-DigitalEvents/Digital-Retail-Events/'));
 create foreign table gs_tables_db."TRNG_DigitalEvents_cashapp_accts_to_customers", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-DigitalEvents/cashapp-accts-to-customers/'));

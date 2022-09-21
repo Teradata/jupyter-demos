@@ -1,4 +1,4 @@
-create database TRNG_AOpsEquipmentFailure from demonow as perm=0;
+create database TRNG_AOpsEquipmentFailure from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_AOpsEquipmentFailure_stryker_gen_part_fails", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-AOpsEquipmentFailure/stryker-gen-part-fails/'));
 create foreign table gs_tables_db."TRNG_AOpsEquipmentFailure_stryker_gen_miles", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-AOpsEquipmentFailure/stryker-gen-miles/'));
 create foreign table gs_tables_db."TRNG_AOpsEquipmentFailure_WblMLE_Work", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-AOpsEquipmentFailure/WblMLE-Work/'));

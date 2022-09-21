@@ -1,4 +1,4 @@
-create database TRNG_DOJTextAnalysis from demonow as perm=0;
+create database TRNG_DOJTextAnalysis from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_DOJTextAnalysis_moisturizer_reviews_text_output", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-DOJTextAnalysis/moisturizer-reviews-text-output/'));
 create foreign table gs_tables_db."TRNG_DOJTextAnalysis_enron_email", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-DOJTextAnalysis/enron-email/'));
 create foreign table gs_tables_db."TRNG_DOJTextAnalysis_moisturizer_sentiment", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-DOJTextAnalysis/moisturizer-sentiment/'));

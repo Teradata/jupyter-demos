@@ -1,4 +1,4 @@
-create database TRNG_RefineryOptimizer from demonow as perm=0;
+create database TRNG_RefineryOptimizer from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_RefineryOptimizer_DB250092_RO_SAFETY", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-RefineryOptimizer/DB250092-RO-SAFETY/'));
 create foreign table gs_tables_db."TRNG_RefineryOptimizer_DB250092_RO_BLEND", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-RefineryOptimizer/DB250092-RO-BLEND/'));
 create foreign table gs_tables_db."TRNG_RefineryOptimizer_DB250092_RO_OPTTHRUPUT_WEIGHTS", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-RefineryOptimizer/DB250092-RO-OPTTHRUPUT-WEIGHTS/'));

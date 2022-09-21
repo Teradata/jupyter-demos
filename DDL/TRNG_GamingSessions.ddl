@@ -1,4 +1,4 @@
-create database TRNG_GamingSessions from demonow as perm=0;
+create database TRNG_GamingSessions from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_GamingSessions_gaming_events", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-GamingSessions/gaming-events/'));
 create foreign table gs_tables_db."TRNG_GamingSessions_gaming_events_sessions_similarities", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-GamingSessions/gaming-events-sessions-similarities/'));
 create foreign table gs_tables_db."TRNG_GamingSessions_gaming_events_sessions", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-GamingSessions/gaming-events-sessions/'));

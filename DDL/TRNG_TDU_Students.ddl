@@ -1,4 +1,4 @@
-create database TRNG_TDU_Students from demonow as perm=0;
+create database TRNG_TDU_Students from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_TDU_Students_State", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TDU-Students/State/'));
 create foreign table gs_tables_db."TRNG_TDU_Students_City", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TDU-Students/City/'));
 create foreign table gs_tables_db."TRNG_TDU_Students_Orders", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TDU-Students/Orders/'));

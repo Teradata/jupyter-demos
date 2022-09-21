@@ -1,4 +1,4 @@
-create database TRNG_PD from demonow as perm=0;
+create database TRNG_PD from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_PD_River_Buoy_NonPTI", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-PD/River-Buoy-NonPTI/'));
 create foreign table gs_tables_db."TRNG_PD_Region_C", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-PD/Region-C/'));
 create foreign table gs_tables_db."TRNG_PD_Job", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-PD/Job/'));

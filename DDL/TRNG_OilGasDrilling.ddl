@@ -1,4 +1,4 @@
-create database TRNG_OilGasDrilling from demonow as perm=0;
+create database TRNG_OilGasDrilling from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_OilGasDrilling_DDaaS_Survey_Logs_Stand_Test", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-OilGasDrilling/DDaaS-Survey-Logs-Stand-Test/'));
 create foreign table gs_tables_db."TRNG_OilGasDrilling_Well_Bores_TPL", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-OilGasDrilling/Well-Bores-TPL/'));
 create foreign table gs_tables_db."TRNG_OilGasDrilling_Rig_State_Drilling_Stat", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-OilGasDrilling/Rig-State-Drilling-Stat/'));

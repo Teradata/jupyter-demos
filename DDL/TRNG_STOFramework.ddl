@@ -1,4 +1,4 @@
-create database TRNG_STOFramework from demonow as perm=0;
+create database TRNG_STOFramework from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_STOFramework_STO_Output", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-STOFramework/STO-Output/'));
 create foreign table gs_tables_db."TRNG_STOFramework_test_dataset_redistributed", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-STOFramework/test-dataset-redistributed/'));
 create foreign table gs_tables_db."TRNG_STOFramework_redefinition", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-STOFramework/redefinition/'));

@@ -1,4 +1,4 @@
-create database TRNG_CONNECTEDFACTORY from demonow as perm=0;
+create database TRNG_CONNECTEDFACTORY from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_CONNECTEDFACTORY_MVP_TAB_TIME_INFO_QM2_SM", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-CONNECTEDFACTORY/MVP-TAB-TIME-INFO-QM2-SM/'));
 create foreign table gs_tables_db."TRNG_CONNECTEDFACTORY_MVP_ML_QM2_Part_C1_Scored_Data", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-CONNECTEDFACTORY/MVP-ML-QM2-Part-C1-Scored-Data/'));
 create foreign table gs_tables_db."TRNG_CONNECTEDFACTORY_MVP_ML_QM3_Part_B1_Scored_Data", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-CONNECTEDFACTORY/MVP-ML-QM3-Part-B1-Scored-Data/'));

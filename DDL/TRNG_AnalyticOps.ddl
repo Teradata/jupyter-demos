@@ -1,4 +1,4 @@
-create database TRNG_AnalyticOps from demonow as perm=0;
+create database TRNG_AnalyticOps from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_AnalyticOps_PIMA_EVALUATION_METRICS", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-AnalyticOps/PIMA-EVALUATION-METRICS/'));
 create foreign table gs_tables_db."TRNG_AnalyticOps_PIMA_PREDICTIONS", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-AnalyticOps/PIMA-PREDICTIONS/'));
 create foreign table gs_tables_db."TRNG_AnalyticOps_pandas_iris", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-AnalyticOps/pandas-iris/'));

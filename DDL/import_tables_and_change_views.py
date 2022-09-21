@@ -51,7 +51,7 @@ if cur.rowcount == 0 :
 
     try:
         cur.execute ("create database " + dbname + " from dbc as perm=" + dbname_size + "*1024**2;")
-        cur.execute ("give " + dbname + " to demonow;")
+        cur.execute ("give " + dbname + " to demo_user;")
         cur.execute ("grant all on " + dbname + " to public with grant option;")
     except Exception as err:
         print("\n\nERROR creating database", dbname, err)
@@ -70,7 +70,7 @@ if cur.rowcount == 0 :
         cur.execute ("select trim(columnname) from dbc.columnsv where databasename = 'gs_tables_db' and tablename = '" + nos_tbl + "' and columnname <> 'location' order by columnid;")
         list = cur.fetchall()
         col_list = ','.join([str(elem) for elem in list])
-        col_list = col_list.replace("[","").replace("]","").replace("'","")
+        col_list = col_list.replace('[','"').replace(']','"').replace("'","")
         insert_sql = "INSERT into " + dbname + "." + tblname + " select " + col_list + " from gs_tables_db." + nos_tbl + ";"
         print ("Executing: ", insert_sql)
         before_time = time.time()

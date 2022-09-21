@@ -1,1 +1,1 @@
-create database TRNG_GTPredictiveMaintenanceDe from demonow as perm=0;
+create database TRNG_GTPredictiveMaintenanceDe from Demo_User as perm=0;

@@ -1,4 +1,4 @@
-create database TRNG_TAU2018 from demonow as perm=0;
+create database TRNG_TAU2018 from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_TAU2018_partners2016", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TAU2018/partners2016/'));
 create foreign table gs_tables_db."TRNG_TAU2018_partners2014", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TAU2018/partners2014/'));
 create foreign table gs_tables_db."TRNG_TAU2018_tau_submission", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TAU2018/tau-submission/'));

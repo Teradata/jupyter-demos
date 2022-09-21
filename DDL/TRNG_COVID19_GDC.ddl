@@ -1,4 +1,4 @@
-create database TRNG_COVID19_GDC from demonow as perm=0;
+create database TRNG_COVID19_GDC from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_COVID19_GDC_csse_time_series_clean", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-COVID19-GDC/csse-time-series-clean/'));
 create foreign table gs_tables_db."TRNG_COVID19_GDC_SIR_Predictions", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-COVID19-GDC/SIR-Predictions/'));
 create foreign table gs_tables_db."TRNG_COVID19_GDC_classifier_feature_importances", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-COVID19-GDC/classifier-feature-importances/'));

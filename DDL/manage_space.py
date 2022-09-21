@@ -82,7 +82,6 @@ remaining = dbc_max - dbc_cur
 usable = remaining -1000
 print ("\nThis platform has a total of",f'{int(round(maxperm / 1024**2,0)):,}',"MB.", f'{int(round(maxperm / 1024**2 - dbc_max,0)):,}', " MB has been allocated to databases.")
 print ("The total space used by all tables is",f'{int(round(curperm / 1024**2,0)):,}', "MB which is",f'{int(round(100 * curperm / maxperm,0)):,}',"% of Max Perm. Ideal for this machine is < 80%")
-print ("The space remaining to allocate from DBC is",f'{int(round(usable,0)):,}', "MB which reserves 1 GB of free space for DBC logging.")
 
 print ('\nIf you would like to delete databases, type the word "drop" followed by the line numbers from the list above you want to delete.')
 print ("if demo_user is selected, it will only delete its contents.")
@@ -120,7 +119,6 @@ for i in delete_num:
         cur.execute("delete database " + tbl_list[int(i)][0] +";")
         if tbl_list[int(i)][0] != 'gs_tables_db' and tbl_list[int(i)][0] != 'demo_user':
             print ("Dropping " + tbl_list[int(i)][0])
-            cur.execute("give " + tbl_list[int(i)][0] + " to dbc;")
             cur.execute("drop database " + tbl_list[int(i)][0] +";")
         cur.execute("""select 'drop table gs_tables_db.' || trim(tablename) || ';' (title '') 
         from dbc.tablesv 

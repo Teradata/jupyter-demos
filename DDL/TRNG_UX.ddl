@@ -1,4 +1,4 @@
-create database TRNG_UX from demonow as perm=0;
+create database TRNG_UX from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_UX_UXUserDatabase", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-UX/UXUserDatabase/'));
 create foreign table gs_tables_db."TRNG_UX_QUALITY", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-UX/QUALITY/'));
 replace view TRNG_UX.QUALITY as locking row for access select

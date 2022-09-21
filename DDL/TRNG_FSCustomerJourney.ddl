@@ -1,4 +1,4 @@
-create database TRNG_FSCustomerJourney from demonow as perm=0;
+create database TRNG_FSCustomerJourney from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_FSCustomerJourney_churn_predict_pivot", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-FSCustomerJourney/churn-predict-pivot/'));
 create foreign table gs_tables_db."TRNG_FSCustomerJourney_churn_predict_pivot_final", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-FSCustomerJourney/churn-predict-pivot-final/'));
 create foreign table gs_tables_db."TRNG_FSCustomerJourney_ich_banking_unknown_token", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-FSCustomerJourney/ich-banking-unknown-token/'));

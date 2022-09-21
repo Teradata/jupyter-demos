@@ -1,4 +1,4 @@
-create database TRNG_COVID19 from demonow as perm=0;
+create database TRNG_COVID19 from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_COVID19_STG_Hospitalization_Estimates_05_29_2020", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-COVID19/STG-Hospitalization-Estimates-05-29-2020/'));
 create foreign table gs_tables_db."TRNG_COVID19_zzz_tweettext", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-COVID19/zzz-tweettext/'));
 create foreign table gs_tables_db."TRNG_COVID19_FACT_INDICATOR_DASHBOARD_T_to_delete", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-COVID19/FACT-INDICATOR-DASHBOARD-T-to-delete/'));

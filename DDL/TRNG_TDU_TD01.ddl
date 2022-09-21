@@ -1,4 +1,4 @@
-create database TRNG_TDU_TD01 from demonow as perm=0;
+create database TRNG_TDU_TD01 from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_TDU_TD01_json_parser_data_2", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TDU-TD01/json-parser-data-2/'));
 create foreign table gs_tables_db."TRNG_TDU_TD01_computers_test1", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TDU-TD01/computers-test1/'));
 create foreign table gs_tables_db."TRNG_TDU_TD01_iris_unk", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TDU-TD01/iris-unk/'));

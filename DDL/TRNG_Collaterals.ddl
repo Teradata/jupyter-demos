@@ -1,4 +1,4 @@
-create database TRNG_Collaterals from demonow as perm=0;
+create database TRNG_Collaterals from Demo_User as perm=0;
 
 REPLACE MACRO TRNG_Collaterals.Query_Flow AS (SELECT * FROM TRNG_Collaterals.TF_Materials WHERE DocNum = 1;);
 

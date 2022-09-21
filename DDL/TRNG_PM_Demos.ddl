@@ -1,1 +1,1 @@
-create database TRNG_PM_Demos from demonow as perm=0;
+create database TRNG_PM_Demos from Demo_User as perm=0;

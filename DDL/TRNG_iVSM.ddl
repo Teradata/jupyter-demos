@@ -1,4 +1,4 @@
-create database TRNG_iVSM from demonow as perm=0;
+create database TRNG_iVSM from Demo_User as perm=0;
 create foreign table gs_tables_db."TRNG_iVSM_redefinition", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-iVSM/redefinition/'));
 create foreign table gs_tables_db."TRNG_iVSM_ivsm_fail_log_20200616", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-iVSM/ivsm-fail-log-20200616/'));
 create foreign table gs_tables_db."TRNG_iVSM_iris_to_score", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-iVSM/iris-to-score/'));
