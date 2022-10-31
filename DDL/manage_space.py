@@ -26,13 +26,13 @@ from	dbc.allspacev space left join
 	(select databasename, 
 	sum(case when tablekind in ('T', 'O') then 1 else 0 end) TableCount,
 	sum(case when tablekind in ('V') then 1 else 0 end) ViewCount
-	from dbc.tablesv where databasename in (select child from dbc.childrenv where parent = 'demonow')
+	from dbc.tablesv where databasename in (select child from dbc.childrenv where parent = 'demo_user')
 	group by 1 ) object_cnt
 on space.databasename = object_cnt.databasename
 where	space.databasename in (
 	select	child 
 	from	dbc.childrenv 
-	where	parent = 'demonow') 
+	where	parent = 'demo_user') 
     and tablename = 'All'
     and space.databasename <> 'gs_tables_db'
 group by 1, 4, 5 
