@@ -1,0 +1,1 @@
+TRNG_InsuranceClaims has 4 tables, 0.6 MB. The largest: 
