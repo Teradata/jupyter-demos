@@ -65,13 +65,13 @@ if cur.rowcount == 0 :
         nos_tbl = nos_tbl.replace(" ","")
         tblname = nos_tbl.replace(dbname_view + "_","")
         print ("creating:" , tblname, " from:", nos_tbl, "  table", tcount, " of ", len(tbl_list))
-        cur.execute ("create table " + dbname + "." + tblname + " as (select * from gs_tables_db." + nos_tbl + ") with no data no primary index partition by column;")
-        cur.execute ("alter table " + dbname + "." + tblname + " drop location;")
+        cur.execute ('create table "' + dbname + '"."' + tblname + '" as (select * from gs_tables_db.' + nos_tbl + ") with no data no primary index partition by column;")
+        cur.execute ('alter table "' + dbname + '"."' + tblname + '" drop location;')
         cur.execute ("select trim(columnname) from dbc.columnsv where databasename = 'gs_tables_db' and tablename = '" + nos_tbl + "' and columnname <> 'location' order by columnid;")
         list = cur.fetchall()
         col_list = ','.join([str(elem) for elem in list])
         col_list = col_list.replace('[','"').replace(']','"').replace("'","")
-        insert_sql = "INSERT into " + dbname + "." + tblname + " select " + col_list + " from gs_tables_db." + nos_tbl + ";"
+        insert_sql = 'INSERT into "' + dbname + '"."' + tblname + '" select ' + col_list + " from gs_tables_db." + nos_tbl + ";"
         print ("Executing: ", insert_sql)
         before_time = time.time()
         cur.execute (insert_sql)
@@ -79,7 +79,7 @@ if cur.rowcount == 0 :
         secs = "{:.1f}".format(after_time - before_time) 
         rcnt = f"{cur.rowcount:,}"    
         print ("Rows Inserted:", rcnt, "   The INSERT took:", secs, " seconds")
-    cur.execute("select sum(currentperm), sum(maxperm) from dbc.allspacev where databasename = '" + dbname + "' and tablename = 'all';") 
+    cur.execute("select max(currentperm) * count(*), sum(maxperm) from dbc.allspacev where databasename = '" + dbname + "' and tablename = 'all';") 
     db_info = cur.fetchone()
     free_space = str(int(db_info[1] - 1.1 * db_info[0]))
     cur.execute("create database x from " + dbname + " as perm=" + free_space +";")
