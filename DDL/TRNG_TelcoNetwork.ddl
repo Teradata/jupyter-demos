@@ -160,3 +160,42 @@ postal_zone_name
 FROM TRNG_TELCONETWORK.nextgen_mobile_nw_postal_zones
 );
 
+create foreign table gs_tables_db."TRNG_TelcoNetwork_nextgen_mobile_nw_cell_towers", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TELCONETWORK/NEXTGEN_MOBILE_NW_CELL_TOWERS/'));
+create foreign table gs_tables_db."TRNG_TelcoNetwork_nextgen_mobile_nw_gpsloc_cum_experience", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TELCONETWORK/NEXTGEN_MOBILE_NW_GPSLOC_CUM_EXPERIENCE/'));
+create foreign table gs_tables_db."TRNG_TelcoNetwork_nextgen_mobile_nw_cust_journey_scaled", external security gs_tables_db.auth using (location('/gs/storage.googleapis.com/demonow_development/TRNG-TELCONETWORK/NEXTGEN_MOBILE_NW_CUST_JOURNEY_SCALED/'));
+replace view TRNG_TelcoNetwork.NEXTGEN_MOBILE_NW_CELL_TOWERS as locking row for access select
+ "seq"
+,"site_num"
+,"radio_type"
+,"radio_freq"
+,"degree_facing"
+,"cell_id"
+,"postal_area_code"
+,"postal_area_name"
+,"cell_site_name"
+,"coverage_map_reference"
+,"dist_kms_from_map_centroid"
+,"cell_lon"
+,"cell_lat"
+,New ST_GEOMETRY('ST_POINT' ,"cell_lon", "cell_lat") "cell_geom"
+from gs_tables_db.TRNG_TelcoNetwork_nextgen_mobile_nw_cell_towers;
+replace view TRNG_TelcoNetwork.NEXTGEN_MOBILE_NW_GPSLOC_CUM_EXPERIENCE as locking row for access select
+ "legend"
+,"rscpavg"
+,New ST_GEOMETRY('ST_POINT' ,"point_lon", "point_lat") "point"
+from gs_tables_db.TRNG_TelcoNetwork_nextgen_mobile_nw_gpsloc_cum_experience;
+replace view TRNG_TelcoNetwork.NEXTGEN_MOBILE_NW_CUST_JOURNEY_SCALED as locking row for access select
+ "customer_id"
+,"journey_id"
+,"journey_seq"
+,"phone_type"
+,"journey_dttm"
+,"signal_dBm"
+,"journey_lon"
+,"journey_lat"
+,New ST_GEOMETRY('ST_POINT' ,"journey_lon", "journey_lat") "journey_geom"
+,"outside_coverage"
+,"mobile_app_usage"
+,"throughput_experience_kbps"
+,"initial_record"
+from gs_tables_db.TRNG_TelcoNetwork_nextgen_mobile_nw_cust_journey_scaled;
