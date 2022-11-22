@@ -1,0 +1,1 @@
+TRNG_GLMFraud has 1 table, 4 MB.
