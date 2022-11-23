@@ -5,8 +5,8 @@
 - Find new customers
 - Measure marketing attribution
 - How can we increase ROI and maximize marketing effectiveness, minimize the time to conversion.</br>
- 
-* [Credit Card Fraud - Classification Pipeline](../UseCases//Credit Card Fraud Detection - Classification Pipeline.ipynb)
+
+* [Credit Card Fraud - Classification Pipeline](../UseCases/CreditCardFraudClassification/CreditCardFraudClassification.ipynb)
 <br>In this notebook, we will be performing credit card fraud detection on a dataset containing 29 masked features. We will be scaling the data, setting up a feature engineering pipeline using Column Transformer, building GLM and Decision Forest models and evaluating the final models.</br>
  
 * [Time Series Analysis of Consumer Complaints Using SQL and visualization](../UseCases/TimeSeriesAnalysis/TimeSeriesAnalysis.ipynb)
