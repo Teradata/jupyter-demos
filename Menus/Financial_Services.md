@@ -1,7 +1,19 @@
 <b style = 'font-size:28px;font-family:Arial;color:#E37C4D'>Financial Services Demonstrations</b>
  
+* [Financial Services Customer Journey](../UseCases/FSCustomerJourney/FSCustomerJourney.ipynb)
+<br>In this use case we will show several different analytic techniques to analyze various aspects of a customer journey using Vantage. Specifically we will use the Attribution and nPath functions.  Starting with customer acquisition, how do we:
+- Find new customers
+- Measure marketing attribution
+- How can we increase ROI and maximize marketing effectiveness, minimize the time to conversion.</br>
+ 
+* [Credit Card Fraud - Classification Pipeline](../UseCases//Credit Card Fraud Detection - Classification Pipeline.ipynb)
+<br>In this notebook, we will be performing credit card fraud detection on a dataset containing 29 masked features. We will be scaling the data, setting up a feature engineering pipeline using Column Transformer, building GLM and Decision Forest models and evaluating the final models.</br>
+ 
 * [Time Series Analysis of Consumer Complaints Using SQL and visualization](../UseCases/TimeSeriesAnalysis/TimeSeriesAnalysis.ipynb)
 <br>Time Series Analysis - Analyzing Consumer Complaints Over Time.  Statistical tests provide a means of testing whether the outcome of an experiment could have been accidental. Numerous tests are provided in-database, all of the hypothesis testing variety</br>
+ 
+* [Insurance Policy Claims](../UseCases/InsurancePolicyClaims/InsurancePolicyClaims.ipynb)
+<br>This notebook shows how Temporal features of Vantage can dramatically simplify applications and provide BiTemporal capabilities for "AS IS"/"AS WAS" reporting based on when the update was valid or when it was known.  In this case, insurance policies may have changes impacting cost and risk exposure. Some databases provide "Time Travel" with substantial time limits.  A simple prefix to SQL statements is used to control the time perspective of the query.</br>
  
 * [Money Mule Detection using ML Model Training with Python and Scoring
 in Vantage](../UseCases/GLM_Fraud_Detection_SQLE/GLM_Fraud_Detection_SQLE.ipynb)
@@ -17,11 +29,8 @@ Use cases include:
 4. Advanced Data Preparation - column assignments using complex functions. 
 5. Visualizing results with Open-Source tools.</br>
  
-* [Financial Services Customer Journey](../UseCases/FSCustomerJourney/FSCustomerJourney.ipynb)
-<br>In this use case we will show several different analytic techniques to analyze various aspects of a customer journey using Vantage. Specifically we will use the Attribution and nPath functions.  Starting with customer acquisition, how do we:
-- Find new customers
-- Measure marketing attribution
-- How can we increase ROI and maximize marketing effectiveness, minimize the time to conversion.</br>
+* [Money Mule Detection using BYOM with Python and Scoring in Vantage](../UseCases/GLM_Fraud_Detection_BYOM/GLM_Fraud_Detection_BYOM.ipynb)
+<br>Demo uses the Vantage PMMLPredict function to score a Logistic Regression model that has been trained using an open-source python package sklearn.  Data for the demo is fake money transfer logs and is used to identify fraudulent transactions.</br>
  
 
 Copyright © 2022 Teradata Corporation

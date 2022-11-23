@@ -4,10 +4,10 @@ These demonstrations will walk you through the industry - leading functionality 
 Vantage Analytics. This product can analyze data from cloud storage, ingest data from streaming services,
 import data for high performance tactical queries, and work seamlessly with cloud native analytics.
 
-If you haven't used Jupyter before, please check out the notebooks under 'Jupyter Usage'.  Also check out [Release Notes](ReleaseNotes.md)<br><br>
+If you haven't used Jupyter before, please check out the notebooks under 'Jupyter Usage'.<br><br>
 <b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Data Dictionary</b>
 <br>All of the demonstrations will cite what database is needed. The Data Dictionary Notebook is an index to 
-all of the databases and provides selections to either run the demonstrations from NOS or import the tables to local Teradata Tables.
+all of the databases and provides selections to either run the demonstrations from Cloud Object Storage as foreign tables or import the data to local Teradata Tables.
 * [Data Dictionary](UseCases/Data_Dictionary/Data_Dictionary.ipynb)
 
 <b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Jupyter Usage</b>
@@ -31,12 +31,16 @@ all of the databases and provides selections to either run the demonstrations fr
 * [4D Analytics](Menus/4D_Analytics.md)
 * [Geospatial](Menus/Geospatial.md)
 * [Machine Learning](Menus/Machine_Learning.md)
-* [Native Object Store (NOS)](Menus/Native_Object_Store_(NOS).md)
+* [Cloud Object Store (via NOS)](Menus/Cloud_Object_Store_(via_NOS).md)
 * [Path Analysis](Menus/Path_Analysis.md)
 * [Performance and Scalability](Menus/Performance_and_Scalability.md)
 * [R/Python Script and Table Operators](Menus/R/Python_Script_and_Table_Operators.md)
 * [Secure Zones](Menus/Secure_Zones.md)
 * [TimeSeries](Menus/TimeSeries.md)
 * [Temporal](Menus/Temporal.md)
+
+<b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Partner Tools</b>
+* [AI tools](Menus/AI_tools.md)
+* [BI Tools](Menus/BI_Tools.md)
  
 Copyright © 2022 Teradata Corporation
