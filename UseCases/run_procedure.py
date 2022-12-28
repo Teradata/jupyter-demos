@@ -6,7 +6,7 @@ import runpy
 ddl_dir = '/home/jovyan/JupyterLabRoot/DDL'
 
 
-if len(sys.argv) != 2:
+if len(sys.argv) < 2:
     print ("ERROR: Procedure to run must be specified")
     sys.exit()
 dbname_ddl = sys.argv[1]
