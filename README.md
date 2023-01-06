@@ -1,13 +1,18 @@
-<b style = 'font-size:28px;font-family:Arial;color:#E37C4D'>Vantage Demonstrations via Jupyter</b><img id=Teradata-logo src="https://www.teradata.com/Teradata/Images/Rebrand/Teradata_logo-two_color.png" alt="Teradata" width="220" align="right" />
+<b style = 'font-size:28px;font-family:Arial;color:#E37C4D'>ClearScape Analytics Demonstrations via Jupyter</b><img id=Teradata-logo src="https://www.teradata.com/Teradata/Images/Rebrand/Teradata_logo-two_color.png" alt="Teradata" width="220" align="right" />
  
 These demonstrations will walk you through the industry - leading functionality of 
 Vantage Analytics. This product can analyze data from cloud storage, ingest data from streaming services,
 import data for high performance tactical queries, and work seamlessly with cloud native analytics.
 
+[![View Video](images/Movie_icon.png)](./GettingStarted/Video_Intro_to_ClearScape_and_Jupyter.ipynb)
+[... Video Introduction to ClearScape Analytics Experience](./GettingStarted/Video_Intro_to_ClearScape_and_Jupyter.ipynb) 
+. . . . . . . . . Need help? Have comments or feedback?
+[ ... click to send e-mail](mailto:SC230208@teradata.com?subject=ClearScape%20Analytics%20Jupyter%20Question)
+
 If you haven't used Jupyter before, please check out the notebooks under 'Jupyter Usage'.<br><br>
 <b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Data Dictionary</b>
 <br>All of the demonstrations will cite what database is needed. The Data Dictionary Notebook is an index to 
-all of the databases and provides selections to either run the demonstrations from Cloud Object Storage as foreign tables or import the data to local Teradata Tables.
+all of the databases and provides selections to either run the demonstrations from Cloud Object Storage as foreign tables or import the data to local Teradata Tables. You can also use the data with your own tools.
 * [Data Dictionary](UseCases/Data_Dictionary/Data_Dictionary.ipynb)
 
 <b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Jupyter Usage</b>
