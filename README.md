@@ -8,6 +8,11 @@ import data for high performance tactical queries, and work seamlessly with clou
 [... Video Introduction to ClearScape Analytics Experience](./GettingStarted/Video_Intro_to_ClearScape_and_Jupyter.ipynb) 
 . . . . . . . . . Need help? Have comments or feedback?
 [ ... click to send e-mail](mailto:SC230208@teradata.com?subject=ClearScape%20Analytics%20Jupyter%20Question)
+<br>
+[![View Video](images/Movie_icon.png)](./GettingStarted/Video_Intro_to_ClearScape_and_Jupyter.ipynb)
+[... Submit your Demo to ClearScape Analytics Experience](./GettingStarted/Video_Sharing_Demos.ipynb) 
+
+
 
 If you haven't used Jupyter before, please check out the notebooks under 'Jupyter Usage'.<br><br>
 <b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Data Dictionary</b>
