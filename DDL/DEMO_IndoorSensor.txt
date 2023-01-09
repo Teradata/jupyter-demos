@@ -1,0 +1,5 @@
+The database DEMO_IndoorSensor provides data from 54 building sensor locations at the Intel Berkeley Research lab. They produce an average of 68,000 readings per day over the month used in this demo. We will not only analyze the temperature, humidity, and light but also the connectivity of the sensors to each other and voltage readings. The related readings from the sensors is at s3.amazonaws.com/trial-datasets/IndoorSensor/data.csv and has 2,313,682 rows.
+
+Tables:
+- Connectivity - Row Count: 2,970
+- Sensor_Location - Row Count: 54

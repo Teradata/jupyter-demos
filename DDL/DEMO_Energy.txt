@@ -1,0 +1,4 @@
+The database DEMO_Energy provides information by timestamp of day of week, temperature, cloud area, light/dark indicators, holiday, etc and is used in a notebook for forecasting energy consumption. 
+
+Tables:
+- Consumption - row count: 32,160

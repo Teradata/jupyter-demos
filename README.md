@@ -4,13 +4,13 @@ These demonstrations will walk you through the industry - leading functionality 
 Vantage Analytics. This product can analyze data from cloud storage, ingest data from streaming services,
 import data for high performance tactical queries, and work seamlessly with cloud native analytics.
 
-[![View Video](images/Movie_icon.png)](./GettingStarted/Video_Intro_to_ClearScape_and_Jupyter.ipynb)
-[... Video Introduction to ClearScape Analytics Experience](./GettingStarted/Video_Intro_to_ClearScape_and_Jupyter.ipynb) 
+[![View Video](images/Movie_icon.png)](./GettingStarted/Videos/Intro_to_ClearScape_and_Jupyter.ipynb)
+[... Video Introduction to ClearScape Analytics Experience](./GettingStarted/Videos/Intro_to_ClearScape_and_Jupyter.ipynb) 
 . . . . . . . . . Need help? Have comments or feedback?
 [ ... click to send e-mail](mailto:SC230208@teradata.com?subject=ClearScape%20Analytics%20Jupyter%20Question)
 <br>
-[![View Video](images/Movie_icon.png)](./GettingStarted/Video_Intro_to_ClearScape_and_Jupyter.ipynb)
-[... Submit your Demo to ClearScape Analytics Experience](./GettingStarted/Video_Sharing_Demos.ipynb) 
+[![View Video](images/Movie_icon.png)](./GettingStarted/Videos/How_to_Share_Demos.ipynb)
+[... Submit your Demo to ClearScape Analytics Experience](./GettingStarted/Videos/How_to_Share_Demos.ipynb) 
 
 
 

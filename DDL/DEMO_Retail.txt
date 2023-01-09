@@ -1,0 +1,5 @@
+The database DEMO_Retail has the Retail_Events table useful for path analysis with a series of events by entitiy and date. The other is Web_Comment which is useful for text analysis.
+
+Tables:
+- Retail_Events - Row Count: 35,866
+- Web_Comment - Row Count: 23,486

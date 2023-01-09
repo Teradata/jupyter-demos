@@ -1,0 +1,4 @@
+The database DEMO_SalesOffload provides basic information about sales by customer and store and basket IDs, with 5.2 million rows. A related set of older historical data is in a public dataset at: s3.amazonaws.com/trial-datasets/SalesOffload with 37,595,550 rows
+
+Tables:
+- Sales_Fact - Row Count: 5,238,060

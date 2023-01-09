@@ -1,0 +1,5 @@
+Bike shares are becoming a popular alternative means of transportation. The City of Austin makes data available on >649k bike trips over 2013-2017. This data includes information on bike trip start location, stop location, duration, type of bike share user. Bike station location data was inserted into a work table by the Austin Bike share notebook. This data was sourced from www.kaggle.com.
+
+Tables:
+- Trips - rows: 649,231
+- Weather - rows: 24,592

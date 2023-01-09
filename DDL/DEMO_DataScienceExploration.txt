@@ -1,0 +1,4 @@
+The database DEMO_DataScienceExploration provides information houses including bedrooms, floors, square feet, year built, zip code, Lat/Long, price, etc.  It was used in a notebook to demonstrate the standard flow of Data Science using the CRISP-DM standard (Cross-Industry Standard Process for Data Mining)
+
+Tables:
+- House_Prices - Row count: 80,000
