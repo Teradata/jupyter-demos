@@ -20,6 +20,10 @@ ddl_dir = '/home/jovyan/JupyterLabRoot/DDL'
 notebook_filename = '/home/jovyan/JupyterLabRoot/UseCases/Data_Dictionary/Data_Dictionary.ipynb'
 nb = nbf.v4.new_notebook()
 md = '''<b style = "font-size:28px;font-family:Arial;color:#E37C4D">ClearScape Analytics Experience Data Dictionary</b><img  src="Data_Dictionary.png" alt="Data_Dictionary" width="150" align="right" />
+'''
+print(md)
+quit()
+
 \n\n This data is being provided in cloud storage, having been exported from Teradata Vantage Live which was originally publicly sourced data. However, there has been value add to the content and structure of the data, and as such is protected work product of the Teradata Corporation.  It is provided for use with the demonstrations in the ClearScape Analytics Experience.
 \n\nAfter each database description there may be one or two "run" commands:
 <ol><li> a statement to create foreign tables linked to the <b>cloud</b>, create a view database with 1:1 views pointing at those foreign tables, and any semantic views and other object needed by the demonstration</li>
@@ -30,7 +34,15 @@ Click in the cell with the "run" statement and press SHIFT + ENTER to run either
 '''
 nb['cells'] = [nbf.v4.new_markdown_cell(md)]
 
-md = '''<p style = 'font-size:18px;font-family:Arial;color:#E37C4D'><b>Manage Your Space</b></p> 
+md = '''### Video Introduction to Data Dictionary (2.5 minutes)
+Click in the cell below and press SHIFT + ENTER to play.'''
+nb['cells'].append(nbf.v4.new_markdown_cell(md))
+
+code = '''%%HTML
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/f8fddab8-6f0b-44e8-8594-04d396c78745?autoplay=true&showinfo=true" allowfullscreen style="border:none;"></iframe>'''
+nb['cells'].append(nbf.v4.new_code_cell(code))
+
+md = '''## Manage Your Space 
 You may use the "manage space" routine below to view current space usage and available space.  
 '''
 nb['cells'].append(nbf.v4.new_markdown_cell(md))
@@ -38,7 +50,7 @@ nb['cells'].append(nbf.v4.new_markdown_cell(md))
 code = "run -i ../../DDL/manage_space.py"
 nb['cells'].append(nbf.v4.new_code_cell(code))
 
-md = "<hr><b style = 'font-size:28px;font-family:Arial;color:#E37C4D'>Available Demonstration Databases</b>"
+md = "## Available Demonstration Databases"
 nb['cells'].append(nbf.v4.new_markdown_cell(md))
 
 cur_dbname = ' '
@@ -65,23 +77,18 @@ code = '%run -i ../run_procedure.py "call remove_data(' + "'" +  cur_dbname + "'
 nb['cells'].append(nbf.v4.new_code_cell(code))
   
 md = '''
-<hr>
-<b style = 'font-size:28px;font-family:Arial;color:#E37C4D'>Description of Databases, Tables, and Other Objects</b>
+## Description of Databases, Tables, and Other Objects
 <img  src="DemoNow_Table_Design.png" alt="DemoNow_Table_Design" width="600" align="right" />
-\nAll data used in for these demos is provided on Cloud Storage. That data has been exported in Parquet format. For Vantage to access that data, a foreign table is defined with the necessary credentials. For ClearScape Analytics, we create the foreign table definitions in the database gs_tables_db (gs = Google Storage) which also contains the Authentication object. We use a stored procedure to run scripts to create the foreign tables, optionally local tables, and a view database with 1:1 views, macros, and stored procedures needed for those databases. The script suffix indicates which version of tables you will get:
+\nAll data used in DemoNow is provided on Cloud Storage. That data has been exported in Parquet format. For Vantage to access that data, a foreign table is defined with the necessary credentials. For ClearScape Analytics, we create the foreign table definitions in the database gs_tables_db (gs = Google Storage) which also contains the Authentication object. We use a stored procedure to run scripts to create the foreign tables, optionally local tables, and a view database with 1:1 views, macros, and stored procedures needed for those databases. The script suffix indicates which version of tables you will get:
 <ol>
 <li> xxx_<b>cloud</b> - uses 1:1 views pointing directly at the foreign tables.  Faster to setup, but slower demo execution</li>
 <li> xxx_<b>local</b> - imports the data to local tables and creates 1:1 views pointing at the local tables. Slower to set up, faster demo execution, but may cause database storage space considerations.</li>
 </ol>
 \nYou can run either the xxx_<b>cloud</b> or xxx_<b>local</b> script, but if you want to switch, you should run the corresponding remove_data procedure. There is also a "manage_space.py" routine included at the top of this notebook to display the demo databases, the space used and the space available. You may enter the word "delete" followed by the numbers of any databases you want to delete. The table databases end with "_db" and the view databases have a similar name without the "_db" suffix. 
-\n
-The original source data for these demonstrations was exported from an internal platform used by Teradata associates for demonstrations called Vantage-Live. These tables have not been curated and some of the databases have several hundred tables ... some are copies and some are just work tables. Some may be useful in creating your demos. You can access those from:<br>
-[Legacy Data Dictionary](Data_Dictionary_Legacy.ipynb)
-
 '''
 nb['cells'].append(nbf.v4.new_markdown_cell(md))        
         
-md="\nCopyright © 2022, 2023 Teradata Corporation"
+md="\nCopyright © 2022 Teradata Corporation"
 nb['cells'].append(nbf.v4.new_markdown_cell(md))
 
 nb['kernelspec'] = 'Python 3'
