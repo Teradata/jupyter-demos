@@ -22,14 +22,12 @@ all of the databases and provides selections to either run the demonstrations fr
 
 <b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Jupyter Usage</b>
 * [Basic Jupyter Usage](Menus/Basic_Jupyter_Usage.md)
-* [Import/Export Notebooks](Menus/Import/Export_Notebooks.md)
 * [Data Loading](Menus/Data_Loading.md)
-* [Showing Result](Menus/Showing_Result.md)
+* [Showing Results](Menus/Showing_Results.md)
 
 <b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Industry Demos</b>
 * [Communication](Menus/Communication.md)
 * [Financial Services](Menus/Financial_Services.md)
-* [Government](Menus/Government.md)
 * [Healthcare](Menus/Healthcare.md)
 * [Manufacturing](Menus/Manufacturing.md)
 * [Retail](Menus/Retail.md)
@@ -43,9 +41,6 @@ all of the databases and provides selections to either run the demonstrations fr
 * [Machine Learning](Menus/Machine_Learning.md)
 * [Cloud Object Store (via NOS)](Menus/Cloud_Object_Store_(via_NOS).md)
 * [Path Analysis](Menus/Path_Analysis.md)
-* [Performance and Scalability](Menus/Performance_and_Scalability.md)
-* [R/Python Script and Table Operators](Menus/R/Python_Script_and_Table_Operators.md)
-* [Secure Zones](Menus/Secure_Zones.md)
 * [TimeSeries](Menus/TimeSeries.md)
 * [Temporal](Menus/Temporal.md)
 
