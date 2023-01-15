@@ -1,6 +1,6 @@
 <b style = 'font-size:28px;font-family:Arial;color:#E37C4D'>Cloud Object Store (via NOS) Demonstrations</b>
  
-* [Battery Defect Analysis Using Cloud Data](../UseCases/Manufacturing Defects/ManufacturingDefects.ipynb)
+* [Battery Defect Analysis Using Cloud Data](../UseCases/ManufacturingDefects/ManufacturingDefects.ipynb)
 <br>This demo uses local tables to narrow down a problem with battery defects in automobiles, then uses battery production data low cost cloud storage to narrow down the root cause of the failures.<br><br>
  
 * [Deep History - Offloading cold historical data to Object Store](../UseCases/DeepHistory/DeepHistory.ipynb)

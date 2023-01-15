@@ -1,6 +1,6 @@
 <b style = 'font-size:28px;font-family:Arial;color:#E37C4D'>Retail Demonstrations</b>
  
-* [Customer Behavior Analysis and Visualization with Python](../UseCases/CustomerBehaviorAnalysis/Behavioral Analysis.ipynb)
+* [Customer Behavior Analysis and Visualization with Python](../UseCases/CustomerBehaviorAnalysis/BehavioralAnalysis.ipynb)
 <br>Uses ClearScape Analytic functions to demonstrate how to analyze user behaviors over time.  Visualize the results using plotly for sankey charts<br><br>
  
 * [Deep History - Offloading cold historical data to Object Store](../UseCases/DeepHistory/DeepHistory.ipynb)
