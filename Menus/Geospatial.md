@@ -3,7 +3,7 @@
 * [Austin Bike Share](../UseCases/AustinBikeShare/AustinBikeShare.ipynb)<img src="../UseCases/AustinBikeShare/Austin_Bikeshare_Icon.jpg" style="float: right; margin-left: 10px; height: 50px; width: auto;" />
 <br>Using bike trip data between 2014 and 2017, this demonstrates Geospatial and timeseries.<br><br>
  
-* [Geospatial Analysis of NYC Taxi Data](../UseCases/NYC-taxi-4d/NYC-taxi-geospatial.ipynb)<img src="../UseCases/NYC-taxi-4d/NYCTaxi_Icon.jpg" style="float: right; margin-left: 10px; height: 50px; width: auto;" />
+* [Geospatial Analysis of NYC Taxi Data](../UseCases/NYC-taxi-4d/NYC-taxi-geospatial-visual.ipynb)<img src="../UseCases/NYC-taxi-4d/NYCTaxi_Icon.jpg" style="float: right; margin-left: 10px; height: 50px; width: auto;" />
 <br>We will explore the New York Taxi demo dataset with ClearScape Analytics geospatial functions, defining points of interest,  trips originating in the neighborhood of points of interest, revenue of trips originating at JFK to neighborhoods of the points of interest.<br><br>
  
 * [Sensor Data Analytics from Object Storage with SQL](../UseCases/IndoorSensor/IndoorSensor.ipynb)
