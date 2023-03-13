@@ -47,6 +47,7 @@ jobs:
         npx playwright test
       env:
         ENVIRONMENT: ${{ steps.start-test-environment.outputs.jupyter-env-url }}
+        CSAE_ENV_PASSWORD: '${{ secrets.CSAE_ENV_PASSWORD }}'
     - name: Delete test environment
       if: always()
       run: |
