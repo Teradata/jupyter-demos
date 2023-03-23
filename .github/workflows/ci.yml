@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 defaults:
   run:
-    working-directory: smoke-tests
+    working-directory: ./github/smoke-tests
     shell: bash
 jobs:
   test:
