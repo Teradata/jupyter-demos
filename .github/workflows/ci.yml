@@ -22,7 +22,6 @@ jobs:
       run: npm ci
     - name: Install Playwright browsers
       run: |
-        apt-key adv --keyserver keyserver.ubuntu.com --recv-keys AA16FCBCA621E701
         npx playwright install --with-deps
     - name: Start test environment
       id: start-test-environment
