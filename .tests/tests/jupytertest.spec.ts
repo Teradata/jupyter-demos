@@ -1,6 +1,6 @@
 import { test, expect, Page } from '@playwright/test';
-const emailaddr = 'david.kunz@Teradata.com';
-const password = 'teradata123'; //CI: Teradata123! 
+const emailaddr = 'adam.tworkiewicz+jupyter.testing@teradata.com';
+const password = 'wyiEwLP545sE5FY'; 
 const demo_user_pw = 'env1-test';
 //const db_pw = 'dbc';
 
