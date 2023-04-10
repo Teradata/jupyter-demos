@@ -25,11 +25,7 @@ test.describe('New Todo', () => {
             await page.waitForSelector('button:not([disabled]) >> text=RUN DEMOS USING JUPYTER');
         }
         
-        // Click to Run Demos (Done)
-        const pagePromise = context.waitForEvent('page');
-        await page.getByText('open new tab').click();
-        const newPage = await pagePromise;
-        await newPage.waitForLoadState();
+        
         /*
         const [newPage] = await Promise.all([
             page.waitForEvent(page),
