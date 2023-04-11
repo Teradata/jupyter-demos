@@ -4,12 +4,21 @@ const password = 'wyiEwLP545sE5FY';
 const demo_user_pw = 'wyiEwLP545sE5FY';
 //const db_pw = 'dbc';
 
+const os = require('os');
+let platform = os.platform();
+let systemNewTabKey;
+if (platform === 'darwin') {
+  systemNewTabKey = 'Meta';
+} else {
+  systemNewTabKey = 'Control';
+}
+
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
 test.describe('New Todo', () => {
-    test('verify multiple tabs', async({page})=>{
+    test('verify multiple tabs', async({context})=>{
         test.setTimeout(7200000);
-        //const page = await context.newPage();
+        const page = await context.newPage();
 
         // Login In  (Done!)
         await page.goto('https://clearscape.teradata.com/dashboard');
