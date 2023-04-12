@@ -57,7 +57,7 @@ test('verify multiple tabs', async({page})=>{
         await runDemo(page1,"GettingStarted","GettingStarted_Jupyter_Pandas","GettingStarted_Jupyter_Pandas.ipynb","true");  // This python script has too many inputs
         
         // UseCases
-  /*
+ 
         await runDemo(page1,"UseCases","AirPassengersTimeSeriesForecasting","AirPassengersTimeSeriesForecasting.ipynb","false");
         await runDemo(page1,"UseCases","AustinBikeShare","AustinBikeShare.ipynb","false");
         await runDemo(page1,"UseCases","BI_Tools","Dataiku.ipynb","true");
@@ -71,6 +71,7 @@ test('verify multiple tabs', async({page})=>{
         await runDemo(page1,"UseCases","DataPrepAndDiscovery","DataPrepAndDiscovery.ipynb","true"); 
         await runDemo(page1,"UseCases","DataScienceFlow","DataScienceFlow.ipynb","true"); 
         await runDemo(page1,"UseCases","DeepHistory","DeepHistory.ipynb","false");
+   /*
         await runDemo(page1,"UseCases","ESG","ESG_pop.ipynb","true");
         await runDemo(page1,"UseCases","ESG","ESG.ipynb","true");
         await runDemo(page1,"UseCases","FourierTransform","FourierTransform.ipynb","false");
