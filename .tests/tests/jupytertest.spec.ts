@@ -77,7 +77,6 @@ test('verify multiple tabs', async({page})=>{
         await runDemo(page1,"UseCases","FSCustomerJourney","FSCustomerJourney.ipynb","false"); 
         await runDemo(page1,"UseCases","GLM_Fraud_Detection_BYOM","GLM_Fraud_Detection_BYOM.ipynb","true");
         await runDemo(page1,"UseCases","GLM_Fraud_Detection_InDB","GLM_Fraud_Detection_InDB.ipynb","true");
-   /*
         await runDemo(page1,"UseCases","IndoorSensor","IndoorSensor.ipynb","true");
         await runDemo(page1,"UseCases","InsurancePolicyClaims","InsurancePolicyClaims.ipynb","false");
         await runDemo(page1,"UseCases","KneeReplacement","KneeReplacementAttributionAnalysis.ipynb","false");
@@ -99,7 +98,7 @@ test('verify multiple tabs', async({page})=>{
         await runDemo(page1,"UseCases","VantageAnalyticLibrary","VAL-Hypothesis_Tests.ipynb","false");
         await runDemo(page1,"UseCases","VantageAnalyticLibrary","VAL-teradataml-Demo.ipynb","true");
         await runDemo(page1,"UseCases","vertex_pipelines_housing_example-BYOM","vertex_pipelines_housing_example-BYOM.ipynb","true");
-*/
+
         return ''
        
  });
