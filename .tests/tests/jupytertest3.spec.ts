@@ -63,16 +63,16 @@ test('verify multiple tabs', async({page})=>{
         await runDemo(page1,"UseCases","CustomerBehaviorAnalysis","BehavioralAnalysis.ipynb","true");
 */
         //await runDemo(newPage,"UseCases","Data_Dictionary","Data_Dictionary_Legacy.ipynb","true");   // hung up on space allocation
-        await runDemo(page1,"UseCases","Data_Dictionary","Data_Dictionary.ipynb","true");  
-        await runDemo(page1,"UseCases","DataPrepAndDiscovery","DataPrepAndDiscovery.ipynb","true"); 
-        await runDemo(page1,"UseCases","DataScienceFlow","DataScienceFlow.ipynb","true"); 
-        await runDemo(page1,"UseCases","DeepHistory","DeepHistory.ipynb","false");  
-        //await runDemo(page1,"UseCases","ESG","ESG_pop.ipynb","true");
-        //await runDemo(page1,"UseCases","ESG","ESG.ipynb","true");
-        //await runDemo(page1,"UseCases","FourierTransform","FourierTransform.ipynb","false");
-        //await runDemo(page1,"UseCases","FSCustomerJourney","FSCustomerJourney.ipynb","false"); 
-        //await runDemo(page1,"UseCases","GLM_Fraud_Detection_BYOM","GLM_Fraud_Detection_BYOM.ipynb","true");
-        //await runDemo(page1,"UseCases","GLM_Fraud_Detection_InDB","GLM_Fraud_Detection_InDB.ipynb","true");
+        //await runDemo(page1,"UseCases","Data_Dictionary","Data_Dictionary.ipynb","true");  
+        //await runDemo(page1,"UseCases","DataPrepAndDiscovery","DataPrepAndDiscovery.ipynb","true"); 
+        //await runDemo(page1,"UseCases","DataScienceFlow","DataScienceFlow.ipynb","true"); 
+        //await runDemo(page1,"UseCases","DeepHistory","DeepHistory.ipynb","false");  
+        await runDemo(page1,"UseCases","ESG","ESG_pop.ipynb","true");
+        await runDemo(page1,"UseCases","ESG","ESG.ipynb","true");
+        await runDemo(page1,"UseCases","FourierTransform","FourierTransform.ipynb","false");
+        await runDemo(page1,"UseCases","FSCustomerJourney","FSCustomerJourney.ipynb","false"); 
+        await runDemo(page1,"UseCases","GLM_Fraud_Detection_BYOM","GLM_Fraud_Detection_BYOM.ipynb","true");
+        await runDemo(page1,"UseCases","GLM_Fraud_Detection_InDB","GLM_Fraud_Detection_InDB.ipynb","true");
 /*
         await runDemo(page1,"UseCases","IndoorSensor","IndoorSensor.ipynb","true");
         await runDemo(page1,"UseCases","InsurancePolicyClaims","InsurancePolicyClaims.ipynb","false");
