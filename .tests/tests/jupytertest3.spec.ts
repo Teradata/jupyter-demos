@@ -62,8 +62,8 @@ test('verify multiple tabs', async({page})=>{
         await runDemo(page1,"UseCases","CreditCardFraud","CreditCardFraud.ipynb","false");
         await runDemo(page1,"UseCases","CustomerBehaviorAnalysis","BehavioralAnalysis.ipynb","true");
 */
-        await runDemo(newPage,"UseCases","Data_Dictionary","Data_Dictionary_Legacy.ipynb","true");   // hung up on space allocation
-        //await runDemo(page1,"UseCases","Data_Dictionary","Data_Dictionary.ipynb","true");  
+        //bad! await runDemo(newPage,"UseCases","Data_Dictionary","Data_Dictionary_Legacy.ipynb","true");   // hung up on space allocation
+        await runDemo(page1,"UseCases","Data_Dictionary","Data_Dictionary.ipynb","true");  
         //await runDemo(page1,"UseCases","DataPrepAndDiscovery","DataPrepAndDiscovery.ipynb","true"); 
         //await runDemo(page1,"UseCases","DataScienceFlow","DataScienceFlow.ipynb","true"); 
         //await runDemo(page1,"UseCases","DeepHistory","DeepHistory.ipynb","false");  
