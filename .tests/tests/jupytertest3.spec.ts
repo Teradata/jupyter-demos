@@ -66,8 +66,8 @@ test('verify multiple tabs', async({page})=>{
         //bad! await runDemo(page1,"UseCases","Data_Dictionary","Data_Dictionary.ipynb","true");  
         //good! await runDemo(page1,"UseCases","DataPrepAndDiscovery","DataPrepAndDiscovery.ipynb","true"); 
         //bad! await runDemo(page1,"UseCases","DataScienceFlow","DataScienceFlow.ipynb","true"); 
-        await runDemo(page1,"UseCases","DeepHistory","DeepHistory.ipynb","false");  
-        //await runDemo(page1,"UseCases","ESG","ESG_pop.ipynb","true");
+        //good! await runDemo(page1,"UseCases","DeepHistory","DeepHistory.ipynb","false");  
+        await runDemo(page1,"UseCases","ESG","ESG_pop.ipynb","true");
         //await runDemo(page1,"UseCases","ESG","ESG.ipynb","true");
         //good! await runDemo(page1,"UseCases","FourierTransform","FourierTransform.ipynb","false");
         //good! await runDemo(page1,"UseCases","FSCustomerJourney","FSCustomerJourney.ipynb","false"); 
