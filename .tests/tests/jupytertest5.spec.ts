@@ -94,8 +94,6 @@ test('verify multiple tabs', async({page})=>{
         await runDemo(page1,"UseCases","VantageAnalyticLibrary","VAL-Hypothesis_Tests.ipynb","false");
         await runDemo(page1,"UseCases","VantageAnalyticLibrary","VAL-teradataml-Demo.ipynb","true");
         await runDemo(page1,"UseCases","vertex_pipelines_housing_example-BYOM","vertex_pipelines_housing_example-BYOM.ipynb","true");
-
-        return ''
        
  });
  async function runDemo(page: Page, menu: string, submenu: string, demoFile: string, isPythonKernel: string){
