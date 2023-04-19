@@ -62,13 +62,13 @@ test('verify multiple tabs', async({page})=>{
         await runDemo(page1,"UseCases","CreditCardFraud","CreditCardFraud.ipynb","false");
         await runDemo(page1,"UseCases","CustomerBehaviorAnalysis","BehavioralAnalysis.ipynb","true");
 */
-        //bad! await runDemo(page1,"UseCases","Data_Dictionary","Data_Dictionary_Legacy.ipynb","true");   // hung up on space allocation
-        //bad! await runDemo(page1,"UseCases","Data_Dictionary","Data_Dictionary.ipynb","true");  
+        //await runDemo(page1,"UseCases","Data_Dictionary","Data_Dictionary_Legacy.ipynb","true");   // hung up on space allocation - ignore
+        //await runDemo(page1,"UseCases","Data_Dictionary","Data_Dictionary.ipynb","true");  // hung up on space allocation - ignore
         await runDemo(page1,"UseCases","DataPrepAndDiscovery","DataPrepAndDiscovery.ipynb","true"); 
-        //bad! await runDemo(page1,"UseCases","DataScienceFlow","DataScienceFlow.ipynb","true"); 
+        await runDemo(page1,"UseCases","DataScienceFlow","DataScienceFlow.ipynb","true"); 
         await runDemo(page1,"UseCases","DeepHistory","DeepHistory.ipynb","false");  
-        //bad! await runDemo(page1,"UseCases","ESG","ESG_pop.ipynb","true");
-        //bad! await runDemo(page1,"UseCases","ESG","ESG.ipynb","true");
+        await runDemo(page1,"UseCases","ESG","ESG_pop.ipynb","true");
+        await runDemo(page1,"UseCases","ESG","ESG.ipynb","true");
         await runDemo(page1,"UseCases","FourierTransform","FourierTransform.ipynb","false");
         await runDemo(page1,"UseCases","FSCustomerJourney","FSCustomerJourney.ipynb","false"); 
         await runDemo(page1,"UseCases","GLM_Fraud_Detection_BYOM","GLM_Fraud_Detection_BYOM.ipynb","true");
@@ -127,13 +127,13 @@ test('verify multiple tabs', async({page})=>{
  async function runNotebook(page: Page, isPythonKernel: string ) {  // Works
 
     var setPw = 0;
-    var dm = 200; // Default Number of iterations for each Notebook demo
+    var dm = 300; // Default Number of iterations for each Notebook demo
     var nSteps = 0;
 
     // Check Idle state  (Hack job)
     var isIdle = 1; 
     var nIdle = 0;
-    var IDLEREPEATS = 10;  // After N steps of consecutive idle steps... we realize the demo is basically over.  Note: 5 is too small due to processing through details and not just procedures
+    var IDLEREPEATS = 30;  // After N steps of consecutive idle steps... we realize the demo is basically over.  Note: 5 is too small due to processing through details and not just procedures
     
     //Check if Python Notebook or Teradata SQL Notebook
     var strKernelType = ''
@@ -152,7 +152,7 @@ test('verify multiple tabs', async({page})=>{
 
     for (let i = 1; i <= dm; i++) {
         
-        await sleep(300);
+        await sleep(100);
 
         // Check the current status of the notebook: (Idle, Busy, Running)
         //if (await page.locator('span[class="f1235lqo"] >> text="Teradata SQL | Idle"').isVisible())
