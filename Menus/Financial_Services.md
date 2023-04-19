@@ -19,7 +19,7 @@ Use cases include:
 - Measure marketing attribution
 - How can we increase ROI and maximize marketing effectiveness, minimize the time to conversion.<br><br>
  
-* [Fraud Detection using BYOM with Python and Scoring in Vantage](../UseCases/MoneyMuleDetection/GLM_Fraud_Detection_BYOM.ipynb)
+* [Fraud Detection using BYOM with Python and Scoring in Vantage](../UseCases/GLM_Fraud_Detection_BYOM/GLM_Fraud_Detection_BYOM.ipynb)
 <br>In recent years we have seen a huge increase in Fraud attempts, making fraud detection necessary for Banking and Financial Institutions.  This notebook provides a demonstration of "data science workflow" that illustrates how to leverage Vantage's Bring Your Own Model to build model in python and score the model at scale in Vantage. Users perform the large-scale operations such as feature analysis, data transformation, and ML Model Scoring in the Vantage environment without having to move data.<br><br>
  
 * [In-database Fraud Detection using GLM Predict](../UseCases/GLM_Fraud_Detection_SQLE/GLM_Fraud_Detection_SQL.ipynb)
