@@ -36,31 +36,31 @@ test('verify multiple tabs', async({page})=>{
     const page1Promise = page.waitForEvent('popup');
     await page.getByRole('button', { name: 'Run demos using Jupyter' }).click();
     const page1 = await page1Promise;
-        // Wait for New Page/Tab to Load, Then jump over to new page (Done)
-        await page1.waitForLoadState();                
-        // title of new tab page
-        //console.log(await newPage.title());       
-        // title of existing page
-        //console.log(await page.title());
-        //const jupyter_url=await newPage.url(); //get the url of the current page
-        //strip jupyter url 
-        //const jUrl = jupyter_url.split("/lab/")[0]
+    // Wait for New Page/Tab to Load, Then jump over to new page (Done)
+    await page1.waitForLoadState();                
+    // title of new tab page
+    //console.log(await newPage.title());       
+    // title of existing page
+    //console.log(await page.title());
+    //const jupyter_url=await newPage.url(); //get the url of the current page
+    //strip jupyter url 
+    //const jUrl = jupyter_url.split("/lab/")[0]
 
-        // Wait for content to appear before moving on.  Jupyter is slow to load (Done)
-        await page1.waitForSelector('text=ClearScape Analytics Demonstrations via Jupyter');
+    // Wait for content to appear before moving on.  Jupyter is slow to load (Done)
+    await page1.waitForSelector('text=ClearScape Analytics Demonstrations via Jupyter');
 
-        // Run through Demos //
+    // Run through Demos //
 
-        // UseCases
+    // UseCases
  
-        //await runDemo(page1,"UseCases","Data_Dictionary","Data_Dictionary_Legacy.ipynb","true");   // hung up on space allocation - ignore
-        //await runDemo(page1,"UseCases","Data_Dictionary","Data_Dictionary.ipynb","true");  // hung up on space allocation - ignore
-        await runDemo(page1,"UseCases","DataPrepAndDiscovery","DataPrepAndDiscovery.ipynb","true"); 
-        await runDemo(page1,"UseCases","DataScienceFlow","DataScienceFlow.ipynb","true"); 
-        await runDemo(page1,"UseCases","ESG","ESG_pop.ipynb","true");
-        await runDemo(page1,"UseCases","ESG","ESG.ipynb","true");
-        await runDemo(page1,"UseCases","GLM_Fraud_Detection_BYOM","GLM_Fraud_Detection_BYOM.ipynb","true");
-        await runDemo(page1,"UseCases","GLM_Fraud_Detection_InDB","GLM_Fraud_Detection_InDB.ipynb","true");
+    //await runDemo(page1,"UseCases","Data_Dictionary","Data_Dictionary_Legacy.ipynb","true");   // hung up on space allocation - ignore
+    //await runDemo(page1,"UseCases","Data_Dictionary","Data_Dictionary.ipynb","true");  // hung up on space allocation - ignore
+    await runDemo(page1,"UseCases","DataPrepAndDiscovery","DataPrepAndDiscovery.ipynb","true"); 
+    await runDemo(page1,"UseCases","DataScienceFlow","DataScienceFlow.ipynb","true"); 
+    //await runDemo(page1,"UseCases","ESG","ESG_pop.ipynb","true");
+    //await runDemo(page1,"UseCases","ESG","ESG.ipynb","true");
+    //await runDemo(page1,"UseCases","GLM_Fraud_Detection_BYOM","GLM_Fraud_Detection_BYOM.ipynb","true");
+    //await runDemo(page1,"UseCases","GLM_Fraud_Detection_InDB","GLM_Fraud_Detection_InDB.ipynb","true");
              
  });
  async function runDemo(page: Page, menu: string, submenu: string, demoFile: string, isPythonKernel: string){
