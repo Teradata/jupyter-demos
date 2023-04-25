@@ -1,0 +1,1 @@
+TRNG_DigitalEvents has 2 tables, 15.4 MB. The largest: Mobile_Money_Txns, Digital_Retail_Events

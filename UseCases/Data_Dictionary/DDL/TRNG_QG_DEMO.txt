@@ -1,0 +1,1 @@
+TRNG_QG_DEMO has 23 tables, 31.1 MB. The largest: telco_store, telco_online, telco_callcenter

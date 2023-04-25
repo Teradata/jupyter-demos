@@ -1,0 +1,1 @@
+TRNG_TECHBYTES has 20 tables, 2.5 MB. The largest: Acct_Ind, Accounts, ml__valib_transform_1614360874

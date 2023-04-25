@@ -1,0 +1,10 @@
+The database DEMO_Financial is used in multiple notebooks. THe Customer, Accounts, and Transactions are used in the Vantage Analytics Library for descriptive statistics, analytics, and ML.   The Consumer Complaints came from the Consumer Financial Protection Bureau (CFPB) via data.gov on financial products and services, which include but are not limited to bank accounts, credit cards, credit reporting. 
+
+Tables:
+- Accounts - Row Count: 19,726
+- Consumer_Complaints - Row Count: 1,273,782
+- Credit_Tran - Row Count: 20,167
+- Customer - Row Count: 10,458
+- Customer_Analysis - Row Count: 747
+- Customer_Journey - Row Count: 628,723
+- Transactions - Row Count: 1,086,120

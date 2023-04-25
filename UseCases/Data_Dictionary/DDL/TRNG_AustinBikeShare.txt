@@ -1,0 +1,1 @@
+TRNG_AustinBikeShare has 4 tables, 0.3 MB. The largest: Weather, stations, weather_temporal

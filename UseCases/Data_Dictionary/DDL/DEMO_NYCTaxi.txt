@@ -1,0 +1,6 @@
+The database DEMO_NYCTaxi data includes pick-up and drop-off dates/times, pick-up and drop-off lat/long, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. The data was collected and provided to the NYC Taxi and Limousine Commission (TLC) by technology providers authorized under the Taxicab & Livery Passenger Enhancement Programs (TPEP/LPEP). 
+
+Tables:
+- Trip - Row Count: 480,535
+- Trip_Fare - Row Count: 473,151
+

@@ -1,0 +1,1 @@
+TRNG_TJ has 1 tables, 57.1 MB. The largest: dwh_coveo
