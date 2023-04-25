@@ -1,4 +1,0 @@
-The database DEMO_AirPassengers provides simple generated passenger counts by month for use in a forecasting demo.  
-
-Tables:
-- AirPassengers - Row Count: 144

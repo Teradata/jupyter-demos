@@ -1,1 +1,0 @@
-This database contains one table 286,851 selected crime incident records from the Maryland between 2016 and 2022. 

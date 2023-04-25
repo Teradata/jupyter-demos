@@ -1,1 +1,0 @@
-TRNG_FSCustomerJourney has 32 tables, 3.3 MB. The largest: ich_banking, ich_banking_nonchurn_paths_tok, customers

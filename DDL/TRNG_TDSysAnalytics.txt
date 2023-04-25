@@ -1,1 +1,0 @@
-TRNG_TDSysAnalytics has 11 tables, 5.5 MB. The largest: CPU_HIST, USER_HIST, DB_HIST

@@ -1,1 +1,0 @@
-TRNG_TDRetail has 169 tables, 6924.7 MB. The largest: da_vinci_100_serie, SALES_TRANSACTION, SALES_TRANSACTION_STAGING

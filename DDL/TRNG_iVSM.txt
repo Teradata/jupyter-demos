@@ -1,1 +1,0 @@
-TRNG_iVSM has 20 tables, 604 MB. The largest: test_dataset_redistributed, test_dataset, propensitytobuy_models

@@ -1,1 +1,0 @@
-TRNG_EVCarBattery has 10 tables, 2.5 MB. The largest: bom, customers, vehicles

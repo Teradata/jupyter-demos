@@ -1,1 +1,0 @@
-TRNG_APJ_TechSummit21 has 2 tables, 0.3 MB. The largest: diabetic_data, hospital_codes

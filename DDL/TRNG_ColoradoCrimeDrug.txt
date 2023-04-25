@@ -1,1 +1,0 @@
-TRNG_ColoradoCrimeDrug has 17 tables, 20.7 MB. The largest: DUI_ARREST, CRIME, SEIZED_DRUGS

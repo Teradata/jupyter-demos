@@ -1,1 +1,0 @@
-TRNG_PTC has 13 tables, 18.7 MB. The largest: ER_Data_for_Locos, LocoDataCleansed, edr_er_log_8437_0806_08072020

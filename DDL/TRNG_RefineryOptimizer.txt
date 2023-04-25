@@ -1,1 +1,0 @@
-TRNG_RefineryOptimizer has 67 tables, 491.4 MB. The largest: DB250092_RO_SENSOR, DB250092_RO_LAB, DB250092_RO_PRICE

@@ -1,1 +1,0 @@
-TRNG_DataScienceExploration has 11 tables, 76.9 MB. The largest: ROSSMANN_SALES, ROSSMANN_SALES_STG, MOVIE_LENS

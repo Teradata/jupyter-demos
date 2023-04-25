@@ -1,1 +1,0 @@
-TRNG_AP has 7 tables, 1.5 MB. The largest: Accounts, Trans, Customer

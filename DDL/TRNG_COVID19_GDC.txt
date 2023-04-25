@@ -1,1 +1,0 @@
-TRNG_COVID19_GDC has 66 tables, 12.9 MB. The largest: Kaggle_text_covid_19, Kaggle_Text_data_covid_19, All_tag_tweet_text_data

@@ -1,9 +1,0 @@
-The database DEMO_EVCarBattery provides the production of vehicles including the parts and bill of materials. There is a table with the VIN identifiers of cars that reported bad batteries. There is a public cloud dataset at s3.amazonaws.com/trial-datasets/EVCarBattery that has test results of the individual batteries used in the vehicles. 
-
-Tables:
-- BOM - Row Count: 267,408
-- Bad_Batteries - Row Count: 698
-- Dealers - Row Count: 10
-- Mfg_Plants - Row Count: 8
-- Parts - Row Count: 1,759
-- Vehicles - Row Count: 22,273

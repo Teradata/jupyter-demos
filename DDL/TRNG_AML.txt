@@ -1,1 +1,0 @@
-TRNG_AML has 41 tables, 3.5 MB. The largest: transaction_detail, transaction_agg, party_acct

@@ -1,1 +1,0 @@
-TRNG_HealthcareSurgery has 14 tables, 19.3 MB. The largest: healthcarecfilter, healthcare_surgery_events, healthcare_all_paths_tfidf

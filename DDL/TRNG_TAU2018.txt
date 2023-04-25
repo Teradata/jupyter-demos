@@ -1,1 +1,0 @@
-TRNG_TAU2018 has 3 tables, 1.4 MB. The largest: tau_submission, partners2016, partners2014

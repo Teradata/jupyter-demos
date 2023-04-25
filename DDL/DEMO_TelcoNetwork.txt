@@ -1,9 +1,0 @@
-The database DEMO_TelcoNetwork provides information about 
-
-It is used by:
-
-
-Tables:
-- Cell_Towers
-- Cust_Experience
-- Cust_Journey

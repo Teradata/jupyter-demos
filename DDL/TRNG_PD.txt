@@ -1,1 +1,0 @@
-TRNG_PD has 13 tables, 12.5 MB. The largest: EmpPhone, Employee, date_dim

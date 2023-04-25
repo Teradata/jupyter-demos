@@ -1,1 +1,0 @@
-TRNG_KneeReplacement has 2 tables, 18.7 MB. The largest: knee_replacement

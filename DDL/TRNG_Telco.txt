@@ -1,1 +1,0 @@
-TRNG_Telco has 3 tables, 2.6 MB. The largest: telco_events, telco_testing, telco_training

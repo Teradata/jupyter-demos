@@ -1,4 +1,0 @@
-The database DEMO_CreditCard provides information about gender, children, income, family status, occupation. It was used in a notebook to demonstrate preparing data for analysis. 
-
-Tables:
-- Credit_Card - Row count: 50,000

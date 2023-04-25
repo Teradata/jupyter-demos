@@ -1,1 +1,0 @@
-TRNG_TelcoChurn has 50 tables, 68.5 MB. The largest: csi_telco_all_nonchurn_paths_t, telco_cdr_data, csi_telco_data

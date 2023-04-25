@@ -1,1 +1,0 @@
-TRNG_XSP has 34 tables, 39.3 MB. The largest: Transactions, TWMS_Smirnov, TWMS_ShapiroWilkCoefficients

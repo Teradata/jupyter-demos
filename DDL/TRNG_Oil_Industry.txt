@@ -1,1 +1,0 @@
-TRNG_Oil_Industry has 42 tables, 2039.5 MB. The largest: SRFC_SENSOR_PARMS_PPI_FLAT, SRFC_SENSOR_RIG_STATES, ac_monthly

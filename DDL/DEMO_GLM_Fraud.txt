@@ -1,5 +1,0 @@
-The database DEMO_GLM_Fraud transactions with old and new balances and flags to indicate if it had previously been  detected as fraudulent. This is used by GLM_Fraud_Detection notebooks to check the accuracy of a model to predict fraud on a sample based on training a model using the rest of the data. 
-
-Tables:
-- Transaction_Data - Row Count: 63,626
-

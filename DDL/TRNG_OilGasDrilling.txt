@@ -1,1 +1,0 @@
-TRNG_OilGasDrilling has 13 tables, 34.2 MB. The largest: Srfc_Sensor_Parms_PPI_Flat_Rig, Srfc_Sensor_Parms_PPI_Flat, DDaaS_Survey_Logs

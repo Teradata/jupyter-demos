@@ -1,1 +1,0 @@
-TRNG_IdentityMatch has 2 tables, 0.3 MB. The largest: REF_GOLDEN_CUST, AC_CUSTOMER_EXTERNAL_DATA

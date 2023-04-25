@@ -1,1 +1,0 @@
-TRNG_GamingSessions has 10 tables, 2 MB. The largest: gaming_events_sessions_similar, gaming_events_sessions_simil, gaming_events_sessions_simil_d

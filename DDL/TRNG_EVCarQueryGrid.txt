@@ -1,1 +1,0 @@
-TRNG_EVCarQueryGrid has 9 tables, 2.5 MB. The largest: bom, customers, vehicles

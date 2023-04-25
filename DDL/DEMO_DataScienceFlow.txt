@@ -1,7 +1,0 @@
-The database DEMO_DataScienceFlow provides information about 
-
-It is used by:
-
-
-Tables:
-- Covid_Data

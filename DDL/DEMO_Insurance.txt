@@ -1,7 +1,0 @@
-The database DEMO_Insurance begins with the contents of Policy_Details_org which has basic data about policy_ID, Customer_ID, car, start data, premium, and state. It then synthesizes claims and temporal policy tables. 
-
-Tables:
-- Insurance_Claims_Details - Row Count: 69                                
-- Policy_Bitemp - Row Count: 706                                   
-- Policy_Details - Row Count: 2,958                                             
-- Policy_Details_org - Row Count: 2,958
