@@ -1,51 +1,438 @@
-<b style = 'font-size:28px;font-family:Arial;color:#E37C4D'>ClearScape Analytics Demonstrations via Jupyter</b><img id=Teradata-logo src="https://www.teradata.com/Teradata/Images/Rebrand/Teradata_logo-two_color.png" alt="Teradata" width="220" align="right" />
+<img id=Teradata-logo src="./images/CSAE_Header.png" alt="Teradata" width="100%"  /><br>
+# ClearScape Analytics™ Demonstrations via Jupyter
  
-These demonstrations will walk you through the industry - leading functionality of 
-Vantage Analytics. This product can analyze data from cloud storage, ingest data from streaming services,
-import data for high performance tactical queries, and work seamlessly with cloud native analytics.
+Welcome to ClearScape Analytics Experience.  This service consists of [multiple demonstrations](#Table-of-Contents) of the industry leading in-database analytics that **you can run on your own**. You can modify them or use them as examples to use with your own tools against our data or small (not sensitive) data you upload. Each notebook will: 
+- describe the business situation, 
+- will attach the needed data from the cloud, and  
+- walk you step-by-step through the use of the ClearScape Analytics functionality. 
 
-[![View Video](images/Movie_icon.png)](./GettingStarted/Videos/Intro_to_ClearScape_and_Jupyter.ipynb)
-[... Video Introduction to ClearScape Analytics Experience](./GettingStarted/Videos/Intro_to_ClearScape_and_Jupyter.ipynb) 
-. . . . . . . . . Need help? Have comments or feedback?
-[ ... click to send e-mail](mailto:SC230208@teradata.com?subject=ClearScape%20Analytics%20Jupyter%20Question)
-<br>
-[![View Video](images/Movie_icon.png)](./GettingStarted/Videos/How_to_Share_Demos.ipynb)
-[... Submit your Demo to ClearScape Analytics Experience](./GettingStarted/Videos/How_to_Share_Demos.ipynb) 
+These are <u>functional</u> demonstrations executed on a tiny platform with small data, but the same functionality is available on all of our platforms up to one with hundreds of nodes and petabytes of data. ClearScape Analytics allows you to apply AI, ML and advanced statistics to your data without the cost and complexity of exporting data. You can develop sophisticated models on other platforms with your favorite tools and import those models to execute in production at massive scale.
+
+If you've never used Jupyter before, we strongly recommend you consider looking at the **First Time User** section of **Getting Started**. You'll find an [**introduction video**](./Getting_Started/Introduction_Video/Introduction_Video_SQL.ipynb) with tips on using this platform. If you have questions or issues, [**click here**](mailto:SC230208@teradata.com?subject=ClearScape%20Analytics%20Jupyter%20Question) to send an e-mail to ClearScape Analytics Support.<br><br> 
+
+---
+
+## Table of Contents
+*Items in italics are coming soon.*
+
+|Getting Started| Industries| Functionality|3rd Party Tools|
+|-----------|--------------|---------------|--------------- |
+|[**First Time User**](#First-Time-User)|[Automotive](#Automotive)|[Data Preparation](#Data-Preparation)|[Dataiku](#Dataiku)|
+|[General Usage Information](#General-Usage-Information)|[Energy & Natural Resources](#Energy-&-Natural-Resources)|[Descriptive Statistics](#Descriptive-Statistics)|*Microsoft PowerBI*|
+| |[Financial](#Financial)|*Feature Engineering*|*MicroStrategy*|
+| |[Healthcare](#Healthcare)|[Geospatial](#Geospatial)|*SAP Business Objects*|
+| |[Manufacturing](#Manufacturing)|[Hypothesis testing](#Hypothesis-testing)|*SAS*|
+| |[Retail](#Retail)|[Machine learning](#Machine-learning)|*Tableau*|
+| |[Telco](#Telco)|*ModelOps*|*Vertex*|
+| |[Travel & Transportation](#Travel-&-Transportation)|[Object Storage](#Object-Storage)| |
+| | |[Open-and-connected analytics](#Open-and-connected-analytics)| |
+| | |[Path Analytics](#Path-Analytics)| |
+| | |[Text Analysis](#Text-Analysis)| |
+| | |[Time series analytics](#Time-series-analytics)| |
 
 
 
-If you haven't used Jupyter before, please check out the notebooks under 'Jupyter Usage'.<br><br>
-<b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Data Dictionary</b>
-<br>All of the demonstrations will cite what database is needed. The Data Dictionary Notebook is an index to 
-all of the databases and provides selections to either run the demonstrations from Cloud Object Storage as foreign tables or import the data to local Teradata Tables. You can also use the data with your own tools.
-* [Data Dictionary](UseCases/Data_Dictionary/Data_Dictionary.ipynb)
+---
 
-<b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Jupyter Usage</b>
-* [Basic Jupyter Usage](Menus/Basic_Jupyter_Usage.md)
-* [Data Loading](Menus/Data_Loading.md)
-* [Showing Results](Menus/Showing_Results.md)
+## Getting Started
 
-<b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Industry Demos</b>
-* [Communication](Menus/Communication.md)
-* [Financial Services](Menus/Financial_Services.md)
-* [Healthcare](Menus/Healthcare.md)
-* [Manufacturing](Menus/Manufacturing.md)
-* [Retail](Menus/Retail.md)
-* [Travel & Transportation](Menus/Travel_&_Transportation.md)
 
-<b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Vantage Functions</b>
-* [Analytic Function](Menus/Analytic_Function.md)
-* [Analytics Library](Menus/Analytics_Library.md)
-* [4D Analytics](Menus/4D_Analytics.md)
-* [Geospatial](Menus/Geospatial.md)
-* [Machine Learning](Menus/Machine_Learning.md)
-* [Cloud Object Store (via NOS)](Menus/Cloud_Object_Store_(via_NOS).md)
-* [Path Analysis](Menus/Path_Analysis.md)
-* [TimeSeries](Menus/TimeSeries.md)
-* [Temporal](Menus/Temporal.md)
+### First Time User
 
-<b style = 'font-size:16px;font-family:Arial;color:#E37C4D'>Partner Tools</b>
-* [AI tools](Menus/AI_tools.md)
-* [BI Tools](Menus/BI_Tools.md)
- 
-Copyright © 2022 Teradata Corporation
+[**Introduction Video**](./Getting_Started/Introduction_Video/Introduction_Video_SQL.ipynb)<br>
+Video description how to find demos in the index and folder view, tips on running demos and options for foreign vs local tables used in the demonstrations in your ClearScape Analytics environment.
+
+[Basic Jupyter Navigation](./Getting_Started/Basic_Jupyter_Navigation/Basic_Jupyter_Navigation_SQL.ipynb)<br>
+When running a Jupyter Notebook, there are various indicators that show what is happening. This is a guide to those indicators.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### General Usage Information
+
+[SQL Basics in Jupyter](./Getting_Started/SQL_Basics_in_Jupyter/SQL_Basics_in_Jupyter_SQL.ipynb)<br>
+This guide will walk you through writing your first SQL queries in Jupyter.  It uses some of the Vantage system tables as a source for the queries.
+
+[teradataml Python Basics](./Getting_Started/teradataml_Python_Basics/teradataml_Python_Basics_Python.ipynb)<br>
+Introduction to Teradataml package for Python including connecting to Vantage, Teradata DataFrames, data manipulation and export to Pandas.
+
+[Intro to Python Pandas](./Getting_Started/Intro_to_Python_Pandas/Intro_to_Python_Pandas_Python.ipynb)<br>
+Provides step-by-step instructions on the basics of using Python Pandas with Jupyter notebooks.
+
+[Charting and  Visualization](./Getting_Started/Charting_and_Visualization/Charting_and__Visualization_SQL.ipynb)<br>
+Data from queries is brought to life with graphics and charts. This shows how to use the %chart magic command to display results.
+
+[VAL Overview](./UseCases/Vantage_Analytics_Library/VAL_Overview_SQL.ipynb)<br>
+Vantage Analytics Library (VAL) is a set of over 50 functions for advanced analytics. This provides an overview and links to an 8 minute video overview.
+
+[Data Dictionary](./UseCases/Data_Dictionary/Data_Dictionary.ipynb)<br>
+This provides an index to all of the databases used by demo notebooks on this machine, allowing you to use that data for your own notebooks or BI tools.
+
+[How to Submit Your Demos](./Getting_Started/How_to_Submit_Your_Demos/How_to_Submit_Your_Demos.ipynb)<br>
+It is very easy to submit your demo for publication. Tell us directory with the notebook and referenced files and grant us access to your database.  We'll take it from there.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+---
+
+## Industries
+
+
+### Automotive
+
+[Battery Defect Analysis](./UseCases/Battery_Defect_Analysis/Battery_Defect_Analysis_PY_SQL.ipynb)<br>
+Uses local data (or foreign tables on GCP) to analyze patterns of battery failure, then links to data on AWS for detailed battery measurement.
+
+[Geospatial Analysis of Car Complaints](./UseCases/Car_Complaints/Car_Complaints.ipynb)<br>
+Uses multi-level outlier detection and geolocation of complaints to highlight cases for special attention.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Energy & Natural Resources
+
+[Energy Consumption Forecasting](./UseCases/Energy_Consumption_Forecasting/Energy_Consumption_Forecasting_Python.ipynb)<br>
+This combines machine learning and BYOM to forecast energy consumption using Vantage to score the model at scale without having to export all data.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Financial
+
+[Banking Customer Churn](./UseCases/Banking_Customer_Churn/Banking_Customer_Churn_Python.ipynb)<br>
+Uses a combination of Vantage Analytics Library to prepare data, using machine learning in python and importing the resulting PMML model into Vantage for scoring.
+
+[Consumer Complaints](./UseCases/Consumer_Complaints/Consumer_Complaints_SQL.ipynb)<br>
+Uses government consumer complaint data with SQL queries and visualizations to identify source of top complaints.
+
+[Credit Card Data Preparation](./UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_SQL.ipynb)<br>
+This shows the use of ClearScape analytics to reduce the pre-processing effort of incoming raw credit card data to prepare for analysis of potential loan defaulters.
+
+[Financial Customer Journey](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb)<br>
+Uses analytic techniques to find new customers, measure marketing attribution, and maximizing marketing effectiveness
+
+[Financial transaction Fraud Detection](./UseCases/GLM_Fraud_Detection_InDB/GLM_Fraud_Detection_InDB.ipynb)<br>
+Demonstration of Data Science Flow for fraud detection in financial institutions.
+
+[Fraud Detection via BYOM](./UseCases/Fraud_Detection_via_BYOM/Fraud_Detection_via_BYOM_PY_SQL.ipynb)<br>
+Applies BYOM to build fraud detection model in Python and score the model at scale in Vantage without having to export data to another platform.
+
+[Insurance Policy Temporal](./UseCases/Insurance_Policy_Temporal/Insurance_Policy_Temporal_SQL.ipynb)<br>
+Show As-IS/As-Was capabilities of Vantage Temporal to dramatically simplify the SQL and improve performance for analyzing insurance policies versus claims.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Healthcare
+
+[Diabetes Prediction via BYOM H2O](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_BYOM_H2O_PY_SQL.ipynb)<br>
+This uses BYOM to import a trained H2O model to identify potential diabetes patients. BYOM allows the data scientist to create models in languages they prefer and run at scale inside Vantage without moving data.
+
+[Diabetes Prediction via DF and GLM](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_Python.ipynb)<br>
+Decision Forest and Generalized Linear Model are applied to identify factors that indicate diabetes. The earlier the disease is identified, the better the chance of reducing organ damage.
+
+[Heart Survival via TeradataML](./UseCases/SurvivalAnalysis/SurvivalAnalysis_Python.ipynb)<br>
+Machine learning is applied to the complex attributes of patients to help recognize patterns that may lead to heart failure faster than a human may recognize.
+
+[Knee Replacement Attribution](./UseCases/Knee_Replacement/Knee_Replacement_Attribution_SQL.ipynb)<br>
+The ClearScape Analytics Attribution function is used to determine the weight of various events that precede the final outcome, in this example, knee replacement.
+
+[Knee Replacement nPath](./UseCases/Knee_Replacement/Knee_Replacement_nPath_Python.ipynb)<br>
+This uses the ClearScape Analytics nPath® function to provide visuals on the events leading up to the final outcome, in this case, knee replacement.
+
+[Parkinsons Disease Prediction](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_PY_SQL.ipynb)<br>
+This uses analytics to determine which biomedical voice measurements are significant in identifying people potentially with Parkinson's
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Manufacturing
+
+[Battery Defect Analysis](./UseCases/Battery_Defect_Analysis/Battery_Defect_Analysis_PY_SQL.ipynb)<br>
+Uses local data (or foreign tables on GCP) to analyze patterns of battery failure, then links to data on AWS for detailed battery measurement.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Retail
+
+[Broken Digital Journey](./UseCases/Broken_Digital_Journey/Broken_Digital_Journey_Python.ipynb)<br>
+This uses nPath® analysis to show the retail events that prevent the ultimate objective: a purchase.  This uses interactive Sankey diagrams to understand the problems.
+
+[Customer Behavior Analysis](./UseCases/CustomerBehaviorAnalysis/BehavioralAnalysis.ipynb)<br>
+Analysis of customer purchase behavior using nPath® analysis in Python with visualization using Sankey diagrams.
+
+[Deep History via Object Store](./UseCases/Deep_History_via_Object_Store/Deep_History_via_Object_Store_SQL.ipynb)<br>
+This demonstrates integration of local data or foreign tables on GCP and integration across cloud providers to detailed historical sales records on AWS.
+
+[Demand Forecasting](./UseCases/SalesForecasting/SalesForecastARIMA.ipynb)<br>
+This creates an ARIMA time series model based on holidays and merchandising activities impacting store sales for a hypermarket retailer.
+
+[K-Means Clustering and ML model](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_SQL.ipynb)<br>
+This uses the unsupervised K-Means ML algorithm to identify patterns in retail purchases.
+
+[Text Term Frequency (Python)](./UseCases/Text_Term_Frequency/Text_Term_Frequency_Python.ipynb)<br>
+Use Ngram splitter within Python to analyze comments  retail products to determine patterns of words used to describe products
+
+[Text Term Frequency (Python-Sql)](./UseCases/Text_Term_Frequency/Text_Term_Frequency_PY_SQL.ipynb)<br>
+Use Ngram splitter within Python to analyze comments  retail products to determine patterns of words used to describe products
+
+[Text Term Frequency (SQL)](./UseCases/Text_Term_Frequency/Text_Term_Frequency_SQL.ipynb)<br>
+Use NGram splitter to analyze comments  retail products to determine patterns of words used to describe products.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Telco
+
+[Telco Customer Churn](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_PY_SQL.ipynb)<br>
+This uses logistic regression for supervised learning to predict the probability of a customer switching vendors based on usage patterns, billing information demographics and interactions. XGBoost is then used in database to improve the prediction.
+
+[Telco Network Coverage](./UseCases/Telco_Network_Coverage/Telco_Network_Coverage_PY_SQL.ipynb)<br>
+Demonstrates the ability of Geospatial to show signal strength, coverage areas and travel path of customers through cell tower coverage area.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Travel & Transportation
+
+[4D Analytics on bike sharing](./UseCases/4D_Analytics_on_bike_sharing/4D_Analytics_on_bike_sharing_SQL.ipynb)<br>
+Demonstration of Geospatial and TimeSeries using Austin bike trip data between 2014 and 2017.
+
+[Air Passenger Forecasting](./UseCases/Air_Passenger_Forecasting/Air_Passenger_Forecasting_SQL.ipynb)<br>
+Applies Auto Regressive Integrated Moving Average (ARIMA) analysis to forecast airplane passenger volume.
+
+[NYC Taxi Geospatial](./UseCases/NYC_Taxi/NYC_Taxi_Geospatial_PY_SQL.ipynb)<br>
+Applies geospatial functions to analysis of NYC Taxi pickups and drop off locations.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+---
+
+## Functionality
+
+
+### Data Preparation
+
+[Credit Card Data Preparation](./UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_SQL.ipynb)<br>
+This shows the use of ClearScape analytics to reduce the pre-processing effort of incoming raw credit card data to prepare for analysis of potential loan defaulters.
+
+[Data Prep and Transformation](./UseCases/Data_Prep_and_Transformation/Data_Prep_and_Transformation_PY_SQL.ipynb)<br>
+This demonstrates a subset of the over 100 analytic functions in the teradataml package for Python
+
+[Outlier Analysis](./UseCases/Outlier_Analysis/Outlier_Analysis_SQL.ipynb)<br>
+Outliers in an analysis skew the results and make it difficult to recognize the main patterns. ClearScape Analytics has tools to remove outliers automatically.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Descriptive Statistics
+
+[VAL Descriptive Statistics](./UseCases/Vantage_Analytics_Library/VAL_Descriptive_Statistics_SQL.ipynb)<br>
+This performs in-database analysis of data values, distribution, histograms, and text field analysis using SQL to access the Vantage Analytics Library.
+
+[VAL teradataml Demo](./UseCases/Vantage_Analytics_Library/VAL_teradataml_Demo_Python.ipynb)<br>
+Demonstrated the use of Teradataml in Python to perform descriptive statistics, transformation, model building model evaluation and scoring.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Feature Engineering
+
+*Comming soon*
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Geospatial
+
+[4D Analytics on bike sharing](./UseCases/4D_Analytics_on_bike_sharing/4D_Analytics_on_bike_sharing_SQL.ipynb)<br>
+Demonstration of Geospatial and TimeSeries using Austin bike trip data between 2014 and 2017.
+
+[Geospatial Analysis of Car Complaints](./UseCases/Car_Complaints/Car_Complaints.ipynb)<br>
+Uses multi-level outlier detection and geolocation of complaints to highlight cases for special attention.
+
+[NYC Taxi Geospatial](./UseCases/NYC_Taxi/NYC_Taxi_Geospatial_PY_SQL.ipynb)<br>
+Applies geospatial functions to analysis of NYC Taxi pickups and drop off locations.
+
+[Sensor Data Analytics](./UseCases/Sensor_Data_Analytics/Sensor_Data_Analytics_PY_SQL.ipynb)<br>
+Creative application of geospatial to locations of sensors in  a research lab and integration of data from tables with detailed recordings on cloud storage.
+
+[Telco Network Coverage](./UseCases/Telco_Network_Coverage/Telco_Network_Coverage_PY_SQL.ipynb)<br>
+Demonstrates the ability of Geospatial to show signal strength, coverage areas and travel path of customers through cell tower coverage area.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Hypothesis testing
+
+[VAL Hypothesis Tests](./UseCases/Vantage_Analytics_Library/VAL_Hypothesis_Tests_SQL.ipynb)<br>
+This demonstrates a subset of the 18 hypothesis test in the Vantage Analytics library  using SQL such as Parametric, Binomial, Kolmogorov/Smirnoff, Rank, etc.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Machine learning
+
+[Banking Customer Churn](./UseCases/Banking_Customer_Churn/Banking_Customer_Churn_Python.ipynb)<br>
+Uses a combination of Vantage Analytics Library to prepare data, using machine learning in python and importing the resulting PMML model into Vantage for scoring.
+
+[Diabetes Prediction via DF and GLM](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_Python.ipynb)<br>
+Decision Forest and Generalized Linear Model are applied to identify factors that indicate diabetes. The earlier the disease is identified, the better the chance of reducing organ damage.
+
+[Financial transaction Fraud Detection](./UseCases/GLM_Fraud_Detection_InDB/GLM_Fraud_Detection_InDB.ipynb)<br>
+Demonstration of Data Science Flow for fraud detection in financial institutions.
+
+[Heart Survival via TeradataML](./UseCases/SurvivalAnalysis/SurvivalAnalysis_Python.ipynb)<br>
+Machine learning is applied to the complex attributes of patients to help recognize patterns that may lead to heart failure faster than a human may recognize.
+
+[K-Means Clustering and ML model](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_SQL.ipynb)<br>
+This uses the unsupervised K-Means ML algorithm to identify patterns in retail purchases.
+
+[Parkinsons Disease Prediction](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_PY_SQL.ipynb)<br>
+This uses analytics to determine which biomedical voice measurements are significant in identifying people potentially with Parkinson's
+
+[Telco Customer Churn](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_PY_SQL.ipynb)<br>
+This uses logistic regression for supervised learning to predict the probability of a customer switching vendors based on usage patterns, billing information demographics and interactions. XGBoost is then used in database to improve the prediction.
+
+[VAL Analytics and ML](./UseCases/Vantage_Analytics_Library/VAL_Analytics_and_ML_SQL.ipynb)<br>
+Demonstration of Vantage Analytic Library scoring and analytic functions like linear regression, decision trees, K-Means clustering, Factor Analysis, etc.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### ModelOps
+
+*Comming soon*
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Object Storage
+
+[Battery Defect Analysis](./UseCases/Battery_Defect_Analysis/Battery_Defect_Analysis_PY_SQL.ipynb)<br>
+Uses local data (or foreign tables on GCP) to analyze patterns of battery failure, then links to data on AWS for detailed battery measurement.
+
+[Deep History via Object Store](./UseCases/Deep_History_via_Object_Store/Deep_History_via_Object_Store_SQL.ipynb)<br>
+This demonstrates integration of local data or foreign tables on GCP and integration across cloud providers to detailed historical sales records on AWS.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Open-and-connected analytics
+
+[Banking Customer Churn](./UseCases/Banking_Customer_Churn/Banking_Customer_Churn_Python.ipynb)<br>
+Uses a combination of Vantage Analytics Library to prepare data, using machine learning in python and importing the resulting PMML model into Vantage for scoring.
+
+[Dataiku](./UseCases/Dataiku/Dataiku.ipynb)<br>
+Discusses how the 3rd party tool DataIku can be used with Vantage.
+
+[Diabetes Prediction via BYOM H2O](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_BYOM_H2O_PY_SQL.ipynb)<br>
+This uses BYOM to import a trained H2O model to identify potential diabetes patients. BYOM allows the data scientist to create models in languages they prefer and run at scale inside Vantage without moving data.
+
+[Energy Consumption Forecasting](./UseCases/Energy_Consumption_Forecasting/Energy_Consumption_Forecasting_Python.ipynb)<br>
+This combines machine learning and BYOM to forecast energy consumption using Vantage to score the model at scale without having to export all data.
+
+[Fraud Detection via BYOM](./UseCases/Fraud_Detection_via_BYOM/Fraud_Detection_via_BYOM_PY_SQL.ipynb)<br>
+Applies BYOM to build fraud detection model in Python and score the model at scale in Vantage without having to export data to another platform.
+
+[teradataml Python Basics](./Getting_Started/teradataml_Python_Basics/teradataml_Python_Basics_Python.ipynb)<br>
+Introduction to Teradataml package for Python including connecting to Vantage, Teradata DataFrames, data manipulation and export to Pandas.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Path Analytics
+
+[Broken Digital Journey](./UseCases/Broken_Digital_Journey/Broken_Digital_Journey_Python.ipynb)<br>
+This uses nPath® analysis to show the retail events that prevent the ultimate objective: a purchase.  This uses interactive Sankey diagrams to understand the problems.
+
+[Customer Behavior Analysis](./UseCases/CustomerBehaviorAnalysis/BehavioralAnalysis.ipynb)<br>
+Analysis of customer purchase behavior using nPath® analysis in Python with visualization using Sankey diagrams.
+
+[Financial Customer Journey](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb)<br>
+Uses analytic techniques to find new customers, measure marketing attribution, and maximizing marketing effectiveness
+
+[Knee Replacement Attribution](./UseCases/Knee_Replacement/Knee_Replacement_Attribution_SQL.ipynb)<br>
+The ClearScape Analytics Attribution function is used to determine the weight of various events that precede the final outcome, in this example, knee replacement.
+
+[Knee Replacement nPath](./UseCases/Knee_Replacement/Knee_Replacement_nPath_Python.ipynb)<br>
+This uses the ClearScape Analytics nPath® function to provide visuals on the events leading up to the final outcome, in this case, knee replacement.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Text Analysis
+
+[Text Term Frequency (Python)](./UseCases/Text_Term_Frequency/Text_Term_Frequency_Python.ipynb)<br>
+Use Ngram splitter within Python to analyze comments  retail products to determine patterns of words used to describe products
+
+[Text Term Frequency (Python-Sql)](./UseCases/Text_Term_Frequency/Text_Term_Frequency_PY_SQL.ipynb)<br>
+Use Ngram splitter within Python to analyze comments  retail products to determine patterns of words used to describe products
+
+[Text Term Frequency (SQL)](./UseCases/Text_Term_Frequency/Text_Term_Frequency_SQL.ipynb)<br>
+Use NGram splitter to analyze comments  retail products to determine patterns of words used to describe products.
+
+[VAL Descriptive Statistics](./UseCases/Vantage_Analytics_Library/VAL_Descriptive_Statistics_SQL.ipynb)<br>
+This performs in-database analysis of data values, distribution, histograms, and text field analysis using SQL to access the Vantage Analytics Library.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Time series analytics
+
+[Air Passenger Forecasting](./UseCases/Air_Passenger_Forecasting/Air_Passenger_Forecasting_SQL.ipynb)<br>
+Applies Auto Regressive Integrated Moving Average (ARIMA) analysis to forecast airplane passenger volume.
+
+[Carbon Footprint Analytics](./UseCases/Carbon_Footprint_Analytics/Carbon_Footprint_Analytics_PY_SQL.ipynb)<br>
+A key component of ESG is Carbon Footprint. This demonstrates a part of a solution available from Teradata to integrate multiple data sources to calculate carbon footprint of various corporate activities.
+
+[Consumer Complaints](./UseCases/Consumer_Complaints/Consumer_Complaints_SQL.ipynb)<br>
+Uses government consumer complaint data with SQL queries and visualizations to identify source of top complaints.
+
+[Demand Forecasting](./UseCases/SalesForecasting/SalesForecastARIMA.ipynb)<br>
+This creates an ARIMA time series model based on holidays and merchandising activities impacting store sales for a hypermarket retailer.
+
+[Energy Consumption Forecasting](./UseCases/Energy_Consumption_Forecasting/Energy_Consumption_Forecasting_Python.ipynb)<br>
+This combines machine learning and BYOM to forecast energy consumption using Vantage to score the model at scale without having to export all data.
+
+[Fourier Transforms](./UseCases/Fourier_Transforms/Fourier_Transforms_SQL.ipynb)<br>
+Fourier transformations are demonstrated to filter out noise from signals to allow identification of underlying patterns.
+
+[Insurance Policy Temporal](./UseCases/Insurance_Policy_Temporal/Insurance_Policy_Temporal_SQL.ipynb)<br>
+Show As-IS/As-Was capabilities of Vantage Temporal to dramatically simplify the SQL and improve performance for analyzing insurance policies versus claims.
+
+[NYC Taxi Temporal](./UseCases/NYC_Taxi/NYC_Taxi_Temporal_SQL.ipynb)<br>
+Time series data can answer the questions about what was happening at a point in time. This applies Time series and temporal capabilities  of vantage to NYC taxi data.
+
+[Vantage Query Log Analysis](./UseCases/Vantage_Query_Log_Analysis/Vantage_Query_Log_Analysis_SQL.ipynb)<br>
+Analysis of sessions and queries  you executed using the built-in logging facilities of Vantage.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+---
+
+## 3rd Party Tools
+
+
+### Dataiku
+
+[Dataiku](./UseCases/Dataiku/Dataiku.ipynb)<br>
+Discusses how the 3rd party tool DataIku can be used with Vantage.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Microsoft PowerBI
+
+*Comming soon*
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### MicroStrategy
+
+*Comming soon*
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### SAP Business Objects
+
+*Comming soon*
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### SAS
+
+*Comming soon*
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Tableau
+
+*Comming soon*
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Vertex
+
+*Comming soon*
