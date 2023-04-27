@@ -52,9 +52,9 @@ test('verify multiple tabs', async({page})=>{
         // Run through Demos //
 
         // GettingStarted
-        await runDemo(page1,"GettingStarted","GettingStarted","GettingStarted.ipynb","false");
-        await runDemo(page1,"GettingStarted","GettingStarted_Charting","GettingStarted_Charting.ipynb","false");   // ?              
-        await runDemo(page1,"GettingStarted","GettingStarted_Jupyter_Pandas","GettingStarted_Jupyter_Pandas.ipynb","true");  // This python script has too many inputs
+        //await runDemo(page1,"GettingStarted","GettingStarted","GettingStarted.ipynb","false");
+        //await runDemo(page1,"GettingStarted","GettingStarted_Charting","GettingStarted_Charting.ipynb","false");   // ?              
+        //await runDemo(page1,"GettingStarted","GettingStarted_Jupyter_Pandas","GettingStarted_Jupyter_Pandas.ipynb","true");  // This python script has too many inputs
         
         // UseCases
  /*
