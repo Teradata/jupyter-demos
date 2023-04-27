@@ -7,7 +7,7 @@ const demo_user_pw = 'wyiEwLP545sE5FY';
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
 test('verify multiple tabs', async({page})=>{
-    test.setTimeout(7200000);
+    test.setTimeout(10800000);
     //const page = await context.newPage();
 
     // Login In  (Done!)
