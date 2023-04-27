@@ -37,9 +37,12 @@ test('verify multiple tabs', async({page})=>{
     // Run through Demos //
 
     // GettingStarted
-    await runDemo(page1,"GettingStarted","GettingStarted","GettingStarted.ipynb","false");
-    await runDemo(page1,"GettingStarted","GettingStarted_Charting","GettingStarted_Charting.ipynb","false");      
-    await runDemo(page1,"GettingStarted","SQL_Plugin_Basics","SQL_Plugin_Basics.ipynb","false");  //new
+    //await runDemo(page1,"GettingStarted","GettingStarted","GettingStarted.ipynb","false");
+    //await runDemo(page1,"GettingStarted","GettingStarted_Charting","GettingStarted_Charting.ipynb","false");      
+    //await runDemo(page1,"GettingStarted","SQL_Plugin_Basics","SQL_Plugin_Basics.ipynb","false");  //new
+    await runDemo(page1,"Getting_Started","Basic_Jupyter_Navigation","Basic_Jupyter_Navigation_SQL.ipynb","false");
+    await runDemo(page1,"Getting_Started","Charting_and_Visualization","Charting_and_Visualization_SQL.ipynb","false");
+    await runDemo(page1,"Getting_Started","SQL_Basics_in_Jupyter","SQL_Basics_in_Jupyter_SQL.ipynb","false");
     
     // UseCases
     await runDemo(page1,"UseCases","AirPassengersTimeSeriesForecasting","AirPassengersTimeSeriesForecasting.ipynb","false");
