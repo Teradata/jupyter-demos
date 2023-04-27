@@ -43,8 +43,8 @@ test('verify multiple tabs', async({page})=>{
     // Run through Demos //
 
     // GettingStarted
-    await runDemo(page1,"GettingStarted","GettingStarted_Jupyter_Pandas","GettingStarted_Jupyter_Pandas.ipynb","true");
-    await runDemo(page1,"GettingStarted","Python_Teradataml_Basics","Python_Teradataml_Basics.ipynb","true"); //new
+    await runDemo(page1,"Getting_Started","Intro_to_Python_Pandas","Intro_to_Python_Pandas_Python.ipynb","true");
+    await runDemo(page1,"Getting_Started","teradataml_Python_Basics","teradataml_Python_Basics_Python.ipynb","true"); //new
 
     // UseCases
     await runDemo(page1,"UseCases","BankChurn","BankingChurn.ipynb","true");  // new
