@@ -4,14 +4,6 @@ const password = 'wyiEwLP545sE5FY';
 const demo_user_pw = 'wyiEwLP545sE5FY';
 //const db_pw = 'dbc';
 
-const os = require('os');
-let platform = os.platform();
-let systemNewTabKey;
-if (platform === 'darwin') {
-  systemNewTabKey = 'Meta';
-} else {
-  systemNewTabKey = 'Control';
-}
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
