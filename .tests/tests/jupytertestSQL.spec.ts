@@ -46,13 +46,15 @@ test('verify multiple tabs', async({page})=>{
 
     // GettingStarted
     await runDemo(page1,"GettingStarted","GettingStarted","GettingStarted.ipynb","false");
-    await runDemo(page1,"GettingStarted","GettingStarted_Charting","GettingStarted_Charting.ipynb","false");             
+    await runDemo(page1,"GettingStarted","GettingStarted_Charting","GettingStarted_Charting.ipynb","false");      
+    await runDemo(page1,"GettingStarted","SQL_Plugin_Basics","SQL_Plugin_Basics.ipynb","false");  //new
     
     // UseCases
     await runDemo(page1,"UseCases","AirPassengersTimeSeriesForecasting","AirPassengersTimeSeriesForecasting.ipynb","false");
     await runDemo(page1,"UseCases","AustinBikeShare","AustinBikeShare.ipynb","false");        
     await runDemo(page1,"UseCases","Clustering_KMeans","Clustering_KMeans.ipynb","false");    
     await runDemo(page1,"UseCases","CreditCardFraud","CreditCardFraud.ipynb","false");    
+    await runDemo(page1,"UseCases","DBQLUsage","DBQLUsage.ipynb","false");  // new
     await runDemo(page1,"UseCases","DeepHistory","DeepHistory.ipynb","false");  
     await runDemo(page1,"UseCases","FourierTransform","FourierTransform.ipynb","false");
     await runDemo(page1,"UseCases","FSCustomerJourney","FSCustomerJourney.ipynb","false"); 
