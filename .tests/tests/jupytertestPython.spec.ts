@@ -43,17 +43,24 @@ test('verify multiple tabs', async({page})=>{
     // Run through Demos //
 
     // GettingStarted
-    await runDemo(page1,"GettingStarted","GettingStarted_Jupyter_Pandas","GettingStarted_Jupyter_Pandas.ipynb","true");  
+    await runDemo(page1,"GettingStarted","GettingStarted_Jupyter_Pandas","GettingStarted_Jupyter_Pandas.ipynb","true");
+    await runDemo(page1,"GettingStarted","Python_Teradataml_Basics","Python_Teradataml_Basics.ipynb","true"); //new
 
     // UseCases
+    await runDemo(page1,"UseCases","BankChurn","BankingChurn.ipynb","true");  // new
     await runDemo(page1,"UseCases","BI_Tools","Dataiku.ipynb","true");
     await runDemo(page1,"UseCases","BrokenDigitalEvents","RetailBrokenDigitalJourneysPython.ipynb","true");
+    await runDemo(page1,"UseCases","CarbonFootprintAnalytics","CarbonFootprintAnalytics_pop.ipynb","true");  //new
+    await runDemo(page1,"UseCases","CarbonFootprintAnalytics","CarbonFootprintAnalytics.ipynb","true"); // new
     await runDemo(page1,"UseCases","Consumption_Forecasting_BYOM","Energy_Consumption_Forecasting_BYOM.ipynb","true");
     await runDemo(page1,"UseCases","CustomerBehaviorAnalysis","BehavioralAnalysis.ipynb","true");
     //await runDemo(newPage,"UseCases","Data_Dictionary","Data_Dictionary_Legacy.ipynb","true");   // dismiss for testing - hung up on space allocation
     //await runDemo(page1,"UseCases","Data_Dictionary","Data_Dictionary.ipynb","true");            // dismiss for testing - hung up on space allocation
     await runDemo(page1,"UseCases","DataPrepAndDiscovery","DataPrepAndDiscovery.ipynb","true"); 
     await runDemo(page1,"UseCases","DataScienceFlow","DataScienceFlow.ipynb","true"); 
+    await runDemo(page1,"UseCases","DataScienceFlow","DataScienceFlow.ipynb","true");
+    await runDemo(page1,"UseCases","DiabetesPrediction","Diabetes_Classification_BYOM.ipynb","true");  //new
+    await runDemo(page1,"UseCases","DiabetesPrediction","Diabetes_Classification_DFandGLM.ipynb","true");  //new
     //await runDemo(page1,"UseCases","ESG","ESG_pop.ipynb","true");     // Ignore.  Going away.   Fails on CI, but works running manually
     //await runDemo(page1,"UseCases","ESG","ESG.ipynb","true");         // Fails on CI, but works running manually
     await runDemo(page1,"UseCases","GLM_Fraud_Detection_BYOM","GLM_Fraud_Detection_BYOM.ipynb","true");
