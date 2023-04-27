@@ -69,9 +69,11 @@ test('verify multiple tabs', async({page})=>{
     await runDemo(page1,"UseCases","KneeReplacement","PathAnalysisforTotalKneeReplacement.ipynb","true");
     await runDemo(page1,"UseCases","ManufacturingDefects","ManufacturingDefects.ipynb","true");
     await runDemo(page1,"UseCases","NYC-taxi-4d","NYC-taxi-geospatial-visual.ipynb","true");
+    await runDemo(page1,"UseCases","Parkinsons_Disease","Parkinsons_Disease_Classification.ipynb","true");  //new
     await runDemo(page1,"UseCases","SalesForecasting","SalesForecastARIMA.ipynb","true");
     await runDemo(page1,"UseCases","SurvivalAnalysis","SurvivalAnalysis_Python.ipynb","true");
     await runDemo(page1,"UseCases","Telco_4d_Analytics","telco_network_coverage.ipynb","true");
+    await runDemo(page1,"UseCases","TelcoCustomerChurn","TelcoCustomerChurn.ipynb","true");  //new
     await runDemo(page1,"UseCases","TextProcessing_TF_IDF","TF_IDF_Workflow_Pythonista.ipynb","true");
     await runDemo(page1,"UseCases","TextProcessing_TF_IDF","TF_IDF_Workflow.ipynb","true");
     await runDemo(page1,"UseCases","VantageAnalyticLibrary","VAL-teradataml-Demo.ipynb","true");
