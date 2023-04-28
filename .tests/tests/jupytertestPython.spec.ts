@@ -44,14 +44,13 @@ test('verify multiple tabs', async({page})=>{
 
     // GettingStarted
     await runDemo(page1,"Getting_Started","Intro_to_Python_Pandas","Intro_to_Python_Pandas_Python.ipynb","true");
-    await runDemo(page1,"Getting_Started","teradataml_Python_Basics","teradataml_Python_Basics_Python.ipynb","true"); //new
+    await runDemo(page1,"Getting_Started","teradataml_Python_Basics","teradataml_Python_Basics_Python.ipynb","true"); 
 
     // UseCases
-    await runDemo(page1,"UseCases","BankChurn","BankingChurn.ipynb","true");  // new
-    await runDemo(page1,"UseCases","BI_Tools","Dataiku.ipynb","true");
-    await runDemo(page1,"UseCases","BrokenDigitalEvents","RetailBrokenDigitalJourneysPython.ipynb","true");
-    await runDemo(page1,"UseCases","CarbonFootprintAnalytics","CarbonFootprintAnalytics_pop.ipynb","true");  //new
-    await runDemo(page1,"UseCases","CarbonFootprintAnalytics","CarbonFootprintAnalytics.ipynb","true"); // new
+    await runDemo(page1,"UseCases","Banking_Customer_Churn","Banking_Customer_Churn_Python.ipynb","true");  
+    await runDemo(page1,"UseCases","Battery_Defect_Analysis","Battery_Defect_Analysis_PY_SQL.ipynb","true");
+    await runDemo(page1,"UseCases","Broken_Digital_Journey","Broken_Digital_Journey_Python.ipynb","true");
+    await runDemo(page1,"UseCases","Carbon_Footprint_Analytics","Carbon_Footprint_Analytics_PY_SQL.ipynb","true");      
     await runDemo(page1,"UseCases","Consumption_Forecasting_BYOM","Energy_Consumption_Forecasting_BYOM.ipynb","true");
     await runDemo(page1,"UseCases","CustomerBehaviorAnalysis","BehavioralAnalysis.ipynb","true");
     //await runDemo(newPage,"UseCases","Data_Dictionary","Data_Dictionary_Legacy.ipynb","true");   // dismiss for testing - hung up on space allocation
