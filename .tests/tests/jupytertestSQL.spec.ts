@@ -45,10 +45,10 @@ test('verify multiple tabs', async({page})=>{
     await runDemo(page1,"Getting_Started","SQL_Basics_in_Jupyter","SQL_Basics_in_Jupyter_SQL.ipynb","false");
     
     // UseCases
-    await runDemo(page1,"UseCases","AirPassengersTimeSeriesForecasting","AirPassengersTimeSeriesForecasting.ipynb","false");
-    await runDemo(page1,"UseCases","AustinBikeShare","AustinBikeShare.ipynb","false");        
-    await runDemo(page1,"UseCases","Clustering_KMeans","Clustering_KMeans.ipynb","false");    
-    await runDemo(page1,"UseCases","CreditCardFraud","CreditCardFraud.ipynb","false");    
+    await runDemo(page1,"UseCases","4D_Analytics_on_bike_sharing","4D_Analytics_on_bike_sharing_SQL.ipynb","false");
+    await runDemo(page1,"UseCases","Air_Passenger_Forecasting","Air_Passenger_Forecasting_SQL.ipynb","false"); 
+    await runDemo(page1,"UseCases","Consumer_Complaints","Consumer_Complaints_SQL.ipynb","false"); 
+    await runDemo(page1,"UseCases","Credit_Card_Data_Preparation","Credit_Card_Data_Preparation_SQL.ipynb","false");    
     await runDemo(page1,"UseCases","DBQLUsage","DBQLUsage.ipynb","false");  // new
     await runDemo(page1,"UseCases","DeepHistory","DeepHistory.ipynb","false");  
     await runDemo(page1,"UseCases","FourierTransform","FourierTransform.ipynb","false");
