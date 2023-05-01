@@ -12,6 +12,7 @@ If you've never used Jupyter before, we strongly recommend you consider looking 
 
 ---
 
+
 ## Table of Contents
 *Items in italics are coming soon.*
 
@@ -55,10 +56,10 @@ This guide will walk you through writing your first SQL queries in Jupyter.  It 
 [teradataml Python Basics](./Getting_Started/teradataml_Python_Basics/teradataml_Python_Basics_Python.ipynb)<br>
 Introduction to Teradataml package for Python including connecting to Vantage, Teradata DataFrames, data manipulation and export to Pandas.
 
-[Intro to Python Pandas](./Getting_Started/Intro_to_Python_Pandas/Intro_to_Python_Pandas_Python.ipynb)<br>
+[Intro to Python Pandas](./Getting_Started/Intro_to_Pandas_For_Python/Intro_to_Pandas_For_Python.ipynb)<br>
 Provides step-by-step instructions on the basics of using Python Pandas with Jupyter notebooks.
 
-[Charting and  Visualization](./Getting_Started/Charting_and_Visualization/Charting_and__Visualization_SQL.ipynb)<br>
+[Charting and Visualization](./Getting_Started/Charting_and_Visualization/Charting_and_Visualization_SQL.ipynb)<br>
 Data from queries is brought to life with graphics and charts. This shows how to use the %chart magic command to display results.
 
 [VAL Overview](./UseCases/Vantage_Analytics_Library/VAL_Overview_SQL.ipynb)<br>
@@ -82,9 +83,6 @@ It is very easy to submit your demo for publication. Tell us directory with the 
 [Battery Defect Analysis](./UseCases/Battery_Defect_Analysis/Battery_Defect_Analysis_PY_SQL.ipynb)<br>
 Uses local data (or foreign tables on GCP) to analyze patterns of battery failure, then links to data on AWS for detailed battery measurement.
 
-[Geospatial Analysis of Car Complaints](./UseCases/Car_Complaints/Car_Complaints.ipynb)<br>
-Uses multi-level outlier detection and geolocation of complaints to highlight cases for special attention.
-
 [Back to Table of Contents](#Table-of-Contents)<br>
 
 ### Energy & Natural Resources
@@ -105,11 +103,17 @@ Uses government consumer complaint data with SQL queries and visualizations to i
 [Credit Card Data Preparation](./UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_SQL.ipynb)<br>
 This shows the use of ClearScape analytics to reduce the pre-processing effort of incoming raw credit card data to prepare for analysis of potential loan defaulters.
 
-[Financial Customer Journey](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb)<br>
+[Financial Customer Journey (PY_SQL)](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb)<br>
+From customer acquisition to adoption : various in-database analytics such as attribution and nPath analysis
+
+[Financial Customer Journey (SQL)](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb)<br>
 Uses analytic techniques to find new customers, measure marketing attribution, and maximizing marketing effectiveness
 
-[Financial transaction Fraud Detection](./UseCases/GLM_Fraud_Detection_InDB/GLM_Fraud_Detection_InDB.ipynb)<br>
+[Financial Fraud Detection](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb)<br>
 Demonstration of Data Science Flow for fraud detection in financial institutions.
+
+[Financial Fraud Detection VIA BYOM](./UseCases/Fraud_Detection_via_BYOM/Fraud_Detection_via_BYOM_PY_SQL.ipynb)<br>
+A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.
 
 [Fraud Detection via BYOM](./UseCases/Fraud_Detection_via_BYOM/Fraud_Detection_via_BYOM_PY_SQL.ipynb)<br>
 Applies BYOM to build fraud detection model in Python and score the model at scale in Vantage without having to export data to another platform.
@@ -124,10 +128,7 @@ Show As-IS/As-Was capabilities of Vantage Temporal to dramatically simplify the 
 [Diabetes Prediction via BYOM H2O](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_BYOM_H2O_PY_SQL.ipynb)<br>
 This uses BYOM to import a trained H2O model to identify potential diabetes patients. BYOM allows the data scientist to create models in languages they prefer and run at scale inside Vantage without moving data.
 
-[Diabetes Prediction via DF and GLM](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_Python.ipynb)<br>
-Decision Forest and Generalized Linear Model are applied to identify factors that indicate diabetes. The earlier the disease is identified, the better the chance of reducing organ damage.
-
-[Heart Survival via TeradataML](./UseCases/SurvivalAnalysis/SurvivalAnalysis_Python.ipynb)<br>
+[Heart Survival via TeradataML](./UseCases/Heart_Survival_Analysis/Heart_Survival_Analysis_PY_SQL.ipynb)<br>
 Machine learning is applied to the complex attributes of patients to help recognize patterns that may lead to heart failure faster than a human may recognize.
 
 [Knee Replacement Attribution](./UseCases/Knee_Replacement/Knee_Replacement_Attribution_SQL.ipynb)<br>
@@ -136,15 +137,15 @@ The ClearScape Analytics Attribution function is used to determine the weight of
 [Knee Replacement nPath](./UseCases/Knee_Replacement/Knee_Replacement_nPath_Python.ipynb)<br>
 This uses the ClearScape Analytics nPath® function to provide visuals on the events leading up to the final outcome, in this case, knee replacement.
 
-[Parkinsons Disease Prediction](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_PY_SQL.ipynb)<br>
-This uses analytics to determine which biomedical voice measurements are significant in identifying people potentially with Parkinson's
-
 [Back to Table of Contents](#Table-of-Contents)<br>
 
 ### Manufacturing
 
 [Battery Defect Analysis](./UseCases/Battery_Defect_Analysis/Battery_Defect_Analysis_PY_SQL.ipynb)<br>
 Uses local data (or foreign tables on GCP) to analyze patterns of battery failure, then links to data on AWS for detailed battery measurement.
+
+[Predictive Mantenance](./UseCases/Predictive_Maintenance/Predictive_Maintenance_PY_SQL.ipynb)<br>
+Uses ML functions to predict failures to identify and mitigate potential machine failures before they occur.
 
 [Back to Table of Contents](#Table-of-Contents)<br>
 
@@ -191,9 +192,6 @@ Demonstrates the ability of Geospatial to show signal strength, coverage areas a
 [4D Analytics on bike sharing](./UseCases/4D_Analytics_on_bike_sharing/4D_Analytics_on_bike_sharing_SQL.ipynb)<br>
 Demonstration of Geospatial and TimeSeries using Austin bike trip data between 2014 and 2017.
 
-[Air Passenger Forecasting](./UseCases/Air_Passenger_Forecasting/Air_Passenger_Forecasting_SQL.ipynb)<br>
-Applies Auto Regressive Integrated Moving Average (ARIMA) analysis to forecast airplane passenger volume.
-
 [NYC Taxi Geospatial](./UseCases/NYC_Taxi/NYC_Taxi_Geospatial_PY_SQL.ipynb)<br>
 Applies geospatial functions to analysis of NYC Taxi pickups and drop off locations.
 
@@ -227,19 +225,10 @@ Demonstrated the use of Teradataml in Python to perform descriptive statistics, 
 
 [Back to Table of Contents](#Table-of-Contents)<br>
 
-### Feature Engineering
-
-*Comming soon*
-
-[Back to Table of Contents](#Table-of-Contents)<br>
-
 ### Geospatial
 
 [4D Analytics on bike sharing](./UseCases/4D_Analytics_on_bike_sharing/4D_Analytics_on_bike_sharing_SQL.ipynb)<br>
 Demonstration of Geospatial and TimeSeries using Austin bike trip data between 2014 and 2017.
-
-[Geospatial Analysis of Car Complaints](./UseCases/Car_Complaints/Car_Complaints.ipynb)<br>
-Uses multi-level outlier detection and geolocation of complaints to highlight cases for special attention.
 
 [NYC Taxi Geospatial](./UseCases/NYC_Taxi/NYC_Taxi_Geospatial_PY_SQL.ipynb)<br>
 Applies geospatial functions to analysis of NYC Taxi pickups and drop off locations.
@@ -264,20 +253,20 @@ This demonstrates a subset of the 18 hypothesis test in the Vantage Analytics li
 [Banking Customer Churn](./UseCases/Banking_Customer_Churn/Banking_Customer_Churn_Python.ipynb)<br>
 Uses a combination of Vantage Analytics Library to prepare data, using machine learning in python and importing the resulting PMML model into Vantage for scoring.
 
-[Diabetes Prediction via DF and GLM](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_Python.ipynb)<br>
-Decision Forest and Generalized Linear Model are applied to identify factors that indicate diabetes. The earlier the disease is identified, the better the chance of reducing organ damage.
-
-[Financial transaction Fraud Detection](./UseCases/GLM_Fraud_Detection_InDB/GLM_Fraud_Detection_InDB.ipynb)<br>
+[Financial Fraud Detection](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb)<br>
 Demonstration of Data Science Flow for fraud detection in financial institutions.
 
-[Heart Survival via TeradataML](./UseCases/SurvivalAnalysis/SurvivalAnalysis_Python.ipynb)<br>
+[Financial Fraud Detection VIA BYOM](./UseCases/Fraud_Detection_via_BYOM/Fraud_Detection_via_BYOM_PY_SQL.ipynb)<br>
+A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.
+
+[Heart Survival via TeradataML](./UseCases/Heart_Survival_Analysis/Heart_Survival_Analysis_PY_SQL.ipynb)<br>
 Machine learning is applied to the complex attributes of patients to help recognize patterns that may lead to heart failure faster than a human may recognize.
 
 [K-Means Clustering and ML model](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_SQL.ipynb)<br>
 This uses the unsupervised K-Means ML algorithm to identify patterns in retail purchases.
 
-[Parkinsons Disease Prediction](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_PY_SQL.ipynb)<br>
-This uses analytics to determine which biomedical voice measurements are significant in identifying people potentially with Parkinson's
+[Predictive Mantenance](./UseCases/Predictive_Maintenance/Predictive_Maintenance_PY_SQL.ipynb)<br>
+Uses ML functions to predict failures to identify and mitigate potential machine failures before they occur.
 
 [Telco Customer Churn](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_PY_SQL.ipynb)<br>
 This uses logistic regression for supervised learning to predict the probability of a customer switching vendors based on usage patterns, billing information demographics and interactions. XGBoost is then used in database to improve the prediction.
@@ -285,11 +274,8 @@ This uses logistic regression for supervised learning to predict the probability
 [VAL Analytics and ML](./UseCases/Vantage_Analytics_Library/VAL_Analytics_and_ML_SQL.ipynb)<br>
 Demonstration of Vantage Analytic Library scoring and analytic functions like linear regression, decision trees, K-Means clustering, Factor Analysis, etc.
 
-[Back to Table of Contents](#Table-of-Contents)<br>
-
-### ModelOps
-
-*Comming soon*
+[Vertex AI Integration](./UseCases/Vertex_AI_Integration/Vertex_AI_Integration_Python.ipynb)<br>
+ In this tutorial, we will show how to integrate Vantage Analytics capabilities  in Vertex AI ML Pipelines. Vertix AI is the environment for data scientists to deploy ML models.
 
 [Back to Table of Contents](#Table-of-Contents)<br>
 
@@ -323,6 +309,9 @@ Applies BYOM to build fraud detection model in Python and score the model at sca
 [teradataml Python Basics](./Getting_Started/teradataml_Python_Basics/teradataml_Python_Basics_Python.ipynb)<br>
 Introduction to Teradataml package for Python including connecting to Vantage, Teradata DataFrames, data manipulation and export to Pandas.
 
+[Vertex AI Integration](./UseCases/Vertex_AI_Integration/Vertex_AI_Integration_Python.ipynb)<br>
+ In this tutorial, we will show how to integrate Vantage Analytics capabilities  in Vertex AI ML Pipelines. Vertix AI is the environment for data scientists to deploy ML models.
+
 [Back to Table of Contents](#Table-of-Contents)<br>
 
 ### Path Analytics
@@ -333,7 +322,10 @@ This uses nPath® analysis to show the retail events that prevent the ultimate o
 [Customer Behavior Analysis](./UseCases/CustomerBehaviorAnalysis/BehavioralAnalysis.ipynb)<br>
 Analysis of customer purchase behavior using nPath® analysis in Python with visualization using Sankey diagrams.
 
-[Financial Customer Journey](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb)<br>
+[Financial Customer Journey (PY_SQL)](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb)<br>
+From customer acquisition to adoption : various in-database analytics such as attribution and nPath analysis
+
+[Financial Customer Journey (SQL)](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb)<br>
 Uses analytic techniques to find new customers, measure marketing attribution, and maximizing marketing effectiveness
 
 [Knee Replacement Attribution](./UseCases/Knee_Replacement/Knee_Replacement_Attribution_SQL.ipynb)<br>
@@ -361,9 +353,6 @@ This performs in-database analysis of data values, distribution, histograms, and
 [Back to Table of Contents](#Table-of-Contents)<br>
 
 ### Time series analytics
-
-[Air Passenger Forecasting](./UseCases/Air_Passenger_Forecasting/Air_Passenger_Forecasting_SQL.ipynb)<br>
-Applies Auto Regressive Integrated Moving Average (ARIMA) analysis to forecast airplane passenger volume.
 
 [Carbon Footprint Analytics](./UseCases/Carbon_Footprint_Analytics/Carbon_Footprint_Analytics_PY_SQL.ipynb)<br>
 A key component of ESG is Carbon Footprint. This demonstrates a part of a solution available from Teradata to integrate multiple data sources to calculate carbon footprint of various corporate activities.
@@ -400,39 +389,3 @@ Analysis of sessions and queries  you executed using the built-in logging facili
 
 [Dataiku](./UseCases/Dataiku/Dataiku.ipynb)<br>
 Discusses how the 3rd party tool DataIku can be used with Vantage.
-
-[Back to Table of Contents](#Table-of-Contents)<br>
-
-### Microsoft PowerBI
-
-*Comming soon*
-
-[Back to Table of Contents](#Table-of-Contents)<br>
-
-### MicroStrategy
-
-*Comming soon*
-
-[Back to Table of Contents](#Table-of-Contents)<br>
-
-### SAP Business Objects
-
-*Comming soon*
-
-[Back to Table of Contents](#Table-of-Contents)<br>
-
-### SAS
-
-*Comming soon*
-
-[Back to Table of Contents](#Table-of-Contents)<br>
-
-### Tableau
-
-*Comming soon*
-
-[Back to Table of Contents](#Table-of-Contents)<br>
-
-### Vertex
-
-*Comming soon*
