@@ -41,42 +41,35 @@ test('verify multiple tabs', async({page})=>{
     await page1.waitForSelector('text=ClearScape Analytics Demonstrations via Jupyter');
 
     // Run through Demos //
-
-    // GettingStarted
-    await runDemo(page1,"Getting_Started","Intro_to_Python_Pandas","Intro_to_Python_Pandas_Python.ipynb","true");
-    await runDemo(page1,"Getting_Started","teradataml_Python_Basics","teradataml_Python_Basics_Python.ipynb","true"); 
-
-    // UseCases
-    await runDemo(page1,"UseCases","Banking_Customer_Churn","Banking_Customer_Churn_Python.ipynb","true");  
+    // Note: To get a list of latest Demos, go to Jupyter Lab, Menu -> File -> New _> Terminal 
+    // Then run the following commands to get the list of Python Kernel demos: 
+    //      find . -name '*.ipynb' | grep -v checkpoint | grep -i python
+    //      find . -name '*.ipynb' | grep -v checkpoint | grep -i py_sql
+    // To Copy results, use Ctrl+C to Copy, then Ctrl+V to paste
+    
+    await runDemo(page1,"UseCases","Fraud_Detection_via_BYOM","Fraud_Detection_via_BYOM_PY_SQL.ipynb","true");
+    await runDemo(page1,"UseCases","Data_Prep_and_Transformation","Data_Prep_and_Transformation_PY_SQL.ipynb","true");
+    await runDemo(page1,"UseCases","Telco_Customer_Churn","Telco_Customer_Churn_PY_SQL.ipynb","true");
+    await runDemo(page1,"UseCases","Parkinsons_Disease_Prediction","Parkinsons_Disease_Prediction_PY_SQL.ipynb","true");
+    await runDemo(page1,"UseCases","Carbon_Footprint_Analytics","Carbon_Footprint_Analytics_PY_SQL.ipynb","true");
+    await runDemo(page1,"UseCases","NYC_Taxi","NYC_Taxi_Geospatial_PY_SQL.ipynb","true");
+    await runDemo(page1,"UseCases","Text_Term_Frequency","Text_Term_Frequency_PY_SQL.ipynb","true");
+    await runDemo(page1,"UseCases","Sensor_Data_Analytics","Sensor_Data_Analytics_PY_SQL.ipynb","true");
+    await runDemo(page1,"UseCases","Diabetes_Prediction","Diabetes_Prediction_via_BYOM_H2O_PY_SQL.ipynb","true");
     await runDemo(page1,"UseCases","Battery_Defect_Analysis","Battery_Defect_Analysis_PY_SQL.ipynb","true");
-    await runDemo(page1,"UseCases","Broken_Digital_Journey","Broken_Digital_Journey_Python.ipynb","true");
-    await runDemo(page1,"UseCases","Carbon_Footprint_Analytics","Carbon_Footprint_Analytics_PY_SQL.ipynb","true");      
-    await runDemo(page1,"UseCases","Consumption_Forecasting_BYOM","Energy_Consumption_Forecasting_BYOM.ipynb","true");
-    await runDemo(page1,"UseCases","CustomerBehaviorAnalysis","BehavioralAnalysis.ipynb","true");
-    //await runDemo(newPage,"UseCases","Data_Dictionary","Data_Dictionary_Legacy.ipynb","true");   // dismiss for testing - hung up on space allocation
-    //await runDemo(page1,"UseCases","Data_Dictionary","Data_Dictionary.ipynb","true");            // dismiss for testing - hung up on space allocation
-    await runDemo(page1,"UseCases","DataPrepAndDiscovery","DataPrepAndDiscovery.ipynb","true"); 
-    await runDemo(page1,"UseCases","DataScienceFlow","DataScienceFlow.ipynb","true"); 
-    await runDemo(page1,"UseCases","DataScienceFlow","DataScienceFlow.ipynb","true");
-    await runDemo(page1,"UseCases","DiabetesPrediction","Diabetes_Classification_BYOM.ipynb","true");  //new
-    await runDemo(page1,"UseCases","DiabetesPrediction","Diabetes_Classification_DFandGLM.ipynb","true");  //new
-    //await runDemo(page1,"UseCases","ESG","ESG_pop.ipynb","true");     // Ignore.  Going away.   Fails on CI, but works running manually
-    //await runDemo(page1,"UseCases","ESG","ESG.ipynb","true");         // Fails on CI, but works running manually
-    await runDemo(page1,"UseCases","GLM_Fraud_Detection_BYOM","GLM_Fraud_Detection_BYOM.ipynb","true");
-    await runDemo(page1,"UseCases","GLM_Fraud_Detection_InDB","GLM_Fraud_Detection_InDB.ipynb","true");
-    await runDemo(page1,"UseCases","IndoorSensor","IndoorSensor.ipynb","true");
-    await runDemo(page1,"UseCases","KneeReplacement","PathAnalysisforTotalKneeReplacement.ipynb","true");
-    await runDemo(page1,"UseCases","ManufacturingDefects","ManufacturingDefects.ipynb","true");
-    await runDemo(page1,"UseCases","NYC-taxi-4d","NYC-taxi-geospatial-visual.ipynb","true");
-    await runDemo(page1,"UseCases","Parkinsons_Disease","Parkinsons_Disease_Classification.ipynb","true");  //new
-    await runDemo(page1,"UseCases","SalesForecasting","SalesForecastARIMA.ipynb","true");
+    await runDemo(page1,"UseCases","Telco_Network_Coverage","Telco_Network_Coverage_PY_SQL.ipynb","true");
     await runDemo(page1,"UseCases","SurvivalAnalysis","SurvivalAnalysis_Python.ipynb","true");
-    await runDemo(page1,"UseCases","Telco_4d_Analytics","telco_network_coverage.ipynb","true");
-    await runDemo(page1,"UseCases","TelcoCustomerChurn","TelcoCustomerChurn.ipynb","true");  //new
-    await runDemo(page1,"UseCases","TextProcessing_TF_IDF","TF_IDF_Workflow_Pythonista.ipynb","true");
-    await runDemo(page1,"UseCases","TextProcessing_TF_IDF","TF_IDF_Workflow.ipynb","true");
-    await runDemo(page1,"UseCases","VantageAnalyticLibrary","VAL-teradataml-Demo.ipynb","true");
-    await runDemo(page1,"UseCases","vertex_pipelines_housing_example-BYOM","vertex_pipelines_housing_example-BYOM.ipynb","true");
+    await runDemo(page1,"UseCases","Banking_Customer_Churn","Banking_Customer_Churn_Python.ipynb","true");
+    await runDemo(page1,"UseCases","Vertex_AI_Integration","Vertex_AI_Integration_Python.ipynb","true");
+    await runDemo(page1,"UseCases","Text_Term_Frequency","Text_Term_Frequency_Python.ipynb","true");
+    await runDemo(page1,"UseCases","Diabetes_Prediction","Diabetes_Prediction_via_DF_and_GLM_Python.ipynb","true");
+    await runDemo(page1,"UseCases","Knee_Replacement","Knee_Replacement_nPath_Python.ipynb","true");
+    await runDemo(page1,"UseCases","Energy_Consumption_Forecasting","Energy_Consumption_Forecasting_Python.ipynb","true");
+    await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_teradataml_Demo_Python.ipynb","true");
+    await runDemo(page1,"UseCases","Data_Science_101_with_Python","Data_Science_101_with_Python_Python.ipynb","true");
+    await runDemo(page1,"UseCases","Broken_Digital_Journey","Broken_Digital_Journey_Python.ipynb","true");
+    await runDemo(page1,"Getting_Started","Intro_to_Python_Pandas","Intro_to_Python_Pandas_Python.ipynb","true");
+    await runDemo(page1,"Getting_Started","teradataml_Python_Basics","teradataml_Python_Basics_Python.ipynb","true");
              
  });
  async function runDemo(page: Page, menu: string, submenu: string, demoFile: string, isPythonKernel: string){
