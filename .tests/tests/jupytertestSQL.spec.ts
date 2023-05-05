@@ -35,34 +35,36 @@ test('verify multiple tabs', async({page})=>{
     await page1.waitForSelector('text=ClearScape Analytics Demonstrations via Jupyter');
 
     // Run through Demos //
-
-    // GettingStarted
-    //await runDemo(page1,"GettingStarted","GettingStarted","GettingStarted.ipynb","false");
-    //await runDemo(page1,"GettingStarted","GettingStarted_Charting","GettingStarted_Charting.ipynb","false");      
-    //await runDemo(page1,"GettingStarted","SQL_Plugin_Basics","SQL_Plugin_Basics.ipynb","false");  //new
-    await runDemo(page1,"Getting_Started","Basic_Jupyter_Navigation","Basic_Jupyter_Navigation_SQL.ipynb","false");
-    await runDemo(page1,"Getting_Started","Charting_and_Visualization","Charting_and_Visualization_SQL.ipynb","false");
-    await runDemo(page1,"Getting_Started","SQL_Basics_in_Jupyter","SQL_Basics_in_Jupyter_SQL.ipynb","false");
+    // Note: To get a list of latest Demos, go to Jupyter Lab, Menu -> File -> New _> Terminal 
+    // Then run the following command to get the list of Teradata SQL Kernel demos: 
+    //      find . -name '*.ipynb' | grep -v checkpoint | grep -i _sql | grep -iEv py_sql    
+    // To Copy results, use Ctrl+C to Copy, then Ctrl+V to paste
     
-    // UseCases
-    await runDemo(page1,"UseCases","4D_Analytics_on_bike_sharing","4D_Analytics_on_bike_sharing_SQL.ipynb","false");
-    await runDemo(page1,"UseCases","Air_Passenger_Forecasting","Air_Passenger_Forecasting_SQL.ipynb","false"); 
-    await runDemo(page1,"UseCases","Consumer_Complaints","Consumer_Complaints_SQL.ipynb","false"); 
-    await runDemo(page1,"UseCases","Credit_Card_Data_Preparation","Credit_Card_Data_Preparation_SQL.ipynb","false");    
-    await runDemo(page1,"UseCases","DBQLUsage","DBQLUsage.ipynb","false");  // new
-    await runDemo(page1,"UseCases","DeepHistory","DeepHistory.ipynb","false");  
-    await runDemo(page1,"UseCases","FourierTransform","FourierTransform.ipynb","false");
-    await runDemo(page1,"UseCases","FSCustomerJourney","FSCustomerJourney.ipynb","false"); 
-    await runDemo(page1,"UseCases","InsurancePolicyClaims","InsurancePolicyClaims.ipynb","false");
-    await runDemo(page1,"UseCases","KneeReplacement","KneeReplacementAttributionAnalysis.ipynb","false");
-    await runDemo(page1,"UseCases","NYC-taxi-4d","NYC-taxi-timeseries.ipynb","false");
-    await runDemo(page1,"UseCases","Outlier_Analysis_Transformation","Outlier_Analysis_Transformation.ipynb","false");
-    await runDemo(page1,"UseCases","TextProcessing_TF_IDF","TF_IDF_Workflow_SQL.ipynb","false");
-    await runDemo(page1,"UseCases","TimeSeriesAnalysis","TimeSeriesAnalysis.ipynb","false");
-    await runDemo(page1,"UseCases","VantageAnalyticLibrary","Overview_Vantage_Analytic_Library.ipynb","false");
-    await runDemo(page1,"UseCases","VantageAnalyticLibrary","VAL-Analytic_Algorithms_and_Scoring.ipynb","false");
-    await runDemo(page1,"UseCases","VantageAnalyticLibrary","VAL-Descriptive_Statistics_and_Transformation.ipynb","false");
-    await runDemo(page1,"UseCases","VantageAnalyticLibrary","VAL-Hypothesis_Tests.ipynb","false");
+    await runDemo(page1,"UseCases","Outlier_Analysis","Outlier_Analysis_SQL.ipynb");
+    await runDemo(page1,"UseCases","Credit_Card_Data_Preparation","Credit_Card_Data_Preparation_SQL.ipynb");
+    await runDemo(page1,"UseCases","K-Means_Clustering_and_ML_model","K-Means_Clustering_and_ML_model_SQL.ipynb");
+    await runDemo(page1,"UseCases","NYC_Taxi/NYC_Taxi_Temporal_SQL.ipynb");
+    await runDemo(page1,"UseCases","Text_Term_Frequency","Text_Term_Frequency_SQL.ipynb");
+    await runDemo(page1,"UseCases","Knee_Replacement","Knee_Replacement_Attribution_SQL.ipynb");
+    await runDemo(page1,"UseCases","Air_Passenger_Forecasting","Air_Passenger_Forecasting_SQL.ipynb");
+    //await runDemo(page1,"UseCases","Financial_Fraud_Detection_InDB","Financial_Fraud_Detection_InDB_SQLPY.ipynb");
+    await runDemo(page1,"UseCases","Fourier_Transforms","Fourier_Transforms_SQL.ipynb");
+    await runDemo(page1,"UseCases","FinSerCustomerJourney","FSCustomerJourney_SQL.ipynb");
+    //await runDemo(page1,"UseCases","FinSerCustomerJourney","FSCustomerJourney_SQLPY.ipynb");
+    await runDemo(page1,"UseCases","Insurance_Policy_Temporal","Insurance_Policy_Temporal_SQL.ipynb");
+    await runDemo(page1,"UseCases","4D_Analytics_on_bike_sharing","4D_Analytics_on_bike_sharing_SQL.ipynb");
+    await runDemo(page1,"UseCases","Consumer_Complaints","Consumer_Complaints_SQL.ipynb");
+    await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_Descriptive_Statistics_SQL.ipynb");
+    await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_Analytics_and_ML_SQL.ipynb");
+    await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_Overview_SQL.ipynb");
+    await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_Hypothesis_Tests_SQL.ipynb");
+    await runDemo(page1,"UseCases","Financial_Customer_Journey","Financial_Customer_Journey_SQL.ipynb");
+    await runDemo(page1,"UseCases","Vantage_Query_Log_Analysis","Vantage_Query_Log_Analysis_SQL.ipynb");
+    await runDemo(page1,"UseCases","Deep_History_via_Object_Store","Deep_History_via_Object_Store_SQL.ipynb");
+    await runDemo(page1,"Getting_Started","Charting_and_Visualization","Charting_and__Visualization_SQL.ipynb");
+    await runDemo(page1,"Getting_Started","SQL_Basics_in_Jupyter","SQL_Basics_in_Jupyter_SQL.ipynb");
+    await runDemo(page1,"Getting_Started","Introduction_Video","Introduction_Video_SQL.ipynb");
+    await runDemo(page1,"Getting_Started","Basic_Jupyter_Navigation","Basic_Jupyter_Navigation_SQL.ipynb");   
        
  });
  async function runDemo(page: Page, menu: string, submenu: string, demoFile: string, isPythonKernel: string){
