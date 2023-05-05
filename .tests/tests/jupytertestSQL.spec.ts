@@ -40,31 +40,31 @@ test('verify multiple tabs', async({page})=>{
     //      find . -name '*.ipynb' | grep -v checkpoint | grep -i _sql | grep -iEv py_sql    
     // To Copy results, use Ctrl+C to Copy, then Ctrl+V to paste
     
-    await runDemo(page1,"UseCases","Outlier_Analysis","Outlier_Analysis_SQL.ipynb");
-    await runDemo(page1,"UseCases","Credit_Card_Data_Preparation","Credit_Card_Data_Preparation_SQL.ipynb");
-    await runDemo(page1,"UseCases","K-Means_Clustering_and_ML_model","K-Means_Clustering_and_ML_model_SQL.ipynb");
-    await runDemo(page1,"UseCases","NYC_Taxi/NYC_Taxi_Temporal_SQL.ipynb");
-    await runDemo(page1,"UseCases","Text_Term_Frequency","Text_Term_Frequency_SQL.ipynb");
-    await runDemo(page1,"UseCases","Knee_Replacement","Knee_Replacement_Attribution_SQL.ipynb");
-    await runDemo(page1,"UseCases","Air_Passenger_Forecasting","Air_Passenger_Forecasting_SQL.ipynb");
-    //await runDemo(page1,"UseCases","Financial_Fraud_Detection_InDB","Financial_Fraud_Detection_InDB_SQLPY.ipynb");
-    await runDemo(page1,"UseCases","Fourier_Transforms","Fourier_Transforms_SQL.ipynb");
-    await runDemo(page1,"UseCases","FinSerCustomerJourney","FSCustomerJourney_SQL.ipynb");
-    //await runDemo(page1,"UseCases","FinSerCustomerJourney","FSCustomerJourney_SQLPY.ipynb");
-    await runDemo(page1,"UseCases","Insurance_Policy_Temporal","Insurance_Policy_Temporal_SQL.ipynb");
-    await runDemo(page1,"UseCases","4D_Analytics_on_bike_sharing","4D_Analytics_on_bike_sharing_SQL.ipynb");
-    await runDemo(page1,"UseCases","Consumer_Complaints","Consumer_Complaints_SQL.ipynb");
-    await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_Descriptive_Statistics_SQL.ipynb");
-    await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_Analytics_and_ML_SQL.ipynb");
-    await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_Overview_SQL.ipynb");
-    await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_Hypothesis_Tests_SQL.ipynb");
-    await runDemo(page1,"UseCases","Financial_Customer_Journey","Financial_Customer_Journey_SQL.ipynb");
-    await runDemo(page1,"UseCases","Vantage_Query_Log_Analysis","Vantage_Query_Log_Analysis_SQL.ipynb");
-    await runDemo(page1,"UseCases","Deep_History_via_Object_Store","Deep_History_via_Object_Store_SQL.ipynb");
-    await runDemo(page1,"Getting_Started","Charting_and_Visualization","Charting_and__Visualization_SQL.ipynb");
-    await runDemo(page1,"Getting_Started","SQL_Basics_in_Jupyter","SQL_Basics_in_Jupyter_SQL.ipynb");
-    await runDemo(page1,"Getting_Started","Introduction_Video","Introduction_Video_SQL.ipynb");
-    await runDemo(page1,"Getting_Started","Basic_Jupyter_Navigation","Basic_Jupyter_Navigation_SQL.ipynb");   
+    await runDemo(page1,"UseCases","Outlier_Analysis","Outlier_Analysis_SQL.ipynb","false");
+    await runDemo(page1,"UseCases","Credit_Card_Data_Preparation","Credit_Card_Data_Preparation_SQL.ipynb","false");
+    await runDemo(page1,"UseCases","K-Means_Clustering_and_ML_model","K-Means_Clustering_and_ML_model_SQL.ipynb","false");
+    await runDemo(page1,"UseCases","NYC_Taxi/NYC_Taxi_Temporal_SQL.ipynb","false");
+    await runDemo(page1,"UseCases","Text_Term_Frequency","Text_Term_Frequency_SQL.ipynb","false");
+    await runDemo(page1,"UseCases","Knee_Replacement","Knee_Replacement_Attribution_SQL.ipynb","false");
+    await runDemo(page1,"UseCases","Air_Passenger_Forecasting","Air_Passenger_Forecasting_SQL.ipynb","false");
+    //await runDemo(page1,"UseCases","Financial_Fraud_Detection_InDB","Financial_Fraud_Detection_InDB_SQLPY.ipynb","false");
+    await runDemo(page1,"UseCases","Fourier_Transforms","Fourier_Transforms_SQL.ipynb","false");
+    await runDemo(page1,"UseCases","FinSerCustomerJourney","FSCustomerJourney_SQL.ipynb","false");
+    //await runDemo(page1,"UseCases","FinSerCustomerJourney","FSCustomerJourney_SQLPY.ipynb","false");
+    await runDemo(page1,"UseCases","Insurance_Policy_Temporal","Insurance_Policy_Temporal_SQL.ipynb","false");
+    await runDemo(page1,"UseCases","4D_Analytics_on_bike_sharing","4D_Analytics_on_bike_sharing_SQL.ipynb","false");
+    await runDemo(page1,"UseCases","Consumer_Complaints","Consumer_Complaints_SQL.ipynb","false");
+    await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_Descriptive_Statistics_SQL.ipynb","false");
+    await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_Analytics_and_ML_SQL.ipynb","false");
+    await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_Overview_SQL.ipynb","false");
+    await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_Hypothesis_Tests_SQL.ipynb","false");
+    await runDemo(page1,"UseCases","Financial_Customer_Journey","Financial_Customer_Journey_SQL.ipynb","false");
+    await runDemo(page1,"UseCases","Vantage_Query_Log_Analysis","Vantage_Query_Log_Analysis_SQL.ipynb","false");
+    await runDemo(page1,"UseCases","Deep_History_via_Object_Store","Deep_History_via_Object_Store_SQL.ipynb","false");
+    await runDemo(page1,"Getting_Started","Charting_and_Visualization","Charting_and__Visualization_SQL.ipynb","false");
+    await runDemo(page1,"Getting_Started","SQL_Basics_in_Jupyter","SQL_Basics_in_Jupyter_SQL.ipynb","false");
+    await runDemo(page1,"Getting_Started","Introduction_Video","Introduction_Video_SQL.ipynb","false");
+    await runDemo(page1,"Getting_Started","Basic_Jupyter_Navigation","Basic_Jupyter_Navigation_SQL.ipynb","false");   
        
  });
  async function runDemo(page: Page, menu: string, submenu: string, demoFile: string, isPythonKernel: string){
