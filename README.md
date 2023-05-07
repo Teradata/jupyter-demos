@@ -56,7 +56,7 @@ This guide will walk you through writing your first SQL queries in Jupyter.  It 
 [teradataml Python Basics](./Getting_Started/teradataml_Python_Basics/teradataml_Python_Basics_Python.ipynb)<br>
 Introduction to Teradataml package for Python including connecting to Vantage, Teradata DataFrames, data manipulation and export to Pandas.
 
-[Intro to Python Pandas](./Getting_Started/Intro_to_Pandas_For_Python/Intro_to_Pandas_For_Python.ipynb)<br>
+[Intro to Panda for Python](./Getting_Started/Intro_to_Pandas_For_Python/Intro_to_Pandas_For_Python.ipynb)<br>
 Provides step-by-step instructions on the basics of using Python Pandas with Jupyter notebooks.
 
 [Charting and Visualization](./Getting_Started/Charting_and_Visualization/Charting_and_Visualization_SQL.ipynb)<br>
@@ -115,9 +115,6 @@ Demonstration of Data Science Flow for fraud detection in financial institutions
 [Financial Fraud Detection VIA BYOM](./UseCases/Fraud_Detection_via_BYOM/Fraud_Detection_via_BYOM_PY_SQL.ipynb)<br>
 A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.
 
-[Fraud Detection via BYOM](./UseCases/Fraud_Detection_via_BYOM/Fraud_Detection_via_BYOM_PY_SQL.ipynb)<br>
-Applies BYOM to build fraud detection model in Python and score the model at scale in Vantage without having to export data to another platform.
-
 [Insurance Policy Temporal](./UseCases/Insurance_Policy_Temporal/Insurance_Policy_Temporal_SQL.ipynb)<br>
 Show As-IS/As-Was capabilities of Vantage Temporal to dramatically simplify the SQL and improve performance for analyzing insurance policies versus claims.
 
@@ -128,7 +125,10 @@ Show As-IS/As-Was capabilities of Vantage Temporal to dramatically simplify the 
 [Diabetes Prediction via BYOM H2O](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_BYOM_H2O_PY_SQL.ipynb)<br>
 This uses BYOM to import a trained H2O model to identify potential diabetes patients. BYOM allows the data scientist to create models in languages they prefer and run at scale inside Vantage without moving data.
 
-[Heart Survival via TeradataML](./UseCases/Heart_Survival_Analysis/Heart_Survival_Analysis_PY_SQL.ipynb)<br>
+[Diabetes Prediction via DF and GLM](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_Python.ipynb)<br>
+Decision Forest and Generalized Linear Model are applied to identify factors that indicate diabetes. The earlier the disease is identified, the better the chance of reducing organ damage.
+
+[Heart Failure Prediction](./UseCases/Heart_Failure_Prediction/Heart_Failure_Prediction_PY_SQL.ipynb)<br>
 Machine learning is applied to the complex attributes of patients to help recognize patterns that may lead to heart failure faster than a human may recognize.
 
 [Knee Replacement Attribution](./UseCases/Knee_Replacement/Knee_Replacement_Attribution_SQL.ipynb)<br>
@@ -143,6 +143,9 @@ This uses the ClearScape Analytics nPath® function to provide visuals on the ev
 
 [Battery Defect Analysis](./UseCases/Battery_Defect_Analysis/Battery_Defect_Analysis_PY_SQL.ipynb)<br>
 Uses local data (or foreign tables on GCP) to analyze patterns of battery failure, then links to data on AWS for detailed battery measurement.
+
+[Green Manufacturing](./UseCases/Green_Manufacturing/Green_Manufacturing_PY_SQL.ipynb)<br>
+Uses analytic and ML techniquest to predict how long vehicle testing will take based on combination of features installed.
 
 [Predictive Mantenance](./UseCases/Predictive_Maintenance/Predictive_Maintenance_PY_SQL.ipynb)<br>
 Uses ML functions to predict failures to identify and mitigate potential machine failures before they occur.
@@ -253,13 +256,19 @@ This demonstrates a subset of the 18 hypothesis test in the Vantage Analytics li
 [Banking Customer Churn](./UseCases/Banking_Customer_Churn/Banking_Customer_Churn_Python.ipynb)<br>
 Uses a combination of Vantage Analytics Library to prepare data, using machine learning in python and importing the resulting PMML model into Vantage for scoring.
 
+[Diabetes Prediction via DF and GLM](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_Python.ipynb)<br>
+Decision Forest and Generalized Linear Model are applied to identify factors that indicate diabetes. The earlier the disease is identified, the better the chance of reducing organ damage.
+
 [Financial Fraud Detection](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb)<br>
 Demonstration of Data Science Flow for fraud detection in financial institutions.
 
 [Financial Fraud Detection VIA BYOM](./UseCases/Fraud_Detection_via_BYOM/Fraud_Detection_via_BYOM_PY_SQL.ipynb)<br>
 A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.
 
-[Heart Survival via TeradataML](./UseCases/Heart_Survival_Analysis/Heart_Survival_Analysis_PY_SQL.ipynb)<br>
+[Green Manufacturing](./UseCases/.Green_Manufacturing/Green_Manufacturing_PY_SQL.ipynb)<br>
+Uses analytic and ML techniquest to predict how long vehicle testing will take based on combination of features installed.
+
+[Heart Failure Prediction](./UseCases/Heart_Failure_Prediction/Heart_Failure_Prediction_PY_SQL.ipynb)<br>
 Machine learning is applied to the complex attributes of patients to help recognize patterns that may lead to heart failure faster than a human may recognize.
 
 [K-Means Clustering and ML model](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_SQL.ipynb)<br>
