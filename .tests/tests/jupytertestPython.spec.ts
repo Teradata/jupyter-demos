@@ -38,7 +38,8 @@ test('verify multiple tabs', async({page})=>{
     //const jUrl = jupyter_url.split("/lab/")[0]
 
     // Wait for content to appear before moving on.  Jupyter is slow to load (Done)
-    await page1.waitForSelector('text=ClearScape Analytics Demonstrations via Jupyter');
+    //await page1.waitForSelector('text=ClearScape Analytics Demonstrations via Jupyter');
+    await page1.waitForSelector('text=Demonstrations via Jupyter');
 
     // Run through Demos //
     // Note: To get a list of latest Demos, go to Jupyter Lab, Menu -> File -> New _> Terminal 
@@ -46,7 +47,7 @@ test('verify multiple tabs', async({page})=>{
     //      find . -name '*.ipynb' | grep -v checkpoint | grep -i python
     //      find . -name '*.ipynb' | grep -v checkpoint | grep -i py_sql
     // To Copy results, use Ctrl+C to Copy, then Ctrl+V to paste
-    /*
+    
     await runDemo(page1,"UseCases","Fraud_Detection_via_BYOM","Fraud_Detection_via_BYOM_PY_SQL.ipynb","true");
     await runDemo(page1,"UseCases","Data_Prep_and_Transformation","Data_Prep_and_Transformation_PY_SQL.ipynb","true");
     await runDemo(page1,"UseCases","Telco_Customer_Churn","Telco_Customer_Churn_PY_SQL.ipynb","true");
@@ -70,7 +71,7 @@ test('verify multiple tabs', async({page})=>{
     await runDemo(page1,"UseCases","Broken_Digital_Journey","Broken_Digital_Journey_Python.ipynb","true");
     await runDemo(page1,"Getting_Started","Intro_to_Python_Pandas","Intro_to_Python_Pandas_Python.ipynb","true");
     await runDemo(page1,"Getting_Started","teradataml_Python_Basics","teradataml_Python_Basics_Python.ipynb","true");
-    */         
+             
  });
  async function runDemo(page: Page, menu: string, submenu: string, demoFile: string, isPythonKernel: string){
     // Go to Main Folder
