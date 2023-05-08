@@ -43,7 +43,7 @@ test('verify multiple tabs', async({page})=>{
     await runDemo(page1,"UseCases","Outlier_Analysis","Outlier_Analysis_SQL.ipynb","false");
     await runDemo(page1,"UseCases","Credit_Card_Data_Preparation","Credit_Card_Data_Preparation_SQL.ipynb","false");
     await runDemo(page1,"UseCases","K-Means_Clustering_and_ML_model","K-Means_Clustering_and_ML_model_SQL.ipynb","false");
-    await runDemo(page1,"UseCases","NYC_Taxi/NYC_Taxi_Temporal_SQL.ipynb","false");
+    await runDemo(page1,"UseCases","NYC_Taxi","NYC_Taxi_Temporal_SQL.ipynb","false");
     await runDemo(page1,"UseCases","Text_Term_Frequency","Text_Term_Frequency_SQL.ipynb","false");
     await runDemo(page1,"UseCases","Knee_Replacement","Knee_Replacement_Attribution_SQL.ipynb","false");
     await runDemo(page1,"UseCases","Air_Passenger_Forecasting","Air_Passenger_Forecasting_SQL.ipynb","false");
