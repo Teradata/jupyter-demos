@@ -32,7 +32,8 @@ test('verify multiple tabs', async({page})=>{
     await page1.waitForLoadState();                
 
     // Wait for content to appear before moving on.  Jupyter is slow to load (Done)
-    await page1.waitForSelector('text=ClearScape Analytics Demonstrations via Jupyter');
+    //await page1.waitForSelector('text=ClearScape Analytics Demonstrations via Jupyter');
+    await page1.waitForSelector('text=Demonstrations via Jupyter');
 
     // Run through Demos //
     // Note: To get a list of latest Demos, go to Jupyter Lab, Menu -> File -> New _> Terminal 
