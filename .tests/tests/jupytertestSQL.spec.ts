@@ -1,9 +1,10 @@
 import { test, expect, Page } from '@playwright/test';
+import * as fs from 'fs';
+
 const emailaddr = 'adam.tworkiewicz+jupyter.testing@teradata.com';
 const password = 'wyiEwLP545sE5FY'; 
 const demo_user_pw = 'wyiEwLP545sE5FY';
 //const db_pw = 'dbc';
-
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
@@ -67,6 +68,11 @@ test('verify multiple tabs', async({page})=>{
        
  });
  async function runDemo(page: Page, menu: string, submenu: string, demoFile: string, isPythonKernel: string){
+    const date = new Date();    
+    const strText = date.toDateString() + ' ' + date.toTimeString() + ' ' + demoFile + '\r\n';
+    //fs.writeFileSync('./results.log', strText);
+    fs.appendFileSync('./results.log', strText);
+
     // Go to Main Folder
     await page.waitForSelector('span[title="~/JupyterLabRoot"]');
     await page.locator('span[title="~/JupyterLabRoot"]').click();
