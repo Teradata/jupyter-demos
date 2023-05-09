@@ -1,4 +1,6 @@
 import { test, expect, Page } from '@playwright/test';
+import * as fs from 'fs';
+
 const emailaddr = 'adam.tworkiewicz+jupyter.testing@teradata.com';
 const password = 'wyiEwLP545sE5FY'; 
 const demo_user_pw = 'wyiEwLP545sE5FY';
@@ -75,6 +77,11 @@ test('verify multiple tabs', async({page})=>{
 */             
  });
  async function runDemo(page: Page, menu: string, submenu: string, demoFile: string, isPythonKernel: string){
+    const date = new Date();    
+    const strText = date.toDateString() + ' ' + date.toTimeString() + ' ' + demoFile + '\r\n';
+    //fs.writeFileSync('./results.log', strText);
+    fs.appendFileSync('./results.log', strText);
+    
     // Go to Main Folder
     await page.waitForSelector('span[title="~/JupyterLabRoot"]');
     await page.locator('span[title="~/JupyterLabRoot"]').click();
@@ -150,31 +157,17 @@ test('verify multiple tabs', async({page})=>{
 
             // Check if wating for Password Prompt 
             if (setPw == 0)
-            {
-                if (isPythonKernel == "false")
+            {                
+                await sleep(1000); // Wait one sec... It's slow to load
+                //if (await page.locator('pre', { hasText: 'Enter password:'}).isVisible())
+                if (await page.locator('pre[class="jp-Stdin-prompt"]', { hasText: 'password'}).isVisible())
                 {
-                    //if (await page.locator('pre', { hasText: 'Password:'}).isVisible())
-                    if (await page.locator('pre[class="jp-Stdin-prompt"]', { hasText: 'Password'}).isVisible())  //Password: or Re-enter Password
-                    {
-                        await page.fill('input[class="jp-Stdin-input"]', demo_user_pw);
-                        await page.keyboard.press('Enter');
-                        setPw = 1; // Don't check again  
-                    }
-                    await page.waitForSelector('span[class="f1235lqo"] >> text="'+strKernelType+'| Idle"');  
+                    await page.fill('input[class="jp-Stdin-input"]', demo_user_pw);
+                    await page.keyboard.press('Enter');
+                    setPw = 1; // Don't check again       
                 }
-                else  // Python Kernel
-                {
-                    //await sleep(2000); // Wait one sec... It's slow to load
-                    //if (await page.locator('pre', { hasText: 'Enter password:'}).isVisible())
-                    if (await page.locator('pre[class="jp-Stdin-prompt"]', { hasText: 'password'}).isVisible())
-                    {
-                        await page.fill('input[class="jp-Stdin-input"]', demo_user_pw);
-                        await page.keyboard.press('Enter');
-                        setPw = 1; // Don't check again       
-                    }
-                    // Don't wait on Python Kernel... not very responsive and sometimes the password prompt pops up later (i.e. 2nd step)
-                    //await page.waitForSelector('span[class="f1235lqo"] >> text="'+strKernelType+'| Idle"');  
-                }
+                // Don't wait on Python Kernel... not very responsive and sometimes the password prompt pops up later (i.e. 2nd step)
+                //await page.waitForSelector('span[class="f1235lqo"] >> text="'+strKernelType+'| Idle"');                  
             }
             else
             {
