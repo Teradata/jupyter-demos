@@ -78,7 +78,7 @@ test('verify multiple tabs', async({page})=>{
  });
  async function runDemo(page: Page, menu: string, submenu: string, demoFile: string, isPythonKernel: string){
     const date = new Date();    
-    const strText = date.toDateString() + ' ' + date.toTimeString() + ' ' + demoFile + '\r\n';
+    const strText = date.toDateString() + ' ' + date.toTimeString() + ' Start:' + demoFile + '\r\n';
     //fs.writeFileSync('./results.log', strText);
     fs.appendFileSync('../playwright-report/results.log', strText);
     
@@ -105,7 +105,11 @@ test('verify multiple tabs', async({page})=>{
     await page.locator('span[class="jp-DirListing-itemText"] >> text="'+demoFile+'"').dblclick();
 
     await runNotebook(page, isPythonKernel);
-
+    
+    const date = new Date();    
+    const strText = date.toDateString() + ' ' + date.toTimeString() + ' End:' + demoFile + '\r\n';
+    //fs.writeFileSync('./results.log', strText);
+    fs.appendFileSync('./playwright-report/results.log', strText);
  }
  async function runNotebook(page: Page, isPythonKernel: string ) {  // Works
 
