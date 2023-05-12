@@ -80,7 +80,7 @@ test('verify multiple tabs', async({page})=>{
     const date = new Date();    
     const strText = date.toDateString() + ' ' + date.toTimeString() + ' ' + demoFile + '\r\n';
     //fs.writeFileSync('./results.log', strText);
-    fs.appendFileSync('./results.log', strText);
+    fs.appendFileSync('../playwright-report/results.log', strText);
     
     // Go to Main Folder
     await page.waitForSelector('span[title="~/JupyterLabRoot"]');
