@@ -12,7 +12,6 @@ If you've never used Jupyter before, we strongly recommend you consider looking 
 
 ---
 
-
 ## Table of Contents
 *Items in italics are coming soon.*
 
@@ -109,10 +108,16 @@ From customer acquisition to adoption : various in-database analytics such as at
 [Financial Customer Journey (SQL)](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb)<br>
 Uses analytic techniques to find new customers, measure marketing attribution, and maximizing marketing effectiveness
 
-[Financial Fraud Detection](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb)<br>
-Demonstration of Data Science Flow for fraud detection in financial institutions.
+[Financial Fraud Detection InDB (PY_SQL)](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb)<br>
+Detect financial transaction fraud  using powerful in-database machine learning functions
 
-[Financial Fraud Detection VIA BYOM](./UseCases/Fraud_Detection_via_BYOM/Fraud_Detection_via_BYOM_PY_SQL.ipynb)<br>
+[Financial Fraud Detection InDB (Python)](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb)<br>
+Detect financial transaction fraud  using powerful in-database machine learning functions
+
+[Financial Fraud Detection VIA BYOM (PY_SQL)](./UseCases/Financial_Fraud_Detection_BYOM/Financial_Fraud_Detection_BYOM_PY_SQL.ipynb)<br>
+A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.
+
+[Financial Fraud Detection VIA BYOM (Python)](./UseCases/Financial_Fraud_Detection_BYOM/Financial_Fraud_Detection_BYOM_Python.ipynb)<br>
 A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.
 
 [Insurance Policy Temporal](./UseCases/Insurance_Policy_Temporal/Insurance_Policy_Temporal_SQL.ipynb)<br>
@@ -125,7 +130,10 @@ Show As-IS/As-Was capabilities of Vantage Temporal to dramatically simplify the 
 [Diabetes Prediction via BYOM H2O](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_BYOM_H2O_PY_SQL.ipynb)<br>
 This uses BYOM to import a trained H2O model to identify potential diabetes patients. BYOM allows the data scientist to create models in languages they prefer and run at scale inside Vantage without moving data.
 
-[Diabetes Prediction via DF and GLM](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_Python.ipynb)<br>
+[Diabetes Prediction via DF and GLM (PY_SQL)](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_PY_SQL.ipynb)<br>
+Decision Forest and Generalized Linear Model are applied to identify factors that indicate diabetes. The earlier the disease is identified, the better the chance of reducing organ damage.
+
+[Diabetes Prediction via DF and GLM (Python)](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_Python.ipynb)<br>
 Decision Forest and Generalized Linear Model are applied to identify factors that indicate diabetes. The earlier the disease is identified, the better the chance of reducing organ damage.
 
 [Heart Failure Prediction](./UseCases/Heart_Failure_Prediction/Heart_Failure_Prediction_PY_SQL.ipynb)<br>
@@ -157,7 +165,7 @@ Uses ML functions to predict failures to identify and mitigate potential machine
 [Broken Digital Journey](./UseCases/Broken_Digital_Journey/Broken_Digital_Journey_Python.ipynb)<br>
 This uses nPath® analysis to show the retail events that prevent the ultimate objective: a purchase.  This uses interactive Sankey diagrams to understand the problems.
 
-[Customer Behavior Analysis](./UseCases/CustomerBehaviorAnalysis/BehavioralAnalysis.ipynb)<br>
+[Customer Behavior Analysis](./UseCases/CustomerBehaviorAnalysis/Customer_Behavioral_Analysis_Python.ipynb)<br>
 Analysis of customer purchase behavior using nPath® analysis in Python with visualization using Sankey diagrams.
 
 [Deep History via Object Store](./UseCases/Deep_History_via_Object_Store/Deep_History_via_Object_Store_SQL.ipynb)<br>
@@ -210,7 +218,10 @@ Applies geospatial functions to analysis of NYC Taxi pickups and drop off locati
 [Credit Card Data Preparation](./UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_SQL.ipynb)<br>
 This shows the use of ClearScape analytics to reduce the pre-processing effort of incoming raw credit card data to prepare for analysis of potential loan defaulters.
 
-[Data Prep and Transformation](./UseCases/Data_Prep_and_Transformation/Data_Prep_and_Transformation_PY_SQL.ipynb)<br>
+[Data Prep and Transformation (PY_SQL)](./UseCases/Data_Prep_and_Transformation/Data_Prep_and_Transformation_PY_SQL.ipynb)<br>
+This demonstrates a subset of the over 100 analytic functions in the teradataml package for Python
+
+[Data Prep and Transformation (Python)](./UseCases/Data_Prep_and_Transformation/Data_Prep_and_Transformation_Python.ipynb)<br>
 This demonstrates a subset of the over 100 analytic functions in the teradataml package for Python
 
 [Outlier Analysis](./UseCases/Outlier_Analysis/Outlier_Analysis_SQL.ipynb)<br>
@@ -256,16 +267,25 @@ This demonstrates a subset of the 18 hypothesis test in the Vantage Analytics li
 [Banking Customer Churn](./UseCases/Banking_Customer_Churn/Banking_Customer_Churn_Python.ipynb)<br>
 Uses a combination of Vantage Analytics Library to prepare data, using machine learning in python and importing the resulting PMML model into Vantage for scoring.
 
-[Diabetes Prediction via DF and GLM](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_Python.ipynb)<br>
+[Diabetes Prediction via DF and GLM (PY_SQL)](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_PY_SQL.ipynb)<br>
 Decision Forest and Generalized Linear Model are applied to identify factors that indicate diabetes. The earlier the disease is identified, the better the chance of reducing organ damage.
 
-[Financial Fraud Detection](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb)<br>
-Demonstration of Data Science Flow for fraud detection in financial institutions.
+[Diabetes Prediction via DF and GLM (Python)](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_Python.ipynb)<br>
+Decision Forest and Generalized Linear Model are applied to identify factors that indicate diabetes. The earlier the disease is identified, the better the chance of reducing organ damage.
 
-[Financial Fraud Detection VIA BYOM](./UseCases/Fraud_Detection_via_BYOM/Fraud_Detection_via_BYOM_PY_SQL.ipynb)<br>
+[Financial Fraud Detection InDB (PY_SQL)](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb)<br>
+Detect financial transaction fraud  using powerful in-database machine learning functions
+
+[Financial Fraud Detection InDB (Python)](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb)<br>
+Detect financial transaction fraud  using powerful in-database machine learning functions
+
+[Financial Fraud Detection VIA BYOM (PY_SQL)](./UseCases/Financial_Fraud_Detection_BYOM/Financial_Fraud_Detection_BYOM_PY_SQL.ipynb)<br>
 A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.
 
-[Green Manufacturing](./UseCases/.Green_Manufacturing/Green_Manufacturing_PY_SQL.ipynb)<br>
+[Financial Fraud Detection VIA BYOM (Python)](./UseCases/Financial_Fraud_Detection_BYOM/Financial_Fraud_Detection_BYOM_Python.ipynb)<br>
+A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.
+
+[Green Manufacturing](./UseCases/Green_Manufacturing/Green_Manufacturing_PY_SQL.ipynb)<br>
 Uses analytic and ML techniquest to predict how long vehicle testing will take based on combination of features installed.
 
 [Heart Failure Prediction](./UseCases/Heart_Failure_Prediction/Heart_Failure_Prediction_PY_SQL.ipynb)<br>
@@ -312,8 +332,11 @@ This uses BYOM to import a trained H2O model to identify potential diabetes pati
 [Energy Consumption Forecasting](./UseCases/Energy_Consumption_Forecasting/Energy_Consumption_Forecasting_Python.ipynb)<br>
 This combines machine learning and BYOM to forecast energy consumption using Vantage to score the model at scale without having to export all data.
 
-[Fraud Detection via BYOM](./UseCases/Fraud_Detection_via_BYOM/Fraud_Detection_via_BYOM_PY_SQL.ipynb)<br>
-Applies BYOM to build fraud detection model in Python and score the model at scale in Vantage without having to export data to another platform.
+[Financial Fraud Detection VIA BYOM (PY_SQL)](./UseCases/Financial_Fraud_Detection_BYOM/Financial_Fraud_Detection_BYOM_PY_SQL.ipynb)<br>
+A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.
+
+[Financial Fraud Detection VIA BYOM (Python)](./UseCases/Financial_Fraud_Detection_BYOM/Financial_Fraud_Detection_BYOM_Python.ipynb)<br>
+A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.
 
 [teradataml Python Basics](./Getting_Started/teradataml_Python_Basics/teradataml_Python_Basics_Python.ipynb)<br>
 Introduction to Teradataml package for Python including connecting to Vantage, Teradata DataFrames, data manipulation and export to Pandas.
@@ -328,7 +351,7 @@ Introduction to Teradataml package for Python including connecting to Vantage, T
 [Broken Digital Journey](./UseCases/Broken_Digital_Journey/Broken_Digital_Journey_Python.ipynb)<br>
 This uses nPath® analysis to show the retail events that prevent the ultimate objective: a purchase.  This uses interactive Sankey diagrams to understand the problems.
 
-[Customer Behavior Analysis](./UseCases/CustomerBehaviorAnalysis/BehavioralAnalysis.ipynb)<br>
+[Customer Behavior Analysis](./UseCases/CustomerBehaviorAnalysis/Customer_Behavioral_Analysis_Python.ipynb)<br>
 Analysis of customer purchase behavior using nPath® analysis in Python with visualization using Sankey diagrams.
 
 [Financial Customer Journey (PY_SQL)](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb)<br>
@@ -398,3 +421,7 @@ Analysis of sessions and queries  you executed using the built-in logging facili
 
 [Dataiku](./UseCases/Dataiku/Dataiku.ipynb)<br>
 Discusses how the 3rd party tool DataIku can be used with Vantage.
+
+---
+
+<footer style="padding:10px;background:#f9f9f9;border-bottom:3px solid #394851">©2023 Teradata. All Rights Reserved</footer>
