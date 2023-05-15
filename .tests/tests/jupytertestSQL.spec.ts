@@ -31,7 +31,7 @@ test('verify multiple tabs', async({page})=>{
     const page1 = await page1Promise;
     // Wait for New Page/Tab to Load, Then jump over to new page (Done)
     await page1.waitForLoadState();                
-
+    
     // Wait for content to appear before moving on.  Jupyter is slow to load (Done)
     //await page1.waitForSelector('text=ClearScape Analytics Demonstrations via Jupyter');
     await page1.waitForSelector('text=Demonstrations via Jupyter');
@@ -77,16 +77,19 @@ test('verify multiple tabs', async({page})=>{
     await page.waitForSelector('span[title="~/JupyterLabRoot"]');
     await page.locator('span[title="~/JupyterLabRoot"]').click();
     await page.locator('span[title="~/JupyterLabRoot"]').click();  // redundant
-    
+    fs.appendFileSync('./playwright-report/results.log', 'Main ->');
+
     // Go to 1st Menu item
     //await sleep(500);
     await page.waitForSelector('li[class="jp-DirListing-item"] >> text='+menu);  
     await page.locator('li[class="jp-DirListing-item"] >> text='+menu).dblclick();
+    fs.appendFileSync('./playwright-report/results.log', ' 1st Menu ->');
 
     // Go to 2nd Menu item
     //await sleep(500);
     await page.waitForSelector('li[class="jp-DirListing-item"] >> span[class="jp-DirListing-itemText"] >> span >> text="'+submenu+'"');  
     await page.locator('li[class="jp-DirListing-item"] >> text="'+submenu+'" >> nth=0').dblclick();
+    fs.appendFileSync('./playwright-report/results.log', ' 2nd Menu -> ');
 
     // Go to final location of Jupyter NoteBook 
     //await sleep(500);
