@@ -103,7 +103,8 @@ test('verify multiple tabs', async({page})=>{
     //await page.locator('li[class="jp-DirListing-item jp-mod-running"] >> text="'+demoFile+'"').dblclick();
     await page.waitForSelector('span[class="jp-DirListing-itemText"] >> text="'+demoFile+'"');  // found
     await page.locator('span[class="jp-DirListing-itemText"] >> text="'+demoFile+'"').dblclick();
-
+    
+    fs.appendFileSync('./playwright-report/results.log', 'Found! Running Notebook');
     await runNotebook(page, isPythonKernel);
     
     const date2 = new Date();    
