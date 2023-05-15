@@ -95,7 +95,7 @@ test('verify multiple tabs', async({page})=>{
     await page.waitForSelector('span[class="jp-DirListing-itemText"] >> text="'+demoFile+'"');  // found
     await page.locator('span[class="jp-DirListing-itemText"] >> text="'+demoFile+'"').dblclick();
     
-    fs.appendFileSync('./playwright-report/results.log', 'Found! Running Notebook');
+    fs.appendFileSync('./playwright-report/results.log', 'Found! Running Notebook'+'\r\n');
     await runNotebook(page, isPythonKernel);
 
     const date2 = new Date();    
