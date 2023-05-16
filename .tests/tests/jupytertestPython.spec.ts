@@ -86,16 +86,19 @@ test('verify multiple tabs', async({page})=>{
     await page.waitForSelector('span[title="~/JupyterLabRoot"]');
     await page.locator('span[title="~/JupyterLabRoot"]').click();
     await page.locator('span[title="~/JupyterLabRoot"]').click();  // redundant
-    
+    fs.appendFileSync('./playwright-report/results.log', 'Main ->');
+
     // Go to 1st Menu item
     //await sleep(500);
     await page.waitForSelector('li[class="jp-DirListing-item"] >> text='+menu);  
     await page.locator('li[class="jp-DirListing-item"] >> text='+menu).dblclick();
+    fs.appendFileSync('./playwright-report/results.log', ' 1st Menu ->');
 
     // Go to 2nd Menu item
     //await sleep(500);
     await page.waitForSelector('li[class="jp-DirListing-item"] >> span[class="jp-DirListing-itemText"] >> span >> text="'+submenu+'"');  
     await page.locator('li[class="jp-DirListing-item"] >> text="'+submenu+'" >> nth=0').dblclick();
+    fs.appendFileSync('./playwright-report/results.log', ' 2nd Menu -> ');
 
     // Go to final location of Jupyter NoteBook 
     //await sleep(500);
