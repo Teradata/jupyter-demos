@@ -54,7 +54,7 @@ test('verify multiple tabs', async({page})=>{
     //await runDemo(page1,"UseCases","Fraud_Detection_via_BYOM","Fraud_Detection_via_BYOM_PY_SQL.ipynb","true");  // can't find
     await runDemo(page1,"UseCases","Data_Prep_and_Transformation","Data_Prep_and_Transformation_PY_SQL.ipynb","true");
     await runDemo(page1,"UseCases","Telco_Customer_Churn","Telco_Customer_Churn_PY_SQL.ipynb","true");
-    await runDemo(page1,"UseCases","Parkinsons_Disease_Prediction","Parkinsons_Disease_Prediction_PY_SQL.ipynb","true");
+    //await runDemo(page1,"UseCases","Parkinsons_Disease_Prediction","Parkinsons_Disease_Prediction_PY_SQL.ipynb","true"); // can't find
     await runDemo(page1,"UseCases","Carbon_Footprint_Analytics","Carbon_Footprint_Analytics_PY_SQL.ipynb","true");
     await runDemo(page1,"UseCases","NYC_Taxi","NYC_Taxi_Geospatial_PY_SQL.ipynb","true");
     await runDemo(page1,"UseCases","Text_Term_Frequency","Text_Term_Frequency_PY_SQL.ipynb","true");
