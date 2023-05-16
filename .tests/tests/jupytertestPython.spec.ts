@@ -51,7 +51,7 @@ test('verify multiple tabs', async({page})=>{
     // To Copy results, use Ctrl+C to Copy, then Ctrl+V to paste
     
 
-    await runDemo(page1,"UseCases","Fraud_Detection_via_BYOM","Fraud_Detection_via_BYOM_PY_SQL.ipynb","true");
+    //await runDemo(page1,"UseCases","Fraud_Detection_via_BYOM","Fraud_Detection_via_BYOM_PY_SQL.ipynb","true");  // can't find
     await runDemo(page1,"UseCases","Data_Prep_and_Transformation","Data_Prep_and_Transformation_PY_SQL.ipynb","true");
     await runDemo(page1,"UseCases","Telco_Customer_Churn","Telco_Customer_Churn_PY_SQL.ipynb","true");
     await runDemo(page1,"UseCases","Parkinsons_Disease_Prediction","Parkinsons_Disease_Prediction_PY_SQL.ipynb","true");
