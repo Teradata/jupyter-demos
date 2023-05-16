@@ -80,7 +80,7 @@ test('verify multiple tabs', async({page})=>{
     const date = new Date();    
     const strText = date.toDateString() + ' ' + date.toTimeString() + ' Start:' + demoFile + '\r\n';
     //fs.writeFileSync('./results.log', strText);
-    fs.appendFileSync('../playwright-report/results.log', strText);
+    fs.appendFileSync('./playwright-report/results.log', strText);
     
     // Go to Main Folder
     await page.waitForSelector('span[title="~/JupyterLabRoot"]');
@@ -135,7 +135,6 @@ test('verify multiple tabs', async({page})=>{
     
     //Wait until page shows Kernel is ready(Idle, not connecting) to start running demo
     await page.waitForSelector('span[class="f1235lqo"] >> text="'+strKernelType+'| Idle"');
-
 
     for (let i = 1; i <= dm; i++) {
         
