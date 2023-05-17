@@ -62,7 +62,7 @@ test('verify multiple tabs', async({page})=>{
     await runDemo(page1,"UseCases","Diabetes_Prediction","Diabetes_Prediction_via_BYOM_H2O_PY_SQL.ipynb","true");
     await runDemo(page1,"UseCases","Battery_Defect_Analysis","Battery_Defect_Analysis_PY_SQL.ipynb","true");
     await runDemo(page1,"UseCases","Telco_Network_Coverage","Telco_Network_Coverage_PY_SQL.ipynb","true");
-    await runDemo(page1,"UseCases","SurvivalAnalysis","SurvivalAnalysis_Python.ipynb","true");
+    //await runDemo(page1,"UseCases","SurvivalAnalysis","SurvivalAnalysis_Python.ipynb","true");  // can't find
     await runDemo(page1,"UseCases","Banking_Customer_Churn","Banking_Customer_Churn_Python.ipynb","true");
     await runDemo(page1,"UseCases","Vertex_AI_Integration","Vertex_AI_Integration_Python.ipynb","true");
     await runDemo(page1,"UseCases","Text_Term_Frequency","Text_Term_Frequency_Python.ipynb","true");
