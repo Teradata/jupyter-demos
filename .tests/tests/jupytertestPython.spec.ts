@@ -72,7 +72,7 @@ test('verify multiple tabs', async({page})=>{
     await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_teradataml_Demo_Python.ipynb","true");
     await runDemo(page1,"UseCases","Data_Science_101_with_Python","Data_Science_101_with_Python_Python.ipynb","true");
     await runDemo(page1,"UseCases","Broken_Digital_Journey","Broken_Digital_Journey_Python.ipynb","true");
-    await runDemo(page1,"Getting_Started","Intro_to_Python_Pandas","Intro_to_Python_Pandas_Python.ipynb","true");
+    //await runDemo(page1,"Getting_Started","Intro_to_Python_Pandas","Intro_to_Python_Pandas_Python.ipynb","true");  // can't find
     await runDemo(page1,"Getting_Started","teradataml_Python_Basics","teradataml_Python_Basics_Python.ipynb","true");
              
  });
