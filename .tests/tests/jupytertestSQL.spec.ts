@@ -41,7 +41,45 @@ test('verify multiple tabs', async({page})=>{
     // Then run the following command to get the list of Teradata SQL Kernel demos: 
     //      find . -name '*.ipynb' | grep -v checkpoint | grep -i _sql | grep -iEv py_sql    
     // To Copy results, use Ctrl+C to Copy, then Ctrl+V to paste
+  
+    var demos = await getDemos(page1,"!find . -name '*.ipynb' | grep -v checkpoint | grep -i _sql | grep -iEv py_sql");    
     
+    // Parse scripts
+    // Examples: 
+    // ./UseCases/SurvivalAnalysis/SurvivalAnalysis_Python.ipynb
+    // ./UseCases/Banking_Customer_Churn/Banking_Customer_Churn_Python.ipynb
+
+    // find begining './' and end '.ipynb'
+    var tempLine = ''
+    var line_start = 0
+    var line_end = 0
+    var demo_count = 0
+    var main_menu = ''
+    var sub_menu = ''
+    var notebook_name = ''
+    while(demos.length > 0) {
+        //Read first line
+        line_start = demos.indexOf('./');
+        line_end = demos.indexOf('.ipynb');
+        if (line_start > 0 && line_end > 0) 
+        {
+            tempLine = demos.substring(line_start+2,line_end + 6)
+            main_menu = tempLine.substring(0,tempLine.indexOf('/'));
+            sub_menu = tempLine.substring(tempLine.indexOf('/')+1);
+            notebook_name = sub_menu.substring(sub_menu.indexOf('/')+1);
+            sub_menu = sub_menu.substring(0,sub_menu.indexOf('/'));  
+
+            //fs.appendFileSync('./results.log', 'main_menu:'+main_menu + 'zZz sub_menu:'+sub_menu+'zZz notebook_name:'+notebook_name+'\r\n');
+            await runDemo(page1,main_menu,sub_menu,notebook_name,"false"); 
+            demos = demos.substring(line_end + 6);       
+        }
+        demo_count = demo_count + 1;
+
+        if (demo_count > 999){
+            demos = '';
+        }
+    }
+/*
     await runDemo(page1,"UseCases","Outlier_Analysis","Outlier_Analysis_SQL.ipynb","false");
     await runDemo(page1,"UseCases","Credit_Card_Data_Preparation","Credit_Card_Data_Preparation_SQL.ipynb","false");
     await runDemo(page1,"UseCases","K-Means_Clustering_and_ML_model","K-Means_Clustering_and_ML_model_SQL.ipynb","false");
@@ -64,8 +102,37 @@ test('verify multiple tabs', async({page})=>{
     await runDemo(page1,"Getting_Started","SQL_Basics_in_Jupyter","SQL_Basics_in_Jupyter_SQL.ipynb","false");
     await runDemo(page1,"Getting_Started","Introduction_Video","Introduction_Video_SQL.ipynb","false");
     await runDemo(page1,"Getting_Started","Basic_Jupyter_Navigation","Basic_Jupyter_Navigation_SQL.ipynb","false");   
-       
+*/      
  });
+ async function getDemos(page: Page, cmd: string){
+    const date = new Date();
+    
+    const strText = date.toDateString() + ' ' + date.toTimeString() + ' Getting Demos: Start \r\n';
+    //fs.writeFileSync('./results.log', strText);
+    fs.appendFileSync('./results.log', strText);
+
+    // Go to Main Folder
+    await page.waitForSelector('span[title="~/JupyterLabRoot"]');
+    await page.locator('span[title="~/JupyterLabRoot"]').click();
+    await page.locator('span[title="~/JupyterLabRoot"]').click();  // redundant
+
+    //Open a new Notebook
+    await page.getByText('File', { exact: true }).click();
+    await page.getByText('New', { exact: true }).click();
+    await page.getByText('Notebook', { exact: true }).click();
+    await page.getByRole('button', { name: 'Select', exact: true }).click();
+    await page.getByRole('region', { name: 'notebook content' }).locator('pre').click();
+    //await page.getByRole('region', { name: 'notebook content' }).getByRole('textbox').fill('!find . -name \'*ipynb\' | grep -v checkpoint | grep -i python');
+    await page.getByRole('region', { name: 'notebook content' }).getByRole('textbox').fill(cmd);    
+    await page.waitForSelector('span[class="f1235lqo"] >> text="Teradata SQL | Idle"');
+    await page.keyboard.press('Shift+Enter');
+
+    //var demos = await page.locator('div#slide-7-layer-1').textContent()
+    var demos = await page.locator('div[class="lm-Widget p-Widget jp-RenderedText jp-mod-trusted jp-OutputArea-output"] >> pre').textContent()
+    demos = 'Demos:\r\n' + demos + '\r\n'
+    fs.appendFileSync('./results.log', demos);
+    return demos
+ }
  async function runDemo(page: Page, menu: string, submenu: string, demoFile: string, isPythonKernel: string){
     const date = new Date();    
     const strText = date.toDateString() + ' ' + date.toTimeString() + ' Start:' + demoFile + '\r\n';
