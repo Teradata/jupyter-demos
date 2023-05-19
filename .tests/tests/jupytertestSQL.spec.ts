@@ -69,7 +69,7 @@ test('verify multiple tabs', async({page})=>{
             notebook_name = sub_menu.substring(sub_menu.indexOf('/')+1);
             sub_menu = sub_menu.substring(0,sub_menu.indexOf('/'));  
 
-            //fs.appendFileSync('./results.log', 'main_menu:'+main_menu + 'zZz sub_menu:'+sub_menu+'zZz notebook_name:'+notebook_name+'\r\n');
+            //fs.appendFileSync('./playwright-report/results.log', 'main_menu:'+main_menu + 'zZz sub_menu:'+sub_menu+'zZz notebook_name:'+notebook_name+'\r\n');
             await runDemo(page1,main_menu,sub_menu,notebook_name,"false"); 
             demos = demos.substring(line_end + 6);       
         }
@@ -108,8 +108,8 @@ test('verify multiple tabs', async({page})=>{
     const date = new Date();
     
     const strText = date.toDateString() + ' ' + date.toTimeString() + ' Getting Demos: Start \r\n';
-    //fs.writeFileSync('./results.log', strText);
-    fs.appendFileSync('./results.log', strText);
+    //fs.writeFileSync('./playwright-report/results.log', strText);
+    fs.appendFileSync('./playwright-report/results.log', strText);
 
     // Go to Main Folder
     await page.waitForSelector('span[title="~/JupyterLabRoot"]');
@@ -130,13 +130,13 @@ test('verify multiple tabs', async({page})=>{
     //var demos = await page.locator('div#slide-7-layer-1').textContent()
     var demos = await page.locator('div[class="lm-Widget p-Widget jp-RenderedText jp-mod-trusted jp-OutputArea-output"] >> pre').textContent()
     demos = 'Demos:\r\n' + demos + '\r\n'
-    fs.appendFileSync('./results.log', demos);
+    fs.appendFileSync('./playwright-report/results.log', demos);
     return demos
  }
  async function runDemo(page: Page, menu: string, submenu: string, demoFile: string, isPythonKernel: string){
     const date = new Date();    
     const strText = date.toDateString() + ' ' + date.toTimeString() + ' Start:' + demoFile + '\r\n';
-    //fs.writeFileSync('./results.log', strText);
+    //fs.writeFileSync('./playwright-report/results.log', strText);
     fs.appendFileSync('./playwright-report/results.log', strText);
 
     // Go to Main Folder
