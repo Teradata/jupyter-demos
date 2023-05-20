@@ -116,7 +116,7 @@ test('verify multiple tabs', async({page})=>{
 async function getDemos(page: Page, cmd: string){
     const date = new Date();
     
-    const strText = date.toDateString() + ' ' + date.toTimeString() + ' Getting Demos: Start \r\n';
+    const strText = date.toDateString() + ' ' + date.toTimeString() + ' Getting Python Demos: Start \r\n';
     //fs.writeFileSync('./playwright-report/results.log', strText);
     fs.appendFileSync('./playwright-report/results.log', strText);
 
