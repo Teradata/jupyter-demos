@@ -124,7 +124,7 @@ test('verify multiple tabs', async({page})=>{
     await page.getByRole('region', { name: 'notebook content' }).locator('pre').click();
     //await page.getByRole('region', { name: 'notebook content' }).getByRole('textbox').fill('!find . -name \'*ipynb\' | grep -v checkpoint | grep -i python');
     await page.getByRole('region', { name: 'notebook content' }).getByRole('textbox').fill(cmd);    
-    await page.waitForSelector('span[class="f1235lqo"] >> text="Teradata SQL | Idle"');
+    await page.waitForSelector('span[class="f1235lqo"] >> text="Python 3 (ipykernel) | Idle"');
     await page.keyboard.press('Shift+Enter');
 
     //var demos = await page.locator('div#slide-7-layer-1').textContent()
