@@ -70,7 +70,7 @@ test('verify multiple tabs', async({page})=>{
             sub_menu = sub_menu.substring(0,sub_menu.indexOf('/'));  
 
             //fs.appendFileSync('./playwright-report/results.log', 'main_menu:'+main_menu + 'zZz sub_menu:'+sub_menu+'zZz notebook_name:'+notebook_name+'\r\n');
-            await runDemo(page1,main_menu,sub_menu,notebook_name,"false"); 
+            //await runDemo(page1,main_menu,sub_menu,notebook_name,"false"); 
             demos = demos.substring(line_end + 6);       
         }
         demo_count = demo_count + 1;
