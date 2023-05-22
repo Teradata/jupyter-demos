@@ -8,7 +8,7 @@ Welcome to ClearScape Analytics Experience.  This service consists of [multiple 
 
 These are <u>functional</u> demonstrations executed on a tiny platform with small data, but the same functionality is available on all of our platforms up to one with hundreds of nodes and petabytes of data. ClearScape Analytics allows you to apply AI, ML and advanced statistics to your data without the cost and complexity of exporting data. You can develop sophisticated models on other platforms with your favorite tools and import those models to execute in production at massive scale.
 
-If you've never used Jupyter before, we strongly recommend you consider looking at the **First Time User** section of **Getting Started**. You'll find an [**introduction video**](./Getting_Started/Introduction_Video/Introduction_Video_SQL.ipynb) with tips on using this platform. If you have questions or issues, [**click here**](mailto:SC230208@teradata.com?subject=ClearScape%20Analytics%20Jupyter%20Question) to send an e-mail to ClearScape Analytics Support.<br><br> 
+If you've never used Jupyter before, we strongly recommend reviewing the **First Time User** section of **Getting Started**. You'll find an [**introduction video**](./Getting_Started/Introduction_Video/Introduction_Video_SQL.ipynb) with tips on using this platform. There are also tips for you if you just want to <b>[look without programming](#I-am-not-a-programmer)</b>. If you have questions or issues, [**click here**](mailto:SC230208@teradata.com?subject=ClearScape%20Analytics%20Jupyter%20Question) to send an e-mail to ClearScape Analytics Support.<br><br> 
 
 ---
 
@@ -18,8 +18,8 @@ If you've never used Jupyter before, we strongly recommend you consider looking 
 |Getting Started| Industries| Functionality|3rd Party Tools|
 |-----------|--------------|---------------|--------------- |
 |[**First Time User**](#First-Time-User)|[Automotive](#Automotive)|[Data Preparation](#Data-Preparation)|[Dataiku](#Dataiku)|
-|[General Usage Information](#General-Usage-Information)|[Energy & Natural Resources](#Energy-&-Natural-Resources)|[Descriptive Statistics](#Descriptive-Statistics)|*Microsoft PowerBI*|
-| |[Financial](#Financial)|*Feature Engineering*|*MicroStrategy*|
+|[I am not a programmer](#I-am-not-a-programmer)|[Energy & Natural Resources](#Energy-&-Natural-Resources)|[Descriptive Statistics](#Descriptive-Statistics)|*Microsoft PowerBI*|
+|[Developer Information](#Developer-Information)|[Financial](#Financial)|*Feature Engineering*|*MicroStrategy*|
 | |[Healthcare](#Healthcare)|[Geospatial](#Geospatial)|*SAP Business Objects*|
 | |[Manufacturing](#Manufacturing)|[Hypothesis testing](#Hypothesis-testing)|*SAS*|
 | |[Retail](#Retail)|[Machine learning](#Machine-learning)|*Tableau*|
@@ -29,8 +29,6 @@ If you've never used Jupyter before, we strongly recommend you consider looking 
 | | |[Path Analytics](#Path-Analytics)| |
 | | |[Text Analysis](#Text-Analysis)| |
 | | |[Time series analytics](#Time-series-analytics)| |
-
-
 
 ---
 
@@ -47,7 +45,20 @@ When running a Jupyter Notebook, there are various indicators that show what is 
 
 [Back to Table of Contents](#Table-of-Contents)<br>
 
-### General Usage Information
+### I am not a programmer
+
+[I am not a programmer](./Getting_Started/I_am_not_a_programmer/I_am_not_a_programmer.ipynb)<br>
+Not everyone that uses this site will want to learn programming. Some will want to review the business cases, look at the steps for the analysis and look at the tables, charts and maps. This is a guide for those people.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### Developer Information
+
+[Data Loading (Python)](./Getting_Started/Data_Loading/Data_Loading_Python.ipynb)<br>
+Shows how to use python to load CSV data from local storage and from zipped files
+
+[Data Loading (SQL)](./Getting_Started/Data_Loading/Data_Loading_SQL.ipynb)<br>
+Shows multiple ways to load data from local CSV files, and cloud files on Google and AWS using the SQL kernel.
 
 [SQL Basics in Jupyter](./Getting_Started/SQL_Basics_in_Jupyter/SQL_Basics_in_Jupyter_SQL.ipynb)<br>
 This guide will walk you through writing your first SQL queries in Jupyter.  It uses some of the Vantage system tables as a source for the queries.
@@ -149,13 +160,19 @@ This uses the ClearScape Analytics nPath® function to provide visuals on the ev
 
 ### Manufacturing
 
+[Anomaly Detection](./UseCases/Anomaly_Detection/Anomaly_Detection_PY_SQL.ipynb)<br>
+Evaluates potential failures in spot welds based on voltage anomalies during the welding process.
+
 [Battery Defect Analysis](./UseCases/Battery_Defect_Analysis/Battery_Defect_Analysis_PY_SQL.ipynb)<br>
 Uses local data (or foreign tables on GCP) to analyze patterns of battery failure, then links to data on AWS for detailed battery measurement.
+
+[Car Complaints](./UseCases/Car_Complaints/Car_Complaints_PY_SQL.ipynb)<br>
+Uses geospatial techniques to locate service centers close to the complaint and outlier detection to detect part defects earlier than expected.
 
 [Green Manufacturing](./UseCases/Green_Manufacturing/Green_Manufacturing_PY_SQL.ipynb)<br>
 Uses analytic and ML techniquest to predict how long vehicle testing will take based on combination of features installed.
 
-[Predictive Mantenance](./UseCases/Predictive_Maintenance/Predictive_Maintenance_PY_SQL.ipynb)<br>
+[Predictive Maintenance](./UseCases/Predictive_Maintenance/Predictive_Maintenance_PY_SQL.ipynb)<br>
 Uses ML functions to predict failures to identify and mitigate potential machine failures before they occur.
 
 [Back to Table of Contents](#Table-of-Contents)<br>
@@ -165,7 +182,7 @@ Uses ML functions to predict failures to identify and mitigate potential machine
 [Broken Digital Journey](./UseCases/Broken_Digital_Journey/Broken_Digital_Journey_Python.ipynb)<br>
 This uses nPath® analysis to show the retail events that prevent the ultimate objective: a purchase.  This uses interactive Sankey diagrams to understand the problems.
 
-[Customer Behavior Analysis](./UseCases/CustomerBehaviorAnalysis/Customer_Behavioral_Analysis_Python.ipynb)<br>
+[Customer Behavior Analysis](./UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_Python.ipynb)<br>
 Analysis of customer purchase behavior using nPath® analysis in Python with visualization using Sankey diagrams.
 
 [Deep History via Object Store](./UseCases/Deep_History_via_Object_Store/Deep_History_via_Object_Store_SQL.ipynb)<br>
@@ -200,11 +217,20 @@ Demonstrates the ability of Geospatial to show signal strength, coverage areas a
 
 ### Travel & Transportation
 
-[4D Analytics on bike sharing](./UseCases/4D_Analytics_on_bike_sharing/4D_Analytics_on_bike_sharing_SQL.ipynb)<br>
+[4D Analytics on bike sharing (PY_SQL)](./UseCases/4D_Analytics_on_bike_sharing/4D_Analytics_on_bike_sharing_PY_SQL.ipynb)<br>
+Demonstration of Geospatial and TimeSeries using Austin bike trip data between 2014 and 2017. This version has interactive geospatial maps.
+
+[4D Analytics on bike sharing (SQL)](./UseCases/4D_Analytics_on_bike_sharing/4D_Analytics_on_bike_sharing_SQL.ipynb)<br>
 Demonstration of Geospatial and TimeSeries using Austin bike trip data between 2014 and 2017.
+
+[Air Passenger Forecasting](./UseCases/Air_Passenger_Forecasting/Air_Passenger_Forecasting_SQL.ipynb)<br>
+Applies Auto Regressive Integrated Moving Average (ARIMA) analysis to forecast airplane passenger volume.
 
 [NYC Taxi Geospatial](./UseCases/NYC_Taxi/NYC_Taxi_Geospatial_PY_SQL.ipynb)<br>
 Applies geospatial functions to analysis of NYC Taxi pickups and drop off locations.
+
+[Train Delay Path Analysis](./UseCases/Train_Delay/Train_Delay_Python.ipynb)<br>
+Uses nPath displays to show relationship of delays and predictive models to anticipate potential delays and enable proactive planning.
 
 [Back to Table of Contents](#Table-of-Contents)<br>
 
@@ -241,8 +267,14 @@ Demonstrated the use of Teradataml in Python to perform descriptive statistics, 
 
 ### Geospatial
 
-[4D Analytics on bike sharing](./UseCases/4D_Analytics_on_bike_sharing/4D_Analytics_on_bike_sharing_SQL.ipynb)<br>
+[4D Analytics on bike sharing (PY_SQL)](./UseCases/4D_Analytics_on_bike_sharing/4D_Analytics_on_bike_sharing_PY_SQL.ipynb)<br>
+Demonstration of Geospatial and TimeSeries using Austin bike trip data between 2014 and 2017. This version has interactive geospatial maps.
+
+[4D Analytics on bike sharing (SQL)](./UseCases/4D_Analytics_on_bike_sharing/4D_Analytics_on_bike_sharing_SQL.ipynb)<br>
 Demonstration of Geospatial and TimeSeries using Austin bike trip data between 2014 and 2017.
+
+[Car Complaints](./UseCases/Car_Complaints/Car_Complaints_PY_SQL.ipynb)<br>
+Uses geospatial techniques to locate service centers close to the complaint and outlier detection to detect part defects earlier than expected.
 
 [NYC Taxi Geospatial](./UseCases/NYC_Taxi/NYC_Taxi_Geospatial_PY_SQL.ipynb)<br>
 Applies geospatial functions to analysis of NYC Taxi pickups and drop off locations.
@@ -263,6 +295,9 @@ This demonstrates a subset of the 18 hypothesis test in the Vantage Analytics li
 [Back to Table of Contents](#Table-of-Contents)<br>
 
 ### Machine learning
+
+[Anomaly Detection](./UseCases/Anomaly_Detection/Anomaly_Detection_PY_SQL.ipynb)<br>
+Evaluates potential failures in spot welds based on voltage anomalies during the welding process.
 
 [Banking Customer Churn](./UseCases/Banking_Customer_Churn/Banking_Customer_Churn_Python.ipynb)<br>
 Uses a combination of Vantage Analytics Library to prepare data, using machine learning in python and importing the resulting PMML model into Vantage for scoring.
@@ -294,11 +329,14 @@ Machine learning is applied to the complex attributes of patients to help recogn
 [K-Means Clustering and ML model](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_SQL.ipynb)<br>
 This uses the unsupervised K-Means ML algorithm to identify patterns in retail purchases.
 
-[Predictive Mantenance](./UseCases/Predictive_Maintenance/Predictive_Maintenance_PY_SQL.ipynb)<br>
+[Predictive Maintenance](./UseCases/Predictive_Maintenance/Predictive_Maintenance_PY_SQL.ipynb)<br>
 Uses ML functions to predict failures to identify and mitigate potential machine failures before they occur.
 
 [Telco Customer Churn](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_PY_SQL.ipynb)<br>
 This uses logistic regression for supervised learning to predict the probability of a customer switching vendors based on usage patterns, billing information demographics and interactions. XGBoost is then used in database to improve the prediction.
+
+[Train Delay Path Analysis](./UseCases/Train_Delay/Train_Delay_Python.ipynb)<br>
+Uses nPath displays to show relationship of delays and predictive models to anticipate potential delays and enable proactive planning.
 
 [VAL Analytics and ML](./UseCases/Vantage_Analytics_Library/VAL_Analytics_and_ML_SQL.ipynb)<br>
 Demonstration of Vantage Analytic Library scoring and analytic functions like linear regression, decision trees, K-Means clustering, Factor Analysis, etc.
@@ -319,6 +357,9 @@ This demonstrates integration of local data or foreign tables on GCP and integra
 [Back to Table of Contents](#Table-of-Contents)<br>
 
 ### Open-and-connected analytics
+
+[Anomaly Detection](./UseCases/Anomaly_Detection/Anomaly_Detection_PY_SQL.ipynb)<br>
+Evaluates potential failures in spot welds based on voltage anomalies during the welding process.
 
 [Banking Customer Churn](./UseCases/Banking_Customer_Churn/Banking_Customer_Churn_Python.ipynb)<br>
 Uses a combination of Vantage Analytics Library to prepare data, using machine learning in python and importing the resulting PMML model into Vantage for scoring.
@@ -351,7 +392,7 @@ Introduction to Teradataml package for Python including connecting to Vantage, T
 [Broken Digital Journey](./UseCases/Broken_Digital_Journey/Broken_Digital_Journey_Python.ipynb)<br>
 This uses nPath® analysis to show the retail events that prevent the ultimate objective: a purchase.  This uses interactive Sankey diagrams to understand the problems.
 
-[Customer Behavior Analysis](./UseCases/CustomerBehaviorAnalysis/Customer_Behavioral_Analysis_Python.ipynb)<br>
+[Customer Behavior Analysis](./UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_Python.ipynb)<br>
 Analysis of customer purchase behavior using nPath® analysis in Python with visualization using Sankey diagrams.
 
 [Financial Customer Journey (PY_SQL)](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb)<br>
@@ -365,6 +406,9 @@ The ClearScape Analytics Attribution function is used to determine the weight of
 
 [Knee Replacement nPath](./UseCases/Knee_Replacement/Knee_Replacement_nPath_Python.ipynb)<br>
 This uses the ClearScape Analytics nPath® function to provide visuals on the events leading up to the final outcome, in this case, knee replacement.
+
+[Train Delay Path Analysis](./UseCases/Train_Delay/Train_Delay_Python.ipynb)<br>
+Uses nPath displays to show relationship of delays and predictive models to anticipate potential delays and enable proactive planning.
 
 [Back to Table of Contents](#Table-of-Contents)<br>
 
@@ -385,6 +429,15 @@ This performs in-database analysis of data values, distribution, histograms, and
 [Back to Table of Contents](#Table-of-Contents)<br>
 
 ### Time series analytics
+
+[4D Analytics on bike sharing (PY_SQL)](./UseCases/4D_Analytics_on_bike_sharing/4D_Analytics_on_bike_sharing_PY_SQL.ipynb)<br>
+Demonstration of Geospatial and TimeSeries using Austin bike trip data between 2014 and 2017. This version has interactive geospatial maps.
+
+[4D Analytics on bike sharing (SQL)](./UseCases/4D_Analytics_on_bike_sharing/4D_Analytics_on_bike_sharing_SQL.ipynb)<br>
+Demonstration of Geospatial and TimeSeries using Austin bike trip data between 2014 and 2017.
+
+[Air Passenger Forecasting](./UseCases/Air_Passenger_Forecasting/Air_Passenger_Forecasting_SQL.ipynb)<br>
+Applies Auto Regressive Integrated Moving Average (ARIMA) analysis to forecast airplane passenger volume.
 
 [Carbon Footprint Analytics](./UseCases/Carbon_Footprint_Analytics/Carbon_Footprint_Analytics_PY_SQL.ipynb)<br>
 A key component of ESG is Carbon Footprint. This demonstrates a part of a solution available from Teradata to integrate multiple data sources to calculate carbon footprint of various corporate activities.
