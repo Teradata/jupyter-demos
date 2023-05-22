@@ -50,7 +50,7 @@ test('verify multiple tabs', async({page})=>{
     //      find . -name '*.ipynb' | grep -v checkpoint | grep -i py_sql
     // To Copy results, use Ctrl+C to Copy, then Ctrl+V to paste
     
-    var demos = await getDemos(page1,"!find . -name '*.ipynb' | grep -v checkpoint | grep -i python");    
+    var demos = await getDemos(page1,"!find . -name '*.ipynb' | grep -v checkpoint | grep -i 'python\\|py_sql'");    
     
     // Parse scripts
     // Examples: 
