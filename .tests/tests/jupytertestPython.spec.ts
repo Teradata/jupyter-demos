@@ -140,12 +140,15 @@ async function getDemos(page: Page, cmd: string){
     await page.keyboard.press('Shift+Enter');
 
     //var demos = await page.locator('div#slide-7-layer-1').textContent()
-    var demos = await page.locator('div[class="lm-Widget p-Widget jp-RenderedText jp-mod-trusted jp-OutputArea-output"] >> pre').textContent()
-    demos = 'Demos:\r\n' + demos + '\r\n'
-    fs.appendFileSync('./playwright-report/results.log', demos);
+    var demos = await page.locator('div[class="lm-Widget p-Widget jp-RenderedText jp-mod-trusted jp-OutputArea-output"] >> pre').textContent()   
+    fs.appendFileSync('./playwright-report/results.log', 'Demos:\r\n' + demos + '\r\n');
     return demos
  }
  async function runDemo(page: Page, menu: string, submenu: string, demoFile: string, isPythonKernel: string){
+    if (submenu.indexOf('.') == 0){
+        fs.appendFileSync('./playwright-report/results.log', "Skipping Invalid Demo: " + demoFile + '\r\n' );
+        return ''
+    }
     const date = new Date();    
     const strText = date.toDateString() + ' ' + date.toTimeString() + ' Start:' + demoFile + '\r\n';
     //fs.writeFileSync('./playwright-report/results.log', strText);
