@@ -61,7 +61,7 @@ test('verify multiple tabs', async({page})=>{
         //Read first line
         line_start = demos.indexOf('./');
         line_end = demos.indexOf('.ipynb');
-        if (line_start > 0 && line_end > 0) 
+        if (line_start >= 0 && line_end > 0) 
         {
             tempLine = demos.substring(line_start+2,line_end + 6)
             main_menu = tempLine.substring(0,tempLine.indexOf('/'));
@@ -88,20 +88,7 @@ test('verify multiple tabs', async({page})=>{
     await runDemo(page1,"UseCases","Knee_Replacement","Knee_Replacement_Attribution_SQL.ipynb","false");
     //await runDemo(page1,"UseCases","Air_Passenger_Forecasting","Air_Passenger_Forecasting_SQL.ipynb","false");    // Not finding it.... odd!!!
     await runDemo(page1,"UseCases","Fourier_Transforms","Fourier_Transforms_SQL.ipynb","false");    
-    await runDemo(page1,"UseCases","Insurance_Policy_Temporal","Insurance_Policy_Temporal_SQL.ipynb","false");
-    await runDemo(page1,"UseCases","4D_Analytics_on_bike_sharing","4D_Analytics_on_bike_sharing_SQL.ipynb","false");
-    await runDemo(page1,"UseCases","Consumer_Complaints","Consumer_Complaints_SQL.ipynb","false");
-    await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_Descriptive_Statistics_SQL.ipynb","false");
-    await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_Analytics_and_ML_SQL.ipynb","false");
-    await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_Overview_SQL.ipynb","false");
-    await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_Hypothesis_Tests_SQL.ipynb","false");
-    await runDemo(page1,"UseCases","Financial_Customer_Journey","Financial_Customer_Journey_SQL.ipynb","false");
-    await runDemo(page1,"UseCases","Vantage_Query_Log_Analysis","Vantage_Query_Log_Analysis_SQL.ipynb","false");
-    await runDemo(page1,"UseCases","Deep_History_via_Object_Store","Deep_History_via_Object_Store_SQL.ipynb","false");
-    //await runDemo(page1,"Getting_Started","Charting_and_Visualization","Charting_and__Visualization_SQL.ipynb","false");   // Not finding it.... odd!!!                                                                    
-    await runDemo(page1,"Getting_Started","SQL_Basics_in_Jupyter","SQL_Basics_in_Jupyter_SQL.ipynb","false");
-    await runDemo(page1,"Getting_Started","Introduction_Video","Introduction_Video_SQL.ipynb","false");
-    await runDemo(page1,"Getting_Started","Basic_Jupyter_Navigation","Basic_Jupyter_Navigation_SQL.ipynb","false");   
+    await runDemo(page1,"UseCases","Insurance_Policy_Temporal","Insurance_Policy_Temporal_SQL.ipynb","false");    
 */      
  });
  async function getDemos(page: Page, cmd: string){
@@ -134,10 +121,10 @@ test('verify multiple tabs', async({page})=>{
     return demos
  }
  async function runDemo(page: Page, menu: string, submenu: string, demoFile: string, isPythonKernel: string){
-    //if (submenu.indexOf('.') == 0){
-    //    fs.appendFileSync('./playwright-report/results.log', "Skipping Invalid Demo: " + demoFile + '\r\n' );
-    //    return ''
-    //}
+    if (submenu.indexOf('.') == 0){
+        fs.appendFileSync('./playwright-report/results.log', "Skipping Invalid Demo: " + demoFile + '\r\n' );
+        return ''
+    }
     const date = new Date();    
     const strText = date.toDateString() + ' ' + date.toTimeString() + ' Start:' + demoFile + '\r\n';
     //fs.writeFileSync('./playwright-report/results.log', strText);
