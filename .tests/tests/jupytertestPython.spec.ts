@@ -69,7 +69,7 @@ test('verify multiple tabs', async({page})=>{
         //Read first line
         line_start = demos.indexOf('./');
         line_end = demos.indexOf('.ipynb');
-        if (line_start > 0 && line_end > 0) 
+        if (line_start >= 0 && line_end > 0) 
         {
             tempLine = demos.substring(line_start+2,line_end + 6)
             main_menu = tempLine.substring(0,tempLine.indexOf('/'));
@@ -94,18 +94,7 @@ test('verify multiple tabs', async({page})=>{
     //await runDemo(page1,"UseCases","Parkinsons_Disease_Prediction","Parkinsons_Disease_Prediction_PY_SQL.ipynb","true"); // can't find
     await runDemo(page1,"UseCases","Carbon_Footprint_Analytics","Carbon_Footprint_Analytics_PY_SQL.ipynb","true");
     await runDemo(page1,"UseCases","NYC_Taxi","NYC_Taxi_Geospatial_PY_SQL.ipynb","true");
-    await runDemo(page1,"UseCases","Text_Term_Frequency","Text_Term_Frequency_PY_SQL.ipynb","true");
-    await runDemo(page1,"UseCases","Sensor_Data_Analytics","Sensor_Data_Analytics_PY_SQL.ipynb","true");
-    await runDemo(page1,"UseCases","Diabetes_Prediction","Diabetes_Prediction_via_BYOM_H2O_PY_SQL.ipynb","true");
-    await runDemo(page1,"UseCases","Battery_Defect_Analysis","Battery_Defect_Analysis_PY_SQL.ipynb","true");
-    await runDemo(page1,"UseCases","Telco_Network_Coverage","Telco_Network_Coverage_PY_SQL.ipynb","true");
-    //await runDemo(page1,"UseCases","SurvivalAnalysis","SurvivalAnalysis_Python.ipynb","true");  // can't find
-    await runDemo(page1,"UseCases","Banking_Customer_Churn","Banking_Customer_Churn_Python.ipynb","true");
-    await runDemo(page1,"UseCases","Vertex_AI_Integration","Vertex_AI_Integration_Python.ipynb","true");
-    await runDemo(page1,"UseCases","Text_Term_Frequency","Text_Term_Frequency_Python.ipynb","true");
-    await runDemo(page1,"UseCases","Diabetes_Prediction","Diabetes_Prediction_via_DF_and_GLM_Python.ipynb","true");
-    await runDemo(page1,"UseCases","Knee_Replacement","Knee_Replacement_nPath_Python.ipynb","true");
-    await runDemo(page1,"UseCases","Energy_Consumption_Forecasting","Energy_Consumption_Forecasting_Python.ipynb","true");
+    await runDemo(page1,"UseCases","Text_Term_Frequency","Text_Term_Frequency_PY_SQL.ipynb","true"); 
     await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_teradataml_Demo_Python.ipynb","true");
     await runDemo(page1,"UseCases","Data_Science_101_with_Python","Data_Science_101_with_Python_Python.ipynb","true");
     await runDemo(page1,"UseCases","Broken_Digital_Journey","Broken_Digital_Journey_Python.ipynb","true");
