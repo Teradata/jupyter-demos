@@ -232,6 +232,9 @@ async function getDemos(page: Page, cmd: string){
                     await page.fill('input[class="jp-Stdin-input"]', demo_user_pw);
                     await page.keyboard.press('Enter');
                     setPw = 1; // Don't check again       
+                    const date1 = new Date();    
+                    const strText1 = date1.toDateString() + ' ' + date1.toTimeString() + ' Logon step complete. \r\n';
+                    fs.appendFileSync('./playwright-report/results.log', strText1);
                 }
                 // Don't wait on Python Kernel... not very responsive and sometimes the password prompt pops up later (i.e. 2nd step)
                 //await page.waitForSelector('span[class="f1235lqo"] >> text="'+strKernelType+'| Idle"');                  
