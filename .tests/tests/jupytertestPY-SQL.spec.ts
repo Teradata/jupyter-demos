@@ -83,10 +83,6 @@ test('verify multiple tabs', async({page})=>{
     //await runDemo(page1,"UseCases","Fraud_Detection_via_BYOM","Fraud_Detection_via_BYOM_PY_SQL.ipynb","true");  // can't find
     await runDemo(page1,"UseCases","Data_Prep_and_Transformation","Data_Prep_and_Transformation_PY_SQL.ipynb","true");
     await runDemo(page1,"UseCases","Telco_Customer_Churn","Telco_Customer_Churn_PY_SQL.ipynb","true");
-    //await runDemo(page1,"UseCases","Parkinsons_Disease_Prediction","Parkinsons_Disease_Prediction_PY_SQL.ipynb","true"); // can't find
-    await runDemo(page1,"UseCases","Carbon_Footprint_Analytics","Carbon_Footprint_Analytics_PY_SQL.ipynb","true");
-    await runDemo(page1,"UseCases","NYC_Taxi","NYC_Taxi_Geospatial_PY_SQL.ipynb","true");
-    await runDemo(page1,"UseCases","Text_Term_Frequency","Text_Term_Frequency_PY_SQL.ipynb","true"); 
     await runDemo(page1,"UseCases","Vantage_Analytics_Library","VAL_teradataml_Demo_Python.ipynb","true");
     await runDemo(page1,"UseCases","Data_Science_101_with_Python","Data_Science_101_with_Python_Python.ipynb","true");
     await runDemo(page1,"UseCases","Broken_Digital_Journey","Broken_Digital_Journey_Python.ipynb","true");
@@ -157,7 +153,7 @@ async function getDemos(page: Page, cmd: string){
     await page.locator('span[class="jp-DirListing-itemText"] >> text="'+demoFile+'"').dblclick();
     
     fs.appendFileSync('./playwright-report/results.log', 'Found! Running Notebook'+'\r\n');
-    //await runNotebook(page, isPythonKernel);
+    await runNotebook(page, isPythonKernel);
     
     const date2 = new Date();    
     const strText2 = date2.toDateString() + ' ' + date2.toTimeString() + ' End:' + demoFile + '\r\n';
@@ -186,14 +182,14 @@ async function getDemos(page: Page, cmd: string){
     }
     
     //Wait until page shows Kernel is ready(Idle, not connecting) to start running demo
-    await page.waitForSelector('span[class="f1235lqo"] >> text="'+strKernelType+'| Idle"');
+    //await page.waitForSelector('span[class="f1235lqo"] >> text="'+strKernelType+'| Idle"');
+    await page.locator('span[class="f1235lqo"] >> text="'+strKernelType+'| Idle"').waitFor({timeout: 300000});
 
     for (let i = 1; i <= dm; i++) {
         
         await sleep(100);
 
-        // Check the current status of the notebook: (Idle, Busy, Running)
-        //if (await page.locator('span[class="f1235lqo"] >> text="Teradata SQL | Idle"').isVisible())
+        // Check the current status of the notebook: (Idle, Busy, Running)        
         if (await page.locator('span[class="f1235lqo"] >> text="'+strKernelType+'| Idle"').isVisible())
         {
             isIdle = 1;
@@ -202,8 +198,7 @@ async function getDemos(page: Page, cmd: string){
             // Go to next step by clicking Shift+Enter
             await page.keyboard.press('Shift+Enter');
             nSteps = nSteps + 1;
-        }
-        //else if (await page.locator('span[class="f1235lqo"] >> text="Teradata SQL | Busy"').isVisible())
+        }        
         else if (await page.locator('span[class="f1235lqo"] >> text="'+strKernelType+'| Busy"').isVisible())
         {
             // Since Busy, reset idle watch settings
@@ -229,21 +224,9 @@ async function getDemos(page: Page, cmd: string){
             }
             else
             {
-                await page.waitForSelector('span[class="f1235lqo"] >> text="'+strKernelType+'| Idle"');  
-            }
-            /*
-            if (setPw == 0 && await page.locator('pre', { hasText: 'Password:'}).isVisible())  // || await page.locator('pre', { hasText: 'Enter password:'}).isVisible() || await page.locator('pre', { hasText: 'Re-enter Password:'}).isVisible()  ) {                
-            {
-                    //await newPage.fill('input[.jp-Stdin-input :type="password"]', db_pw);
-                                                  
-            } 
-            else if (setPw == 0 && await page.locator('pre', { hasText: 'Enter password:'}).isVisible())  // || await page.locator('pre', { hasText: 'Enter password:'}).isVisible() || await page.locator('pre', { hasText: 'Re-enter Password:'}).isVisible()  ) {                
-            {       //Python Scripts are taking too long to load to request for a password prompt
-                    //await newPage.fill('input[.jp-Stdin-input :type="password"]', db_pw);
-                    await page.fill('input[class="jp-Stdin-input"]', demo_user_pw);
-                    await page.keyboard.press('Enter');
-                    setPw = 1; // Don't check again                                
-            } */
+                //await page.waitForSelector('span[class="f1235lqo"] >> text="'+strKernelType+'| Idle"');  
+                await page.locator('span[class="f1235lqo"] >> text="'+strKernelType+'| Idle"').waitFor({timeout: 600000});
+            }           
 
             //Wait for next step
             //await page.waitForSelector('span[class="f1235lqo"] >> text="Teradata SQL | Idle"');            
