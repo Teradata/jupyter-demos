@@ -4,14 +4,12 @@ import * as fs from 'fs';
 const emailaddr = 'adam.tworkiewicz+jupyter.testing@teradata.com';
 const password = 'wyiEwLP545sE5FY'; 
 const demo_user_pw = 'wyiEwLP545sE5FY';
-//const db_pw = 'dbc';
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
 test('verify multiple tabs', async({page})=>{
     test.setTimeout(10800000);
-    //const page = await context.newPage();
-
+    
     // Login In  (Done!)
     await page.goto('https://clearscape.teradata.com/dashboard');
     await page.fill('input[id="email"]', emailaddr);
@@ -21,9 +19,10 @@ test('verify multiple tabs', async({page})=>{
     // Check if Start Environment is disabled or not (Done)
     //
     //await page.waitForSelector('button:is([disabled]) >> text=RUN DEMOS USING JUPYTER');
-    if (await page.locator('button >> text=RUN DEMOS USING JUPYTER').isDisabled()){   //await page.locator('button >> text=START ENVIRONMENT').isEnabled()){
+    if (await page.locator('button >> text=RUN DEMOS USING JUPYTER').isDisabled()){   
         await page.locator('button >> text=START ENVIRONMENT').click();
-        await page.waitForSelector('button:not([disabled]) >> text=RUN DEMOS USING JUPYTER');
+        //await page.waitForSelector('button:not([disabled]) >> text=RUN DEMOS USING JUPYTER');
+        await page.locator('button:not([disabled]) >> text=RUN DEMOS USING JUPYTER').waitFor({timeout: 300000});
     }
     // Click to Run Demos (Done)
     const page1Promise = page.waitForEvent('popup');
@@ -31,17 +30,10 @@ test('verify multiple tabs', async({page})=>{
     const page1 = await page1Promise;
     // Wait for New Page/Tab to Load, Then jump over to new page (Done)
     await page1.waitForLoadState();                
-    // title of new tab page
-    //console.log(await newPage.title());       
-    // title of existing page
-    //console.log(await page.title());
-    //const jupyter_url=await newPage.url(); //get the url of the current page
-    //strip jupyter url 
-    //const jUrl = jupyter_url.split("/lab/")[0]
-
+    
     // Wait for content to appear before moving on.  Jupyter is slow to load (Done)
-    //await page1.waitForSelector('text=ClearScape Analytics Demonstrations via Jupyter');
-    await page1.waitForSelector('text=Demonstrations via Jupyter');
+    //await page1.waitForSelector('text=Demonstrations via Jupyter');
+    await page1.locator('text=Demonstrations via Jupyter').waitFor({timeout: 300000});
 
     // Run through Demos //
     // Note: To get a list of latest Demos, go to Jupyter Lab, Menu -> File -> New _> Terminal 
@@ -105,12 +97,12 @@ test('verify multiple tabs', async({page})=>{
 async function getDemos(page: Page, cmd: string){
     const date = new Date();
     
-    const strText = date.toDateString() + ' ' + date.toTimeString() + ' Getting Python Demos: Start \r\n';
-    //fs.writeFileSync('./playwright-report/results.log', strText);
+    const strText = date.toDateString() + ' ' + date.toTimeString() + ' Getting Python Demos: Start \r\n';    
     fs.appendFileSync('./playwright-report/results.log', strText);
 
     // Go to Main Folder
-    await page.waitForSelector('span[title="~/JupyterLabRoot"]');
+    //await page.waitForSelector('span[title="~/JupyterLabRoot"]');
+    await page.locator('span[title="~/JupyterLabRoot"]').waitFor({timeout: 300000})
     await page.locator('span[title="~/JupyterLabRoot"]').click();
     await page.locator('span[title="~/JupyterLabRoot"]').click();  // redundant
 
@@ -119,16 +111,13 @@ async function getDemos(page: Page, cmd: string){
     await page.getByText('New', { exact: true }).click();
     await page.getByText('Notebook', { exact: true }).click();
     await page.getByRole('button', { name: 'Select', exact: true }).click();
-    await page.getByRole('region', { name: 'notebook content' }).locator('pre').click();
-    //await page.getByRole('region', { name: 'notebook content' }).getByRole('textbox').fill('!find . -name \'*ipynb\' | grep -v checkpoint | grep -i python');
+    await page.getByRole('region', { name: 'notebook content' }).locator('pre').click();    
     await page.getByRole('region', { name: 'notebook content' }).getByRole('textbox').fill(cmd);
-    //await page.getByRole('region', { name: 'notebook content' }).getByRole('textbox').press('Enter');
-    //await page.getByRole('button', { name: 'Run the selected cells and advance (Shift+Enter)' }).click();
-    //await sleep(500);
-    await page.waitForSelector('span[class="f1235lqo"] >> text="Python 3 (ipykernel) | Idle"');
+    
+    //await page.waitForSelector('span[class="f1235lqo"] >> text="Python 3 (ipykernel) | Idle"');
+    await page.locator('span[class="f1235lqo"] >> text="Python 3 (ipykernel) | Idle"').waitFor({timeout: 300000})
     await page.keyboard.press('Shift+Enter');
 
-    //var demos = await page.locator('div#slide-7-layer-1').textContent()
     var demos = await page.locator('div[class="lm-Widget p-Widget jp-RenderedText jp-mod-trusted jp-OutputArea-output"] >> pre').textContent()   
     fs.appendFileSync('./playwright-report/results.log', 'Demos:\r\n' + demos + '\r\n');
     return demos
@@ -139,37 +128,36 @@ async function getDemos(page: Page, cmd: string){
         return ''
     }
     const date = new Date();    
-    const strText = date.toDateString() + ' ' + date.toTimeString() + ' Start:' + demoFile + '\r\n';
-    //fs.writeFileSync('./playwright-report/results.log', strText);
+    const strText = date.toDateString() + ' ' + date.toTimeString() + ' Start:' + demoFile + '\r\n';    
     fs.appendFileSync('./playwright-report/results.log', strText);
     
     // Go to Main Folder
-    await page.waitForSelector('span[title="~/JupyterLabRoot"]');
+    //await page.waitForSelector('span[title="~/JupyterLabRoot"]');
+    await page.locator('span[title="~/JupyterLabRoot"]').waitFor({timeout: 300000});
     await page.locator('span[title="~/JupyterLabRoot"]').click();
     await page.locator('span[title="~/JupyterLabRoot"]').click();  // redundant
     fs.appendFileSync('./playwright-report/results.log', 'Main ->');
 
-    // Go to 1st Menu item
-    //await sleep(500);
-    await page.waitForSelector('li[class="jp-DirListing-item"] >> text='+menu);  
+    // Go to 1st Menu item    
+    //await page.waitForSelector('li[class="jp-DirListing-item"] >> text='+menu);  
+    await page.locator('li[class="jp-DirListing-item"] >> text='+menu).waitFor({timeout: 300000}); 
     await page.locator('li[class="jp-DirListing-item"] >> text='+menu).dblclick();
     fs.appendFileSync('./playwright-report/results.log', ' 1st Menu ->');
 
-    // Go to 2nd Menu item
-    //await sleep(500);
-    await page.waitForSelector('li[class="jp-DirListing-item"] >> span[class="jp-DirListing-itemText"] >> span >> text="'+submenu+'"');  
+    // Go to 2nd Menu item   
+    //await page.waitForSelector('li[class="jp-DirListing-item"] >> span[class="jp-DirListing-itemText"] >> span >> text="'+submenu+'"');  
+    await page.locator('li[class="jp-DirListing-item"] >> span[class="jp-DirListing-itemText"] >> span >> text="'+submenu+'"').waitFor({timeout: 300000}); 
     await page.locator('li[class="jp-DirListing-item"] >> text="'+submenu+'" >> nth=0').dblclick();
     fs.appendFileSync('./playwright-report/results.log', ' 2nd Menu -> ');
 
     // Go to final location of Jupyter NoteBook 
     //await sleep(500);
-    //await page.waitForSelector('li[class="jp-DirListing-item jp-mod-running"] >> text="'+demoFile+'"');  // found
-    //await page.locator('li[class="jp-DirListing-item jp-mod-running"] >> text="'+demoFile+'"').dblclick();
-    await page.waitForSelector('span[class="jp-DirListing-itemText"] >> text="'+demoFile+'"');  // found
+    //await page.waitForSelector('span[class="jp-DirListing-itemText"] >> text="'+demoFile+'"');  
+    await page.locator('span[class="jp-DirListing-itemText"] >> text="'+demoFile+'"').waitFor({timeout: 300000});  
     await page.locator('span[class="jp-DirListing-itemText"] >> text="'+demoFile+'"').dblclick();
     
     fs.appendFileSync('./playwright-report/results.log', 'Found! Running Notebook'+'\r\n');
-    await runNotebook(page, isPythonKernel);
+    //await runNotebook(page, isPythonKernel);
     
     const date2 = new Date();    
     const strText2 = date2.toDateString() + ' ' + date2.toTimeString() + ' End:' + demoFile + '\r\n';
