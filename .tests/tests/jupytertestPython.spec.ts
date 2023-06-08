@@ -201,7 +201,7 @@ async function getDemos(page: Page, cmd: string){
             
             if (nSteps % 10 == 0)
             {
-                   fs.appendFileSync('./playwright-report/results.log', nSteps.toString() + ' steps complete. \r\n';);
+                   fs.appendFileSync('./playwright-report/results.log', nSteps.toString() + ' steps complete. \r\n');
             }
         }        
         else if (await page.locator('span[class="f1235lqo"] >> text="'+strKernelType+'| Busy"').isVisible())
