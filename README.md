@@ -17,18 +17,20 @@ If you've never used Jupyter before, we strongly recommend reviewing the **First
 
 |Getting Started| Industries| Functionality|3rd Party Tools|
 |-----------|--------------|---------------|--------------- |
-|[**First Time User**](#First-Time-User)|[Automotive](#Automotive)|[Data Preparation](#Data-Preparation)|[Dataiku](#Dataiku)|
-|[I am not a programmer](#I-am-not-a-programmer)|[Energy & Natural Resources](#Energy-&-Natural-Resources)|[Descriptive Statistics](#Descriptive-Statistics)|*Microsoft PowerBI*|
-|[Developer Information](#Developer-Information)|[Financial](#Financial)|*Feature Engineering*|*MicroStrategy*|
-| |[Healthcare](#Healthcare)|[Geospatial](#Geospatial)|*SAP Business Objects*|
-| |[Manufacturing](#Manufacturing)|[Hypothesis testing](#Hypothesis-testing)|*SAS*|
-| |[Retail](#Retail)|[Machine learning](#Machine-learning)|*Tableau*|
-| |[Telco](#Telco)|*ModelOps*|*Vertex*|
-| |[Travel & Transportation](#Travel-&-Transportation)|[Object Storage](#Object-Storage)| |
-| | |[Open-and-connected analytics](#Open-and-connected-analytics)| |
-| | |[Path Analytics](#Path-Analytics)| |
+|[**First Time User**](#First-Time-User)|[Automotive](#Automotive)|[Data Preparation](#Data-Preparation)|*AWS SageMaker*|
+|[I am not a programmer](#I-am-not-a-programmer)|[Energy & Natural Resources](#Energy-&-Natural-Resources)|[Descriptive Statistics](#Descriptive-Statistics)|*Azure ML*|
+|[Developer Information](#Developer-Information)|[Financial](#Financial)|*Feature Engineering*|[Dataiku](#Dataiku)|
+| |[Healthcare](#Healthcare)|[Geospatial](#Geospatial)|*H2O.ai*|
+| |[Manufacturing](#Manufacturing)|[Hypothesis testing](#Hypothesis-testing)|*Microsoft PowerBI*|
+| |[Retail](#Retail)|[Machine learning](#Machine-learning)|*MicroStrategy*|
+| |[Telco](#Telco)|*ModelOps*|*SAP Business Objects*|
+| |[Travel & Transportation](#Travel-&-Transportation)|[Object Storage](#Object-Storage)|*SAS*|
+| | |[Open-and-connected analytics](#Open-and-connected-analytics)|*Tableau*|
+| | |[Path Analytics](#Path-Analytics)|*Vertex*|
 | | |[Text Analysis](#Text-Analysis)| |
 | | |[Time series analytics](#Time-series-analytics)| |
+
+
 
 ---
 
@@ -100,6 +102,9 @@ Uses local data (or foreign tables on GCP) to analyze patterns of battery failur
 [Energy Consumption Forecasting](./UseCases/Energy_Consumption_Forecasting/Energy_Consumption_Forecasting_Python.ipynb)<br>
 This combines machine learning and BYOM to forecast energy consumption using Vantage to score the model at scale without having to export all data.
 
+[Energy Consumption Forecasting Dataiku](./UseCases/Energy_Consumption_Forecasting_Dataiku/Energy_Consumption_Forecasting_Dataiku.ipynb)<br>
+Demonstration of using Dataiku with Vantage. Instructions provided for use with your Dataiku copy + screen shots if you don't have Dataiku. PMML model from Dataiku is imported to Vantage for execution and scoring.
+
 [Back to Table of Contents](#Table-of-Contents)<br>
 
 ### Financial
@@ -170,10 +175,13 @@ Uses local data (or foreign tables on GCP) to analyze patterns of battery failur
 Uses geospatial techniques to locate service centers close to the complaint and outlier detection to detect part defects earlier than expected.
 
 [Green Manufacturing](./UseCases/Green_Manufacturing/Green_Manufacturing_PY_SQL.ipynb)<br>
-Uses analytic and ML techniquest to predict how long vehicle testing will take based on combination of features installed.
+Uses analytic and ML techniques  to predict how long vehicle testing will take based on combination of features installed.
 
 [Predictive Maintenance](./UseCases/Predictive_Maintenance/Predictive_Maintenance_PY_SQL.ipynb)<br>
 Uses ML functions to predict failures to identify and mitigate potential machine failures before they occur.
+
+[Remaining Useful Life Forecasting](./UseCases/Remaining_Useful_Life_Forecasting/Remaining_Useful_Life_Forecasting_PY_SQL.ipynb)<br>
+Applies machine learning to predict Remaining Useful Life (RUL), allowing scheduling of maintenance and replacement before failure occurs and reduces the cost of maintenance and replacement.
 
 [Back to Table of Contents](#Table-of-Contents)<br>
 
@@ -182,17 +190,20 @@ Uses ML functions to predict failures to identify and mitigate potential machine
 [Broken Digital Journey](./UseCases/Broken_Digital_Journey/Broken_Digital_Journey_Python.ipynb)<br>
 This uses nPath® analysis to show the retail events that prevent the ultimate objective: a purchase.  This uses interactive Sankey diagrams to understand the problems.
 
-[Customer Behavior Analysis](./UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_Python.ipynb)<br>
+[Customer Behavior Analysis (PY_SQL)](./UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_PY_SQL.ipynb)<br>
+Analysis of customer purchase behavior using nPath® analysis in Python with visualization using Sankey diagrams.
+
+[Customer Behavior Analysis (Python)](./UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_Python.ipynb)<br>
 Analysis of customer purchase behavior using nPath® analysis in Python with visualization using Sankey diagrams.
 
 [Deep History via Object Store](./UseCases/Deep_History_via_Object_Store/Deep_History_via_Object_Store_SQL.ipynb)<br>
 This demonstrates integration of local data or foreign tables on GCP and integration across cloud providers to detailed historical sales records on AWS.
 
-[Demand Forecasting](./UseCases/SalesForecasting/SalesForecastARIMA.ipynb)<br>
-This creates an ARIMA time series model based on holidays and merchandising activities impacting store sales for a hypermarket retailer.
-
 [K-Means Clustering and ML model](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_SQL.ipynb)<br>
 This uses the unsupervised K-Means ML algorithm to identify patterns in retail purchases.
+
+[Retail Demand Forecasting](./UseCases/Retail_Demand_Forecasting/Retail_Demand_Forecasting_Python.ipynb)<br>
+This creates an ARIMA time series model based on holidays and merchandising activities impacting store sales for a hypermarket retailer.
 
 [Text Term Frequency (Python)](./UseCases/Text_Term_Frequency/Text_Term_Frequency_Python.ipynb)<br>
 Use Ngram splitter within Python to analyze comments  retail products to determine patterns of words used to describe products
@@ -228,6 +239,9 @@ Applies Auto Regressive Integrated Moving Average (ARIMA) analysis to forecast a
 
 [NYC Taxi Geospatial](./UseCases/NYC_Taxi/NYC_Taxi_Geospatial_PY_SQL.ipynb)<br>
 Applies geospatial functions to analysis of NYC Taxi pickups and drop off locations.
+
+[Remaining Useful Life Forecasting](./UseCases/Remaining_Useful_Life_Forecasting/Remaining_Useful_Life_Forecasting_PY_SQL.ipynb)<br>
+Applies machine learning to predict Remaining Useful Life (RUL), allowing scheduling of maintenance and replacement before failure occurs and reduces the cost of maintenance and replacement.
 
 [Train Delay Path Analysis](./UseCases/Train_Delay/Train_Delay_Python.ipynb)<br>
 Uses nPath displays to show relationship of delays and predictive models to anticipate potential delays and enable proactive planning.
@@ -321,7 +335,7 @@ A model that was developed externally  is imported into Vantage for evaluation a
 A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.
 
 [Green Manufacturing](./UseCases/Green_Manufacturing/Green_Manufacturing_PY_SQL.ipynb)<br>
-Uses analytic and ML techniquest to predict how long vehicle testing will take based on combination of features installed.
+Uses analytic and ML techniques  to predict how long vehicle testing will take based on combination of features installed.
 
 [Heart Failure Prediction](./UseCases/Heart_Failure_Prediction/Heart_Failure_Prediction_PY_SQL.ipynb)<br>
 Machine learning is applied to the complex attributes of patients to help recognize patterns that may lead to heart failure faster than a human may recognize.
@@ -331,6 +345,9 @@ This uses the unsupervised K-Means ML algorithm to identify patterns in retail p
 
 [Predictive Maintenance](./UseCases/Predictive_Maintenance/Predictive_Maintenance_PY_SQL.ipynb)<br>
 Uses ML functions to predict failures to identify and mitigate potential machine failures before they occur.
+
+[Remaining Useful Life Forecasting](./UseCases/Remaining_Useful_Life_Forecasting/Remaining_Useful_Life_Forecasting_PY_SQL.ipynb)<br>
+Applies machine learning to predict Remaining Useful Life (RUL), allowing scheduling of maintenance and replacement before failure occurs and reduces the cost of maintenance and replacement.
 
 [Telco Customer Churn](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_PY_SQL.ipynb)<br>
 This uses logistic regression for supervised learning to predict the probability of a customer switching vendors based on usage patterns, billing information demographics and interactions. XGBoost is then used in database to improve the prediction.
@@ -373,6 +390,9 @@ This uses BYOM to import a trained H2O model to identify potential diabetes pati
 [Energy Consumption Forecasting](./UseCases/Energy_Consumption_Forecasting/Energy_Consumption_Forecasting_Python.ipynb)<br>
 This combines machine learning and BYOM to forecast energy consumption using Vantage to score the model at scale without having to export all data.
 
+[Energy Consumption Forecasting Dataiku](./UseCases/Energy_Consumption_Forecasting_Dataiku/Energy_Consumption_Forecasting_Dataiku.ipynb)<br>
+Demonstration of using Dataiku with Vantage. Instructions provided for use with your Dataiku copy + screen shots if you don't have Dataiku. PMML model from Dataiku is imported to Vantage for execution and scoring.
+
 [Financial Fraud Detection VIA BYOM (PY_SQL)](./UseCases/Financial_Fraud_Detection_BYOM/Financial_Fraud_Detection_BYOM_PY_SQL.ipynb)<br>
 A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.
 
@@ -392,7 +412,10 @@ Introduction to Teradataml package for Python including connecting to Vantage, T
 [Broken Digital Journey](./UseCases/Broken_Digital_Journey/Broken_Digital_Journey_Python.ipynb)<br>
 This uses nPath® analysis to show the retail events that prevent the ultimate objective: a purchase.  This uses interactive Sankey diagrams to understand the problems.
 
-[Customer Behavior Analysis](./UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_Python.ipynb)<br>
+[Customer Behavior Analysis (PY_SQL)](./UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_PY_SQL.ipynb)<br>
+Analysis of customer purchase behavior using nPath® analysis in Python with visualization using Sankey diagrams.
+
+[Customer Behavior Analysis (Python)](./UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_Python.ipynb)<br>
 Analysis of customer purchase behavior using nPath® analysis in Python with visualization using Sankey diagrams.
 
 [Financial Customer Journey (PY_SQL)](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb)<br>
@@ -406,6 +429,9 @@ The ClearScape Analytics Attribution function is used to determine the weight of
 
 [Knee Replacement nPath](./UseCases/Knee_Replacement/Knee_Replacement_nPath_Python.ipynb)<br>
 This uses the ClearScape Analytics nPath® function to provide visuals on the events leading up to the final outcome, in this case, knee replacement.
+
+[MultiTouch Attribution](./UseCases/MultiTouch_Attribution/MultiTouch_Attribution_PY_SQL.ipynb)<br>
+Shows rule-based, Statistics, and Algorithmic attribution of the marketing touchpoints leading to conversion. Ten approaches will be demonstrated along with path analysis of effectiveness and cost of conversion.
 
 [Train Delay Path Analysis](./UseCases/Train_Delay/Train_Delay_Python.ipynb)<br>
 Uses nPath displays to show relationship of delays and predictive models to anticipate potential delays and enable proactive planning.
@@ -445,9 +471,6 @@ A key component of ESG is Carbon Footprint. This demonstrates a part of a soluti
 [Consumer Complaints](./UseCases/Consumer_Complaints/Consumer_Complaints_SQL.ipynb)<br>
 Uses government consumer complaint data with SQL queries and visualizations to identify source of top complaints.
 
-[Demand Forecasting](./UseCases/SalesForecasting/SalesForecastARIMA.ipynb)<br>
-This creates an ARIMA time series model based on holidays and merchandising activities impacting store sales for a hypermarket retailer.
-
 [Energy Consumption Forecasting](./UseCases/Energy_Consumption_Forecasting/Energy_Consumption_Forecasting_Python.ipynb)<br>
 This combines machine learning and BYOM to forecast energy consumption using Vantage to score the model at scale without having to export all data.
 
@@ -459,6 +482,9 @@ Show As-IS/As-Was capabilities of Vantage Temporal to dramatically simplify the 
 
 [NYC Taxi Temporal](./UseCases/NYC_Taxi/NYC_Taxi_Temporal_SQL.ipynb)<br>
 Time series data can answer the questions about what was happening at a point in time. This applies Time series and temporal capabilities  of vantage to NYC taxi data.
+
+[Retail Demand Forecasting](./UseCases/Retail_Demand_Forecasting/Retail_Demand_Forecasting_Python.ipynb)<br>
+This creates an ARIMA time series model based on holidays and merchandising activities impacting store sales for a hypermarket retailer.
 
 [Vantage Query Log Analysis](./UseCases/Vantage_Query_Log_Analysis/Vantage_Query_Log_Analysis_SQL.ipynb)<br>
 Analysis of sessions and queries  you executed using the built-in logging facilities of Vantage.
@@ -475,6 +501,10 @@ Analysis of sessions and queries  you executed using the built-in logging facili
 [Dataiku](./UseCases/Dataiku/Dataiku.ipynb)<br>
 Discusses how the 3rd party tool DataIku can be used with Vantage.
 
+[Energy Consumption Forecasting Dataiku](./UseCases/Energy_Consumption_Forecasting_Dataiku/Energy_Consumption_Forecasting_Dataiku.ipynb)<br>
+Demonstration of using Dataiku with Vantage. Instructions provided for use with your Dataiku copy + screen shots if you don't have Dataiku. PMML model from Dataiku is imported to Vantage for execution and scoring.
+
 ---
 
 <footer style="padding:10px;background:#f9f9f9;border-bottom:3px solid #394851">©2023 Teradata. All Rights Reserved</footer>
+
