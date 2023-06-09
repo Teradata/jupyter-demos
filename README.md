@@ -23,7 +23,7 @@ If you've never used Jupyter before, we strongly recommend reviewing the **First
 | |[Healthcare](#Healthcare)|[Geospatial](#Geospatial)|*H2O.ai*|
 | |[Manufacturing](#Manufacturing)|[Hypothesis testing](#Hypothesis-testing)|*Microsoft PowerBI*|
 | |[Retail](#Retail)|[Machine learning](#Machine-learning)|*MicroStrategy*|
-| |[Telco](#Telco)|*ModelOps*|*SAP Business Objects*|
+| |[Telco](#Telco)|[ModelOps](#ModelOps)|*SAP Business Objects*|
 | |[Travel & Transportation](#Travel-&-Transportation)|[Object Storage](#Object-Storage)|*SAS*|
 | | |[Open-and-connected analytics](#Open-and-connected-analytics)|*Tableau*|
 | | |[Path Analytics](#Path-Analytics)|*Vertex*|
@@ -362,6 +362,14 @@ Demonstration of Vantage Analytic Library scoring and analytic functions like li
  In this tutorial, we will show how to integrate Vantage Analytics capabilities  in Vertex AI ML Pipelines. Vertix AI is the environment for data scientists to deploy ML models.
 
 [Back to Table of Contents](#Table-of-Contents)<br>
+
+### ModelOps
+ClearScape Analytics ModelOps manages the operationalization of advanced analytics in Teradata Vantage providing Deployment, Governance and Monitoring of your AI/ML models at scale. Every ClearScape Analytics capability can be managed by ModelOps - including In-database SQL-MR, UAF, BYOM, STO, OpenAF. Every demo available in ClearScape Experience can be managed by ModelOps, we encourage you to test and operationalize new demo models!
+
+For functionality testing, we have prepared one single demo example (PIMA Diabetes prediction) going through different ClearScape Analytics capabilities:
+
+[ModelOps Introducton](./UseCases/ModelOps/00_ModelOps_Introduction.ipynb)<br>
+Provides a Starting point of the ModelOps demos, with an index of the different steps to trial the operationalization of different ClearScape Analytics AI/ML models functions and methods through ModelOps.
 
 ### Object Storage
 
