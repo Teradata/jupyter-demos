@@ -25,7 +25,7 @@ df = pd.DataFrame(inputData, columns=columns)
 G = nx.from_pandas_edgelist(df, source='fromuserid', target='touserid', create_using=nx.Graph())
 
 if not nx.is_empty(G):
-    centrality = nx.eigenvector_centrality(G)
+    centrality = nx.eigenvector_centrality(G, max_iter=500)
     centrality = pd.DataFrame(sorted((v, f"{c:0.2f}") for v, c in centrality.items()), columns = ['node', 'centrality'])
 
 
