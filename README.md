@@ -15,20 +15,20 @@ If you've never used Jupyter before, we strongly recommend reviewing the **First
 ## Table of Contents
 *Items in italics are coming soon.*
 
-|Getting Started| Industries| Functionality|3rd Party Tools|
-|-----------|--------------|---------------|--------------- |
-|[**First Time User**](#First-Time-User)|[Automotive](#Automotive)|[Data Preparation](#Data-Preparation)|*AWS SageMaker*|
-|[I am not a programmer](#I-am-not-a-programmer)|[Energy & Natural Resources](#Energy-&-Natural-Resources)|[Descriptive Statistics](#Descriptive-Statistics)|*Azure ML*|
-|[Developer Information](#Developer-Information)|[Financial](#Financial)|*Feature Engineering*|[Dataiku](#Dataiku)|
-| |[Healthcare](#Healthcare)|[Geospatial](#Geospatial)|*H2O.ai*|
-| |[Manufacturing](#Manufacturing)|[Hypothesis testing](#Hypothesis-testing)|*Microsoft PowerBI*|
-| |[Retail](#Retail)|[Machine learning](#Machine-learning)|*MicroStrategy*|
-| |[Telco](#Telco)|[ModelOps](#ModelOps)|*SAP Business Objects*|
-| |[Travel & Transportation](#Travel-&-Transportation)|[Object Storage](#Object-Storage)|*SAS*|
-| | |[Open-and-connected analytics](#Open-and-connected-analytics)|*Tableau*|
-| | |[Path Analytics](#Path-Analytics)|*Vertex*|
-| | |[Text Analysis](#Text-Analysis)| |
-| | |[Time series analytics](#Time-series-analytics)| |
+| Getting Started | Industries | Business Function | Technical Function| 3rd Party Tools|
+|-----------|--------------|---------------|--------------- | --------------- |
+|[**First Time User**](#First-Time-User)|[Automotive](#Automotive)|*Finance*|[Data Preparation](#Data-Preparation)|*AWS SageMaker*|
+|[I am **not** a programmer](#I-am-**not**-a-programmer)|[Energy & Natural Resources](#Energy-&-Natural-Resources)|[Marketing](#Marketing)|[Descriptive Statistics](#Descriptive-Statistics)|*Azure ML*|
+|[Developer Information](#Developer-Information)|[Financial](#Financial)| |*Feature Engineering*|[Dataiku](#Dataiku)|
+| |[Healthcare](#Healthcare)| |[Geospatial](#Geospatial)|*H2O.ai*|
+| |[Manufacturing](#Manufacturing)| |[Hypothesis testing](#Hypothesis-testing)|*Microsoft PowerBI*|
+| |[Retail](#Retail)| |[Machine learning](#Machine-learning)|*MicroStrategy*|
+| |[Telco](#Telco)| |[ModelOps](#ModelOps)|[R](#R)|
+| |[Travel & Transportation](#Travel-&-Transportation)| |[Object Storage](#Object-Storage)|*SAP Business Objects*|
+| | | |[Open-and-connected analytics](#Open-and-connected-analytics)|*SAS*|
+| | | |[Path Analytics](#Path-Analytics)|*Tableau*|
+| | | |[Text Analysis](#Text-Analysis)|*Vertex*|
+| | | |[Time series analytics](#Time-series-analytics)| |
 
 
 
@@ -47,9 +47,9 @@ When running a Jupyter Notebook, there are various indicators that show what is 
 
 [Back to Table of Contents](#Table-of-Contents)<br>
 
-### I am not a programmer
+### I am **not** a programmer
 
-[I am not a programmer](./Getting_Started/I_am_not_a_programmer/I_am_not_a_programmer.ipynb)<br>
+[I am **not** a programmer](./Getting_Started/I_am_not_a_programmer/I_am_not_a_programmer.ipynb)<br>
 Not everyone that uses this site will want to learn programming. Some will want to review the business cases, look at the steps for the analysis and look at the tables, charts and maps. This is a guide for those people.
 
 [Back to Table of Contents](#Table-of-Contents)<br>
@@ -143,6 +143,18 @@ Show As-IS/As-Was capabilities of Vantage Temporal to dramatically simplify the 
 
 ### Healthcare
 
+[02 Explore Diabetes Data](./ModelOps/02_ModelOps_PIMA_Experimentation.ipynb)<br>
+This is a guide through the PIMA Diabetes prediction including data exploration and model experimentation.
+
+[03 ModelOps Operationalize PMML](./ModelOps/03_ModelOps_BYOM_PIMA_PMML.ipynb)<br>
+Covers the ModelOps operationalizing of Bring-your-own-model (BOYM) importing a model via PMML.  PMML allows exchange predictive models produced by data mining and machine learning algorithms.
+
+[04 Modelops Operationalize ONNX](./ModelOps/04_ModelOps_BYOM_PIMA_ONNX.ipynb)<br>
+Covers the ModelOps operationalizing of the ONNX model format for BYOM for the Diabetes use case. ONNX is an efficient model format primarily related to neural networks.
+
+[05 ModelOps Operationalize H2O](./ModelOps/05_ModelOps_BYOM_PIMA_H2O.ipynb)<br>
+Covers the ModelOps operationalizing of the H2O model format for BYOM for the Diabetes use case. H2O is an open source, distributed in-memory machine learning library with linear scalability.
+
 [Diabetes Prediction via BYOM H2O](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_BYOM_H2O_PY_SQL.ipynb)<br>
 This uses BYOM to import a trained H2O model to identify potential diabetes patients. BYOM allows the data scientist to create models in languages they prefer and run at scale inside Vantage without moving data.
 
@@ -181,7 +193,7 @@ Uses analytic and ML techniques  to predict how long vehicle testing will take b
 Uses ML functions to predict failures to identify and mitigate potential machine failures before they occur.
 
 [Remaining Useful Life Forecasting](./UseCases/Remaining_Useful_Life_Forecasting/Remaining_Useful_Life_Forecasting_PY_SQL.ipynb)<br>
-Applies machine learning to predict Remaining Useful Life (RUL), allowing scheduling of maintenance and replacement before failure occurs and reduces the cost of maintenance and replacement.
+Applies machine learning to predict Remaining Useful Life (RUL) of jet engines, allowing scheduling of maintenance and replacement before failure occurs and reduces the cost of maintenance and replacement.
 
 [Back to Table of Contents](#Table-of-Contents)<br>
 
@@ -199,16 +211,34 @@ Analysis of customer purchase behavior using nPath® analysis in Python with vis
 [Deep History via Object Store](./UseCases/Deep_History_via_Object_Store/Deep_History_via_Object_Store_SQL.ipynb)<br>
 This demonstrates integration of local data or foreign tables on GCP and integration across cloud providers to detailed historical sales records on AWS.
 
+[Hyper-Personalization](./UseCases/Hyper_Personalization/Hyper_Personalization_PY_SQL.ipynb)<br>
+Hyper-personalization creates models from customer interations on multiple channels to determine the "Next Best Offer" for the individual.
+
 [K-Means Clustering and ML model](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_SQL.ipynb)<br>
 This uses the unsupervised K-Means ML algorithm to identify patterns in retail purchases.
+
+[Multi-Touch Attribution for Business Analyst](./UseCases/MultiTouch_Attribution/Analyst_MultiTouch_Attribution_PY_SQL.ipynb)<br>
+This is a somewhat simplified version of the Multi-Touch Attribution demonstration focused on the interests of the Business Analyst vs the Data Scientist.
+
+[Multi-Touch Attribution for Data Scientist](./UseCases/MultiTouch_Attribution/MultiTouch_Attribution_PY_SQL.ipynb)<br>
+Demonstrates attribution of customer behavior via  single touch and multi-touch rule-based models, and using statistical, and algorithmic models. Multiple approaches are demonstrated since each has strengths and limitations.
 
 [Retail Demand Forecasting](./UseCases/Retail_Demand_Forecasting/Retail_Demand_Forecasting_Python.ipynb)<br>
 This creates an ARIMA time series model based on holidays and merchandising activities impacting store sales for a hypermarket retailer.
 
+[Retail Item Demand Forecast](./UseCases/Retail_Demand_Forecasting/Retail_Demand_Forecasting_Python.ipynb)<br>
+Predicts demand for retail products showing how multiple models can be run concurrently.
+
+[Store Sales Forecast via ARIMA](./UseCases/Store_Sales_Forecasting_ARIMA/Store_Sales_Forecasting_ARIMA_Python.ipynb)<br>
+Forecasts total store sales using ARIMA (AutoRegressive Integrated Moving Average)
+
+[Store Sales Forecast via Prophet](./UseCases/Store_Sales_Forecasting_Prophet_STO/Store_Sales_Forecasting_Prophet_STO_PY_SQL.ipynb)<br>
+Uses the Script Table Operator (STO) to run the H20 machine learning library as an extension to ClearScape Analytics.  H20 runs in parallel inside the Vantage database without exporting data to another platform.
+
 [Text Term Frequency (Python)](./UseCases/Text_Term_Frequency/Text_Term_Frequency_Python.ipynb)<br>
 Use Ngram splitter within Python to analyze comments  retail products to determine patterns of words used to describe products
 
-[Text Term Frequency (Python-Sql)](./UseCases/Text_Term_Frequency/Text_Term_Frequency_PY_SQL.ipynb)<br>
+[Text Term Frequency (Python-SQL)](./UseCases/Text_Term_Frequency/Text_Term_Frequency_PY_SQL.ipynb)<br>
 Use Ngram splitter within Python to analyze comments  retail products to determine patterns of words used to describe products
 
 [Text Term Frequency (SQL)](./UseCases/Text_Term_Frequency/Text_Term_Frequency_SQL.ipynb)<br>
@@ -217,6 +247,9 @@ Use NGram splitter to analyze comments  retail products to determine patterns of
 [Back to Table of Contents](#Table-of-Contents)<br>
 
 ### Telco
+
+[Graph Analysis of CDR Records](./UseCases/Graph_Analysis/Graph_Analysis_PY_SQL.ipynb)<br>
+Uses graph analysis to identify communities and key influencers within Call Data Records.  This uses Script Table Operator to invoke external procedures to work inside the Vantage database without exporting data.
 
 [Telco Customer Churn](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_PY_SQL.ipynb)<br>
 This uses logistic regression for supervised learning to predict the probability of a customer switching vendors based on usage patterns, billing information demographics and interactions. XGBoost is then used in database to improve the prediction.
@@ -241,7 +274,7 @@ Applies Auto Regressive Integrated Moving Average (ARIMA) analysis to forecast a
 Applies geospatial functions to analysis of NYC Taxi pickups and drop off locations.
 
 [Remaining Useful Life Forecasting](./UseCases/Remaining_Useful_Life_Forecasting/Remaining_Useful_Life_Forecasting_PY_SQL.ipynb)<br>
-Applies machine learning to predict Remaining Useful Life (RUL), allowing scheduling of maintenance and replacement before failure occurs and reduces the cost of maintenance and replacement.
+Applies machine learning to predict Remaining Useful Life (RUL) of jet engines, allowing scheduling of maintenance and replacement before failure occurs and reduces the cost of maintenance and replacement.
 
 [Train Delay Path Analysis](./UseCases/Train_Delay/Train_Delay_Python.ipynb)<br>
 Uses nPath displays to show relationship of delays and predictive models to anticipate potential delays and enable proactive planning.
@@ -250,7 +283,25 @@ Uses nPath displays to show relationship of delays and predictive models to anti
 
 ---
 
-## Functionality
+## Business Function
+
+
+### Marketing
+
+[Hyper-Personalization](./UseCases/Hyper_Personalization/Hyper_Personalization_PY_SQL.ipynb)<br>
+Hyper-personalization creates models from customer interations on multiple channels to determine the "Next Best Offer" for the individual.
+
+[Multi-Touch Attribution for Business Analyst](./UseCases/MultiTouch_Attribution/Analyst_MultiTouch_Attribution_PY_SQL.ipynb)<br>
+This is a somewhat simplified version of the Multi-Touch Attribution demonstration focused on the interests of the Business Analyst vs the Data Scientist.
+
+[Multi-Touch Attribution for Data Scientist](./UseCases/MultiTouch_Attribution/MultiTouch_Attribution_PY_SQL.ipynb)<br>
+Demonstrates attribution of customer behavior via  single touch and multi-touch rule-based models, and using statistical, and algorithmic models. Multiple approaches are demonstrated since each has strengths and limitations.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+---
+
+## Technical Function
 
 
 ### Data Preparation
@@ -310,6 +361,15 @@ This demonstrates a subset of the 18 hypothesis test in the Vantage Analytics li
 
 ### Machine learning
 
+[03 ModelOps Operationalize PMML](./ModelOps/03_ModelOps_BYOM_PIMA_PMML.ipynb)<br>
+Covers the ModelOps operationalizing of Bring-your-own-model (BOYM) importing a model via PMML.  PMML allows exchange predictive models produced by data mining and machine learning algorithms.
+
+[04 Modelops Operationalize ONNX](./ModelOps/04_ModelOps_BYOM_PIMA_ONNX.ipynb)<br>
+Covers the ModelOps operationalizing of the ONNX model format for BYOM for the Diabetes use case. ONNX is an efficient model format primarily related to neural networks.
+
+[05 ModelOps Operationalize H2O](./ModelOps/05_ModelOps_BYOM_PIMA_H2O.ipynb)<br>
+Covers the ModelOps operationalizing of the H2O model format for BYOM for the Diabetes use case. H2O is an open source, distributed in-memory machine learning library with linear scalability.
+
 [Anomaly Detection](./UseCases/Anomaly_Detection/Anomaly_Detection_PY_SQL.ipynb)<br>
 Evaluates potential failures in spot welds based on voltage anomalies during the welding process.
 
@@ -334,20 +394,41 @@ A model that was developed externally  is imported into Vantage for evaluation a
 [Financial Fraud Detection VIA BYOM (Python)](./UseCases/Financial_Fraud_Detection_BYOM/Financial_Fraud_Detection_BYOM_Python.ipynb)<br>
 A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.
 
+[Graph Analysis of CDR Records](./UseCases/Graph_Analysis/Graph_Analysis_PY_SQL.ipynb)<br>
+Uses graph analysis to identify communities and key influencers within Call Data Records.  This uses Script Table Operator to invoke external procedures to work inside the Vantage database without exporting data.
+
 [Green Manufacturing](./UseCases/Green_Manufacturing/Green_Manufacturing_PY_SQL.ipynb)<br>
 Uses analytic and ML techniques  to predict how long vehicle testing will take based on combination of features installed.
 
 [Heart Failure Prediction](./UseCases/Heart_Failure_Prediction/Heart_Failure_Prediction_PY_SQL.ipynb)<br>
 Machine learning is applied to the complex attributes of patients to help recognize patterns that may lead to heart failure faster than a human may recognize.
 
+[Hyper-Personalization](./UseCases/Hyper_Personalization/Hyper_Personalization_PY_SQL.ipynb)<br>
+Hyper-personalization creates models from customer interations on multiple channels to determine the "Next Best Offer" for the individual.
+
 [K-Means Clustering and ML model](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_SQL.ipynb)<br>
 This uses the unsupervised K-Means ML algorithm to identify patterns in retail purchases.
+
+[Multi-Touch Attribution for Business Analyst](./UseCases/MultiTouch_Attribution/Analyst_MultiTouch_Attribution_PY_SQL.ipynb)<br>
+This is a somewhat simplified version of the Multi-Touch Attribution demonstration focused on the interests of the Business Analyst vs the Data Scientist.
+
+[Multi-Touch Attribution for Data Scientist](./UseCases/MultiTouch_Attribution/MultiTouch_Attribution_PY_SQL.ipynb)<br>
+Demonstrates attribution of customer behavior via  single touch and multi-touch rule-based models, and using statistical, and algorithmic models. Multiple approaches are demonstrated since each has strengths and limitations.
 
 [Predictive Maintenance](./UseCases/Predictive_Maintenance/Predictive_Maintenance_PY_SQL.ipynb)<br>
 Uses ML functions to predict failures to identify and mitigate potential machine failures before they occur.
 
 [Remaining Useful Life Forecasting](./UseCases/Remaining_Useful_Life_Forecasting/Remaining_Useful_Life_Forecasting_PY_SQL.ipynb)<br>
-Applies machine learning to predict Remaining Useful Life (RUL), allowing scheduling of maintenance and replacement before failure occurs and reduces the cost of maintenance and replacement.
+Applies machine learning to predict Remaining Useful Life (RUL) of jet engines, allowing scheduling of maintenance and replacement before failure occurs and reduces the cost of maintenance and replacement.
+
+[Retail Item Demand Forecast](./UseCases/Retail_Demand_Forecasting/Retail_Demand_Forecasting_Python.ipynb)<br>
+Predicts demand for retail products showing how multiple models can be run concurrently.
+
+[Store Sales Forecast via ARIMA](./UseCases/Store_Sales_Forecasting_ARIMA/Store_Sales_Forecasting_ARIMA_Python.ipynb)<br>
+Forecasts total store sales using ARIMA (AutoRegressive Integrated Moving Average)
+
+[Store Sales Forecast via Prophet](./UseCases/Store_Sales_Forecasting_Prophet_STO/Store_Sales_Forecasting_Prophet_STO_PY_SQL.ipynb)<br>
+Uses the Script Table Operator (STO) to run the H20 machine learning library as an extension to ClearScape Analytics.  H20 runs in parallel inside the Vantage database without exporting data to another platform.
 
 [Telco Customer Churn](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_PY_SQL.ipynb)<br>
 This uses logistic regression for supervised learning to predict the probability of a customer switching vendors based on usage patterns, billing information demographics and interactions. XGBoost is then used in database to improve the prediction.
@@ -364,12 +445,41 @@ Demonstration of Vantage Analytic Library scoring and analytic functions like li
 [Back to Table of Contents](#Table-of-Contents)<br>
 
 ### ModelOps
-ClearScape Analytics ModelOps manages the operationalization of advanced analytics in Teradata Vantage providing Deployment, Governance and Monitoring of your AI/ML models at scale. Every ClearScape Analytics capability can be managed by ModelOps - including In-database SQL-MR, UAF, BYOM, STO, OpenAF. Every demo available in ClearScape Experience can be managed by ModelOps, we encourage you to test and operationalize new demo models!
 
-For functionality testing, we have prepared one single demo example (PIMA Diabetes prediction) going through different ClearScape Analytics capabilities:
+[00 ModelOps Introduction](./ModelOps/00_ModelOps_Introduction.ipynb)<br>
+This introduction and table of contents introduces you to ModelOps and provides a launch for ModelOps. It is **recommended** to go through ModelOps deomstrations in sequence.
 
-[ModelOps Introducton](./UseCases/ModelOps/00_ModelOps_Introduction.ipynb)<br>
-Provides a Starting point of the ModelOps demos, with an index of the different steps to trial the operationalization of different ClearScape Analytics AI/ML models functions and methods through ModelOps.
+[01 ModelOps Getting Started](./ModelOps/01_ModelOps_Getting_Started.ipynb)<br>
+This introduces the ModelOps methodology, provides an overview video, and a description of navigating the projects, models, and datasets plus a description of monitoring capabilities.
+
+[02 Explore Diabetes Data](./ModelOps/02_ModelOps_PIMA_Experimentation.ipynb)<br>
+This is a guide through the PIMA Diabetes prediction including data exploration and model experimentation.
+
+[03 ModelOps Operationalize PMML](./ModelOps/03_ModelOps_BYOM_PIMA_PMML.ipynb)<br>
+Covers the ModelOps operationalizing of Bring-your-own-model (BOYM) importing a model via PMML.  PMML allows exchange predictive models produced by data mining and machine learning algorithms.
+
+[04 Modelops Operationalize ONNX](./ModelOps/04_ModelOps_BYOM_PIMA_ONNX.ipynb)<br>
+Covers the ModelOps operationalizing of the ONNX model format for BYOM for the Diabetes use case. ONNX is an efficient model format primarily related to neural networks.
+
+[05 ModelOps Operationalize H2O](./ModelOps/05_ModelOps_BYOM_PIMA_H2O.ipynb)<br>
+Covers the ModelOps operationalizing of the H2O model format for BYOM for the Diabetes use case. H2O is an open source, distributed in-memory machine learning library with linear scalability.
+
+[06 ModelOps Project Setup](./ModelOps/06_ModelOps_GIT_Project_Setup.ipynb)<br>
+Shows you how to set up your own GIT repository for models and create a new project in ModelOps associated with your new repository. This step is **required** for the next notebooks.
+
+[07 ModelOps Define Functions](./ModelOps/07_ModelOps_GIT_PIMA_Python_Indb_GLM.ipynb)<br>
+For the project you've created in ModelOps, this shows definition of the training function, evaluate function, scoring function, life cycle, and monitoring.
+
+[08 ModelOps Add H20 to Project](./ModelOps/08_ModelOps_GIT_PIMA_Python_H2OAutoML.ipynb)<br>
+Demonstrates the use of ModelOps to finalize the H2O AI model, train, evaluate, approve, deploy, score and monitor.
+
+[09 ModelOps Add XGBoost to Project](./ModelOps/09_ModelOps_GIT_PIMA_Python_XGboost.ipynb)<br>
+Uses XGBoost algorithm to generate both Python Joblib and PMML model formats and operationalize them through ModelOps.
+
+[10 ModelOps Add R gbm Model to Project](./ModelOps/10_ModelOps_GIT_PIMA_R_GBM.ipynb)<br>
+Uses the gbm R package to generate both R model formats and operationalize through ModelOps. The gbm R packages extends Freund & Schapire's AadaBoost algorithm and Friedman's **G**radient **B**oosting **M**achine (gbm).
+
+[Back to Table of Contents](#Table-of-Contents)<br>
 
 ### Object Storage
 
@@ -451,7 +561,7 @@ Uses nPath displays to show relationship of delays and predictive models to anti
 [Text Term Frequency (Python)](./UseCases/Text_Term_Frequency/Text_Term_Frequency_Python.ipynb)<br>
 Use Ngram splitter within Python to analyze comments  retail products to determine patterns of words used to describe products
 
-[Text Term Frequency (Python-Sql)](./UseCases/Text_Term_Frequency/Text_Term_Frequency_PY_SQL.ipynb)<br>
+[Text Term Frequency (Python-SQL)](./UseCases/Text_Term_Frequency/Text_Term_Frequency_PY_SQL.ipynb)<br>
 Use Ngram splitter within Python to analyze comments  retail products to determine patterns of words used to describe products
 
 [Text Term Frequency (SQL)](./UseCases/Text_Term_Frequency/Text_Term_Frequency_SQL.ipynb)<br>
@@ -511,6 +621,13 @@ Discusses how the 3rd party tool DataIku can be used with Vantage.
 
 [Energy Consumption Forecasting Dataiku](./UseCases/Energy_Consumption_Forecasting_Dataiku/Energy_Consumption_Forecasting_Dataiku.ipynb)<br>
 Demonstration of using Dataiku with Vantage. Instructions provided for use with your Dataiku copy + screen shots if you don't have Dataiku. PMML model from Dataiku is imported to Vantage for execution and scoring.
+
+[Back to Table of Contents](#Table-of-Contents)<br>
+
+### R
+
+[10 ModelOps Add R gbm Model to Project](./ModelOps/10_ModelOps_GIT_PIMA_R_GBM.ipynb)<br>
+Uses the gbm R package to generate both R model formats and operationalize through ModelOps. The gbm R packages extends Freund & Schapire's AadaBoost algorithm and Friedman's **G**radient **B**oosting **M**achine (gbm).
 
 ---
 
