@@ -79,7 +79,7 @@ jupyter:
 <div class="cell markdown">
 
 <ul style = 'font-size:16px;font-family:Arial'>
-<li>Now, you have to setup paid account first, Click on Billing to setup paid account.</li>
+<li>To proceed further, please set up a paid account by selecting the "Billing" option located on the left side of your screen. Next click on the Set up paid account button. </li>
 <center><img src="images/img4.png" alt="Generative_QA_architecture"  width=800 height=800/></center>
 
 </div>
