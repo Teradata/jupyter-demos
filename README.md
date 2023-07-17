@@ -142,7 +142,7 @@ Uses a combination of Vantage Analytics Library to prepare data, using machine l
 [Python Version](./UseCases/Banking_Customer_Churn/Banking_Customer_Churn_Python.ipynb) &ensp; 
 
 #### Cash Demand Forecasing
-Predicts the future demand for cast in Automatic Teller Machines (ATMs) using Auto Regressive Integrated Moving Average using In-Database functions.<br>
+Predicts the future demand for cast in Automatic Teller Machines (ATMs) using Auto Regressive Integrated Moving Average  (ARIMA) using In-Database functions.<br>
 [SQL Version](./UseCases/Cash_Demand_Forecasting/Cash_Demand_Forecasting_SQL.ipynb)
 
 #### Consumer Complaints
@@ -261,6 +261,10 @@ Hyper-personalization creates models from customer interations on multiple chann
 This uses the unsupervised K-Means ML algorithm to identify patterns in retail purchases.<br>
 [SQL Version](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_SQL.ipynb) &ensp; 
 
+#### Marketing Campaign Effectiveness
+Examines the results of campaigns by various customer attributes then uses correlation, outlier elimination, and machine learning to identify the best campaigns.<br>
+[Python Version](./UseCases/Marketing_Campaign_Effectiveness/Marketing_Campaign_Effectiveness_Preditction_PY_SQL.ipynb)
+
 #### Multi-Touch Attribution for Business Analyst
 This is a somewhat simplified version of the Multi-Touch Attribution demonstration focused on the interests of the Business Analyst vs the Data Scientist.<br>
 [Python-SQL Version](./UseCases/MultiTouch_Attribution/Analyst_MultiTouch_Attribution_PY_SQL.ipynb) &ensp; 
@@ -342,6 +346,10 @@ Uses nPath displays to show relationship of delays and predictive models to anti
 Hyper-personalization creates models from customer interations on multiple channels to determine the "Next Best Offer" for the individual.<br>
 [Python-SQL Version](./UseCases/Hyper_Personalization/Hyper_Personalization_PY_SQL.ipynb) &ensp; 
 
+#### Marketing Campaign Effectiveness
+Examines the results of campaigns by various customer attributes then uses correlation, outlier elimination, and machine learning to identify the best campaigns.<br>
+[Python Version](./UseCases/Marketing_Campaign_Effectiveness/Marketing_Campaign_Effectiveness_Preditction_PY_SQL.ipynb)
+
 #### Multi-Touch Attribution for Business Analyst
 This is a somewhat simplified version of the Multi-Touch Attribution demonstration focused on the interests of the Business Analyst vs the Data Scientist.<br>
 [Python-SQL Version](./UseCases/MultiTouch_Attribution/Analyst_MultiTouch_Attribution_PY_SQL.ipynb) &ensp; 
@@ -349,6 +357,10 @@ This is a somewhat simplified version of the Multi-Touch Attribution demonstrati
 #### Multi-Touch Attribution for Data Scientist
 Demonstrates attribution of customer behavior via  single touch and multi-touch rule-based models, and using statistical, and algorithmic models. Multiple approaches are demonstrated since each has strengths and limitations.<br>
 [Python-SQL Version](./UseCases/MultiTouch_Attribution/MultiTouch_Attribution_PY_SQL.ipynb) &ensp; 
+
+#### Store Sales Forecast via ARIMA
+Forecasts total store sales using ARIMA (AutoRegressive Integrated Moving Average)<br>
+[Python Version](./UseCases/Store_Sales_Forecasting_ARIMA/Store_Sales_Forecasting_ARIMA_Python.ipynb) &ensp; 
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
@@ -471,6 +483,10 @@ Hyper-personalization creates models from customer interations on multiple chann
 This uses the unsupervised K-Means ML algorithm to identify patterns in retail purchases.<br>
 [SQL Version](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_SQL.ipynb) &ensp; 
 
+#### Marketing Campaign Effectiveness
+Examines the results of campaigns by various customer attributes then uses correlation, outlier elimination, and machine learning to identify the best campaigns.<br>
+[Python Version](./UseCases/Marketing_Campaign_Effectiveness/Marketing_Campaign_Effectiveness_Preditction_PY_SQL.ipynb)
+
 #### Multi-Touch Attribution for Business Analyst
 This is a somewhat simplified version of the Multi-Touch Attribution demonstration focused on the interests of the Business Analyst vs the Data Scientist.<br>
 [Python-SQL Version](./UseCases/MultiTouch_Attribution/Analyst_MultiTouch_Attribution_PY_SQL.ipynb) &ensp; 
@@ -512,7 +528,7 @@ Demonstration of Vantage Analytic Library scoring and analytic functions like li
 [SQL Version](./UseCases/Vantage_Analytics_Library/VAL_Analytics_and_ML_SQL.ipynb) &ensp; 
 
 #### Vertex AI Integration
- In this tutorial, we will show how to integrate Vantage Analytics capabilities  in Vertex AI ML Pipelines. Vertix AI is the environment for data scientists to deploy ML models.<br>
+ In this tutorial, we will show how to integrate Vantage Analytics capabilities  in Vertex AI ML Pipelines. Vertex AI is the environment for data scientists to deploy ML models.<br>
 [Python Version](./UseCases/Vertex_AI_Integration/Vertex_AI_Integration_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
@@ -520,7 +536,7 @@ Demonstration of Vantage Analytic Library scoring and analytic functions like li
 ### ModelOps
 
 #### 00 ModelOps Introduction
-This introduction and table of contents introduces you to ModelOps and provides a launch for ModelOps. It is **recommended** to go through ModelOps deomstrations in sequence.<br>
+This introduction and table of contents introduces you to ModelOps and provides a launch for ModelOps. It is **recommended** to go through ModelOps demonstrations in sequence.<br>
 [Information Only](./ModelOps/00_ModelOps_Introduction.ipynb)
 
 #### 01 ModelOps Getting Started
@@ -612,7 +628,7 @@ Introduction to Teradataml package for Python including connecting to Vantage, T
 [Python Version](./Getting_Started/teradataml_Python_Basics/teradataml_Python_Basics_Python.ipynb) &ensp; 
 
 #### Vertex AI Integration
- In this tutorial, we will show how to integrate Vantage Analytics capabilities  in Vertex AI ML Pipelines. Vertix AI is the environment for data scientists to deploy ML models.<br>
+ In this tutorial, we will show how to integrate Vantage Analytics capabilities  in Vertex AI ML Pipelines. Vertex AI is the environment for data scientists to deploy ML models.<br>
 [Python Version](./UseCases/Vertex_AI_Integration/Vertex_AI_Integration_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
@@ -676,7 +692,7 @@ A key component of ESG is Carbon Footprint. This demonstrates a part of a soluti
 [Python-SQL Version](./UseCases/Carbon_Footprint_Analytics/Carbon_Footprint_Analytics_PY_SQL.ipynb) &ensp; 
 
 #### Cash Demand Forecasing
-Predicts the future demand for cast in Automatic Teller Machines (ATMs) using Auto Regressive Integrated Moving Average using In-Database functions.<br>
+Predicts the future demand for cast in Automatic Teller Machines (ATMs) using Auto Regressive Integrated Moving Average  (ARIMA) using In-Database functions.<br>
 [SQL Version](./UseCases/Cash_Demand_Forecasting/Cash_Demand_Forecasting_SQL.ipynb)
 
 #### Consumer Complaints
