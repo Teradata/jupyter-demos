@@ -23,7 +23,7 @@ configure.val_install_location = 'val'
 configure.byom_install_location = 'mldb'
 os.environ['PATH'] = os.pathsep.join([os.environ['PATH'], str(JAVA_HOME), str(JAVA)[:-5]])
 
-eng = create_context(host = 'july-05-1ls9ezeez0ycgiqb.env.clearscape.teradata.com', username = 'demo_user', password = 'helloworld')
+eng = create_context(host = 'xxx', username = 'demo_user', password = 'xxx')
     
 train_data = DataFrame('train_df').to_pandas(all_rows = True)
     
