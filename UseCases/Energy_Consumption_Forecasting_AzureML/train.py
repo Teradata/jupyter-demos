@@ -25,7 +25,7 @@ os.environ['PATH'] = os.pathsep.join([os.environ['PATH'], str(JAVA_HOME), str(JA
 
 eng = create_context(host = 'xxx', username = 'demo_user', password = 'xxx')
     
-train_data = DataFrame('train_df').to_pandas(all_rows = True)
+train_data = DataFrame('train_df').sort('TD_TIMECODE').to_pandas(all_rows = True)
     
 train_x = train_data.drop(['TD_TIMECODE', 'consumption'], axis = 1).astype(float)
 feature_names = list(train_x.columns)
