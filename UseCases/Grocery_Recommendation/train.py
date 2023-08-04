@@ -340,7 +340,7 @@ def main():
             self.loss_soft = torch.nn.MultiLabelSoftMarginLoss()
 
         def forward(self, x):
-         return self.model.forward(input_ids=x['input_ids'], attention_mask=x['attention_mask'], labels=x['targets'])
+            return self.model.forward(input_ids=x['input_ids'], attention_mask=x['attention_mask'], labels=x['targets'])
 
         def configure_optimizers(self):
             param_optimizer = list(self.model.named_parameters())
