@@ -19,7 +19,7 @@ If you've never used Jupyter before, we strongly recommend reviewing the **First
 | Getting Started | Industries | Business Function | Analytic Function| 3rd Party Tools|
 |-----------|--------------|---------------|--------------- | --------------- |
 |<a href='#xFirst-Time-User'>**First Time User**</a>|<a href='#xAutomotive'>Automotive</a>|*Finance*|<a href='#xData-Preparation'>Data Preparation</a>|*AWS SageMaker*|
-|<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>|<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>|<a href='#xDescriptive-Statistics'>Descriptive Statistics</a>|*Azure ML*|
+|<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>|<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>|<a href='#xDescriptive-Statistics'>Descriptive Statistics</a>|<a href='#xAzure-ML'>Azure ML</a>|
 |<a href='#xDeveloper-Information'>Developer Information</a>|<a href='#xFinancial'>Financial</a>| |*Feature Engineering*|<a href='#xDataiku'>Dataiku</a>|
 | |<a href='#xHealthcare'>Healthcare</a>| |<a href='#xGenerative-AI'>Generative AI</a>|*H2O.ai*|
 | |<a href='#xManufacturing'>Manufacturing</a>| |<a href='#xGeospatial'>Geospatial</a>|*Microsoft PowerBI*|
@@ -30,6 +30,12 @@ If you've never used Jupyter before, we strongly recommend reviewing the **First
 | | | |<a href='#xOpen-and-connected-analytics'>Open-and-connected analytics</a>|*Tableau*|
 | | | |<a href='#xPath-Analytics'>Path Analytics</a>|*Vertex*|
 | | | |<a href='#xText-Analysis'>Text Analysis</a>| |
+
+
+
+#### 
+<br>
+
 
 ---
 
@@ -96,7 +102,7 @@ This provides an index to all of the databases used by demo notebooks on this ma
 
 #### How to Submit Your Demos
 It is very easy to submit your demo for publication. Tell us directory with the notebook and referenced files and grant us access to your database.  We'll take it from there.<br>
-[Python Version](./Getting_Started/How_to_Submit_Your_Demos/How_to_Submit_Your_Demos.ipynb)
+[Python Version](./Getting_Started/How_to_Submit_Your_Demos/How_to_Submit_Your_Demos.ipynb) &ensp; [Video](./Getting_Started/How_to_Submit_Your_Demos/How_to_Submit_Your_Demos_Video.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
@@ -127,6 +133,10 @@ This combines machine learning and BYOM to forecast energy consumption using Van
 Demonstration of using Dataiku with Vantage. Instructions provided for use with your Dataiku copy + screen shots if you don't have Dataiku. PMML model from Dataiku is imported to Vantage for execution and scoring.<br>
 [Python Version](./UseCases/Energy_Consumption_Forecasting_Dataiku/Energy_Consumption_Forecasting_Dataiku.ipynb)
 
+#### Energy Consumption Forecasting using AzureML
+This leverages the power of AzureML and Teradata Vantage to enhance our machine learning capabilities and enable scalable model scoring to forecast energy consumption.<br>
+[Python Version](./UseCases/Energy_Consumption_Forecasting_AzureML/Energy_Consumption_Forecasting_AzureML.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xFinancial'></a>
 ### Financial
@@ -149,11 +159,11 @@ This shows the use of ClearScape analytics to reduce the pre-processing effort o
 
 #### Financial Customer Journey
 Uses analytic techniques to find new customers, measure marketing attribution, and maximizing marketing effectiveness<br>
-[SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb) &ensp; [Python-SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb)
+[SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb) &ensp; [Python-SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb) &ensp; [Video](https://storage.cloud.google.com/clearscape_analytics_videos/Financial_Customer_Journey_Use_Case_Demo_SP004464.MP4)
 
 #### Financial Fraud Detection InDB
 Detect financial transaction fraud  using powerful in-database machine learning functions<br>
-[Python Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb)
+[Python Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb) &ensp; [Video](https://storage.cloud.google.com/clearscape_analytics_videos/Financial_Fraud_Detection_Use_Case_Demo_SP004465.MP4) &ensp; [Python-SQL Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb)
 
 #### Financial Fraud Detection VIA BYOM
 A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.<br>
@@ -331,26 +341,26 @@ Applies geospatial functions to analysis of NYC Taxi pickups and drop off locati
 Applies machine learning to predict Remaining Useful Life (RUL) of jet engines, allowing scheduling of maintenance and replacement before failure occurs and reduces the cost of maintenance and replacement.<br>
 [Python-SQL Version](./UseCases/Remaining_Useful_Life_Forecasting/Remaining_Useful_Life_Forecasting_PY_SQL.ipynb)
 
+#### Train Delay Path Analysis
+Uses nPath displays to show relationship of delays and predictive models to anticipate potential delays and enable proactive planning.<br>
+[Python Version](./UseCases/Train_Delay/Train_Delay_Python.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
 ---
 
 ## Business Function
 
-<a id='xFinance'></a>
-### Finance
-
-#### Train Delay Path Analysis
-Uses nPath displays to show relationship of delays and predictive models to anticipate potential delays and enable proactive planning.<br>
-[Python Version](./UseCases/Train_Delay/Train_Delay_Python.ipynb) &ensp; [](.//)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xMarketing'></a>
 ### Marketing
 
 #### Competitor Proximity Geospatial Analysis
 This looks at the impact on purchasing when people that shop at our stores live within reasonable drive time to a competitor. This could identify proximity based marketing tactics to target larger promotions to those customers to increase share of their spend.<br>
 [Python Version](./UseCases/Competitor_Proximity_Geospatial_Analysis/Competitor_Proximity_Geospatial_Analysis_Python.ipynb)
+
+#### Customer 360
+This integrates data about customers from multiple sources using multiple matching techniquest to create the "Golden Customer Record" and calculate LTV.<br>
+[SQL Version](./UseCases/Customer360/CustomerIdentityMatching_SQL.ipynb)
 
 #### Generative AI Question Answering
 Uses OpenAI to translate english language questions into SQL queries to run against a table of marketing data. This includes a link to a notebook with instructions for getting the required OpenAI API key.<br>
@@ -405,13 +415,9 @@ Outliers in an analysis skew the results and make it difficult to recognize the 
 This performs in-database analysis of data values, distribution, histograms, and text field analysis using SQL to access the Vantage Analytics Library.<br>
 [SQL Version](./UseCases/Vantage_Analytics_Library/VAL_Descriptive_Statistics_SQL.ipynb)
 
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xFeature-Engineering'></a>
-### Feature Engineering
-
 #### VAL teradataml Demo
 Demonstrated the use of Teradataml in Python to perform descriptive statistics, transformation, model building model evaluation and scoring.<br>
-[Python Version](./UseCases/Vantage_Analytics_Library/VAL_teradataml_Demo_Python.ipynb) &ensp; [](.//)
+[Python Version](./UseCases/Vantage_Analytics_Library/VAL_teradataml_Demo_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xGenerative-AI'></a>
@@ -495,7 +501,7 @@ Decision Forest and Generalized Linear Model are applied to identify factors tha
 
 #### Financial Fraud Detection InDB
 Detect financial transaction fraud  using powerful in-database machine learning functions<br>
-[Python Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb)
+[Python Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb) &ensp; [Video](https://storage.cloud.google.com/clearscape_analytics_videos/Financial_Fraud_Detection_Use_Case_Demo_SP004465.MP4) &ensp; [Python-SQL Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb)
 
 #### Financial Fraud Detection VIA BYOM
 A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.<br>
@@ -683,7 +689,7 @@ Analysis of customer purchase behavior using nPath® analysis in Python with vis
 
 #### Financial Customer Journey
 Uses analytic techniques to find new customers, measure marketing attribution, and maximizing marketing effectiveness<br>
-[SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb) &ensp; [Python-SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb)
+[SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb) &ensp; [Python-SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb) &ensp; [Video](https://storage.cloud.google.com/clearscape_analytics_videos/Financial_Customer_Journey_Use_Case_Demo_SP004464.MP4)
 
 #### Knee Replacement Attribution
 The ClearScape Analytics Attribution function is used to determine the weight of various events that precede the final outcome, in this example, knee replacement.<br>
@@ -704,6 +710,10 @@ Uses nPath displays to show relationship of delays and predictive models to anti
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xText-Analysis'></a>
 ### Text Analysis
+
+#### Customer 360
+This integrates data about customers from multiple sources using multiple matching techniquest to create the "Golden Customer Record" and calculate LTV.<br>
+[SQL Version](./UseCases/Customer360/CustomerIdentityMatching_SQL.ipynb)
 
 #### Text Term Frequency
 Use NGram splitter to analyze comments  retail products to determine patterns of words used to describe products.<br>
@@ -757,22 +767,22 @@ Time series data can answer the questions about what was happening at a point in
 This creates an ARIMA time series model based on holidays and merchandising activities impacting store sales for a hypermarket retailer.<br>
 [Python Version](./UseCases/Retail_Demand_Forecasting/Retail_Demand_Forecasting_Python.ipynb)
 
+#### Vantage Query Log Analysis
+Analysis of sessions and queries  you executed using the built-in logging facilities of Vantage.<br>
+[SQL Version](./UseCases/Vantage_Query_Log_Analysis/Vantage_Query_Log_Analysis_SQL.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
 ---
 
 ## 3rd Party Tools
 
-<a id='xAWS-SageMaker'></a>
-### AWS SageMaker
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xAzure-ML'></a>
 ### Azure ML
 
-#### Vantage Query Log Analysis
-Analysis of sessions and queries  you executed using the built-in logging facilities of Vantage.<br>
-[SQL Version](./UseCases/Vantage_Query_Log_Analysis/Vantage_Query_Log_Analysis_SQL.ipynb) &ensp; [](.//) &ensp; [](.//)
+#### Energy Consumption Forecasting using AzureML
+This leverages the power of AzureML and Teradata Vantage to enhance our machine learning capabilities and enable scalable model scoring to forecast energy consumption.<br>
+[Python Version](./UseCases/Energy_Consumption_Forecasting_AzureML/Energy_Consumption_Forecasting_AzureML.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xDataiku'></a>
@@ -782,45 +792,17 @@ Analysis of sessions and queries  you executed using the built-in logging facili
 Discusses how the 3rd party tool DataIku can be used with Vantage.<br>
 [Information](./UseCases/Dataiku/Dataiku.ipynb)
 
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xH2O.ai'></a>
-### H2O.ai
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xMicrosoft-PowerBI'></a>
-### Microsoft PowerBI
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xMicroStrategy'></a>
-### MicroStrategy
-
 #### Energy Consumption Forecasting Dataiku
 Demonstration of using Dataiku with Vantage. Instructions provided for use with your Dataiku copy + screen shots if you don't have Dataiku. PMML model from Dataiku is imported to Vantage for execution and scoring.<br>
-[Python Version](./UseCases/Energy_Consumption_Forecasting_Dataiku/Energy_Consumption_Forecasting_Dataiku.ipynb) &ensp; [](.//) &ensp; [](.//) &ensp; [](.//)
+[Python Version](./UseCases/Energy_Consumption_Forecasting_Dataiku/Energy_Consumption_Forecasting_Dataiku.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xR'></a>
 ### R
 
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xSAP-Business-Objects'></a>
-### SAP Business Objects
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xSAS'></a>
-### SAS
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xTableau'></a>
-### Tableau
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xVertex'></a>
-### Vertex
-
 #### 10 ModelOps Add R gbm Model to Project
 Uses the gbm R package to generate both R model formats and operationalize through ModelOps. The gbm R packages extends Freund & Schapire's AadaBoost algorithm and Friedman's **G**radient **B**oosting **M**achine (gbm).<br>
-[Python Version](./ModelOps/10_ModelOps_GIT_PIMA_R_GBM.ipynb) &ensp; [](.//) &ensp; [](.//) &ensp; [](.//) &ensp; [](.//)
+[Python Version](./ModelOps/10_ModelOps_GIT_PIMA_R_GBM.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
