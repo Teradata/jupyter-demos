@@ -137,6 +137,10 @@ Demonstration of using Dataiku with Vantage. Instructions provided for use with 
 This leverages the power of AzureML and Teradata Vantage to enhance our machine learning capabilities and enable scalable model scoring to forecast energy consumption.<br>
 [Python Version](./UseCases/Energy_Consumption_Forecasting_AzureML/Energy_Consumption_Forecasting_AzureML.ipynb)
 
+#### Flood Proximity to Climate Risk Analysis
+This allows enterprises to rapidly analyze this geographic-related information in real-time at any scale - effectively understanding the impacts of these climate events on entire populations.<br>
+[Python Version](./UseCases/Flood_Proximity_Analysis//Flood_Proximity_Analysis_Python.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xFinancial'></a>
 ### Financial
@@ -159,15 +163,19 @@ This shows the use of ClearScape analytics to reduce the pre-processing effort o
 
 #### Financial Customer Journey
 Uses analytic techniques to find new customers, measure marketing attribution, and maximizing marketing effectiveness<br>
-[SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb) &ensp; [Python-SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb) &ensp; [Video](https://storage.cloud.google.com/clearscape_analytics_videos/Financial_Customer_Journey_Use_Case_Demo_SP004464.MP4)
+[SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb) &ensp; [Python-SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Financial_Customer_Journey_Use_Case_Demo_SP004464.MP4)
 
 #### Financial Fraud Detection InDB
 Detect financial transaction fraud  using powerful in-database machine learning functions<br>
-[Python Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb) &ensp; [Video](https://storage.cloud.google.com/clearscape_analytics_videos/Financial_Fraud_Detection_Use_Case_Demo_SP004465.MP4) &ensp; [Python-SQL Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb)
+[Python Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Financial_Fraud_Detection_Use_Case_Demo_SP004465.MP4) &ensp; [Python-SQL Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb)
 
 #### Financial Fraud Detection VIA BYOM
 A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.<br>
 [Python Version](./UseCases/Financial_Fraud_Detection_BYOM/Financial_Fraud_Detection_BYOM_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Financial_Fraud_Detection_BYOM/Financial_Fraud_Detection_BYOM_PY_SQL.ipynb)
+
+#### Flood Proximity to Climate Risk Analysis
+This allows enterprises to rapidly analyze this geographic-related information in real-time at any scale - effectively understanding the impacts of these climate events on entire populations.<br>
+[Python Version](./UseCases/Flood_Proximity_Analysis//Flood_Proximity_Analysis_Python.ipynb)
 
 #### Insurance Policy Temporal
 Show As-IS/As-Was capabilities of Vantage Temporal to dramatically simplify the SQL and improve performance for analyzing insurance policies versus claims.<br>
@@ -447,6 +455,10 @@ Uses geospatial techniques to locate service centers close to the complaint and 
 This looks at the impact on purchasing when people that shop at our stores live within reasonable drive time to a competitor. This could identify proximity based marketing tactics to target larger promotions to those customers to increase share of their spend.<br>
 [Python Version](./UseCases/Competitor_Proximity_Geospatial_Analysis/Competitor_Proximity_Geospatial_Analysis_Python.ipynb)
 
+#### Flood Proximity to Climate Risk Analysis
+This allows enterprises to rapidly analyze this geographic-related information in real-time at any scale - effectively understanding the impacts of these climate events on entire populations.<br>
+[Python Version](./UseCases/Flood_Proximity_Analysis//Flood_Proximity_Analysis_Python.ipynb)
+
 #### NYC Taxi Geospatial
 Applies geospatial functions to analysis of NYC Taxi pickups and drop off locations.<br>
 [Python-SQL Version](./UseCases/NYC_Taxi/NYC_Taxi_Geospatial_PY_SQL.ipynb)
@@ -501,7 +513,7 @@ Decision Forest and Generalized Linear Model are applied to identify factors tha
 
 #### Financial Fraud Detection InDB
 Detect financial transaction fraud  using powerful in-database machine learning functions<br>
-[Python Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb) &ensp; [Video](https://storage.cloud.google.com/clearscape_analytics_videos/Financial_Fraud_Detection_Use_Case_Demo_SP004465.MP4) &ensp; [Python-SQL Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb)
+[Python Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Financial_Fraud_Detection_Use_Case_Demo_SP004465.MP4) &ensp; [Python-SQL Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb)
 
 #### Financial Fraud Detection VIA BYOM
 A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.<br>
@@ -689,7 +701,7 @@ Analysis of customer purchase behavior using nPath® analysis in Python with vis
 
 #### Financial Customer Journey
 Uses analytic techniques to find new customers, measure marketing attribution, and maximizing marketing effectiveness<br>
-[SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb) &ensp; [Python-SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb) &ensp; [Video](https://storage.cloud.google.com/clearscape_analytics_videos/Financial_Customer_Journey_Use_Case_Demo_SP004464.MP4)
+[SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb) &ensp; [Python-SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Financial_Customer_Journey_Use_Case_Demo_SP004464.MP4)
 
 #### Knee Replacement Attribution
 The ClearScape Analytics Attribution function is used to determine the weight of various events that precede the final outcome, in this example, knee replacement.<br>
