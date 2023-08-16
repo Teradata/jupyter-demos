@@ -340,7 +340,7 @@ def main():
             self.loss_soft = torch.nn.MultiLabelSoftMarginLoss()
 
         def forward(self, x):
-            return self.model.forward(input_ids=x['input_ids'], attention_mask=x['attention_mask'], labels=x['targets'])
+         return self.model.forward(input_ids=x['input_ids'], attention_mask=x['attention_mask'], labels=x['targets'])
 
         def configure_optimizers(self):
             param_optimizer = list(self.model.named_parameters())
@@ -514,7 +514,7 @@ def main():
         "--accum_grad_batches", type=int, default=8, help="accum grad batches"
     )
     parser.add_argument(
-        "--max_iters", type=int, default=1000, help="how many iterations until full exhaust of LR scheduler"
+        "--max_iters", type=int, default=100, help="how many iterations until full exhaust of LR scheduler"
     )
 
 
@@ -538,15 +538,21 @@ def main():
     # effective batch size for one optimizer step
     full_batch_size = BATCH_SIZE*ACCUM_GRAD_BATCHES
 
+    print("full_batch_size: " + str(full_batch_size))
+
     # number of optimizer steps per epoch, number of LR iterations per epoch
     iters_per_epoch = rcpt_dm.encodings['input_ids'].shape[0]/full_batch_size
 
+    print("iters_per_epoch: " + str(iters_per_epoch))
+
     # how many iterations until full exhaust of LR scheduler
-    MAX_ITERS = args.accum_grad_batches
+    MAX_ITERS = args.max_iters
+
+    print("MAX_ITERS: " + str(MAX_ITERS))
 
     # this is the number of epochs that leads to LR exhaust
     MAX_EPOCHS = int(MAX_ITERS/iters_per_epoch)
-    print(MAX_EPOCHS)
+    print("MAX_EPOCHS: " + str(MAX_EPOCHS))
 
     
     config = BertConfig(
@@ -573,7 +579,7 @@ def main():
 
     checkpoint_callback = ModelCheckpoint(monitor="val_loss", dirpath=r'checkpoints',filename='p1m_s5_dyn025_softmargin_lamb_hlr1e2_b3072x2_ce_{epoch}_{step}_{val_loss:.3f}-{val_acc:.3f}')
 
-    trainer = pl.Trainer(accelerator="gpu", devices=1,
+    trainer = pl.Trainer(accelerator="cpu", devices=1,
                       max_epochs=MAX_EPOCHS,
                       log_every_n_steps=1, 
                       val_check_interval=0.1,
@@ -587,9 +593,11 @@ def main():
 
     trainer.fit(bert_mlm, rcpt_dm)
 
-    trainer.save_checkpoint("example.ckpt")
+    checkpoint_filename = os.path.join(args.output_dir, "example.ckpt")
+    
+    trainer.save_checkpoint(checkpoint_filename)
 
-    class RcptBERTMLM(pl.LightningModule):
+    class RcptBERTMLM_EXPORT(pl.LightningModule):
         '''
         This is our main class for training a BERT MLM for receipts
         '''
@@ -614,177 +622,32 @@ def main():
 
         def forward(self, x):
     #       y = self.model.forward(input_ids=x['input_ids'], attention_mask=x['attention_mask'], labels=x['targets']).logits
-            y = self.model.forward(input_ids=x).logits
-            return torch.reshape(torch.topk(torch.nn.functional.softmax(y[0][0])[1000:], 30).indices + 1000, [30])
-
-        def configure_optimizers(self):
-            param_optimizer = list(self.model.named_parameters())
-            no_decay = ['bias', 'gamma', 'beta', 'LayerNorm']
-
-            optimizer_grouped_parameters = [
-                {'params': [p for n, p in param_optimizer if not any(
-                    nd in n for nd in no_decay)], 'weight_decay': 0.01},
-                {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}]
-
-            if self.hparams.opt=='FusedLAMB':
-                optimizer = FusedLAMB(optimizer_grouped_parameters,lr=self.hparams.lr)
-            
-            if self.hparams.opt=='AdamW':
-                optimizer = AdamW(optimizer_grouped_parameters,lr=self.hparams.lr)
-
-            self.lr_scheduler = PolyWarmUpScheduler(optimizer,
-                                            warmup=self.hparams.warmup_proportion,
-                                            total_steps=self.hparams.max_iters)
-            return optimizer
-
-        def optimizer_step(self, *args, **kwargs):
-            super().optimizer_step(*args, **kwargs)
-            self.lr_scheduler.step()  # Step per iteration
-
-        def hinge_loss(self, out, batch):
-            """
-            calculate hinge loss - prepare data and make a call to loss function
-            out - result from forward pass from BERT
-            batch - initial data passed into BERT model
-            Returns loss calculated by MultiLabelMarginLoss
-            """
-            hinge_target_pad = torch.nn.functional.pad(batch['hinge_target'], pad=(0, self.model.config.vocab_size - batch['hinge_target'].shape[-1]), mode='constant', value=-1)
-            
-            if self.hparams.mask_mode == 'dynamic':
-                logits = out.logits.clone()
-                logits[~(batch['targets']>0)] = 0 
-                mlm_logits = logits.sum(dim=1) / (batch['targets']>0).count_nonzero(dim=1).unsqueeze(0).T
-
-            if self.hparams.mask_mode == 'dynamic_mean':
-                mlm_logits = out.logits.mean(dim=1)
-            
-            if self.hparams.mask_mode == 'static':
-                mlm_logits = out.logits[:,1:self.hparams.static_masking_first_n+1,:].sum(dim=1) / self.hparams.static_masking_first_n
-
-            hinge_loss = self.loss(mlm_logits, hinge_target_pad)
-
-            return hinge_loss
-
-        def softmargin_loss(self, out, batch):
-            """
-            Sama as hinge loss but for MultiLabelSoftMarginLoss
-            Returns loss calculated by MultiLabelSoftMarginLoss
-            """
-            # replace hinge target minus ones with zeroes
-            hinge_target_zeroes = torch.where(batch['hinge_target']>0, 
-                                        batch['hinge_target'], 
-                                        batch['hinge_target'].new_zeros(1)
-                                        )
-            # make one-hot encoding from targets -> (512, 32, 5063) batch x seq_len x vocab_size
-            onehot_singlelabel_target = torch.nn.functional.one_hot(hinge_target_zeroes, num_classes=self.model.config.vocab_size)
-            # make multi label one hot encoding -> 512, 5036
-            onehot_multilabel_target = (onehot_singlelabel_target.sum(dim=1)>0).to(torch.long)
-            # zero out 1st position
-            onehot_multilabel_target[:,0] = 0
-            
-            if self.hparams.mask_mode == 'dynamic':
-                logits = out.logits.clone()
-                logits[~(batch['targets']>0)] = 0 
-                mlm_logits = logits.sum(dim=1) / (batch['targets']>0).count_nonzero(dim=1).unsqueeze(0).T
-
-            if self.hparams.mask_mode == 'dynamic_mean':
-                mlm_logits = out.logits.mean(dim=1)
-            
-            if self.hparams.mask_mode == 'static':
-                mlm_logits = out.logits[:,1:self.hparams.static_masking_first_n+1,:].sum(dim=1) / self.hparams.static_masking_first_n
-
-            return self.loss_soft(mlm_logits, onehot_multilabel_target)
-
-        def training_step(self, batch, batch_idx):
-            """
-            return a loss given a batch
-            """
-            out = self.forward(batch)
-
-            if self.hparams.loss_func == "hinge": 
-                loss_val = self.hinge_loss(out, batch) 
-            elif self.hparams.loss_func == "softmargin":
-                loss_val = self.softmargin_loss(out, batch) 
-            else:
-                loss_val = out.loss
-
-            self.log('loss', loss_val.item(), prog_bar=True, logger=True)
-            self.log('lr', self.lr_scheduler.get_last_lr()[0],  prog_bar=True, logger=True)
-
-            return {'loss': loss_val}
-
-        def validation_step(self, batch, batch_idx):
-            """
-            calc metrics on validation dataset
-            """
-            with torch.no_grad():
-                out = self.forward(batch)
-                if self.hparams.loss_func == "hinge": 
-                    loss_val = self.hinge_loss(out, batch) 
-                elif self.hparams.loss_func == "softmargin":
-                    loss_val = self.softmargin_loss(out, batch) 
-                else:
-                    loss_val = out.loss
-                self.log('val_loss', loss_val.item(), prog_bar=True, logger=True)
-
-                
-                # val accuracy calculation
-                if self.hparams.mask_mode == 'dynamic':
-                    logits = out.logits.clone()
-                    logits[~(batch['targets']>0)] = 0 
-                    mlm_logits = logits.sum(dim=1) / (batch['targets']>0).count_nonzero(dim=1).unsqueeze(0).T # average logits within one receipt
-                    _,cls_pred = torch.topk(mlm_logits,k=5)
-
-                if self.hparams.mask_mode == 'dynamic_mean':
-                    mlm_logits = out.logits.mean(dim=1)
-                    _,cls_pred = torch.topk(mlm_logits,k=5)
-                
-                if self.hparams.mask_mode == 'static':
-                    mlm_logits = out.logits[:,1:self.hparams.static_masking_first_n+1,:].sum(dim=1) / self.hparams.static_masking_first_n
-                    _,cls_pred = torch.topk(mlm_logits,k=self.hparams.static_masking_first_n*2)
-
-                # extract topk multilabel predictions (one hot form)
-                onehot_singlelabel_pred = torch.nn.functional.one_hot(cls_pred, num_classes=self.model.config.vocab_size)
-                onehot_multilabel_pred = onehot_singlelabel_pred.sum(dim=1)>0
-
-                # extract multilabel target (one hot form)
-                hinge_target_zeroes = torch.where(batch['hinge_target']>0, batch['hinge_target'], torch.tensor(0, dtype=batch['hinge_target'].dtype, device=batch['hinge_target'].device))
-                onehot_singlelabel_target = torch.nn.functional.one_hot(hinge_target_zeroes, num_classes=self.model.config.vocab_size)
-                onehot_multilabel_target = onehot_singlelabel_target.sum(dim=1)>0
-
-                # compare target vs prediction, at least one match wouble be fine
-                res = (onehot_multilabel_pred & onehot_multilabel_target).any(dim=1)
-                self.log('val_acc', res.sum()/res.shape[0], prog_bar=True, logger=True)
-
-            return out.logits
+            y = self.model(input_ids=x).logits
+            return torch.reshape(torch.topk(torch.nn.functional.softmax(y[0][1])[1000:], 30).indices + 1000, [30])
 
 
-    bert_mlm = RcptBERTMLM(config, **hparams)
+    bert_mlm = RcptBERTMLM_EXPORT(config, **hparams)
 
-    model_loaded = bert_mlm.load_from_checkpoint("example.ckpt", BERTconfig = config)
+    model_loaded = bert_mlm.load_from_checkpoint(checkpoint_filename, BERTconfig = config)
+    model_loaded.train(False)
 
-    X = next(iter(rcpt_dm.val_dataloader()))
-
-    X["input_ids"]
-
-    model_loaded(X["input_ids"])
-
-
+    
 
     os.makedirs(args.output_dir, exist_ok=True)
 
+    with torch.no_grad():
+        torch.onnx.export(model_loaded,                     # model being run
+                        ##since model is in the cuda mode, input also need to be
+                        torch.tensor([[103,14527,23350,13331,31230,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],dtype=torch.int32),              # model input (or a tuple for multiple inputs)
+                        os.path.join(args.output_dir, "model.onnx"), # where to save the model (can be a file or file-like object)
+                        export_params=True,        # store the trained parameter weights inside the model file
+                        opset_version=15,          # the ONNX version to export the model to
+                        do_constant_folding=False,  # whether to execute constant folding for optimization
+                        input_names = ['input'],
+                        output_names = ['output'],
+                        keep_initializers_as_inputs = False
 
-    torch.onnx.export(model_loaded,                     # model being run
-                    ##since model is in the cuda mode, input also need to be
-                    X["input_ids"],              # model input (or a tuple for multiple inputs)
-                    os.path.join(args.output_dir, "model.onnx"), # where to save the model (can be a file or file-like object)
-                    export_params=True,        # store the trained parameter weights inside the model file
-                    opset_version=12,          # the ONNX version to export the model to
-                    do_constant_folding=False,  # whether to execute constant folding for optimization
-                    input_names = ['input'],
-                    output_names = ['output']
-
-                    )
+                        )
 
     mlflow.end_run()
 
