@@ -1,1 +1,4 @@
 openai
+sentence-transformers
+huggingface-hub
+FlagEmbedding
