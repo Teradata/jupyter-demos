@@ -1,0 +1,55 @@
+{
+"name": "index",
+"categories": [
+    {"category": "Getting Started", 
+    "subjects": [
+        {"id": "400", "subject": "First Time User"},
+        {"id": "405", "subject": "I am **not** a programmer"},
+        {"id": "410", "subject": "Developer Information"}
+    ] },
+    {"category": "Industries", 
+    "subjects": [
+        {"id": "200", "subject": "Automotive"},
+        {"id": "210", "subject": "Energy & Natural Resources"},
+        {"id": "220", "subject": "Financial"},
+        {"id": "230", "subject": "Healthcare"},
+        {"id": "240", "subject": "Manufacturing"},
+        {"id": "250", "subject": "Retail"},
+        {"id": "260", "subject": "Telco"},
+        {"id": "270", "subject": "Travel & Transportation"}
+    ] },
+    {"category": "Business Function", 
+    "subjects": [
+        {"id": "630", "subject": "Finance"},
+        {"id": "650", "subject": "Marketing"}
+    ] },
+    {"category": "Analytic Function", 
+    "subjects": [
+        {"id": "10", "subject": "Data Preparation"},
+        {"id": "20", "subject": "Descriptive Statistics"},
+        {"id": "30", "subject": "Feature Engineering"},
+        {"id": "40", "subject": "Generative AI"},
+        {"id": "50", "subject": "Geospatial"},
+        {"id": "60", "subject": "Hypothesis testing"},
+        {"id": "70", "subject": "Machine learning"},
+        {"id": "75", "subject": "ModelOps"},
+        {"id": "80", "subject": "Object Storage"},
+        {"id": "90", "subject": "Open-and-connected analytics"},
+        {"id": "100", "subject": "Path Analytics"},
+        {"id": "110", "subject": "Text Analysis"},
+        {"id": "120", "subject": "Time series analytics"}
+    ] },
+    {"category": "3rd Party Tools", 
+    "subjects": [
+        {"id": "580", "subject": "AWS SageMaker"},
+        {"id": "590", "subject": "Azure ML"},
+        {"id": "500", "subject": "Dataiku"},
+        {"id": "570", "subject": "H2O.ai"},
+        {"id": "510", "subject": "Microsoft PowerBI"},
+        {"id": "520", "subject": "MicroStrategy"},
+        {"id": "525", "subject": "R"},
+        {"id": "530", "subject": "SAP Business Objects"},
+        {"id": "540", "subject": "SAS"},
+        {"id": "550", "subject": "Tableau"},
+        {"id": "560", "subject": "Vertex"}    ] }
+] },

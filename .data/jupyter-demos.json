@@ -1,0 +1,1729 @@
+{"name": "notebooks",
+"demos": [
+            {
+            "demo": "00 ModelOps Introduction",
+            "description": "This introduction and table of contents introduces you to ModelOps and provides a launch for ModelOps. It is **recommended** to go through ModelOps demonstrations in sequence.",
+            "id": "117",
+            "subjects": [
+                {"id": "117", "subject": "ModelOps"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Information",
+                "url": "ModelOps/00_ModelOps_Introduction.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "01 ModelOps Getting Started",
+            "description": "This introduces the ModelOps methodology, provides an overview video, and a description of navigating the projects, models, and datasets plus a description of monitoring capabilities.",
+            "id": "118",
+            "subjects": [
+                {"id": "118", "subject": "ModelOps"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "ModelOps/01_ModelOps_Getting_Started.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "02 Explore Diabetes Data",
+            "description": "This is a guide through the PIMA Diabetes prediction including data exploration and model experimentation.",
+            "id": "119",
+            "subjects": [
+                {"id": "119", "subject": "Healthcare"},
+                {"id": "119", "subject": "ModelOps"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "ModelOps/02_ModelOps_PIMA_Experimentation.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "03 ModelOps Operationalize PMML",
+            "description": "Covers the ModelOps operationalizing of Bring-your-own-model (BOYM) importing a model via PMML.  PMML allows exchange predictive models produced by data mining and machine learning algorithms.",
+            "id": "120",
+            "subjects": [
+                {"id": "120", "subject": "Healthcare"},
+                {"id": "120", "subject": "Machine learning"},
+                {"id": "120", "subject": "ModelOps"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "ModelOps/03_ModelOps_BYOM_PIMA_PMML.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "04 Modelops Operationalize ONNX",
+            "description": "Covers the ModelOps operationalizing of the ONNX model format for BYOM for the Diabetes use case. ONNX is an efficient model format primarily related to neural networks.",
+            "id": "121",
+            "subjects": [
+                {"id": "121", "subject": "Healthcare"},
+                {"id": "121", "subject": "Machine learning"},
+                {"id": "121", "subject": "ModelOps"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "ModelOps/04_ModelOps_BYOM_PIMA_ONNX.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "05 ModelOps Operationalize H2O",
+            "description": "Covers the ModelOps operationalizing of the H2O model format for BYOM for the Diabetes use case. H2O is an open source, distributed in-memory machine learning library with linear scalability.",
+            "id": "122",
+            "subjects": [
+                {"id": "122", "subject": "Healthcare"},
+                {"id": "122", "subject": "Machine learning"},
+                {"id": "122", "subject": "ModelOps"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "ModelOps/05_ModelOps_BYOM_PIMA_H2O.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "06 ModelOps Project Setup",
+            "description": "Shows you how to set up your own GIT repository for models and create a new project in ModelOps associated with your new repository. This step is **required** for the next notebooks.",
+            "id": "123",
+            "subjects": [
+                {"id": "123", "subject": "ModelOps"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "ModelOps/06_ModelOps_GIT_Project_Setup.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "07 ModelOps Define Functions",
+            "description": "For the project you've created in ModelOps, this shows definition of the training function, evaluate function, scoring function, life cycle, and monitoring.",
+            "id": "124",
+            "subjects": [
+                {"id": "124", "subject": "ModelOps"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "ModelOps/07_ModelOps_GIT_PIMA_Python_Indb_GLM.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "08 ModelOps Add H20 to Project",
+            "description": "Demonstrates the use of ModelOps to finalize the H2O AI model, train, evaluate, approve, deploy, score and monitor.",
+            "id": "125",
+            "subjects": [
+                {"id": "125", "subject": "ModelOps"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "ModelOps/08_ModelOps_GIT_PIMA_Python_H2OAutoML.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "09 ModelOps Add XGBoost to Project",
+            "description": "Uses XGBoost algorithm to generate both Python Joblib and PMML model formats and operationalize them through ModelOps.",
+            "id": "126",
+            "subjects": [
+                {"id": "126", "subject": "ModelOps"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "ModelOps/09_ModelOps_GIT_PIMA_Python_XGboost.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "10 ModelOps Add R gbm Model to Project",
+            "description": "Uses the gbm R package to generate both R model formats and operationalize through ModelOps. The gbm R packages extends Freund & Schapire's AadaBoost algorithm and Friedman's **G**radient **B**oosting **M**achine (gbm).",
+            "id": "127",
+            "subjects": [
+                {"id": "127", "subject": "ModelOps"},
+                {"id": "127", "subject": "R"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "ModelOps/10_ModelOps_GIT_PIMA_R_GBM.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "4D Analytics on bike sharing",
+            "description": "Demonstration of Geospatial and TimeSeries using Austin bike trip data between 2014 and 2017.",
+            "id": "2",
+            "subjects": [
+                {"id": "2", "subject": "Travel & Transportation"},
+                {"id": "2", "subject": "Geospatial"},
+                {"id": "2", "subject": "Time series analytics"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/4D_Analytics_on_bike_sharing/4D_Analytics_on_bike_sharing_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/4D_Analytics_on_bike_sharing/4D_Analytics_on_bike_sharing_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Air Passenger Forecasting",
+            "description": "Applies Auto Regressive Integrated Moving Average (ARIMA) analysis to forecast airplane passenger volume.",
+            "id": "39",
+            "subjects": [
+                {"id": "39", "subject": "Travel & Transportation"},
+                {"id": "39", "subject": "Time series analytics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Air_Passenger_Forecasting/Pop_Air_Passenger_Forecasting_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/Air_Passenger_Forecasting/Air_Passenger_Forecasting_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Anomaly Detection",
+            "description": "Evaluates potential failures in spot welds based on voltage anomalies during the welding process.",
+            "id": "106",
+            "subjects": [
+                {"id": "106", "subject": "Automotive"},
+                {"id": "106", "subject": "Manufacturing"},
+                {"id": "106", "subject": "Machine learning"},
+                {"id": "106", "subject": "Open-and-connected analytics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Anomaly_Detection/Pop_Anomaly_Detection_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Anomaly_Detection/Anomaly_Detection_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Banking Customer Churn",
+            "description": "Uses a combination of Vantage Analytics Library to prepare data, using machine learning in python and importing the resulting PMML model into Vantage for scoring.",
+            "id": "92",
+            "subjects": [
+                {"id": "92", "subject": "Financial"},
+                {"id": "92", "subject": "Machine learning"},
+                {"id": "92", "subject": "Open-and-connected analytics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Banking_Customer_Churn/Pop_Banking_Customer_Churn_Python.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Banking_Customer_Churn/Banking_Customer_Churn_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Basic Jupyter Navigation",
+            "description": "When running a Jupyter Notebook, there are various indicators that show what is happening. This is a guide to those indicators.",
+            "id": "79",
+            "subjects": [
+                {"id": "79", "subject": "First Time User"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/Getting_Started/Basic_Jupyter_Navigation/Pop_Basic_Jupyter_Navigation_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "Getting_Started/Basic_Jupyter_Navigation/Basic_Jupyter_Navigation_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Battery Defect Analysis",
+            "description": "Uses local data (or foreign tables on GCP) to analyze patterns of battery failure, then links to data on AWS for detailed battery measurement.",
+            "id": "58",
+            "subjects": [
+                {"id": "58", "subject": "Automotive"},
+                {"id": "58", "subject": "Manufacturing"},
+                {"id": "58", "subject": "Object Storage"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Battery_Defect_Analysis/Pop_Battery_Defect_Analysis_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Battery_Defect_Analysis/Battery_Defect_Analysis_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Broken Digital Journey",
+            "description": "This uses nPath® analysis to show the retail events that prevent the ultimate objective: a purchase.  This uses interactive Sankey diagrams to understand the problems.",
+            "id": "82",
+            "subjects": [
+                {"id": "82", "subject": "Retail"},
+                {"id": "82", "subject": "Path Analytics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Broken_Digital_Journey/Pop_Broken_Digital_Journey_Python.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Broken_Digital_Journey/Broken_Digital_Journey_Python.ipynb"
+                },
+                {
+                "type": "Web",
+                "label": "Video",
+                "url": "https://teradata.seismic.com/Link/Content/DCGBP9J9gjD288TPcG3HFgXDHDW8"
+                }
+                ]
+            },
+            {
+            "demo": "Car Complaints",
+            "description": "Uses geospatial techniques to locate service centers close to the complaint and outlier detection to detect part defects earlier than expected.",
+            "id": "103",
+            "subjects": [
+                {"id": "103", "subject": "Automotive"},
+                {"id": "103", "subject": "Manufacturing"},
+                {"id": "103", "subject": "Geospatial"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Car_Complaints/Pop_Car_Complaints_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Car_Complaints/Car_Complaints_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Carbon Footprint Analytics",
+            "description": "A key component of ESG is Carbon Footprint. This demonstrates a part of a solution available from Teradata to integrate multiple data sources to calculate carbon footprint of various corporate activities.",
+            "id": "71",
+            "subjects": [
+                {"id": "71", "subject": "Time series analytics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Carbon_Footprint_Analytics/Pop_Carbon_Footprint_Analytics_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Carbon_Footprint_Analytics/Carbon_Footprint_Analytics_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Cash Demand Forecasing",
+            "description": "Predicts the future demand for cast in Automatic Teller Machines (ATMs) using Auto Regressive Integrated Moving Average  (ARIMA) using In-Database functions.",
+            "id": "114",
+            "subjects": [
+                {"id": "114", "subject": "Financial"},
+                {"id": "114", "subject": "Time series analytics"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/Cash_Demand_Forecasting/Cash_Demand_Forecasting_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Charting and Visualization",
+            "description": "Data from queries is brought to life with graphics and charts. This shows how to use the %chart magic command to display results.",
+            "id": "62",
+            "subjects": [
+                {"id": "62", "subject": "Developer Information"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/Getting_Started/Charting_and_Visualization/Pop_Charting_and_Visualization_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "Getting_Started/Charting_and_Visualization/Charting_and_Visualization_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Competitor Proximity Geospatial Analysis",
+            "description": "This looks at the impact on purchasing when people that shop at our stores live within reasonable drive time to a competitor. This could identify proximity based marketing tactics to target larger promotions to those customers to increase share of their spend.",
+            "id": "136",
+            "subjects": [
+                {"id": "136", "subject": "Retail"},
+                {"id": "136", "subject": "Marketing"},
+                {"id": "136", "subject": "Geospatial"},
+                {"id": "136", "subject": "Hypothesis testing"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Competitor_Proximity_Geospatial_Analysis/Competitor_Proximity_Geospatial_Analysis_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Consumer Complaints",
+            "description": "Uses government consumer complaint data with SQL queries and visualizations to identify source of top complaints.",
+            "id": "7",
+            "subjects": [
+                {"id": "7", "subject": "Financial"},
+                {"id": "7", "subject": "Time series analytics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Consumer_Complaints/Pop_Consumer_Complaints_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/Consumer_Complaints/Consumer_Complaints_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Credit Card Data Preparation",
+            "description": "This shows the use of ClearScape analytics to reduce the pre-processing effort of incoming raw credit card data to prepare for analysis of potential loan defaulters.",
+            "id": "60",
+            "subjects": [
+                {"id": "60", "subject": "Financial"},
+                {"id": "60", "subject": "Data Preparation"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Credit_Card_Data_Preparation/Pop_Credit_Card_Data_Preparation_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Customer 360",
+            "description": "This integrates data about customers from multiple sources using multiple matching techniquest to create the \"Golden Customer Record\" and calculate LTV.",
+            "id": "139",
+            "subjects": [
+                {"id": "139", "subject": "Marketing"},
+                {"id": "139", "subject": "Text Analysis"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/Customer360/CustomerIdentityMatching_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Customer Behavior Analysis",
+            "description": "Analysis of customer purchase behavior using nPath® analysis in Python with visualization using Sankey diagrams.",
+            "id": "23",
+            "subjects": [
+                {"id": "23", "subject": "Retail"},
+                {"id": "23", "subject": "Path Analytics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Customer_Behavior_Analysis/Pop_Customer_Behavior_Analysis_Python.ipynb"
+                },
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Customer_Behavior_Analysis/Pop_Customer_Behavior_Analysis_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Data Dictionary",
+            "description": "This provides an index to all of the databases used by demo notebooks on this machine, allowing you to use that data for your own notebooks or BI tools.",
+            "id": "37",
+            "subjects": [
+                {"id": "37", "subject": "Developer Information"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Data_Dictionary/Data_Dictionary.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Data Dictionary Raw",
+            "description": "This provides linkage to a larger set of databases and tables than are currently used by the demos in Jupyter.",
+            "id": "66",
+            "subjects": [
+
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Data_Dictionary/Data_Dictionary_Raw.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Data Loading (Python)",
+            "description": "Shows how to use python to load CSV data from local storage and from zipped files",
+            "id": "108",
+            "subjects": [
+                {"id": "108", "subject": "Developer Information"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "Getting_Started/Data_Loading/Data_Loading_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Data Loading (SQL)",
+            "description": "Shows multiple ways to load data from local CSV files, and cloud files on Google and AWS using the SQL kernel.",
+            "id": "107",
+            "subjects": [
+                {"id": "107", "subject": "Developer Information"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "Getting_Started/Data_Loading/Data_Loading_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Data Prep and Transformation",
+            "description": "This demonstrates a subset of the over 100 analytic functions in the teradataml package for Python",
+            "id": "14",
+            "subjects": [
+                {"id": "14", "subject": "Data Preparation"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Data_Prep_and_Transformation/Data_Prep_and_Transformation_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Data_Prep_and_Transformation/Data_Prep_and_Transformation_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Data Science 101 with Python",
+            "description": "This walks through the Cross-Industry Standard Process for Data Mining (CRISP-DM) from data understanding through modeling and evaluation.",
+            "id": "16",
+            "subjects": [
+
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Data_Science_101_with_Python/Data_Science_101_with_Python_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Dataiku",
+            "description": "Discusses how the 3rd party tool DataIku can be used with Vantage.",
+            "id": "50",
+            "subjects": [
+                {"id": "50", "subject": "Open-and-connected analytics"},
+                {"id": "50", "subject": "Dataiku"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Information",
+                "url": "UseCases/Dataiku/Dataiku.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Deep History via Object Store",
+            "description": "This demonstrates integration of local data or foreign tables on GCP and integration across cloud providers to detailed historical sales records on AWS.",
+            "id": "41",
+            "subjects": [
+                {"id": "41", "subject": "Retail"},
+                {"id": "41", "subject": "Object Storage"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/Deep_History_via_Object_Store/Deep_History_via_Object_Store_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Diabetes Prediction via BYOM H2O",
+            "description": "This uses BYOM to import a trained H2O model to identify potential diabetes patients. BYOM allows the data scientist to create models in languages they prefer and run at scale inside Vantage without moving data.",
+            "id": "69",
+            "subjects": [
+                {"id": "69", "subject": "Healthcare"},
+                {"id": "69", "subject": "Open-and-connected analytics"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Diabetes_Prediction/Diabetes_Prediction_via_BYOM_H2O_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Diabetes Prediction via DF and GLM",
+            "description": "Decision Forest and Generalized Linear Model are applied to identify factors that indicate diabetes. The earlier the disease is identified, the better the chance of reducing organ damage.",
+            "id": "68",
+            "subjects": [
+                {"id": "68", "subject": "Healthcare"},
+                {"id": "68", "subject": "Machine learning"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_Python.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Energy Consumption Forecasting",
+            "description": "This combines machine learning and BYOM to forecast energy consumption using Vantage to score the model at scale without having to export all data.",
+            "id": "40",
+            "subjects": [
+                {"id": "40", "subject": "Energy & Natural Resources"},
+                {"id": "40", "subject": "Open-and-connected analytics"},
+                {"id": "40", "subject": "Time series analytics"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Energy_Consumption_Forecasting/Energy_Consumption_Forecasting_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Energy Consumption Forecasting Dataiku",
+            "description": "Demonstration of using Dataiku with Vantage. Instructions provided for use with your Dataiku copy + screen shots if you don't have Dataiku. PMML model from Dataiku is imported to Vantage for execution and scoring.",
+            "id": "111",
+            "subjects": [
+                {"id": "111", "subject": "Energy & Natural Resources"},
+                {"id": "111", "subject": "Open-and-connected analytics"},
+                {"id": "111", "subject": "Dataiku"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Energy_Consumption_Forecasting_Dataiku/Pop_Energy_Consumption_Forecasting_Dataiku.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Energy_Consumption_Forecasting_Dataiku/Energy_Consumption_Forecasting_Dataiku.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Energy Consumption Forecasting using AzureML",
+            "description": "This leverages the power of AzureML and Teradata Vantage to enhance our machine learning capabilities and enable scalable model scoring to forecast energy consumption.",
+            "id": "138",
+            "subjects": [
+                {"id": "138", "subject": "Energy & Natural Resources"},
+                {"id": "138", "subject": "Azure ML"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Energy_Consumption_Forecasting_AzureML/Energy_Consumption_Forecasting_AzureML.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Financial Customer Journey",
+            "description": "Uses analytic techniques to find new customers, measure marketing attribution, and maximizing marketing effectiveness",
+            "id": "42",
+            "subjects": [
+                {"id": "42", "subject": "Financial"},
+                {"id": "42", "subject": "Path Analytics"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb"
+                },
+                {
+                "type": "Web",
+                "label": "Video",
+                "url": "https://storage.googleapis.com/clearscape_analytics_videos/Financial_Customer_Journey_Use_Case_Demo_SP004464.MP4"
+                }
+                ]
+            },
+            {
+            "demo": "Financial Fraud Detection InDB",
+            "description": "Detect financial transaction fraud  using powerful in-database machine learning functions",
+            "id": "4",
+            "subjects": [
+                {"id": "4", "subject": "Financial"},
+                {"id": "4", "subject": "Machine learning"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Financial_Fraud_Detection_InDB/Pop_Financial_Fraud_Detection_InDB_PY_SQL.ipynb"
+                },
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Financial_Fraud_Detection_InDB/Pop_Financial_Fraud_Detection_InDB_Python.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb"
+                },
+                {
+                "type": "Web",
+                "label": "Video",
+                "url": "https://storage.googleapis.com/clearscape_analytics_videos/Financial_Fraud_Detection_Use_Case_Demo_SP004465.MP4"
+                }
+                ]
+            },
+            {
+            "demo": "Financial Fraud Detection VIA BYOM",
+            "description": "A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.",
+            "id": "98",
+            "subjects": [
+                {"id": "98", "subject": "Financial"},
+                {"id": "98", "subject": "Machine learning"},
+                {"id": "98", "subject": "Open-and-connected analytics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Financial_Fraud_Detection_BYOM/Pop_Financial_Fraud_Detection_BYOM_PY_SQL.ipynb"
+                },
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Financial_Fraud_Detection_BYOM/Pop_Financial_Fraud_Detection_BYOM_Python.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Financial_Fraud_Detection_BYOM/Financial_Fraud_Detection_BYOM_Python.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Financial_Fraud_Detection_BYOM/Financial_Fraud_Detection_BYOM_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Flood Proximity to Climate Risk Analysis",
+            "description": "This allows enterprises to rapidly analyze this geographic-related information in real-time at any scale - effectively understanding the impacts of these climate events on entire populations.",
+            "id": "140",
+            "subjects": [
+                {"id": "140", "subject": "Energy & Natural Resources"},
+                {"id": "140", "subject": "Financial"},
+                {"id": "140", "subject": "Geospatial"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Flood_Proximity_Analysis/Flood_Proximity_Analysis_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Fourier Transforms",
+            "description": "Fourier transformations are demonstrated to filter out noise from signals to allow identification of underlying patterns.",
+            "id": "49",
+            "subjects": [
+                {"id": "49", "subject": "Time series analytics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Fourier_Transforms/Pop_Fourier_Transforms_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/Fourier_Transforms/Fourier_Transforms_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Generative AI Question Answering",
+            "description": "Uses OpenAI to translate english language questions into SQL queries to run against a table of marketing data. This includes a link to a notebook with instructions for getting the required OpenAI API key.",
+            "id": "135",
+            "subjects": [
+                {"id": "135", "subject": "Marketing"},
+                {"id": "135", "subject": "Generative AI"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Generative_Question_Answering_GenAI/Generative_Question_Answering_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Graph Analysis of CDR Records",
+            "description": "Uses graph analysis to identify communities and key influencers within Call Data Records.  This uses Script Table Operator to invoke external procedures to work inside the Vantage database without exporting data.",
+            "id": "128",
+            "subjects": [
+                {"id": "128", "subject": "Telco"},
+                {"id": "128", "subject": "Machine learning"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Graph_Analysis/Pop_Graph_Analysis_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Graph_Analysis/Graph_Analysis_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Green Manufacturing",
+            "description": "Uses analytic and ML techniques  to predict how long vehicle testing will take based on combination of features installed.",
+            "id": "96",
+            "subjects": [
+                {"id": "96", "subject": "Manufacturing"},
+                {"id": "96", "subject": "Machine learning"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Green_Manufacturing/Pop_Green_Manufacturing_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Green_Manufacturing/Green_Manufacturing_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Heart Failure Prediction",
+            "description": "Machine learning is applied to the complex attributes of patients to help recognize patterns that may lead to heart failure faster than a human may recognize.",
+            "id": "67",
+            "subjects": [
+                {"id": "67", "subject": "Healthcare"},
+                {"id": "67", "subject": "Machine learning"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Heart_Failure_Prediction/Pop_Heart_Failure_Prediction_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Heart_Failure_Prediction/Heart_Failure_Prediction_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "How to Submit Your Demos",
+            "description": "It is very easy to submit your demo for publication. Tell us directory with the notebook and referenced files and grant us access to your database.  We'll take it from there.",
+            "id": "80",
+            "subjects": [
+                {"id": "80", "subject": "Developer Information"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Video",
+                "url": "Getting_Started/How_to_Submit_Your_Demos/How_to_Submit_Your_Demos_Video.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "Getting_Started/How_to_Submit_Your_Demos/How_to_Submit_Your_Demos.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Hyper-Personalization",
+            "description": "Hyper-personalization creates models from customer iteractions on multiple channels to determine the \"Next Best Offer\" for the individual.",
+            "id": "129",
+            "subjects": [
+                {"id": "129", "subject": "Retail"},
+                {"id": "129", "subject": "Marketing"},
+                {"id": "129", "subject": "Machine learning"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Hyper_Personalization/Pop_Hyper_Personalization_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Hyper_Personalization/Hyper_Personalization_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "I am **not** a programmer",
+            "description": "Not everyone that uses this site will want to learn programming. Some will want to review the business cases, look at the steps for the analysis and look at the tables, charts and maps. This is a guide for those people.",
+            "id": "109",
+            "subjects": [
+                {"id": "109", "subject": "I am **not** a programmer"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Information",
+                "url": "Getting_Started/I_am_not_a_programmer/I_am_not_a_programmer.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Insurance Policy Temporal",
+            "description": "Show As-IS/As-Was capabilities of Vantage Temporal to dramatically simplify the SQL and improve performance for analyzing insurance policies versus claims.",
+            "id": "47",
+            "subjects": [
+                {"id": "47", "subject": "Financial"},
+                {"id": "47", "subject": "Time series analytics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Insurance_Policy_Temporal/Pop_Insurance_Policy_Temporal_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/Insurance_Policy_Temporal/Insurance_Policy_Temporal_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Intro to Panda for Python",
+            "description": "Provides step-by-step instructions on the basics of using Python Pandas with Jupyter notebooks.",
+            "id": "35",
+            "subjects": [
+                {"id": "35", "subject": "Developer Information"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/Getting_Started/Intro_to_Pandas_For_Python/Pop_Intro_to_Pandas_For_Python.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "Getting_Started/Intro_to_Pandas_For_Python/Intro_to_Pandas_For_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Introduction Video",
+            "description": "Video description how to find demos in the index and folder view, tips on running demos and options for foreign vs local tables used in the demonstrations in your ClearScape Analytics environment.",
+            "id": "78",
+            "subjects": [
+                {"id": "78", "subject": "First Time User"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Information",
+                "url": "Getting_Started/Introduction_Video/Introduction_Video_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "K-Means Clustering and ML model",
+            "description": "This uses the unsupervised K-Means ML algorithm to identify patterns in retail purchases.",
+            "id": "73",
+            "subjects": [
+                {"id": "73", "subject": "Retail"},
+                {"id": "73", "subject": "Machine learning"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/K-Means_Clustering_and_ML_model/Pop_K-Means_Clustering_and_ML_model_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Knee Replacement Attribution",
+            "description": "The ClearScape Analytics Attribution function is used to determine the weight of various events that precede the final outcome, in this example, knee replacement.",
+            "id": "76",
+            "subjects": [
+                {"id": "76", "subject": "Healthcare"},
+                {"id": "76", "subject": "Path Analytics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Knee_Replacement/Pop_Knee_Replacement_Attribution_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/Knee_Replacement/Knee_Replacement_Attribution_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Knee Replacement nPath",
+            "description": "This uses the ClearScape Analytics nPath® function to provide visuals on the events leading up to the final outcome, in this case, knee replacement.",
+            "id": "77",
+            "subjects": [
+                {"id": "77", "subject": "Healthcare"},
+                {"id": "77", "subject": "Path Analytics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Knee_Replacement/Pop_Knee_Replacement_nPath_Python.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Knee_Replacement/Knee_Replacement_nPath_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Marketing Campaign Effectiveness",
+            "description": "Examines the results of campaigns by various customer attributes then uses correlation, outlier elimination, and machine learning to identify the best campaigns.",
+            "id": "116",
+            "subjects": [
+                {"id": "116", "subject": "Retail"},
+                {"id": "116", "subject": "Marketing"},
+                {"id": "116", "subject": "Machine learning"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Marketing_Campaign_Effectiveness/Marketing_Campaign_Effectiveness_Preditction_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "MultiTouch Attribution",
+            "description": "Shows rule-based, Statistics, and Algorithmic attribution of the marketing touchpoints leading to conversion. Ten approaches will be demonstrated along with path analysis of effectiveness and cost of conversion.",
+            "id": "112",
+            "subjects": [
+                {"id": "112", "subject": "Path Analytics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/MultiTouch_Attribution/Pop_MultiTouch_Attribution_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/MultiTouch_Attribution/MultiTouch_Attribution_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Multi-Touch Attribution for Business Analyst",
+            "description": "This is a somewhat simplified version of the Multi-Touch Attribution demonstration focused on the interests of the Business Analyst vs the Data Scientist.",
+            "id": "130",
+            "subjects": [
+                {"id": "130", "subject": "Retail"},
+                {"id": "130", "subject": "Marketing"},
+                {"id": "130", "subject": "Machine learning"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/MultiTouch_Attribution/Pop_Analyst_MultiTouch_Attribution_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/MultiTouch_Attribution/Analyst_MultiTouch_Attribution_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Multi-Touch Attribution for Data Scientist",
+            "description": "Demonstrates attribution of customer behavior via  single touch and multi-touch rule-based models, and using statistical, and algorithmic models. Multiple approaches are demonstrated since each has strengths and limitations.",
+            "id": "131",
+            "subjects": [
+                {"id": "131", "subject": "Retail"},
+                {"id": "131", "subject": "Marketing"},
+                {"id": "131", "subject": "Machine learning"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/MultiTouch_Attribution/Pop_MultiTouch_Attribution_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/MultiTouch_Attribution/MultiTouch_Attribution_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "NYC Taxi Geospatial",
+            "description": "Applies geospatial functions to analysis of NYC Taxi pickups and drop off locations.",
+            "id": "26",
+            "subjects": [
+                {"id": "26", "subject": "Travel & Transportation"},
+                {"id": "26", "subject": "Geospatial"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/NYC_Taxi/Pop_NYC_Taxi_Geospatial_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/NYC_Taxi/NYC_Taxi_Geospatial_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "NYC Taxi Temporal",
+            "description": "Time series data can answer the questions about what was happening at a point in time. This applies Time series and temporal capabilities  of vantage to NYC taxi data.",
+            "id": "63",
+            "subjects": [
+                {"id": "63", "subject": "Time series analytics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/NYC_Taxi/Pop_NYC_Taxi_Temporal_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/NYC_Taxi/NYC_Taxi_Temporal_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Outlier Analysis",
+            "description": "Outliers in an analysis skew the results and make it difficult to recognize the main patterns. ClearScape Analytics has tools to remove outliers automatically.",
+            "id": "81",
+            "subjects": [
+                {"id": "81", "subject": "Data Preparation"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Outlier_Analysis/Pop_Outlier_Analysis_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/Outlier_Analysis/Outlier_Analysis_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Predictive Maintenance",
+            "description": "Uses ML functions to predict failures to identify and mitigate potential machine failures before they occur.",
+            "id": "97",
+            "subjects": [
+                {"id": "97", "subject": "Manufacturing"},
+                {"id": "97", "subject": "Machine learning"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Predictive_Maintenance/Pop_Predictive_Maintenance_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Predictive_Maintenance/Predictive_Maintenance_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Product Recommendations via Open Source",
+            "description": "Uses FlagEmbedding from HuggingFace plus Vantage in-database functions to assess the vector distance between the product entered and similar products.",
+            "id": "141",
+            "subjects": [
+                {"id": "141", "subject": "Retail"},
+                {"id": "141", "subject": "Generative AI"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Recommendations_product_search/ecommendations_product_search_OpenSource_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Product Recommendations via OpenAI",
+            "description": "Uses OpenAIEmbeddings and Vantage in-database function to assists consumers in receiving product recommendations",
+            "id": "137",
+            "subjects": [
+                {"id": "137", "subject": "Retail"},
+                {"id": "137", "subject": "Generative AI"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Recommendations_product_search/Recommendations_product_search_OpenAI_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Query Service REST API",
+            "description": "Demonstration of using REST API calls to Vantage which is useful for web or mobile applications to access and maintain data.",
+            "id": "115",
+            "subjects": [
+                {"id": "115", "subject": "Developer Information"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Query_Service/Query_Service.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Remaining Useful Life Forecasting",
+            "description": "Applies machine learning to predict Remaining Useful Life (RUL) of jet engines, allowing scheduling of maintenance and replacement before failure occurs and reduces the cost of maintenance and replacement.",
+            "id": "113",
+            "subjects": [
+                {"id": "113", "subject": "Manufacturing"},
+                {"id": "113", "subject": "Travel & Transportation"},
+                {"id": "113", "subject": "Machine learning"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Remaining_Useful_Life_Forecasting/Pop_Remaining_Useful_Life_Forecasting_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Remaining_Useful_Life_Forecasting/Remaining_Useful_Life_Forecasting_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Retail Demand Forecasting",
+            "description": "This creates an ARIMA time series model based on holidays and merchandising activities impacting store sales for a hypermarket retailer.",
+            "id": "84",
+            "subjects": [
+                {"id": "84", "subject": "Retail"},
+                {"id": "84", "subject": "Time series analytics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Retail_Demand_Forecasting/Pop_Retail_Demand_Forecasting_Python.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Retail_Demand_Forecasting/Retail_Demand_Forecasting_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Retail Item Demand Forecast",
+            "description": "Predicts demand for retail products showing how multiple models can be run concurrently.",
+            "id": "132",
+            "subjects": [
+                {"id": "132", "subject": "Retail"},
+                {"id": "132", "subject": "Machine learning"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Retail_Demand_Forecasting/Pop_Retail_Demand_Forecasting_Python.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Retail_Demand_Forecasting/Retail_Demand_Forecasting_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Sensor Data Analytics",
+            "description": "Creative application of geospatial to locations of sensors in  a research lab and integration of data from tables with detailed recordings on cloud storage.",
+            "id": "29",
+            "subjects": [
+                {"id": "29", "subject": "Geospatial"},
+                {"id": "29", "subject": "Object Storage"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Sensor_Data_Analytics/Pop_Sensor_Data_Analytics_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Sensor_Data_Analytics/Sensor_Data_Analytics_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "SQL Basics in Jupyter",
+            "description": "This guide will walk you through writing your first SQL queries in Jupyter.  It uses some of the Vantage system tables as a source for the queries.",
+            "id": "64",
+            "subjects": [
+                {"id": "64", "subject": "Developer Information"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/Getting_Started/SQL_Basics_in_Jupyter/Pop_SQL_Basics_in_Jupyter_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "Getting_Started/SQL_Basics_in_Jupyter/SQL_Basics_in_Jupyter_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Store Sales Forecast via ARIMA",
+            "description": "Forecasts total store sales using ARIMA (AutoRegressive Integrated Moving Average)",
+            "id": "134",
+            "subjects": [
+                {"id": "134", "subject": "Retail"},
+                {"id": "134", "subject": "Marketing"},
+                {"id": "134", "subject": "Machine learning"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Store_Sales_Forecasting_ARIMA/Pop_Store_Sales_Forecasting_ARIMA_Python.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Store_Sales_Forecasting_ARIMA/Store_Sales_Forecasting_ARIMA_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Store Sales Forecast via Prophet",
+            "description": "Uses the Script Table Operator (STO) to run the H20 machine learning library as an extension to ClearScape Analytics.  H20 runs in parallel inside the Vantage database without exporting data to another platform.",
+            "id": "133",
+            "subjects": [
+                {"id": "133", "subject": "Retail"},
+                {"id": "133", "subject": "Machine learning"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Store_Sales_Forecasting_Prophet_STO/Pop_Store_Sales_Forecasting_Prophet_STO_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Store_Sales_Forecasting_Prophet_STO/Store_Sales_Forecasting_Prophet_STO_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Telco Customer Churn",
+            "description": "This uses logistic regression for supervised learning to predict the probability of a customer switching vendors based on usage patterns, billing information demographics and interactions. XGBoost is then used in database to improve the prediction.",
+            "id": "93",
+            "subjects": [
+                {"id": "93", "subject": "Telco"},
+                {"id": "93", "subject": "Machine learning"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Telco_Customer_Churn/Pop_Telco_Customer_Churn_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Telco_Customer_Churn/Telco_Customer_Churn_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Telco Network Coverage",
+            "description": "Demonstrates the ability of Geospatial to show signal strength, coverage areas and travel path of customers through cell tower coverage area.",
+            "id": "48",
+            "subjects": [
+                {"id": "48", "subject": "Telco"},
+                {"id": "48", "subject": "Geospatial"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python-SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Telco_Network_Coverage/Pop_Telco_Network_Coverage_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Telco_Network_Coverage/Telco_Network_Coverage_PY_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "teradataml Python Basics",
+            "description": "Introduction to Teradataml package for Python including connecting to Vantage, Teradata DataFrames, data manipulation and export to Pandas.",
+            "id": "12",
+            "subjects": [
+                {"id": "12", "subject": "Developer Information"},
+                {"id": "12", "subject": "Open-and-connected analytics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/Getting_Started/teradataml_Python_Basics/Pop_teradataml_Python_Basics_Python.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "Getting_Started/teradataml_Python_Basics/teradataml_Python_Basics_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Text Term Frequency",
+            "description": "Use NGram splitter to analyze comments  retail products to determine patterns of words used to describe products.",
+            "id": "44",
+            "subjects": [
+                {"id": "44", "subject": "Retail"},
+                {"id": "44", "subject": "Text Analysis"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python-SQL Version",
+                "url": "UseCases/Text_Term_Frequency/Text_Term_Frequency_PY_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/Text_Term_Frequency/Text_Term_Frequency_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Text_Term_Frequency/Text_Term_Frequency_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Train Delay Path Analysis",
+            "description": "Uses nPath displays to show relationship of delays and predictive models to anticipate potential delays and enable proactive planning.",
+            "id": "105",
+            "subjects": [
+                {"id": "105", "subject": "Travel & Transportation"},
+                {"id": "105", "subject": "Machine learning"},
+                {"id": "105", "subject": "Path Analytics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Train_Delay/Pop_Train_Delay_Python.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Train_Delay/Train_Delay_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "VAL Analytics and ML",
+            "description": "Demonstration of Vantage Analytic Library scoring and analytic functions like linear regression, decision trees, K-Means clustering, Factor Analysis, etc.",
+            "id": "21",
+            "subjects": [
+                {"id": "21", "subject": "Machine learning"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Vantage_Analytics_Library/Pop_VAL_Analytics_and_ML_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/Vantage_Analytics_Library/VAL_Analytics_and_ML_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "VAL Descriptive Statistics",
+            "description": "This performs in-database analysis of data values, distribution, histograms, and text field analysis using SQL to access the Vantage Analytics Library.",
+            "id": "18",
+            "subjects": [
+                {"id": "18", "subject": "Descriptive Statistics"},
+                {"id": "18", "subject": "Text Analysis"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Vantage_Analytics_Library/Pop_VAL_Descriptive_Statistics_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/Vantage_Analytics_Library/VAL_Descriptive_Statistics_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "VAL Hypothesis Tests",
+            "description": "This demonstrates a subset of the 18 hypothesis test in the Vantage Analytics library  using SQL such as Parametric, Binomial, Kolmogorov/Smirnoff, Rank, etc.",
+            "id": "19",
+            "subjects": [
+                {"id": "19", "subject": "Hypothesis testing"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Vantage_Analytics_Library/Pop_VAL_Hypothesis_Tests_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/Vantage_Analytics_Library/VAL_Hypothesis_Tests_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "VAL Overview",
+            "description": "Vantage Analytics Library (VAL) is a set of over 50 functions for advanced analytics. This provides an overview and links to an 8 minute video overview.",
+            "id": "65",
+            "subjects": [
+                {"id": "65", "subject": "Developer Information"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Vantage_Analytics_Library/Pop_VAL_Overview_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/Vantage_Analytics_Library/VAL_Overview_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "VAL teradataml Demo",
+            "description": "Demonstrated the use of Teradataml in Python to perform descriptive statistics, transformation, model building model evaluation and scoring.",
+            "id": "46",
+            "subjects": [
+                {"id": "46", "subject": "Descriptive Statistics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only Python",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Vantage_Analytics_Library/Pop_VAL_teradataml_Demo_Python.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Vantage_Analytics_Library/VAL_teradataml_Demo_Python.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Vantage Query Log Analysis",
+            "description": "Analysis of sessions and queries  you executed using the built-in logging facilities of Vantage.",
+            "id": "88",
+            "subjects": [
+                {"id": "88", "subject": "Time series analytics"}
+            ],
+            "links": [
+                {
+                "type": "nbviewer",
+                "label": "Read Only SQL",
+                "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Vantage_Query_Log_Analysis/Pop_Vantage_Query_Log_Analysis_SQL.ipynb"
+                },
+                {
+                "type": "notebook",
+                "label": "SQL Version",
+                "url": "UseCases/Vantage_Query_Log_Analysis/Vantage_Query_Log_Analysis_SQL.ipynb"
+                }
+                ]
+            },
+            {
+            "demo": "Vertex AI Integration",
+            "description": " In this tutorial, we will show how to integrate Vantage Analytics capabilities  in Vertex AI ML Pipelines. Vertex AI is the environment for data scientists to deploy ML models.",
+            "id": "59",
+            "subjects": [
+                {"id": "59", "subject": "Machine learning"},
+                {"id": "59", "subject": "Open-and-connected analytics"}
+            ],
+            "links": [
+                {
+                "type": "notebook",
+                "label": "Python Version",
+                "url": "UseCases/Vertex_AI_Integration/Vertex_AI_Integration_Python.ipynb"
+                }        ]
+        }
+    ]
+}
+] }
