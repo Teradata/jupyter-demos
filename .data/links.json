@@ -3,11 +3,11 @@
       "title": "introductory video",
     "link": "https://storage.googleapis.com/clearscape_analytics_videos/ClearScape_Analytics_Intro_V2.mp4"
     },
-   "basic_jupyter_Nnavigation": {
+   "basic_jupyter_navigation": {
       "title": "Basic Jupyter Navigation",
     "link": "../Getting_Started/Basic_Jupyter_Navigation/Basic_Jupyter_Navigation_SQL.ipynb"
     },
-	"developer_information": {
+        "developer_information": {
       "title": "Developer Information",
     "link": "../.data/A_Programmer_Overview.md"
     },

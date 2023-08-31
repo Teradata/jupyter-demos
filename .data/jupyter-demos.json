@@ -305,7 +305,7 @@
             },
             {
             "demo": "Broken Digital Journey",
-            "description": "This uses nPath® analysis to show the retail events that prevent the ultimate objective: a purchase.  This uses interactive Sankey diagrams to understand the problems.",
+            "description": "This uses nPathÂ® analysis to show the retail events that prevent the ultimate objective: a purchase.  This uses interactive Sankey diagrams to understand the problems.",
             "id": "82",
             "subjects": [
                 {"id": "82", "subject": "Retail"},
@@ -485,7 +485,7 @@
             },
             {
             "demo": "Customer Behavior Analysis",
-            "description": "Analysis of customer purchase behavior using nPath® analysis in Python with visualization using Sankey diagrams.",
+            "description": "Analysis of customer purchase behavior using nPathÂ® analysis in Python with visualization using Sankey diagrams.",
             "id": "23",
             "subjects": [
                 {"id": "23", "subject": "Retail"},
@@ -1100,7 +1100,7 @@
             },
             {
             "demo": "Knee Replacement nPath",
-            "description": "This uses the ClearScape Analytics nPath® function to provide visuals on the events leading up to the final outcome, in this case, knee replacement.",
+            "description": "This uses the ClearScape Analytics nPathÂ® function to provide visuals on the events leading up to the final outcome, in this case, knee replacement.",
             "id": "77",
             "subjects": [
                 {"id": "77", "subject": "Healthcare"},
@@ -1726,4 +1726,4 @@
         }
     ]
 }
-] }
+
