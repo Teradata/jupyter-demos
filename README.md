@@ -11,7 +11,6 @@ These are <u>functional</u> demonstrations executed on a tiny platform with smal
 If you've never used Jupyter before, we strongly recommend reviewing the **First Time User** section of **Getting Started**. You'll find an [**introduction video**](./Getting_Started/Introduction_Video/Introduction_Video_SQL.ipynb) with tips on using this platform. There are also tips for you if you just want to <b>[look without programming](#I-am-not-a-programmer)</b>. If you have questions or issues, [**click here**](mailto:SC230208@teradata.com?subject=ClearScape%20Analytics%20Jupyter%20Question) to send an e-mail to ClearScape Analytics Support.<br><br> 
 
 ---
-
 <a id='toc'></a>
 ## Table of Contents
 *Items in italics are coming soon.*
@@ -30,6 +29,7 @@ If you've never used Jupyter before, we strongly recommend reviewing the **First
 | | | |<a href='#xOpen-and-connected-analytics'>Open-and-connected analytics</a>|*Tableau*|
 | | | |<a href='#xPath-Analytics'>Path Analytics</a>|*Vertex*|
 | | | |<a href='#xText-Analysis'>Text Analysis</a>| |
+| | | |<a href='#xTime-series-analytics'>Time series analytics</a>| |
 
 
 
@@ -121,6 +121,10 @@ Evaluates potential failures in spot welds based on voltage anomalies during the
 Uses local data (or foreign tables on GCP) to analyze patterns of battery failure, then links to data on AWS for detailed battery measurement.<br>
 [Python-SQL Version](./UseCases/Battery_Defect_Analysis/Battery_Defect_Analysis_PY_SQL.ipynb)
 
+#### Car Complaints
+Uses geospatial techniques to locate service centers close to the complaint and outlier detection to detect part defects earlier than expected.<br>
+[Python-SQL Version](./UseCases/Car_Complaints/Car_Complaints_PY_SQL.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xEnergy-&-Natural-Resources'></a>
 ### Energy & Natural Resources
@@ -139,7 +143,7 @@ This leverages the power of AzureML and Teradata Vantage to enhance our machine 
 
 #### Flood Proximity to Climate Risk Analysis
 This allows enterprises to rapidly analyze this geographic-related information in real-time at any scale - effectively understanding the impacts of these climate events on entire populations.<br>
-[Python Version](./UseCases/Flood_Proximity_Analysis//Flood_Proximity_Analysis_Python.ipynb)
+[Python Version](./UseCases/Flood_Proximity_Analysis/Flood_Proximity_Analysis_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xFinancial'></a>
@@ -175,7 +179,7 @@ A model that was developed externally  is imported into Vantage for evaluation a
 
 #### Flood Proximity to Climate Risk Analysis
 This allows enterprises to rapidly analyze this geographic-related information in real-time at any scale - effectively understanding the impacts of these climate events on entire populations.<br>
-[Python Version](./UseCases/Flood_Proximity_Analysis//Flood_Proximity_Analysis_Python.ipynb)
+[Python Version](./UseCases/Flood_Proximity_Analysis/Flood_Proximity_Analysis_Python.ipynb)
 
 #### Insurance Policy Temporal
 Show As-IS/As-Was capabilities of Vantage Temporal to dramatically simplify the SQL and improve performance for analyzing insurance policies versus claims.<br>
@@ -289,7 +293,11 @@ This is a somewhat simplified version of the Multi-Touch Attribution demonstrati
 Demonstrates attribution of customer behavior via  single touch and multi-touch rule-based models, and using statistical, and algorithmic models. Multiple approaches are demonstrated since each has strengths and limitations.<br>
 [Python-SQL Version](./UseCases/MultiTouch_Attribution/MultiTouch_Attribution_PY_SQL.ipynb)
 
-#### Recommendation Product Search
+#### Product Recommendations via Open Source
+Uses FlagEmbedding from HuggingFace plus Vantage in-database functions to assess the vector distance between the product entered and similar products.<br>
+[Python Version](./UseCases/Recommendations_product_search/ecommendations_product_search_OpenSource_Python.ipynb)
+
+#### Product Recommendations via OpenAI
 Uses OpenAIEmbeddings and Vantage in-database function to assists consumers in receiving product recommendations<br>
 [Python Version](./UseCases/Recommendations_product_search/Recommendations_product_search_OpenAI_Python.ipynb)
 
@@ -435,7 +443,11 @@ Demonstrated the use of Teradataml in Python to perform descriptive statistics, 
 Uses OpenAI to translate english language questions into SQL queries to run against a table of marketing data. This includes a link to a notebook with instructions for getting the required OpenAI API key.<br>
 [Python Version](./UseCases/Generative_Question_Answering_GenAI/Generative_Question_Answering_Python.ipynb)
 
-#### Recommendation Product Search
+#### Product Recommendations via Open Source
+Uses FlagEmbedding from HuggingFace plus Vantage in-database functions to assess the vector distance between the product entered and similar products.<br>
+[Python Version](./UseCases/Recommendations_product_search/ecommendations_product_search_OpenSource_Python.ipynb)
+
+#### Product Recommendations via OpenAI
 Uses OpenAIEmbeddings and Vantage in-database function to assists consumers in receiving product recommendations<br>
 [Python Version](./UseCases/Recommendations_product_search/Recommendations_product_search_OpenAI_Python.ipynb)
 
@@ -457,7 +469,7 @@ This looks at the impact on purchasing when people that shop at our stores live 
 
 #### Flood Proximity to Climate Risk Analysis
 This allows enterprises to rapidly analyze this geographic-related information in real-time at any scale - effectively understanding the impacts of these climate events on entire populations.<br>
-[Python Version](./UseCases/Flood_Proximity_Analysis//Flood_Proximity_Analysis_Python.ipynb)
+[Python Version](./UseCases/Flood_Proximity_Analysis/Flood_Proximity_Analysis_Python.ipynb)
 
 #### NYC Taxi Geospatial
 Applies geospatial functions to analysis of NYC Taxi pickups and drop off locations.<br>
@@ -646,6 +658,10 @@ Uses local data (or foreign tables on GCP) to analyze patterns of battery failur
 #### Deep History via Object Store
 This demonstrates integration of local data or foreign tables on GCP and integration across cloud providers to detailed historical sales records on AWS.<br>
 [SQL Version](./UseCases/Deep_History_via_Object_Store/Deep_History_via_Object_Store_SQL.ipynb)
+
+#### Sensor Data Analytics
+Creative application of geospatial to locations of sensors in  a research lab and integration of data from tables with detailed recordings on cloud storage.<br>
+[Python-SQL Version](./UseCases/Sensor_Data_Analytics/Sensor_Data_Analytics_PY_SQL.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xOpen-and-connected-analytics'></a>
