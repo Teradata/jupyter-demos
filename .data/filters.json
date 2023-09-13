@@ -43,6 +43,7 @@
     "subjects": [
         {"subject": "AWS SageMaker"},
         {"subject": "Azure ML"},
+        {"subject": "Celebrus"},
         {"subject": "Dataiku"},
         {"subject": "H2O.ai"},
         {"subject": "Microsoft PowerBI"},
@@ -53,4 +54,3 @@
         {"subject": "Tableau"},
         {"subject": "Vertex"}    ] }
 ] }
-
