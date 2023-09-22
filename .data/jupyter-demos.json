@@ -361,6 +361,7 @@
             "description": "A key component of ESG is Carbon Footprint. This demonstrates a part of a solution available from Teradata to integrate multiple data sources to calculate carbon footprint of various corporate activities.",
             "id": "71",
             "subjects": [
+                {"id": "71", "subject": "Energy & Natural Resources"},
                 {"id": "71", "subject": "Time series analytics"}
             ],
             "links": [
@@ -604,7 +605,8 @@
             "description": "This walks through the Cross-Industry Standard Process for Data Mining (CRISP-DM) from data understanding through modeling and evaluation.",
             "id": "16",
             "subjects": [
-
+                {"id": "16", "subject": "Healthcare"},
+                {"id": "16", "subject": "Hypothesis testing"}
             ],
             "links": [
                 {

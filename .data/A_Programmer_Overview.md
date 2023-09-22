@@ -53,6 +53,49 @@ If the demo does a single access to the data and does most of the rest of the wo
 &emsp;flush query logging with all;<br>
 &emsp;select * from dbc.qrylog where starttime > current_timestamp - interval '5' minute order by starttime;<br>
 
+### Getting Started Notebooks for Developers
+    
+#### Data Loading (Python)
+Shows how to use python to load CSV data from local storage and from zipped files<br>
+[Python Version](.././Getting_Started/Data_Loading/Data_Loading_Python.ipynb)
+
+#### Data Loading (SQL)
+Shows multiple ways to load data from local CSV files, and cloud files on Google and AWS using the SQL kernel.<br>
+[SQL Version](.././Getting_Started/Data_Loading/Data_Loading_SQL.ipynb)
+
+#### Query Service REST API
+Demonstration of using REST API calls to Vantage which is useful for web or mobile applications to access and maintain data.<br>
+[Python Version](.././UseCases/Query_Service/Query_Service.ipynb)
+
+#### SQL Basics in Jupyter
+This guide will walk you through writing your first SQL queries in Jupyter.  It uses some of the Vantage system tables as a source for the queries.<br>
+[SQL Version](.././Getting_Started/SQL_Basics_in_Jupyter/SQL_Basics_in_Jupyter_SQL.ipynb)
+
+#### teradataml Python Basics
+Introduction to Teradataml package for Python including connecting to Vantage, Teradata DataFrames, data manipulation and export to Pandas.<br>
+[Python Version](.././Getting_Started/teradataml_Python_Basics/teradataml_Python_Basics_Python.ipynb)
+
+#### Intro to Panda for Python
+Provides step-by-step instructions on the basics of using Python Pandas with Jupyter notebooks.<br>
+[Python Version](.././Getting_Started/Intro_to_Pandas_For_Python/Intro_to_Pandas_For_Python.ipynb)
+
+#### Charting and Visualization
+Data from queries is brought to life with graphics and charts. This shows how to use the %chart magic command to display results.<br>
+[SQL Version](.././Getting_Started/Charting_and_Visualization/Charting_and_Visualization_SQL.ipynb)
+
+#### VAL Overview
+Vantage Analytics Library (VAL) is a set of over 50 functions for advanced analytics. This provides an overview and links to an 8 minute video overview.<br>
+[SQL Version](.././UseCases/Vantage_Analytics_Library/VAL_Overview_SQL.ipynb)
+
+#### Data Dictionary
+This provides an index to all of the databases used by demo notebooks on this machine, allowing you to use that data for your own notebooks or BI tools.<br>
+[Python Version](.././UseCases/Data_Dictionary/Data_Dictionary.ipynb)
+
+#### How to Submit Your Demos
+It is very easy to submit your demo for publication. Tell us directory with the notebook and referenced files and grant us access to your database.  We'll take it from there.<br>
+[Python Version](.././Getting_Started/How_to_Submit_Your_Demos/How_to_Submit_Your_Demos.ipynb) &ensp; [Video](./Getting_Started/How_to_Submit_Your_Demos/How_to_Submit_Your_Demos_Video.ipynb)
+
+    
 ---
 
 <footer style="padding:10px;background:#f9f9f9;border-bottom:3px solid #394851">©2023 Teradata. All Rights Reserved</footer>

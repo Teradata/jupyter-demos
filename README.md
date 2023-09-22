@@ -11,6 +11,7 @@ These are <u>functional</u> demonstrations executed on a tiny platform with smal
 If you've never used Jupyter before, we strongly recommend reviewing the **First Time User** section of **Getting Started**. You'll find an [**introduction video**](./Getting_Started/Introduction_Video/Introduction_Video_SQL.ipynb) with tips on using this platform. There are also tips for you if you just want to <b>[look without programming](#I-am-not-a-programmer)</b>. If you have questions or issues, [**click here**](mailto:SC230208@teradata.com?subject=ClearScape%20Analytics%20Jupyter%20Question) to send an e-mail to ClearScape Analytics Support.<br><br> 
 
 ---
+
 <a id='toc'></a>
 ## Table of Contents
 *Items in italics are coming soon.*
@@ -19,23 +20,20 @@ If you've never used Jupyter before, we strongly recommend reviewing the **First
 |-----------|--------------|---------------|--------------- | --------------- |
 |<a href='#xFirst-Time-User'>**First Time User**</a>|<a href='#xAutomotive'>Automotive</a>|*Finance*|<a href='#xData-Preparation'>Data Preparation</a>|*AWS SageMaker*|
 |<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>|<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>|<a href='#xDescriptive-Statistics'>Descriptive Statistics</a>|<a href='#xAzure-ML'>Azure ML</a>|
-|<a href='#xDeveloper-Information'>Developer Information</a>|<a href='#xFinancial'>Financial</a>| |*Feature Engineering*|<a href='#xDataiku'>Dataiku</a>|
-| |<a href='#xHealthcare'>Healthcare</a>| |<a href='#xGenerative-AI'>Generative AI</a>|*H2O.ai*|
-| |<a href='#xManufacturing'>Manufacturing</a>| |<a href='#xGeospatial'>Geospatial</a>|*Microsoft PowerBI*|
-| |<a href='#xRetail'>Retail</a>| |<a href='#xHypothesis-testing'>Hypothesis testing</a>|*MicroStrategy*|
-| |<a href='#xTelco'>Telco</a>| |<a href='#xMachine-learning'>Machine learning</a>|<a href='#xR'>R</a>|
-| |<a href='#xTravel-&-Transportation'>Travel & Transportation</a>| |<a href='#xModelOps'>ModelOps</a>|*SAP Business Objects*|
-| | | |<a href='#xObject-Storage'>Object Storage</a>|*SAS*|
-| | | |<a href='#xOpen-and-connected-analytics'>Open-and-connected analytics</a>|*Tableau*|
-| | | |<a href='#xPath-Analytics'>Path Analytics</a>|*Vertex*|
-| | | |<a href='#xText-Analysis'>Text Analysis</a>| |
+|<a href='#xDeveloper-Information'>Developer Information</a>|<a href='#xFinancial'>Financial</a>| |*Feature Engineering*|<a href='#xCelebrus'>Celebrus</a>|
+| |<a href='#xHealthcare'>Healthcare</a>| |<a href='#xGenerative-AI'>Generative AI</a>|<a href='#xDataiku'>Dataiku</a>|
+| |<a href='#xManufacturing'>Manufacturing</a>| |<a href='#xGeospatial'>Geospatial</a>|*H2O.ai*|
+| |<a href='#xRetail'>Retail</a>| |<a href='#xHypothesis-testing'>Hypothesis testing</a>|*Microsoft PowerBI*|
+| |<a href='#xTelco'>Telco</a>| |<a href='#xMachine-learning'>Machine learning</a>|*MicroStrategy*|
+| |<a href='#xTravel-&-Transportation'>Travel & Transportation</a>| |<a href='#xModelOps'>ModelOps</a>|<a href='#xR'>R</a>|
+| | | |<a href='#xObject-Storage'>Object Storage</a>|*SAP Business Objects*|
+| | | |<a href='#xOpen-and-connected-analytics'>Open-and-connected analytics</a>|*SAS*|
+| | | |<a href='#xPath-Analytics'>Path Analytics</a>|*Tableau*|
+| | | |<a href='#xText-Analysis'>Text Analysis</a>|*Vertex*|
 | | | |<a href='#xTime-series-analytics'>Time series analytics</a>| |
 
 
-
-#### 
 <br>
-
 
 ---
 
@@ -115,7 +113,7 @@ It is very easy to submit your demo for publication. Tell us directory with the 
 
 #### Anomaly Detection
 Evaluates potential failures in spot welds based on voltage anomalies during the welding process.<br>
-[Python-SQL Version](./UseCases/Anomaly_Detection/Anomaly_Detection_PY_SQL.ipynb)
+[Python-SQL Version](./UseCases/Anomaly_Detection/Anomaly_Detection_PY_SQL.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/ClearScape%20Analytics%20Experience%20-%20Anomaly%20Detection%20Use%20Case%20Demo%20-%20External%20-%20SP004519.MP4)
 
 #### Battery Defect Analysis
 Uses local data (or foreign tables on GCP) to analyze patterns of battery failure, then links to data on AWS for detailed battery measurement.<br>
@@ -128,6 +126,10 @@ Uses geospatial techniques to locate service centers close to the complaint and 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xEnergy-&-Natural-Resources'></a>
 ### Energy & Natural Resources
+
+#### Carbon Footprint Analytics
+A key component of ESG is Carbon Footprint. This demonstrates a part of a solution available from Teradata to integrate multiple data sources to calculate carbon footprint of various corporate activities.<br>
+[Python-SQL Version](./UseCases/Carbon_Footprint_Analytics/Carbon_Footprint_Analytics_PY_SQL.ipynb)
 
 #### Energy Consumption Forecasting
 This combines machine learning and BYOM to forecast energy consumption using Vantage to score the model at scale without having to export all data.<br>
@@ -165,13 +167,17 @@ Uses government consumer complaint data with SQL queries and visualizations to i
 This shows the use of ClearScape analytics to reduce the pre-processing effort of incoming raw credit card data to prepare for analysis of potential loan defaulters.<br>
 [SQL Version](./UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_SQL.ipynb)
 
+#### Digital Identity Management
+Combines ClearScape Analytics with Celebrus to track unique customers across web sessions and devices to drive personalized experiences<br>
+[SQL Version](./UseCases/Digital_Identity_Management/Digital_Identity_Management_SQL.ipynb)
+
 #### Financial Customer Journey
 Uses analytic techniques to find new customers, measure marketing attribution, and maximizing marketing effectiveness<br>
-[SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb) &ensp; [Python-SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Financial_Customer_Journey_Use_Case_Demo_SP004464.MP4)
+[SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb) &ensp; [Python-SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/ClearScape%20Analytics%20Experience%20-%20Financial%20Customer%20Journey%20Use%20Case%20Demo%20-%20External%20-%20SP004464.MP4) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Financial_Customer_Journey_Use_Case_Demo_SP004464.MP4)
 
 #### Financial Fraud Detection InDB
 Detect financial transaction fraud  using powerful in-database machine learning functions<br>
-[Python Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Financial_Fraud_Detection_Use_Case_Demo_SP004465.MP4) &ensp; [Python-SQL Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb)
+[Python Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Financial_Fraud_Detection_Use_Case_Demo_SP004465.MP4) &ensp; [Python-SQL Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/ClearScape%20Analytics%20Experience%20-%20Financial%20Fraud%20Detection%20Use%20Case%20Demo%20-%20External%20-%20SP004465.MP4)
 
 #### Financial Fraud Detection VIA BYOM
 A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.<br>
@@ -205,13 +211,17 @@ Covers the ModelOps operationalizing of the ONNX model format for BYOM for the D
 Covers the ModelOps operationalizing of the H2O model format for BYOM for the Diabetes use case. H2O is an open source, distributed in-memory machine learning library with linear scalability.<br>
 [Python Version](./ModelOps/05_ModelOps_BYOM_PIMA_H2O.ipynb)
 
+#### Data Science 101 with Python
+This walks through the Cross-Industry Standard Process for Data Mining (CRISP-DM) from data understanding through modeling and evaluation.<br>
+[Python Version](./UseCases/Data_Science_101_with_Python/Data_Science_101_with_Python_Python.ipynb)
+
 #### Diabetes Prediction via BYOM H2O
 This uses BYOM to import a trained H2O model to identify potential diabetes patients. BYOM allows the data scientist to create models in languages they prefer and run at scale inside Vantage without moving data.<br>
 [Python-SQL Version](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_BYOM_H2O_PY_SQL.ipynb)
 
 #### Diabetes Prediction via DF and GLM
 Decision Forest and Generalized Linear Model are applied to identify factors that indicate diabetes. The earlier the disease is identified, the better the chance of reducing organ damage.<br>
-[Python Version](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_PY_SQL.ipynb)
+[Python Version](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_Python.ipynb)
 
 #### Heart Failure Prediction
 Machine learning is applied to the complex attributes of patients to help recognize patterns that may lead to heart failure faster than a human may recognize.<br>
@@ -231,7 +241,7 @@ This uses the ClearScape Analytics nPath® function to provide visuals on the ev
 
 #### Anomaly Detection
 Evaluates potential failures in spot welds based on voltage anomalies during the welding process.<br>
-[Python-SQL Version](./UseCases/Anomaly_Detection/Anomaly_Detection_PY_SQL.ipynb)
+[Python-SQL Version](./UseCases/Anomaly_Detection/Anomaly_Detection_PY_SQL.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/ClearScape%20Analytics%20Experience%20-%20Anomaly%20Detection%20Use%20Case%20Demo%20-%20External%20-%20SP004519.MP4)
 
 #### Battery Defect Analysis
 Uses local data (or foreign tables on GCP) to analyze patterns of battery failure, then links to data on AWS for detailed battery measurement.<br>
@@ -259,7 +269,7 @@ Applies machine learning to predict Remaining Useful Life (RUL) of jet engines, 
 
 #### Broken Digital Journey
 This uses nPath® analysis to show the retail events that prevent the ultimate objective: a purchase.  This uses interactive Sankey diagrams to understand the problems.<br>
-[Python Version](./UseCases/Broken_Digital_Journey/Broken_Digital_Journey_Python.ipynb) &ensp; [Video](https://teradata.seismic.com/Link/Content/DCGBP9J9gjD288TPcG3HFgXDHDW8)
+[Python Version](./UseCases/Broken_Digital_Journey/Broken_Digital_Journey_Python.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Broken%20Digital%20Journeys%20CX%20Solution%20Accelerator%20Demo%20via%20Python%20Video%20-%20External%20-%20SP004183%20(1).MP4)
 
 #### Competitor Proximity Geospatial Analysis
 This looks at the impact on purchasing when people that shop at our stores live within reasonable drive time to a competitor. This could identify proximity based marketing tactics to target larger promotions to those customers to increase share of their spend.<br>
@@ -295,7 +305,7 @@ Demonstrates attribution of customer behavior via  single touch and multi-touch 
 
 #### Product Recommendations via Open Source
 Uses FlagEmbedding from HuggingFace plus Vantage in-database functions to assess the vector distance between the product entered and similar products.<br>
-[Python Version](./UseCases/Recommendations_product_search/ecommendations_product_search_OpenSource_Python.ipynb)
+[Python Version](./UseCases/Recommendations_product_search/Recommendations_product_search_OpenSource_Python.ipynb)
 
 #### Product Recommendations via OpenAI
 Uses OpenAIEmbeddings and Vantage in-database function to assists consumers in receiving product recommendations<br>
@@ -308,6 +318,10 @@ This creates an ARIMA time series model based on holidays and merchandising acti
 #### Retail Item Demand Forecast
 Predicts demand for retail products showing how multiple models can be run concurrently.<br>
 [Python-SQL Version](./UseCases/Retail_Demand_Forecasting/Retail_Demand_Forecasting_Python.ipynb)
+
+#### Sales Forecasting using UAF
+A detailed coverage of the analytic steps in sales forecasting including data preparation, exploration, seasonal normalizing, model creation, validation, and forecasting.<br>
+[Python Version](./UseCases/Sales_Forecasting_UAF/Sales_Forecasting_UAF_PY_SQL.ipynb)
 
 #### Store Sales Forecast via ARIMA
 Forecasts total store sales using ARIMA (AutoRegressive Integrated Moving Average)<br>
@@ -331,7 +345,7 @@ Uses graph analysis to identify communities and key influencers within Call Data
 
 #### Telco Customer Churn
 This uses logistic regression for supervised learning to predict the probability of a customer switching vendors based on usage patterns, billing information demographics and interactions. XGBoost is then used in database to improve the prediction.<br>
-[Python-SQL Version](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_PY_SQL.ipynb)
+[Python-SQL Version](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_PY_SQL.ipynb) &ensp; [Video](.//https://storage.googleapis.com/clearscape_analytics_videos/ClearScape%20Analytics%20Experience%20-%20Telco%20Customer%20Churn%20Use%20Case%20Demo%20-%20External%20-%20SP004520.MP4)
 
 #### Telco Network Coverage
 Demonstrates the ability of Geospatial to show signal strength, coverage areas and travel path of customers through cell tower coverage area.<br>
@@ -378,9 +392,13 @@ This looks at the impact on purchasing when people that shop at our stores live 
 This integrates data about customers from multiple sources using multiple matching techniquest to create the "Golden Customer Record" and calculate LTV.<br>
 [SQL Version](./UseCases/Customer360/CustomerIdentityMatching_SQL.ipynb)
 
+#### Digital Identity Management
+Combines ClearScape Analytics with Celebrus to track unique customers across web sessions and devices to drive personalized experiences<br>
+[SQL Version](./UseCases/Digital_Identity_Management/Digital_Identity_Management_SQL.ipynb)
+
 #### Generative AI Question Answering
 Uses OpenAI to translate english language questions into SQL queries to run against a table of marketing data. This includes a link to a notebook with instructions for getting the required OpenAI API key.<br>
-[Python Version](./UseCases/Generative_Question_Answering_GenAI/Generative_Question_Answering_Python.ipynb)
+[Python Version](./UseCases/Generative_Question_Answering_GenAI/Generative_Question_Answering_Python.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/ClearScape%20Analytics%20Experience%20-%20Generative%20AI%20Powered%20Search-Based%20Product%20Recommendation%20Use%20Case%20Demo%20-%20External%20-%20SP004561.MP4)
 
 #### Hyper-Personalization
 Hyper-personalization creates models from customer iteractions on multiple channels to determine the "Next Best Offer" for the individual.<br>
@@ -427,6 +445,10 @@ Outliers in an analysis skew the results and make it difficult to recognize the 
 <a id='xDescriptive-Statistics'></a>
 ### Descriptive Statistics
 
+#### Sales Forecasting using UAF
+A detailed coverage of the analytic steps in sales forecasting including data preparation, exploration, seasonal normalizing, model creation, validation, and forecasting.<br>
+[Python Version](./UseCases/Sales_Forecasting_UAF/Sales_Forecasting_UAF_PY_SQL.ipynb) &ensp; [Python Version](./UseCases/Sales_Forecasting_UAF/Sales_Forecasting_UAF_PY_SQL.ipynb)
+
 #### VAL Descriptive Statistics
 This performs in-database analysis of data values, distribution, histograms, and text field analysis using SQL to access the Vantage Analytics Library.<br>
 [SQL Version](./UseCases/Vantage_Analytics_Library/VAL_Descriptive_Statistics_SQL.ipynb)
@@ -441,11 +463,11 @@ Demonstrated the use of Teradataml in Python to perform descriptive statistics, 
 
 #### Generative AI Question Answering
 Uses OpenAI to translate english language questions into SQL queries to run against a table of marketing data. This includes a link to a notebook with instructions for getting the required OpenAI API key.<br>
-[Python Version](./UseCases/Generative_Question_Answering_GenAI/Generative_Question_Answering_Python.ipynb)
+[Python Version](./UseCases/Generative_Question_Answering_GenAI/Generative_Question_Answering_Python.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/ClearScape%20Analytics%20Experience%20-%20Generative%20AI%20Powered%20Search-Based%20Product%20Recommendation%20Use%20Case%20Demo%20-%20External%20-%20SP004561.MP4)
 
 #### Product Recommendations via Open Source
 Uses FlagEmbedding from HuggingFace plus Vantage in-database functions to assess the vector distance between the product entered and similar products.<br>
-[Python Version](./UseCases/Recommendations_product_search/ecommendations_product_search_OpenSource_Python.ipynb)
+[Python Version](./UseCases/Recommendations_product_search/Recommendations_product_search_OpenSource_Python.ipynb)
 
 #### Product Recommendations via OpenAI
 Uses OpenAIEmbeddings and Vantage in-database function to assists consumers in receiving product recommendations<br>
@@ -491,6 +513,14 @@ Demonstrates the ability of Geospatial to show signal strength, coverage areas a
 This looks at the impact on purchasing when people that shop at our stores live within reasonable drive time to a competitor. This could identify proximity based marketing tactics to target larger promotions to those customers to increase share of their spend.<br>
 [Python Version](./UseCases/Competitor_Proximity_Geospatial_Analysis/Competitor_Proximity_Geospatial_Analysis_Python.ipynb)
 
+#### Data Science 101 with Python
+This walks through the Cross-Industry Standard Process for Data Mining (CRISP-DM) from data understanding through modeling and evaluation.<br>
+[Python Version](./UseCases/Data_Science_101_with_Python/Data_Science_101_with_Python_Python.ipynb)
+
+#### Sales Forecasting using UAF
+A detailed coverage of the analytic steps in sales forecasting including data preparation, exploration, seasonal normalizing, model creation, validation, and forecasting.<br>
+[Python Version](./UseCases/Sales_Forecasting_UAF/Sales_Forecasting_UAF_PY_SQL.ipynb)
+
 #### VAL Hypothesis Tests
 This demonstrates a subset of the 18 hypothesis test in the Vantage Analytics library  using SQL such as Parametric, Binomial, Kolmogorov/Smirnoff, Rank, etc.<br>
 [SQL Version](./UseCases/Vantage_Analytics_Library/VAL_Hypothesis_Tests_SQL.ipynb)
@@ -513,7 +543,7 @@ Covers the ModelOps operationalizing of the H2O model format for BYOM for the Di
 
 #### Anomaly Detection
 Evaluates potential failures in spot welds based on voltage anomalies during the welding process.<br>
-[Python-SQL Version](./UseCases/Anomaly_Detection/Anomaly_Detection_PY_SQL.ipynb)
+[Python-SQL Version](./UseCases/Anomaly_Detection/Anomaly_Detection_PY_SQL.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/ClearScape%20Analytics%20Experience%20-%20Anomaly%20Detection%20Use%20Case%20Demo%20-%20External%20-%20SP004519.MP4)
 
 #### Banking Customer Churn
 Uses a combination of Vantage Analytics Library to prepare data, using machine learning in python and importing the resulting PMML model into Vantage for scoring.<br>
@@ -521,11 +551,11 @@ Uses a combination of Vantage Analytics Library to prepare data, using machine l
 
 #### Diabetes Prediction via DF and GLM
 Decision Forest and Generalized Linear Model are applied to identify factors that indicate diabetes. The earlier the disease is identified, the better the chance of reducing organ damage.<br>
-[Python Version](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_PY_SQL.ipynb)
+[Python Version](./UseCases/Diabetes_Prediction/Diabetes_Prediction_via_DF_and_GLM_Python.ipynb)
 
 #### Financial Fraud Detection InDB
 Detect financial transaction fraud  using powerful in-database machine learning functions<br>
-[Python Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Financial_Fraud_Detection_Use_Case_Demo_SP004465.MP4) &ensp; [Python-SQL Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb)
+[Python Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Financial_Fraud_Detection_Use_Case_Demo_SP004465.MP4) &ensp; [Python-SQL Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/ClearScape%20Analytics%20Experience%20-%20Financial%20Fraud%20Detection%20Use%20Case%20Demo%20-%20External%20-%20SP004465.MP4)
 
 #### Financial Fraud Detection VIA BYOM
 A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.<br>
@@ -585,7 +615,7 @@ Uses the Script Table Operator (STO) to run the H20 machine learning library as 
 
 #### Telco Customer Churn
 This uses logistic regression for supervised learning to predict the probability of a customer switching vendors based on usage patterns, billing information demographics and interactions. XGBoost is then used in database to improve the prediction.<br>
-[Python-SQL Version](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_PY_SQL.ipynb)
+[Python-SQL Version](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_PY_SQL.ipynb) &ensp; [Video](.//https://storage.googleapis.com/clearscape_analytics_videos/ClearScape%20Analytics%20Experience%20-%20Telco%20Customer%20Churn%20Use%20Case%20Demo%20-%20External%20-%20SP004520.MP4)
 
 #### Train Delay Path Analysis
 Uses nPath displays to show relationship of delays and predictive models to anticipate potential delays and enable proactive planning.<br>
@@ -669,7 +699,7 @@ Creative application of geospatial to locations of sensors in  a research lab an
 
 #### Anomaly Detection
 Evaluates potential failures in spot welds based on voltage anomalies during the welding process.<br>
-[Python-SQL Version](./UseCases/Anomaly_Detection/Anomaly_Detection_PY_SQL.ipynb)
+[Python-SQL Version](./UseCases/Anomaly_Detection/Anomaly_Detection_PY_SQL.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/ClearScape%20Analytics%20Experience%20-%20Anomaly%20Detection%20Use%20Case%20Demo%20-%20External%20-%20SP004519.MP4)
 
 #### Banking Customer Churn
 Uses a combination of Vantage Analytics Library to prepare data, using machine learning in python and importing the resulting PMML model into Vantage for scoring.<br>
@@ -709,7 +739,7 @@ Introduction to Teradataml package for Python including connecting to Vantage, T
 
 #### Broken Digital Journey
 This uses nPath® analysis to show the retail events that prevent the ultimate objective: a purchase.  This uses interactive Sankey diagrams to understand the problems.<br>
-[Python Version](./UseCases/Broken_Digital_Journey/Broken_Digital_Journey_Python.ipynb) &ensp; [Video](https://teradata.seismic.com/Link/Content/DCGBP9J9gjD288TPcG3HFgXDHDW8)
+[Python Version](./UseCases/Broken_Digital_Journey/Broken_Digital_Journey_Python.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Broken%20Digital%20Journeys%20CX%20Solution%20Accelerator%20Demo%20via%20Python%20Video%20-%20External%20-%20SP004183%20(1).MP4)
 
 #### Customer Behavior Analysis
 Analysis of customer purchase behavior using nPath® analysis in Python with visualization using Sankey diagrams.<br>
@@ -717,7 +747,7 @@ Analysis of customer purchase behavior using nPath® analysis in Python with vis
 
 #### Financial Customer Journey
 Uses analytic techniques to find new customers, measure marketing attribution, and maximizing marketing effectiveness<br>
-[SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb) &ensp; [Python-SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Financial_Customer_Journey_Use_Case_Demo_SP004464.MP4)
+[SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb) &ensp; [Python-SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/ClearScape%20Analytics%20Experience%20-%20Financial%20Customer%20Journey%20Use%20Case%20Demo%20-%20External%20-%20SP004464.MP4) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Financial_Customer_Journey_Use_Case_Demo_SP004464.MP4)
 
 #### Knee Replacement Attribution
 The ClearScape Analytics Attribution function is used to determine the weight of various events that precede the final outcome, in this example, knee replacement.<br>
@@ -811,6 +841,14 @@ Analysis of sessions and queries  you executed using the built-in logging facili
 #### Energy Consumption Forecasting using AzureML
 This leverages the power of AzureML and Teradata Vantage to enhance our machine learning capabilities and enable scalable model scoring to forecast energy consumption.<br>
 [Python Version](./UseCases/Energy_Consumption_Forecasting_AzureML/Energy_Consumption_Forecasting_AzureML.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xCelebrus'></a>
+### Celebrus
+
+#### Digital Identity Management
+Combines ClearScape Analytics with Celebrus to track unique customers across web sessions and devices to drive personalized experiences<br>
+[SQL Version](./UseCases/Digital_Identity_Management/Digital_Identity_Management_SQL.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xDataiku'></a>
