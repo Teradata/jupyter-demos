@@ -1,7 +1,9 @@
 <img id=Teradata-logo src="../images/CSAE_Header.png" alt="Teradata" width="100%"  /><br>
 # Introduction for Programmers
 
-<p>These demos can be used as examples that you can use to build your own applications. They also provide data you can use for your own demos or tools. Use the "Developer Information" filter under "Getting Started" for more details. </p>
+These demos can be used as examples that you can use to build your own applications. They also provide data you can use for your own demos or tools. There is an index below of the notebooks for developers. (
+[click here](#Getting-Started-Notebooks-for-Developers)
+).  If you create a new, interesting demo, **let us know**. One of the notebooks below shows you how easy it is to submit your demos for publication. 
 
 ### Experimenting and Saving
 
@@ -21,7 +23,7 @@ Running a notebook and saving it with outputs will allow you to come back later 
 - <b>Python</b> - pure Python code using python methods via the Jupyter Python Kernel giving you access to a wide variety of libraries including TeradataML to execute SQL statements on Vantage. 
 - <b>SQL</b> - Uses the Teradata SQL kernel to execute SQL statements on Vantage. Output is more limited to table output and some limited graphing capabilities. Those are described in the "Charting and Visualization" notebook in Getting_started. These versions are most useful examples if you want examples of SQL for your BI/AI/ML tools. 
 - <b>PY_SQL</b> - These notebooks are Python executing SQL statements as literals and using Python libraries to create more impressive outputs. 
-- <b>ReadOnly</b> - This uses the nbviewer web application to view a saved version of the notebooks with outputs in a browser.  Some of the graphs for the Python versions have minor interactivity but mostly these are just for reading the code and seeing outputs without processing time. 
+- <b>ReadOnly</b> - This uses the nbviewer web application to view a saved version of the notebooks with outputs in a browser.  Some of the graphs for the Python versions have minor interactivity but mostly these versions of the demos are just for reading the code and seeing outputs without processing time. 
 
 
 ### Getting Data
@@ -36,7 +38,9 @@ If the demo does a single access to the data and does most of the rest of the wo
 
 <p>Some of the demos have tables with over 1,000 columns. The creation of those tables and views may take 30-60 seconds.</p> 
 
-<p>At the end of each demo is a call to a database stored procedure named "remove data". That will delete the tables, views and databases created by the demo. You can skip that cell if you would like to rerun the demo without waiting to set up the databases or if you'd like to use the data for your own applications or tools.  There is also a "[Data Dictionary](../UseCases/Data_Dictionary/Data_Dictionary.ipynb)" use case that will allow you view all of the available data and set up the databases, tables, and views without needing to access the demo.</p>
+At the end of each demo is a call to a database stored procedure named "remove data". That will delete the tables, views and databases created by the demo. You can skip that cell if you would like to rerun the demo without waiting to set up the databases or if you'd like to use the data for your own applications or tools.  There is also a "
+[Data Dictionary](../UseCases/Data_Dictionary/Data_Dictionary.ipynb)
+" use case that will allow you view all of the available data and set up the databases, tables, and views without needing to access the demo.
 
 <p>You can also import data from your cloud storage by creating foreign tables to access directly or using insert/select to populate local tables. For more information, see:</p> 
 
@@ -53,6 +57,7 @@ If the demo does a single access to the data and does most of the rest of the wo
 &emsp;flush query logging with all;<br>
 &emsp;select * from dbc.qrylog where starttime > current_timestamp - interval '5' minute order by starttime;<br>
 
+<a id='toc'></a>
 ### Getting Started Notebooks for Developers
     
 #### Data Loading (Python)
