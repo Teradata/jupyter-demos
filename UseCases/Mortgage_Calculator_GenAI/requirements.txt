@@ -1,4 +1,4 @@
 sqlalchemy
-langchain
+langchain==0.0.329
 openai
 panel
