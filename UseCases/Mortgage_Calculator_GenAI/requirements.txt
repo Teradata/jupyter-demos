@@ -1,4 +1,5 @@
 sqlalchemy
 langchain==0.0.329
-openai
+openai==0.28.1
 panel
+tiktoken
