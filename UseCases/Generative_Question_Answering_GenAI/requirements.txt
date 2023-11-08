@@ -2,4 +2,4 @@ sqlalchemy==1.4.44
 langchain==0.0.190
 sqlalchemy-aurora-data-api
 PyAthena[SQLAlchemy]==2.25.
-openai
+openai==0.28.1
