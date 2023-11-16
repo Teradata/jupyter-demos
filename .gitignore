@@ -4,3 +4,4 @@ Teradata/Resultsets/*
 Teradata/KernelInfo/*
 .ipynb_checkpoints
 Teradata/Config/*
+.data

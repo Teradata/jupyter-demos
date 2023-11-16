@@ -1,6 +1,12 @@
 {
 "name": "index",
 "categories": [
+    {"category": "Getting Started", 
+    "subjects": [
+        {"subject": "First Time User"},
+        {"subject": "I am **not** a programmer"},
+        {"subject": "Developer Information"}
+    ] },
     {"category": "Industries", 
     "subjects": [
         {"subject": "Automotive"},
