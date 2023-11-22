@@ -1,4 +1,4 @@
-sqlalchemy==1.4.44
+# sqlalchemy==2.0.23
 langchain==0.0.190
 sqlalchemy-aurora-data-api
 PyAthena[SQLAlchemy]==2.25.
