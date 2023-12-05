@@ -1,5 +1,3 @@
-# sqlalchemy==1.4.44  replaced with SQLAlchemy 2.x in the image build.
-langchain==0.0.190
-sqlalchemy-aurora-data-api
-PyAthena[SQLAlchemy]==2.25.
+langchain==0.0.335
 openai==0.28.1
+langchain-experimental==0.0.40
