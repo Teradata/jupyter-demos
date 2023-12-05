@@ -1,0 +1,7 @@
+langchain 
+openai==0.28.1
+faiss-cpu
+tiktoken
+pypdf
+panel
+FlagEmbedding
