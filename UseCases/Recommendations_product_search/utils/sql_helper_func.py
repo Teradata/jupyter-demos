@@ -26,11 +26,12 @@ def delete_and_copy_embeddings(table_name, tdf, eng):
     qry = f"DELETE FROM {table_name}"
     try:
         execute_sql(qry)
-    except Exception as e:
-        print(e)
+    except:
+        pass
 
     # only insert records if table exists
     try:
         copy_to_sql(tdf, table_name=table_name,primary_index='product_id', if_exists='append')
-    except Exception as e:
-        print(e)
+    except:
+        pass
+    
