@@ -1,6 +1,8 @@
 # teradata lib
 from teradataml.dataframe.copy_to import copy_to_sql
+
 from teradataml import execute_sql
+
 
 #  SQL code
 # delete all the records from table
