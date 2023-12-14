@@ -1,7 +1,7 @@
 from tdapiclient import TDApiClient
 
 def generate_embeddings_tdapiclient(tdf, api_key, text_column):
-    #  create authorization
+    #  create authorization format
     auth_info = f'{{ "key": "{api_key}" }}'
     num_embeddings = 1536
 
