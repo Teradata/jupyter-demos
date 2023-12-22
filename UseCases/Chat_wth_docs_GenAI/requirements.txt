@@ -3,4 +3,4 @@ openai==0.28.1
 faiss-cpu
 tiktoken
 pypdf
-panel
+panel==1.3.4
