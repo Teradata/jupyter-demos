@@ -1,6 +1,7 @@
 langchain 
-openai==0.28.1
+openai
 faiss-cpu
 tiktoken
 pypdf
-panel
+panel==1.3.4
+FlagEmbedding
