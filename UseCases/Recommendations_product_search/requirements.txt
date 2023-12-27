@@ -1,5 +1,0 @@
-openai==0.28.1
-sentence-transformers
-huggingface-hub
-FlagEmbedding
-cryptography==38.0.4
