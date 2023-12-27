@@ -1,0 +1,21 @@
+StoreID,StoreName,Type,LocalityID
+1,Darwin City Mall,Shopping Mall,1
+2,City Plaza Groceries,Grocery Store,1
+3,Parap Village Shopping Centre,Shopping Mall,2
+4,Parap Market Grocers,Grocery Store,2
+5,Stuart Park Plaza,Shopping Mall,3
+6,Stuart Park Groceries,Grocery Store,3
+7,Fannie Bay Shopping Centre,Shopping Mall,4
+8,Fannie Bay Fresh Foods,Grocery Store,4
+9,Larrakeyah Shopping Complex,Shopping Mall,5
+10,Larrakeyah Supermart,Grocery Store,5
+11,Woolner Shopping Plaza,Shopping Mall,6
+12,Woolner Grocery Haven,Grocery Store,6
+13,Bayview Central Mall,Shopping Mall,7
+14,Bayview Groceries,Grocery Store,7
+15,The Gardens Shopping Square,Shopping Mall,8
+16,The Gardens Fresh Market,Grocery Store,8
+17,Nightcliff Shopping Centre,Shopping Mall,9
+18,Nightcliff Grocery Junction,Grocery Store,9
+19,Leanyer Plaza,Shopping Mall,10
+20,Leanyer Fresh Fare,Grocery Store,10

@@ -1,5 +1,3 @@
-# teradataml==17.20.0.4
-# sqlalchemy
 langchain==0.0.329
 openai==0.28.1
 panel
