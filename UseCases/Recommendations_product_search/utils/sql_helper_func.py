@@ -1,12 +1,13 @@
 # teradata lib
 from teradataml.dataframe.copy_to import copy_to_sql
+from teradataml import *
 
 #  SQL code
 # delete all the records from table
 def delete_emb_from_sql(table_name, eng):
     qry = f"DELETE FROM {table_name}"
     try:
-        eng.execute(qry)
+        execute_sql(qry)
         print(f'All the records deleted from: {table_name}')
     except:
         pass
@@ -24,7 +25,7 @@ def delete_and_copy_embeddings(table_name, tdf, eng):
     # only delete records if table exists
     qry = f"DELETE FROM {table_name}"
     try:
-        eng.execute(qry)
+        execute_sql(qry)
     except:
         pass
 
@@ -33,3 +34,4 @@ def delete_and_copy_embeddings(table_name, tdf, eng):
         copy_to_sql(tdf, table_name=table_name,primary_index='product_id', if_exists='append')
     except:
         pass
+    
