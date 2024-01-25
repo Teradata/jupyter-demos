@@ -22,7 +22,7 @@ If you've never used Jupyter before, we strongly recommend reviewing the **First
 |<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>|<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>|<a href='#xDescriptive-Statistics'>Descriptive Statistics</a>|<a href='#xAzure-ML'>Azure ML</a>|<a href='#xSQL'>SQL</a>|
 |<a href='#xDeveloper-Information'>Developer Information</a>|<a href='#xFinancial'>Financial</a>| |*Feature Engineering*|<a href='#xCelebrus'>Celebrus</a>| |
 | |<a href='#xHealthcare'>Healthcare</a>| |<a href='#xGenerative-AI'>Generative AI</a>|<a href='#xDataiku'>Dataiku</a>| |
-| |<a href='#xManufacturing'>Manufacturing</a>| |<a href='#xGeospatial'>Geospatial</a>|*H2O.ai*| |
+| |<a href='#xManufacturing'>Manufacturing</a>| |<a href='#xGeospatial'>Geospatial</a>|<a href='#xH2O.ai'>H2O.ai</a>| |
 | |<a href='#xRetail'>Retail</a>| |<a href='#xHypothesis-testing'>Hypothesis testing</a>|*Microsoft PowerBI*| |
 | |<a href='#xTelco'>Telco</a>| |<a href='#xMachine-learning'>Machine learning</a>|*MicroStrategy*| |
 | |<a href='#xTravel-&-Transportation'>Travel & Transportation</a>| |<a href='#xModelOps'>ModelOps</a>|<a href='#xR'>R</a>| |
@@ -930,8 +930,16 @@ Demonstration of using Dataiku with Vantage. Instructions provided for use with 
 [Python Version](./UseCases/Energy_Consumption_Forecasting_Dataiku/Energy_Consumption_Forecasting_Dataiku.ipynb) &ensp; [Read Only Python](https://nbviewer.org/github/Teradata/jupyter-demos/blob/3538106107f2c78d69141ee1846d49089f9ba1aa/UseCases/Energy_Consumption_Forecasting_Dataiku/Pop_Energy_Consumption_Forecasting_Dataiku.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xH2O.ai'></a>
+### H2O.ai
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xR'></a>
 ### R
+
+#### ModelOps Introduction & List of Notebooks
+This introduction and table of contents introduces you to ModelOps and provides a launch for ModelOps. It is **recommended** to go through ModelOps demonstrations in sequence.<br>
+[Information](./ModelOps/00_ModelOps_Introduction.ipynb) &ensp; [Information](./ModelOps/00_ModelOps_Introduction.ipynb)
 
 #### 10 ModelOps Add R gbm Model to Project
 Uses the gbm R package to generate both R model formats and operationalize through ModelOps. The gbm R packages extends Freund & Schapire's AadaBoost algorithm and Friedman's **G**radient **B**oosting **M**achine (gbm).<br>
@@ -965,6 +973,10 @@ Uses TD_VectorDistance in Vantage to create a chatbot using Retrieval-Augmented 
 #### Credit Card Data Preparation
 Uses functions from TeradataML Python library to prepare data for analysis using data cleansing, exploration and feature engineering functions.<br>
 [Python Version](./UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_Python.ipynb)
+
+#### ModelOps Introduction & List of Notebooks
+This introduction and table of contents introduces you to ModelOps and provides a launch for ModelOps. It is **recommended** to go through ModelOps demonstrations in sequence.<br>
+[Information](./ModelOps/00_ModelOps_Introduction.ipynb)
 
 #### Mortage Calculator using GenAI
 Use Retrieval-Augmented Generation (RAG), Lanchain and LLM models to as questions about loans and retrieve relevant data from Vantage.<br>

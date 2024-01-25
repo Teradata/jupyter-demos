@@ -2,280 +2,6 @@
     "name": "notebooks",
     "demos": [
         {
-            "id": 118,
-            "demo": "01 ModelOps Getting Started",
-            "description": "This introduces the ModelOps methodology, provides an overview video, and a description of navigating the projects, models, and datasets plus a description of monitoring capabilities.",
-            "subjects": [
-                {
-                    "id": 118,
-                    "subject": "ModelOps"
-                },
-                {
-                    "id": 118,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "ModelOps/01_ModelOps_Getting_Started.ipynb",
-                    "label": "Python Version"
-                }
-            ]
-        },
-        {
-            "id": 119,
-            "demo": "02 ModelOps Explore Diabetes Data",
-            "description": "This is a guide through the PIMA Diabetes prediction including data exploration and model experimentation.",
-            "subjects": [
-                {
-                    "id": 119,
-                    "subject": "ModelOps"
-                },
-                {
-                    "id": 119,
-                    "subject": "Healthcare"
-                },
-                {
-                    "id": 119,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "ModelOps/02_ModelOps_PIMA_Experimentation.ipynb",
-                    "label": "Python Version"
-                }
-            ]
-        },
-        {
-            "id": 120,
-            "demo": "03 ModelOps Operationalize PMML",
-            "description": "Covers the ModelOps operationalizing of Bring-your-own-model (BOYM) importing a model via PMML.  PMML allows exchange predictive models produced by data mining and machine learning algorithms.",
-            "subjects": [
-                {
-                    "id": 120,
-                    "subject": "ModelOps"
-                },
-                {
-                    "id": 120,
-                    "subject": "Healthcare"
-                },
-                {
-                    "id": 120,
-                    "subject": "Machine learning"
-                },
-                {
-                    "id": 120,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "ModelOps/03_ModelOps_BYOM_PIMA_PMML.ipynb",
-                    "label": "Python Version"
-                }
-            ]
-        },
-        {
-            "id": 121,
-            "demo": "04 Modelops Operationalize ONNX",
-            "description": "Covers the ModelOps operationalizing of the ONNX model format for BYOM for the Diabetes use case. ONNX is an efficient model format primarily related to neural networks.",
-            "subjects": [
-                {
-                    "id": 121,
-                    "subject": "ModelOps"
-                },
-                {
-                    "id": 121,
-                    "subject": "Healthcare"
-                },
-                {
-                    "id": 121,
-                    "subject": "Machine learning"
-                },
-                {
-                    "id": 121,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "ModelOps/04_ModelOps_BYOM_PIMA_ONNX.ipynb",
-                    "label": "Python Version"
-                }
-            ]
-        },
-        {
-            "id": 122,
-            "demo": "05 ModelOps Operationalize H2O",
-            "description": "Covers the ModelOps operationalizing of the H2O model format for BYOM for the Diabetes use case. H2O is an open source, distributed in-memory machine learning library with linear scalability.",
-            "subjects": [
-                {
-                    "id": 122,
-                    "subject": "ModelOps"
-                },
-                {
-                    "id": 122,
-                    "subject": "Healthcare"
-                },
-                {
-                    "id": 122,
-                    "subject": "Machine learning"
-                },
-                {
-                    "id": 122,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "ModelOps/05_ModelOps_BYOM_PIMA_H2O.ipynb",
-                    "label": "Python Version"
-                }
-            ]
-        },
-        {
-            "id": 123,
-            "demo": "06 ModelOps Project Setup",
-            "description": "Shows you how to set up your own GIT repository for models and create a new project in ModelOps associated with your new repository. This step is **required** for the next notebooks.",
-            "subjects": [
-                {
-                    "id": 123,
-                    "subject": "ModelOps"
-                },
-                {
-                    "id": 123,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "ModelOps/06_ModelOps_GIT_Project_Setup.ipynb",
-                    "label": "Python Version"
-                }
-            ]
-        },
-        {
-            "id": 124,
-            "demo": "07 ModelOps Define Functions",
-            "description": "For the project you've created in ModelOps, this shows definition of the training function, evaluate function, scoring function, life cycle, and monitoring.",
-            "subjects": [
-                {
-                    "id": 124,
-                    "subject": "ModelOps"
-                },
-                {
-                    "id": 124,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "ModelOps/07_ModelOps_GIT_PIMA_Python_Indb_GLM.ipynb",
-                    "label": "Python Version"
-                }
-            ]
-        },
-        {
-            "id": 125,
-            "demo": "08 ModelOps Add H20 to Project",
-            "description": "Demonstrates the use of ModelOps to finalize the H2O AI model, train, evaluate, approve, deploy, score and monitor.",
-            "subjects": [
-                {
-                    "id": 125,
-                    "subject": "ModelOps"
-                },
-                {
-                    "id": 125,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "ModelOps/08_ModelOps_GIT_PIMA_Python_H2OAutoML.ipynb",
-                    "label": "Python Version"
-                }
-            ]
-        },
-        {
-            "id": 126,
-            "demo": "09 ModelOps Add XGBoost to Project",
-            "description": "Uses XGBoost algorithm to generate both Python Joblib and PMML model formats and operationalize them through ModelOps.",
-            "subjects": [
-                {
-                    "id": 126,
-                    "subject": "ModelOps"
-                },
-                {
-                    "id": 126,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "ModelOps/09_ModelOps_GIT_PIMA_Python_XGboost.ipynb",
-                    "label": "Python Version"
-                }
-            ]
-        },
-        {
-            "id": 127,
-            "demo": "10 ModelOps Add R gbm Model to Project",
-            "description": "Uses the gbm R package to generate both R model formats and operationalize through ModelOps. The gbm R packages extends Freund & Schapire's AadaBoost algorithm and Friedman's **G**radient **B**oosting **M**achine (gbm).",
-            "subjects": [
-                {
-                    "id": 127,
-                    "subject": "ModelOps"
-                },
-                {
-                    "id": 127,
-                    "subject": "R"
-                },
-                {
-                    "id": 127,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "ModelOps/10_ModelOps_GIT_PIMA_R_GBM.ipynb",
-                    "label": "Python Version"
-                }
-            ]
-        },
-        {
-            "id": 154,
-            "demo": "11 ModelOps In-Database XGBoost using Git",
-            "description": "This notebook will cover the Operationalization of the PIMA diabetes use case with Python using the Teradata In-database XGBoost model.",
-            "subjects": [
-                {
-                    "id": 154,
-                    "subject": "ModelOps"
-                },
-                {
-                    "id": 154,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "ModelOps/11_ModelOps_GIT_PIMA_Python_indb_XGboost.ipynb",
-                    "label": "Python Version"
-                }
-            ]
-        },
-        {
             "id": 2,
             "demo": "4D Analytics on bike sharing",
             "description": "Demonstration of Geospatial and TimeSeries using Austin bike trip data between 2014 and 2017.",
@@ -286,11 +12,11 @@
                 },
                 {
                     "id": 2,
-                    "subject": "Time series analytics"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 2,
-                    "subject": "Travel & Transportation"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 2,
@@ -331,11 +57,11 @@
             "subjects": [
                 {
                     "id": 39,
-                    "subject": "Travel & Transportation"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 39,
-                    "subject": "Time series analytics"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 39,
@@ -472,11 +198,11 @@
                 },
                 {
                     "id": 58,
-                    "subject": "Automotive"
+                    "subject": "Object Storage"
                 },
                 {
                     "id": 58,
-                    "subject": "Object Storage"
+                    "subject": "Automotive"
                 },
                 {
                     "id": 58,
@@ -503,11 +229,11 @@
             "subjects": [
                 {
                     "id": 82,
-                    "subject": "Path Analytics"
+                    "subject": "Retail"
                 },
                 {
                     "id": 82,
-                    "subject": "Retail"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 82,
@@ -605,11 +331,11 @@
             "subjects": [
                 {
                     "id": 114,
-                    "subject": "Financial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 114,
-                    "subject": "Time series analytics"
+                    "subject": "Financial"
                 },
                 {
                     "id": 114,
@@ -1179,11 +905,11 @@
             "subjects": [
                 {
                     "id": 142,
-                    "subject": "Financial"
+                    "subject": "Celebrus"
                 },
                 {
                     "id": 142,
-                    "subject": "Celebrus"
+                    "subject": "Financial"
                 },
                 {
                     "id": 142,
@@ -1683,11 +1409,11 @@
                 },
                 {
                     "id": 129,
-                    "subject": "Retail"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 129,
-                    "subject": "Marketing"
+                    "subject": "Retail"
                 },
                 {
                     "id": 129,
@@ -1905,11 +1631,11 @@
                 },
                 {
                     "id": 116,
-                    "subject": "Retail"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 116,
-                    "subject": "Marketing"
+                    "subject": "Retail"
                 },
                 {
                     "id": 116,
@@ -1934,6 +1660,18 @@
             "demo": "ModelOps Introduction & List of Notebooks",
             "description": "This introduction and table of contents introduces you to ModelOps and provides a launch for ModelOps. It is **recommended** to go through ModelOps demonstrations in sequence.",
             "subjects": [
+                {
+                    "id": 117,
+                    "subject": "H2O.ai"
+                },
+                {
+                    "id": 117,
+                    "subject": "R"
+                },
+                {
+                    "id": 117,
+                    "subject": "Python"
+                },
                 {
                     "id": 117,
                     "subject": "ModelOps"
@@ -1985,11 +1723,11 @@
             "subjects": [
                 {
                     "id": 130,
-                    "subject": "Machine learning"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 130,
-                    "subject": "Marketing"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 130,
@@ -2020,15 +1758,15 @@
             "subjects": [
                 {
                     "id": 131,
+                    "subject": "Retail"
+                },
+                {
+                    "id": 131,
                     "subject": "Marketing"
                 },
                 {
                     "id": 131,
                     "subject": "Machine learning"
-                },
-                {
-                    "id": 131,
-                    "subject": "Retail"
                 },
                 {
                     "id": 131,
@@ -2292,11 +2030,11 @@
             "subjects": [
                 {
                     "id": 113,
-                    "subject": "Manufacturing"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 113,
-                    "subject": "Travel & Transportation"
+                    "subject": "Manufacturing"
                 },
                 {
                     "id": 113,
@@ -2526,11 +2264,11 @@
             "subjects": [
                 {
                     "id": 134,
-                    "subject": "Machine learning"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 134,
-                    "subject": "Marketing"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 134,
@@ -2561,11 +2299,11 @@
             "subjects": [
                 {
                     "id": 133,
-                    "subject": "Retail"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 133,
-                    "subject": "Machine learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 133,
@@ -2592,15 +2330,15 @@
             "subjects": [
                 {
                     "id": 150,
+                    "subject": "Time series analytics"
+                },
+                {
+                    "id": 150,
                     "subject": "Travel & Transportation"
                 },
                 {
                     "id": 150,
                     "subject": "Geospatial"
-                },
-                {
-                    "id": 150,
-                    "subject": "Time series analytics"
                 },
                 {
                     "id": 150,
