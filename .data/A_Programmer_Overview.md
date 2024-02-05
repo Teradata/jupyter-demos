@@ -98,7 +98,7 @@ This provides an index to all of the databases used by demo notebooks on this ma
 
 #### How to Submit Your Demos
 It is very easy to submit your demo for publication. Tell us directory with the notebook and referenced files and grant us access to your database.  We'll take it from there.<br>
-[Python Version](.././Getting_Started/How_to_Submit_Your_Demos/How_to_Submit_Your_Demos.ipynb) &ensp; [Video](./Getting_Started/How_to_Submit_Your_Demos/How_to_Submit_Your_Demos_Video.ipynb)
+[Python Version](.././Getting_Started/How_to_Submit_Your_Demos/How_to_Submit_Your_Demos.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Submitting_Demos_To_Publish.mp4)
 
     
 ---
