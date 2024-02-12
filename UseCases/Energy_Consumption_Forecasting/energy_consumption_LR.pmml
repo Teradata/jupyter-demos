@@ -2,7 +2,7 @@
 <PMML xmlns="http://www.dmg.org/PMML-4_4" xmlns:data="http://jpmml.org/jpmml-model/InlineTable" version="4.4">
 	<Header>
 		<Application name="SkLearn2PMML package" version="0.91.0"/>
-		<Timestamp>2023-05-07T20:16:07Z</Timestamp>
+		<Timestamp>2024-02-12T03:31:59Z</Timestamp>
 	</Header>
 	<MiningBuildTask>
 		<Extension name="repr">PMMLPipeline(steps=[('lr', LinearRegression())])</Extension>
@@ -96,48 +96,48 @@
 			<MiningField name="cap_cloud_area_fraction"/>
 			<MiningField name="cap_precipitation_amount"/>
 		</MiningSchema>
-		<RegressionTable intercept="1.1749879481849162E16">
-			<NumericPredictor name="is_dark" coefficient="-6.259636832956416E15"/>
-			<NumericPredictor name="is_light" coefficient="-6.259636832957192E15"/>
-			<NumericPredictor name="is_from_light_to_dark" coefficient="-6.259636832956815E15"/>
-			<NumericPredictor name="is_from_dark_to_light" coefficient="-6.259636832956743E15"/>
-			<NumericPredictor name="is_holiday" coefficient="-987.4335210588047"/>
-			<NumericPredictor name="is_pre_holiday" coefficient="-391.51224995131884"/>
-			<NumericPredictor name="monday" coefficient="-1.1503354211003602E16"/>
-			<NumericPredictor name="tuesday" coefficient="-1.150335421100259E16"/>
-			<NumericPredictor name="wednesday" coefficient="-1.1503354211002506E16"/>
-			<NumericPredictor name="thursday" coefficient="-1.150335421100251E16"/>
-			<NumericPredictor name="friday" coefficient="-1.1503354211002498E16"/>
-			<NumericPredictor name="saturday" coefficient="-1.1503354211002628E16"/>
-			<NumericPredictor name="sunday" coefficient="-1.1503354211003432E16"/>
-			<NumericPredictor name="0_h" coefficient="6.013111562119676E15"/>
-			<NumericPredictor name="1_h" coefficient="6.013111562119517E15"/>
-			<NumericPredictor name="2_h" coefficient="6.013111562119441E15"/>
-			<NumericPredictor name="3_h" coefficient="6.013111562119654E15"/>
-			<NumericPredictor name="4_h" coefficient="6.013111562120438E15"/>
-			<NumericPredictor name="5_h" coefficient="6.013111562121659E15"/>
-			<NumericPredictor name="6_h" coefficient="6.013111562122698E15"/>
-			<NumericPredictor name="7_h" coefficient="6.013111562123308E15"/>
-			<NumericPredictor name="8_h" coefficient="6.013111562123724E15"/>
-			<NumericPredictor name="9_h" coefficient="6.013111562124033E15"/>
-			<NumericPredictor name="10_h" coefficient="6.013111562124163E15"/>
-			<NumericPredictor name="11_h" coefficient="6.013111562124197E15"/>
-			<NumericPredictor name="12_h" coefficient="6.013111562124186E15"/>
-			<NumericPredictor name="13_h" coefficient="6.013111562124157E15"/>
-			<NumericPredictor name="14_h" coefficient="6.0131115621241E15"/>
-			<NumericPredictor name="15_h" coefficient="6.013111562123982E15"/>
-			<NumericPredictor name="16_h" coefficient="6.013111562123751E15"/>
-			<NumericPredictor name="17_h" coefficient="6.013111562123481E15"/>
-			<NumericPredictor name="18_h" coefficient="6.013111562123085E15"/>
-			<NumericPredictor name="19_h" coefficient="6.013111562122614E15"/>
-			<NumericPredictor name="20_h" coefficient="6.013111562122042E15"/>
-			<NumericPredictor name="21_h" coefficient="6.013111562121296E15"/>
-			<NumericPredictor name="22_h" coefficient="6.013111562120507E15"/>
-			<NumericPredictor name="23_h" coefficient="6.013111562119965E15"/>
-			<NumericPredictor name="nasa_temp" coefficient="-13885.318172269752"/>
-			<NumericPredictor name="cap_air_temperature" coefficient="-2462.2470041141714"/>
-			<NumericPredictor name="cap_cloud_area_fraction" coefficient="291.86070158138017"/>
-			<NumericPredictor name="cap_precipitation_amount" coefficient="-446.60112945773625"/>
+		<RegressionTable intercept="-1.2519384061512378E16">
+			<NumericPredictor name="is_dark" coefficient="3.2718415143943245E15"/>
+			<NumericPredictor name="is_light" coefficient="3.271841514393545E15"/>
+			<NumericPredictor name="is_from_light_to_dark" coefficient="3.2718415143938865E15"/>
+			<NumericPredictor name="is_from_dark_to_light" coefficient="3.271841514393948E15"/>
+			<NumericPredictor name="is_holiday" coefficient="-1070.8944029587542"/>
+			<NumericPredictor name="is_pre_holiday" coefficient="-355.2076532285669"/>
+			<NumericPredictor name="monday" coefficient="9.085223606830382E15"/>
+			<NumericPredictor name="tuesday" coefficient="9.085223606831384E15"/>
+			<NumericPredictor name="wednesday" coefficient="9.085223606831492E15"/>
+			<NumericPredictor name="thursday" coefficient="9.085223606831468E15"/>
+			<NumericPredictor name="friday" coefficient="9.085223606831498E15"/>
+			<NumericPredictor name="saturday" coefficient="9.085223606831338E15"/>
+			<NumericPredictor name="sunday" coefficient="9.08522360683053E15"/>
+			<NumericPredictor name="0_h" coefficient="1.623189402965152E14"/>
+			<NumericPredictor name="1_h" coefficient="1.6231894029634103E14"/>
+			<NumericPredictor name="2_h" coefficient="1.6231894029627647E14"/>
+			<NumericPredictor name="3_h" coefficient="1.6231894029647312E14"/>
+			<NumericPredictor name="4_h" coefficient="1.623189402972633E14"/>
+			<NumericPredictor name="5_h" coefficient="1.623189402984847E14"/>
+			<NumericPredictor name="6_h" coefficient="1.6231894029952334E14"/>
+			<NumericPredictor name="7_h" coefficient="1.623189403001328E14"/>
+			<NumericPredictor name="8_h" coefficient="1.6231894030055338E14"/>
+			<NumericPredictor name="9_h" coefficient="1.6231894030085944E14"/>
+			<NumericPredictor name="10_h" coefficient="1.623189403009844E14"/>
+			<NumericPredictor name="11_h" coefficient="1.6231894030101894E14"/>
+			<NumericPredictor name="12_h" coefficient="1.6231894030101416E14"/>
+			<NumericPredictor name="13_h" coefficient="1.6231894030097888E14"/>
+			<NumericPredictor name="14_h" coefficient="1.623189403009295E14"/>
+			<NumericPredictor name="15_h" coefficient="1.6231894030080847E14"/>
+			<NumericPredictor name="16_h" coefficient="1.6231894030058066E14"/>
+			<NumericPredictor name="17_h" coefficient="1.6231894030030503E14"/>
+			<NumericPredictor name="18_h" coefficient="1.6231894029991466E14"/>
+			<NumericPredictor name="19_h" coefficient="1.623189402994416E14"/>
+			<NumericPredictor name="20_h" coefficient="1.6231894029887288E14"/>
+			<NumericPredictor name="21_h" coefficient="1.623189402981241E14"/>
+			<NumericPredictor name="22_h" coefficient="1.6231894029733938E14"/>
+			<NumericPredictor name="23_h" coefficient="1.6231894029677578E14"/>
+			<NumericPredictor name="nasa_temp" coefficient="-13878.709879636046"/>
+			<NumericPredictor name="cap_air_temperature" coefficient="-2476.151236388839"/>
+			<NumericPredictor name="cap_cloud_area_fraction" coefficient="289.82289509119283"/>
+			<NumericPredictor name="cap_precipitation_amount" coefficient="-492.61815555281305"/>
 		</RegressionTable>
 	</RegressionModel>
 </PMML>
