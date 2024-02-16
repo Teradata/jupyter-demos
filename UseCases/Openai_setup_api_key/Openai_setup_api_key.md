@@ -30,7 +30,7 @@ jupyter:
 <div class="cell markdown">
 
 <p style = 'font-size:16px;font-family:Arial;color:#00233C'>To ensure optimal utilization of the OpenAI API in generative AI notebooks, it is essential to establish the API keys correctly. This concise guide outlines the process of configuring OpenAI API keys for seamless integration across multiple notebooks.  This notebook is called by other notebooks that use OpenAI for get the api key. Please note that the steps for obtaining the API keys are included in this guide as well.</p>
-<p style = 'font-size:16px;font-family:Arial;color:#00233C'>The OpenAI API, a powerful tool that enables developers to integrate the capabilities of the OpenAI language models into their own applications, products, or services. The OpenAI API allows you to leverage the state-of-the-art natural language processing capabilities of the GPT-3.5 language model, enabling you to create a wide range of intelligent and interactive experiences.
+<p style = 'font-size:16px;font-family:Arial;color:#00233C'>The OpenAI API is a powerful that enables developers to integrate the capabilities of the OpenAI language models into their own applications, products, or services. The OpenAI API allows you to leverage the state-of-the-art natural language processing capabilities of the GPT-3.5 language model, enabling you to create a wide range of intelligent and interactive experiences.
 </p>
 <p style = 'font-size:16px;font-family:Arial;color:#00233C'>By accessing the OpenAI API, you gain the ability to generate human-like text, answer questions, create conversational agents, perform language translation, assist in writing code, draft emails, write articles, and much more. The API provides a straightforward interface for making requests and receiving responses from the language model, making it easy to incorporate its advanced language capabilities into your own projects.</p>
 
@@ -38,12 +38,12 @@ jupyter:
 
 <div class="cell markdown">
 
-<center><img src="images/openai_header.png" alt="Generative_QA_architecture" width=500 height=500/></center>
+<center><img src="images/openai_header.png" alt="Generative_QA_architecture" style="border: 2px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); padding: 10px;" width=800 height=500/></center>
 
 </div>
 
+<br>
 <div class="cell markdown">
-
 <p style = 'font-size:20px;font-family:Arial;color:#00233c'><b>How to Setup OpenAI account and get the API Key</b></p>
 <p style = 'font-size:16px;font-family:Arial;color:#00233c'><b>Steps to setup the account:</b></p>
 <ul style = 'font-size:16px;font-family:Arial;color:#00233C'>
@@ -58,78 +58,86 @@ jupyter:
 </div>
 
 <div class="cell markdown">
-
-<center><img src="images/img1.png" alt="Generative_QA_architecture"  width=800 height=800/></center>
-
+<br>
+<center><img src="images/img1.png" alt="Generative_QA_architecture" style="border: 2px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); padding: 10px;"  width=800 height=800/></center>
+<br>
 </div>
 
 <div class="cell markdown">
 
 <ul style = 'font-size:16px;font-family:Arial;color:#00233C'>
 <li>Click on API and you will see all the OpenAI offered services. Click on profile icon in the top right corner</li>
-<center><img src="images/img2.png" alt="Generative_QA_architecture"  width=800 height=800/></center>
-
+<br>
+<center><img src="images/img2.png" alt="Generative_QA_architecture"  style="border: 2px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); padding: 10px;" width=800 height=800/></center>
+<br>
 </div>
 
 <div class="cell markdown">
 
 <ul style = 'font-size:16px;font-family:Arial;color:#00233C'>
 <li>Click on View API keys. There will be one default key</li>
-<center><img src="images/img3.png" alt="Generative_QA_architecture"  width=800 height=800/></center>
-
+<br>
+<center><img src="images/img3.png" alt="Generative_QA_architecture"  style="border: 2px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); padding: 10px;" width=800 height=500/></center>
+<br>
 </div>
 
 <div class="cell markdown">
 
 <ul style = 'font-size:16px;font-family:Arial;color:#00233C'>
 <li>Now, you have to setup paid account first, Click on Billing to setup paid account.</li>
-<center><img src="images/img4.png" alt="Generative_QA_architecture"  width=800 height=800/></center>
-
+<br>
+<center><img src="images/img4.png" alt="Generative_QA_architecture"  style="border: 2px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); padding: 10px;" width=800 height=800/></center>
+<br>
 </div>
 
 <div class="cell markdown">
 
 <ul style = 'font-size:16px;font-family:Arial;color:#00233C'>
 <li>Choose the option: Select Individual if want to use for personal purposes else select second option. </li>
-<center><img src="images/img5.png" alt="Generative_QA_architecture"  width=800 height=800/></center>
-
+<br>
+<center><img src="images/img5.png" alt="Generative_QA_architecture" style="border: 2px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); padding: 10px;" width=800 height=800/></center>
+<br>
 </div>
 
 <div class="cell markdown">
 
 <ul style = 'font-size:16px;font-family:Arial;color:#00233C'>
 <li>Fill out the personal and billing details.</li>
-<center><img src="images/img6.png" alt="Generative_QA_architecture"  width=800 height=800/></center>
-
+<br>
+<center><img src="images/img6.png" alt="Generative_QA_architecture"  style="border: 2px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); padding: 10px;" width=500 height=800/></center>
+<br>
 </div>
 
 <div class="cell markdown">
 
 <ul style = 'font-size:16px;font-family:Arial;color:#00233C'>
 <li>Now, Click on Create new secret key to generate the new key.</li>
-<center><img src="images/img7.png" alt="Generative_QA_architecture"  width=800 height=800/></center>
-
+<br>
+<center><img src="images/img7.png" alt="Generative_QA_architecture" style="border: 2px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); padding: 10px;" width=800 height=800/></center>
+<br>
 </div>
 
 <div class="cell markdown">
 
 <ul style = 'font-size:16px;font-family:Arial;color:#00233C'>
 <li>Optional: Specify the key name.</li>
-<center><img src="images/img8.png" alt="Generative_QA_architecture"  width=800 height=800/></center>
-
+<br>
+<center><img src="images/img8.png" alt="Generative_QA_architecture"  style="border: 2px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); padding: 10px;" width=800 height=800/></center>
+<br>
 </div>
 
 <div class="cell markdown">
 
 <ul style = 'font-size:16px;font-family:Arial;color:#00233C'>
 <li>Please save this secret key somewhere safe and accessible. For security reasons, you won't be able to view it again through your OpenAI account. If you lose this secret key, you'll need to generate a new one. This is the last step. You can use this key to run generative AI demos.</li>
-<center><img src="images/img9.png" alt="Generative_QA_architecture"  width=800 height=800/></center>
-
+<br>
+<center><img src="images/img9.png" alt="Generative_QA_architecture"  style="border: 2px solid #ccc; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); padding: 10px;"width=800 height=800/></center>
+<br>
 </div>
 
 <div class="cell markdown">
 
-Thank you
+<center><h2>Thank you</h2></center>
 
 </div>
 
