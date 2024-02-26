@@ -1,0 +1,21 @@
+Transaction_ID,Customer_ID,Date,Product_ID,Amount,Payment_Method,Location
+20,120,1/20/2024,21288,1050,Credit Card,Mumbai
+1,101,1/1/2024,5317,200,Debit Card,Delhi
+13,113,1/13/2024,20958,700,Cash,Bangalore
+6,106,1/6/2024,40328,350,Credit Card,Hyderabad
+17,117,1/17/2024,18140,900,Debit Card,Chennai
+9,109,1/9/2024,45775,500,Cash,Kolkata
+14,114,1/14/2024,18140,750,Credit Card,Pune
+2,102,1/2/2024,26704,150,Debit Card,Ahmedabad
+18,118,1/18/2024,20958,950,Cash,Surat
+10,110,1/10/2024,15404,550,Credit Card,Jaipur
+5,105,1/5/2024,29020,100,Debit Card,Lucknow
+15,115,1/15/2024,38913,800,Cash,Kanpur
+3,103,1/3/2024,760,300,Credit Card,Nagpur
+12,112,1/12/2024,30772,650,Debit Card,Indore
+7,107,1/7/2024,46104,400,Cash,Thane
+16,116,1/16/2024,2039,850,Credit Card,Bhopal
+4,104,1/4/2024,38377,250,Debit Card,Visakhapatnam
+19,119,1/19/2024,34543,1000,Cash,Patna
+11,111,1/11/2024,14858,600,Credit Card,Vadodara
+8,108,1/8/2024,21424,450,Debit Card,Ghaziabad
