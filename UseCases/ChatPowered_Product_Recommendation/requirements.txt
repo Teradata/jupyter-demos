@@ -4,10 +4,7 @@ fastparquet
 langchain 
 faiss-cpu
 tiktoken
-pypdf
 panel
 boto3
 awscli
-pyopenssl
-cryptography
-langchain_google_genai
+yellowbrick
