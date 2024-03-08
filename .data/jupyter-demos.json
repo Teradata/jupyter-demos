@@ -8,15 +8,15 @@
             "subjects": [
                 {
                     "id": 2,
+                    "subject": "Time series analytics"
+                },
+                {
+                    "id": 2,
                     "subject": "Geospatial"
                 },
                 {
                     "id": 2,
                     "subject": "Travel & Transportation"
-                },
-                {
-                    "id": 2,
-                    "subject": "Time series analytics"
                 },
                 {
                     "id": 2,
@@ -198,11 +198,11 @@
                 },
                 {
                     "id": 58,
-                    "subject": "Object Storage"
+                    "subject": "Automotive"
                 },
                 {
                     "id": 58,
-                    "subject": "Automotive"
+                    "subject": "Object Storage"
                 },
                 {
                     "id": 58,
@@ -229,11 +229,11 @@
             "subjects": [
                 {
                     "id": 82,
-                    "subject": "Retail"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 82,
-                    "subject": "Path Analytics"
+                    "subject": "Retail"
                 },
                 {
                     "id": 82,
@@ -331,11 +331,11 @@
             "subjects": [
                 {
                     "id": 114,
-                    "subject": "Time series analytics"
+                    "subject": "Financial"
                 },
                 {
                     "id": 114,
-                    "subject": "Financial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 114,
@@ -463,11 +463,11 @@
             "subjects": [
                 {
                     "id": 7,
-                    "subject": "Financial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 7,
-                    "subject": "Time series analytics"
+                    "subject": "Financial"
                 },
                 {
                     "id": 7,
@@ -605,14 +605,14 @@
                     "label": "Python Version"
                 },
                 {
+                    "type": "notebook",
+                    "url": "UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_SQL.ipynb",
+                    "label": "SQL Version"
+                },
+                {
                     "type": "nbviewer",
                     "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/22c90d88c3780201600318de56341f07aa4a6e3f/UseCases/Customer_Behavior_Analysis/Pop_Customer_Behavior_Analysis_Python.ipynb",
                     "label": "Read Only Python"
-                },
-                {
-                    "type": "notebook",
-                    "url": "UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_PY_SQL.ipynb",
-                    "label": "Python-SQL Version"
                 }
             ]
         },
@@ -1010,11 +1010,11 @@
             "subjects": [
                 {
                     "id": 138,
-                    "subject": "Energy & Natural Resources"
+                    "subject": "Azure ML"
                 },
                 {
                     "id": 138,
-                    "subject": "Azure ML"
+                    "subject": "Energy & Natural Resources"
                 },
                 {
                     "id": 138,
@@ -1104,16 +1104,6 @@
             ],
             "links": [
                 {
-                    "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/22c90d88c3780201600318de56341f07aa4a6e3f/UseCases/Financial_Fraud_Detection_InDB/Pop_Financial_Fraud_Detection_InDB_PY_SQL.ipynb",
-                    "label": "Read Only Python-SQL"
-                },
-                {
-                    "type": "notebook",
-                    "url": "UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_PY_SQL.ipynb",
-                    "label": "Python-SQL Version"
-                },
-                {
                     "type": "notebook",
                     "url": "UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb",
                     "label": "Python Version"
@@ -1160,18 +1150,8 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/22c90d88c3780201600318de56341f07aa4a6e3f/UseCases/Financial_Fraud_Detection_BYOM/Pop_Financial_Fraud_Detection_BYOM_PY_SQL.ipynb",
-                    "label": "Read Only Python-SQL"
-                },
-                {
-                    "type": "nbviewer",
                     "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/22c90d88c3780201600318de56341f07aa4a6e3f/UseCases/Financial_Fraud_Detection_BYOM/Pop_Financial_Fraud_Detection_BYOM_Python.ipynb",
                     "label": "Read Only Python"
-                },
-                {
-                    "type": "notebook",
-                    "url": "UseCases/Financial_Fraud_Detection_BYOM/Financial_Fraud_Detection_BYOM_PY_SQL.ipynb",
-                    "label": "Python-SQL Version"
                 }
             ]
         },
@@ -1336,6 +1316,36 @@
             ]
         },
         {
+            "id": 156,
+            "demo": "Grocery Recommendations using GenAI *Beta*",
+            "description": "Use context-based product recommendations powered by GenAI Large Language Models to enhance a shopping experience.",
+            "subjects": [
+                {
+                    "id": 156,
+                    "subject": "Python"
+                },
+                {
+                    "id": 156,
+                    "subject": "SQL"
+                },
+                {
+                    "id": 156,
+                    "subject": "Generative AI"
+                },
+                {
+                    "id": 156,
+                    "subject": "Beta Review"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Grocery_Recommendation/Grocery_Recommendation_PY_SQL.ipynb",
+                    "label": "Python-SQL Version"
+                }
+            ]
+        },
+        {
             "id": 67,
             "demo": "Heart Failure Prediction",
             "description": "Machine learning is applied to the complex attributes of patients to help recognize patterns that may lead to heart failure faster than a human may recognize.",
@@ -1430,6 +1440,32 @@
                     "type": "notebook",
                     "url": "UseCases/Hyper_Personalization/Hyper_Personalization_PY_SQL.ipynb",
                     "label": "Python-SQL Version"
+                }
+            ]
+        },
+        {
+            "id": 155,
+            "demo": "Hyperparameter tuning *Beta*",
+            "description": "Create a predictive algorithm that can identify whethr or not passengers on the Titanic survived the ship's sinking.",
+            "subjects": [
+                {
+                    "id": 155,
+                    "subject": "Python"
+                },
+                {
+                    "id": 155,
+                    "subject": "Machine learning"
+                },
+                {
+                    "id": 155,
+                    "subject": "Beta Review"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/TitanicSurvival_HyperParameter/Predict_TitanSurvival_Hyperparameter_Tuning_Python.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -1534,11 +1570,11 @@
             "subjects": [
                 {
                     "id": 73,
-                    "subject": "Retail"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 73,
-                    "subject": "Machine learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 73,
@@ -1723,11 +1759,11 @@
             "subjects": [
                 {
                     "id": 130,
-                    "subject": "Marketing"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 130,
-                    "subject": "Machine learning"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 130,
@@ -1758,11 +1794,11 @@
             "subjects": [
                 {
                     "id": 131,
-                    "subject": "Retail"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 131,
-                    "subject": "Marketing"
+                    "subject": "Retail"
                 },
                 {
                     "id": 131,
@@ -1787,44 +1823,17 @@
             ]
         },
         {
-            "id": 112,
-            "demo": "MultiTouch Attribution",
-            "description": "Shows rule-based, Statistics, and Algorithmic attribution of the marketing touchpoints leading to conversion. Ten approaches will be demonstrated along with path analysis of effectiveness and cost of conversion.",
-            "subjects": [
-                {
-                    "id": 112,
-                    "subject": "Path Analytics"
-                },
-                {
-                    "id": 112,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/22c90d88c3780201600318de56341f07aa4a6e3f/UseCases/MultiTouch_Attribution/Pop_MultiTouch_Attribution_PY_SQL.ipynb",
-                    "label": "Read Only Python-SQL"
-                },
-                {
-                    "type": "notebook",
-                    "url": "UseCases/MultiTouch_Attribution/MultiTouch_Attribution_PY_SQL.ipynb",
-                    "label": "Python-SQL Version"
-                }
-            ]
-        },
-        {
             "id": 26,
             "demo": "NYC Taxi Geospatial",
             "description": "Applies geospatial functions to analysis of NYC Taxi pickups and drop off locations.",
             "subjects": [
                 {
                     "id": 26,
-                    "subject": "Geospatial"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 26,
-                    "subject": "Travel & Transportation"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 26,
@@ -2030,11 +2039,11 @@
             "subjects": [
                 {
                     "id": 113,
-                    "subject": "Travel & Transportation"
+                    "subject": "Manufacturing"
                 },
                 {
                     "id": 113,
-                    "subject": "Manufacturing"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 113,
@@ -2086,37 +2095,6 @@
                     "type": "notebook",
                     "url": "UseCases/Retail_Demand_Forecasting/Retail_Demand_Forecasting_Python.ipynb",
                     "label": "Python Version"
-                }
-            ]
-        },
-        {
-            "id": 132,
-            "demo": "Retail Item Demand Forecast",
-            "description": "Predicts demand for retail products showing how multiple models can be run concurrently.",
-            "subjects": [
-                {
-                    "id": 132,
-                    "subject": "Machine learning"
-                },
-                {
-                    "id": 132,
-                    "subject": "Retail"
-                },
-                {
-                    "id": 132,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/22c90d88c3780201600318de56341f07aa4a6e3f/UseCases/Retail_Demand_Forecasting/Pop_Retail_Demand_Forecasting_Python.ipynb",
-                    "label": "Read Only Python-SQL"
-                },
-                {
-                    "type": "notebook",
-                    "url": "UseCases/Retail_Demand_Forecasting/Retail_Demand_Forecasting_Python.ipynb",
-                    "label": "Python-SQL Version"
                 }
             ]
         },
@@ -2196,11 +2174,11 @@
                 },
                 {
                     "id": 149,
-                    "subject": "Machine learning"
+                    "subject": "Python"
                 },
                 {
                     "id": 149,
-                    "subject": "Python"
+                    "subject": "Machine learning"
                 }
             ],
             "links": [
@@ -2258,17 +2236,43 @@
             ]
         },
         {
+            "id": 157,
+            "demo": "Signal Processing and Classification *Beta*",
+            "description": "Use the Unbounded Array Framework in ClearScape Analytics to classify sonar signals. Extract and engineer features to use in training and scoring our models.",
+            "subjects": [
+                {
+                    "id": 157,
+                    "subject": "Python"
+                },
+                {
+                    "id": 157,
+                    "subject": "Unbounded Array Framework"
+                },
+                {
+                    "id": 157,
+                    "subject": "Beta Review"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Signal_Processing_and_Classification/Signal_Processing_and_Classification_Python.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 134,
             "demo": "Store Sales Forecast via ARIMA",
             "description": "Forecasts total store sales using ARIMA (AutoRegressive Integrated Moving Average)",
             "subjects": [
                 {
                     "id": 134,
-                    "subject": "Marketing"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 134,
-                    "subject": "Machine learning"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 134,
@@ -2330,15 +2334,15 @@
             "subjects": [
                 {
                     "id": 150,
-                    "subject": "Time series analytics"
-                },
-                {
-                    "id": 150,
                     "subject": "Travel & Transportation"
                 },
                 {
                     "id": 150,
                     "subject": "Geospatial"
+                },
+                {
+                    "id": 150,
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 150,
@@ -2451,7 +2455,7 @@
                 },
                 {
                     "type": "notebook",
-                    "url": "UseCases/Telco_Network_Coverage/Telco_Network_Coverage_PY_SQL.ipynb",
+                    "url": "UseCases/Telco_Network_Coverage/Telco_Network_Coverage_Python.ipynb",
                     "label": "Python-SQL Version"
                 }
             ]
@@ -2495,14 +2499,14 @@
                     "label": "Read Only Python"
                 },
                 {
-                    "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/22c90d88c3780201600318de56341f07aa4a6e3f/UseCases/Text_Term_Frequency/Pop_Text_Term_Frequency_SQL.ipynb",
-                    "label": "Read Only SQL"
-                },
-                {
                     "type": "notebook",
                     "url": "UseCases/Text_Term_Frequency/Text_Term_Frequency_SQL.ipynb",
                     "label": "SQL Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/22c90d88c3780201600318de56341f07aa4a6e3f/UseCases/Text_Term_Frequency/Pop_Text_Term_Frequency_SQL.ipynb",
+                    "label": "Read Only SQL"
                 },
                 {
                     "type": "nbviewer",
@@ -2522,11 +2526,11 @@
                 },
                 {
                     "id": 105,
-                    "subject": "Path Analytics"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 105,
-                    "subject": "Machine learning"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 105,
@@ -2547,6 +2551,28 @@
             ]
         },
         {
+            "id": 158,
+            "demo": "Using ClearScape Analytics with openAI *Beta*",
+            "description": "To ensure optimal utilization of the OpenAI API in generative AI notebooks, it is essential to establish the API keys correctly. This concise guide outlines the process of configuring OpenAI API keys for seamless integration across multiple notebooks.",
+            "subjects": [
+                {
+                    "id": 158,
+                    "subject": "Developer Information"
+                },
+                {
+                    "id": 158,
+                    "subject": "Beta Review"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Openai_setup_api_key/Openai_setup_api_key.md",
+                    "label": "Information"
+                }
+            ]
+        },
+        {
             "id": 21,
             "demo": "VAL Analytics and ML",
             "description": "Demonstration of Vantage Analytic Library scoring and analytic functions like linear regression, decision trees, K-Means clustering, Factor Analysis, etc.",
@@ -2562,14 +2588,14 @@
             ],
             "links": [
                 {
-                    "type": "notebook",
-                    "url": "UseCases/Vantage_Analytics_Library/VAL_Analytics_and_ML_SQL.ipynb",
-                    "label": "SQL Version"
-                },
-                {
                     "type": "nbviewer",
                     "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/22c90d88c3780201600318de56341f07aa4a6e3f/UseCases/Vantage_Analytics_Library/Pop_VAL_Analytics_and_ML_SQL.ipynb",
                     "label": "Read Only SQL"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Vantage_Analytics_Library/VAL_Analytics_and_ML_SQL.ipynb",
+                    "label": "SQL Version"
                 }
             ]
         },

@@ -65,6 +65,10 @@
                 {
                     "subjseq": 2,
                     "subject": "Marketing"
+                },
+                {
+                    "subjseq": 3,
+                    "subject": "Beta Review"
                 }
             ]
         },
@@ -122,6 +126,10 @@
                 {
                     "subjseq": 13,
                     "subject": "Time series analytics"
+                },
+                {
+                    "subjseq": 14,
+                    "subject": "Unbounded Array Framework"
                 }
             ]
         },
@@ -174,7 +182,11 @@
                 },
                 {
                     "subjseq": 12,
-                    "subject": "Vertex"
+                    "subject": "Vertex AI"
+                },
+                {
+                    "subjseq": 13,
+                    "subject": "AWS Bedrock"
                 }
             ]
         },
