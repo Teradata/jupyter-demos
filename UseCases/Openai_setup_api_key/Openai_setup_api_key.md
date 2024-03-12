@@ -24,6 +24,29 @@ jupyter:
     </p>
 </header>
 
+<p style = 'font-size:20px;font-family:Arial;color:#00233C'><b>This is a Beta Release of this notebook!</b></p>
+This should be considered a Beta Release.  Every effort has been made to ensure it's functionality and completeness.  If you discover any issue with any part of this notebook, your suggestions will be reviewed and, if approved, merged in the next round of notebook commits.
+<br>
+<p style = 'font-size:20px;font-family:Arial;color:#00233C'><b>How to submit a Review of this Notebook</b></p>
+<p style = 'font-size:16px;font-family:Arial;color:#00233C'>
+First, please read through and execute the notebook.
+<br>If you think the notebook is fine as it is, great.  Please send us a quick email and let us know. When the notebook is taken out of beta, this paragraph will be removed and the Beta designation the index page will be removed.
+<br>If you find something that you question or you think needs to be changed or if you think it's great as it is:
+</p>    
+<ol style = 'font-size:16px;font-family:Arial;color:#00233C'>
+  <li>Send us an email: <a href="mailto:ClearScapeAnalyticsNotebookReviews@Teradata.com?subject=Beta Notebook Review">Click here.</a></li>
+  <li>Please include the name of the notebook in email.</li>
+  <li>Include a screen shot or a clear description of the section in the notebook you would like us to look at.</li>
+  <li>Paste the screen shot or enter the description of the section into the email.</li>
+  <li>Describe how you would change it.</li>
+  <li>Send It!</li>
+</ol>
+</p>
+<p style = 'font-size:16px;font-family:Arial;color:#00233C'>If we have any follow-up questions, we'll reach out to you at the return email address. </p>
+
+<hr style="height:2px;border:none;background-color:#00233C;">    
+    
+
 <p style = 'font-size:20px;font-family:Arial;color:#00233C'><b>Introduction:</b></p>
 </div>
 
