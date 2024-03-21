@@ -8,3 +8,4 @@ panel
 boto3
 awscli
 yellowbrick
+langchain-community
