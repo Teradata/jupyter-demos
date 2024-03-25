@@ -1,0 +1,11 @@
+sentence-transformers
+FlagEmbedding
+fastparquet
+langchain 
+faiss-cpu
+tiktoken
+panel
+boto3
+awscli
+yellowbrick
+langchain-community
