@@ -12,11 +12,11 @@
                 },
                 {
                     "id": 2,
-                    "subject": "Travel & Transportation"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 2,
-                    "subject": "Geospatial"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 2,
@@ -28,11 +28,6 @@
                 }
             ],
             "links": [
-                {
-                    "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/e7ba5f12d9d0543d732c5b7c5f09b08955f9cc51/UseCases/4D_Analytics_on_bike_sharing/Pop_4D_Analytics_on_bike_sharing_PY_SQL.ipynb",
-                    "label": "Read Only Python-SQL"
-                },
                 {
                     "type": "notebook",
                     "url": "UseCases/4D_Analytics_on_bike_sharing/4D_Analytics_on_bike_sharing_PY_SQL.ipynb",
@@ -194,15 +189,15 @@
             "subjects": [
                 {
                     "id": 58,
+                    "subject": "Object Storage"
+                },
+                {
+                    "id": 58,
                     "subject": "Manufacturing"
                 },
                 {
                     "id": 58,
                     "subject": "Automotive"
-                },
-                {
-                    "id": 58,
-                    "subject": "Object Storage"
                 },
                 {
                     "id": 58,
@@ -229,11 +224,11 @@
             "subjects": [
                 {
                     "id": 82,
-                    "subject": "Retail"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 82,
-                    "subject": "Path Analytics"
+                    "subject": "Retail"
                 },
                 {
                     "id": 82,
@@ -441,7 +436,7 @@
             "links": [
                 {
                     "type": "notebook",
-                    "url": "UserCases/Chat_wth_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb",
+                    "url": "UseCases/Chat_wth_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb",
                     "label": "Python Version"
                 },
                 {
@@ -466,11 +461,11 @@
                 },
                 {
                     "id": 136,
-                    "subject": "Marketing"
+                    "subject": "Retail"
                 },
                 {
                     "id": 136,
-                    "subject": "Retail"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 136,
@@ -497,11 +492,11 @@
             "subjects": [
                 {
                     "id": 7,
-                    "subject": "Time series analytics"
+                    "subject": "Financial"
                 },
                 {
                     "id": 7,
-                    "subject": "Financial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 7,
@@ -712,7 +707,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/e7ba5f12d9d0543d732c5b7c5f09b08955f9cc51/Getting_Started/Data_Loading/Pop_Data_Loading_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/e7ba5f12d9d0543d732c5b7c5f09b08955f9cc51/Getting_Started/Data_Loading/Pop_Data_Loading_Python.ipynb",
                     "label": "Read Only Python-SQL"
                 }
             ]
@@ -738,8 +733,8 @@
                     "label": "SQL Version"
                 },
                 {
-                    "type": "notebook",
-                    "url": "Getting_Started/Data_Loading/Pop_Data_Loading_Python.ipynb",
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/e7ba5f12d9d0543d732c5b7c5f09b08955f9cc51/Getting_Started/Data_Loading/Pop_Data_Loading_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -831,11 +826,6 @@
                     "type": "notebook",
                     "url": "UseCases/Dataiku/Dataiku.ipynb",
                     "label": "Information"
-                },
-                {
-                    "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/e7ba5f12d9d0543d732c5b7c5f09b08955f9cc51/UseCases/Dataiku/Pop_Dataiku.ipynb",
-                    "label": "Read Only SQL"
                 }
             ]
         },
@@ -1630,11 +1620,11 @@
             "subjects": [
                 {
                     "id": 73,
-                    "subject": "Retail"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 73,
-                    "subject": "Machine learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 73,
@@ -1819,7 +1809,7 @@
             "subjects": [
                 {
                     "id": 130,
-                    "subject": "Machine learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 130,
@@ -1827,7 +1817,7 @@
                 },
                 {
                     "id": 130,
-                    "subject": "Retail"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 130,
@@ -1854,7 +1844,7 @@
             "subjects": [
                 {
                     "id": 131,
-                    "subject": "Machine learning"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 131,
@@ -1862,7 +1852,7 @@
                 },
                 {
                     "id": 131,
-                    "subject": "Marketing"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 131,
@@ -2234,11 +2224,11 @@
                 },
                 {
                     "id": 149,
-                    "subject": "Python"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 149,
-                    "subject": "Machine learning"
+                    "subject": "Python"
                 }
             ],
             "links": [
@@ -2271,11 +2261,11 @@
             "subjects": [
                 {
                     "id": 29,
-                    "subject": "Geospatial"
+                    "subject": "Object Storage"
                 },
                 {
                     "id": 29,
-                    "subject": "Object Storage"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 29,
@@ -2367,11 +2357,11 @@
             "subjects": [
                 {
                     "id": 133,
-                    "subject": "Retail"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 133,
-                    "subject": "Machine learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 133,
@@ -2402,11 +2392,11 @@
                 },
                 {
                     "id": 150,
-                    "subject": "Time series analytics"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 150,
-                    "subject": "Geospatial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 150,
@@ -2482,14 +2472,14 @@
                     "label": "Read Only Python-SQL"
                 },
                 {
+                    "type": "notebook",
+                    "url": "UseCases/Telco_Customer_Churn/Telco_Customer_Churn_Python.ipynb",
+                    "label": "Python Version"
+                },
+                {
                     "type": "Web",
                     "url": "https://storage.googleapis.com/clearscape_analytics_videos/ClearScape%20Analytics%20Experience%20-%20Telco%20Customer%20Churn%20Use%20Case%20Demo%20-%20External%20-%20SP004520.MP4",
                     "label": "Video"
-                },
-                {
-                    "type": "notebook",
-                    "url": "UseCases/Telco_Customer_Churn/Telco_Customer_Churn_PY_SQL.ipynb",
-                    "label": "Python-SQL Version"
                 }
             ]
         },
@@ -2500,11 +2490,11 @@
             "subjects": [
                 {
                     "id": 48,
-                    "subject": "Geospatial"
+                    "subject": "Telco"
                 },
                 {
                     "id": 48,
-                    "subject": "Telco"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 48,
@@ -2590,11 +2580,11 @@
                 },
                 {
                     "id": 105,
-                    "subject": "Path Analytics"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 105,
-                    "subject": "Machine learning"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 105,
@@ -2740,11 +2730,6 @@
                     "type": "notebook",
                     "url": "UseCases/Vantage_Analytics_Library/VAL_Overview_SQL.ipynb",
                     "label": "SQL Version"
-                },
-                {
-                    "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/e7ba5f12d9d0543d732c5b7c5f09b08955f9cc51/UseCases/Vantage_Analytics_Library/Pop_VAL_Overview_SQL.ipynb",
-                    "label": "Read Only SQL"
                 }
             ]
         },
