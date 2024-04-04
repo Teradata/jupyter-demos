@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PMML xmlns="http://www.dmg.org/PMML-4_4" xmlns:data="http://jpmml.org/jpmml-model/InlineTable" version="4.4">
+	<Header>
+		<Application name="SkLearn2PMML package" version="0.91.0"/>
+		<Timestamp>2024-04-03T10:32:12Z</Timestamp>
+	</Header>
+	<MiningBuildTask>
+		<Extension name="repr">PMMLPipeline(steps=[('classifier', LogisticRegression())])</Extension>
+	</MiningBuildTask>
+	<DataDictionary>
+		<DataField name="isFraud" optype="categorical" dataType="integer">
+			<Value value="0"/>
+			<Value value="1"/>
+		</DataField>
+		<DataField name="step" optype="continuous" dataType="double"/>
+		<DataField name="amount" optype="continuous" dataType="double"/>
+		<DataField name="newbalanceOrig" optype="continuous" dataType="double"/>
+		<DataField name="oldbalanceDest" optype="continuous" dataType="double"/>
+		<DataField name="newbalanceDest" optype="continuous" dataType="double"/>
+		<DataField name="oldbalanceOrig" optype="continuous" dataType="double"/>
+	</DataDictionary>
+	<RegressionModel functionName="classification" algorithmName="sklearn.linear_model._logistic.LogisticRegression" normalizationMethod="logit">
+		<MiningSchema>
+			<MiningField name="isFraud" usageType="target"/>
+			<MiningField name="step"/>
+			<MiningField name="amount"/>
+			<MiningField name="newbalanceOrig"/>
+			<MiningField name="oldbalanceDest"/>
+			<MiningField name="newbalanceDest"/>
+			<MiningField name="oldbalanceOrig"/>
+		</MiningSchema>
+		<Output>
+			<OutputField name="probability(0)" optype="continuous" dataType="double" feature="probability" value="0"/>
+			<OutputField name="probability(1)" optype="continuous" dataType="double" feature="probability" value="1"/>
+		</Output>
+		<RegressionTable intercept="-4.132503373244167E-5" targetCategory="1">
+			<NumericPredictor name="step" coefficient="-0.009633269188335286"/>
+			<NumericPredictor name="amount" coefficient="-0.23620267482201934"/>
+			<NumericPredictor name="newbalanceOrig" coefficient="-0.23622119123361096"/>
+			<NumericPredictor name="oldbalanceDest" coefficient="9.671565735103205E-6"/>
+			<NumericPredictor name="newbalanceDest" coefficient="-1.1491164077655648E-5"/>
+			<NumericPredictor name="oldbalanceOrig" coefficient="0.23621715572748614"/>
+		</RegressionTable>
+		<RegressionTable intercept="0.0" targetCategory="0"/>
+	</RegressionModel>
+</PMML>
