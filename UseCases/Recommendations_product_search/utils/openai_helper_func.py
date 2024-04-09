@@ -5,7 +5,7 @@ import pandas as pd
 # open AI
 import openai
 
-embedding_model = "text-embedding-ada-002"
+embedding_model = "text-embedding-3-small"
 
 def get_embeddings(tdf):
     
