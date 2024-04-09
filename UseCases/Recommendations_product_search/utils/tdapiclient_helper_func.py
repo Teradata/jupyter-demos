@@ -1,6 +1,6 @@
 from tdapiclient import TDApiClient, create_tdapi_context
 
-# set emb model from openai models
+# set embedding model from openai models
 embedding_model = "text-embedding-3-small"
 
 def generate_embeddings_tdapiclient(tdf, api_key, text_column):
