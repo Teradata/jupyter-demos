@@ -86,7 +86,7 @@ def plot_account_data(df, acc_id):
         yaxis=dict(title='Monthly Balance'),
         hovermode='closest',
         height = 800,
-        width  = 1200
+        width  = 1000
     )
 
     # Creating figure
