@@ -2,7 +2,7 @@
 <PMML xmlns="http://www.dmg.org/PMML-4_4" xmlns:data="http://jpmml.org/jpmml-model/InlineTable" version="4.4">
 	<Header>
 		<Application name="SkLearn2PMML package" version="0.91.0"/>
-		<Timestamp>2024-02-12T03:31:59Z</Timestamp>
+		<Timestamp>2024-04-02T08:33:46Z</Timestamp>
 	</Header>
 	<MiningBuildTask>
 		<Extension name="repr">PMMLPipeline(steps=[('lr', LinearRegression())])</Extension>
