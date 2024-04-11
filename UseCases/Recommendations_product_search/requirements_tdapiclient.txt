@@ -1,0 +1,6 @@
+openai
+fastparquet
+tdapiclient
+google-cloud-aiplatform
+pyopenssl 
+cryptography
