@@ -9,3 +9,5 @@ boto3
 awscli
 yellowbrick
 langchain-community
+pyopenssl 
+cryptography
