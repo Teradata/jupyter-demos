@@ -1,0 +1,6 @@
+CustomerID,FirstName,LastName,DateOfBirth,Gender,Address,City,State,Country,Email,PhoneNumber,AccountNumber,AccountType,Balance,BranchID,AccountStatus,CreditScore,Income
+1001, John, Doe, 1990-04-15, M, 123 Main St, Anytown, CA, USA, john.doe@example.com, 123-456-7890, ACCT123456, Savings, 120000.00, 1, Active, 720, 600000.00
+1002, Jane, Smith, 1985-09-22, F, 456 Elm St, Othertown, NY, USA, jane.smith@example.com, 987-654-3210, ACCT987654, Checking, 135000.50, 2, Active, 680, 550000.00
+1003, Mike, Johnson, 1992-12-05, M, 789 Oak St, Somewhere, TX, USA, mike.johnson@example.com, 555-123-7890, ACCT555123, Savings, 210000.75, 1, Active, 750, 750000.00
+1004, Sarah, Wilson, 1980-07-10, F, 101 Pine St, Anothercity, FL, USA, sarah.wilson@example.com, 321-555-9876, ACCT321555, Checking, 290000.25, 3, Active, 800, 450000.00
+1005, David, Lee, 1978-03-30, M, 222 Birch St, Yetanothercity, GA, USA, david.lee@example.com, 111-222-3333, ACCT111222, Savings, 105000.30, 2, Active, 700, 320000.00
