@@ -2,7 +2,7 @@
 <PMML xmlns="http://www.dmg.org/PMML-4_4" xmlns:data="http://jpmml.org/jpmml-model/InlineTable" version="4.4">
 	<Header>
 		<Application name="SkLearn2PMML package" version="0.91.0"/>
-		<Timestamp>2024-04-02T09:14:08Z</Timestamp>
+		<Timestamp>2024-04-17T07:15:13Z</Timestamp>
 	</Header>
 	<MiningBuildTask>
 		<Extension name="repr">PMMLPipeline(steps=[('classifier', LogisticRegression())])</Extension>
@@ -33,13 +33,13 @@
 			<OutputField name="probability(0)" optype="continuous" dataType="double" feature="probability" value="0"/>
 			<OutputField name="probability(1)" optype="continuous" dataType="double" feature="probability" value="1"/>
 		</Output>
-		<RegressionTable intercept="-4.132503373244167E-5" targetCategory="1">
-			<NumericPredictor name="step" coefficient="-0.009633269188335286"/>
-			<NumericPredictor name="amount" coefficient="-0.23620267482201934"/>
-			<NumericPredictor name="newbalanceOrig" coefficient="-0.23622119123361096"/>
-			<NumericPredictor name="oldbalanceDest" coefficient="9.671565735103205E-6"/>
-			<NumericPredictor name="newbalanceDest" coefficient="-1.1491164077655648E-5"/>
-			<NumericPredictor name="oldbalanceOrig" coefficient="0.23621715572748614"/>
+		<RegressionTable intercept="-7.338990610444427" targetCategory="1">
+			<NumericPredictor name="step" coefficient="0.7992992742716559"/>
+			<NumericPredictor name="amount" coefficient="0.5490686922667238"/>
+			<NumericPredictor name="newbalanceOrig" coefficient="-5.4363385478951765"/>
+			<NumericPredictor name="oldbalanceDest" coefficient="0.9511882682065849"/>
+			<NumericPredictor name="newbalanceDest" coefficient="-1.7532997916891857"/>
+			<NumericPredictor name="oldbalanceOrig" coefficient="4.809495951148631"/>
 		</RegressionTable>
 		<RegressionTable intercept="0.0" targetCategory="0"/>
 	</RegressionModel>
