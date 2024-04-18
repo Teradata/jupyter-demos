@@ -212,6 +212,27 @@
             ]
         },
         {
+            "category": "Solution Accelerator",
+            "subjects": [
+                {
+                    "subjseq": 1,
+                    "subject": "Anomaly Detection"
+                },
+                {
+                    "subjseq": 2,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "subjseq": 3,
+                    "subject": "Enterprise Feature Store"
+                },
+                {
+                    "subjseq": 4,
+                    "subject": "Model Factory"
+                }
+            ]
+        },
+        {
             "category": "Other",
             "subjects": [
                 {
