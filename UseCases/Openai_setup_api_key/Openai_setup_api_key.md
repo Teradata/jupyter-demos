@@ -25,7 +25,6 @@ jupyter:
 </header>
 
 <p style = 'font-size:20px;font-family:Arial;color:#00233C'><b>This is a Beta Release of this notebook!</b></p>
-<p style = 'font-size:16px;font-family:Arial;color:#00233C'>
 This should be considered a Beta Release.  Every effort has been made to ensure it's functionality and completeness.  If you discover any issue with any part of this notebook, your suggestions will be reviewed and, if approved, merged in the next round of notebook commits.
 <br>
 <p style = 'font-size:20px;font-family:Arial;color:#00233C'><b>How to submit a Review of this Notebook</b></p>
@@ -47,6 +46,7 @@ First, please read through and execute the notebook.
 
 <hr style="height:2px;border:none;background-color:#00233C;">    
     
+
 <p style = 'font-size:20px;font-family:Arial;color:#00233C'><b>Introduction:</b></p>
 </div>
 
