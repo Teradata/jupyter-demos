@@ -6,7 +6,7 @@
    </p>
 </header>
 
-<!-- Tile 6 -->
+<!-- Tile 1 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Customer 360</h2>
     <img src="./images/customer360.png" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Customer 360" />
@@ -18,7 +18,7 @@
     </div>
 </div>
 
-<!-- New Top Tile -->
+<!-- Tile 2 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Speech Analysis</h2>
     <img src="./images/voice-note.jpg" alt="Speech Recognition" style="width: 100%; height: auto; margin-bottom: 10px;" />
@@ -30,7 +30,7 @@
     </div>
 </div>
 
-<!-- Tile 1 -->
+<!-- Tile 3 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Sentiment Analysis</h2>
     <img src="./images/sentiment.png" alt="Sentiment Analysis Bedrock" style="width: 100%; height: auto; margin-bottom: 10px;" />
@@ -42,7 +42,7 @@
     </div>
 </div>
 
-<!-- Tile 3 -->
+<!-- Tile 4 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Complaints Clustering</h2>
     <img src="./images/clustering.png" alt="Complaints Clustering" style="width: 100%; height: auto; margin-bottom: 10px;" />
@@ -54,7 +54,7 @@
     </div>
 </div>
 
-<!-- Tile 2 -->
+<!-- Tile 5 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Complaints Classification</h2>
     <img src="./images/classification.png" alt="Complaints Classification" style="width: 100%; height: auto; margin-bottom: 10px;" />
@@ -66,7 +66,7 @@
     </div>
 </div>
 
-<!-- Tile 4 -->
+<!-- Tile 6 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Complaints Summarization</h2>
     <img src="./images/summarization.png" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Complaints Summarization" />
@@ -78,7 +78,7 @@
     </div>
 </div>
 
-<!-- Tile 5 -->
+<!-- Tile 7 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Topic Modelling</h2>
     <img src="./images/topics.png" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Topic Modelling" />
