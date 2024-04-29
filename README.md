@@ -36,7 +36,7 @@ If you have questions or issues, [**click here**](mailto:SC230208@teradata.com?s
 | | | |<a href='#xOpen-and-connected-analytics'>Open-and-connected analytics</a>|<a href='#xSAS'>SAS</a>| | | |
 | | | |<a href='#xPath-Analytics'>Path Analytics</a>|*Tableau*| | | |
 | | | |<a href='#xText-Analysis'>Text Analysis</a>|*Vertex AI*| | | |
-| | | |<a href='#xTime-series-analytics'>Time series analytics</a>|*AWS Bedrock*| | | |
+| | | |<a href='#xTime-series-analytics'>Time series analytics</a>|<a href='#xAWS-Bedrock'>AWS Bedrock</a>| | | |
 
 
 
@@ -278,7 +278,11 @@ This uses the ClearScape Analytics nPath® function to provide visuals on the ev
 
 #### Parkinson's Disease Prediction
 This uses analytics to determine which biomedical voice measurements are significant in identifying people potentially with Parkinson's<br>
-[Python-SQL Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_PY_SQL.ipynb)
+[Python-SQL Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_PY_SQL.ipynb) &ensp; [](.//)
+
+#### Cancer Prediction using the TDAPIClient and VertexAI *Beta*
+Use TDAPIClient to connect to the Google Cloud Vertex API Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker. Deploy the solution's ML model.<br>
+[Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_VertexAI_CustomModel.ipynb)
 
 #### Cancer Prediction using Teradata and the SageMaker API *Beta*
 Use the Vantage SageMaker API feature to connect to an Amazon Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker.  Deploy the solution's ML model.<br>
@@ -390,7 +394,11 @@ Uses the Script Table Operator (STO) to run the H20 machine learning library as 
 
 #### Text Term Frequency
 Use NGram splitter to analyze comments  retail products to determine patterns of words used to describe products.<br>
-[Python Version](./UseCases/Text_Term_Frequency/Text_Term_Frequency_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Text_Term_Frequency/Text_Term_Frequency_PY_SQL.ipynb) &ensp; [SQL Version](./UseCases/Text_Term_Frequency/Text_Term_Frequency_SQL.ipynb)
+[Python Version](./UseCases/Text_Term_Frequency/Text_Term_Frequency_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Text_Term_Frequency/Text_Term_Frequency_PY_SQL.ipynb) &ensp; [SQL Version](./UseCases/Text_Term_Frequency/Text_Term_Frequency_SQL.ipynb) &ensp; [](.//)
+
+#### Product Recommendation via AWS Bedrock *Beta*
+Use AWS Bedrock, Embedding from HuggingFace and Vantage in-DB functions to assist in providing product recommendations to develop a recipe assistant chatbot.<br>
+[Python Version](./UseCases/Chat_Powered_Product_Recommendation/Chat_powered_product_recommendation_based_on_search_output.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xTelco'></a>
@@ -573,6 +581,10 @@ Uses OpenAIEmbeddings and Vantage in-database function to assists consumers in r
 #### Grocery Recommendations using GenAI *Beta*
 Use context-based product recommendations powered by GenAI Large Language Models to enhance a shopping experience.<br>
 [Python-SQL Version](./UseCases/Grocery_Recommendation/Grocery_Recommendation_PY_SQL.ipynb)
+
+#### Product Recommendation via AWS Bedrock *Beta*
+Use AWS Bedrock, Embedding from HuggingFace and Vantage in-DB functions to assist in providing product recommendations to develop a recipe assistant chatbot.<br>
+[Python Version](./UseCases/Chat_Powered_Product_Recommendation/Chat_powered_product_recommendation_based_on_search_output.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xGeospatial'></a>
@@ -757,6 +769,10 @@ Demonstration of Vantage Analytic Library scoring and analytic functions like li
 #### Hyperparameter Tuning using the Titanic Passenger Dataset *Beta*
 Create a predictive algorithm that can identify whethr or not passengers on the Titanic survived the ship's sinking.<br>
 [Python Version](./UseCases/TitanicSurvival_HyperParameter/Predict_TitanicSurvival_Hyperparameter_Tuning_Python.ipynb)
+
+#### Cancer Prediction using the TDAPIClient and VertexAI *Beta*
+Use TDAPIClient to connect to the Google Cloud Vertex API Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker. Deploy the solution's ML model.<br>
+[Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_VertexAI_CustomModel.ipynb)
 
 #### Cancer Prediction using Teradata and the SageMaker API *Beta*
 Use the Vantage SageMaker API feature to connect to an Amazon Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker.  Deploy the solution's ML model.<br>
@@ -990,6 +1006,10 @@ Use the Unbounded Array Framework in ClearScape Analytics to classify sonar sign
 <a id='xPrediction-Analysis'></a>
 ### Prediction Analysis
 
+#### Cancer Prediction using the TDAPIClient and VertexAI *Beta*
+Use TDAPIClient to connect to the Google Cloud Vertex API Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker. Deploy the solution's ML model.<br>
+[Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_VertexAI_CustomModel.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
 ---
@@ -1054,6 +1074,14 @@ Uses the gbm R package to generate both R model formats and operationalize throu
 #### Sales Forecasting with Vantage vs SAS
 This demo walks through how a typical SAS user would use sales data to build a simple sales forecasting model and then will showcase how we can achieve the same using Vantage ClearScape Analytics.<br>
 [Python-SQL Version](./UseCases/SalesForecast_SAS_Vantage/Sales_Forecasting_SAS_Vantage_PY_SQL.ipynb) &ensp; [SQL Version](./UseCases/SalesForecast_SAS_Vantage/Sales_Forecasting_SAS_Vantage_SQL.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xAWS-Bedrock'></a>
+### AWS Bedrock
+
+#### Product Recommendation via AWS Bedrock *Beta*
+Use AWS Bedrock, Embedding from HuggingFace and Vantage in-DB functions to assist in providing product recommendations to develop a recipe assistant chatbot.<br>
+[Python Version](./UseCases/Chat_Powered_Product_Recommendation/Chat_powered_product_recommendation_based_on_search_output.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
@@ -1127,6 +1155,14 @@ Create a predictive algorithm that can identify whethr or not passengers on the 
 #### Signal Processing and Classification *Beta*
 Use the Unbounded Array Framework in ClearScape Analytics to classify sonar signals. Extract and engineer features to use in training and scoring our models.<br>
 [Python Version](./UseCases/Signal_Processing_and_Classification/Signal_Processing_and_Classification_Python.ipynb)
+
+#### Cancer Prediction using the TDAPIClient and VertexAI *Beta*
+Use TDAPIClient to connect to the Google Cloud Vertex API Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker. Deploy the solution's ML model.<br>
+[Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_VertexAI_CustomModel.ipynb)
+
+#### Product Recommendation via AWS Bedrock *Beta*
+Use AWS Bedrock, Embedding from HuggingFace and Vantage in-DB functions to assist in providing product recommendations to develop a recipe assistant chatbot.<br>
+[Python Version](./UseCases/Chat_Powered_Product_Recommendation/Chat_powered_product_recommendation_based_on_search_output.ipynb)
 
 #### 01 ModelOps Getting Started
 This introduces the ModelOps methodology, provides an overview video, and a description of navigating the projects, models, and datasets plus a description of monitoring capabilities.<br>
@@ -1521,6 +1557,14 @@ Analysis of sessions and queries  you executed using the built-in logging facili
 <a id='xAnomaly-Detection'></a>
 ### Anomaly Detection
 
+#### Anomaly Detection of Outstanding Amounts *Beta*
+Anomaly detection in bank accounts can help in identifying unusual patterns, potentially flagging issues like errors or fraudulent activities.  Enterprise re-use of Features ensures rapid creation & deployment of models while new Features can be created and used without extensive engineering support.<br>
+[Python Version](./UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb)
+
+#### Anomaly Detection
+Evaluates potential failures in spot welds based on voltage anomalies during the welding process.<br>
+[Python-SQL Version](./UseCases/Anomaly_Detection/Anomaly_Detection_PY_SQL.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/ClearScape%20Analytics%20Experience%20-%20Anomaly%20Detection%20Use%20Case%20Demo%20-%20External%20-%20SP004519.MP4)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xEnterprise-Feature-Store'></a>
 ### Enterprise Feature Store
@@ -1536,7 +1580,7 @@ Analysis of sessions and queries  you executed using the built-in logging facili
 
 #### Anomaly Detection of Outstanding Amounts *Beta*
 Anomaly detection in bank accounts can help in identifying unusual patterns, potentially flagging issues like errors or fraudulent activities.  Enterprise re-use of Features ensures rapid creation & deployment of models while new Features can be created and used without extensive engineering support.<br>
-[Python Version](./UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb) &ensp; [Python Version](./UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb) &ensp; [Python Version](./UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb)
+[Python Version](./UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb) &ensp; [Python Version](./UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb)
 
 #### Charting and Visualizations using teradataml *Beta*
 The td_plot method streamlines large-scale visualizations by providing users with efficient tools to create visualizations directly within the Vantage platform<br>
@@ -1577,6 +1621,14 @@ Use context-based product recommendations powered by GenAI Large Language Models
 #### Cancer Prediction using Teradata and the SageMaker API *Beta*
 Use the Vantage SageMaker API feature to connect to an Amazon Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker.  Deploy the solution's ML model.<br>
 [Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_Sagemaker.ipynb)
+
+#### Cancer Prediction using the TDAPIClient and VertexAI *Beta*
+Use TDAPIClient to connect to the Google Cloud Vertex API Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker. Deploy the solution's ML model.<br>
+[Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_VertexAI_CustomModel.ipynb)
+
+#### Product Recommendation via AWS Bedrock *Beta*
+Use AWS Bedrock, Embedding from HuggingFace and Vantage in-DB functions to assist in providing product recommendations to develop a recipe assistant chatbot.<br>
+[Python Version](./UseCases/Chat_Powered_Product_Recommendation/Chat_powered_product_recommendation_based_on_search_output.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 

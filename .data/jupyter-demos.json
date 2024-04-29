@@ -8,15 +8,15 @@
             "subjects": [
                 {
                     "id": 2,
-                    "subject": "Geospatial"
-                },
-                {
-                    "id": 2,
                     "subject": "Time series analytics"
                 },
                 {
                     "id": 2,
                     "subject": "Travel & Transportation"
+                },
+                {
+                    "id": 2,
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 2,
@@ -29,14 +29,14 @@
             ],
             "links": [
                 {
-                    "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/9fe6c5a18cb85998703538ac3c8dc98e40101f95/UseCases/4D_Analytics_on_bike_sharing/Pop_4D_Analytics_on_bike_sharing_PY_SQL.ipynb",
-                    "label": "Read Only Python-SQL"
-                },
-                {
                     "type": "notebook",
                     "url": "UseCases/4D_Analytics_on_bike_sharing/4D_Analytics_on_bike_sharing_PY_SQL.ipynb",
                     "label": "Python-SQL Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/9fe6c5a18cb85998703538ac3c8dc98e40101f95/UseCases/4D_Analytics_on_bike_sharing/Pop_4D_Analytics_on_bike_sharing_PY_SQL.ipynb",
+                    "label": "Read Only Python-SQL"
                 },
                 {
                     "type": "nbviewer",
@@ -89,6 +89,10 @@
                 {
                     "id": 106,
                     "subject": "Open-and-connected analytics"
+                },
+                {
+                    "id": 106,
+                    "subject": "Anomaly Detection"
                 },
                 {
                     "id": 106,
@@ -148,11 +152,11 @@
                 },
                 {
                     "id": 164,
-                    "subject": "Machine learning"
+                    "subject": "Enterprise Feature Store"
                 },
                 {
                     "id": 164,
-                    "subject": "Enterprise Feature Store"
+                    "subject": "Machine learning"
                 }
             ],
             "links": [
@@ -232,15 +236,15 @@
             "subjects": [
                 {
                     "id": 58,
-                    "subject": "Automotive"
-                },
-                {
-                    "id": 58,
                     "subject": "Manufacturing"
                 },
                 {
                     "id": 58,
                     "subject": "Object Storage"
+                },
+                {
+                    "id": 58,
+                    "subject": "Automotive"
                 },
                 {
                     "id": 58,
@@ -267,11 +271,11 @@
             "subjects": [
                 {
                     "id": 82,
-                    "subject": "Path Analytics"
+                    "subject": "Retail"
                 },
                 {
                     "id": 82,
-                    "subject": "Retail"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 82,
@@ -331,14 +335,44 @@
             ]
         },
         {
+            "id": 167,
+            "demo": "Cancer Prediction using the TDAPIClient and VertexAI *Beta*",
+            "description": "Use TDAPIClient to connect to the Google Cloud Vertex API Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker. Deploy the solution's ML model.",
+            "subjects": [
+                {
+                    "id": 167,
+                    "subject": "Healthcare"
+                },
+                {
+                    "id": 167,
+                    "subject": "Machine learning"
+                },
+                {
+                    "id": 167,
+                    "subject": "Prediction Analysis"
+                },
+                {
+                    "id": 167,
+                    "subject": "Python"
+                },
+                {
+                    "id": 167,
+                    "subject": "Beta Review"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_VertexAI_CustomModel.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 103,
             "demo": "Car Complaints",
             "description": "Uses geospatial techniques to locate service centers close to the complaint and outlier detection to detect part defects earlier than expected.",
             "subjects": [
-                {
-                    "id": 103,
-                    "subject": "Manufacturing"
-                },
                 {
                     "id": 103,
                     "subject": "Automotive"
@@ -346,6 +380,10 @@
                 {
                     "id": 103,
                     "subject": "Geospatial"
+                },
+                {
+                    "id": 103,
+                    "subject": "Manufacturing"
                 },
                 {
                     "id": 103,
@@ -586,6 +624,32 @@
             ]
         },
         {
+            "id": 147,
+            "demo": "Credit Card Data Preparation",
+            "description": "Uses functions from TeradataML Python library to prepare data for analysis using data cleansing, exploration and feature engineering functions.",
+            "subjects": [
+                {
+                    "id": 147,
+                    "subject": "Data Preparation"
+                },
+                {
+                    "id": 147,
+                    "subject": "Financial"
+                },
+                {
+                    "id": 147,
+                    "subject": "Python"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_Python.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 60,
             "demo": "Credit Card Data Preparation",
             "description": "This shows the use of ClearScape analytics to reduce the pre-processing effort of incoming raw credit card data to prepare for analysis of potential loan defaulters.",
@@ -613,32 +677,6 @@
                     "type": "nbviewer",
                     "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/9fe6c5a18cb85998703538ac3c8dc98e40101f95/UseCases/Credit_Card_Data_Preparation/Pop_Credit_Card_Data_Preparation_SQL.ipynb",
                     "label": "Read Only SQL"
-                }
-            ]
-        },
-        {
-            "id": 147,
-            "demo": "Credit Card Data Preparation",
-            "description": "Uses functions from TeradataML Python library to prepare data for analysis using data cleansing, exploration and feature engineering functions.",
-            "subjects": [
-                {
-                    "id": 147,
-                    "subject": "Data Preparation"
-                },
-                {
-                    "id": 147,
-                    "subject": "Financial"
-                },
-                {
-                    "id": 147,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_Python.ipynb",
-                    "label": "Python Version"
                 }
             ]
         },
@@ -1255,11 +1293,11 @@
             "subjects": [
                 {
                     "id": 140,
-                    "subject": "Financial"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 140,
-                    "subject": "Geospatial"
+                    "subject": "Financial"
                 },
                 {
                     "id": 140,
@@ -1538,11 +1576,11 @@
                 },
                 {
                     "id": 129,
-                    "subject": "Retail"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 129,
-                    "subject": "Machine learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 129,
@@ -1689,11 +1727,11 @@
             "subjects": [
                 {
                     "id": 73,
-                    "subject": "Machine learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 73,
-                    "subject": "Retail"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 73,
@@ -1913,15 +1951,15 @@
             "subjects": [
                 {
                     "id": 131,
+                    "subject": "Marketing"
+                },
+                {
+                    "id": 131,
                     "subject": "Retail"
                 },
                 {
                     "id": 131,
                     "subject": "Machine learning"
-                },
-                {
-                    "id": 131,
-                    "subject": "Marketing"
                 },
                 {
                     "id": 131,
@@ -2089,6 +2127,40 @@
                     "type": "notebook",
                     "url": "UseCases/Predictive_Maintenance/Predictive_Maintenance_Python.ipynb",
                     "label": "Python-SQL Version"
+                }
+            ]
+        },
+        {
+            "id": 166,
+            "demo": "Product Recommendation via AWS Bedrock *Beta*",
+            "description": "Use AWS Bedrock, Embedding from HuggingFace and Vantage in-DB functions to assist in providing product recommendations to develop a recipe assistant chatbot.",
+            "subjects": [
+                {
+                    "id": 166,
+                    "subject": "Retail"
+                },
+                {
+                    "id": 166,
+                    "subject": "Generative AI"
+                },
+                {
+                    "id": 166,
+                    "subject": "AWS Bedrock"
+                },
+                {
+                    "id": 166,
+                    "subject": "Python"
+                },
+                {
+                    "id": 166,
+                    "subject": "Beta Review"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Chat_Powered_Product_Recommendation/Chat_powered_product_recommendation_based_on_search_output.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -2390,11 +2462,11 @@
             "subjects": [
                 {
                     "id": 29,
-                    "subject": "Geospatial"
+                    "subject": "Object Storage"
                 },
                 {
                     "id": 29,
-                    "subject": "Object Storage"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 29,
@@ -2489,11 +2561,11 @@
                 },
                 {
                     "id": 134,
-                    "subject": "Retail"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 134,
-                    "subject": "Marketing"
+                    "subject": "Retail"
                 },
                 {
                     "id": 134,
@@ -2716,14 +2788,14 @@
                     "label": "Read Only Python"
                 },
                 {
-                    "type": "notebook",
-                    "url": "UseCases/Text_Term_Frequency/Text_Term_Frequency_SQL.ipynb",
-                    "label": "SQL Version"
-                },
-                {
                     "type": "nbviewer",
                     "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/9fe6c5a18cb85998703538ac3c8dc98e40101f95/UseCases/Text_Term_Frequency/Pop_Text_Term_Frequency_SQL.ipynb",
                     "label": "Read Only SQL"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Text_Term_Frequency/Text_Term_Frequency_SQL.ipynb",
+                    "label": "SQL Version"
                 },
                 {
                     "type": "nbviewer",
@@ -2743,11 +2815,11 @@
                 },
                 {
                     "id": 105,
-                    "subject": "Machine learning"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 105,
-                    "subject": "Path Analytics"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 105,
