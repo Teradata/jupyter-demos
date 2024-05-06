@@ -12,7 +12,7 @@
     <img src="./images/customer360.png" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Customer 360" />
     <p><em>Integrating Complaints Analysis with Customer360 data</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/ee02ddc5c9ccdc86c7b932f77a7d4cdd86b2c68c/UseCases/Complaints_Analysis_GenAI/Complaint_Analysis_Customer360.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/853384e325e4b616f5b5b371607670380ec00fd1/UseCases/Complaints_Analysis_GenAI/Complaint_Analysis_Customer360.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
@@ -60,7 +60,7 @@
     <img src="./images/classification.png" alt="Complaints Classification" style="width: 100%; height: auto; margin-bottom: 10px;" />
     <p><em>Complaints Classification using Vantage and Amazon Bedrock</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/d80eef7d13cee49f12184642526a97e72aa2eb6c/UseCases/Complaints_Analysis_GenAI/Complaints_Classification.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/7c2fc266e071ddbd092200cc02e46ccdb07cfd16/UseCases/Complaints_Analysis_GenAI/Complaints_Classification.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
@@ -72,7 +72,7 @@
     <img src="./images/summarization.png" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Complaints Summarization" />
     <p><em>Complaints Summarization Using Vantage and Amazon Bedrock</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/9f10531f9d6d4707ffab71b6462f7cf26637ec1e/UseCases/Complaints_Analysis_GenAI/Complaint_Summarization.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/7c2fc266e071ddbd092200cc02e46ccdb07cfd16/UseCases/Complaints_Analysis_GenAI/Complaint_Summarization.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
