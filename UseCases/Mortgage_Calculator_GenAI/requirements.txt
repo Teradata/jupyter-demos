@@ -4,3 +4,5 @@ panel==1.3.4
 tiktoken
 chromadb
 langchain_community
+langchain_openai
+loguru
