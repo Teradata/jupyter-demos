@@ -1,0 +1,42 @@
+
+# DataBase setting
+Hostname : "host.docker.internal"
+User : "demo_user"
+#pwd : ""
+#Logmech : "LDAP"
+# Support TD2, LDAP, TDNEGO, KRB5
+EncryptData : False
+TDmode : 'TERA'
+
+
+# Default Setting
+new_days : 30
+hist_days : 180
+
+# Database Schema setting
+VAL_Db : "Val"
+Proc_Db : "demo_user"
+Work_Db : "demo_user"
+Data_Db : "demo_user"
+
+# Table setting
+Proc_Config_tbl : "DQ_config"
+Proc_Control_tbl : "DQ_control_tbls"
+Proc_Tolerance_tbl : "DQ_Alert_setting"
+Proc_bad_chr_tbl : "DQ_bad_char"
+Proc_Cat_PrePos_tbl : "DQ_CAT_PrePostfix"
+
+Proc_Stat_result_tbl : "DQ_Stat_info_hist"
+Proc_Hist_Hist_tbl : "DQ_Hist_info_hist"
+Proc_Hist_psi_tbl : "DQ_hist_psi"
+Proc_sv_result_tbl : "DQ_smirnov_test_result"
+Proc_outlier_result_tbl : 'DQ_Outlier_info'
+Proc_char_cnt_tbl : "DQ_char_hist"
+Proc_badstr_tbl : "DQ_badstring_hist"
+Proc_unq_cnt_tbl : "DQ_unq_val_cnt"
+Proc_proc_cols : "DQ_process_columns"
+Proc_Alert_tbl : "DQ_Alert"
+
+
+# Preinstalled Views
+Proc_Hist_compare_vw : "DQ_hist_bin_comp"

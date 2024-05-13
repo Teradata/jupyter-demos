@@ -1,0 +1,10 @@
+CREATE MULTISET TABLE all_hist_bins_lk AS
+(
+SELECT
+     rank() over( order by calendar_date ) AS bin_no
+FROM sys_calendar.calendar 
+WHERE calendar_date BETWEEN current_date-99 AND current_date
+) WITH DATA 
+UNIQUE PRIMARY INDEX (bin_no);
+
+COLLECT STAT ON all_hist_bins_lk INDEX (bin_no);
