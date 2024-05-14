@@ -6,18 +6,6 @@
    </p>
 </header>
 
-<!-- Tile 1 -->
-<div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
-    <h2>Customer 360</h2>
-    <img src="./images/customer360.png" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Customer 360" />
-    <p><em>Integrating Complaints Analysis with Customer360 data</em></p>
-    <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/853384e325e4b616f5b5b371607670380ec00fd1/UseCases/Complaints_Analysis_GenAI/Complaint_Analysis_Customer360.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
-            Open in nbviewer
-        </a>
-    </div>
-</div>
-
 <!-- Tile 5 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Complaints Classification</h2>
@@ -86,6 +74,18 @@
     <p><em>Complaints Summarization Using Vantage and Amazon Bedrock</em></p>
     <div style="text-align: right;">
         <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/7c2fc266e071ddbd092200cc02e46ccdb07cfd16/UseCases/Complaints_Analysis_GenAI/Complaint_Summarization.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+            Open in nbviewer
+        </a>
+    </div>
+</div>
+
+<!-- Tile 1 -->
+<div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
+    <h2>Customer 360</h2>
+    <img src="./images/customer360.png" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Customer 360" />
+    <p><em>Integrating Complaints Analysis with Customer360 data</em></p>
+    <div style="text-align: right;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/853384e325e4b616f5b5b371607670380ec00fd1/UseCases/Complaints_Analysis_GenAI/Complaint_Analysis_Customer360.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
