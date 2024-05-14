@@ -18,6 +18,18 @@
     </div>
 </div>
 
+<!-- Tile 5 -->
+<div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
+    <h2>Complaints Classification</h2>
+    <img src="./images/classification.png" alt="Complaints Classification" style="width: 100%; height: auto; margin-bottom: 10px;" />
+    <p><em>Complaints Classification using Vantage and Amazon Bedrock</em></p>
+    <div style="text-align: right;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/7c2fc266e071ddbd092200cc02e46ccdb07cfd16/UseCases/Complaints_Analysis_GenAI/Complaints_Classification.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+            Open in nbviewer
+        </a>
+    </div>
+</div>
+
 <!-- Tile 2 -->
 <!-- <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Speech Analysis</h2>
@@ -54,17 +66,18 @@
     </div>
 </div>
 
-<!-- Tile 5 -->
+<!-- Tile 7 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
-    <h2>Complaints Classification</h2>
-    <img src="./images/classification.png" alt="Complaints Classification" style="width: 100%; height: auto; margin-bottom: 10px;" />
-    <p><em>Complaints Classification using Vantage and Amazon Bedrock</em></p>
+    <h2>Topic Modelling</h2>
+    <img src="./images/topics.png" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Topic Modelling" />
+    <p><em>Topic Modelling using Vantage and Amazon Bedrock</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/7c2fc266e071ddbd092200cc02e46ccdb07cfd16/UseCases/Complaints_Analysis_GenAI/Complaints_Classification.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/5f7e3f3cdf7bbb2a5d84a095dec8390e0c7b8af1/UseCases/Complaints_Analysis_GenAI/Topic_Modelling.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
 </div>
+
 
 <!-- Tile 6 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
@@ -73,18 +86,6 @@
     <p><em>Complaints Summarization Using Vantage and Amazon Bedrock</em></p>
     <div style="text-align: right;">
         <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/7c2fc266e071ddbd092200cc02e46ccdb07cfd16/UseCases/Complaints_Analysis_GenAI/Complaint_Summarization.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
-            Open in nbviewer
-        </a>
-    </div>
-</div>
-
-<!-- Tile 7 -->
-<div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
-    <h2>Topic Modelling</h2>
-    <img src="./images/topics.png" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Topic Modelling" />
-    <p><em>Topic Modelling using Vantage and Amazon Bedrock</em></p>
-    <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/5f7e3f3cdf7bbb2a5d84a095dec8390e0c7b8af1/UseCases/Complaints_Analysis_GenAI/Topic_Modelling.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
