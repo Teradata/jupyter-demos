@@ -3,4 +3,4 @@ id,question,sql
 2,Can you suggest apartments with a land size greater than 300 square meters and featuring at least two bedrooms?,"SELECT PropertyID, PropertyType, BuildingSize, Price, Address, BedroomCount FROM demo_user.RealEstate WHERE LandSize > 300 AND BedroomCount >= 2"
 3,Can you suggest good properties within my budget range of $250000 to $410000?,"SELECT PropertyID, PropertyType, BuildingSize, Price, Address, BedroomCount FROM RealEstate WHERE Price BETWEEN 250000 AND 410000"
 4,"Is there any properties above $300,000 in Woods Street and listed by Raine & Horne - Darwin?","SELECT PropertyID, PropertyType, Price, Address, ListingAgency FROM RealEstate WHERE Price > 300000 AND Address LIKE '%Woods Street%' AND ListingAgency = 'Raine & Horne - Darwin'"
-5,Which are the best localities near the city center?,"SELECT TOP 3 LocalityName, LivabilityScore FROM Locality ORDER BY LivabilityScore DESC'"
+5,Which are the best localities near the city center?,"SELECT TOP 3 LocalityName, LivabilityScore FROM Locality ORDER BY LivabilityScore DESC"

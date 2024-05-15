@@ -314,7 +314,7 @@ class ChromaDB_VectorStore:
         max_tokens: int = 14000,
     ) -> str:
         if len(documentation_list) > 0:
-            initial_prompt += "\nUse the following Additional Context:\n"
+            initial_prompt += "\n\nUse the following Additional Context:\n"
 
             for documentation in documentation_list:
                 if (
@@ -412,7 +412,7 @@ class ChromaDB_VectorStore:
             # "* If the provided context is almost sufficient but requires knowledge of a specific string in a particular column, please generate an intermediate SQL query to find the distinct strings in that column. Prepend the query with a comment saying intermediate_sql \n"
             "* If the provided context is insufficient, please explain why it can't be generated. \n"
             # "* Please use the most relevant table(s). \n"
-            "* If the question has been asked and answered before, please repeat the answer exactly as it was given before. \n"
+            # "* If the question has been asked and answered before, please repeat the answer exactly as it was given before. \n"
             "* Critical Instruction: Ensure responses are exclusively derived from query results. Refrain from generating or adding synthetic data in any form.\n"
             # "* Provide answer in simple english statement. \n"
             "* Most important: The function should return the relevant answer for the question asked only based on Query results.\n"
