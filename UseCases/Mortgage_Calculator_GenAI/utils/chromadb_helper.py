@@ -413,6 +413,7 @@ class ChromaDB_VectorStore:
             "* If the provided context is insufficient, please explain why it can't be generated. \n"
             # "* Please use the most relevant table(s). \n"
             # "* If the question has been asked and answered before, please repeat the answer exactly as it was given before. \n"
+            "* Most important: Always give property options with details like PropertyID, Property Type, Building Size, Price, Address, Bedroom Count. PropertyID is mandatory in the response.\n"
             "* Critical Instruction: Ensure responses are exclusively derived from query results. Refrain from generating or adding synthetic data in any form.\n"
             # "* Provide answer in simple english statement. \n"
             "* Most important: The function should return the relevant answer for the question asked only based on Query results.\n"
