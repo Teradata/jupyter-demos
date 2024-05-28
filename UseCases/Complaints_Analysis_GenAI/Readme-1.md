@@ -85,7 +85,7 @@
     <img src="./images/voice-note.jpg" alt="Speech Recognition" style="width: 100%; height: auto; margin-bottom: 10px;" />
     <p><em>Speech Analysis with AWS Bedrock</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/4e35312018222a61b2678600969c93c5c7b003b9/UseCases/Complaints_Analysis_GenAI/Speech_Recognition_AWS_Bedrock.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/9b85c5e9c9e6fda85de7c6f3eadbe7d97abdd741/UseCases/Complaints_Analysis_GenAI/Speech_Recognition_AWS_Bedrock.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
