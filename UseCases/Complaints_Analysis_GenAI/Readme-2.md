@@ -9,10 +9,10 @@
 <!-- Tile 5 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Complaints Classification</h2>
-    <img src="./images/classification.png" alt="Complaints Classification" style="width: 100%; height: auto; margin-bottom: 10px;" />
-    <p><em>Complaints Classification using Vantage and Amazon Bedrock</em></p>
+    <img src="./images/classification.png" alt="Complaints Classification using VantageCloud Lake on Google and Gemini" style="width: 100%; height: auto; margin-bottom: 10px;" />
+    <p><em>Complaints Classification using VantageCloud Lake on Google and Gemini</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/7c2fc266e071ddbd092200cc02e46ccdb07cfd16/UseCases/Complaints_Analysis_GenAI/Complaints_Classification.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/eae8bfc793bdce00be260f5c70bbcba2d37c5621/UseCases/Complaints_Analysis_GenAI/Complaints_Classification_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
@@ -33,10 +33,10 @@
 <!-- Tile 3 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Sentiment Analysis</h2>
-    <img src="./images/sentiment.png" alt="Sentiment Analysis Bedrock" style="width: 100%; height: auto; margin-bottom: 10px;" />
-    <p><em>Sentiment Analysis Using Vantage and Amazon Bedrock</em></p>
+    <img src="./images/sentiment.png" alt="Sentiment Analysis using VantageCloud Lake on Google and Gemini" style="width: 100%; height: auto; margin-bottom: 10px;" />
+    <p><em>Sentiment Analysis using VantageCloud Lake on Google and Gemini</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/0780f4aae5fd869d8c19c2668b1275282894b3b1/UseCases/Complaints_Analysis_GenAI/Sentiment_Analysis_Bedrock.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/eae8bfc793bdce00be260f5c70bbcba2d37c5621/UseCases/Complaints_Analysis_GenAI/Sentiment_Analysis_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
@@ -45,10 +45,10 @@
 <!-- Tile 4 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Complaints Clustering</h2>
-    <img src="./images/clustering.png" alt="Complaints Clustering" style="width: 100%; height: auto; margin-bottom: 10px;" />
-    <p><em>Complaints Clustering using Vantage and Amazon Bedrock</em></p>
+    <img src="./images/clustering.png" alt="Complaints Clustering using VantageCloud Lake on Google and Google Generative AI Embeddings model" style="width: 100%; height: auto; margin-bottom: 10px;" />
+    <p><em>Complaints Clustering using VantageCloud Lake on Google and Google Generative AI Embeddings model</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/f16f693d3f04d83367c9506a29323443dc32d5d0/UseCases/Complaints_Analysis_GenAI/Complaints_Clustering.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/51d56443a59d96cdb31955a19bc69b1c4aa1f293/UseCases/Complaints_Analysis_GenAI/Complaints_Clustering_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
@@ -57,10 +57,10 @@
 <!-- Tile 7 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Topic Modelling</h2>
-    <img src="./images/topics.png" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Topic Modelling" />
-    <p><em>Topic Modelling using Vantage and Amazon Bedrock</em></p>
+    <img src="./images/topics.png" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Topic Modelling using VantageCloud Lake on Google and Gemini" />
+    <p><em>Topic Modelling using VantageCloud Lake on Google and Gemini</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/5f7e3f3cdf7bbb2a5d84a095dec8390e0c7b8af1/UseCases/Complaints_Analysis_GenAI/Topic_Modelling.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/422f84f58ae3f85b76b10a26bb7a35ba6c5f6a12/UseCases/Complaints_Analysis_GenAI/Topic_Modelling_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
@@ -70,10 +70,10 @@
 <!-- Tile 6 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Complaints Summarization</h2>
-    <img src="./images/summarization.png" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Complaints Summarization" />
-    <p><em>Complaints Summarization Using Vantage and Amazon Bedrock</em></p>
+    <img src="./images/summarization.png" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Complaints Summarization using VantageCloud Lake on Google and Gemini" />
+    <p><em>Complaints Summarization using VantageCloud Lake on Google and Gemini</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/7c2fc266e071ddbd092200cc02e46ccdb07cfd16/UseCases/Complaints_Analysis_GenAI/Complaint_Summarization.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/66303acba9084f3fbd3008a5b2b8c5a3c724d9b3/UseCases/Complaints_Analysis_GenAI/Complaints_Summarization_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
@@ -82,10 +82,10 @@
 <!-- Tile 8 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Speech Analysis</h2>
-    <img src="./images/voice-note.jpg" alt="Speech Analysis with Google Gemini" style="width: 100%; height: auto; margin-bottom: 10px;" />
-    <p><em>Speech Analysis with Google Gemini</em></p>
+    <img src="./images/voice-note.jpg" alt="Speech Recognition using VantageCloud Lake on Google and Gemini" style="width: 100%; height: auto; margin-bottom: 10px;" />
+    <p><em>Speech Recognition using VantageCloud Lake on Google and Gemini</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/aacb84f43b268451667d0d49fb2ac66db3506ae6/UseCases/Complaints_Analysis_GenAI/Speech_Recognition.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/422f84f58ae3f85b76b10a26bb7a35ba6c5f6a12/UseCases/Complaints_Analysis_GenAI/Speech_Recognition_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
@@ -94,10 +94,10 @@
 <!-- Tile 1 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Customer 360</h2>
-    <img src="./images/customer360.png" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Customer 360" />
-    <p><em>Integrating Complaints Analysis with Customer360 data</em></p>
+    <img src="./images/customer360.png" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Complaints Analysis Integration with Customer360 using VantageCloud Lake on Google and Gemini" />
+    <p><em>Complaints Analysis Integration with Customer360 using VantageCloud Lake on Google and Gemini</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/853384e325e4b616f5b5b371607670380ec00fd1/UseCases/Complaints_Analysis_GenAI/Complaint_Analysis_Customer360.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/422f84f58ae3f85b76b10a26bb7a35ba6c5f6a12/UseCases/Complaints_Analysis_GenAI/Complaint_Analysis_Customer360_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
