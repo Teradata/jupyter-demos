@@ -94,7 +94,7 @@
 <!-- Tile 1 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Customer 360</h2>
-    <img src="./images/customer360.png" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Complaints Analysis Integration with Customer360 using VantageCloud Lake on Google and Gemini" />
+    <img src="./images/cusotmer360_gemini.jpg" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Complaints Analysis Integration with Customer360 using VantageCloud Lake on Google and Gemini" />
     <p><em>Complaints Analysis Integration with Customer360 using VantageCloud Lake on Google and Gemini</em></p>
     <div style="text-align: right;">
         <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/422f84f58ae3f85b76b10a26bb7a35ba6c5f6a12/UseCases/Complaints_Analysis_GenAI/Complaint_Analysis_Customer360_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
