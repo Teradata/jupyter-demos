@@ -16,7 +16,7 @@ def delete_emb_from_sql(table_name, eng):
 # only copy embeddings, if table exists then append
 def copy_emb_to_sql(table_name, tdf):
     try:
-        copy_to_sql(tdf, table_name=table_name,primary_index='ID', if_exists='append')
+        copy_to_sql(tdf, table_name=table_name,primary_index='id', if_exists='append')
     except:
         pass
 
@@ -30,6 +30,6 @@ def delete_and_copy_embeddings(table_name, tdf, eng):
 
     # only insert records if table exists
     try:
-        copy_to_sql(tdf, table_name=table_name,primary_index='ID', if_exists='append')
+        copy_to_sql(tdf, table_name=table_name,primary_index='id', if_exists='append')
     except:
         pass
