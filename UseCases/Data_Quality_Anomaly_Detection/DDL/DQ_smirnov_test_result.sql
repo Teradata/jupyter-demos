@@ -1,0 +1,13 @@
+CREATE MULTISET TABLE [DQ_DATADB_TEMPLATE].DQ_smirnov_test_result
+     (
+      sessionid BIGINT,
+      databasename VARCHAR(1024) CHARACTER SET LATIN NOT CASESPECIFIC,
+      tablename VARCHAR(1024) CHARACTER SET LATIN NOT CASESPECIFIC,
+      colname VARCHAR(1024) CHARACTER SET LATIN NOT CASESPECIFIC,
+      M FLOAT,
+      N FLOAT,
+      D FLOAT,
+      SmirnovPValue FLOAT,
+      SmirnovPText VARCHAR(1024) CHARACTER SET LATIN NOT CASESPECIFIC)
+PRIMARY INDEX ( databasename ,tablename ,colname )
+PARTITION BY sessionid ;

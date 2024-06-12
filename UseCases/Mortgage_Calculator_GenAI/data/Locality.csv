@@ -1,0 +1,11 @@
+LocalityID,LocalityName,LocalityDescription,DistanceFromAirport,LivabilityScore
+1,Darwin City,Central business district with various commercial buildings.,10,4.5
+2,Parap,Known for its markets and proximity to the Parap Pool.,12,4.0
+3,Stuart Park,Residential suburb close to the city center.,8,3.8
+4,Fannie Bay,Home to the Fannie Bay Gaol and the East Point Reserve.,11,4.2
+5,Larrakeyah,"Coastal suburb near the CBD, hosting barracks and marina.",9,4.3
+6,Woolner,Primarily residential suburb located southeast of the CBD.,10,3.7
+7,Bayview,Suburb along the shores of Frances Bay.,13,3.5
+8,The Gardens,Home to the George Brown Darwin Botanic Gardens.,14,4.0
+9,Nightcliff,Known for its foreshore area and the Nightcliff Jetty.,15,4.1
+10,Leanyer,Residential suburb with parks and schools.,18,3.9

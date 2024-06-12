@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PMML xmlns="http://www.dmg.org/PMML-4_4" xmlns:data="http://jpmml.org/jpmml-model/InlineTable" version="4.4">
+	<Header>
+		<Application name="SkLearn2PMML package" version="0.91.0"/>
+		<Timestamp>2024-04-02T08:33:46Z</Timestamp>
+	</Header>
+	<MiningBuildTask>
+		<Extension name="repr">PMMLPipeline(steps=[('lr', LinearRegression())])</Extension>
+	</MiningBuildTask>
+	<DataDictionary>
+		<DataField name="consumption" optype="continuous" dataType="double"/>
+		<DataField name="is_dark" optype="continuous" dataType="double"/>
+		<DataField name="is_light" optype="continuous" dataType="double"/>
+		<DataField name="is_from_light_to_dark" optype="continuous" dataType="double"/>
+		<DataField name="is_from_dark_to_light" optype="continuous" dataType="double"/>
+		<DataField name="is_holiday" optype="continuous" dataType="double"/>
+		<DataField name="is_pre_holiday" optype="continuous" dataType="double"/>
+		<DataField name="monday" optype="continuous" dataType="double"/>
+		<DataField name="tuesday" optype="continuous" dataType="double"/>
+		<DataField name="wednesday" optype="continuous" dataType="double"/>
+		<DataField name="thursday" optype="continuous" dataType="double"/>
+		<DataField name="friday" optype="continuous" dataType="double"/>
+		<DataField name="saturday" optype="continuous" dataType="double"/>
+		<DataField name="sunday" optype="continuous" dataType="double"/>
+		<DataField name="0_h" optype="continuous" dataType="double"/>
+		<DataField name="1_h" optype="continuous" dataType="double"/>
+		<DataField name="2_h" optype="continuous" dataType="double"/>
+		<DataField name="3_h" optype="continuous" dataType="double"/>
+		<DataField name="4_h" optype="continuous" dataType="double"/>
+		<DataField name="5_h" optype="continuous" dataType="double"/>
+		<DataField name="6_h" optype="continuous" dataType="double"/>
+		<DataField name="7_h" optype="continuous" dataType="double"/>
+		<DataField name="8_h" optype="continuous" dataType="double"/>
+		<DataField name="9_h" optype="continuous" dataType="double"/>
+		<DataField name="10_h" optype="continuous" dataType="double"/>
+		<DataField name="11_h" optype="continuous" dataType="double"/>
+		<DataField name="12_h" optype="continuous" dataType="double"/>
+		<DataField name="13_h" optype="continuous" dataType="double"/>
+		<DataField name="14_h" optype="continuous" dataType="double"/>
+		<DataField name="15_h" optype="continuous" dataType="double"/>
+		<DataField name="16_h" optype="continuous" dataType="double"/>
+		<DataField name="17_h" optype="continuous" dataType="double"/>
+		<DataField name="18_h" optype="continuous" dataType="double"/>
+		<DataField name="19_h" optype="continuous" dataType="double"/>
+		<DataField name="20_h" optype="continuous" dataType="double"/>
+		<DataField name="21_h" optype="continuous" dataType="double"/>
+		<DataField name="22_h" optype="continuous" dataType="double"/>
+		<DataField name="23_h" optype="continuous" dataType="double"/>
+		<DataField name="nasa_temp" optype="continuous" dataType="double"/>
+		<DataField name="cap_air_temperature" optype="continuous" dataType="double"/>
+		<DataField name="cap_cloud_area_fraction" optype="continuous" dataType="double"/>
+		<DataField name="cap_precipitation_amount" optype="continuous" dataType="double"/>
+	</DataDictionary>
+	<RegressionModel functionName="regression" algorithmName="sklearn.linear_model._base.LinearRegression">
+		<MiningSchema>
+			<MiningField name="consumption" usageType="target"/>
+			<MiningField name="is_dark"/>
+			<MiningField name="is_light"/>
+			<MiningField name="is_from_light_to_dark"/>
+			<MiningField name="is_from_dark_to_light"/>
+			<MiningField name="is_holiday"/>
+			<MiningField name="is_pre_holiday"/>
+			<MiningField name="monday"/>
+			<MiningField name="tuesday"/>
+			<MiningField name="wednesday"/>
+			<MiningField name="thursday"/>
+			<MiningField name="friday"/>
+			<MiningField name="saturday"/>
+			<MiningField name="sunday"/>
+			<MiningField name="0_h"/>
+			<MiningField name="1_h"/>
+			<MiningField name="2_h"/>
+			<MiningField name="3_h"/>
+			<MiningField name="4_h"/>
+			<MiningField name="5_h"/>
+			<MiningField name="6_h"/>
+			<MiningField name="7_h"/>
+			<MiningField name="8_h"/>
+			<MiningField name="9_h"/>
+			<MiningField name="10_h"/>
+			<MiningField name="11_h"/>
+			<MiningField name="12_h"/>
+			<MiningField name="13_h"/>
+			<MiningField name="14_h"/>
+			<MiningField name="15_h"/>
+			<MiningField name="16_h"/>
+			<MiningField name="17_h"/>
+			<MiningField name="18_h"/>
+			<MiningField name="19_h"/>
+			<MiningField name="20_h"/>
+			<MiningField name="21_h"/>
+			<MiningField name="22_h"/>
+			<MiningField name="23_h"/>
+			<MiningField name="nasa_temp"/>
+			<MiningField name="cap_air_temperature"/>
+			<MiningField name="cap_cloud_area_fraction"/>
+			<MiningField name="cap_precipitation_amount"/>
+		</MiningSchema>
+		<RegressionTable intercept="-1.2519384061512378E16">
+			<NumericPredictor name="is_dark" coefficient="3.2718415143943245E15"/>
+			<NumericPredictor name="is_light" coefficient="3.271841514393545E15"/>
+			<NumericPredictor name="is_from_light_to_dark" coefficient="3.2718415143938865E15"/>
+			<NumericPredictor name="is_from_dark_to_light" coefficient="3.271841514393948E15"/>
+			<NumericPredictor name="is_holiday" coefficient="-1070.8944029587542"/>
+			<NumericPredictor name="is_pre_holiday" coefficient="-355.2076532285669"/>
+			<NumericPredictor name="monday" coefficient="9.085223606830382E15"/>
+			<NumericPredictor name="tuesday" coefficient="9.085223606831384E15"/>
+			<NumericPredictor name="wednesday" coefficient="9.085223606831492E15"/>
+			<NumericPredictor name="thursday" coefficient="9.085223606831468E15"/>
+			<NumericPredictor name="friday" coefficient="9.085223606831498E15"/>
+			<NumericPredictor name="saturday" coefficient="9.085223606831338E15"/>
+			<NumericPredictor name="sunday" coefficient="9.08522360683053E15"/>
+			<NumericPredictor name="0_h" coefficient="1.623189402965152E14"/>
+			<NumericPredictor name="1_h" coefficient="1.6231894029634103E14"/>
+			<NumericPredictor name="2_h" coefficient="1.6231894029627647E14"/>
+			<NumericPredictor name="3_h" coefficient="1.6231894029647312E14"/>
+			<NumericPredictor name="4_h" coefficient="1.623189402972633E14"/>
+			<NumericPredictor name="5_h" coefficient="1.623189402984847E14"/>
+			<NumericPredictor name="6_h" coefficient="1.6231894029952334E14"/>
+			<NumericPredictor name="7_h" coefficient="1.623189403001328E14"/>
+			<NumericPredictor name="8_h" coefficient="1.6231894030055338E14"/>
+			<NumericPredictor name="9_h" coefficient="1.6231894030085944E14"/>
+			<NumericPredictor name="10_h" coefficient="1.623189403009844E14"/>
+			<NumericPredictor name="11_h" coefficient="1.6231894030101894E14"/>
+			<NumericPredictor name="12_h" coefficient="1.6231894030101416E14"/>
+			<NumericPredictor name="13_h" coefficient="1.6231894030097888E14"/>
+			<NumericPredictor name="14_h" coefficient="1.623189403009295E14"/>
+			<NumericPredictor name="15_h" coefficient="1.6231894030080847E14"/>
+			<NumericPredictor name="16_h" coefficient="1.6231894030058066E14"/>
+			<NumericPredictor name="17_h" coefficient="1.6231894030030503E14"/>
+			<NumericPredictor name="18_h" coefficient="1.6231894029991466E14"/>
+			<NumericPredictor name="19_h" coefficient="1.623189402994416E14"/>
+			<NumericPredictor name="20_h" coefficient="1.6231894029887288E14"/>
+			<NumericPredictor name="21_h" coefficient="1.623189402981241E14"/>
+			<NumericPredictor name="22_h" coefficient="1.6231894029733938E14"/>
+			<NumericPredictor name="23_h" coefficient="1.6231894029677578E14"/>
+			<NumericPredictor name="nasa_temp" coefficient="-13878.709879636046"/>
+			<NumericPredictor name="cap_air_temperature" coefficient="-2476.151236388839"/>
+			<NumericPredictor name="cap_cloud_area_fraction" coefficient="289.82289509119283"/>
+			<NumericPredictor name="cap_precipitation_amount" coefficient="-492.61815555281305"/>
+		</RegressionTable>
+	</RegressionModel>
+</PMML>

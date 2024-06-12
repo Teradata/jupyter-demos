@@ -1,0 +1,61 @@
+REPLACE VIEW val_hist_result_v2 AS
+SELECT
+  COALESCE(p.sessionid, n.sessionid) AS sessionid, 
+  COALESCE(p.databasename, n.databasename) AS databasename,
+  COALESCE(p.tablename, n.tablename) AS tablename,
+  COALESCE(p.xcol,  n.xcol) AS xcol,
+  COALESCE(p.xbin,  n.xbin) AS xbin,
+  COALESCE(p.xpct, 0.00000 ) AS prv_pct,
+  COALESCE(n.xpct, 0.00000 ) AS new_pct
+FROM 
+  (SELECT sessionid, databasename, tablename, xcol, xbin, xpct 
+   FROM DQ_Hist_info_hist p
+   WHERE sessionid = 3
+   AND  xcol = 'area_mean'
+   AND datatype = 'prv') p
+   FULL OUTER JOIN 
+  (SELECT sessionid, databasename, tablename, xcol, xbin, xpct 
+   FROM DQ_Hist_info_hist p
+   WHERE sessionid = 3
+   AND  xcol = 'area_mean'
+   AND datatype = 'new') n
+ON (p.sessionid = n.sessionid
+AND p.databasename = n.databasename
+AND p.tablename = n.tablename
+AND p.xcol = n.xcol
+AND p.xbin = n.xbin)
+;
+
+SELECT *
+fROM val_hist_result_v 
+order by 1,2,3,4,5
+
+
+
+call val.td_analyze('parametrictest','database=val;tablename=val_hist_result_v;
+firstcolumn =prv_pct;secondcolumn=new_pct;
+groupby=databasename,tablename,xcol; teststyle=t; paired=true;
+outputdatabase=val;outputtablename=hist_test
+');
+
+
+ -- reverse test --
+call val.td_analyze('parametrictest','database=val;tablename=testdist1;
+firstcolumn =X;secondcolumn=Y;
+teststyle=t; paired=true;
+outputdatabase=val;outputtablename=hist_tresult1
+');
+call val.td_analyze('parametrictest','database=val;tablename=testdist1;
+firstcolumn =X;secondcolumn=Y;
+teststyle=t; paired=true;
+outputdatabase=val;outputtablename=hist_tresult1
+');
+
+call val.td_analyze('chisquaretest','database=val;tablename=testdist1;
+firstcolumns=X;secondcolumns=Y;
+outputdatabase=val;outputtablename=hist_chiresult1
+');
+call val.td_analyze('chisquaretest','database=val;tablename=testdist2;
+firstcolumns=X;secondcolumns=Y;
+outputdatabase=val;outputtablename=hist_chiresult2
+');

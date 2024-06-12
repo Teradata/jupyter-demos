@@ -1,0 +1,27 @@
+LocalityID,LocalityName,NearbyLocalityID
+1,Darwin City,2
+1,Darwin City,3
+1,Darwin City,4
+2,Parap,1
+2,Parap,3
+2,Parap,4
+3,Stuart Park,1
+3,Stuart Park,2
+3,Stuart Park,4
+4,Fannie Bay,1
+4,Fannie Bay,2
+4,Fannie Bay,3
+5,Larrakeyah,1
+5,Larrakeyah,2
+5,Larrakeyah,3
+6,Woolner,3
+6,Woolner,4
+6,Woolner,1
+7,Bayview,3
+7,Bayview,4
+7,Bayview,1
+8,The Gardens,2
+8,The Gardens,3
+8,The Gardens,4
+9,Nightcliff,10
+10,Leanyer,9
