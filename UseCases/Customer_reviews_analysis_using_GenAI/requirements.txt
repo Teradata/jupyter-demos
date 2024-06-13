@@ -1,3 +1,4 @@
+pip
 openai
 fastparquet
 tdapiclient
@@ -8,3 +9,4 @@ yellowbrick
 boto3
 awscli
 wordcloud
+pillow
