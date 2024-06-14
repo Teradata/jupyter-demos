@@ -12,7 +12,7 @@
     <img src="./images/classification.png" alt="Complaints Classification using VantageCloud Lake on Google and Gemini" style="width: 100%; height: auto; margin-bottom: 10px;" />
     <p><em>Complaints Classification using VantageCloud Lake on Google and Gemini</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/4e6b8a8bbddeaed3438d0e9681209b170c95ffe1/UseCases/Complaints_Analysis_GenAI/Complaints_Classification_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/6ac6f2b17c10580a8ee8fbcd83e7a41df3c6fe90/UseCases/Complaints_Analysis_GenAI/Complaints_Classification_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
@@ -36,7 +36,7 @@
     <img src="./images/sentiment_analysis.png" alt="Sentiment Analysis using VantageCloud Lake on Google and Gemini" style="width: 100%; height: auto; margin-bottom: 10px;" />
     <p><em>Sentiment Analysis using VantageCloud Lake on Google and Gemini</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/4e6b8a8bbddeaed3438d0e9681209b170c95ffe1/UseCases/Complaints_Analysis_GenAI/Sentiment_Analysis_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/27b624b0fc791219cc1c30487c9142b3efe3662f/UseCases/Complaints_Analysis_GenAI/Sentiment_Analysis_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
@@ -48,7 +48,7 @@
     <img src="./images/clustering.png" alt="Complaints Clustering using VantageCloud Lake on Google and Google Generative AI Embeddings model" style="width: 100%; height: auto; margin-bottom: 10px;" />
     <p><em>Complaints Clustering using VantageCloud Lake on Google and Google Generative AI Embeddings model</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/4e6b8a8bbddeaed3438d0e9681209b170c95ffe1/UseCases/Complaints_Analysis_GenAI/Complaints_Clustering_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/27b624b0fc791219cc1c30487c9142b3efe3662f/UseCases/Complaints_Analysis_GenAI/Complaints_Clustering_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
@@ -60,7 +60,7 @@
     <img src="./images/topics.png" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Topic Modelling using VantageCloud Lake on Google and Gemini" />
     <p><em>Topic Modelling using VantageCloud Lake on Google and Gemini</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/4e6b8a8bbddeaed3438d0e9681209b170c95ffe1/UseCases/Complaints_Analysis_GenAI/Topic_Modelling_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/27b624b0fc791219cc1c30487c9142b3efe3662f/UseCases/Complaints_Analysis_GenAI/Topic_Modelling_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
@@ -73,7 +73,7 @@
     <img src="./images/summarization.png" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Complaints Summarization using VantageCloud Lake on Google and Gemini" />
     <p><em>Complaints Summarization using VantageCloud Lake on Google and Gemini</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/4e6b8a8bbddeaed3438d0e9681209b170c95ffe1/UseCases/Complaints_Analysis_GenAI/Complaints_Summarization_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/27b624b0fc791219cc1c30487c9142b3efe3662f/UseCases/Complaints_Analysis_GenAI/Complaints_Summarization_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
@@ -85,7 +85,7 @@
     <img src="./images/voice-note.jpg" alt="Speech Recognition using VantageCloud Lake on Google and Gemini" style="width: 100%; height: auto; margin-bottom: 10px;" />
     <p><em>Speech Recognition using VantageCloud Lake on Google and Gemini</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/4e6b8a8bbddeaed3438d0e9681209b170c95ffe1/UseCases/Complaints_Analysis_GenAI/Speech_Recognition_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/27b624b0fc791219cc1c30487c9142b3efe3662f/UseCases/Complaints_Analysis_GenAI/Speech_Recognition_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
@@ -97,7 +97,7 @@
     <img src="./images/cusotmer360_gemini.jpg" style="width: 100%; height: auto; margin-bottom: 10px;" alt="Complaints Analysis Integration with Customer360 using VantageCloud Lake on Google and Gemini" />
     <p><em>Complaints Analysis Integration with Customer360 using VantageCloud Lake on Google and Gemini</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/4e6b8a8bbddeaed3438d0e9681209b170c95ffe1/UseCases/Complaints_Analysis_GenAI/Complaint_Analysis_Customer360_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/27b624b0fc791219cc1c30487c9142b3efe3662f/UseCases/Complaints_Analysis_GenAI/Complaint_Analysis_Customer360_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
