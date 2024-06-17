@@ -8,8 +8,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.30.0"
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.2",
+    "dotenv-cli": "^7.4.2"
   },
   "dependencies": {
+    "axios": "^1.7.2",
+    "ts-node": "^10.9.2"
   }
 }
