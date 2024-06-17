@@ -85,7 +85,7 @@
     <img src="./images/voice-note.jpg" alt="Speech Recognition using VantageCloud Lake on Google and Gemini" style="width: 100%; height: auto; margin-bottom: 10px;" />
     <p><em>Speech Recognition using VantageCloud Lake on Google and Gemini</em></p>
     <div style="text-align: right;">
-        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/27b624b0fc791219cc1c30487c9142b3efe3662f/UseCases/Complaints_Analysis_GenAI/Speech_Recognition_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
+        <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/a8cb02f59fb5e878b1bc146f63736303280aedcc/UseCases/Complaints_Analysis_GenAI/Speech_Recognition_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
             Open in nbviewer
         </a>
     </div>
