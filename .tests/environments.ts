@@ -3,7 +3,7 @@ import axios from 'axios';
 const API_KEY = process.env.CSAE_CLEARSCAPE_API_KEY;
 const url = 'https://api.clearscape.teradata.com/environments';
 const CSAE_ENV_PASSWORD = process.env.CSAE_ENV_PASSWORD || 'asdfasdf';
-
+const ENV_PREFIX = process.env.GITHUB_RUN_ID || 'env';
 export class Environments {
     public readonly envName: string;
     public readonly region: string;
@@ -85,7 +85,7 @@ export class EnvPool {
     private envPool: Environments[]=[];
     constructor(private maxEnv: number) {
        for (let i = 0; i < maxEnv; i++) {
-            this.envPool.push(new Environments(`env${i}`, 'us-central', CSAE_ENV_PASSWORD));
+            this.envPool.push(new Environments(`jupyter-demos-${ENV_PREFIX}-${i}`, 'us-central', CSAE_ENV_PASSWORD));
         }
     }
 
