@@ -3,15 +3,21 @@ import {Environments} from './environments';
 const CSAE_ENV_PASSWORD = process.env.CSAE_ENV_PASSWORD || 'asdfasdf';
 const CSAE_WORKERS_COUNT = parseInt(process.env.CSAE_WORKERS_COUNT || '1');
 const CSAE_PARALLEL_TESTS_COUNT = parseInt(process.env.CSAE_PARALLEL_TESTS_COUNT || '1');
+const ENV_PREFIX = process.env.GITHUB_RUN_ID || 'env';
+
 const envs:Promise<any>[] = [];
 
-for (let i = 0; i < 1; i++) {
-    for (let i = 0; i < Math.floor(CSAE_WORKERS_COUNT/CSAE_PARALLEL_TESTS_COUNT); i++) {
-        const env = new Environments(`env${i}`, 'us-central', CSAE_ENV_PASSWORD)
-        envs.push(env.delete());
-    }
+console.log('CSAE_WORKERS_COUNT:', CSAE_WORKERS_COUNT);
+console.log('CSAE_PARALLEL_TESTS_COUNT:', CSAE_PARALLEL_TESTS_COUNT);
+
+console.log(`${Math.floor(CSAE_WORKERS_COUNT/CSAE_PARALLEL_TESTS_COUNT)} environments`);
+
+for (let i = 0; i < Math.floor(CSAE_WORKERS_COUNT/CSAE_PARALLEL_TESTS_COUNT); i++) {
+    const env = new Environments(`jupyter-demos-${ENV_PREFIX}-${i}`, 'us-central', CSAE_ENV_PASSWORD)
+    envs.push(env.delete());
 }
+
 console.log(`Deleting ${envs.length} environments`);
 Promise.all(envs).then(() => {
-    console.log('Environments created');
+    console.log('Environments Deleted');
 })
