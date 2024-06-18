@@ -31,24 +31,18 @@ jobs:
       env:
         CSAE_ENV_PASSWORD: '${{ secrets.CSAE_ENV_PASSWORD }}'
         CSAE_CLEARSCAPE_API_KEY: '${{ secrets.CSAE_CLEARSCAPE_API_KEY }}'
-        CSAE_PARALLEL_TESTS_COUNT: '${{ secrets.CSAE_PARALLEL_TESTS_COUNT }}'
-        CSAE_WORKERS_COUNT: '${{ secrets.CSAE_WORKERS_COUNT }}'
     - name: Run Playwright tests
       run: |
         npx playwright test
       env:
         CSAE_ENV_PASSWORD: '${{ secrets.CSAE_ENV_PASSWORD }}'
         CSAE_CLEARSCAPE_API_KEY: '${{ secrets.CSAE_CLEARSCAPE_API_KEY }}'
-        CSAE_PARALLEL_TESTS_COUNT: '${{ secrets.CSAE_PARALLEL_TESTS_COUNT }}'
-        CSAE_WORKERS_COUNT: '${{ secrets.CSAE_WORKERS_COUNT }}'
     - name: Delete test environments
       if: always()
       run: npx ts-node post_delete_env
       env:
         CSAE_ENV_PASSWORD: '${{ secrets.CSAE_ENV_PASSWORD }}'
         CSAE_CLEARSCAPE_API_KEY: '${{ secrets.CSAE_CLEARSCAPE_API_KEY }}'
-        CSAE_PARALLEL_TESTS_COUNT: '${{ secrets.CSAE_PARALLEL_TESTS_COUNT }}'       
-        CSAE_WORKERS_COUNT: '${{ secrets.CSAE_WORKERS_COUNT }}'       
     - uses: actions/upload-artifact@v3
       if: always()
       with:
