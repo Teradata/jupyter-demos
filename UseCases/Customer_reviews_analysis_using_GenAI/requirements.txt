@@ -1,0 +1,12 @@
+pip
+openai
+fastparquet
+tdapiclient
+google-cloud-aiplatform
+pyopenssl 
+cryptography
+yellowbrick
+boto3
+awscli
+wordcloud
+pillow
