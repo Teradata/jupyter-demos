@@ -1,6 +1,11 @@
-CustomerID,FirstName,LastName,DateOfBirth,Gender,Address,City,State,Country,Email,PhoneNumber,AccountNumber,AccountType,Balance,BranchID,AccountStatus,CreditScore,Income
-1001, John, Doe, 1990-04-15, M, 123 Main St, Anytown, CA, USA, john.doe@example.com, 123-456-7890, ACCT123456, Savings, 120000.00, 1, Active, 720, 600000.00
-1002, Jane, Smith, 1985-09-22, F, 456 Elm St, Othertown, NY, USA, jane.smith@example.com, 987-654-3210, ACCT987654, Checking, 135000.50, 2, Active, 680, 550000.00
-1003, Mike, Johnson, 1992-12-05, M, 789 Oak St, Somewhere, TX, USA, mike.johnson@example.com, 555-123-7890, ACCT555123, Savings, 210000.75, 1, Active, 750, 750000.00
-1004, Sarah, Wilson, 1980-07-10, F, 101 Pine St, Anothercity, FL, USA, sarah.wilson@example.com, 321-555-9876, ACCT321555, Checking, 290000.25, 3, Active, 800, 450000.00
-1005, David, Lee, 1978-03-30, M, 222 Birch St, Yetanothercity, GA, USA, david.lee@example.com, 111-222-3333, ACCT111222, Savings, 105000.30, 2, Active, 700, 320000.00
+CustomerID,FirstName,LastName,DateOfBirth,Gender,Address,LocalityID,City,Country,Email,PhoneNumber,AccountNumber,AccountType,Balance,BranchID,AccountStatus,CreditScore,Income
+CID3058245, John, Doe, 1990-04-15, M,44 Woods Street,1,Darwin City,Australia, john.doe@example.com, 123-456-7890, ACCT123456, Savings,120000,1, Active,720,600000
+CID5058817, Jane, Smith, 1985-09-22, F,14/14 Dashwood Place,1,Darwin City,Australia, jane.smith@example.com, 987-654-3210, ACCT987654, Checking,135000.5,2, Active,680,550000
+CID5035217, Mike, Johnson, 1992-12-05, M,10/99 Gardens Road,5,Darwin City,Australia, mike.johnson@example.com, 555-123-7890, ACCT555123, Savings,210000.75,1, Active,750,750000
+CID8035135, Sarah, Wilson, 1980-07-10, F,24/8 Knuckey Street,5,Darwin City,Australia, sarah.wilson@example.com, 321-555-9876, ACCT321555, Checking,290000.25,3, Active,800,450000
+CID8039856, David, Lee, 1978-03-30, M,44 Woods Street,2,Darwin City,Australia, david.lee@example.com, 111-222-3333, ACCT111222, Savings,105000.3,2, Active,700,320000
+CID3058246, John,Ant, 1990-04-15, M,44 Woods Street,4,Darwin City,Australia, john.ant@example.com, 123-456-7890, ACCT123457, Savings,120000,1, Active,720,600000
+CID5058818,Sam, Smith, 1985-09-22, F,14/14 Dashwood Place,4,Darwin City,Australia, sam.smith@example.com, 987-654-4525, ACCT987655, Checking,135000.5,2, Active,680,550000
+CID5035218,Lara, Johnson, 1992-12-05, M,14/130 Smith street,5,Darwin City,Australia, lara.johnson@example.com, 555-123-7890, ACCT555125, Savings,210000.75,1, Active,750,750000
+CID8039214, Sarah,Salamman, 1980-07-10, F,63/21 Cavenagh Street,5,Darwin City,Australia, sarah.s@example.com, 321-555-9876, ACCT321552, Checking,290000.25,3, Active,800,450000
+CID8039912, David,Cooper, 1978-03-30, M,126/19 Kitchener Drive,2,Darwin City,Australia, david.c@example.com, 111-222-4578, ACCT111222, Savings,105000.3,2, Active,700,320000
