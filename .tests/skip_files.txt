@@ -39,3 +39,4 @@
 ../UseCases/Fine_Tuning_OpenAI_Model/Fine_Tuning_OpenAI_Model_Python.ipynb
 ../UseCases/MultiTouch_Attribution/Analyst_MultiTouch_Attribution_PY_SQL.ipynb
 ../UseCases/MultiTouch_Attribution/MultiTouch_Attribution_PY_SQL.ipynb
+../UseCases/Store_Sales_Forecasting_Prophet_STO/Store_Sales_Forecasting_Prophet_STO_PY_SQL.ipynb
