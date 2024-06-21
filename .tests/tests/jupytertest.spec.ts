@@ -30,15 +30,10 @@ function readFileIntoArray(filename) {
     }
 }
 
-
 const skipfiles = readFileIntoArray(SKIPFILE_NAME)
 const files = readFileIntoArray(FILE_NAME).filter((name) => skipfiles.indexOf(name) === -1);
 
 const testCount = Math.ceil(files.length / CSAE_CI_JOB_COUNT);
-
-console.log('CSAE_CI_JOB_COUNT: ' + CSAE_CI_JOB_COUNT);
-console.log('CSAE_CI_JOB_IDX: ' + CSAE_CI_JOB_IDX);
-console.log('testCount: ' + testCount);
 
 for (let i = 0; i < testCount; i++) {
     const idx = i * CSAE_CI_JOB_COUNT + CSAE_CI_JOB_IDX;
@@ -47,7 +42,6 @@ for (let i = 0; i < testCount; i++) {
     }
 
     const name = files[idx];
-    console.log(`idx: ${idx} name: ${name}`)
     if(name === '') {
         continue;
     }
