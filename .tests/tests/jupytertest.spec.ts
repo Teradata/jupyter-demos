@@ -7,6 +7,9 @@ const CSAE_WORKERS_COUNT = parseInt(process.env.CSAE_WORKERS_COUNT || '1');
 const CSAE_PARALLEL_TESTS_COUNT = parseInt(process.env.CSAE_PARALLEL_TESTS_COUNT || '1');
 const envPool = new EnvPool(Math.floor(CSAE_WORKERS_COUNT/CSAE_PARALLEL_TESTS_COUNT));
 
+const  CSAE_CI_JOB_IDX = parseInt(process.env.CSAE_CI_JOB_IDX || '0');
+const CSAE_CI_JOB_COUNT= parseInt(process.env.CSAE_CI_JOB_COUNT || '1');
+
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
 test.describe.configure({ mode: 'parallel' });
@@ -31,8 +34,10 @@ function readFileIntoArray(filename) {
 const skipfiles = readFileIntoArray(SKIPFILE_NAME)
 const files = readFileIntoArray(FILE_NAME).filter((name) => skipfiles.indexOf(name) === -1);
 
-for (let i = 0; i < files.length; i++) {
-    const name = files[i];
+const testCount = Math.floor(files.length / CSAE_CI_JOB_COUNT);
+
+for (let i = 0; i < testCount; i++) {
+    const name = files[(i*CSAE_CI_JOB_COUNT) + CSAE_CI_JOB_IDX];
     if(name === '') {
         continue;
     }

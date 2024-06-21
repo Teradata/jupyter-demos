@@ -7,6 +7,17 @@ defaults:
     shell: bash
 jobs:
   test:
+    strategy:
+      matrix:
+        idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    env:
+        CSAE_ENV_PASSWORD: '${{ secrets.CSAE_ENV_PASSWORD }}'
+        CSAE_CLEARSCAPE_API_KEY: '${{ secrets.CSAE_CLEARSCAPE_API_KEY }}'
+        CSAE_PARALLEL_TESTS_COUNT: '${{ vars.CSAE_PARALLEL_TESTS_COUNT }}'
+        CSAE_WORKERS_COUNT: '${{ vars.CSAE_WORKERS_COUNT }}'
+        CSAE_CI_JOB_IDX: ${{ matrix.idx }}
+        CSAE_CI_JOB_COUNT: 10
+    name: Job ${{ matrix.idx }}
     timeout-minutes:  1440
     runs-on: ubuntu-latest
     steps:
@@ -28,27 +39,12 @@ jobs:
     - name: Start test environments
       id: start-test-environment
       run: npx ts-node pre_create_env.ts
-      env:
-        CSAE_ENV_PASSWORD: '${{ secrets.CSAE_ENV_PASSWORD }}'
-        CSAE_CLEARSCAPE_API_KEY: '${{ secrets.CSAE_CLEARSCAPE_API_KEY }}'
-        CSAE_PARALLEL_TESTS_COUNT: '${{ vars.CSAE_PARALLEL_TESTS_COUNT }}'
-        CSAE_WORKERS_COUNT: '${{ vars.CSAE_WORKERS_COUNT }}'
     - name: Run Playwright tests
       run: |
         npx playwright test
-      env:
-        CSAE_ENV_PASSWORD: '${{ secrets.CSAE_ENV_PASSWORD }}'
-        CSAE_CLEARSCAPE_API_KEY: '${{ secrets.CSAE_CLEARSCAPE_API_KEY }}'
-        CSAE_PARALLEL_TESTS_COUNT: '${{ vars.CSAE_PARALLEL_TESTS_COUNT }}'
-        CSAE_WORKERS_COUNT: '${{ vars.CSAE_WORKERS_COUNT }}'
     - name: Delete test environments
       if: always()
       run: npx ts-node post_delete_env
-      env:
-        CSAE_ENV_PASSWORD: '${{ secrets.CSAE_ENV_PASSWORD }}'
-        CSAE_CLEARSCAPE_API_KEY: '${{ secrets.CSAE_CLEARSCAPE_API_KEY }}'
-        CSAE_PARALLEL_TESTS_COUNT: '${{ vars.CSAE_PARALLEL_TESTS_COUNT }}'       
-        CSAE_WORKERS_COUNT: '${{ vars.CSAE_WORKERS_COUNT }}'       
     - uses: actions/upload-artifact@v3
       if: always()
       with:

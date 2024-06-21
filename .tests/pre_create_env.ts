@@ -3,7 +3,7 @@ import {Environments} from './environments';
 const CSAE_ENV_PASSWORD = process.env.CSAE_ENV_PASSWORD || 'asdfasdf';
 const CSAE_WORKERS_COUNT = parseInt(process.env.CSAE_WORKERS_COUNT || '1');
 const CSAE_PARALLEL_TESTS_COUNT = parseInt(process.env.CSAE_PARALLEL_TESTS_COUNT || '1');
-const ENV_PREFIX = process.env.GITHUB_RUN_ID || 'env';
+const ENV_PREFIX = process.env.GITHUB_RUN_ID? `${process.env.GITHUB_RUN_ID}-${process.env.CSAE_CI_JOB_IDX}`:'env';
 
 const envs:Promise<any>[] = [];
 

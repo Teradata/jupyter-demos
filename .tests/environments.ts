@@ -3,7 +3,7 @@ import axios from 'axios';
 const API_KEY = process.env.CSAE_CLEARSCAPE_API_KEY;
 const url = 'https://api.clearscape.teradata.com/environments';
 const CSAE_ENV_PASSWORD = process.env.CSAE_ENV_PASSWORD || 'asdfasdf';
-const ENV_PREFIX = process.env.GITHUB_RUN_ID || 'env';
+const ENV_PREFIX = process.env.GITHUB_RUN_ID? `${process.env.GITHUB_RUN_ID}-${process.env.CSAE_CI_JOB_IDX}`:'env';
 export class Environments {
     public readonly envName: string;
     public readonly region: string;
