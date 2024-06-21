@@ -45,9 +45,9 @@ for (let i = 0; i < testCount; i++) {
     if(idx >= files.length) {
         break;
     }
-    
-    const name = files[idx];
 
+    const name = files[idx];
+    console.log(`idx: ${idx} name: ${name}`)
     if(name === '') {
         continue;
     }

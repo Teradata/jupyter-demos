@@ -36,7 +36,7 @@ jobs:
       run: |
         npx playwright install --with-deps
     - name: Find all Jupyter notebooks
-      run: find .. -name '*.ipynb' > ./files.txt
+      run: find .. -name '*.ipynb' | sort > ./files.txt
     - name: Start test environments
       id: start-test-environment
       run: npx ts-node pre_create_env.ts
