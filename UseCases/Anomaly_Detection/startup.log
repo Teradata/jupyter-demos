@@ -1,5 +1,0 @@
-INFO:root:2023-05-12 09:53:32.884127+00:00
-INFO:root:Performing setup ...
-INFO:root:Setup complete
-INFO:root:... Logon successful
-INFO:root:Connected as:xxxxxsql://demo_user:xxxxx@host.docker.internal/dbc
