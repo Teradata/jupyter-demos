@@ -34,10 +34,20 @@ function readFileIntoArray(filename) {
 const skipfiles = readFileIntoArray(SKIPFILE_NAME)
 const files = readFileIntoArray(FILE_NAME).filter((name) => skipfiles.indexOf(name) === -1);
 
-const testCount = Math.floor(files.length / CSAE_CI_JOB_COUNT);
+const testCount = Math.ceil(files.length / CSAE_CI_JOB_COUNT);
+
+console.log('CSAE_CI_JOB_COUNT: ' + CSAE_CI_JOB_COUNT);
+console.log('CSAE_CI_JOB_IDX: ' + CSAE_CI_JOB_IDX);
+console.log('testCount: ' + testCount);
 
 for (let i = 0; i < testCount; i++) {
-    const name = files[(i*CSAE_CI_JOB_COUNT) + CSAE_CI_JOB_IDX];
+    const idx = i * CSAE_CI_JOB_COUNT + CSAE_CI_JOB_IDX;
+    if(idx >= files.length) {
+        break;
+    }
+    
+    const name = files[idx];
+
     if(name === '') {
         continue;
     }
