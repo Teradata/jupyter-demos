@@ -19,7 +19,7 @@ const SKIPFILE_NAME = './skip_files.txt';
 function readFileIntoArray(filename) {
     try {
         const data = fs.readFileSync(filename, 'utf8');
-        const lines = data.split('\n');
+        const lines = data.split('\n').map((line) => line.trim()).filter((line) => line !== '');
         return lines;
     } catch (err) {
         console.error(`Error reading file '${FILE_NAME}': ${err.message}`);

@@ -1,4 +1,4 @@
-../ModelOps/09_ModelOps_GIT_PIMA_Python_XGboost.ipynb 
+../ModelOps/09_ModelOps_GIT_PIMA_Python_XGboost.ipynb
 ../ModelOps/05_ModelOps_BYOM_PIMA_H2O.ipynb
 ../ModelOps/04_ModelOps_BYOM_PIMA_ONNX.ipynb
 ../ModelOps/03_ModelOps_BYOM_PIMA_PMML.ipynb
@@ -6,7 +6,7 @@
 ../ModelOps/08_ModelOps_GIT_PIMA_Python_H2OAutoML.ipynb
 ../UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_SQL.ipynb
 ../UseCases/Chat_Powered_Product_Recommendation/Chat_powered_product_recommendation_based_on_search_output.ipynb
-../UseCases/Heart_Failure_Prediction/Heart_Failure_Prediction_Python.ipynb 
+../UseCases/Heart_Failure_Prediction/Heart_Failure_Prediction_Python.ipynb
 ../UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_VertexAI_CustomModel.ipynb
 ../UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_PY_SQL.ipynb
 ../UseCases/Remaining_Useful_Life_Forecasting/Remaining_Useful_Life_Forecasting_PY_SQL.ipynb
@@ -21,7 +21,7 @@
 ../ModelOps/10_ModelOps_GIT_PIMA_R_GBM.ipynb
 ../UseCases/Recommendations_product_search/Recommendations_product_search_OpenAI_using_TDAPIClient_Python.ipynb
 ../UseCases/Recommendations_product_search/Recommendations_product_search_OpenAI_Python.ipynb
-../ModelOps/06_ModelOps_GIT_Project_Setup.ipynb 
+../ModelOps/06_ModelOps_GIT_Project_Setup.ipynb
 ../UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_Sagemaker.ipynb
 ../UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python.ipynb
 ../UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_RAG.ipynb
@@ -30,9 +30,9 @@
 ../Getting_Started/PySpark_to_Teradataml/HousingPrices_pyspark_to_tdml.ipynb
 ../UseCases/.Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_PY_SQL.ipynb
 ../UseCases/Signal_Processing_and_Classification/Signal_Processing_and_Classification_Python.ipynb
-../UseCases/Natural_Language_Processing/Natural_Language_Processing_Python.ipynb 
-../UseCases/Data_Dictionary/Data_Dictionary.ipynb 
-../UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb 
+../UseCases/Natural_Language_Processing/Natural_Language_Processing_Python.ipynb
+../UseCases/Data_Dictionary/Data_Dictionary.ipynb
+../UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb
 ../UseCases/Data_Dictionary/Data_Dictionary_Raw.ipynb
 ../UseCases/Query_Service/Query_Service.ipynb
 ../UseCases/Grocery_Recommendation/Grocery_Recommendation_PY_SQL.ipynb
