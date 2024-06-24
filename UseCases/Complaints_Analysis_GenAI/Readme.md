@@ -33,7 +33,7 @@
 <!-- Tile 3 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Sentiment Analysis</h2>
-    <img src="./images/sentiment.png" alt="Sentiment Analysis Bedrock" style="width: 100%; height: auto; margin-bottom: 10px;" />
+    <img src="./images/sentiment_analysis.png" alt="Sentiment Analysis Bedrock" style="width: 100%; height: auto; margin-bottom: 10px;" />
     <p><em>Sentiment Analysis Using Vantage and Amazon Bedrock</em></p>
     <div style="text-align: right;">
         <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/0780f4aae5fd869d8c19c2668b1275282894b3b1/UseCases/Complaints_Analysis_GenAI/Sentiment_Analysis_Bedrock.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
