@@ -45,7 +45,7 @@ jobs:
         npx playwright test
     - name: Delete test environments
       if: always()
-      run: npx ts-node post_delete_env
+      run: npx ts-node post_delete_env.ts
     - uses: actions/upload-artifact@v3
       if: always()
       with:
