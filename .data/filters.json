@@ -138,6 +138,22 @@
                 {
                     "subjseq": 15,
                     "subject": "Prediction Analysis"
+                },
+                {
+                    "subjseq": 16,
+                    "subject": "Natural Language Processing"
+                },
+                {
+                    "subjseq": 17,
+                    "subject": "OpenAI"
+                },
+                {
+                    "subjseq": 18,
+                    "subject": "Signal Processing"
+                },
+                {
+                    "subjseq": 19,
+                    "subject": "Open Source"
                 }
             ]
         },
