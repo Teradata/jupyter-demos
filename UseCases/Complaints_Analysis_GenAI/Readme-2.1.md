@@ -33,7 +33,7 @@
 <!-- Tile 3 -->
 <div style="border: 1px solid #00233c; padding: 20px; background-color: #F5F5F5; margin-bottom: 20px;">
     <h2>Sentiment Analysis</h2>
-    <img src="./images/sentiment.png" alt="Sentiment Analysis using VantageCloud Lake on Google and Gemini" style="width: 100%; height: auto; margin-bottom: 10px;" />
+    <img src="./images/sentiment_analysis.png" alt="Sentiment Analysis using VantageCloud Lake on Google and Gemini" style="width: 100%; height: auto; margin-bottom: 10px;" />
     <p><em>Sentiment Analysis using VantageCloud Lake on Google and Gemini</em></p>
     <div style="text-align: right;">
         <a href="https://nbviewer.org/github/Teradata/jupyter-demos/blob/eae8bfc793bdce00be260f5c70bbcba2d37c5621/UseCases/Complaints_Analysis_GenAI/Sentiment_Analysis_VCL_gemini.ipynb" style="padding: 10px; background-color: #00233c; color: #FFFFFF; text-decoration: none; border-radius: 5px;">
