@@ -1,4 +1,4 @@
-import { test, expect,  } from '@playwright/test';
+import { test, expect, errors } from '@playwright/test';
 import { EnvPool } from '../environments';
 import * as fs from 'fs';
 
@@ -103,7 +103,10 @@ for (let i = 0; i < testCount; i++) {
                 await page.locator('span[class="f1235lqo"] >> text="'+strKernelType+'| Busy"').waitFor({timeout: 2000});
                 expect
             } catch (e) {
-                continue;
+                if(e instanceof errors.TimeoutError) {
+                    continue;
+                }
+                throw e;
             }
             
             if (await page.locator('span[class="f1235lqo"] >> text="'+strKernelType+'| Busy"').isVisible())
