@@ -1,2 +1,3 @@
-sentence-transformers
-FlagEmbedding
+pyopenssl
+cryptography
+tdapiclient
