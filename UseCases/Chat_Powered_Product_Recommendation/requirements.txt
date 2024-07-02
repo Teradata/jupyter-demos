@@ -1,5 +1,3 @@
-sentence-transformers
-FlagEmbedding
 fastparquet
 langchain 
 faiss-cpu
@@ -11,3 +9,4 @@ yellowbrick
 langchain-community
 pyopenssl
 cryptography
+tdapiclient
