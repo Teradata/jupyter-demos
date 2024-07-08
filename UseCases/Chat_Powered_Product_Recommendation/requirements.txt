@@ -9,3 +9,4 @@ pyopenssl
 cryptography
 tdapiclient
 langchain-openai
+google-cloud-aiplatform
