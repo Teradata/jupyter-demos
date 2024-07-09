@@ -46,11 +46,12 @@ jobs:
       with:
         secrets: |-
           openai:clearscape-ci/JUPYTER_NOTEBOOK_CI_OPEN_AI_KEY
+        export_to_environment: true
 
     # Example of using the output
     - name: 'Set up the JUPYTER_NOTEBOOK_CI_OPEN_AI_KEY to OPEN_AI_KEY'
       run: |
-        echo %OPEN_AI_KEY
+        printenv
       env:
         OPEN_AI_KEY: '${{ steps.secrets.outputs.openai }}'
     - uses: actions/checkout@v3
