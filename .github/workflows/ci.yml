@@ -39,19 +39,20 @@ jobs:
       uses: 'google-github-actions/auth@v2'
       with:
         workload_identity_provider: 'projects/561066095864/locations/global/workloadIdentityPools/github/providers/jupyter-demos'
+        service_account: 'cicd-sa@clearscape-ci.iam.gserviceaccount.com' 
 
     - id: 'secrets'
       uses: 'google-github-actions/get-secretmanager-secrets@v2'
       with:
         secrets: |-
-          token:clearscape-ci/JUPYTER_NOTEBOOK_CI_OPEN_AI_KEY
+          openai:clearscape-ci/JUPYTER_NOTEBOOK_CI_OPEN_AI_KEY
 
     # Example of using the output
     - name: 'Set up the JUPYTER_NOTEBOOK_CI_OPEN_AI_KEY to OPEN_AI_KEY'
       run: |
         echo %OPEN_AI_KEY
       env:
-        OPEN_AI_KEY: '${{ steps.secrets.outputs.token }}'
+        OPEN_AI_KEY: '${{ steps.secrets.outputs.openai }}'
     - uses: actions/checkout@v3
     - uses: actions/setup-node@v3
       with:
