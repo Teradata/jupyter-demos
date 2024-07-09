@@ -50,39 +50,32 @@ jobs:
       with:
         workload_identity_provider: 'projects/561066095864/locations/global/workloadIdentityPools/github/providers/jupyter-demos'
         service_account: 'cicd-sa@clearscape-ci.iam.gserviceaccount.com' 
-
     - name: Get secrets from Google Secret Manager
       id: 'secrets'
       uses: 'google-github-actions/get-secretmanager-secrets@v2'
       with:
         secrets: |-
-          openai:clearscape-ci/JUPYTER_NOTEBOOK_CI_OPEN_AI_KEY
+          OPENAI_API_KEY:clearscape-ci/JUPYTER_NOTEBOOK_CI_OPEN_AI_KEY
         export_to_environment: true
-
-    # Example of using the output
-    - name: 'Set up the JUPYTER_NOTEBOOK_CI_OPEN_AI_KEY to OPEN_AI_KEY'
+    - name: Install dependencies
+      run: npm ci
+    - name: Install Playwright browsers
       run: |
-        printenv
-
-    # - name: Install dependencies
-    #   run: npm ci
-    # - name: Install Playwright browsers
-    #   run: |
-    #     npx playwright install --with-deps
-    # - name: Find all Jupyter notebooks
-    #   run: find .. -name '*.ipynb' | sort > ./files.txt
-    # - name: Start test environments
-    #   id: start-test-environment
-    #   run: npx ts-node pre_create_env.ts
-    # - name: Run Playwright tests
-    #   run: |
-    #     npx playwright test
-    # - name: Delete test environments
-    #   if: always()
-    #   run: npx ts-node post_delete_env.ts
-    # - uses: actions/upload-artifact@v3
-    #   if: always()
-    #   with:
-    #     name: playwright-report
-    #     path: .tests/playwright-report/
-    #     retention-days: 30
+        npx playwright install --with-deps
+    - name: Find all Jupyter notebooks
+      run: find .. -name '*.ipynb' | sort > ./files.txt
+    - name: Start test environments
+      id: start-test-environment
+      run: npx ts-node pre_create_env.ts
+    - name: Run Playwright tests
+      run: |
+        npx playwright test
+    - name: Delete test environments
+      if: always()
+      run: npx ts-node post_delete_env.ts
+    - uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: playwright-report
+        path: .tests/playwright-report/
+        retention-days: 30

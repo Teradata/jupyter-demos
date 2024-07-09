@@ -1,0 +1,12 @@
+{
+    "../UseCases/Recommendations_product_search/Recommendations_product_search_OpenAI_using_TDAPIClient_Python.ipynb":[
+        {
+        "type":"env",
+        "value":"CSAE_ENV_PASSWORD"
+       },
+       {
+        "type":"env",
+        "value":"OPENAI_API_KEY"
+       }
+    ]
+}
