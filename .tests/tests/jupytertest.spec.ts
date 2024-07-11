@@ -1,7 +1,6 @@
 import { test, expect, errors } from '@playwright/test';
 import { EnvPool } from '../environments';
 import * as fs from 'fs';
-import { Console } from 'console';
 
 const CSAE_ENV_PASSWORD = process.env.CSAE_ENV_PASSWORD || 'asdfasdf';
 const CSAE_WORKERS_COUNT = parseInt(process.env.CSAE_WORKERS_COUNT || '1');
@@ -76,15 +75,12 @@ for (let i = 0; i < testCount; i++) {
         const juypterNotebookData = JSON.parse(fs.readFileSync(name, 'utf8'));
 
         let strKernelType = '';
-        if (juypterNotebookData.metadata.kernelspec.language === 'python') {
-            console.log('Python Notebook');
+        if (juypterNotebookData.metadata.kernelspec.language === 'python') { 
             strKernelType = "Python 3 (ipykernel) ";
         }
         else if (juypterNotebookData.metadata.kernelspec.language === 'Teradata SQL') {
-            console.log('Teradata SQL Notebook');
             strKernelType = 'Teradata SQL ';
         } else if (juypterNotebookData.metadata.kernelspec.language === 'R') {
-            console.log('R Notebook');
             strKernelType = 'R ';
         }
 

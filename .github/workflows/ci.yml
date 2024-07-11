@@ -39,17 +39,23 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: 16
-    - name: Define env name
-      id: define-environment-name
+    - name: Define env name and GCP credentials
+      id: define-environment
       run: |
         echo "env-name=ci-$(date +%s%N)" >> $GITHUB_OUTPUT
-
+        if [ "${TEST_ENV}" == "CI" ]; then
+          echo "workload_identity_provider=projects/561066095864/locations/global/workloadIdentityPools/github/providers/jupyter-demos" >> $GITHUB_ENV
+          echo "service_account=cicd-sa@clearscape-ci.iam.gserviceaccount.com" >> $GITHUB_ENV
+        else
+          echo "workload_identity_provider=projects/xyz/locations/global/workloadIdentityPools/github/providers/jupyter-demos" >> $GITHUB_ENV
+          echo "service_account=cicd-@clearscape-ci.iam.gserviceaccount.com" >> $GITHUB_ENV
+        fi
     - name: Authenticate with Google Cloud
       id: auth
       uses: 'google-github-actions/auth@v2'
       with:
-        workload_identity_provider: 'projects/561066095864/locations/global/workloadIdentityPools/github/providers/jupyter-demos'
-        service_account: 'cicd-sa@clearscape-ci.iam.gserviceaccount.com' 
+        workload_identity_provider: ${{steps.define-environment.outputs.workload_identity_provider}}
+        service_account: ${{steps.define-environment.outputs.service_account}}
     - name: Get secrets from Google Secret Manager
       id: 'secrets'
       uses: 'google-github-actions/get-secretmanager-secrets@v2'
