@@ -44,11 +44,11 @@ jobs:
         if [ "${TEST_ENV}" == "CI" ]; then
           echo "workload_identity_provider=projects/561066095864/locations/global/workloadIdentityPools/github/providers/jupyter-demos" >> $GITHUB_OUTPUT
           echo "service_account=cicd-sa@clearscape-ci.iam.gserviceaccount.com" >> $GITHUB_OUTPUT
-          echo "CSAE_CLEARSCAPE_API_KEY=${{secrets.CSAE_CI_CLEARSCAPE_API_KEY}}" >> $GITHUB_ENV
+          echo "CSAE_CLEARSCAPE_API_KEY=${{ secrets.CSAE_CI_CLEARSCAPE_API_KEY }}" >> $GITHUB_ENV
         else
           echo "workload_identity_provider=projects/xyz/locations/global/workloadIdentityPools/github/providers/jupyter-demos" >> $GITHUB_OUTPUT
           echo "service_account=cicd-@clearscape-ci.iam.gserviceaccount.com" >> $GITHUB_OUTPUT
-          echo "CSAE_CLEARSCAPE_API_KEY=${{secrets.CSAE_CLEARSCAPE_API_KEY}}" >> $GITHUB_ENV
+          echo "CSAE_CLEARSCAPE_API_KEY=${{ secrets.CSAE_CLEARSCAPE_API_KEY }}" >> $GITHUB_ENV
         fi
     - name: Authenticate with Google Cloud
       id: auth
