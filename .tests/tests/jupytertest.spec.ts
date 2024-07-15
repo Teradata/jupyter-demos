@@ -32,15 +32,30 @@ function readFileIntoArray(filename) {
     }
 }
 
+function loadTestData(filename) {
+    const testDataFilename = filename.replace(/.ipynb$/, '.testdata');
+    const  lines = readFileIntoArray(testDataFilename);
+    return lines.reduce((testData, line) => {
+        const [keyString, value] = line.split(' ');
+        const key = parseInt(keyString);
+        if(value.charAt(0) === '$') {
+        switch (value) {
+                case '$DBPassword':
+                    testData[key] = { type: 'env', value: 'CSAE_ENV_PASSWORD' };
+                    break;
+                case '$OpenAIAPIKey':
+                    testData[key] = { type: 'env', value: 'CSAE_OPENAPI_KEY' };
+                    break;
+            }
+        } else {
+            testData[key] = { type: 'text', value };
+        }
+        return testData;
+    }, {});
+}
+
 const skipfiles = readFileIntoArray(SKIPFILE_NAME)
 const files = readFileIntoArray(FILE_NAME).filter((name) => skipfiles.indexOf(name) === -1);
-
-let testData = {};
-try {
-    testData = JSON.parse(fs.readFileSync(TESTDATA_FILE, 'utf8'));
-} catch (err) {
-    console.error(`Error reading file './testdata.json': ${err.message}`);
-}
 
 const testCount = Math.ceil(files.length / CSAE_CI_JOB_COUNT);
 
@@ -60,10 +75,7 @@ for (let i = 0; i < testCount; i++) {
         test.setTimeout(10800000);
 
         // Get the test data inputs
-        let inputs;
-        if (testData) {
-            inputs = testData[name];
-        }
+        let inputs = loadTestData(name);
 
         // Create Env or get existing Env
         const env = await envPool.getEnv(testInfo.parallelIndex);
@@ -98,15 +110,14 @@ for (let i = 0; i < testCount; i++) {
 
         //Clicking to activate the note book
         jpCells.first().click();
-        let inputSequence = 0;
 
-        for (let i = 0; i < dm; i++) {
+        for (let i = 1; i <= dm; i++) {
             // To continute the notebook the kernel should be in Idle state. i.e previous cell execution should be completed.
             await page.locator('span[class="f1235lqo"] >> text="'+strKernelType+'| Idle"').waitFor({timeout: 600000});   
 
             //Check for any errors so far
             await expect(page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']")).toHaveCount(0);
-            await expect(page.locator(`div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell:nth-child(${i+1})`)).toHaveClass(/jp-mod-active/);
+            await expect(page.locator(`div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell:nth-child(${i})`)).toHaveClass(/jp-mod-active/);
             
             // Go to next step by clicking the Run button
             await page.getByRole('button', { name: 'Run the selected cells and' }).click();
@@ -122,13 +133,13 @@ for (let i = 0; i < testCount; i++) {
                 console.log('inputField.isVisible()');
                 if (await inputField.isVisible()) {
                     let input = CSAE_ENV_PASSWORD;
-                    if (inputs && inputs[inputSequence]) {
-                        switch (inputs[inputSequence].type) {
+                    if (inputs && inputs[i]) {
+                        switch (inputs[i].type) {
                             case 'env':
-                                input = process.env[inputs[inputSequence].value]!;
+                                input = process.env[inputs[i].value]!;
                                 break;
                             case 'text':
-                                input = inputs[inputSequence].value;
+                                input = inputs[i].value;
                                 break;
                         }
                     }
@@ -136,8 +147,6 @@ for (let i = 0; i < testCount; i++) {
                     await page.locator('input[class="jp-Stdin-input"]').click();
                     await page.keyboard.press('Enter');
                     await page.getByRole('button', { name: 'Run the selected cells and' }).click();
-                    console.log('inputSequence:'+inputSequence+' Input: ' + input);
-                    inputSequence++;
                 }
             } catch (e) {
                 if (e instanceof errors.TimeoutError) {
