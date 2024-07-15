@@ -104,7 +104,7 @@ for (let i = 0; i < testCount; i++) {
         //Get the number of cells in the notebook
         const jpCells = await page.locator('div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell');
         await jpCells.first().waitFor({ timeout: 300000 });
-        console.log('jpCells: ' + await jpCells.count());
+        console.log('Number of cells: ' + await jpCells.count());
 
         var dm = await juypterNotebookData.cells.length; // Default Number of iterations for each Notebook demo
 
@@ -125,12 +125,11 @@ for (let i = 0; i < testCount; i++) {
             // Wait to see if the kernel is started because of the cell execution (some cell does not have execution like text).
             try {
                 await page.locator('span[class="f1235lqo"] >> text="' + strKernelType + '| Busy"').waitFor({ timeout: 2000 });
-                console.log('Kernel Busy '+i);
                 const inputField = await page.locator('input[class="jp-Stdin-input"]')
 
                 //wait for input field to appear or else error out and continue to kernal Idle state.
                 await inputField.waitFor({ timeout: 3000 });
-                console.log('inputField.isVisible()');
+                console.log('input prompt appeared at cell '+i);
                 if (await inputField.isVisible()) {
                     let input = CSAE_ENV_PASSWORD;
                     if (inputs && inputs[i]) {
