@@ -1,5 +1,5 @@
 fastparquet
-langchain 
+langchain==0.1.20
 faiss-cpu
 tiktoken
 panel
