@@ -1,0 +1,21 @@
+{
+    "required_input": [
+        {
+            "value": "ibm_stock",
+            "partitionAttributes": "",
+            "orderByColumn": "",
+            "kind": "None"
+        }
+    ],
+    "arguments": {
+        "TargetColumns": [
+            "stockprice"
+        ],
+        "IncludeFirst": true,
+        "Alpha": 0.22,
+        "StartRows": 3.0,
+        "WindowSize": 11.0,
+        "MavgType": "M"
+    },
+    "function_name": "MovingAverage"
+}
