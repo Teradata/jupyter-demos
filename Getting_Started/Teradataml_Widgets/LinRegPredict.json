@@ -1,0 +1,27 @@
+{
+    "required_input": [
+        {
+            "value": "titanic",
+            "partitionAttributes": "",
+            "orderByColumn": "",
+            "kind": "PartitionByNone"
+        },
+        {
+            "value": "LinearRegression_Output",
+            "partitionAttributes": "",
+            "orderByColumn": "",
+            "kind": "PartitionByNone"
+        }
+    ],
+    "arguments": {
+        "IndexColumns": [
+            "SURVIVED"
+        ],
+        "ResponseColumn": "fare",
+        "Accumulate": [
+            "age",
+            "pclass"
+        ]
+    },
+    "function_name": "Linear Regression Predict VAL"
+}
