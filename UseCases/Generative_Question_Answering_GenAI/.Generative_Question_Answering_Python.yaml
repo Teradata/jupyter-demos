@@ -1,0 +1,5 @@
+inputs:
+  - type: text
+    value: 'What is the average income for Phoenix?'
+    cell: 43
+

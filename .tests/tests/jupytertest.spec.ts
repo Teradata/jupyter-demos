@@ -1,6 +1,7 @@
 import { test, expect, errors } from '@playwright/test';
 import { EnvPool } from '../environments';
 import * as fs from 'fs';
+import { parse as yamlParse } from 'yaml'
 
 const CSAE_ENV_PASSWORD = process.env.CSAE_ENV_PASSWORD || 'asdfasdf';
 const CSAE_WORKERS_COUNT = parseInt(process.env.CSAE_WORKERS_COUNT || '1');
@@ -19,7 +20,17 @@ test.describe.configure({ mode: 'parallel' });
 // find .. -name '*.ipynb'  > ./files.txt
 const FILE_NAME = './files.txt';
 const SKIPFILE_NAME = './skip_files.txt';
-const TESTDATA_FILE = './testdata.json';
+
+interface TestData {
+    inputs: Input[]
+}
+interface Input {
+    type: string
+    value: string
+    cell: number
+    nextAction: string
+
+}
 
 function readFileIntoArray(filename) {
     try {
@@ -32,26 +43,11 @@ function readFileIntoArray(filename) {
     }
 }
 
-function loadTestData(filename) {
-    const testDataFilename = filename.replace(/.ipynb$/, '.testdata');
-    const  lines = readFileIntoArray(testDataFilename);
-    return lines.reduce((testData, line) => {
-        const [keyString, value] = line.split(' ');
-        const key = parseInt(keyString);
-        if(value.charAt(0) === '$') {
-        switch (value) {
-                case '$DBPassword':
-                    testData[key] = { type: 'env', value: 'CSAE_ENV_PASSWORD' };
-                    break;
-                case '$OpenAIAPIKey':
-                    testData[key] = { type: 'env', value: 'CSAE_OPENAPI_KEY' };
-                    break;
-            }
-        } else {
-            testData[key] = { type: 'text', value };
-        }
-        return testData;
-    }, {});
+function loadTestData(filename): Input[] {
+    const filenameArray = filename.split('/')
+    filenameArray[filenameArray.length - 1] = '.'+filenameArray[filenameArray.length - 1].replace(/.ipynb$/, '.yaml');
+    const testDataFilename = filenameArray.join('/');
+    return (yamlParse(fs.readFileSync(testDataFilename, 'utf8')) as TestData).inputs;
 }
 
 const skipfiles = readFileIntoArray(SKIPFILE_NAME)
@@ -75,7 +71,7 @@ for (let i = 0; i < testCount; i++) {
         test.setTimeout(10800000);
 
         // Get the test data inputs
-        let inputs = loadTestData(name);
+        let inputs: Input[] = loadTestData(name);
 
         // Create Env or get existing Env
         const env = await envPool.getEnv(testInfo.parallelIndex);
@@ -87,7 +83,7 @@ for (let i = 0; i < testCount; i++) {
         const juypterNotebookData = JSON.parse(fs.readFileSync(name, 'utf8'));
 
         let strKernelType = '';
-        if (juypterNotebookData.metadata.kernelspec.language === 'python') { 
+        if (juypterNotebookData.metadata.kernelspec.language === 'python') {
             strKernelType = "Python 3 (ipykernel) ";
         }
         else if (juypterNotebookData.metadata.kernelspec.language === 'Teradata SQL') {
@@ -113,46 +109,75 @@ for (let i = 0; i < testCount; i++) {
 
         for (let i = 1; i <= dm; i++) {
             // To continute the notebook the kernel should be in Idle state. i.e previous cell execution should be completed.
-            await page.locator('span[class="f1235lqo"] >> text="'+strKernelType+'| Idle"').waitFor({timeout: 600000});   
+            await page.locator('span[class="f1235lqo"] >> text="' + strKernelType + '| Idle"').waitFor({ timeout: 600000 });
 
             //Check for any errors so far
             await expect(page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']")).toHaveCount(0);
             await expect(page.locator(`div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell:nth-child(${i})`)).toHaveClass(/jp-mod-active/);
-            
+
             // Go to next step by clicking the Run button
             await page.getByRole('button', { name: 'Run the selected cells and' }).click();
 
+            const inputField = await page.locator('input[class="jp-Stdin-input"]')
             // Wait to see if the kernel is started because of the cell execution (some cell does not have execution like text).
             try {
                 await page.locator('span[class="f1235lqo"] >> text="' + strKernelType + '| Busy"').waitFor({ timeout: 2000 });
-                const inputField = await page.locator('input[class="jp-Stdin-input"]')
-
                 //wait for input field to appear or else error out and continue to kernal Idle state.
                 await inputField.waitFor({ timeout: 3000 });
-                console.log('input prompt appeared at cell '+i);
-                if (await inputField.isVisible()) {
-                    let input = CSAE_ENV_PASSWORD;
-                    if (inputs && inputs[i]) {
-                        switch (inputs[i].type) {
-                            case 'env':
-                                input = process.env[inputs[i].value]!;
-                                break;
-                            case 'text':
-                                input = inputs[i].value;
-                                break;
-                        }
-                    }
-                    await page.fill('input[class="jp-Stdin-input"]', input);
-                    await page.locator('input[class="jp-Stdin-input"]').click();
-                    await page.keyboard.press('Enter');
-                    await page.getByRole('button', { name: 'Run the selected cells and' }).click();
-                }
             } catch (e) {
                 if (e instanceof errors.TimeoutError) {
                     continue;
                 }
                 throw e;
             }
+           
+            if (await inputField.isVisible()) {
+                console.log('input prompt appeared at cell ' + i);
+                //defaults
+                let input = CSAE_ENV_PASSWORD;
+                let nextAction = 'Shift+Enter';
+                let inputData = inputs ? inputs.find(input => input.cell === i) : undefined;
+
+                if (inputData) {
+                    switch (inputData.type) {
+                        case 'env':
+                            input = process.env[inputData.value]!;
+                            break;
+                        case 'text':
+                            input = inputData.value;
+                            break;
+                    }
+                    if (inputData.nextAction) {
+                        nextAction = inputData.nextAction;
+                    }
+                } else {
+                    //all generalized inputs and actions are done here
+                    if (await page.getByText('Please Enter OpenAI API key:', { exact: true }).isVisible()) {
+                        input = process.env.CSAE_OPENAPI_KEY!;
+                        nextAction = 'ArrowDown';
+                    }
+                }
+
+                //fill the input field and press enter to continue
+                await page.fill('input[class="jp-Stdin-input"]', input);
+                await page.locator('input[class="jp-Stdin-input"]').click();
+                await page.keyboard.press('Enter');
+                await page.keyboard.press(nextAction);
+            }
+            
+            // If same cell is active after execution, adding some wait here.
+            try {
+                await page.locator(`div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell:nth-child(${i}).jp-mod-active`).waitFor({ timeout: 3000 });
+            } catch (e) {
+                if (e instanceof errors.TimeoutError) {
+                    continue;
+                }
+                throw e;
+            }
+
+            // cursor should have moved to next cell
+            await expect(page.locator(`div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell:nth-child(${i+1})`)).toHaveClass(/jp-mod-active/);
+            
         }
     });
 }
