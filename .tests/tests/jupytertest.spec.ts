@@ -47,7 +47,10 @@ function loadTestData(filename): Input[] {
     const filenameArray = filename.split('/')
     filenameArray[filenameArray.length - 1] = '.'+filenameArray[filenameArray.length - 1].replace(/.ipynb$/, '.yaml');
     const testDataFilename = filenameArray.join('/');
-    return (yamlParse(fs.readFileSync(testDataFilename, 'utf8')) as TestData).inputs;
+    if (fs.existsSync(testDataFilename)){
+        return (yamlParse(fs.readFileSync(testDataFilename, 'utf8')) as TestData).inputs;
+    }
+    return []
 }
 
 const skipfiles = readFileIntoArray(SKIPFILE_NAME)
