@@ -27,9 +27,8 @@ interface TestData {
 interface Input {
     type: string
     value: string
+    prompt: string
     cell: number
-    nextAction: string
-
 }
 
 function readFileIntoArray(filename) {
@@ -135,11 +134,22 @@ for (let i = 0; i < testCount; i++) {
             }
            
             if (await inputField.isVisible()) {
+                
                 console.log('input prompt appeared at cell ' + i);
                 //defaults
                 let input = CSAE_ENV_PASSWORD;
-                let nextAction = 'Shift+Enter';
                 let inputData = inputs ? inputs.find(input => input.cell === i) : undefined;
+                
+                for(let j=0;j<inputs.length;j++){
+                    if(inputs[j].cell === i){
+                        inputData = inputs[j];
+                        break;
+                    }
+                    if(inputs[j].prompt && await page.locator('pre[class="jp-Stdin-prompt"]',{hasText:inputs[j].prompt}).isVisible()){
+                        inputData = inputs[j];
+                        break;
+                    }
+                }
 
                 if (inputData) {
                     switch (inputData.type) {
@@ -150,22 +160,20 @@ for (let i = 0; i < testCount; i++) {
                             input = inputData.value;
                             break;
                     }
-                    if (inputData.nextAction) {
-                        nextAction = inputData.nextAction;
-                    }
                 } else {
                     //all generalized inputs and actions are done here
                     if (await page.getByText('Please Enter OpenAI API key:', { exact: true }).isVisible()) {
                         input = process.env.CSAE_OPENAPI_KEY!;
-                        nextAction = 'ArrowDown';
                     }
+
+                    
                 }
 
                 //fill the input field and press enter to continue
                 await page.fill('input[class="jp-Stdin-input"]', input);
                 await page.locator('input[class="jp-Stdin-input"]').click();
                 await page.keyboard.press('Enter');
-                await page.keyboard.press(nextAction);
+                await page.keyboard.press('ArrowDown');
             }
             
             // If same cell is active after execution, adding some wait here.

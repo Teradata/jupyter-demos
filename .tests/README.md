@@ -9,13 +9,12 @@ inputs:
   - type: env
     value: 'CSAE_OPENAPI_KEY'
     cell: 12
-    nextAction: 'ArrowDown'
   - type: env
     value: 'CSAE_ENV_PASSWORD'
     cell: 14
   - type: text
     value: 'What is the average income for Phoenix?'
-    cell: 43
+    prompt: 'We invite you to enter your natural language query:'
 ```
 ## Description 
 | Field  | Description |
@@ -23,7 +22,10 @@ inputs:
 | type | There 2 type of inputs as of now `env` and the `text`. `text` will simply substiture the same value where as for `env` value is fetched from the secrets.|
 | value | string value in case of type `text`. secrect key in case of type `env`. |
 | cell | cell number of the cell where the this input should be filled. |
+| prompt | can specify the input lable in the notebook |
 | nextAction | key that should be simulated as pressed after filling in the input. |
+
+Note: Can use the cell or prompt from selecting the input
 
 ## Secrets
 | Secret env  | value |
