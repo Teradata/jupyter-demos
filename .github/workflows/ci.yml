@@ -44,10 +44,12 @@ jobs:
         if [ "${TEST_ENV}" == "CI" ]; then
           echo "workload_identity_provider=projects/561066095864/locations/global/workloadIdentityPools/github/providers/jupyter-demos" >> $GITHUB_OUTPUT
           echo "service_account=cicd-sa@clearscape-ci.iam.gserviceaccount.com" >> $GITHUB_OUTPUT
+          echo "gcp_project=clearscape-ci" >> $GITHUB_OUTPUT
           echo "CSAE_CLEARSCAPE_API_KEY=${{ secrets.CSAE_CI_CLEARSCAPE_API_KEY }}" >> $GITHUB_ENV
         else
           echo "workload_identity_provider=projects/323844706402/locations/global/workloadIdentityPools/github/providers/jupyter-demos" >> $GITHUB_OUTPUT
           echo "service_account=cicd-sa@clearscape-production.iam.gserviceaccount.com" >> $GITHUB_OUTPUT
+          echo "gcp_project=clearscape-production" >> $GITHUB_OUTPUT
           echo "CSAE_CLEARSCAPE_API_KEY=${{ secrets.CSAE_CLEARSCAPE_API_KEY }}" >> $GITHUB_ENV
         fi
     - name: Authenticate with Google Cloud
@@ -61,7 +63,7 @@ jobs:
       uses: 'google-github-actions/get-secretmanager-secrets@v2'
       with:
         secrets: |-
-          OPENAI_API_KEY:clearscape-ci/JUPYTER_NOTEBOOK_CI_OPEN_AI_KEY
+          OPENAI_API_KEY:${{steps.define-environment.outputs.gcp_project}}/JUPYTER_NOTEBOOK_CI_OPEN_AI_KEY
         export_to_environment: true
     - name: Install dependencies
       run: npm ci
