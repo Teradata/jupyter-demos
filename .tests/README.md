@@ -2,7 +2,7 @@
 
 This guide assists notebook developers in providing testing inputs for the prompts in the Jupyter notebook. For notebooks that require more inputs than the DBPassword, users can provide a file to facilitate the Playwright CI process. This file should have the same filename as the notebook and end with the extension `.yaml` and also the filename should start with `.` to make it hidden file. It should reside in the same directory as the notebook. If the notebook does not require this file, there's no need to create one.
 
-The notebook is a simple set of key-value pairs in yaml format
+The configuration file is a simple set of key-value pairs in yaml format
 
 ```
 inputs:
