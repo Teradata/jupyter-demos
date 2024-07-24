@@ -1,7 +1,0 @@
-langchain 
-openai
-faiss-cpu
-tiktoken
-pypdf
-panel==1.3.4
-FlagEmbedding
