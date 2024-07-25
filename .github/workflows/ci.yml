@@ -15,14 +15,15 @@ defaults:
     shell: bash
 jobs:
   test:
+    permissions:
+     contents: 'read'
+     id-token: 'write'
     strategy:
       fail-fast: false
       matrix:
         idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     env:
         CSAE_ENV_PASSWORD: '${{ secrets.CSAE_ENV_PASSWORD }}'
-        CSAE_CLEARSCAPE_API_KEY: '${{ secrets.CSAE_CLEARSCAPE_API_KEY }}'
-        CSAE_CI_CLEARSCAPE_API_KEY: '${{ secrets.CSAE_CI_CLEARSCAPE_API_KEY }}'
         CSAE_PARALLEL_TESTS_COUNT: '${{ vars.CSAE_PARALLEL_TESTS_COUNT }}'
         CSAE_WORKERS_COUNT: '${{ vars.CSAE_WORKERS_COUNT }}'
         CSAE_CI_JOB_IDX: ${{ matrix.idx }}
@@ -36,10 +37,34 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: 16
-    - name: Define env name
-      id: define-environment-name
+    - name: Define env name and GCP credentials
+      id: define-environment
       run: |
         echo "env-name=ci-$(date +%s%N)" >> $GITHUB_OUTPUT
+        if [ "${TEST_ENV}" == "CI" ]; then
+          echo "workload_identity_provider=projects/561066095864/locations/global/workloadIdentityPools/github/providers/jupyter-demos" >> $GITHUB_OUTPUT
+          echo "service_account=cicd-sa@clearscape-ci.iam.gserviceaccount.com" >> $GITHUB_OUTPUT
+          echo "gcp_project=clearscape-ci" >> $GITHUB_OUTPUT
+          echo "CSAE_CLEARSCAPE_API_KEY=${{ secrets.CSAE_CI_CLEARSCAPE_API_KEY }}" >> $GITHUB_ENV
+        else
+          echo "workload_identity_provider=projects/323844706402/locations/global/workloadIdentityPools/github/providers/jupyter-demos" >> $GITHUB_OUTPUT
+          echo "service_account=cicd-sa@clearscape-production.iam.gserviceaccount.com" >> $GITHUB_OUTPUT
+          echo "gcp_project=clearscape-production" >> $GITHUB_OUTPUT
+          echo "CSAE_CLEARSCAPE_API_KEY=${{ secrets.CSAE_CLEARSCAPE_API_KEY }}" >> $GITHUB_ENV
+        fi
+    - name: Authenticate with Google Cloud
+      id: auth
+      uses: 'google-github-actions/auth@v2'
+      with:
+        workload_identity_provider: ${{steps.define-environment.outputs.workload_identity_provider}}
+        service_account: ${{steps.define-environment.outputs.service_account}}
+    - name: Get secrets from Google Secret Manager
+      id: 'secrets'
+      uses: 'google-github-actions/get-secretmanager-secrets@v2'
+      with:
+        secrets: |-
+          OPENAI_API_KEY:${{steps.define-environment.outputs.gcp_project}}/JUPYTER_NOTEBOOK_CI_OPEN_AI_KEY
+        export_to_environment: true
     - name: Install dependencies
       run: npm ci
     - name: Install Playwright browsers

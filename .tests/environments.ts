@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = process.env.TEST_ENV === 'CI' ? process.env.CSAE_CI_CLEARSCAPE_API_KEY : process.env.CSAE_CLEARSCAPE_API_KEY;
+const API_KEY = process.env.CSAE_CLEARSCAPE_API_KEY
 const url = process.env.TEST_ENV === 'CI' ? 'https://api.ci.clearscape.teradata.com/environments' : 'https://api.clearscape.teradata.com/environments';
 
 const CSAE_ENV_PASSWORD = process.env.CSAE_ENV_PASSWORD || 'asdfasdf';
