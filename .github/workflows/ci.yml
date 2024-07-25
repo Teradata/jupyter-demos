@@ -1,13 +1,35 @@
 name: CI
 on:
   workflow_dispatch:
+    inputs:
+      test_env:
+        type: choice
+        description: 'Select the wether to run the tests in the CI environment or Production environment'
+        default: 'PROD'
+        options:
+          - CI
+          - PROD
 defaults:
   run:
     working-directory: .tests
     shell: bash
 jobs:
   test:
-    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    env:
+        CSAE_ENV_PASSWORD: '${{ secrets.CSAE_ENV_PASSWORD }}'
+        CSAE_CLEARSCAPE_API_KEY: '${{ secrets.CSAE_CLEARSCAPE_API_KEY }}'
+        CSAE_CI_CLEARSCAPE_API_KEY: '${{ secrets.CSAE_CI_CLEARSCAPE_API_KEY }}'
+        CSAE_PARALLEL_TESTS_COUNT: '${{ vars.CSAE_PARALLEL_TESTS_COUNT }}'
+        CSAE_WORKERS_COUNT: '${{ vars.CSAE_WORKERS_COUNT }}'
+        CSAE_CI_JOB_IDX: ${{ matrix.idx }}
+        TEST_ENV: ${{ github.event.inputs.test_env }}
+        CSAE_CI_JOB_COUNT: 10
+    name: Job ${{ matrix.idx }}
+    timeout-minutes:  1440
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -23,38 +45,17 @@ jobs:
     - name: Install Playwright browsers
       run: |
         npx playwright install --with-deps
-    - name: Start test environment
+    - name: Find all Jupyter notebooks
+      run: find .. -name '*.ipynb' | sort > ./files.txt
+    - name: Start test environments
       id: start-test-environment
-      run: |
-        RESULT=$(curl --location --request POST 'https://api.clearscape.teradata.com/environments' \
-          --header "Authorization: Bearer $CSAE_TOKEN" \
-          --header 'Content-Type: application/json' \
-          --data-raw "{
-              \"name\": \"$CSAE_ENV_NAME\",
-              \"region\": \"us-central\",
-              \"password\": \"$CSAE_ENV_PASSWORD\"
-          }")
-        # replace with jq
-        JUPYTER_ENV=$(echo $RESULT | grep url | head -n 1 | cut -d"\"" -f 4)
-        echo "jupyter-env-url=$JUPYTER_ENV" >> $GITHUB_OUTPUT
-      env:
-        CSAE_TOKEN: '${{ secrets.CSAE_TOKEN }}'
-        CSAE_ENV_PASSWORD: '${{ secrets.CSAE_ENV_PASSWORD }}'
-        CSAE_ENV_NAME: '${{ steps.define-environment-name.outputs.env-name}}'
+      run: npx ts-node pre_create_env.ts
     - name: Run Playwright tests
       run: |
         npx playwright test
-      env:
-        ENVIRONMENT: ${{ steps.start-test-environment.outputs.jupyter-env-url }}
-        CSAE_ENV_PASSWORD: '${{ secrets.CSAE_ENV_PASSWORD }}'
-    - name: Delete test environment
+    - name: Delete test environments
       if: always()
-      run: |
-        curl --location --request DELETE "https://api.clearscape.teradata.com/environments/$CSAE_ENV_NAME" \
-          --header "Authorization: Bearer $CSAE_TOKEN"
-      env:
-        CSAE_TOKEN: '${{ secrets.CSAE_TOKEN }}'
-        CSAE_ENV_NAME: '${{ steps.define-environment-name.outputs.env-name}}'        
+      run: npx ts-node post_delete_env.ts
     - uses: actions/upload-artifact@v3
       if: always()
       with:

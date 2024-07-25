@@ -6,3 +6,5 @@ Teradata/KernelInfo/*
 Teradata/Config/*
 .data/demo*
 Teradata/Config/userinfo.db
+.tests/bad_tests/
+.tests/test-results/**/*

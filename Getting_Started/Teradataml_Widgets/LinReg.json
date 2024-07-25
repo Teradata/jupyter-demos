@@ -1,0 +1,34 @@
+{
+    "required_input": [
+        {
+            "value": "titanic",
+            "partitionAttributes": "",
+            "orderByColumn": "",
+            "kind": "PartitionByNone"
+        }
+    ],
+    "arguments": {
+        "Inputcolumns": [
+            "age",
+            "pclass"
+        ],
+        "ResponseColumn": "fare",
+        "GroupBycolumns": "",
+        "Stepwise": false,
+        "Backward": "",
+        "BackwardOnly": "",
+        "Forward": "",
+        "ForwardOnly": "",
+        "F-Statistic": false,
+        "T-StatisticP-value": false,
+        "Constant": "",
+        "MatrixInput": false,
+        "XMLReport": "",
+        "StatsReport": "",
+        "ConditionIndexThreshold": 37.0,
+        "EntranceCriterion": 3.84,
+        "RemoveCriterion": 3.84,
+        "VarianceProportionThreshold": 0.5
+    },
+    "function_name": "Linear Regression VAL"
+}
