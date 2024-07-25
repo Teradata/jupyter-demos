@@ -25,7 +25,7 @@ inputs:
 | prompt | can specify the input lable in the notebook |
 | nextAction | key that should be simulated as pressed after filling in the input. |
 
-Note: Can use the cell or prompt from selecting the input
+Note: Can use the cell or prompt from selecting the input, When both cell and prompt matches an input the the prompt will take priority.
 
 ## Secrets
 | Secret env  | value |
