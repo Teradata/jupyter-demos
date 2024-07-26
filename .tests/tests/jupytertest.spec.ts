@@ -56,7 +56,7 @@ const skipfiles = readFileIntoArray(SKIPFILE_NAME)
 
 let files;
 if(process.env.CSAE_NOTEBOOKS){
-    files = process.env.CSAE_NOTEBOOKS.split(',');
+    files = process.env.CSAE_NOTEBOOKS.split(',').map((name) => name.trim());
 }else{
     files = readFileIntoArray(FILE_NAME).filter((name) => skipfiles.indexOf(name) === -1);
 }
