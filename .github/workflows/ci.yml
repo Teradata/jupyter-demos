@@ -1,7 +1,13 @@
-name: CI
+name: Nightly tests
+
 on:
+  schedule:
+    - cron: '0 0 * * *'
   workflow_dispatch:
     inputs:
+      notebooks: 
+        description: 'The path to the notebooks to test. leave empty to test all notebooks'
+        required: false
       test_env:
         type: choice
         description: 'Select the wether to run the tests in the CI environment or Production environment'
@@ -9,10 +15,12 @@ on:
         options:
           - CI
           - PROD
+
 defaults:
   run:
     working-directory: .tests
     shell: bash
+    
 jobs:
   test:
     permissions:
@@ -21,13 +29,13 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+        idx: ${{ github.event.inputs.notebooks == '' && '[0]' || '[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]' }}
     env:
         CSAE_ENV_PASSWORD: '${{ secrets.CSAE_ENV_PASSWORD }}'
         CSAE_PARALLEL_TESTS_COUNT: '${{ vars.CSAE_PARALLEL_TESTS_COUNT }}'
         CSAE_WORKERS_COUNT: '${{ vars.CSAE_WORKERS_COUNT }}'
         CSAE_CI_JOB_IDX: ${{ matrix.idx }}
-        TEST_ENV: ${{ github.event.inputs.test_env }}
+        TEST_ENV: ${{ github.event.inputs.test_env || 'PROD' }}
         CSAE_CI_JOB_COUNT: 10
     name: Job ${{ matrix.idx }}
     timeout-minutes:  1440
