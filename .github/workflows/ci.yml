@@ -33,10 +33,10 @@ jobs:
         CSAE_NOTEBOOKS: ${{ github.event.inputs.notebooks }}
         CSAE_ENV_PASSWORD: ${{ secrets.CSAE_ENV_PASSWORD }}
         CSAE_PARALLEL_TESTS_COUNT: ${{ vars.CSAE_PARALLEL_TESTS_COUNT }}
-        CSAE_WORKERS_COUNT: ${{ github.event.inputs.notebooks == '' && vars.CSAE_WORKERS_COUNT || '1' }}
+        CSAE_WORKERS_COUNT: ${{ vars.CSAE_WORKERS_COUNT }}
         CSAE_CI_JOB_IDX: ${{ matrix.idx }}
         TEST_ENV: ${{ github.event.inputs.test_env || 'PROD' }}
-        CSAE_CI_JOB_COUNT: 10
+        CSAE_CI_JOB_COUNT: ${{ github.event.inputs.notebooks == '' && '10' || '1' }}
     name: Job ${{ matrix.idx }}
     timeout-minutes:  1440
     runs-on: ubuntu-latest
