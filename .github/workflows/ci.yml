@@ -1,5 +1,8 @@
-name: CI
+name: Nightly tests
+
 on:
+  schedule:
+    - cron: '0 0 * * *'
   workflow_dispatch:
     inputs:
       test_env:
@@ -9,10 +12,15 @@ on:
         options:
           - CI
           - PROD
+      notebooks: 
+        description: 'The path to the notebooks to test. leave empty to test all notebooks'
+        required: false
+
 defaults:
   run:
     working-directory: .tests
     shell: bash
+    
 jobs:
   test:
     permissions:
@@ -20,15 +28,15 @@ jobs:
      id-token: 'write'
     strategy:
       fail-fast: false
-      matrix:
-        idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+      matrix: ${{ github.event.inputs.notebooks == '' && fromJson('{"idx":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}') || fromJson('{"idx":[0]}') }}
     env:
-        CSAE_ENV_PASSWORD: '${{ secrets.CSAE_ENV_PASSWORD }}'
-        CSAE_PARALLEL_TESTS_COUNT: '${{ vars.CSAE_PARALLEL_TESTS_COUNT }}'
-        CSAE_WORKERS_COUNT: '${{ vars.CSAE_WORKERS_COUNT }}'
+        CSAE_NOTEBOOKS: ${{ github.event.inputs.notebooks }}
+        CSAE_ENV_PASSWORD: ${{ secrets.CSAE_ENV_PASSWORD }}
+        CSAE_PARALLEL_TESTS_COUNT: ${{ vars.CSAE_PARALLEL_TESTS_COUNT }}
+        CSAE_WORKERS_COUNT: ${{ vars.CSAE_WORKERS_COUNT }}
         CSAE_CI_JOB_IDX: ${{ matrix.idx }}
-        TEST_ENV: ${{ github.event.inputs.test_env }}
-        CSAE_CI_JOB_COUNT: 10
+        TEST_ENV: ${{ github.event.inputs.test_env || 'PROD' }}
+        CSAE_CI_JOB_COUNT: ${{ github.event.inputs.notebooks == '' && '10' || '1' }}
     name: Job ${{ matrix.idx }}
     timeout-minutes:  1440
     runs-on: ubuntu-latest
