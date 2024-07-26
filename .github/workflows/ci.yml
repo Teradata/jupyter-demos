@@ -5,9 +5,6 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch:
     inputs:
-      notebooks: 
-        description: 'The path to the notebooks to test. leave empty to test all notebooks'
-        required: false
       test_env:
         type: choice
         description: 'Select the wether to run the tests in the CI environment or Production environment'
@@ -15,6 +12,9 @@ on:
         options:
           - CI
           - PROD
+      notebooks: 
+        description: 'The path to the notebooks to test. leave empty to test all notebooks'
+        required: false
 
 defaults:
   run:
