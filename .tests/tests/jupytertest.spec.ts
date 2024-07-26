@@ -53,7 +53,13 @@ function loadTestData(filename): Input[] {
 }
 
 const skipfiles = readFileIntoArray(SKIPFILE_NAME)
-const files = readFileIntoArray(FILE_NAME).filter((name) => skipfiles.indexOf(name) === -1);
+
+let files;
+if(process.env.CSAE_NOTEBOOKS){
+    files = process.env.CSAE_NOTEBOOKS.split(',');
+}else{
+    files = readFileIntoArray(FILE_NAME).filter((name) => skipfiles.indexOf(name) === -1);
+}
 
 const testCount = Math.ceil(files.length / CSAE_CI_JOB_COUNT);
 

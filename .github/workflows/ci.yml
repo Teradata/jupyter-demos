@@ -28,11 +28,12 @@ jobs:
      id-token: 'write'
     strategy:
       fail-fast: false
-      matrix: ${{ github.event.inputs.notebooks == '' && fromJson('{"idx":[0]}') || fromJson('{"idx":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}') }}
+      matrix: ${{ github.event.inputs.notebooks == '' && fromJson('{"idx":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}') || fromJson('{"idx":[0]}') }}
     env:
+        CSAE_NOTEBOOKS: ${{ github.event.inputs.notebooks }}
         CSAE_ENV_PASSWORD: '${{ secrets.CSAE_ENV_PASSWORD }}'
         CSAE_PARALLEL_TESTS_COUNT: '${{ vars.CSAE_PARALLEL_TESTS_COUNT }}'
-        CSAE_WORKERS_COUNT: '${{ vars.CSAE_WORKERS_COUNT }}'
+        CSAE_WORKERS_COUNT: '${{ github.event.inputs.notebooks == '' && vars.CSAE_WORKERS_COUNT || 1 }}'
         CSAE_CI_JOB_IDX: ${{ matrix.idx }}
         TEST_ENV: ${{ github.event.inputs.test_env || 'PROD' }}
         CSAE_CI_JOB_COUNT: 10
