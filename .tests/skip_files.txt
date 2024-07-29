@@ -42,3 +42,16 @@
 ../UseCases/Store_Sales_Forecasting_Prophet_STO/Store_Sales_Forecasting_Prophet_STO_PY_SQL.ipynb
 ../UseCases/Data_Quality_Anomaly_Detection/Data_Quality_Anomaly_Detection_Python.ipynb
 ../UseCases/Vehicle_Routing_Delivery/Vehicle_Routing_Delivery_STO_PY_SQL.ipynb
+../Getting_Started/Teradataml_Widgets/Plot_Notebook.ipynb
+../UseCases/Complaints_Analysis_GenAI/Complaint_Summarization.ipynb
+../Getting_Started/Teradataml_Widgets/Tutorial.ipynb
+../UseCases/Complaints_Analysis_GenAI/Complaints_Classification.ipynb
+../Getting_Started/tdplyr_R_Basics/tdplyr_R_Basics.ipynb
+../UseCases/Complaints_Analysis_GenAI/Complaints_Clustering.ipynb
+../UseCases/Customer_reviews_analysis_using_GenAI/Customer_reviews_analysis_using_GenAI_Python.ipynb
+../UseCases/Complaints_Analysis_GenAI/Speech_Recognition.ipynb
+../UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_Python.ipynb
+../UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_R.ipynb
+../UseCases/Complaints_Analysis_GenAI/Speech_Recognition_AWS_Bedrock.ipynb
+../UseCases/Complaints_Analysis_GenAI/Topic_Modelling.ipynb
+../ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb 
