@@ -10,13 +10,14 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+        - uses: actions/checkout@v4
         - name: Get branch name
           id: branch-name
           uses: tj-actions/branch-names@v6
         
         - name: Set shas
           id: set-shas
-          uses: nrwl/nx-set-shas@v3
+          uses: nrwl/nx-set-shas@v4
           with:
             main-branch-name: ${{ steps.branch-name.outputs.default_branch }} # Get the last successful commit for the current branch.
             workflow-id: 'test.yml'
