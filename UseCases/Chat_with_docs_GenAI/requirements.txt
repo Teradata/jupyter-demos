@@ -1,0 +1,11 @@
+langchain 
+langchain_community
+openai
+faiss-cpu
+tiktoken
+PyMuPDF
+panel==1.3.4
+google-cloud-aiplatform
+pyopenssl
+cryptography
+tdapiclient

@@ -1,13 +1,12 @@
-sentence-transformers
-FlagEmbedding
 fastparquet
-langchain 
+langchain==0.1.20
 faiss-cpu
 tiktoken
 panel
-boto3
-awscli
 yellowbrick
 langchain-community
 pyopenssl
 cryptography
+tdapiclient
+langchain-openai
+google-cloud-aiplatform
