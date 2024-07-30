@@ -6,6 +6,11 @@ on:
     branches:
      - 'feature/**'
 
+defaults:
+  run:
+    working-directory: .tests
+    shell: bash
+    
 jobs:
     myjob:
         runs-on: ubuntu-latest
