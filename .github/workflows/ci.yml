@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+     - 'feature/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+        - name: Get branch name
+          id: branch-name
+          uses: tj-actions/branch-names@v6
+        
+        - name: Set shas
+          id: set-shas
+          uses: nrwl/nx-set-shas@v3
+          with:
+            main-branch-name: ${{ steps.branch-name.outputs.default_branch }} # Get the last successful commit for the current branch.
+            workflow-id: 'test.yml'
+
+        - name: Run changed-files with the commit sha of the base branch
+          id: changed-files-base-sha-push
+          uses: tj-actions/changed-files@v44
+          with:
+            base_sha: ${{ steps.set-shas.outputs.base }}
+            files: |
+             **.ipynb
+            
+        - name: List all changed files markdown files
+          if: steps.changed-markdown-files.outputs.any_changed == 'true'
+          env:
+            ALL_CHANGED_FILES: ${{ steps.changed-markdown-files.outputs.all_changed_files }}
+          run: |
+            for file in ${ALL_CHANGED_FILES}; do
+                echo "$file was changed"
+            done
+     
