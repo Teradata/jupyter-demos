@@ -117,7 +117,7 @@ jobs:
             run: |
                 npx playwright test
           - name: Delete test environments
-            if: always()
+            if: ${{ success('start-test-environment') }}
             run: npx ts-node post_delete_env.ts
           - uses: actions/upload-artifact@v3
             if: always()
