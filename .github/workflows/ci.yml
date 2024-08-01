@@ -56,8 +56,9 @@ jobs:
               ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
             run: |
               for file in ${ALL_CHANGED_FILES}; do
-                if grep -Fxq $file skip_files.txt; then
-                  echo "../$file"
+                if ! grep -Fxq "../$file" skip_files.txt
+                  then
+                    echo "../$file"
                 fi
               done | sort > ./files.txt
               cat ./files.txt
