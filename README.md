@@ -24,18 +24,18 @@ If you have questions or issues, [**click here**](mailto:SC230208@teradata.com?s
 
 | Getting Started | Industries | Business Function | Analytic Function| 3rd Party Tools|
 |-----------|--------------|---------------|--------------- | --------------- |
-|<a href='#xFirst-Time-User'>**First Time User**</a>|<a href='#xAzure-Cloud'>Azure Cloud</a>|<a href='#xAutomotive'>Automotive</a>|*Finance*|<a href='#xData-Preparation'>Data Preparation</a>|<a href='#xAWS-SageMaker'>AWS SageMaker</a>|<a href='#xPython'>Python</a>|<a href='#xAnomaly-Detection'>Anomaly Detection</a>|<a href='#xBeta-Review'>Beta Review</a>|
-|<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>|<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>|<a href='#xDescriptive-Statistics'>Descriptive Statistics</a>|<a href='#xAzure-ML'>Azure ML</a>|<a href='#xSQL'>SQL</a>|*Customer Complaint Analysis*| |
+|<a href='#xFirst-Time-User'>**First Time User**</a>|<a href='#xAutomotive'>Automotive</a>|*Finance*|<a href='#xData-Preparation'>Data Preparation</a>|<a href='#xAWS-SageMaker'>AWS SageMaker</a>|<a href='#xAzure-Cloud'>Azure Cloud</a>|<a href='#xPython'>Python</a>|<a href='#xAnomaly-Detection'>Anomaly Detection</a>|<a href='#xBeta-Review'>Beta Review</a>|
+|<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>|<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>|<a href='#xDescriptive-Statistics'>Descriptive Statistics</a>|<a href='#xAzure-ML'>Azure ML</a>|<a href='#xSQL'>SQL</a>|<a href='#xCustomer-Complaint-Analysis'>Customer Complaint Analysis</a>|<a href='#xNew'>New</a>|
 |<a href='#xDeveloper-Information'>Developer Information</a>|<a href='#xFinancial'>Financial</a>| |*Feature Engineering*|<a href='#xCelebrus'>Celebrus</a>| |<a href='#xEnterprise-Feature-Store'>Enterprise Feature Store</a>| |
 | |<a href='#xHealthcare'>Healthcare</a>| |<a href='#xGenerative-AI'>Generative AI</a>|<a href='#xDataiku'>Dataiku</a>| |*Model Factory*| |
 | |<a href='#xManufacturing'>Manufacturing</a>| |<a href='#xGeospatial'>Geospatial</a>|<a href='#xH2O.ai'>H2O.ai</a>| | | |
 | |<a href='#xRetail'>Retail</a>| |<a href='#xHypothesis-testing'>Hypothesis testing</a>|*Microsoft PowerBI*| | | |
 | |<a href='#xTelco'>Telco</a>| |<a href='#xMachine-learning'>Machine learning</a>|*MicroStrategy*| | | |
-| |<a href='#xTravel-&-Transportation'>Travel & Transportation</a>| |<a href='#xModelOps'>ModelOps</a>|<a href='#xR'>R</a>| | | |
+| |<a href='#xTravel-&-Transportation'>Travel & Transportation</a>| |<a href='#xModelOps'>ModelOps</a>| |<a href='#xR'>R</a>| | |
 | |<a href='#xDefense'>Defense</a>| |<a href='#xObject-Storage'>Object Storage</a>|*SAP Business Objects*| | | |
 | | | |<a href='#xOpen-and-connected-analytics'>Open-and-connected analytics</a>|<a href='#xSAS'>SAS</a>| | | |
 | | | |<a href='#xPath-Analytics'>Path Analytics</a>|*Tableau*| | | |
-| | | |<a href='#xText-Analysis'>Text Analysis</a>|*Vertex AI*| | | |
+| | | |<a href='#xText-Analysis'>Text Analysis</a>|<a href='#xVertex-AI'>Vertex AI</a>| | | |
 | | | |<a href='#xTime-series-analytics'>Time series analytics</a>|<a href='#xAWS-Bedrock'>AWS Bedrock</a>| | | |
 
 
@@ -51,17 +51,9 @@ If you have questions or issues, [**click here**](mailto:SC230208@teradata.com?s
 <a id='xFirst-Time-User'></a>
 ### First Time User
 
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xAzure-Cloud'></a>
-### Azure Cloud
-
-#### Getting Started With Azure *Beta*
+#### Getting Started With Azure
 Follow these steps to create your first Azure account and create an Azure Machine Learning workspace to complete our AzureML use cases.<br>
-[Information](./UseCases/Energy_Consumption_Forecasting_AzureML/Getting_Started_with_Azure.ipynb) &ensp; [Information](./UseCases/Energy_Consumption_Forecasting_AzureML/Getting_Started_with_Azure.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xFirst-Time-User'></a>
-### First Time User
+[Information](./UseCases/Energy_Consumption_Forecasting_AzureML/Getting_Started_with_Azure.ipynb)
 
 #### Introduction Video
 Video description how to find demos in the index and folder view, tips on running demos and options for foreign vs local tables used in the demonstrations in your ClearScape Analytics environment.<br>
@@ -83,7 +75,7 @@ Not everyone that uses this site will want to learn programming. Some will want 
 <a id='xDeveloper-Information'></a>
 ### Developer Information
 
-#### Charting and Visualizations using teradataml *Beta*
+#### Charting and Visualizations using teradataml
 The td_plot method streamlines large-scale visualizations by providing users with efficient tools to create visualizations directly within the Vantage platform<br>
 [Python Version](./Getting_Started/Charting_and_Visualization/InDB_Visualizations_using_teradataml.ipynb)
 
@@ -99,13 +91,29 @@ Shows multiple ways to load data from local CSV files, and cloud files on Google
 Demonstration of using REST API calls to Vantage which is useful for web or mobile applications to access and maintain data.<br>
 [Python Version](./UseCases/Query_Service/Query_Service.ipynb)
 
-#### Using ClearScape Analytics with openAI *Beta*
+#### Using ClearScape Analytics with openAI
 To ensure optimal utilization of the OpenAI API in generative AI notebooks, it is essential to establish the API keys correctly. This concise guide outlines the process of configuring OpenAI API keys for seamless integration across multiple notebooks.<br>
 [Information](./UseCases/Openai_setup_api_key/Openai_setup_api_key.md)
 
 #### Convert PySpark to teradatamlspk
 Convert a PySpark script to teradatamlspk syntax and generate a HTML report using Housing Prices to generate price predictions.<br>
 [Python Version](./Getting_Started/PySpark_to_Teradataml/HousingPrices_pyspark_to_tdml.ipynb)
+
+#### tdplyr R Basics
+Work through using the bgasics of the Teradata R package, tdplyr<br>
+[R Version](./Getting_Started/tdplyr_R_Basics/tdplyr_R_Basics.ipynb)
+
+#### Data Loading ('R')
+Shows multiple ways to load data from local CSV files, and cloud files on Google and AWS using the SQL kernel.<br>
+[R Version](./Getting_Started/Data_Loading/Data_Loading_R.ipynb)
+
+#### Introduction to Plot types using Teradataml Widgets.
+This is an introduction to using the various Plot types available as widgets: Line, Bar, Mesh, Wiggle, Geometry, etc.<br>
+[Python Version](./Getting_Started/Teradataml_Widgets/Plot_Notebook.ipynb)
+
+#### Teradata Package for R Basics
+Discoverer how the Teradata Package for R (tdplyr) allows users to develop and run R programs to take advantage of Big Data and Machine Learning analytic capabilities of Vantage.<br>
+[Information](Getting_Started/tdplyr_R_Basics/tdplyr_R_Basics.ipynb)
 
 #### SQL Basics in Jupyter
 This guide will walk you through writing your first SQL queries in Jupyter.  It uses some of the Vantage system tables as a source for the queries.<br>
@@ -150,7 +158,7 @@ Evaluates potential failures in spot welds based on voltage anomalies during the
 
 #### Battery Defect Analysis
 Uses local data (or foreign tables on GCP) to analyze patterns of battery failure, then links to data on AWS for detailed battery measurement.<br>
-[Python-SQL Version](./UseCases/Battery_Defect_Analysis/Battery_Defect_Analysis_PY_SQL.ipynb)
+[Python Version](./UseCases/Battery_Defect_Analysis/Battery_Defect_Analysis_Python.ipynb)
 
 #### Car Complaints
 Uses geospatial techniques to locate service centers close to the complaint and outlier detection to detect part defects earlier than expected.<br>
@@ -184,7 +192,7 @@ This allows enterprises to rapidly analyze this geographic-related information i
 <a id='xFinancial'></a>
 ### Financial
 
-#### Anomaly Detection of Outstanding Amounts *Beta*
+#### Anomaly Detection of Outstanding Amounts
 Anomaly detection in bank accounts can help in identifying unusual patterns, potentially flagging issues like errors or fraudulent activities.  Enterprise re-use of Features ensures rapid creation & deployment of models while new Features can be created and used without extensive engineering support.<br>
 [Python Version](./UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb)
 
@@ -240,11 +248,15 @@ Show As-IS/As-Was capabilities of Vantage Temporal to dramatically simplify the 
 Use inDb functions with OpensourceML to create multiple DecisionTreeClassifiers to create multiple predictions of a Credit Risk Assessment.<br>
 [Python Version](./UseCases/Credit_Risk_Assessment/Credit_Risk_Assessment_Python.ipynb)
 
-#### Mortgage Calculator Chatbot using GenAI: Finetune LLM *Beta*
+#### Financial Fraud Detection  InDB
+Detect financial transaction fraud using powerful in-database machine learning functions<br>
+[R Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_R.ipynb)
+
+#### Mortgage Calculator Chatbot using GenAI: Finetune LLM
 Fine-tuned an OpenAI model using RAG, LangChain and LLM models framework.  Query a chatbot for answers about a mortgage and available housing within a predefiend area.<br>
 [Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_Finetune_LLM.ipynb)
 
-#### Mortgage Calculator chatbot using GenAI: RAG *Beta*
+#### Mortgage Calculator chatbot using GenAI: RAG
 Build a conversational chatbot and ask questions about a mortgage and available housing within a predefined area using LangChain.<br>
 [Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_RAG.ipynb)
 
@@ -252,25 +264,13 @@ Build a conversational chatbot and ask questions about a mortgage and available 
 Experience the integration of LLM models to provide user-friendly responses to queries.  RAG combines retrieval and generative approaches.<br>
 [Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_RAG.ipynb)
 
+#### Banking Churn Prediction with AutoML
+Implement the entire lifecycle of churn prediction using BYOM, VAL and AutoML.<br>
+[Python Version](./UseCases/Banking_Customer_Churn_AutoML/Banking_AutoML.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xHealthcare'></a>
 ### Healthcare
-
-#### 02 ModelOps Explore Diabetes Data
-This is a guide through the PIMA Diabetes prediction including data exploration and model experimentation.<br>
-[Python Version](./ModelOps/02_ModelOps_PIMA_Experimentation.ipynb)
-
-#### 03 ModelOps Operationalize PMML
-Covers the ModelOps operationalizing of Bring-your-own-model (BOYM) importing a model via PMML.  PMML allows exchange predictive models produced by data mining and machine learning algorithms.<br>
-[Python Version](./ModelOps/03_ModelOps_BYOM_PIMA_PMML.ipynb)
-
-#### 04 Modelops Operationalize ONNX
-Covers the ModelOps operationalizing of the ONNX model format for BYOM for the Diabetes use case. ONNX is an efficient model format primarily related to neural networks.<br>
-[Python Version](./ModelOps/04_ModelOps_BYOM_PIMA_ONNX.ipynb)
-
-#### 05 ModelOps Operationalize H2O
-Covers the ModelOps operationalizing of the H2O model format for BYOM for the Diabetes use case. H2O is an open source, distributed in-memory machine learning library with linear scalability.<br>
-[Python Version](./ModelOps/05_ModelOps_BYOM_PIMA_H2O.ipynb)
 
 #### Data Science 101 with Python
 This walks through the Cross-Industry Standard Process for Data Mining (CRISP-DM) from data understanding through modeling and evaluation.<br>
@@ -296,27 +296,23 @@ The ClearScape Analytics Attribution function is used to determine the weight of
 This uses the ClearScape Analytics nPath® function to provide visuals on the events leading up to the final outcome, in this case, knee replacement.<br>
 [Python Version](./UseCases/Knee_Replacement/Knee_Replacement_nPath_Python.ipynb)
 
-#### Parkinson's Disease Prediction
-This uses analytics to determine which biomedical voice measurements are significant in identifying people potentially with Parkinson's<br>
-[Python-SQL Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_PY_SQL.ipynb)
-
-#### Cancer Prediction using the TDAPIClient and VertexAI *Beta*
+#### Cancer Prediction using the TDAPIClient and VertexAI
 Use TDAPIClient to connect to the Google Cloud Vertex API Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker. Deploy the solution's ML model.<br>
 [Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_VertexAI_CustomModel.ipynb)
 
-#### Fine-Tune OpenAI GPT-3.5 Turbo Model *Beta*
-Teach GPT-3.5 the language and terminology to become a specialist in answering mental health-related questions and provide responses.<br>
-[Python Version](./Usecases/Fine_Tuning_OpenAI_Model/Fine_Tuning_OpenAI_Model_Python.ipynb)
-
-#### Mental Health Chat with Fine-tuned OpenAI Model *Beta*
+#### Mental Health Chat with Fine-tuned OpenAI Model
 Train a GPT-3.5 Turbo model using the OpenAI API endpoint.  Ask mental health questions using a chat input box.<br>
 [Python Version](./UseCases/Fine_Tuning_OpenAI_Model/Fine_Tuning_OpenAI_Model_Python.ipynb)
 
-#### Parkinson's Disease Prediction using Signal Processing *Beta*
+#### Parkinson's Disease Prediction using Signal Processing
 Detect Parkinson's Disease at an early stage by using Vantage InDB functions for model training and scoring to compare the performance of two models against biomedical voice measurements.<br>
-[Python Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediciton_Python.ipynb)
+[Python Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_Python.ipynb)
 
-#### Cancer Prediction using Teradata and the SageMaker API *Beta*
+#### Predicting Medical Expenses in Healthcare
+Use a dataset containing variables like age, sex, BMI, smoking status, number of children, and region to build machine learning models that accurately predict healthcare costs for insurance policyholders, taking into account factors that affect medical expenses.<br>
+[Python Version](./UseCases/Health_Insurance/Health_Insurance_Costs_Python.ipynb)
+
+#### Cancer Prediction using Teradata and the SageMaker API
 Use the Vantage SageMaker API feature to connect to an Amazon Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker.  Deploy the solution's ML model.<br>
 [Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_Sagemaker.ipynb)
 
@@ -330,7 +326,7 @@ Evaluates potential failures in spot welds based on voltage anomalies during the
 
 #### Battery Defect Analysis
 Uses local data (or foreign tables on GCP) to analyze patterns of battery failure, then links to data on AWS for detailed battery measurement.<br>
-[Python-SQL Version](./UseCases/Battery_Defect_Analysis/Battery_Defect_Analysis_PY_SQL.ipynb)
+[Python Version](./UseCases/Battery_Defect_Analysis/Battery_Defect_Analysis_Python.ipynb)
 
 #### Car Complaints
 Uses geospatial techniques to locate service centers close to the complaint and outlier detection to detect part defects earlier than expected.<br>
@@ -348,7 +344,7 @@ Uses ML functions to predict failures to identify and mitigate potential machine
 Applies machine learning to predict Remaining Useful Life (RUL) of jet engines, allowing scheduling of maintenance and replacement before failure occurs and reduces the cost of maintenance and replacement.<br>
 [Python-SQL Version](./UseCases/Remaining_Useful_Life_Forecasting/Remaining_Useful_Life_Forecasting_PY_SQL.ipynb)
 
-#### Anomaly Detection in Spot Welding Process - Trusted AI *Beta*
+#### Anomaly Detection in Spot Welding Process - Trusted AI
 Evaluates potential failures in spot welds based on voltage anomalies during the welding process.<br>
 [Python Version](./UseCases/Anomaly_Detection/Anomaly_Detection_Python_TrustedAI.ipynb)
 
@@ -356,11 +352,7 @@ Evaluates potential failures in spot welds based on voltage anomalies during the
 <a id='xRetail'></a>
 ### Retail
 
-#### Natural Language Processing *Beta*
-Use NLP for Sentiment Analysis, perform Kmeans clustering, execute Principal Component Analysis (PCA) using comments received by a Retail Store<br>
-[Python-SQL Version](./UseCases/Natural_Language_Processing/Natural_Language_Processing_Python.ipynb)
-
-#### Product Recommentations via TDApiClient *Beta*
+#### Product Recommentations via TDApiClient
 Build a product recommendation system using OpenAI embeddings and Vantage in db_function VectorDistance. We will also use Vantage as VectorDB, to store the embeddings.<br>
 [Python Version](./UseCases/Recommendations_product_search/Recommendations_product_search_OpenAI_using_TDAPIClient_Python.ipynb)
 
@@ -393,11 +385,11 @@ Examines the results of campaigns by various customer attributes then uses corre
 [Python-SQL Version](./UseCases/Marketing_Campaign_Effectiveness/Marketing_Campaign_Effectiveness_Preditction_PY_SQL.ipynb)
 
 #### Multi-Touch Attribution for Business Analyst
-This is a somewhat simplified version of the Multi-Touch Attribution demonstration focused on the interests of the Business Analyst vs the Data Scientist.<br>
+This version of the Multi-Touch Attribution demonstration is focused on the interests of the Business Analyst.<br>
 [Python-SQL Version](./UseCases/MultiTouch_Attribution/Analyst_MultiTouch_Attribution_PY_SQL.ipynb)
 
 #### Multi-Touch Attribution for Data Scientist
-Demonstrates attribution of customer behavior via  single touch and multi-touch rule-based models, and using statistical, and algorithmic models. Multiple approaches are demonstrated since each has strengths and limitations.<br>
+Demonstrates attribution of customer behavior via single touch and multi-touch rule-based models using statistical and algorithmic models. Multiple approaches are demonstrated.<br>
 [Python-SQL Version](./UseCases/MultiTouch_Attribution/MultiTouch_Attribution_PY_SQL.ipynb)
 
 #### Product Recommendations via Open Source
@@ -411,10 +403,6 @@ Uses OpenAIEmbeddings and Vantage in-database function to assists consumers in r
 #### Retail Demand Forecasting
 This creates an ARIMA time series model based on holidays and merchandising activities impacting store sales for a hypermarket retailer.<br>
 [Python Version](./UseCases/Retail_Demand_Forecasting/Retail_Demand_Forecasting_Python.ipynb)
-
-#### Retail Item Demand Forecast
-Predicts demand for retail products showing how multiple models can be run concurrently.<br>
-[Python-SQL Version](./UseCases/Retail_Demand_Forecasting/Retail_Demand_Forecasting_Python.ipynb)
 
 #### Sales Forecasting using UAF
 A detailed coverage of the analytic steps in sales forecasting including data preparation, exploration, seasonal normalizing, model creation, validation, and forecasting.<br>
@@ -432,13 +420,21 @@ Uses the Script Table Operator (STO) to run the H20 machine learning library as 
 Use NGram splitter to analyze comments  retail products to determine patterns of words used to describe products.<br>
 [Python Version](./UseCases/Text_Term_Frequency/Text_Term_Frequency_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Text_Term_Frequency/Text_Term_Frequency_PY_SQL.ipynb) &ensp; [SQL Version](./UseCases/Text_Term_Frequency/Text_Term_Frequency_SQL.ipynb)
 
-#### Customer Reviews Analysis using GenAI *Beta*
+#### Customer Reviews Analysis using GenAI
 Customer reviews analysis is a crucial aspect of understanding customer sentiment and preferences. By leveraging the power of OpenAIEmbeddings and Vantage InDB Analytic Function, we can gain valuable insights from customer reviews.<br>
 [Python Version](./UseCases/Customer_reviews_analysis_using_GenAI/Customer_reviews_analysis_using_GenAI_Python.ipynb)
 
-#### Product Recommendation via AWS Bedrock *Beta*
+#### Product Recommendation via AWS Bedrock
 Use AWS Bedrock, Embedding from HuggingFace and Vantage in-DB functions to assist in providing product recommendations to develop a recipe assistant chatbot.<br>
 [Python Version](./UseCases/Chat_Powered_Product_Recommendation/Chat_powered_product_recommendation_based_on_search_output.ipynb)
+
+#### Natural Language Processing
+Use NLP for Sentiment Analysis, perform Kmeans clustering, execute Principal Component Analysis (PCA) using comments received by a Retail Store<br>
+[Python-SQL Version](./UseCases/Natural_Language_Processing/Natural_Language_Processing_Python.ipynb)
+
+#### Generate Teradata SQL with GenAI and AWS Bedrock
+In this demo, we use AWS Bedrock's LLMs and LangChain to create a text-to-Teradata SQL agent.<br>
+[Python Version](./UseCases/Generative_Question_Answering_GenAI_Bedrock/AWS_Bedrock_LangChain_Text_to_SQL.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xTelco'></a>
@@ -466,9 +462,9 @@ Demonstrates the ability of Geospatial to show signal strength, coverage areas a
 
 #### Chatbot using GenAI with insurance PDF document
 Uses TD_VectorDistance in Vantage to create a chatbot using Retrieval-Augmented Generation (RAG),  Langchain, and LLM to answer questions using a 24 page travelers insurance policy PDF as source data to answer questions about coverage.<br>
-[Python Version](./UseCases/Chat_wth_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Chat_wth_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
+[Python Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
 
-#### Shipping Time Prediction *Beta*
+#### Shipping Time Prediction
 Use ClearScape Analytics to develop a robust system that can reliably estimate delivery dates, accounting for handling time, transit time, and other relevant variables affecting the actual delivery timeframe.<br>
 [Python-SQL Version](./UseCases/Shipping_Time_Prediction/Shipping_Time_Prediction_PY_SQL.ipynb)
 
@@ -504,7 +500,7 @@ Uses nPath displays to show relationship of delays and predictive models to anti
 <a id='xDefense'></a>
 ### Defense
 
-#### Signal Processing and Classification *Beta*
+#### Signal Processing and Classification
 Use the Unbounded Array Framework in ClearScape Analytics to classify sonar signals. Extract and engineer features to use in training and scoring our models.<br>
 [Python Version](./UseCases/Signal_Processing_and_Classification/Signal_Processing_and_Classification_Python.ipynb)
 
@@ -542,11 +538,11 @@ Examines the results of campaigns by various customer attributes then uses corre
 [Python-SQL Version](./UseCases/Marketing_Campaign_Effectiveness/Marketing_Campaign_Effectiveness_Preditction_PY_SQL.ipynb)
 
 #### Multi-Touch Attribution for Business Analyst
-This is a somewhat simplified version of the Multi-Touch Attribution demonstration focused on the interests of the Business Analyst vs the Data Scientist.<br>
+This version of the Multi-Touch Attribution demonstration is focused on the interests of the Business Analyst.<br>
 [Python-SQL Version](./UseCases/MultiTouch_Attribution/Analyst_MultiTouch_Attribution_PY_SQL.ipynb)
 
 #### Multi-Touch Attribution for Data Scientist
-Demonstrates attribution of customer behavior via  single touch and multi-touch rule-based models, and using statistical, and algorithmic models. Multiple approaches are demonstrated since each has strengths and limitations.<br>
+Demonstrates attribution of customer behavior via single touch and multi-touch rule-based models using statistical and algorithmic models. Multiple approaches are demonstrated.<br>
 [Python-SQL Version](./UseCases/MultiTouch_Attribution/MultiTouch_Attribution_PY_SQL.ipynb)
 
 #### Store Sales Forecast via ARIMA
@@ -574,13 +570,25 @@ This demonstrates a subset of the over 100 analytic functions in the teradataml 
 Outliers in an analysis skew the results and make it difficult to recognize the main patterns. ClearScape Analytics has tools to remove outliers automatically.<br>
 [SQL Version](./UseCases/Outlier_Analysis/Outlier_Analysis_SQL.ipynb)
 
+#### Sales Forecasting using UAF
+A detailed coverage of the analytic steps in sales forecasting including data preparation, exploration, seasonal normalizing, model creation, validation, and forecasting.<br>
+[Python Version](./UseCases/Sales_Forecasting_UAF/Sales_Forecasting_UAF_PY_SQL.ipynb)
+
+#### Data Loading ('R')
+Shows multiple ways to load data from local CSV files, and cloud files on Google and AWS using the SQL kernel.<br>
+[R Version](./Getting_Started/Data_Loading/Data_Loading_R.ipynb)
+
+#### Predicting Medical Expenses in Healthcare
+Use a dataset containing variables like age, sex, BMI, smoking status, number of children, and region to build machine learning models that accurately predict healthcare costs for insurance policyholders, taking into account factors that affect medical expenses.<br>
+[Python Version](./UseCases/Health_Insurance/Health_Insurance_Costs_Python.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xDescriptive-Statistics'></a>
 ### Descriptive Statistics
 
 #### Sales Forecasting using UAF
 A detailed coverage of the analytic steps in sales forecasting including data preparation, exploration, seasonal normalizing, model creation, validation, and forecasting.<br>
-[Python Version](./UseCases/Sales_Forecasting_UAF/Sales_Forecasting_UAF_PY_SQL.ipynb) &ensp; [Python Version](./UseCases/Sales_Forecasting_UAF/Sales_Forecasting_UAF_PY_SQL.ipynb)
+[Python Version](./UseCases/Sales_Forecasting_UAF/Sales_Forecasting_UAF_PY_SQL.ipynb)
 
 #### VAL Descriptive Statistics
 This performs in-database analysis of data values, distribution, histograms, and text field analysis using SQL to access the Vantage Analytics Library.<br>
@@ -596,13 +604,13 @@ Demonstrated the use of Teradataml in Python to perform descriptive statistics, 
 
 #### Chatbot using GenAI with insurance PDF document
 Uses TD_VectorDistance in Vantage to create a chatbot using Retrieval-Augmented Generation (RAG),  Langchain, and LLM to answer questions using a 24 page travelers insurance policy PDF as source data to answer questions about coverage.<br>
-[Python Version](./UseCases/Chat_wth_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Chat_wth_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
+[Python Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
 
 #### Mortgage Calculator using GenAI
 Use Retrieval-Augmented Generation (RAG), Lanchain and LLM models to as questions about loans and retrieve relevant data from Vantage.<br>
 [Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python.ipynb)
 
-#### Product Recommentations via TDApiClient *Beta*
+#### Product Recommentations via TDApiClient
 Build a product recommendation system using OpenAI embeddings and Vantage in db_function VectorDistance. We will also use Vantage as VectorDB, to store the embeddings.<br>
 [Python Version](./UseCases/Recommendations_product_search/Recommendations_product_search_OpenAI_using_TDAPIClient_Python.ipynb)
 
@@ -618,11 +626,19 @@ Uses FlagEmbedding from HuggingFace plus Vantage in-database functions to assess
 Uses OpenAIEmbeddings and Vantage in-database function to assists consumers in receiving product recommendations<br>
 [Python Version](./UseCases/Recommendations_product_search/Recommendations_product_search_OpenAI_Python.ipynb)
 
-#### Customer Reviews Analysis using GenAI *Beta*
+#### Generate Teradata SQL with GenAI and AWS Bedrock
+In this demo, we use AWS Bedrock's LLMs and LangChain to create a text-to-Teradata SQL agent.<br>
+[Python Version](./UseCases/Generative_Question_Answering_GenAI_Bedrock/AWS_Bedrock_LangChain_Text_to_SQL.ipynb)
+
+#### Customer Complaint Analyzer with GenAI
+This is a collection of demos showing multiple methods of dealing with customer complaints using various GenAI techniques.<br>
+[Information](./UseCases/Complaints_Analysis_GenAI/Complaint_Analysis_Dashboard.ipynb)
+
+#### Customer Reviews Analysis using GenAI
 Customer reviews analysis is a crucial aspect of understanding customer sentiment and preferences. By leveraging the power of OpenAIEmbeddings and Vantage InDB Analytic Function, we can gain valuable insights from customer reviews.<br>
 [Python Version](./UseCases/Customer_reviews_analysis_using_GenAI/Customer_reviews_analysis_using_GenAI_Python.ipynb)
 
-#### Grocery Recommendations using GenAI *Beta*
+#### Grocery Recommendations using GenAI
 Use context-based product recommendations powered by GenAI Large Language Models to enhance a shopping experience.<br>
 [Python-SQL Version](./UseCases/Grocery_Recommendation/Grocery_Recommendation_PY_SQL.ipynb)
 
@@ -630,15 +646,15 @@ Use context-based product recommendations powered by GenAI Large Language Models
 Experience the integration of LLM models to provide user-friendly responses to queries.  RAG combines retrieval and generative approaches.<br>
 [Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_RAG.ipynb)
 
-#### Product Recommendation via AWS Bedrock *Beta*
+#### Product Recommendation via AWS Bedrock
 Use AWS Bedrock, Embedding from HuggingFace and Vantage in-DB functions to assist in providing product recommendations to develop a recipe assistant chatbot.<br>
 [Python Version](./UseCases/Chat_Powered_Product_Recommendation/Chat_powered_product_recommendation_based_on_search_output.ipynb)
 
-#### Mortgage Calculator Chatbot using GenAI: Finetune LLM *Beta*
+#### Mortgage Calculator Chatbot using GenAI: Finetune LLM
 Fine-tuned an OpenAI model using RAG, LangChain and LLM models framework.  Query a chatbot for answers about a mortgage and available housing within a predefiend area.<br>
 [Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_Finetune_LLM.ipynb)
 
-#### Mortgage Calculator chatbot using GenAI: RAG *Beta*
+#### Mortgage Calculator chatbot using GenAI: RAG
 Build a conversational chatbot and ask questions about a mortgage and available housing within a predefined area using LangChain.<br>
 [Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_RAG.ipynb)
 
@@ -702,7 +718,7 @@ This demonstrates a subset of the 18 hypothesis test in the Vantage Analytics li
 <a id='xMachine-learning'></a>
 ### Machine learning
 
-#### Anomaly Detection of Outstanding Amounts *Beta*
+#### Anomaly Detection of Outstanding Amounts
 Anomaly detection in bank accounts can help in identifying unusual patterns, potentially flagging issues like errors or fraudulent activities.  Enterprise re-use of Features ensures rapid creation & deployment of models while new Features can be created and used without extensive engineering support.<br>
 [Python Version](./UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb)
 
@@ -710,25 +726,13 @@ Anomaly detection in bank accounts can help in identifying unusual patterns, pot
 This demo walks through how a typical SAS user would use sales data to build a simple sales forecasting model and then will showcase how we can achieve the same using Vantage ClearScape Analytics.<br>
 [Python-SQL Version](./UseCases/SalesForecast_SAS_Vantage/Sales_Forecasting_SAS_Vantage_PY_SQL.ipynb) &ensp; [SQL Version](./UseCases/SalesForecast_SAS_Vantage/Sales_Forecasting_SAS_Vantage_SQL.ipynb)
 
-#### Shipping Time Prediction *Beta*
+#### Shipping Time Prediction
 Use ClearScape Analytics to develop a robust system that can reliably estimate delivery dates, accounting for handling time, transit time, and other relevant variables affecting the actual delivery timeframe.<br>
 [Python-SQL Version](./UseCases/Shipping_Time_Prediction/Shipping_Time_Prediction_PY_SQL.ipynb)
 
 #### Telco 5G Quality of Experience
 Quality of service analysis of 5G vs 4G video for different situations such as Indoor, outdoor, and moble.<br>
 [SQL Version](./UseCases/Telco_5G_QOE_Analysis/Telco_5G_QOE_Analysis_SQL.ipynb)
-
-#### 03 ModelOps Operationalize PMML
-Covers the ModelOps operationalizing of Bring-your-own-model (BOYM) importing a model via PMML.  PMML allows exchange predictive models produced by data mining and machine learning algorithms.<br>
-[Python Version](./ModelOps/03_ModelOps_BYOM_PIMA_PMML.ipynb)
-
-#### 04 Modelops Operationalize ONNX
-Covers the ModelOps operationalizing of the ONNX model format for BYOM for the Diabetes use case. ONNX is an efficient model format primarily related to neural networks.<br>
-[Python Version](./ModelOps/04_ModelOps_BYOM_PIMA_ONNX.ipynb)
-
-#### 05 ModelOps Operationalize H2O
-Covers the ModelOps operationalizing of the H2O model format for BYOM for the Diabetes use case. H2O is an open source, distributed in-memory machine learning library with linear scalability.<br>
-[Python Version](./ModelOps/05_ModelOps_BYOM_PIMA_H2O.ipynb)
 
 #### Anomaly Detection
 Evaluates potential failures in spot welds based on voltage anomalies during the welding process.<br>
@@ -775,16 +779,12 @@ Examines the results of campaigns by various customer attributes then uses corre
 [Python-SQL Version](./UseCases/Marketing_Campaign_Effectiveness/Marketing_Campaign_Effectiveness_Preditction_PY_SQL.ipynb)
 
 #### Multi-Touch Attribution for Business Analyst
-This is a somewhat simplified version of the Multi-Touch Attribution demonstration focused on the interests of the Business Analyst vs the Data Scientist.<br>
+This version of the Multi-Touch Attribution demonstration is focused on the interests of the Business Analyst.<br>
 [Python-SQL Version](./UseCases/MultiTouch_Attribution/Analyst_MultiTouch_Attribution_PY_SQL.ipynb)
 
 #### Multi-Touch Attribution for Data Scientist
-Demonstrates attribution of customer behavior via  single touch and multi-touch rule-based models, and using statistical, and algorithmic models. Multiple approaches are demonstrated since each has strengths and limitations.<br>
+Demonstrates attribution of customer behavior via single touch and multi-touch rule-based models using statistical and algorithmic models. Multiple approaches are demonstrated.<br>
 [Python-SQL Version](./UseCases/MultiTouch_Attribution/MultiTouch_Attribution_PY_SQL.ipynb)
-
-#### Parkinson's Disease Prediction
-This uses analytics to determine which biomedical voice measurements are significant in identifying people potentially with Parkinson's<br>
-[Python-SQL Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_PY_SQL.ipynb)
 
 #### Predictive Maintenance
 Uses ML functions to predict failures to identify and mitigate potential machine failures before they occur.<br>
@@ -793,10 +793,6 @@ Uses ML functions to predict failures to identify and mitigate potential machine
 #### Remaining Useful Life Forecasting
 Applies machine learning to predict Remaining Useful Life (RUL) of jet engines, allowing scheduling of maintenance and replacement before failure occurs and reduces the cost of maintenance and replacement.<br>
 [Python-SQL Version](./UseCases/Remaining_Useful_Life_Forecasting/Remaining_Useful_Life_Forecasting_PY_SQL.ipynb)
-
-#### Retail Item Demand Forecast
-Predicts demand for retail products showing how multiple models can be run concurrently.<br>
-[Python-SQL Version](./UseCases/Retail_Demand_Forecasting/Retail_Demand_Forecasting_Python.ipynb)
 
 #### Store Sales Forecast via ARIMA
 Forecasts total store sales using ARIMA (AutoRegressive Integrated Moving Average)<br>
@@ -826,15 +822,15 @@ Demonstration of Vantage Analytic Library scoring and analytic functions like li
 Compare the distribution and variation of data between two time intervals usin In-DB function executed via a framework to provide alerts highlighting data anomalies.<br>
 [Python Version](./UseCases/Data_Quality_Anomaly_Detection/Data_Quality_Anomaly_Detection_Python.ipynb)
 
-#### Hyperparameter Tuning using the Titanic Passenger Dataset *Beta*
+#### Hyperparameter Tuning using the Titanic Passenger Dataset
 Create a predictive algorithm that can identify whethr or not passengers on the Titanic survived the ship's sinking.<br>
 [Python Version](./UseCases/TitanicSurvival_HyperParameter/Predict_TitanicSurvival_Hyperparameter_Tuning_Python.ipynb)
 
-#### Anomaly Detection in Spot Welding Process - Trusted AI *Beta*
+#### Anomaly Detection in Spot Welding Process - Trusted AI
 Evaluates potential failures in spot welds based on voltage anomalies during the welding process.<br>
 [Python Version](./UseCases/Anomaly_Detection/Anomaly_Detection_Python_TrustedAI.ipynb)
 
-#### Cancer Prediction using the TDAPIClient and VertexAI *Beta*
+#### Cancer Prediction using the TDAPIClient and VertexAI
 Use TDAPIClient to connect to the Google Cloud Vertex API Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker. Deploy the solution's ML model.<br>
 [Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_VertexAI_CustomModel.ipynb)
 
@@ -842,69 +838,29 @@ Use TDAPIClient to connect to the Google Cloud Vertex API Endpoint to orchestrat
 Use inDb functions with OpensourceML to create multiple DecisionTreeClassifiers to create multiple predictions of a Credit Risk Assessment.<br>
 [Python Version](./UseCases/Credit_Risk_Assessment/Credit_Risk_Assessment_Python.ipynb)
 
-#### Cancer Prediction using Teradata and the SageMaker API *Beta*
+#### Financial Fraud Detection  InDB
+Detect financial transaction fraud using powerful in-database machine learning functions<br>
+[R Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_R.ipynb)
+
+#### Predicting Medical Expenses in Healthcare
+Use a dataset containing variables like age, sex, BMI, smoking status, number of children, and region to build machine learning models that accurately predict healthcare costs for insurance policyholders, taking into account factors that affect medical expenses.<br>
+[Python Version](./UseCases/Health_Insurance/Health_Insurance_Costs_Python.ipynb)
+
+#### Cancer Prediction using Teradata and the SageMaker API
 Use the Vantage SageMaker API feature to connect to an Amazon Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker.  Deploy the solution's ML model.<br>
 [Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_Sagemaker.ipynb)
 
-#### Parkinson's Disease Prediction using Signal Processing *Beta*
+#### Parkinson's Disease Prediction using Signal Processing
 Detect Parkinson's Disease at an early stage by using Vantage InDB functions for model training and scoring to compare the performance of two models against biomedical voice measurements.<br>
-[Python Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediciton_Python.ipynb)
+[Python Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xModelOps'></a>
 ### ModelOps
 
-#### 01 ModelOps Getting Started
-This introduces the ModelOps methodology, provides an overview video, and a description of navigating the projects, models, and datasets plus a description of monitoring capabilities.<br>
-[Python Version](./ModelOps/01_ModelOps_Getting_Started.ipynb)
-
-#### 02 ModelOps Explore Diabetes Data
-This is a guide through the PIMA Diabetes prediction including data exploration and model experimentation.<br>
-[Python Version](./ModelOps/02_ModelOps_PIMA_Experimentation.ipynb)
-
-#### 03 ModelOps Operationalize PMML
-Covers the ModelOps operationalizing of Bring-your-own-model (BOYM) importing a model via PMML.  PMML allows exchange predictive models produced by data mining and machine learning algorithms.<br>
-[Python Version](./ModelOps/03_ModelOps_BYOM_PIMA_PMML.ipynb)
-
-#### 04 Modelops Operationalize ONNX
-Covers the ModelOps operationalizing of the ONNX model format for BYOM for the Diabetes use case. ONNX is an efficient model format primarily related to neural networks.<br>
-[Python Version](./ModelOps/04_ModelOps_BYOM_PIMA_ONNX.ipynb)
-
-#### 05 ModelOps Operationalize H2O
-Covers the ModelOps operationalizing of the H2O model format for BYOM for the Diabetes use case. H2O is an open source, distributed in-memory machine learning library with linear scalability.<br>
-[Python Version](./ModelOps/05_ModelOps_BYOM_PIMA_H2O.ipynb)
-
-#### 06 ModelOps Project Setup
-Shows you how to set up your own GIT repository for models and create a new project in ModelOps associated with your new repository. This step is **required** for the next notebooks.<br>
-[Python Version](./ModelOps/06_ModelOps_GIT_Project_Setup.ipynb)
-
-#### 07 ModelOps Define Functions
-For the project you've created in ModelOps, this shows definition of the training function, evaluate function, scoring function, life cycle, and monitoring.<br>
-[Python Version](./ModelOps/07_ModelOps_GIT_PIMA_Python_Indb_GLM.ipynb)
-
-#### 08 ModelOps Add H20 to Project
-Demonstrates the use of ModelOps to finalize the H2O AI model, train, evaluate, approve, deploy, score and monitor.<br>
-[Python Version](./ModelOps/08_ModelOps_GIT_PIMA_Python_H2OAutoML.ipynb)
-
-#### 09 ModelOps Add XGBoost to Project
-Uses XGBoost algorithm to generate both Python Joblib and PMML model formats and operationalize them through ModelOps.<br>
-[Python Version](./ModelOps/09_ModelOps_GIT_PIMA_Python_XGboost.ipynb)
-
-#### 10 ModelOps Add R gbm Model to Project
-Uses the gbm R package to generate both R model formats and operationalize through ModelOps. The gbm R packages extends Freund & Schapire's AadaBoost algorithm and Friedman's **G**radient **B**oosting **M**achine (gbm).<br>
-[Python Version](./ModelOps/10_ModelOps_GIT_PIMA_R_GBM.ipynb)
-
-#### 11 ModelOps In-Database XGBoost using Git
-This notebook will cover the Operationalization of the PIMA diabetes use case with Python using the Teradata In-database XGBoost model.<br>
-[Python Version](./ModelOps/11_ModelOps_GIT_PIMA_Python_indb_XGboost.ipynb)
-
 #### ModelOps Introduction & List of Notebooks
 This introduction and table of contents introduces you to ModelOps and provides a launch for ModelOps. It is **recommended** to go through ModelOps demonstrations in sequence.<br>
 [Information](./ModelOps/00_ModelOps_Introduction.ipynb)
-
-#### 12 ModelOps Model Factory REST Python
-Implement Model Factory Solution Accelerator using Python commands with the Restful API layer of ClearScape Analytics ModelOps.<br>
-[Python Version](./ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xObject-Storage'></a>
@@ -912,7 +868,7 @@ Implement Model Factory Solution Accelerator using Python commands with the Rest
 
 #### Battery Defect Analysis
 Uses local data (or foreign tables on GCP) to analyze patterns of battery failure, then links to data on AWS for detailed battery measurement.<br>
-[Python-SQL Version](./UseCases/Battery_Defect_Analysis/Battery_Defect_Analysis_PY_SQL.ipynb)
+[Python Version](./UseCases/Battery_Defect_Analysis/Battery_Defect_Analysis_Python.ipynb)
 
 #### Deep History via Object Store
 This demonstrates integration of local data or foreign tables on GCP and integration across cloud providers to detailed historical sales records on AWS.<br>
@@ -966,7 +922,7 @@ Introduction to Teradataml package for Python including connecting to Vantage, T
  In this tutorial, we will show how to integrate Vantage Analytics capabilities  in Vertex AI ML Pipelines. Vertex AI is the environment for data scientists to deploy ML models.<br>
 [Python Version](./UseCases/Vertex_AI_Integration/Vertex_AI_Integration_Python.ipynb)
 
-#### Anomaly Detection in Spot Welding Process - Trusted AI *Beta*
+#### Anomaly Detection in Spot Welding Process - Trusted AI
 Evaluates potential failures in spot welds based on voltage anomalies during the welding process.<br>
 [Python Version](./UseCases/Anomaly_Detection/Anomaly_Detection_Python_TrustedAI.ipynb)
 
@@ -994,10 +950,6 @@ The ClearScape Analytics Attribution function is used to determine the weight of
 This uses the ClearScape Analytics nPath® function to provide visuals on the events leading up to the final outcome, in this case, knee replacement.<br>
 [Python Version](./UseCases/Knee_Replacement/Knee_Replacement_nPath_Python.ipynb)
 
-#### MultiTouch Attribution
-Shows rule-based, Statistics, and Algorithmic attribution of the marketing touchpoints leading to conversion. Ten approaches will be demonstrated along with path analysis of effectiveness and cost of conversion.<br>
-[Python-SQL Version](./UseCases/MultiTouch_Attribution/MultiTouch_Attribution_PY_SQL.ipynb)
-
 #### Train Delay Path Analysis
 Uses nPath displays to show relationship of delays and predictive models to anticipate potential delays and enable proactive planning.<br>
 [Python Version](./UseCases/Train_Delay/Train_Delay_Python.ipynb)
@@ -1005,10 +957,6 @@ Uses nPath displays to show relationship of delays and predictive models to anti
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xText-Analysis'></a>
 ### Text Analysis
-
-#### Natural Language Processing *Beta*
-Use NLP for Sentiment Analysis, perform Kmeans clustering, execute Principal Component Analysis (PCA) using comments received by a Retail Store<br>
-[Python-SQL Version](./UseCases/Natural_Language_Processing/Natural_Language_Processing_Python.ipynb)
 
 #### Customer 360
 This integrates data about customers from multiple sources using multiple matching techniquest to create the "Golden Customer Record" and calculate LTV.<br>
@@ -1021,6 +969,10 @@ Use NGram splitter to analyze comments  retail products to determine patterns of
 #### VAL Descriptive Statistics
 This performs in-database analysis of data values, distribution, histograms, and text field analysis using SQL to access the Vantage Analytics Library.<br>
 [SQL Version](./UseCases/Vantage_Analytics_Library/VAL_Descriptive_Statistics_SQL.ipynb)
+
+#### Natural Language Processing
+Use NLP for Sentiment Analysis, perform Kmeans clustering, execute Principal Component Analysis (PCA) using comments received by a Retail Store<br>
+[Python-SQL Version](./UseCases/Natural_Language_Processing/Natural_Language_Processing_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xTime-series-analytics'></a>
@@ -1078,7 +1030,7 @@ Analysis of sessions and queries  you executed using the built-in logging facili
 <a id='xUnbounded-Array-Framework'></a>
 ### Unbounded Array Framework
 
-#### Signal Processing and Classification *Beta*
+#### Signal Processing and Classification
 Use the Unbounded Array Framework in ClearScape Analytics to classify sonar signals. Extract and engineer features to use in training and scoring our models.<br>
 [Python Version](./UseCases/Signal_Processing_and_Classification/Signal_Processing_and_Classification_Python.ipynb)
 
@@ -1086,11 +1038,15 @@ Use the Unbounded Array Framework in ClearScape Analytics to classify sonar sign
 <a id='xPrediction-Analysis'></a>
 ### Prediction Analysis
 
-#### Cancer Prediction using the TDAPIClient and VertexAI *Beta*
+#### Cancer Prediction using the TDAPIClient and VertexAI
 Use TDAPIClient to connect to the Google Cloud Vertex API Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker. Deploy the solution's ML model.<br>
 [Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_VertexAI_CustomModel.ipynb)
 
-#### Cancer Prediction using Teradata and the SageMaker API *Beta*
+#### Customer Segmentation with K-means
+Use K-means clustering to segment customers by purchase volume and value using R and tdplyr<br>
+[R Version](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_R.ipynb)
+
+#### Cancer Prediction using Teradata and the SageMaker API
 Use the Vantage SageMaker API feature to connect to an Amazon Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker.  Deploy the solution's ML model.<br>
 [Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_Sagemaker.ipynb)
 
@@ -1098,37 +1054,9 @@ Use the Vantage SageMaker API feature to connect to an Amazon Endpoint to orches
 <a id='xNatural-Language-Processing'></a>
 ### Natural Language Processing
 
-#### Fine-Tune OpenAI GPT-3.5 Turbo Model *Beta*
-Teach GPT-3.5 the language and terminology to become a specialist in answering mental health-related questions and provide responses.<br>
-[Python Version](./Usecases/Fine_Tuning_OpenAI_Model/Fine_Tuning_OpenAI_Model_Python.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xOpenAI'></a>
-### OpenAI
-
-#### Mental Health Chat with Fine-tuned OpenAI Model *Beta*
-Train a GPT-3.5 Turbo model using the OpenAI API endpoint.  Ask mental health questions using a chat input box.<br>
-[Python Version](./UseCases/Fine_Tuning_OpenAI_Model/Fine_Tuning_OpenAI_Model_Python.ipynb)
-
-#### Mortgage Calculator Chatbot using GenAI: Finetune LLM *Beta*
-Fine-tuned an OpenAI model using RAG, LangChain and LLM models framework.  Query a chatbot for answers about a mortgage and available housing within a predefiend area.<br>
-[Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_Finetune_LLM.ipynb)
-
-#### Mortgage Calculator chatbot using GenAI: RAG *Beta*
-Build a conversational chatbot and ask questions about a mortgage and available housing within a predefined area using LangChain.<br>
-[Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_RAG.ipynb)
-
-#### Fine-Tune OpenAI GPT-3.5 Turbo Model *Beta*
-Teach GPT-3.5 the language and terminology to become a specialist in answering mental health-related questions and provide responses.<br>
-[Python Version](./Usecases/Fine_Tuning_OpenAI_Model/Fine_Tuning_OpenAI_Model_Python.ipynb)
-
-#### Mortgage Calculator Chatbot using Trusted AI(RAG)
-Experience the integration of LLM models to provide user-friendly responses to queries.  RAG combines retrieval and generative approaches.<br>
-[Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_RAG.ipynb)
-
-#### Customer Reviews Analysis using GenAI *Beta*
-Customer reviews analysis is a crucial aspect of understanding customer sentiment and preferences. By leveraging the power of OpenAIEmbeddings and Vantage InDB Analytic Function, we can gain valuable insights from customer reviews.<br>
-[Python Version](./UseCases/Customer_reviews_analysis_using_GenAI/Customer_reviews_analysis_using_GenAI_Python.ipynb)
+#### Natural Language Processing
+Use NLP for Sentiment Analysis, perform Kmeans clustering, execute Principal Component Analysis (PCA) using comments received by a Retail Store<br>
+[Python-SQL Version](./UseCases/Natural_Language_Processing/Natural_Language_Processing_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xSignal-Processing'></a>
@@ -1138,9 +1066,49 @@ Customer reviews analysis is a crucial aspect of understanding customer sentimen
 <a id='xOpen-Source'></a>
 ### Open Source
 
-#### Parkinson's Disease Prediction using Signal Processing *Beta*
+#### Parkinson's Disease Prediction using Signal Processing
 Detect Parkinson's Disease at an early stage by using Vantage InDB functions for model training and scoring to compare the performance of two models against biomedical voice measurements.<br>
-[Python Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediciton_Python.ipynb) &ensp; [Python Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediciton_Python.ipynb)
+[Python Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_Python.ipynb) &ensp; [Python Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_Python.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xAutoML'></a>
+### AutoML
+
+#### Banking Churn Prediction with AutoML
+Implement the entire lifecycle of churn prediction using BYOM, VAL and AutoML.<br>
+[Python Version](./UseCases/Banking_Customer_Churn_AutoML/Banking_AutoML.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xPCA-(Principal-Component-Analysis)'></a>
+### PCA (Principal Component Analysis)
+
+#### Customer Segmentation with K-means
+Use K-means clustering to segment customers by purchase volume and value using R and tdplyr<br>
+[R Version](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_R.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xFraud-Detection'></a>
+### Fraud Detection
+
+#### Financial Fraud Detection  InDB
+Detect financial transaction fraud using powerful in-database machine learning functions<br>
+[R Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_R.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xTeradataML-Open-Source-Functions'></a>
+### TeradataML Open Source Functions
+
+#### Predicting Medical Expenses in Healthcare
+Use a dataset containing variables like age, sex, BMI, smoking status, number of children, and region to build machine learning models that accurately predict healthcare costs for insurance policyholders, taking into account factors that affect medical expenses.<br>
+[Python Version](./UseCases/Health_Insurance/Health_Insurance_Costs_Python.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xHyperparameter-Tuning'></a>
+### Hyperparameter Tuning
+
+#### Hyperparameter Tuning using the Titanic Passenger Dataset
+Create a predictive algorithm that can identify whethr or not passengers on the Titanic survived the ship's sinking.<br>
+[Python Version](./UseCases/TitanicSurvival_HyperParameter/Predict_TitanicSurvival_Hyperparameter_Tuning_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
@@ -1151,9 +1119,25 @@ Detect Parkinson's Disease at an early stage by using Vantage InDB functions for
 <a id='xAWS-SageMaker'></a>
 ### AWS SageMaker
 
-#### Cancer Prediction using Teradata and the SageMaker API *Beta*
+#### Cancer Prediction using Teradata and the SageMaker API
 Use the Vantage SageMaker API feature to connect to an Amazon Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker.  Deploy the solution's ML model.<br>
 [Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_Sagemaker.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xAzure-Cloud'></a>
+### Azure Cloud
+
+#### Getting Started With Azure
+Follow these steps to create your first Azure account and create an Azure Machine Learning workspace to complete our AzureML use cases.<br>
+[Information](./UseCases/Energy_Consumption_Forecasting_AzureML/Getting_Started_with_Azure.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xAWS-SageMaker'></a>
+### AWS SageMaker
+
+#### Generate Teradata SQL with GenAI and AWS Bedrock
+In this demo, we use AWS Bedrock's LLMs and LangChain to create a text-to-Teradata SQL agent.<br>
+[Python Version](./UseCases/Generative_Question_Answering_GenAI_Bedrock/AWS_Bedrock_LangChain_Text_to_SQL.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xAzure-ML'></a>
@@ -1187,17 +1171,9 @@ Demonstration of using Dataiku with Vantage. Instructions provided for use with 
 <a id='xH2O.ai'></a>
 ### H2O.ai
 
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xR'></a>
-### R
-
 #### ModelOps Introduction & List of Notebooks
 This introduction and table of contents introduces you to ModelOps and provides a launch for ModelOps. It is **recommended** to go through ModelOps demonstrations in sequence.<br>
-[Information](./ModelOps/00_ModelOps_Introduction.ipynb) &ensp; [Information](./ModelOps/00_ModelOps_Introduction.ipynb)
-
-#### 10 ModelOps Add R gbm Model to Project
-Uses the gbm R package to generate both R model formats and operationalize through ModelOps. The gbm R packages extends Freund & Schapire's AadaBoost algorithm and Friedman's **G**radient **B**oosting **M**achine (gbm).<br>
-[Python Version](./ModelOps/10_ModelOps_GIT_PIMA_R_GBM.ipynb)
+[Information](./ModelOps/00_ModelOps_Introduction.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xSAS'></a>
@@ -1208,14 +1184,66 @@ This demo walks through how a typical SAS user would use sales data to build a s
 [Python-SQL Version](./UseCases/SalesForecast_SAS_Vantage/Sales_Forecasting_SAS_Vantage_PY_SQL.ipynb) &ensp; [SQL Version](./UseCases/SalesForecast_SAS_Vantage/Sales_Forecasting_SAS_Vantage_SQL.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xVertex-AI'></a>
+### Vertex AI
+
+#### Cancer Prediction using the TDAPIClient and VertexAI
+Use TDAPIClient to connect to the Google Cloud Vertex API Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker. Deploy the solution's ML model.<br>
+[Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_VertexAI_CustomModel.ipynb)
+
+#### Vertex AI Integration
+ In this tutorial, we will show how to integrate Vantage Analytics capabilities  in Vertex AI ML Pipelines. Vertex AI is the environment for data scientists to deploy ML models.<br>
+[Python Version](./UseCases/Vertex_AI_Integration/Vertex_AI_Integration_Python.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xAWS-Bedrock'></a>
 ### AWS Bedrock
 
-#### Product Recommendation via AWS Bedrock *Beta*
+#### Product Recommendation via AWS Bedrock
 Use AWS Bedrock, Embedding from HuggingFace and Vantage in-DB functions to assist in providing product recommendations to develop a recipe assistant chatbot.<br>
 [Python Version](./UseCases/Chat_Powered_Product_Recommendation/Chat_powered_product_recommendation_based_on_search_output.ipynb)
 
-#### Customer Reviews Analysis using GenAI *Beta*
+#### Customer Complaint Analyzer with GenAI
+This is a collection of demos showing multiple methods of dealing with customer complaints using various GenAI techniques.<br>
+[Information](./UseCases/Complaints_Analysis_GenAI/Complaint_Analysis_Dashboard.ipynb)
+
+#### Customer Reviews Analysis using GenAI
+Customer reviews analysis is a crucial aspect of understanding customer sentiment and preferences. By leveraging the power of OpenAIEmbeddings and Vantage InDB Analytic Function, we can gain valuable insights from customer reviews.<br>
+[Python Version](./UseCases/Customer_reviews_analysis_using_GenAI/Customer_reviews_analysis_using_GenAI_Python.ipynb)
+
+#### Generate Teradata SQL with GenAI and AWS Bedrock
+In this demo, we use AWS Bedrock's LLMs and LangChain to create a text-to-Teradata SQL agent.<br>
+[Python Version](./UseCases/Generative_Question_Answering_GenAI_Bedrock/AWS_Bedrock_LangChain_Text_to_SQL.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xOpenAI'></a>
+### OpenAI
+
+#### Using ClearScape Analytics with openAI
+To ensure optimal utilization of the OpenAI API in generative AI notebooks, it is essential to establish the API keys correctly. This concise guide outlines the process of configuring OpenAI API keys for seamless integration across multiple notebooks.<br>
+[Information](./UseCases/Openai_setup_api_key/Openai_setup_api_key.md)
+
+#### Mental Health Chat with Fine-tuned OpenAI Model
+Train a GPT-3.5 Turbo model using the OpenAI API endpoint.  Ask mental health questions using a chat input box.<br>
+[Python Version](./UseCases/Fine_Tuning_OpenAI_Model/Fine_Tuning_OpenAI_Model_Python.ipynb)
+
+#### Mortgage Calculator Chatbot using GenAI: Finetune LLM
+Fine-tuned an OpenAI model using RAG, LangChain and LLM models framework.  Query a chatbot for answers about a mortgage and available housing within a predefiend area.<br>
+[Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_Finetune_LLM.ipynb)
+
+#### Mortgage Calculator chatbot using GenAI: RAG
+Build a conversational chatbot and ask questions about a mortgage and available housing within a predefined area using LangChain.<br>
+[Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_RAG.ipynb)
+
+#### Customer Complaint Analyzer with GenAI
+This is a collection of demos showing multiple methods of dealing with customer complaints using various GenAI techniques.<br>
+[Information](./UseCases/Complaints_Analysis_GenAI/Complaint_Analysis_Dashboard.ipynb)
+
+#### Mortgage Calculator Chatbot using Trusted AI(RAG)
+Experience the integration of LLM models to provide user-friendly responses to queries.  RAG combines retrieval and generative approaches.<br>
+[Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_RAG.ipynb)
+
+#### Customer Reviews Analysis using GenAI
 Customer reviews analysis is a crucial aspect of understanding customer sentiment and preferences. By leveraging the power of OpenAIEmbeddings and Vantage InDB Analytic Function, we can gain valuable insights from customer reviews.<br>
 [Python Version](./UseCases/Customer_reviews_analysis_using_GenAI/Customer_reviews_analysis_using_GenAI_Python.ipynb)
 
@@ -1228,21 +1256,17 @@ Customer reviews analysis is a crucial aspect of understanding customer sentimen
 <a id='xPython'></a>
 ### Python
 
-#### 12 ModelOps Model Factory REST Python
-Implement Model Factory Solution Accelerator using Python commands with the Restful API layer of ClearScape Analytics ModelOps.<br>
-[Python Version](./ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb)
-
-#### Anomaly Detection of Outstanding Amounts *Beta*
+#### Anomaly Detection of Outstanding Amounts
 Anomaly detection in bank accounts can help in identifying unusual patterns, potentially flagging issues like errors or fraudulent activities.  Enterprise re-use of Features ensures rapid creation & deployment of models while new Features can be created and used without extensive engineering support.<br>
 [Python Version](./UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb)
 
-#### Charting and Visualizations using teradataml *Beta*
+#### Charting and Visualizations using teradataml
 The td_plot method streamlines large-scale visualizations by providing users with efficient tools to create visualizations directly within the Vantage platform<br>
 [Python Version](./Getting_Started/Charting_and_Visualization/InDB_Visualizations_using_teradataml.ipynb)
 
 #### Chatbot using GenAI with insurance PDF document
 Uses TD_VectorDistance in Vantage to create a chatbot using Retrieval-Augmented Generation (RAG),  Langchain, and LLM to answer questions using a 24 page travelers insurance policy PDF as source data to answer questions about coverage.<br>
-[Python Version](./UseCases/Chat_wth_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Chat_wth_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
+[Python Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
 
 #### Credit Card Data Preparation
 Uses functions from TeradataML Python library to prepare data for analysis using data cleansing, exploration and feature engineering functions.<br>
@@ -1256,11 +1280,7 @@ This introduction and table of contents introduces you to ModelOps and provides 
 Use Retrieval-Augmented Generation (RAG), Lanchain and LLM models to as questions about loans and retrieve relevant data from Vantage.<br>
 [Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python.ipynb)
 
-#### Natural Language Processing *Beta*
-Use NLP for Sentiment Analysis, perform Kmeans clustering, execute Principal Component Analysis (PCA) using comments received by a Retail Store<br>
-[Python-SQL Version](./UseCases/Natural_Language_Processing/Natural_Language_Processing_Python.ipynb)
-
-#### Product Recommentations via TDApiClient *Beta*
+#### Product Recommentations via TDApiClient
 Build a product recommendation system using OpenAI embeddings and Vantage in db_function VectorDistance. We will also use Vantage as VectorDB, to store the embeddings.<br>
 [Python Version](./UseCases/Recommendations_product_search/Recommendations_product_search_OpenAI_using_TDAPIClient_Python.ipynb)
 
@@ -1268,7 +1288,7 @@ Build a product recommendation system using OpenAI embeddings and Vantage in db_
 This demo walks through how a typical SAS user would use sales data to build a simple sales forecasting model and then will showcase how we can achieve the same using Vantage ClearScape Analytics.<br>
 [Python-SQL Version](./UseCases/SalesForecast_SAS_Vantage/Sales_Forecasting_SAS_Vantage_PY_SQL.ipynb) &ensp; [SQL Version](./UseCases/SalesForecast_SAS_Vantage/Sales_Forecasting_SAS_Vantage_SQL.ipynb)
 
-#### Shipping Time Prediction *Beta*
+#### Shipping Time Prediction
 Use ClearScape Analytics to develop a robust system that can reliably estimate delivery dates, accounting for handling time, transit time, and other relevant variables affecting the actual delivery timeframe.<br>
 [Python-SQL Version](./UseCases/Shipping_Time_Prediction/Shipping_Time_Prediction_PY_SQL.ipynb)
 
@@ -1280,31 +1300,47 @@ Shows the integration of data from warehouse, trucking company, and customer Ord
 Demonstrates advanced analytics to find lowest cost routes to deliver a large volume of packages by a fleet of vehicles.<br>
 [Python-SQL Version](./UseCases/Vehicle_Routing_Delivery/Vehicle_Routing_Delivery_STO_PY_SQL.ipynb)
 
-#### 11 ModelOps In-Database XGBoost using Git
-This notebook will cover the Operationalization of the PIMA diabetes use case with Python using the Teradata In-database XGBoost model.<br>
-[Python Version](./ModelOps/11_ModelOps_GIT_PIMA_Python_indb_XGboost.ipynb)
-
-#### Grocery Recommendations using GenAI *Beta*
+#### Grocery Recommendations using GenAI
 Use context-based product recommendations powered by GenAI Large Language Models to enhance a shopping experience.<br>
 [Python-SQL Version](./UseCases/Grocery_Recommendation/Grocery_Recommendation_PY_SQL.ipynb)
 
-#### Hyperparameter Tuning using the Titanic Passenger Dataset *Beta*
+#### Hyperparameter Tuning using the Titanic Passenger Dataset
 Create a predictive algorithm that can identify whethr or not passengers on the Titanic survived the ship's sinking.<br>
 [Python Version](./UseCases/TitanicSurvival_HyperParameter/Predict_TitanicSurvival_Hyperparameter_Tuning_Python.ipynb)
 
-#### Signal Processing and Classification *Beta*
+#### Signal Processing and Classification
 Use the Unbounded Array Framework in ClearScape Analytics to classify sonar signals. Extract and engineer features to use in training and scoring our models.<br>
 [Python Version](./UseCases/Signal_Processing_and_Classification/Signal_Processing_and_Classification_Python.ipynb)
+
+#### Natural Language Processing
+Use NLP for Sentiment Analysis, perform Kmeans clustering, execute Principal Component Analysis (PCA) using comments received by a Retail Store<br>
+[Python-SQL Version](./UseCases/Natural_Language_Processing/Natural_Language_Processing_Python.ipynb)
+
+#### Tutorial on using Teradataml Widgets
+Use Teradataml Widgets to display interactive prompting to generate datasets from the Vantage database.<br>
+[Python Version](./Getting_Started/Teradataml_Widgets/Tutorial.ipynb)
 
 #### Convert PySpark to teradatamlspk
 Convert a PySpark script to teradatamlspk syntax and generate a HTML report using Housing Prices to generate price predictions.<br>
 [Python Version](./Getting_Started/PySpark_to_Teradataml/HousingPrices_pyspark_to_tdml.ipynb)
 
+#### Generate Teradata SQL with GenAI and AWS Bedrock
+In this demo, we use AWS Bedrock's LLMs and LangChain to create a text-to-Teradata SQL agent.<br>
+[Python Version](./UseCases/Generative_Question_Answering_GenAI_Bedrock/AWS_Bedrock_LangChain_Text_to_SQL.ipynb)
+
+#### Introduction to Plot types using Teradataml Widgets.
+This is an introduction to using the various Plot types available as widgets: Line, Bar, Mesh, Wiggle, Geometry, etc.<br>
+[Python Version](./Getting_Started/Teradataml_Widgets/Plot_Notebook.ipynb)
+
+#### Banking Churn Prediction with AutoML
+Implement the entire lifecycle of churn prediction using BYOM, VAL and AutoML.<br>
+[Python Version](./UseCases/Banking_Customer_Churn_AutoML/Banking_AutoML.ipynb)
+
 #### Credit Risk Assessment using Teradataml OpenSource Functions
 Use inDb functions with OpensourceML to create multiple DecisionTreeClassifiers to create multiple predictions of a Credit Risk Assessment.<br>
 [Python Version](./UseCases/Credit_Risk_Assessment/Credit_Risk_Assessment_Python.ipynb)
 
-#### Customer Reviews Analysis using GenAI *Beta*
+#### Customer Reviews Analysis using GenAI
 Customer reviews analysis is a crucial aspect of understanding customer sentiment and preferences. By leveraging the power of OpenAIEmbeddings and Vantage InDB Analytic Function, we can gain valuable insights from customer reviews.<br>
 [Python Version](./UseCases/Customer_reviews_analysis_using_GenAI/Customer_reviews_analysis_using_GenAI_Python.ipynb)
 
@@ -1312,15 +1348,11 @@ Customer reviews analysis is a crucial aspect of understanding customer sentimen
 Compare the distribution and variation of data between two time intervals usin In-DB function executed via a framework to provide alerts highlighting data anomalies.<br>
 [Python Version](./UseCases/Data_Quality_Anomaly_Detection/Data_Quality_Anomaly_Detection_Python.ipynb)
 
-#### Fine-Tune OpenAI GPT-3.5 Turbo Model *Beta*
-Teach GPT-3.5 the language and terminology to become a specialist in answering mental health-related questions and provide responses.<br>
-[Python Version](./Usecases/Fine_Tuning_OpenAI_Model/Fine_Tuning_OpenAI_Model_Python.ipynb)
-
-#### Mental Health Chat with Fine-tuned OpenAI Model *Beta*
+#### Mental Health Chat with Fine-tuned OpenAI Model
 Train a GPT-3.5 Turbo model using the OpenAI API endpoint.  Ask mental health questions using a chat input box.<br>
 [Python Version](./UseCases/Fine_Tuning_OpenAI_Model/Fine_Tuning_OpenAI_Model_Python.ipynb)
 
-#### Mortgage Calculator chatbot using GenAI: RAG *Beta*
+#### Mortgage Calculator chatbot using GenAI: RAG
 Build a conversational chatbot and ask questions about a mortgage and available housing within a predefined area using LangChain.<br>
 [Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_RAG.ipynb)
 
@@ -1328,61 +1360,29 @@ Build a conversational chatbot and ask questions about a mortgage and available 
 Experience the integration of LLM models to provide user-friendly responses to queries.  RAG combines retrieval and generative approaches.<br>
 [Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_RAG.ipynb)
 
-#### Parkinson's Disease Prediction using Signal Processing *Beta*
+#### Parkinson's Disease Prediction using Signal Processing
 Detect Parkinson's Disease at an early stage by using Vantage InDB functions for model training and scoring to compare the performance of two models against biomedical voice measurements.<br>
-[Python Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediciton_Python.ipynb)
+[Python Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_Python.ipynb)
 
-#### Anomaly Detection in Spot Welding Process - Trusted AI *Beta*
+#### Anomaly Detection in Spot Welding Process - Trusted AI
 Evaluates potential failures in spot welds based on voltage anomalies during the welding process.<br>
 [Python Version](./UseCases/Anomaly_Detection/Anomaly_Detection_Python_TrustedAI.ipynb)
 
-#### Cancer Prediction using the TDAPIClient and VertexAI *Beta*
+#### Cancer Prediction using the TDAPIClient and VertexAI
 Use TDAPIClient to connect to the Google Cloud Vertex API Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker. Deploy the solution's ML model.<br>
 [Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_VertexAI_CustomModel.ipynb)
 
-#### Product Recommendation via AWS Bedrock *Beta*
+#### Product Recommendation via AWS Bedrock
 Use AWS Bedrock, Embedding from HuggingFace and Vantage in-DB functions to assist in providing product recommendations to develop a recipe assistant chatbot.<br>
 [Python Version](./UseCases/Chat_Powered_Product_Recommendation/Chat_powered_product_recommendation_based_on_search_output.ipynb)
 
-#### 01 ModelOps Getting Started
-This introduces the ModelOps methodology, provides an overview video, and a description of navigating the projects, models, and datasets plus a description of monitoring capabilities.<br>
-[Python Version](./ModelOps/01_ModelOps_Getting_Started.ipynb)
+#### Customer Complaint Analyzer with GenAI
+This is a collection of demos showing multiple methods of dealing with customer complaints using various GenAI techniques.<br>
+[Information](./UseCases/Complaints_Analysis_GenAI/Complaint_Analysis_Dashboard.ipynb)
 
-#### 02 ModelOps Explore Diabetes Data
-This is a guide through the PIMA Diabetes prediction including data exploration and model experimentation.<br>
-[Python Version](./ModelOps/02_ModelOps_PIMA_Experimentation.ipynb)
-
-#### 03 ModelOps Operationalize PMML
-Covers the ModelOps operationalizing of Bring-your-own-model (BOYM) importing a model via PMML.  PMML allows exchange predictive models produced by data mining and machine learning algorithms.<br>
-[Python Version](./ModelOps/03_ModelOps_BYOM_PIMA_PMML.ipynb)
-
-#### 04 Modelops Operationalize ONNX
-Covers the ModelOps operationalizing of the ONNX model format for BYOM for the Diabetes use case. ONNX is an efficient model format primarily related to neural networks.<br>
-[Python Version](./ModelOps/04_ModelOps_BYOM_PIMA_ONNX.ipynb)
-
-#### 05 ModelOps Operationalize H2O
-Covers the ModelOps operationalizing of the H2O model format for BYOM for the Diabetes use case. H2O is an open source, distributed in-memory machine learning library with linear scalability.<br>
-[Python Version](./ModelOps/05_ModelOps_BYOM_PIMA_H2O.ipynb)
-
-#### 06 ModelOps Project Setup
-Shows you how to set up your own GIT repository for models and create a new project in ModelOps associated with your new repository. This step is **required** for the next notebooks.<br>
-[Python Version](./ModelOps/06_ModelOps_GIT_Project_Setup.ipynb)
-
-#### 07 ModelOps Define Functions
-For the project you've created in ModelOps, this shows definition of the training function, evaluate function, scoring function, life cycle, and monitoring.<br>
-[Python Version](./ModelOps/07_ModelOps_GIT_PIMA_Python_Indb_GLM.ipynb)
-
-#### 08 ModelOps Add H20 to Project
-Demonstrates the use of ModelOps to finalize the H2O AI model, train, evaluate, approve, deploy, score and monitor.<br>
-[Python Version](./ModelOps/08_ModelOps_GIT_PIMA_Python_H2OAutoML.ipynb)
-
-#### 09 ModelOps Add XGBoost to Project
-Uses XGBoost algorithm to generate both Python Joblib and PMML model formats and operationalize them through ModelOps.<br>
-[Python Version](./ModelOps/09_ModelOps_GIT_PIMA_Python_XGboost.ipynb)
-
-#### 10 ModelOps Add R gbm Model to Project
-Uses the gbm R package to generate both R model formats and operationalize through ModelOps. The gbm R packages extends Freund & Schapire's AadaBoost algorithm and Friedman's **G**radient **B**oosting **M**achine (gbm).<br>
-[Python Version](./ModelOps/10_ModelOps_GIT_PIMA_R_GBM.ipynb)
+#### Predicting Medical Expenses in Healthcare
+Use a dataset containing variables like age, sex, BMI, smoking status, number of children, and region to build machine learning models that accurately predict healthcare costs for insurance policyholders, taking into account factors that affect medical expenses.<br>
+[Python Version](./UseCases/Health_Insurance/Health_Insurance_Costs_Python.ipynb)
 
 #### 4D Analytics on bike sharing
 Demonstration of Geospatial and TimeSeries using Austin bike trip data between 2014 and 2017.<br>
@@ -1398,7 +1398,7 @@ Uses a combination of Vantage Analytics Library to prepare data, using machine l
 
 #### Battery Defect Analysis
 Uses local data (or foreign tables on GCP) to analyze patterns of battery failure, then links to data on AWS for detailed battery measurement.<br>
-[Python-SQL Version](./UseCases/Battery_Defect_Analysis/Battery_Defect_Analysis_PY_SQL.ipynb)
+[Python Version](./UseCases/Battery_Defect_Analysis/Battery_Defect_Analysis_Python.ipynb)
 
 #### Broken Digital Journey
 This uses nPath® analysis to show the retail events that prevent the ultimate objective: a purchase.  This uses interactive Sankey diagrams to understand the problems.<br>
@@ -1513,24 +1513,16 @@ Examines the results of campaigns by various customer attributes then uses corre
 [Python-SQL Version](./UseCases/Marketing_Campaign_Effectiveness/Marketing_Campaign_Effectiveness_Preditction_PY_SQL.ipynb)
 
 #### Multi-Touch Attribution for Business Analyst
-This is a somewhat simplified version of the Multi-Touch Attribution demonstration focused on the interests of the Business Analyst vs the Data Scientist.<br>
+This version of the Multi-Touch Attribution demonstration is focused on the interests of the Business Analyst.<br>
 [Python-SQL Version](./UseCases/MultiTouch_Attribution/Analyst_MultiTouch_Attribution_PY_SQL.ipynb)
 
 #### Multi-Touch Attribution for Data Scientist
-Demonstrates attribution of customer behavior via  single touch and multi-touch rule-based models, and using statistical, and algorithmic models. Multiple approaches are demonstrated since each has strengths and limitations.<br>
-[Python-SQL Version](./UseCases/MultiTouch_Attribution/MultiTouch_Attribution_PY_SQL.ipynb)
-
-#### MultiTouch Attribution
-Shows rule-based, Statistics, and Algorithmic attribution of the marketing touchpoints leading to conversion. Ten approaches will be demonstrated along with path analysis of effectiveness and cost of conversion.<br>
+Demonstrates attribution of customer behavior via single touch and multi-touch rule-based models using statistical and algorithmic models. Multiple approaches are demonstrated.<br>
 [Python-SQL Version](./UseCases/MultiTouch_Attribution/MultiTouch_Attribution_PY_SQL.ipynb)
 
 #### NYC Taxi Geospatial
 Applies geospatial functions to analysis of NYC Taxi pickups and drop off locations.<br>
 [Python-SQL Version](./UseCases/NYC_Taxi/NYC_Taxi_Geospatial_PY_SQL.ipynb)
-
-#### Parkinson's Disease Prediction
-This uses analytics to determine which biomedical voice measurements are significant in identifying people potentially with Parkinson's<br>
-[Python-SQL Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_PY_SQL.ipynb)
 
 #### Predictive Maintenance
 Uses ML functions to predict failures to identify and mitigate potential machine failures before they occur.<br>
@@ -1555,10 +1547,6 @@ Applies machine learning to predict Remaining Useful Life (RUL) of jet engines, 
 #### Retail Demand Forecasting
 This creates an ARIMA time series model based on holidays and merchandising activities impacting store sales for a hypermarket retailer.<br>
 [Python Version](./UseCases/Retail_Demand_Forecasting/Retail_Demand_Forecasting_Python.ipynb)
-
-#### Retail Item Demand Forecast
-Predicts demand for retail products showing how multiple models can be run concurrently.<br>
-[Python-SQL Version](./UseCases/Retail_Demand_Forecasting/Retail_Demand_Forecasting_Python.ipynb)
 
 #### Sales Forecasting using UAF
 A detailed coverage of the analytic steps in sales forecasting including data preparation, exploration, seasonal normalizing, model creation, validation, and forecasting.<br>
@@ -1610,13 +1598,13 @@ Demonstrated the use of Teradataml in Python to perform descriptive statistics, 
 
 #### Chatbot using GenAI with insurance PDF document
 Uses TD_VectorDistance in Vantage to create a chatbot using Retrieval-Augmented Generation (RAG),  Langchain, and LLM to answer questions using a 24 page travelers insurance policy PDF as source data to answer questions about coverage.<br>
-[Python Version](./UseCases/Chat_wth_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Chat_wth_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
+[Python Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
 
 #### Sales Forecasting with Vantage vs SAS
 This demo walks through how a typical SAS user would use sales data to build a simple sales forecasting model and then will showcase how we can achieve the same using Vantage ClearScape Analytics.<br>
 [Python-SQL Version](./UseCases/SalesForecast_SAS_Vantage/Sales_Forecasting_SAS_Vantage_PY_SQL.ipynb) &ensp; [SQL Version](./UseCases/SalesForecast_SAS_Vantage/Sales_Forecasting_SAS_Vantage_SQL.ipynb)
 
-#### Shipping Time Prediction *Beta*
+#### Shipping Time Prediction
 Use ClearScape Analytics to develop a robust system that can reliably estimate delivery dates, accounting for handling time, transit time, and other relevant variables affecting the actual delivery timeframe.<br>
 [Python-SQL Version](./UseCases/Shipping_Time_Prediction/Shipping_Time_Prediction_PY_SQL.ipynb)
 
@@ -1624,9 +1612,13 @@ Use ClearScape Analytics to develop a robust system that can reliably estimate d
 Quality of service analysis of 5G vs 4G video for different situations such as Indoor, outdoor, and moble.<br>
 [SQL Version](./UseCases/Telco_5G_QOE_Analysis/Telco_5G_QOE_Analysis_SQL.ipynb)
 
-#### Grocery Recommendations using GenAI *Beta*
+#### Grocery Recommendations using GenAI
 Use context-based product recommendations powered by GenAI Large Language Models to enhance a shopping experience.<br>
 [Python-SQL Version](./UseCases/Grocery_Recommendation/Grocery_Recommendation_PY_SQL.ipynb)
+
+#### Customer Complaint Analyzer with GenAI
+This is a collection of demos showing multiple methods of dealing with customer complaints using various GenAI techniques.<br>
+[Information](./UseCases/Complaints_Analysis_GenAI/Complaint_Analysis_Dashboard.ipynb)
 
 #### 4D Analytics on bike sharing
 Demonstration of Geospatial and TimeSeries using Austin bike trip data between 2014 and 2017.<br>
@@ -1729,6 +1721,34 @@ Analysis of sessions and queries  you executed using the built-in logging facili
 [SQL Version](./UseCases/Vantage_Query_Log_Analysis/Vantage_Query_Log_Analysis_SQL.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xR'></a>
+### R
+
+#### ModelOps Introduction & List of Notebooks
+This introduction and table of contents introduces you to ModelOps and provides a launch for ModelOps. It is **recommended** to go through ModelOps demonstrations in sequence.<br>
+[Information](./ModelOps/00_ModelOps_Introduction.ipynb)
+
+#### Customer Segmentation with K-means
+Use K-means clustering to segment customers by purchase volume and value using R and tdplyr<br>
+[R Version](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_R.ipynb)
+
+#### Teradata Package for R Basics
+Discoverer how the Teradata Package for R (tdplyr) allows users to develop and run R programs to take advantage of Big Data and Machine Learning analytic capabilities of Vantage.<br>
+[Information](Getting_Started/tdplyr_R_Basics/tdplyr_R_Basics.ipynb)
+
+#### Financial Fraud Detection  InDB
+Detect financial transaction fraud using powerful in-database machine learning functions<br>
+[R Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_R.ipynb)
+
+#### tdplyr R Basics
+Work through using the bgasics of the Teradata R package, tdplyr<br>
+[R Version](./Getting_Started/tdplyr_R_Basics/tdplyr_R_Basics.ipynb)
+
+#### Data Loading ('R')
+Shows multiple ways to load data from local CSV files, and cloud files on Google and AWS using the SQL kernel.<br>
+[R Version](./Getting_Started/Data_Loading/Data_Loading_R.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
 
 ---
 
@@ -1737,7 +1757,7 @@ Analysis of sessions and queries  you executed using the built-in logging facili
 <a id='xAnomaly-Detection'></a>
 ### Anomaly Detection
 
-#### Anomaly Detection of Outstanding Amounts *Beta*
+#### Anomaly Detection of Outstanding Amounts
 Anomaly detection in bank accounts can help in identifying unusual patterns, potentially flagging issues like errors or fraudulent activities.  Enterprise re-use of Features ensures rapid creation & deployment of models while new Features can be created and used without extensive engineering support.<br>
 [Python Version](./UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb)
 
@@ -1750,8 +1770,20 @@ Compare the distribution and variation of data between two time intervals usin I
 [Python Version](./UseCases/Data_Quality_Anomaly_Detection/Data_Quality_Anomaly_Detection_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xCustomer-Complaint-Analysis'></a>
+### Customer Complaint Analysis
+
+#### Customer Complaint Analyzer with GenAI
+This is a collection of demos showing multiple methods of dealing with customer complaints using various GenAI techniques.<br>
+[Information](./UseCases/Complaints_Analysis_GenAI/Complaint_Analysis_Dashboard.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xEnterprise-Feature-Store'></a>
 ### Enterprise Feature Store
+
+#### Anomaly Detection of Outstanding Amounts
+Anomaly detection in bank accounts can help in identifying unusual patterns, potentially flagging issues like errors or fraudulent activities.  Enterprise re-use of Features ensures rapid creation & deployment of models while new Features can be created and used without extensive engineering support.<br>
+[Python Version](./UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
@@ -1762,81 +1794,57 @@ Compare the distribution and variation of data between two time intervals usin I
 <a id='xBeta-Review'></a>
 ### Beta Review
 
-#### Anomaly Detection of Outstanding Amounts *Beta*
-Anomaly detection in bank accounts can help in identifying unusual patterns, potentially flagging issues like errors or fraudulent activities.  Enterprise re-use of Features ensures rapid creation & deployment of models while new Features can be created and used without extensive engineering support.<br>
-[Python Version](./UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb) &ensp; [Python Version](./UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb)
-
-#### Charting and Visualizations using teradataml *Beta*
-The td_plot method streamlines large-scale visualizations by providing users with efficient tools to create visualizations directly within the Vantage platform<br>
-[Python Version](./Getting_Started/Charting_and_Visualization/InDB_Visualizations_using_teradataml.ipynb)
-
-#### Natural Language Processing *Beta*
-Use NLP for Sentiment Analysis, perform Kmeans clustering, execute Principal Component Analysis (PCA) using comments received by a Retail Store<br>
-[Python-SQL Version](./UseCases/Natural_Language_Processing/Natural_Language_Processing_Python.ipynb)
-
-#### Product Recommentations via TDApiClient *Beta*
-Build a product recommendation system using OpenAI embeddings and Vantage in db_function VectorDistance. We will also use Vantage as VectorDB, to store the embeddings.<br>
-[Python Version](./UseCases/Recommendations_product_search/Recommendations_product_search_OpenAI_using_TDAPIClient_Python.ipynb)
-
-#### Shipping Time Prediction *Beta*
-Use ClearScape Analytics to develop a robust system that can reliably estimate delivery dates, accounting for handling time, transit time, and other relevant variables affecting the actual delivery timeframe.<br>
-[Python-SQL Version](./UseCases/Shipping_Time_Prediction/Shipping_Time_Prediction_PY_SQL.ipynb)
-
-#### Getting Started With Azure *Beta*
-Follow these steps to create your first Azure account and create an Azure Machine Learning workspace to complete our AzureML use cases.<br>
-[Information](./UseCases/Energy_Consumption_Forecasting_AzureML/Getting_Started_with_Azure.ipynb)
-
-#### Using ClearScape Analytics with openAI *Beta*
-To ensure optimal utilization of the OpenAI API in generative AI notebooks, it is essential to establish the API keys correctly. This concise guide outlines the process of configuring OpenAI API keys for seamless integration across multiple notebooks.<br>
-[Information](./UseCases/Openai_setup_api_key/Openai_setup_api_key.md)
-
-#### Fine-Tune OpenAI GPT-3.5 Turbo Model *Beta*
-Teach GPT-3.5 the language and terminology to become a specialist in answering mental health-related questions and provide responses.<br>
-[Python Version](./Usecases/Fine_Tuning_OpenAI_Model/Fine_Tuning_OpenAI_Model_Python.ipynb)
-
-#### Hyperparameter Tuning using the Titanic Passenger Dataset *Beta*
-Create a predictive algorithm that can identify whethr or not passengers on the Titanic survived the ship's sinking.<br>
-[Python Version](./UseCases/TitanicSurvival_HyperParameter/Predict_TitanicSurvival_Hyperparameter_Tuning_Python.ipynb)
-
-#### Parkinson's Disease Prediction using Signal Processing *Beta*
-Detect Parkinson's Disease at an early stage by using Vantage InDB functions for model training and scoring to compare the performance of two models against biomedical voice measurements.<br>
-[Python Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediciton_Python.ipynb)
-
-#### Signal Processing and Classification *Beta*
-Use the Unbounded Array Framework in ClearScape Analytics to classify sonar signals. Extract and engineer features to use in training and scoring our models.<br>
-[Python Version](./UseCases/Signal_Processing_and_Classification/Signal_Processing_and_Classification_Python.ipynb)
-
-#### Grocery Recommendations using GenAI *Beta*
-Use context-based product recommendations powered by GenAI Large Language Models to enhance a shopping experience.<br>
-[Python-SQL Version](./UseCases/Grocery_Recommendation/Grocery_Recommendation_PY_SQL.ipynb)
-
-#### Mortgage Calculator Chatbot using GenAI: Finetune LLM *Beta*
-Fine-tuned an OpenAI model using RAG, LangChain and LLM models framework.  Query a chatbot for answers about a mortgage and available housing within a predefiend area.<br>
-[Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_Finetune_LLM.ipynb)
-
-#### Cancer Prediction using Teradata and the SageMaker API *Beta*
-Use the Vantage SageMaker API feature to connect to an Amazon Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker.  Deploy the solution's ML model.<br>
-[Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_Sagemaker.ipynb)
-
-#### Mental Health Chat with Fine-tuned OpenAI Model *Beta*
-Train a GPT-3.5 Turbo model using the OpenAI API endpoint.  Ask mental health questions using a chat input box.<br>
-[Python Version](./UseCases/Fine_Tuning_OpenAI_Model/Fine_Tuning_OpenAI_Model_Python.ipynb)
-
-#### Anomaly Detection in Spot Welding Process - Trusted AI *Beta*
-Evaluates potential failures in spot welds based on voltage anomalies during the welding process.<br>
-[Python Version](./UseCases/Anomaly_Detection/Anomaly_Detection_Python_TrustedAI.ipynb)
-
-#### Cancer Prediction using the TDAPIClient and VertexAI *Beta*
-Use TDAPIClient to connect to the Google Cloud Vertex API Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker. Deploy the solution's ML model.<br>
-[Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_VertexAI_CustomModel.ipynb)
-
-#### Product Recommendation via AWS Bedrock *Beta*
+#### Product Recommendation via AWS Bedrock
 Use AWS Bedrock, Embedding from HuggingFace and Vantage in-DB functions to assist in providing product recommendations to develop a recipe assistant chatbot.<br>
 [Python Version](./UseCases/Chat_Powered_Product_Recommendation/Chat_powered_product_recommendation_based_on_search_output.ipynb)
 
-#### Customer Reviews Analysis using GenAI *Beta*
-Customer reviews analysis is a crucial aspect of understanding customer sentiment and preferences. By leveraging the power of OpenAIEmbeddings and Vantage InDB Analytic Function, we can gain valuable insights from customer reviews.<br>
-[Python Version](./UseCases/Customer_reviews_analysis_using_GenAI/Customer_reviews_analysis_using_GenAI_Python.ipynb)
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xNew'></a>
+### New
+
+#### Introduction to Plot types using Teradataml Widgets.
+This is an introduction to using the various Plot types available as widgets: Line, Bar, Mesh, Wiggle, Geometry, etc.<br>
+[Python Version](./Getting_Started/Teradataml_Widgets/Plot_Notebook.ipynb)
+
+#### Teradata Package for R Basics
+Discoverer how the Teradata Package for R (tdplyr) allows users to develop and run R programs to take advantage of Big Data and Machine Learning analytic capabilities of Vantage.<br>
+[Information](Getting_Started/tdplyr_R_Basics/tdplyr_R_Basics.ipynb)
+
+#### Customer Segmentation with K-means
+Use K-means clustering to segment customers by purchase volume and value using R and tdplyr<br>
+[R Version](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_R.ipynb)
+
+#### tdplyr R Basics
+Work through using the bgasics of the Teradata R package, tdplyr<br>
+[R Version](./Getting_Started/tdplyr_R_Basics/tdplyr_R_Basics.ipynb)
+
+#### Tutorial on using Teradataml Widgets
+Use Teradataml Widgets to display interactive prompting to generate datasets from the Vantage database.<br>
+[Python Version](./Getting_Started/Teradataml_Widgets/Tutorial.ipynb)
+
+#### Data Loading ('R')
+Shows multiple ways to load data from local CSV files, and cloud files on Google and AWS using the SQL kernel.<br>
+[R Version](./Getting_Started/Data_Loading/Data_Loading_R.ipynb)
+
+#### Banking Churn Prediction with AutoML
+Implement the entire lifecycle of churn prediction using BYOM, VAL and AutoML.<br>
+[Python Version](./UseCases/Banking_Customer_Churn_AutoML/Banking_AutoML.ipynb)
+
+#### Predicting Medical Expenses in Healthcare
+Use a dataset containing variables like age, sex, BMI, smoking status, number of children, and region to build machine learning models that accurately predict healthcare costs for insurance policyholders, taking into account factors that affect medical expenses.<br>
+[Python Version](./UseCases/Health_Insurance/Health_Insurance_Costs_Python.ipynb)
+
+#### Financial Fraud Detection  InDB
+Detect financial transaction fraud using powerful in-database machine learning functions<br>
+[R Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_R.ipynb)
+
+#### Generate Teradata SQL with GenAI and AWS Bedrock
+In this demo, we use AWS Bedrock's LLMs and LangChain to create a text-to-Teradata SQL agent.<br>
+[Python Version](./UseCases/Generative_Question_Answering_GenAI_Bedrock/AWS_Bedrock_LangChain_Text_to_SQL.ipynb)
+
+#### Customer Complaint Analyzer with GenAI
+This is a collection of demos showing multiple methods of dealing with customer complaints using various GenAI techniques.<br>
+[Information](./UseCases/Complaints_Analysis_GenAI/Complaint_Analysis_Dashboard.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 

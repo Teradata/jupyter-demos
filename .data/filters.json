@@ -6,10 +6,6 @@
             "subjects": [
                 {
                     "subjseq": 1,
-                    "subject": "Azure Cloud"
-                },
-                {
-                    "subjseq": 1,
                     "subject": "First Time User"
                 },
                 {
@@ -144,16 +140,32 @@
                     "subject": "Natural Language Processing"
                 },
                 {
-                    "subjseq": 17,
-                    "subject": "OpenAI"
-                },
-                {
                     "subjseq": 18,
                     "subject": "Signal Processing"
                 },
                 {
                     "subjseq": 19,
                     "subject": "Open Source"
+                },
+                {
+                    "subjseq": 20,
+                    "subject": "AutoML"
+                },
+                {
+                    "subjseq": 20,
+                    "subject": "PCA (Principal Component Analysis)"
+                },
+                {
+                    "subjseq": 21,
+                    "subject": "Fraud Detection"
+                },
+                {
+                    "subjseq": 22,
+                    "subject": "TeradataML Open Source Functions"
+                },
+                {
+                    "subjseq": 24,
+                    "subject": "Hyperparameter Tuning"
                 }
             ]
         },
@@ -163,6 +175,10 @@
                 {
                     "subjseq": 1,
                     "subject": "AWS SageMaker"
+                },
+                {
+                    "subjseq": 1,
+                    "subject": "Azure Cloud"
                 },
                 {
                     "subjseq": 2,
@@ -189,10 +205,6 @@
                     "subject": "MicroStrategy"
                 },
                 {
-                    "subjseq": 8,
-                    "subject": "R"
-                },
-                {
                     "subjseq": 9,
                     "subject": "SAP Business Objects"
                 },
@@ -211,6 +223,10 @@
                 {
                     "subjseq": 13,
                     "subject": "AWS Bedrock"
+                },
+                {
+                    "subjseq": 17,
+                    "subject": "OpenAI"
                 }
             ]
         },
@@ -224,6 +240,10 @@
                 {
                     "subjseq": 2,
                     "subject": "SQL"
+                },
+                {
+                    "subjseq": 8,
+                    "subject": "R"
                 }
             ]
         },
@@ -254,6 +274,10 @@
                 {
                     "subjseq": 1,
                     "subject": "Beta Review"
+                },
+                {
+                    "subjseq": 2,
+                    "subject": "New"
                 }
             ]
         }
