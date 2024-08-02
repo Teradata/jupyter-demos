@@ -51,17 +51,28 @@ jobs:
 
           - name: List all changed notebook files
             if: steps.changed-files.outputs.any_changed == 'true'
+            id: load-files
             env:
               ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
             run: |
               for file in ${ALL_CHANGED_FILES}; do
-                echo "../$file"
+                if ! grep -Fxq "../$file" skip_files.txt
+                  then
+                    echo "../$file"
+                fi
               done | sort > ./files.txt
               cat ./files.txt
+              if [ -s ./files.txt ]; then
+                echo "tests_exists=true" >> $GITHUB_OUTPUT
+              else
+                echo "tests_exists=false" >> $GITHUB_OUTPUT
+              fi
           - uses: actions/setup-node@v3
+            if: ${{ steps.load-files.outputs.tests_exists == 'true' }}
             with:
                 node-version: 16
           - name: Define env name and GCP credentials
+            if: ${{ steps.load-files.outputs.tests_exists == 'true' }}
             id: define-environment
             run: |
                 echo "env-name=ci-$(date +%s%N)" >> $GITHUB_OUTPUT
@@ -77,12 +88,14 @@ jobs:
                   echo "CSAE_CLEARSCAPE_API_KEY=${{ secrets.CSAE_CLEARSCAPE_API_KEY }}" >> $GITHUB_ENV
                 fi
           - name: Authenticate with Google Cloud
+            if: ${{ steps.load-files.outputs.tests_exists == 'true' }}
             id: auth
             uses: 'google-github-actions/auth@v2'
             with:
                 workload_identity_provider: ${{steps.define-environment.outputs.workload_identity_provider}}
                 service_account: ${{steps.define-environment.outputs.service_account}}
           - name: Get secrets from Google Secret Manager
+            if: ${{ steps.load-files.outputs.tests_exists == 'true' }}
             id: 'secrets'
             uses: 'google-github-actions/get-secretmanager-secrets@v2'
             with:
@@ -90,21 +103,25 @@ jobs:
                   OPENAI_API_KEY:${{steps.define-environment.outputs.gcp_project}}/JUPYTER_NOTEBOOK_CI_OPEN_AI_KEY
                 export_to_environment: true
           - name: Install dependencies
+            if: ${{ steps.load-files.outputs.tests_exists == 'true' }}
             run: npm ci
           - name: Install Playwright browsers
+            if: ${{ steps.load-files.outputs.tests_exists == 'true' }}
             run: |
                 npx playwright install --with-deps
           - name: Start test environments
+            if: ${{ steps.load-files.outputs.tests_exists == 'true' }}
             id: start-test-environment
             run: npx ts-node pre_create_env.ts
           - name: Run Playwright tests
+            if: ${{ steps.load-files.outputs.tests_exists == 'true' }}
             run: |
                 npx playwright test
           - name: Delete test environments
-            if: always()
+            if: ${{always() && steps.load-files.outputs.tests_exists == 'true'}}
             run: npx ts-node post_delete_env.ts
           - uses: actions/upload-artifact@v3
-            if: always()
+            if: ${{always() && steps.load-files.outputs.tests_exists == 'true'}}
             with:
                 name: playwright-report
                 path: .tests/playwright-report/
