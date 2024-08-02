@@ -1,0 +1,6 @@
+boto3  
+langchain 
+langchain-community 
+langchain_aws 
+teradataml 
+pyopenssl 
