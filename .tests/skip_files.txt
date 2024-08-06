@@ -54,4 +54,10 @@
 ../UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_R.ipynb
 ../UseCases/Complaints_Analysis_GenAI/Speech_Recognition_AWS_Bedrock.ipynb
 ../UseCases/Complaints_Analysis_GenAI/Topic_Modelling.ipynb
-../ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb 
+../ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb
+../UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_R.ipynb
+../UseCases/Diabetes_Prediction/Diabetes_Prediction_via_BYOM_H2O_PY_SQL.ipynb
+../Getting_Started/Data_Loading/Data_Loading_R.ipynb
+../UseCases/Chat_with_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb
+../UseCases/Generative_Question_Answering_GenAI/Generative_Question_Answering_Python.ipynb
+../UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_Finetune_LLM.ipynb
