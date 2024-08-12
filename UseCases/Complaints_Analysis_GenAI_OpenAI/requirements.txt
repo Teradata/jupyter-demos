@@ -1,0 +1,7 @@
+openai
+tdapiclient
+google-cloud-aiplatform
+pyopenssl
+cryptography
+wordcloud
+Pillow
