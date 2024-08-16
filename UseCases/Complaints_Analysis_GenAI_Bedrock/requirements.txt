@@ -6,3 +6,4 @@ wordcloud
 pyopenssl
 cryptography
 Pillow
+fastparquet
