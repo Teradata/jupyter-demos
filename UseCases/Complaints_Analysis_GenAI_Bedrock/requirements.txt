@@ -1,0 +1,9 @@
+langchain
+boto3
+awscli
+langchain_community
+wordcloud
+pyopenssl
+cryptography
+Pillow
+fastparquet
