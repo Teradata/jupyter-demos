@@ -1403,7 +1403,7 @@ def proc_crt_psi_alert(sessionid, all_col_df, Alert_set_df, srcdb, srctbl, trgdb
                                AlertDesc = "PSI value = "+ func.trim(cast(comb_df2.psi.expression, Numeric(7,4))) + " > " 
                                + func.trim(cast(comb_df2.ToleranceVal.expression, Numeric(5,2)))
                               )
-    result_df = comb_df2[comb_df2.psi>comb_df2.ToleranceVal].select(["p_sessionid", "databasename", "p_TableName", "xcol", "x_ToleranceLevel","ToleranceVal", "Mod_Type", "AlertType", "AlertDesc" ])
+    result_df = comb_df2[comb_df2.psi>comb_df2.ToleranceVal].select(["sessionid_p", "databasename", "TableName_p", "xcol", "ToleranceLevel_x","ToleranceVal", "Mod_Type", "AlertType", "AlertDesc" ])
 
     rc = proc_insert_df_tble(result_df, trgdb, trgtbl)
 
@@ -1430,7 +1430,7 @@ def proc_crt_newunq_alert(sessionid, all_col_df, srcdb, srctbl, trgdb, trgtbl):
                              AlertDesc = " NEW Category [" + comb_df.xuniquevalue + "] with " + 
                              cast(func.trim(comb_df.sum_new_cnt.expression), VARCHAR(20)) + " record(s)"
                             )
-    result_df = comb_df.select(["p_sessionid", "databasename", "p_TableName", "xcol", "ToleranceLevel", "ToleranceVal", "Mod_Type", "AlertType", "AlertDesc" ])
+    result_df = comb_df.select(["sessionid_p", "databasename", "TableName_p", "xcol", "ToleranceLevel", "ToleranceVal", "Mod_Type", "AlertType", "AlertDesc" ])
 
     rc = proc_insert_df_tble(result_df, trgdb, trgtbl)
 
@@ -1455,7 +1455,7 @@ def proc_crt_newchar_alert(sessionid, all_col_df, srcdb, srctbl, trgdb, trgtbl):
                              AlertDesc = " NEW Character [" + comb_df.Token + "] with " + 
                              cast(func.trim(comb_df.new_char_cnt.expression), VARCHAR(20)) + " time(s)"
                             )
-    result_df = comb_df.select(["p_sessionid", "databasename", "p_TableName", "colname", "ToleranceLevel", "ToleranceVal", "Mod_Type", "AlertType", "AlertDesc" ])
+    result_df = comb_df.select(["sessionid_p", "databasename", "TableName_p", "colname", "ToleranceLevel", "ToleranceVal", "Mod_Type", "AlertType", "AlertDesc" ])
     
     rc = proc_insert_df_tble(result_df, trgdb, trgtbl)
 
@@ -1490,7 +1490,7 @@ def proc_outlier_inc_alert(sessionid, all_col_df, Alert_set_df, srcdb, srctbl, t
                               )
 
     # Prepare the output
-    result_df = comb_df2.select(["p_sessionid", "databasename", "p_TableName", "xcol", "x_ToleranceLevel", "ToleranceVal", "Mod_Type", "AlertType", "AlertDesc" ])
+    result_df = comb_df2.select(["sessionid_p", "databasename", "TableName_p", "xcol", "ToleranceLevel_x", "ToleranceVal", "Mod_Type", "AlertType", "AlertDesc" ])
 
     rc = proc_insert_df_tble(result_df, trgdb, trgtbl)
     return rc
@@ -1512,13 +1512,13 @@ def proc_null_inc_alert(sessionid, all_col_df, Alert_set_df, srcdb, srctbl, trgd
                           how = "inner", lsuffix = "p", rsuffix = "n")
 
     comb_df = comb_df.join(other = all_col_df, 
-                           on = ["p_databasename=DbName","p_tablename=TableName","p_xcol=ColumnName"], 
+                           on = ["databasename_p=DbName","tablename_p=TableName","xcol_p=ColumnName"], 
                            how = "inner", lsuffix = "p", rsuffix = "c")
 
     comb_df2 = comb_df.join(other = null_level_df,
                             on = "ToleranceLevel",
                             how = "inner", lsuffix = "x", rsuffix = "s")
-    comb_df2 = comb_df2.assign(null_inc_pct = comb_df2.n_null_pct - comb_df2.p_null_pct)
+    comb_df2 = comb_df2.assign(null_inc_pct = comb_df2.null_pct_n - comb_df2.null_pct_p)
     comb_df2 = comb_df2[comb_df2.null_inc_pct > comb_df2.ToleranceVal]
 
     comb_df2 = comb_df2.assign(AlertType = "Increase NULL records", 
@@ -1526,7 +1526,7 @@ def proc_null_inc_alert(sessionid, all_col_df, Alert_set_df, srcdb, srctbl, trgd
                                func.trim(cast(comb_df2.null_inc_pct.expression*100.0, Numeric(5,2))) + "%")
 
     # Prepare the output
-    result_df = comb_df2.select(["p_sessionid", "p_databasename", "p_tablename", "p_xcol", "x_ToleranceLevel", "ToleranceVal", "Mod_Type", "AlertType", "AlertDesc" ])
+    result_df = comb_df2.select(["sessionid_p", "databasename_p", "tablename_p", "xcol_p", "x_ToleranceLevel_x", "ToleranceVal", "Mod_Type", "AlertType", "AlertDesc" ])
 
     rc = proc_insert_df_tble(result_df, trgdb, trgtbl)
     
@@ -1567,13 +1567,13 @@ def proc_stat_alert(sessionid, all_col_df, Alert_set_df, srcdb, srctbl, trgdb, t
     #                                (comb_df.n_xmax.expression - comb_df.p_xmax.expression) / comb_df.p_xrange.expression)
     #                              ], else_= (comb_df.n_xmax.expression - comb_df.p_xmax.expression)
     #                             )
-    kwargs['xmindif_pct'] = case((comb_df.p_xrange.expression > 0.0,
-                                   (comb_df.p_xmin.expression - comb_df.n_xmin.expression) / comb_df.p_xrange.expression)
-                                 , else_= (comb_df.p_xmin.expression - comb_df.n_xmin.expression)
+    kwargs['xmindif_pct'] = case((comb_df.xrange_p.expression > 0.0,
+                                   (comb_df.xmin_p.expression - comb_df.xmin_n.expression) / comb_df.xrange_p.expression)
+                                 , else_= (comb_df.xmin_p.expression - comb_df.xmin_n.expression)
                                 )
-    kwargs['xmaxdif_pct'] = case((comb_df.p_xrange.expression > 0.0,
-                                   (comb_df.n_xmax.expression - comb_df.p_xmax.expression) / comb_df.p_xrange.expression)
-                                 , else_= (comb_df.n_xmax.expression - comb_df.p_xmax.expression)
+    kwargs['xmaxdif_pct'] = case((comb_df.xrange_p.expression > 0.0,
+                                   (comb_df.xmax_n.expression - comb_df.xmax_p.expression) / comb_df.xrange_p.expression)
+                                 , else_= (comb_df.xmax_n.expression - comb_df.xmax_p.expression)
                                 )
     
     comb_df = comb_df.assign(**kwargs)
@@ -1581,14 +1581,14 @@ def proc_stat_alert(sessionid, all_col_df, Alert_set_df, srcdb, srctbl, trgdb, t
     
     # Add the Tolerance level
     comb_df = comb_df.join(other = all_col_df, 
-                           on = ["p_databasename=DbName","p_tablename=TableName","p_xcol=ColumnName"], 
+                           on = ["databasename_p=DbName","tablename_p=TableName","xcol_p=ColumnName"], 
                            how = "inner", lsuffix = "p", rsuffix = "c")
 
     # Getting Null percent alert
     comb_df2 = comb_df.join(other = null_level_df,
                             on = "ToleranceLevel",
                             how = "inner", lsuffix = "x", rsuffix = "s")
-    comb_df2 = comb_df2.assign(null_inc_pct = comb_df2.n_null_pct - comb_df2.p_null_pct)
+    comb_df2 = comb_df2.assign(null_inc_pct = comb_df2.null_pct_n - comb_df2.null_pct_p)
     comb_df2 = comb_df2[comb_df2.null_inc_pct > comb_df2.ToleranceVal]
 
     comb_df2 = comb_df2.assign(AlertType = "Increase NULL records", 
@@ -1596,16 +1596,16 @@ def proc_stat_alert(sessionid, all_col_df, Alert_set_df, srcdb, srctbl, trgdb, t
                                func.trim(cast(comb_df2.null_inc_pct.expression*100.0, Numeric(5,2))) + "%")
 
     # Prepare the output for null alert
-    result_df = comb_df2.select(["p_sessionid", "p_databasename", "p_tablename", "p_xcol", "x_ToleranceLevel", "ToleranceVal", "Mod_Type", "AlertType", "AlertDesc" ])
+    result_df = comb_df2.select(["sessionid_p", "databasename_p", "tablename_p", "xcol_p", "ToleranceLevel_x", "ToleranceVal", "Mod_Type", "AlertType", "AlertDesc" ])
     rc = proc_insert_df_tble(result_df, trgdb, trgtbl)
 
     # Getting MIN MAX percent alert
     comb_df2 = comb_df.join(other = minmax_level_df,
-                            on = ["ToleranceLevel = mn_ToleranceLevel"],
+                            on = ["ToleranceLevel = ToleranceLevel_mn"],
                             how = "inner", lsuffix = "x", rsuffix = "s")
     
-    comb_df2_min = comb_df2[comb_df2.xmindif_pct > comb_df2.mn_ToleranceVal]
-    comb_df2_max = comb_df2[comb_df2.xmaxdif_pct > comb_df2.mx_ToleranceVal]
+    comb_df2_min = comb_df2[comb_df2.xmindif_pct > comb_df2.ToleranceVal_mn]
+    comb_df2_max = comb_df2[comb_df2.xmaxdif_pct > comb_df2.ToleranceVal_mx]
 
     comb_df2_min = comb_df2_min.assign(AlertType = "OVER MIN RANGE", 
                                        AlertDesc = "MIN value below " + 
@@ -1615,10 +1615,10 @@ def proc_stat_alert(sessionid, all_col_df, Alert_set_df, srcdb, srctbl, trgdb, t
                                        AlertDesc = "MAX value over " + 
                                        func.trim(cast(comb_df2_max.xmaxdif_pct.expression*100.0, Numeric(5,2))) + "%")
     
-    result_df = comb_df2_min.select(["p_sessionid", "p_databasename", "p_tablename", "p_xcol", "mn_ToleranceLevel", "mn_ToleranceVal", "Mod_Type", "AlertType", "AlertDesc" ])
+    result_df = comb_df2_min.select(["sessionid_p", "databasename_p", "tablename_p", "xcol_p", "ToleranceLevel_mn", "ToleranceVal_mn", "Mod_Type", "AlertType", "AlertDesc" ])
     rc = proc_insert_df_tble(result_df, trgdb, trgtbl)
 
-    result_df = comb_df2_max.select(["p_sessionid", "p_databasename", "p_tablename", "p_xcol", "mx_ToleranceLevel", "mx_ToleranceVal", "Mod_Type", "AlertType", "AlertDesc" ])
+    result_df = comb_df2_max.select(["sessionid_p", "databasename_p", "tablename_p", "xcol_p", "ToleranceLevel_mx", "ToleranceVal_mx", "Mod_Type", "AlertType", "AlertDesc" ])
     rc = proc_insert_df_tble(result_df, trgdb, trgtbl)
     
     return rc
