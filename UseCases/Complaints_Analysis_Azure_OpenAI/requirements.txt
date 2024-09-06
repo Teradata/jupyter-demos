@@ -5,3 +5,5 @@ pyopenssl
 cryptography
 wordcloud
 Pillow
+pyarrow
+fastparquet
