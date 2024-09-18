@@ -8,15 +8,15 @@
             "subjects": [
                 {
                     "id": 2,
-                    "subject": "Time series analytics"
-                },
-                {
-                    "id": 2,
                     "subject": "Travel & Transportation"
                 },
                 {
                     "id": 2,
                     "subject": "Geospatial"
+                },
+                {
+                    "id": 2,
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 2,
@@ -30,7 +30,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/4D_Analytics_on_bike_sharing/Pop_4D_Analytics_on_bike_sharing_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/4D_Analytics_on_bike_sharing/Pop_4D_Analytics_on_bike_sharing_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -40,7 +40,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/4D_Analytics_on_bike_sharing/Pop_4D_Analytics_on_bike_sharing_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/4D_Analytics_on_bike_sharing/Pop_4D_Analytics_on_bike_sharing_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -76,7 +76,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Air_Passenger_Forecasting/Pop_Air_Passenger_Forecasting_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Air_Passenger_Forecasting/Pop_Air_Passenger_Forecasting_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -96,11 +96,11 @@
                 },
                 {
                     "id": 106,
-                    "subject": "Manufacturing"
+                    "subject": "Automotive"
                 },
                 {
                     "id": 106,
-                    "subject": "Automotive"
+                    "subject": "Manufacturing"
                 },
                 {
                     "id": 106,
@@ -114,7 +114,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Anomaly_Detection/Pop_Anomaly_Detection_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Anomaly_Detection/Pop_Anomaly_Detection_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -174,11 +174,11 @@
                 },
                 {
                     "id": 164,
-                    "subject": "Machine learning"
+                    "subject": "Enterprise Feature Store"
                 },
                 {
                     "id": 164,
-                    "subject": "Enterprise Feature Store"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 164,
@@ -209,10 +209,6 @@
                 {
                     "id": 184,
                     "subject": "Python"
-                },
-                {
-                    "id": 184,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -248,7 +244,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Banking_Customer_Churn/Pop_Banking_Customer_Churn_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Banking_Customer_Churn/Pop_Banking_Customer_Churn_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -280,7 +276,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/Getting_Started/Basic_Jupyter_Navigation/Pop_Basic_Jupyter_Navigation_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/Getting_Started/Basic_Jupyter_Navigation/Pop_Basic_Jupyter_Navigation_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -296,11 +292,11 @@
                 },
                 {
                     "id": 58,
-                    "subject": "Manufacturing"
+                    "subject": "Automotive"
                 },
                 {
                     "id": 58,
-                    "subject": "Automotive"
+                    "subject": "Manufacturing"
                 },
                 {
                     "id": 58,
@@ -322,11 +318,11 @@
             "subjects": [
                 {
                     "id": 82,
-                    "subject": "Retail"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 82,
-                    "subject": "Path Analytics"
+                    "subject": "Retail"
                 },
                 {
                     "id": 82,
@@ -336,7 +332,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Broken_Digital_Journey/Pop_Broken_Digital_Journey_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Broken_Digital_Journey/Pop_Broken_Digital_Journey_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -422,15 +418,15 @@
             "subjects": [
                 {
                     "id": 103,
+                    "subject": "Automotive"
+                },
+                {
+                    "id": 103,
                     "subject": "Manufacturing"
                 },
                 {
                     "id": 103,
                     "subject": "Geospatial"
-                },
-                {
-                    "id": 103,
-                    "subject": "Automotive"
                 },
                 {
                     "id": 103,
@@ -440,7 +436,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Car_Complaints/Pop_Car_Complaints_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Car_Complaints/Pop_Car_Complaints_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -471,7 +467,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Carbon_Footprint_Analytics/Pop_Carbon_Footprint_Analytics_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Carbon_Footprint_Analytics/Pop_Carbon_Footprint_Analytics_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -507,7 +503,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Cash_Demand_Forecasting/Pop_Cash_Demand_Forecasting_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Cash_Demand_Forecasting/Pop_Cash_Demand_Forecasting_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -534,7 +530,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/Getting_Started/Charting_and_Visualization/Pop_Charting_and_Visualization_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/Getting_Started/Charting_and_Visualization/Pop_Charting_and_Visualization_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -625,12 +621,443 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Competitor_Proximity_Geospatial_Analysis/Pop_Competitor_Proximity_Geospatial_Analysis_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Competitor_Proximity_Geospatial_Analysis/Pop_Competitor_Proximity_Geospatial_Analysis_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
                     "type": "notebook",
                     "url": "UseCases/Competitor_Proximity_Geospatial_Analysis/Competitor_Proximity_Geospatial_Analysis_Python.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 197,
+            "demo": "Complaints Classification with AWS Bedrock",
+            "description": "Classify customer complaints to swiftly identify and address concerns.",
+            "subjects": [
+                {
+                    "id": 197,
+                    "subject": "AWS Bedrock"
+                },
+                {
+                    "id": 197,
+                    "subject": "AWS"
+                },
+                {
+                    "id": 197,
+                    "subject": "Complaint Summarization"
+                },
+                {
+                    "id": 197,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 197,
+                    "subject": "New"
+                },
+                {
+                    "id": 197,
+                    "subject": "Python"
+                }
+            ],
+            "links": [
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Complaints_Classification.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_GenAI_Bedrock/Complaints_Classification.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 202,
+            "demo": "Complaints Classification with Google Gemini",
+            "description": "Classify customer complaints to swiftly identify and address concerns.",
+            "subjects": [
+                {
+                    "id": 202,
+                    "subject": "Google"
+                },
+                {
+                    "id": 202,
+                    "subject": "Google Gemini"
+                },
+                {
+                    "id": 202,
+                    "subject": "New"
+                },
+                {
+                    "id": 202,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 202,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 202,
+                    "subject": "Python"
+                },
+                {
+                    "id": 202,
+                    "subject": "Complaints Classification"
+                }
+            ],
+            "links": [
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Complaints_Classification.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_GenAI_Gemini/Complaints_Classification.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 210,
+            "demo": "Complaints Classification with OpenAI",
+            "description": "Classify customer complaints to swiftly identify and address concerns.",
+            "subjects": [
+                {
+                    "id": 210,
+                    "subject": "Generative AI"
+                },
+                {
+                    "id": 210,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 210,
+                    "subject": "Python"
+                },
+                {
+                    "id": 210,
+                    "subject": "New"
+                },
+                {
+                    "id": 210,
+                    "subject": "Azure"
+                },
+                {
+                    "id": 210,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 210,
+                    "subject": "OpenAI"
+                },
+                {
+                    "id": 210,
+                    "subject": "Complaints Classification"
+                }
+            ],
+            "links": [
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Complaints_Classification.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_Azure_OpenAI/Complaints_Classification.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 198,
+            "demo": "Complaints Clustering with AWS Bedrock",
+            "description": "Use advanced clustering techniques using AI Embeddings model to group similar customer complaints together.",
+            "subjects": [
+                {
+                    "id": 198,
+                    "subject": "AWS Bedrock"
+                },
+                {
+                    "id": 198,
+                    "subject": "AWS"
+                },
+                {
+                    "id": 198,
+                    "subject": "Python"
+                },
+                {
+                    "id": 198,
+                    "subject": "New"
+                },
+                {
+                    "id": 198,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 198,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 198,
+                    "subject": "Complaints Clustering"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_GenAI_Bedrock/Complaints_Clustering.ipynb",
+                    "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Complaints_Clustering.ipynb",
+                    "label": "Read Only Python"
+                }
+            ]
+        },
+        {
+            "id": 203,
+            "demo": "Complaints Clustering with Google Gemini",
+            "description": "Use advanced clustering techniques using AI Embeddings model to group similar customer complaints together.",
+            "subjects": [
+                {
+                    "id": 203,
+                    "subject": "Google"
+                },
+                {
+                    "id": 203,
+                    "subject": "Google Gemini"
+                },
+                {
+                    "id": 203,
+                    "subject": "New"
+                },
+                {
+                    "id": 203,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 203,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 203,
+                    "subject": "Python"
+                },
+                {
+                    "id": 203,
+                    "subject": "Generative AI"
+                },
+                {
+                    "id": 203,
+                    "subject": "Complaints Clustering"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_GenAI_Gemini/Complaints_Clustering.ipynb",
+                    "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Complaints_Clustering.ipynb",
+                    "label": "Read Only Python"
+                }
+            ]
+        },
+        {
+            "id": 211,
+            "demo": "Complaints Clustering with OpenAI",
+            "description": "Use advanced clustering techniques using AI Embeddings model to group similar customer complaints together.",
+            "subjects": [
+                {
+                    "id": 211,
+                    "subject": "Generative AI"
+                },
+                {
+                    "id": 211,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 211,
+                    "subject": "Python"
+                },
+                {
+                    "id": 211,
+                    "subject": "New"
+                },
+                {
+                    "id": 211,
+                    "subject": "Azure"
+                },
+                {
+                    "id": 211,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 211,
+                    "subject": "OpenAI"
+                },
+                {
+                    "id": 211,
+                    "subject": "Complaints Clustering"
+                }
+            ],
+            "links": [
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Complaints_Clustering.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_Azure_OpenAI/Complaints_Clustering.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 196,
+            "demo": "Complaints Summarization with AWS Bedrock",
+            "description": "Efficiently manage and analyze customer complaints, providing actionable insights to enhance customer satisfaction and improve business operations.",
+            "subjects": [
+                {
+                    "id": 196,
+                    "subject": "AWS Bedrock"
+                },
+                {
+                    "id": 196,
+                    "subject": "AWS"
+                },
+                {
+                    "id": 196,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 196,
+                    "subject": "Complaint Summarization"
+                },
+                {
+                    "id": 196,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 196,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Summarization.ipynb",
+                    "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Complaint_Summarization.ipynb",
+                    "label": "Read Only Python"
+                }
+            ]
+        },
+        {
+            "id": 201,
+            "demo": "Complaints Summarization with Google Gemini",
+            "description": "Efficiently manage and analyze customer complaints, providing actionable insights to enhance customer satisfaction and improve business operations.",
+            "subjects": [
+                {
+                    "id": 201,
+                    "subject": "Google"
+                },
+                {
+                    "id": 201,
+                    "subject": "Google Gemini"
+                },
+                {
+                    "id": 201,
+                    "subject": "New"
+                },
+                {
+                    "id": 201,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 201,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 201,
+                    "subject": "Python"
+                },
+                {
+                    "id": 201,
+                    "subject": "Complaint Summarization"
+                }
+            ],
+            "links": [
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Complaint_Summarization.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_GenAI_Gemini/Complaint_Summarization.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 209,
+            "demo": "Complaints Summarization with OpenAI",
+            "description": "Efficiently manage and analyze customer complaints, providing actionable insights to enhance customer satisfaction and improve business operations.",
+            "subjects": [
+                {
+                    "id": 209,
+                    "subject": "Generative AI"
+                },
+                {
+                    "id": 209,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 209,
+                    "subject": "Python"
+                },
+                {
+                    "id": 209,
+                    "subject": "New"
+                },
+                {
+                    "id": 209,
+                    "subject": "Azure"
+                },
+                {
+                    "id": 209,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 209,
+                    "subject": "OpenAI"
+                },
+                {
+                    "id": 209,
+                    "subject": "Complaint Summarization"
+                }
+            ],
+            "links": [
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Complaint_Summarization.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_Azure_OpenAI/Complaint_Summarization.ipynb",
                     "label": "Python Version"
                 }
             ]
@@ -642,11 +1069,11 @@
             "subjects": [
                 {
                     "id": 7,
-                    "subject": "Financial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 7,
-                    "subject": "Time series analytics"
+                    "subject": "Financial"
                 },
                 {
                     "id": 7,
@@ -656,7 +1083,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Consumer_Complaints/Pop_Consumer_Complaints_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Consumer_Complaints/Pop_Consumer_Complaints_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -714,7 +1141,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Credit_Card_Data_Preparation/Pop_Credit_Card_Data_Preparation_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Credit_Card_Data_Preparation/Pop_Credit_Card_Data_Preparation_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -797,7 +1224,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Customer360/Pop_CustomerIdentityMatching_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Customer360/Pop_CustomerIdentityMatching_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -809,11 +1236,15 @@
             "subjects": [
                 {
                     "id": 23,
+                    "subject": "Retail"
+                },
+                {
+                    "id": 23,
                     "subject": "Path Analytics"
                 },
                 {
                     "id": 23,
-                    "subject": "Retail"
+                    "subject": "SQL"
                 },
                 {
                     "id": 23,
@@ -823,8 +1254,8 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Customer_Behavior_Analysis/Pop_Customer_Behavior_Analysis_PY_SQL.ipynb",
-                    "label": "Read Only Python-SQL"
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Customer_Behavior_Analysis/Pop_Customer_Behavior_Analysis_SQL.ipynb",
+                    "label": "Read Only SQL"
                 },
                 {
                     "type": "notebook",
@@ -838,27 +1269,19 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Customer_Behavior_Analysis/Pop_Customer_Behavior_Analysis_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Customer_Behavior_Analysis/Pop_Customer_Behavior_Analysis_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
         },
         {
             "id": 180,
-            "demo": "Customer Complaint Analyzer with GenAI",
+            "demo": "Customer Complaint Analysis with AWS Bedrock",
             "description": "This is a collection of demos showing multiple methods of dealing with customer complaints using various GenAI techniques.",
             "subjects": [
                 {
                     "id": 180,
                     "subject": "Customer Complaint Analysis"
-                },
-                {
-                    "id": 180,
-                    "subject": "Generative AI"
-                },
-                {
-                    "id": 180,
-                    "subject": "OpenAI"
                 },
                 {
                     "id": 180,
@@ -870,18 +1293,290 @@
                 },
                 {
                     "id": 180,
-                    "subject": "SQL"
+                    "subject": "New"
                 },
                 {
                     "id": 180,
+                    "subject": "AWS"
+                },
+                {
+                    "id": 180,
+                    "subject": "Dashboard Notebook"
+                },
+                {
+                    "id": 180,
+                    "subject": "Large Language Models"
+                }
+            ],
+            "links": [
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Complaint_Analysis_Dashboard.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Analysis_Dashboard.ipynb",
+                    "label": "Information"
+                }
+            ]
+        },
+        {
+            "id": 191,
+            "demo": "Customer Complaint Analysis with Google Gemini",
+            "description": "This is a Dashboard with descriptions and links to various notebooks on various topics using Teradata Vantage and Google Gemini.",
+            "subjects": [
+                {
+                    "id": 191,
+                    "subject": "Google Gemini"
+                },
+                {
+                    "id": 191,
+                    "subject": "Python"
+                },
+                {
+                    "id": 191,
+                    "subject": "New"
+                },
+                {
+                    "id": 191,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 191,
+                    "subject": "Google"
+                },
+                {
+                    "id": 191,
+                    "subject": "Dashboard Notebook"
+                },
+                {
+                    "id": 191,
+                    "subject": "Large Language Models"
+                }
+            ],
+            "links": [
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Complaint_Analysis_Dashboard.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_GenAI_Gemini/Complaint_Analysis_Dashboard.ipynb",
+                    "label": "Information"
+                }
+            ]
+        },
+        {
+            "id": 192,
+            "demo": "Customer Complaints Analysis Dashboard with OpenAI",
+            "description": "This is a Dashboard with descriptions and links to various notebooks on various topics using Teradata Vantage and Microsoft Azure.",
+            "subjects": [
+                {
+                    "id": 192,
+                    "subject": "OpenAI"
+                },
+                {
+                    "id": 192,
+                    "subject": "Azure"
+                },
+                {
+                    "id": 192,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 192,
+                    "subject": "Python"
+                },
+                {
+                    "id": 192,
+                    "subject": "New"
+                },
+                {
+                    "id": 192,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 192,
+                    "subject": "Dashboard Notebook"
+                }
+            ],
+            "links": [
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Complaint_Analysis_Dashboard.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_Azure_OpenAI/Complaint_Analysis_Dashboard.ipynb",
+                    "label": "Information"
+                }
+            ]
+        },
+        {
+            "id": 193,
+            "demo": "Customer Complaints Analysis with Customer360 with AWS Bedrock",
+            "description": "Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view",
+            "subjects": [
+                {
+                    "id": 193,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 193,
+                    "subject": "Python"
+                },
+                {
+                    "id": 193,
+                    "subject": "AWS Bedrock"
+                },
+                {
+                    "id": 193,
+                    "subject": "AWS"
+                },
+                {
+                    "id": 193,
+                    "subject": "Customer 360"
+                },
+                {
+                    "id": 193,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 193,
+                    "subject": "Topic Modelling"
+                },
+                {
+                    "id": 193,
+                    "subject": "Sentiment Analysis"
+                },
+                {
+                    "id": 193,
                     "subject": "New"
                 }
             ],
             "links": [
                 {
                     "type": "notebook",
-                    "url": "UseCases/Complaints_Analysis_GenAI/Complaint_Analysis_Dashboard.ipynb",
-                    "label": "Information"
+                    "url": "UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Analysis_Customer360.ipynb",
+                    "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Complaint_Analysis_Customer360.ipynb",
+                    "label": "Read Only Python"
+                }
+            ]
+        },
+        {
+            "id": 200,
+            "demo": "Customer Complaints Analysis with Customer360 with Google Gemini",
+            "description": "Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view",
+            "subjects": [
+                {
+                    "id": 200,
+                    "subject": "Google"
+                },
+                {
+                    "id": 200,
+                    "subject": "Google Gemini"
+                },
+                {
+                    "id": 200,
+                    "subject": "New"
+                },
+                {
+                    "id": 200,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 200,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 200,
+                    "subject": "Customer 360"
+                },
+                {
+                    "id": 200,
+                    "subject": "Sentiment Analysis"
+                },
+                {
+                    "id": 200,
+                    "subject": "Topic Modelling"
+                },
+                {
+                    "id": 200,
+                    "subject": "Complaint Summarization"
+                },
+                {
+                    "id": 200,
+                    "subject": "Python"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_GenAI_Gemini/Complaint_Analysis_Customer360.ipynb",
+                    "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Complaint_Analysis_Customer360.ipynb",
+                    "label": "Read Only Python"
+                }
+            ]
+        },
+        {
+            "id": 208,
+            "demo": "Customer Complaints Analysis with Customer360 with OpenAI",
+            "description": "Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view",
+            "subjects": [
+                {
+                    "id": 208,
+                    "subject": "Generative AI"
+                },
+                {
+                    "id": 208,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 208,
+                    "subject": "Python"
+                },
+                {
+                    "id": 208,
+                    "subject": "New"
+                },
+                {
+                    "id": 208,
+                    "subject": "Azure"
+                },
+                {
+                    "id": 208,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 208,
+                    "subject": "OpenAI"
+                },
+                {
+                    "id": 208,
+                    "subject": "Customer 360"
+                }
+            ],
+            "links": [
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Complaint_Analysis_Customer360.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_Azure_OpenAI/Complaint_Analysis_Customer360.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -927,10 +1622,6 @@
                 {
                     "id": 186,
                     "subject": "R"
-                },
-                {
-                    "id": 186,
-                    "subject": "New"
                 },
                 {
                     "id": 186,
@@ -1004,10 +1695,6 @@
                 },
                 {
                     "id": 188,
-                    "subject": "New"
-                },
-                {
-                    "id": 188,
                     "subject": "R"
                 }
             ],
@@ -1041,7 +1728,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/Getting_Started/Data_Loading/Pop_Data_Loading_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/Getting_Started/Data_Loading/Pop_Data_Loading_Python.ipynb",
                     "label": "Read Only Python-SQL"
                 }
             ]
@@ -1068,7 +1755,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/Getting_Started/Data_Loading/Pop_Data_Loading_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/Getting_Started/Data_Loading/Pop_Data_Loading_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -1095,12 +1782,12 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Data_Prep_and_Transformation/Pop_Data_Prep_and_Transformation_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Data_Prep_and_Transformation/Pop_Data_Prep_and_Transformation_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Data_Prep_and_Transformation/Pop_Data_Prep_and_Transformation_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Data_Prep_and_Transformation/Pop_Data_Prep_and_Transformation_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -1112,7 +1799,7 @@
         },
         {
             "id": 170,
-            "demo": "Data Quality Anomaly Detection using Statistical Techniques *Beta*",
+            "demo": "Data Quality Anomaly Detection using Statistical Techniques",
             "description": "Compare the distribution and variation of data between two time intervals usin In-DB function executed via a framework to provide alerts highlighting data anomalies.",
             "subjects": [
                 {
@@ -1157,7 +1844,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Data_Science_101_with_Python/Pop_Data_Science_101_with_Python_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Data_Science_101_with_Python/Pop_Data_Science_101_with_Python_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -1215,7 +1902,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Deep_History_via_Object_Store/Pop_Deep_History_via_Object_Store_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Deep_History_via_Object_Store/Pop_Deep_History_via_Object_Store_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -1246,7 +1933,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Diabetes_Prediction/Pop_Diabetes_Prediction_via_BYOM_H2O_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Diabetes_Prediction/Pop_Diabetes_Prediction_via_BYOM_H2O_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 }
             ]
@@ -1272,7 +1959,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Diabetes_Prediction/Pop_Diabetes_Prediction_via_DF_and_GLM_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Diabetes_Prediction/Pop_Diabetes_Prediction_via_DF_and_GLM_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -1289,11 +1976,11 @@
             "subjects": [
                 {
                     "id": 142,
-                    "subject": "Financial"
+                    "subject": "Celebrus"
                 },
                 {
                     "id": 142,
-                    "subject": "Celebrus"
+                    "subject": "Financial"
                 },
                 {
                     "id": 142,
@@ -1307,7 +1994,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Digital_Identity_Management/Pop_Digital_Identity_Management_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Digital_Identity_Management/Pop_Digital_Identity_Management_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -1347,7 +2034,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Energy_Consumption_Forecasting/Pop_Energy_Consumption_Forecasting_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Energy_Consumption_Forecasting/Pop_Energy_Consumption_Forecasting_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -1363,11 +2050,11 @@
                 },
                 {
                     "id": 111,
-                    "subject": "Dataiku"
+                    "subject": "Energy & Natural Resources"
                 },
                 {
                     "id": 111,
-                    "subject": "Energy & Natural Resources"
+                    "subject": "Dataiku"
                 },
                 {
                     "id": 111,
@@ -1377,7 +2064,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Energy_Consumption_Forecasting_Dataiku/Pop_Energy_Consumption_Forecasting_Dataiku.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Energy_Consumption_Forecasting_Dataiku/Pop_Energy_Consumption_Forecasting_Dataiku.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -1394,11 +2081,11 @@
             "subjects": [
                 {
                     "id": 138,
-                    "subject": "Energy & Natural Resources"
+                    "subject": "Azure ML"
                 },
                 {
                     "id": 138,
-                    "subject": "Azure ML"
+                    "subject": "Energy & Natural Resources"
                 },
                 {
                     "id": 138,
@@ -1408,7 +2095,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Energy_Consumption_Forecasting_AzureML/Pop_Energy_Consumption_Forecasting_AzureML.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Energy_Consumption_Forecasting_AzureML/Pop_Energy_Consumption_Forecasting_AzureML.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -1443,7 +2130,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Financial_Customer_Journey/Pop_Financial_Customer_Journey_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Financial_Customer_Journey/Pop_Financial_Customer_Journey_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -1458,7 +2145,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Financial_Customer_Journey/Pop_Financial_Customer_Journey_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Financial_Customer_Journey/Pop_Financial_Customer_Journey_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -1470,7 +2157,7 @@
         },
         {
             "id": 187,
-            "demo": "Financial Fraud Detection  InDB",
+            "demo": "Financial Fraud Detection InDB",
             "description": "Detect financial transaction fraud using powerful in-database machine learning functions",
             "subjects": [
                 {
@@ -1491,7 +2178,7 @@
                 },
                 {
                     "id": 187,
-                    "subject": "New"
+                    "subject": "Python"
                 }
             ],
             "links": [
@@ -1499,6 +2186,11 @@
                     "type": "notebook",
                     "url": "UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_R.ipynb",
                     "label": "R Version"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -1528,7 +2220,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Financial_Fraud_Detection_InDB/Pop_Financial_Fraud_Detection_InDB_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Financial_Fraud_Detection_InDB/Pop_Financial_Fraud_Detection_InDB_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -1568,7 +2260,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Financial_Fraud_Detection_BYOM/Pop_Financial_Fraud_Detection_BYOM_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Financial_Fraud_Detection_BYOM/Pop_Financial_Fraud_Detection_BYOM_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -1580,11 +2272,11 @@
             "subjects": [
                 {
                     "id": 140,
-                    "subject": "Financial"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 140,
-                    "subject": "Geospatial"
+                    "subject": "Financial"
                 },
                 {
                     "id": 140,
@@ -1603,7 +2295,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Flood_Proximity_Analysis/Pop_Flood_Proximity_Analysis_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Flood_Proximity_Analysis/Pop_Flood_Proximity_Analysis_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -1625,7 +2317,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Fourier_Transforms/Pop_Fourier_Transforms_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Fourier_Transforms/Pop_Fourier_Transforms_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -1659,10 +2351,6 @@
                 {
                     "id": 189,
                     "subject": "AWS Bedrock"
-                },
-                {
-                    "id": 189,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -1699,7 +2387,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Generative_Question_Answering_GenAI/Pop_Generative_Question_Answering_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Generative_Question_Answering_GenAI/Pop_Generative_Question_Answering_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -1720,7 +2408,7 @@
                 },
                 {
                     "id": 159,
-                    "subject": "Azure Cloud"
+                    "subject": "Azure"
                 }
             ],
             "links": [
@@ -1728,6 +2416,36 @@
                     "type": "notebook",
                     "url": "UseCases/Energy_Consumption_Forecasting_AzureML/Getting_Started_with_Azure.ipynb",
                     "label": "Information"
+                }
+            ]
+        },
+        {
+            "id": 207,
+            "demo": "Getting Started with Azure OpenAI",
+            "description": "Follow these instructions to setup the Azure OpenAI endpoint and generate the access Keys required to run the model.",
+            "subjects": [
+                {
+                    "id": 207,
+                    "subject": "Python"
+                },
+                {
+                    "id": 207,
+                    "subject": "OpenAI"
+                },
+                {
+                    "id": 207,
+                    "subject": "Azure"
+                },
+                {
+                    "id": 207,
+                    "subject": "First Time User"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_Azure_OpenAI/Azure-OpenAI.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -1757,7 +2475,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Graph_Analysis/Pop_Graph_Analysis_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Graph_Analysis/Pop_Graph_Analysis_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 }
             ]
@@ -1788,8 +2506,8 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Green_Manufacturing/Pop_Green_Manufacturing_PY_SQL.ipynb",
-                    "label": "Read Only Python-SQL"
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Green_Manufacturing/Pop_Green_Manufacturing_Python.ipynb",
+                    "label": "Read Only Python"
                 }
             ]
         },
@@ -1840,7 +2558,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Heart_Failure_Prediction/Pop_Heart_Failure_Prediction_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Heart_Failure_Prediction/Pop_Heart_Failure_Prediction_Python.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -1850,7 +2568,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Heart_Failure_Prediction/Pop_Heart_Failure_Prediction_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Heart_Failure_Prediction/Pop_Heart_Failure_Prediction_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -1889,11 +2607,11 @@
             "subjects": [
                 {
                     "id": 129,
-                    "subject": "Retail"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 129,
-                    "subject": "Marketing"
+                    "subject": "Retail"
                 },
                 {
                     "id": 129,
@@ -1907,7 +2625,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Hyper_Personalization/Pop_Hyper_Personalization_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Hyper_Personalization/Pop_Hyper_Personalization_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -1962,6 +2680,61 @@
             ]
         },
         {
+            "id": 195,
+            "demo": "Insights from Sentiment Analysis with AWS Bedrock",
+            "description": "Extract insights from unstructured data to identify and address customer concerns.",
+            "subjects": [
+                {
+                    "id": 195,
+                    "subject": "AWS"
+                },
+                {
+                    "id": 195,
+                    "subject": "AWS Bedrock"
+                },
+                {
+                    "id": 195,
+                    "subject": "Sentiment Analysis"
+                },
+                {
+                    "id": 195,
+                    "subject": "Emotion Detection"
+                },
+                {
+                    "id": 195,
+                    "subject": "Aspect-Based Sentiment Analysis"
+                },
+                {
+                    "id": 195,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 195,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 195,
+                    "subject": "New"
+                },
+                {
+                    "id": 195,
+                    "subject": "Python"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_GenAI_Bedrock/Sentiment_Analysis.ipynb",
+                    "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Sentiment_Analysis.ipynb",
+                    "label": "Read Only Python"
+                }
+            ]
+        },
+        {
             "id": 47,
             "demo": "Insurance Policy Temporal",
             "description": "Show As-IS/As-Was capabilities of Vantage Temporal to dramatically simplify the SQL and improve performance for analyzing insurance policies versus claims.",
@@ -1982,7 +2755,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Insurance_Policy_Temporal/Pop_Insurance_Policy_Temporal_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Insurance_Policy_Temporal/Pop_Insurance_Policy_Temporal_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -2009,7 +2782,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/Getting_Started/Intro_to_Pandas_For_Python/Pop_Intro_to_Pandas_For_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/Getting_Started/Intro_to_Pandas_For_Python/Pop_Intro_to_Pandas_For_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -2044,10 +2817,6 @@
             "subjects": [
                 {
                     "id": 182,
-                    "subject": "New"
-                },
-                {
-                    "id": 182,
                     "subject": "Python"
                 },
                 {
@@ -2070,11 +2839,11 @@
             "subjects": [
                 {
                     "id": 73,
-                    "subject": "Machine learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 73,
-                    "subject": "Retail"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 73,
@@ -2084,7 +2853,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/K-Means_Clustering_and_ML_model/Pop_K-Means_Clustering_and_ML_model_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/K-Means_Clustering_and_ML_model/Pop_K-Means_Clustering_and_ML_model_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -2120,7 +2889,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Knee_Replacement/Pop_Knee_Replacement_Attribution_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Knee_Replacement/Pop_Knee_Replacement_Attribution_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -2151,7 +2920,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Knee_Replacement/Pop_Knee_Replacement_nPath_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Knee_Replacement/Pop_Knee_Replacement_nPath_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -2167,11 +2936,11 @@
                 },
                 {
                     "id": 116,
-                    "subject": "Retail"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 116,
-                    "subject": "Marketing"
+                    "subject": "Retail"
                 },
                 {
                     "id": 116,
@@ -2181,7 +2950,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Marketing_Campaign_Effectiveness/Pop_Marketing_Campaign_Effectiveness_Preditction_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Marketing_Campaign_Effectiveness/Pop_Marketing_Campaign_Effectiveness_Preditction_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -2340,11 +3109,11 @@
             "subjects": [
                 {
                     "id": 148,
-                    "subject": "Financial"
+                    "subject": "Generative AI"
                 },
                 {
                     "id": 148,
-                    "subject": "Generative AI"
+                    "subject": "Financial"
                 },
                 {
                     "id": 148,
@@ -2359,7 +3128,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Mortgage_Calculator_GenAI/Pop_Mortgage_Calculator_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Mortgage_Calculator_GenAI/Pop_Mortgage_Calculator_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -2371,15 +3140,15 @@
             "subjects": [
                 {
                     "id": 130,
+                    "subject": "Marketing"
+                },
+                {
+                    "id": 130,
                     "subject": "Retail"
                 },
                 {
                     "id": 130,
                     "subject": "Machine learning"
-                },
-                {
-                    "id": 130,
-                    "subject": "Marketing"
                 },
                 {
                     "id": 130,
@@ -2389,7 +3158,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/MultiTouch_Attribution/Pop_Analyst_MultiTouch_Attribution_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/MultiTouch_Attribution/Pop_Analyst_MultiTouch_Attribution_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -2406,15 +3175,15 @@
             "subjects": [
                 {
                     "id": 131,
-                    "subject": "Machine learning"
-                },
-                {
-                    "id": 131,
                     "subject": "Marketing"
                 },
                 {
                     "id": 131,
                     "subject": "Retail"
+                },
+                {
+                    "id": 131,
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 131,
@@ -2424,7 +3193,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/MultiTouch_Attribution/Pop_MultiTouch_Attribution_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/MultiTouch_Attribution/Pop_MultiTouch_Attribution_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -2441,11 +3210,11 @@
             "subjects": [
                 {
                     "id": 26,
-                    "subject": "Travel & Transportation"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 26,
-                    "subject": "Geospatial"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 26,
@@ -2455,7 +3224,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/NYC_Taxi/Pop_NYC_Taxi_Geospatial_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/NYC_Taxi/Pop_NYC_Taxi_Geospatial_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -2487,7 +3256,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/NYC_Taxi/Pop_NYC_Taxi_Temporal_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/NYC_Taxi/Pop_NYC_Taxi_Temporal_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -2544,8 +3313,51 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Outlier_Analysis/Pop_Outlier_Analysis_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Outlier_Analysis/Pop_Outlier_Analysis_SQL.ipynb",
                     "label": "Read Only SQL"
+                }
+            ]
+        },
+        {
+            "id": 215,
+            "demo": "Parallel CPU Inferencing of HuggingFace Models in Vantage",
+            "description": "An introduction to parallel CPU Inferencing of HuggingFace Models in Vantage.",
+            "subjects": [
+                {
+                    "id": 215,
+                    "subject": "Language Models"
+                },
+                {
+                    "id": 215,
+                    "subject": "Hugging Face"
+                },
+                {
+                    "id": 215,
+                    "subject": "Parallel CPU Inferencing"
+                },
+                {
+                    "id": 215,
+                    "subject": "Developer Information"
+                },
+                {
+                    "id": 215,
+                    "subject": "Python"
+                },
+                {
+                    "id": 215,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Language_Models_InVantage/Initialization_and_Model_Load.ipynb",
+                    "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Language_Models_InVantage/Pop_Initialization_and_Model_Load.ipynb",
+                    "label": "Read Only Python"
                 }
             ]
         },
@@ -2602,10 +3414,6 @@
                 },
                 {
                     "id": 190,
-                    "subject": "New"
-                },
-                {
-                    "id": 190,
                     "subject": "Python"
                 },
                 {
@@ -2642,12 +3450,12 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Predictive_Maintenance/Pop_Predictive_Maintenance_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Predictive_Maintenance/Pop_Predictive_Maintenance_Python.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Predictive_Maintenance/Pop_Predictive_Maintenance_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Predictive_Maintenance/Pop_Predictive_Maintenance_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -2677,10 +3485,6 @@
                 {
                     "id": 166,
                     "subject": "Python"
-                },
-                {
-                    "id": 166,
-                    "subject": "Beta Review"
                 }
             ],
             "links": [
@@ -2712,7 +3516,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Recommendations_product_search/Pop_Recommendations_product_search_OpenSource_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Recommendations_product_search/Pop_Recommendations_product_search_OpenSource_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -2743,7 +3547,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Recommendations_product_search/Pop_Recommendations_product_search_OpenAI_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Recommendations_product_search/Pop_Recommendations_product_search_OpenAI_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -2801,8 +3605,102 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Query_Service/Pop_Query_Service.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Query_Service/Pop_Query_Service.ipynb",
                     "label": "Read Only SQL"
+                }
+            ]
+        },
+        {
+            "id": 216,
+            "demo": "RAG Solution with Embedding/Chunking with Vantage and AWS Bedrock",
+            "description": "Chunk PDFs, run embedding, try vector db style indexing in Vantage and then query Language Model with context/prompts after semantic search",
+            "subjects": [
+                {
+                    "id": 216,
+                    "subject": "Parallel CPU Inferencing"
+                },
+                {
+                    "id": 216,
+                    "subject": "Hugging Face"
+                },
+                {
+                    "id": 216,
+                    "subject": "New"
+                },
+                {
+                    "id": 216,
+                    "subject": "Language Models"
+                },
+                {
+                    "id": 216,
+                    "subject": "Python"
+                },
+                {
+                    "id": 216,
+                    "subject": "AWS"
+                },
+                {
+                    "id": 216,
+                    "subject": "AWS Bedrock"
+                }
+            ],
+            "links": [
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Language_Models_InVantage/Pop_RAG_and_Bedrock_QueryPDF.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Language_Models_InVantage/RAG_and_Bedrock_QueryPDF.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 217,
+            "demo": "RAG Solution with Vantage Model Catalog and AWS Bedrock",
+            "description": "Explore how to do extract data from metadata tables of Teradata using embedding and vector db style indexing in Vantage and then query LLM with context/prompts to get the details",
+            "subjects": [
+                {
+                    "id": 217,
+                    "subject": "Parallel CPU Inferencing"
+                },
+                {
+                    "id": 217,
+                    "subject": "Hugging Face"
+                },
+                {
+                    "id": 217,
+                    "subject": "New"
+                },
+                {
+                    "id": 217,
+                    "subject": "Language Models"
+                },
+                {
+                    "id": 217,
+                    "subject": "Python"
+                },
+                {
+                    "id": 217,
+                    "subject": "AWS Bedrock"
+                },
+                {
+                    "id": 217,
+                    "subject": "AWS"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Language_Models_InVantage/RAG_and_Bedrock_Querycatalogue.ipynb",
+                    "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Language_Models_InVantage/Pop_RAG_and_Bedrock_Querycatalogue.ipynb",
+                    "label": "Read Only Python"
                 }
             ]
         },
@@ -2831,7 +3729,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Remaining_Useful_Life_Forecasting/Pop_Remaining_Useful_Life_Forecasting_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Remaining_Useful_Life_Forecasting/Pop_Remaining_Useful_Life_Forecasting_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -2862,7 +3760,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Retail_Demand_Forecasting/Pop_Retail_Demand_Forecasting_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Retail_Demand_Forecasting/Pop_Retail_Demand_Forecasting_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -2889,7 +3787,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/Getting_Started/SQL_Basics_in_Jupyter/Pop_SQL_Basics_in_Jupyter_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/Getting_Started/SQL_Basics_in_Jupyter/Pop_SQL_Basics_in_Jupyter_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -2963,12 +3861,12 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/SalesForecast_SAS_Vantage/Pop_Sales_Forecasting_SAS_Vantage_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/SalesForecast_SAS_Vantage/Pop_Sales_Forecasting_SAS_Vantage_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/SalesForecast_SAS_Vantage/Pop_Sales_Forecasting_SAS_Vantage_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/SalesForecast_SAS_Vantage/Pop_Sales_Forecasting_SAS_Vantage_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -2979,17 +3877,107 @@
             ]
         },
         {
+            "id": 218,
+            "demo": "Semantic Clustering using OpenSource Language Models",
+            "description": "Bring a language model into Vantage and run NLP models in the database",
+            "subjects": [
+                {
+                    "id": 218,
+                    "subject": "Parallel CPU Inferencing"
+                },
+                {
+                    "id": 218,
+                    "subject": "Hugging Face"
+                },
+                {
+                    "id": 218,
+                    "subject": "New"
+                },
+                {
+                    "id": 218,
+                    "subject": "Language Models"
+                },
+                {
+                    "id": 218,
+                    "subject": "Python"
+                },
+                {
+                    "id": 218,
+                    "subject": "Open Source"
+                },
+                {
+                    "id": 218,
+                    "subject": "Complaints Clustering"
+                }
+            ],
+            "links": [
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Language_Models_InVantage/Pop_Semantic_Clustering_Python.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Language_Models_InVantage/Semantic_Clustering_Python.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 219,
+            "demo": "Semantic Similarity using OpenSource Language Models",
+            "description": "Run Hugging Face Embedding Model in ONNX format to create some embeddings from a Consumer Complaints dataset",
+            "subjects": [
+                {
+                    "id": 219,
+                    "subject": "Parallel CPU Inferencing"
+                },
+                {
+                    "id": 219,
+                    "subject": "Hugging Face"
+                },
+                {
+                    "id": 219,
+                    "subject": "New"
+                },
+                {
+                    "id": 219,
+                    "subject": "Language Models"
+                },
+                {
+                    "id": 219,
+                    "subject": "Python"
+                },
+                {
+                    "id": 219,
+                    "subject": "Open Source"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Language_Models_InVantage/Semantic_Similarity_Python.ipynb",
+                    "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Language_Models_InVantage/Pop_Semantic_Similarity_Python.ipynb",
+                    "label": "Read Only Python"
+                }
+            ]
+        },
+        {
             "id": 29,
             "demo": "Sensor Data Analytics",
             "description": "Creative application of geospatial to locations of sensors in  a research lab and integration of data from tables with detailed recordings on cloud storage.",
             "subjects": [
                 {
                     "id": 29,
-                    "subject": "Object Storage"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 29,
-                    "subject": "Geospatial"
+                    "subject": "Object Storage"
                 },
                 {
                     "id": 29,
@@ -2999,13 +3987,123 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Sensor_Data_Analytics/Pop_Sensor_Data_Analytics_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Sensor_Data_Analytics/Pop_Sensor_Data_Analytics_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
                     "type": "notebook",
                     "url": "UseCases/Sensor_Data_Analytics/Sensor_Data_Analytics_PY_SQL.ipynb",
                     "label": "Python-SQL Version"
+                }
+            ]
+        },
+        {
+            "id": 204,
+            "demo": "Sentiment Analysis with Google Gemini",
+            "description": "Extract insights from unstructured data to identify and address customer concerns.",
+            "subjects": [
+                {
+                    "id": 204,
+                    "subject": "Google"
+                },
+                {
+                    "id": 204,
+                    "subject": "Google Gemini"
+                },
+                {
+                    "id": 204,
+                    "subject": "New"
+                },
+                {
+                    "id": 204,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 204,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 204,
+                    "subject": "Python"
+                },
+                {
+                    "id": 204,
+                    "subject": "Sentiment Analysis"
+                },
+                {
+                    "id": 204,
+                    "subject": "Polarity Classification"
+                },
+                {
+                    "id": 204,
+                    "subject": "Emotion Detection"
+                },
+                {
+                    "id": 204,
+                    "subject": "Aspect-Based Sentiment Analysis"
+                }
+            ],
+            "links": [
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Sentiment_Analysis.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_GenAI_Gemini/Sentiment_Analysis.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 212,
+            "demo": "Sentiment Analysis with OpenAI",
+            "description": "Extract insights from unstructured data to identify and address customer concerns.",
+            "subjects": [
+                {
+                    "id": 212,
+                    "subject": "Generative AI"
+                },
+                {
+                    "id": 212,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 212,
+                    "subject": "Python"
+                },
+                {
+                    "id": 212,
+                    "subject": "New"
+                },
+                {
+                    "id": 212,
+                    "subject": "Azure"
+                },
+                {
+                    "id": 212,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 212,
+                    "subject": "OpenAI"
+                },
+                {
+                    "id": 212,
+                    "subject": "Sentiment Analysis"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_Azure_OpenAI/Sentiment_Analysis.ipynb",
+                    "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Sentiment_Analysis.ipynb",
+                    "label": "Read Only Python"
                 }
             ]
         },
@@ -3066,13 +4164,150 @@
             ]
         },
         {
+            "id": 194,
+            "demo": "Speech Recognition and Sentiment Analysis with AWS Bedrock",
+            "description": "Analyzing consumer complaints using audio files conversations",
+            "subjects": [
+                {
+                    "id": 194,
+                    "subject": "Python"
+                },
+                {
+                    "id": 194,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 194,
+                    "subject": "AWS Bedrock"
+                },
+                {
+                    "id": 194,
+                    "subject": "AWS"
+                },
+                {
+                    "id": 194,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 194,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_GenAI_Bedrock/Speech_Recognition.ipynb",
+                    "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Speech_Recognition.ipynb",
+                    "label": "Read Only Python"
+                }
+            ]
+        },
+        {
+            "id": 205,
+            "demo": "Speech Recognition and Sentiment Analysis with Google Gemini",
+            "description": "Analyzing consumer complaints using audio files conversations",
+            "subjects": [
+                {
+                    "id": 205,
+                    "subject": "Google"
+                },
+                {
+                    "id": 205,
+                    "subject": "Google Gemini"
+                },
+                {
+                    "id": 205,
+                    "subject": "New"
+                },
+                {
+                    "id": 205,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 205,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 205,
+                    "subject": "Python"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_GenAI_Gemini/Speech_Recognition.ipynb",
+                    "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Speech_Recognition.ipynb",
+                    "label": "Read Only Python"
+                }
+            ]
+        },
+        {
+            "id": 213,
+            "demo": "Speech Recognition and Sentiment Analysis with OpenAI",
+            "description": "Analyzing consumer complaints using audio files conversations",
+            "subjects": [
+                {
+                    "id": 213,
+                    "subject": "Generative AI"
+                },
+                {
+                    "id": 213,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 213,
+                    "subject": "Python"
+                },
+                {
+                    "id": 213,
+                    "subject": "New"
+                },
+                {
+                    "id": 213,
+                    "subject": "Azure"
+                },
+                {
+                    "id": 213,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 213,
+                    "subject": "OpenAI"
+                },
+                {
+                    "id": 213,
+                    "subject": "Sentiment Analysis"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_Azure_OpenAI/Speech_Recognition.ipynb",
+                    "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Speech_Recognition.ipynb",
+                    "label": "Read Only Python"
+                }
+            ]
+        },
+        {
             "id": 134,
             "demo": "Store Sales Forecast via ARIMA",
             "description": "Forecasts total store sales using ARIMA (AutoRegressive Integrated Moving Average)",
             "subjects": [
                 {
                     "id": 134,
-                    "subject": "Retail"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 134,
@@ -3080,7 +4315,7 @@
                 },
                 {
                     "id": 134,
-                    "subject": "Machine learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 134,
@@ -3095,7 +4330,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Store_Sales_Forecasting_ARIMA/Pop_Store_Sales_Forecasting_ARIMA_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Store_Sales_Forecasting_ARIMA/Pop_Store_Sales_Forecasting_ARIMA_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -3107,11 +4342,11 @@
             "subjects": [
                 {
                     "id": 133,
-                    "subject": "Retail"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 133,
-                    "subject": "Machine learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 133,
@@ -3121,7 +4356,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Store_Sales_Forecasting_Prophet_STO/Pop_Store_Sales_Forecasting_Prophet_STO_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Store_Sales_Forecasting_Prophet_STO/Pop_Store_Sales_Forecasting_Prophet_STO_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -3138,11 +4373,11 @@
             "subjects": [
                 {
                     "id": 150,
-                    "subject": "Travel & Transportation"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 150,
-                    "subject": "Time series analytics"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 150,
@@ -3161,7 +4396,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Supply_Chain_Visibility/Pop_Supply_Chain_Visibility_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Supply_Chain_Visibility/Pop_Supply_Chain_Visibility_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -3187,7 +4422,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Telco_5G_QOE_Analysis/Pop_Telco_5G_QOE_Analysis_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Telco_5G_QOE_Analysis/Pop_Telco_5G_QOE_Analysis_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -3218,8 +4453,8 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Telco_Customer_Churn/Pop_Telco_Customer_Churn_PY_SQL.ipynb",
-                    "label": "Read Only Python-SQL"
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Telco_Customer_Churn/Pop_Telco_Customer_Churn_Python.ipynb",
+                    "label": "Read Only Python"
                 },
                 {
                     "type": "notebook",
@@ -3240,11 +4475,11 @@
             "subjects": [
                 {
                     "id": 48,
-                    "subject": "Telco"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 48,
-                    "subject": "Geospatial"
+                    "subject": "Telco"
                 },
                 {
                     "id": 48,
@@ -3253,14 +4488,14 @@
             ],
             "links": [
                 {
-                    "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Telco_Network_Coverage/Pop_Telco_Network_Coverage_PY_SQL.ipynb",
-                    "label": "Read Only Python-SQL"
-                },
-                {
                     "type": "notebook",
                     "url": "UseCases/Telco_Network_Coverage/Telco_Network_Coverage_Python.ipynb",
-                    "label": "Python-SQL Version"
+                    "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Telco_Network_Coverage/Pop_Telco_Network_Coverage_Python.ipynb",
+                    "label": "Read Only Python"
                 }
             ]
         },
@@ -3269,10 +4504,6 @@
             "demo": "Teradata Package for R Basics",
             "description": "Discoverer how the Teradata Package for R (tdplyr) allows users to develop and run R programs to take advantage of Big Data and Machine Learning analytic capabilities of Vantage.",
             "subjects": [
-                {
-                    "id": 181,
-                    "subject": "New"
-                },
                 {
                     "id": 181,
                     "subject": "R"
@@ -3325,7 +4556,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Text_Term_Frequency/Pop_Text_Term_Frequency_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Text_Term_Frequency/Pop_Text_Term_Frequency_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -3335,13 +4566,158 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Text_Term_Frequency/Pop_Text_Term_Frequency_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Text_Term_Frequency/Pop_Text_Term_Frequency_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Text_Term_Frequency/Pop_Text_Term_Frequency_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Text_Term_Frequency/Pop_Text_Term_Frequency_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
+                }
+            ]
+        },
+        {
+            "id": 199,
+            "demo": "Topic Modelling with AWS Bedrock",
+            "description": "Uncover hidden insights from vast amounts of consumer complaints data to enable the identification of trends.",
+            "subjects": [
+                {
+                    "id": 199,
+                    "subject": "New"
+                },
+                {
+                    "id": 199,
+                    "subject": "AWS Bedrock"
+                },
+                {
+                    "id": 199,
+                    "subject": "AWS"
+                },
+                {
+                    "id": 199,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 199,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 199,
+                    "subject": "Python"
+                },
+                {
+                    "id": 199,
+                    "subject": "Topic Modelling"
+                }
+            ],
+            "links": [
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Topic_Modelling.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_GenAI_Bedrock/Topic_Modelling.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 206,
+            "demo": "Topic Modelling with Google Gemini",
+            "description": "Uncover hidden insights from vast amounts of consumer complaints data to enable the identification of trends.",
+            "subjects": [
+                {
+                    "id": 206,
+                    "subject": "Google"
+                },
+                {
+                    "id": 206,
+                    "subject": "Google Gemini"
+                },
+                {
+                    "id": 206,
+                    "subject": "New"
+                },
+                {
+                    "id": 206,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 206,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 206,
+                    "subject": "Python"
+                },
+                {
+                    "id": 206,
+                    "subject": "Topic Modelling"
+                }
+            ],
+            "links": [
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Topic_Modelling.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_GenAI_Gemini/Topic_Modelling.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 214,
+            "demo": "Topic Modelling with OpenAI",
+            "description": "Uncover hidden insights from vast amounts of consumer complaints data to enable the identification of trends.",
+            "subjects": [
+                {
+                    "id": 214,
+                    "subject": "Generative AI"
+                },
+                {
+                    "id": 214,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 214,
+                    "subject": "Python"
+                },
+                {
+                    "id": 214,
+                    "subject": "New"
+                },
+                {
+                    "id": 214,
+                    "subject": "Azure"
+                },
+                {
+                    "id": 214,
+                    "subject": "Customer Complaint Analysis"
+                },
+                {
+                    "id": 214,
+                    "subject": "OpenAI"
+                },
+                {
+                    "id": 214,
+                    "subject": "Topic Modelling"
+                }
+            ],
+            "links": [
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Topic_Modelling.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Complaints_Analysis_Azure_OpenAI/Topic_Modelling.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -3375,7 +4751,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Train_Delay/Pop_Train_Delay_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Train_Delay/Pop_Train_Delay_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -3391,7 +4767,7 @@
                 },
                 {
                     "id": 183,
-                    "subject": "New"
+                    "subject": "Developer Information"
                 }
             ],
             "links": [
@@ -3446,7 +4822,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Vantage_Analytics_Library/Pop_VAL_Analytics_and_ML_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Vantage_Analytics_Library/Pop_VAL_Analytics_and_ML_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -3477,7 +4853,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Vantage_Analytics_Library/Pop_VAL_Descriptive_Statistics_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Vantage_Analytics_Library/Pop_VAL_Descriptive_Statistics_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -3499,7 +4875,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Vantage_Analytics_Library/Pop_VAL_Hypothesis_Tests_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Vantage_Analytics_Library/Pop_VAL_Hypothesis_Tests_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -3548,7 +4924,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Vantage_Analytics_Library/Pop_VAL_teradataml_Demo_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Vantage_Analytics_Library/Pop_VAL_teradataml_Demo_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -3569,6 +4945,10 @@
                 },
                 {
                     "id": 88,
+                    "subject": "Developer Information"
+                },
+                {
+                    "id": 88,
                     "subject": "SQL"
                 }
             ],
@@ -3577,11 +4957,6 @@
                     "type": "notebook",
                     "url": "UseCases/Vantage_Query_Log_Analysis/Vantage_Query_Log_Analysis_SQL.ipynb",
                     "label": "SQL Version"
-                },
-                {
-                    "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Vantage_Query_Log_Analysis/Pop_Vantage_Query_Log_Analysis_SQL.ipynb",
-                    "label": "Read Only SQL"
                 }
             ]
         },
@@ -3611,7 +4986,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/UseCases/Vehicle_Routing_Delivery/Pop_Vehicle_Routing_Delivery_STO_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Vehicle_Routing_Delivery/Pop_Vehicle_Routing_Delivery_STO_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 }
             ]
@@ -3657,10 +5032,6 @@
                 },
                 {
                     "id": 185,
-                    "subject": "New"
-                },
-                {
-                    "id": 185,
                     "subject": "R"
                 }
             ],
@@ -3693,7 +5064,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/84b4a7c85b7423b81ef07ca0fcb7c87bf393307e/Getting_Started/teradataml_Python_Basics/Pop_teradataml_Python_Basics_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/Getting_Started/teradataml_Python_Basics/Pop_teradataml_Python_Basics_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {

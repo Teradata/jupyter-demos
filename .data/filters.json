@@ -166,6 +166,50 @@
                 {
                     "subjseq": 24,
                     "subject": "Hyperparameter Tuning"
+                },
+                {
+                    "subjseq": 25,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "subjseq": 26,
+                    "subject": "Language Models"
+                },
+                {
+                    "subjseq": 27,
+                    "subject": "Customer 360"
+                },
+                {
+                    "subjseq": 28,
+                    "subject": "Topic Modelling"
+                },
+                {
+                    "subjseq": 29,
+                    "subject": "Sentiment Analysis"
+                },
+                {
+                    "subjseq": 30,
+                    "subject": "Complaint Summarization"
+                },
+                {
+                    "subjseq": 31,
+                    "subject": "Polarity Classification"
+                },
+                {
+                    "subjseq": 32,
+                    "subject": "Emotion Detection"
+                },
+                {
+                    "subjseq": 33,
+                    "subject": "Aspect-Based Sentiment Analysis"
+                },
+                {
+                    "subjseq": 34,
+                    "subject": "Complaints Classification"
+                },
+                {
+                    "subjseq": 35,
+                    "subject": "Complaints Clustering"
                 }
             ]
         },
@@ -175,10 +219,6 @@
                 {
                     "subjseq": 1,
                     "subject": "AWS SageMaker"
-                },
-                {
-                    "subjseq": 1,
-                    "subject": "Azure Cloud"
                 },
                 {
                     "subjseq": 2,
@@ -227,6 +267,14 @@
                 {
                     "subjseq": 17,
                     "subject": "OpenAI"
+                },
+                {
+                    "subjseq": 18,
+                    "subject": "Google Gemini"
+                },
+                {
+                    "subjseq": 19,
+                    "subject": "Hugging Face"
                 }
             ]
         },
@@ -278,6 +326,31 @@
                 {
                     "subjseq": 2,
                     "subject": "New"
+                },
+                {
+                    "subjseq": 3,
+                    "subject": "Parallel CPU Inferencing"
+                },
+                {
+                    "subjseq": 4,
+                    "subject": "Dashboard Notebook"
+                }
+            ]
+        },
+        {
+            "category": "Cloud Provider",
+            "subjects": [
+                {
+                    "subjseq": 1,
+                    "subject": "AWS"
+                },
+                {
+                    "subjseq": 2,
+                    "subject": "Google"
+                },
+                {
+                    "subjseq": 3,
+                    "subject": "Azure"
                 }
             ]
         }
