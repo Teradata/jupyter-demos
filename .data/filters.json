@@ -76,140 +76,140 @@
             "category": "Analytic Function",
             "subjects": [
                 {
-                    "subjseq": 1,
-                    "subject": "Data Preparation"
-                },
-                {
-                    "subjseq": 2,
-                    "subject": "Descriptive Statistics"
-                },
-                {
-                    "subjseq": 3,
-                    "subject": "Feature Engineering"
-                },
-                {
-                    "subjseq": 4,
-                    "subject": "Generative AI"
-                },
-                {
-                    "subjseq": 5,
-                    "subject": "Geospatial"
-                },
-                {
-                    "subjseq": 6,
-                    "subject": "Hypothesis testing"
-                },
-                {
-                    "subjseq": 7,
-                    "subject": "Machine learning"
-                },
-                {
-                    "subjseq": 8,
-                    "subject": "ModelOps"
-                },
-                {
-                    "subjseq": 9,
-                    "subject": "Object Storage"
-                },
-                {
-                    "subjseq": 10,
-                    "subject": "Open-and-connected analytics"
-                },
-                {
-                    "subjseq": 11,
-                    "subject": "Path Analytics"
-                },
-                {
-                    "subjseq": 12,
-                    "subject": "Text Analysis"
-                },
-                {
-                    "subjseq": 13,
-                    "subject": "Time series analytics"
-                },
-                {
-                    "subjseq": 14,
-                    "subject": "Unbounded Array Framework"
-                },
-                {
-                    "subjseq": 15,
-                    "subject": "Prediction Analysis"
-                },
-                {
-                    "subjseq": 16,
-                    "subject": "Natural Language Processing"
-                },
-                {
-                    "subjseq": 18,
-                    "subject": "Signal Processing"
-                },
-                {
-                    "subjseq": 19,
-                    "subject": "Open Source"
-                },
-                {
-                    "subjseq": 20,
-                    "subject": "AutoML"
-                },
-                {
-                    "subjseq": 20,
-                    "subject": "PCA (Principal Component Analysis)"
-                },
-                {
-                    "subjseq": 21,
-                    "subject": "Fraud Detection"
-                },
-                {
-                    "subjseq": 22,
-                    "subject": "TeradataML Open Source Functions"
-                },
-                {
-                    "subjseq": 24,
-                    "subject": "Hyperparameter Tuning"
-                },
-                {
-                    "subjseq": 25,
-                    "subject": "Large Language Models"
-                },
-                {
-                    "subjseq": 26,
-                    "subject": "Language Models"
-                },
-                {
-                    "subjseq": 27,
-                    "subject": "Customer 360"
-                },
-                {
-                    "subjseq": 28,
-                    "subject": "Topic Modelling"
-                },
-                {
-                    "subjseq": 29,
-                    "subject": "Sentiment Analysis"
-                },
-                {
-                    "subjseq": 30,
-                    "subject": "Complaint Summarization"
-                },
-                {
-                    "subjseq": 31,
-                    "subject": "Polarity Classification"
-                },
-                {
-                    "subjseq": 32,
-                    "subject": "Emotion Detection"
-                },
-                {
-                    "subjseq": 33,
+                    "subjseq": 40,
                     "subject": "Aspect-Based Sentiment Analysis"
                 },
                 {
-                    "subjseq": 34,
+                    "subjseq": 41,
+                    "subject": "AutoML"
+                },
+                {
+                    "subjseq": 42,
+                    "subject": "Complaint Summarization"
+                },
+                {
+                    "subjseq": 42,
                     "subject": "Complaints Classification"
                 },
                 {
-                    "subjseq": 35,
+                    "subjseq": 44,
                     "subject": "Complaints Clustering"
+                },
+                {
+                    "subjseq": 45,
+                    "subject": "Customer 360"
+                },
+                {
+                    "subjseq": 46,
+                    "subject": "Data Preparation"
+                },
+                {
+                    "subjseq": 47,
+                    "subject": "Descriptive Statistics"
+                },
+                {
+                    "subjseq": 48,
+                    "subject": "Emotion Detection"
+                },
+                {
+                    "subjseq": 49,
+                    "subject": "Feature Engineering"
+                },
+                {
+                    "subjseq": 50,
+                    "subject": "Fraud Detection"
+                },
+                {
+                    "subjseq": 51,
+                    "subject": "Generative AI"
+                },
+                {
+                    "subjseq": 52,
+                    "subject": "Geospatial"
+                },
+                {
+                    "subjseq": 53,
+                    "subject": "Hyperparameter Tuning"
+                },
+                {
+                    "subjseq": 54,
+                    "subject": "Hypothesis testing"
+                },
+                {
+                    "subjseq": 55,
+                    "subject": "Language Models"
+                },
+                {
+                    "subjseq": 56,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "subjseq": 57,
+                    "subject": "Machine learning"
+                },
+                {
+                    "subjseq": 58,
+                    "subject": "ModelOps"
+                },
+                {
+                    "subjseq": 59,
+                    "subject": "Natural Language Processing"
+                },
+                {
+                    "subjseq": 60,
+                    "subject": "Object Storage"
+                },
+                {
+                    "subjseq": 61,
+                    "subject": "Open Source"
+                },
+                {
+                    "subjseq": 62,
+                    "subject": "Open-and-connected analytics"
+                },
+                {
+                    "subjseq": 62,
+                    "subject": "Path Analytics"
+                },
+                {
+                    "subjseq": 64,
+                    "subject": "PCA (Principal Component Analysis)"
+                },
+                {
+                    "subjseq": 65,
+                    "subject": "Polarity Classification"
+                },
+                {
+                    "subjseq": 66,
+                    "subject": "Prediction Analysis"
+                },
+                {
+                    "subjseq": 67,
+                    "subject": "Sentiment Analysis"
+                },
+                {
+                    "subjseq": 68,
+                    "subject": "Signal Processing"
+                },
+                {
+                    "subjseq": 69,
+                    "subject": "TeradataML Open Source Functions"
+                },
+                {
+                    "subjseq": 70,
+                    "subject": "Text Analysis"
+                },
+                {
+                    "subjseq": 71,
+                    "subject": "Time series analytics"
+                },
+                {
+                    "subjseq": 72,
+                    "subject": "Topic Modelling"
+                },
+                {
+                    "subjseq": 73,
+                    "subject": "Unbounded Array Framework"
                 }
             ]
         },

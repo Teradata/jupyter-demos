@@ -24,19 +24,19 @@ If you have questions or issues, [**click here**](mailto:SC230208@teradata.com?s
 
 | Getting Started | Industries | Business Function | Analytic Function| 3rd Party Tools|
 |-----------|--------------|---------------|--------------- | --------------- |
-|<a href='#xFirst-Time-User'>**First Time User**</a>|<a href='#xAutomotive'>Automotive</a>|*Finance*|<a href='#xData-Preparation'>Data Preparation</a>|<a href='#xAWS-SageMaker'>AWS SageMaker</a>|<a href='#xPython'>Python</a>|<a href='#xAnomaly-Detection'>Anomaly Detection</a>|*Beta Review*|<a href='#xAWS'>AWS</a>|
-|<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>|<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>|<a href='#xDescriptive-Statistics'>Descriptive Statistics</a>|<a href='#xAzure-ML'>Azure ML</a>|<a href='#xSQL'>SQL</a>|<a href='#xCustomer-Complaint-Analysis'>Customer Complaint Analysis</a>|<a href='#xNew'>New</a>|<a href='#xGoogle'>Google</a>|
-|<a href='#xDeveloper-Information'>Developer Information</a>|<a href='#xFinancial'>Financial</a>| |*Feature Engineering*|<a href='#xCelebrus'>Celebrus</a>| |<a href='#xEnterprise-Feature-Store'>Enterprise Feature Store</a>|<a href='#xParallel-CPU-Inferencing'>Parallel CPU Inferencing</a>|<a href='#xAzure'>Azure</a>|
-| |<a href='#xHealthcare'>Healthcare</a>| |<a href='#xGenerative-AI'>Generative AI</a>|<a href='#xDataiku'>Dataiku</a>| |*Model Factory*|<a href='#xDashboard-Notebook'>Dashboard Notebook</a>| |
-| |<a href='#xManufacturing'>Manufacturing</a>| |<a href='#xGeospatial'>Geospatial</a>|<a href='#xH2O.ai'>H2O.ai</a>| | | | |
-| |<a href='#xRetail'>Retail</a>| |<a href='#xHypothesis-testing'>Hypothesis testing</a>|*Microsoft PowerBI*| | | | |
-| |<a href='#xTelco'>Telco</a>| |<a href='#xMachine-learning'>Machine learning</a>|*MicroStrategy*| | | | |
-| |<a href='#xTravel-&-Transportation'>Travel & Transportation</a>| |<a href='#xModelOps'>ModelOps</a>| |<a href='#xR'>R</a>| | | |
-| |<a href='#xDefense'>Defense</a>| |<a href='#xObject-Storage'>Object Storage</a>|*SAP Business Objects*| | | | |
-| | | |<a href='#xOpen-and-connected-analytics'>Open-and-connected analytics</a>|<a href='#xSAS'>SAS</a>| | | | |
-| | | |<a href='#xPath-Analytics'>Path Analytics</a>|*Tableau*| | | | |
-| | | |<a href='#xText-Analysis'>Text Analysis</a>|<a href='#xVertex-AI'>Vertex AI</a>| | | | |
-| | | |<a href='#xTime-series-analytics'>Time series analytics</a>|<a href='#xAWS-Bedrock'>AWS Bedrock</a>| | | | |
+|<a href='#xFirst-Time-User'>**First Time User**</a>|<a href='#xAutomotive'>Automotive</a>|*Finance*| |<a href='#xAWS-SageMaker'>AWS SageMaker</a>|<a href='#xPython'>Python</a>|<a href='#xAnomaly-Detection'>Anomaly Detection</a>|*Beta Review*|<a href='#xAWS'>AWS</a>|
+|<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>|<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>| |<a href='#xAzure-ML'>Azure ML</a>|<a href='#xSQL'>SQL</a>|<a href='#xCustomer-Complaint-Analysis'>Customer Complaint Analysis</a>|<a href='#xNew'>New</a>|<a href='#xGoogle'>Google</a>|
+|<a href='#xDeveloper-Information'>Developer Information</a>|<a href='#xFinancial'>Financial</a>| | |<a href='#xCelebrus'>Celebrus</a>| |<a href='#xEnterprise-Feature-Store'>Enterprise Feature Store</a>|<a href='#xParallel-CPU-Inferencing'>Parallel CPU Inferencing</a>|<a href='#xAzure'>Azure</a>|
+| |<a href='#xHealthcare'>Healthcare</a>| | |<a href='#xDataiku'>Dataiku</a>| |*Model Factory*|<a href='#xDashboard-Notebook'>Dashboard Notebook</a>| |
+| |<a href='#xManufacturing'>Manufacturing</a>| | |<a href='#xH2O.ai'>H2O.ai</a>| | | | |
+| |<a href='#xRetail'>Retail</a>| | |*Microsoft PowerBI*| | | | |
+| |<a href='#xTelco'>Telco</a>| | |*MicroStrategy*| | | | |
+| |<a href='#xTravel-&-Transportation'>Travel & Transportation</a>| | | |<a href='#xR'>R</a>| | | |
+| |<a href='#xDefense'>Defense</a>| | |*SAP Business Objects*| | | | |
+| | | | |<a href='#xSAS'>SAS</a>| | | | |
+| | | | |*Tableau*| | | | |
+| | | | |<a href='#xVertex-AI'>Vertex AI</a>| | | | |
+| | | | |<a href='#xAWS-Bedrock'>AWS Bedrock</a>| | | | |
 
 
 
@@ -127,8 +127,8 @@ This is an introduction to using the various Plot types available as widgets: Li
 Discoverer how the Teradata Package for R (tdplyr) allows users to develop and run R programs to take advantage of Big Data and Machine Learning analytic capabilities of Vantage.<br>
 [Information](Getting_Started/tdplyr_R_Basics/tdplyr_R_Basics.ipynb)
 
-#### Parallel CPU Inferencing of HuggingFace Models in Vantage
-An introduction to parallel CPU Inferencing of HuggingFace Models in Vantage.<br>
+#### Initiate Parallel CPU Inferencing of Hugging Face Models in Vantage
+Execute this notebook first to prepare the environment to demonstrate Parallel CPU Inferencing of Hugging Face Models in Vantage<br>
 [Python Version](./UseCases/Language_Models_InVantage/Initialization_and_Model_Load.ipynb)
 
 #### SQL Basics in Jupyter
@@ -571,6 +571,110 @@ Forecasts total store sales using ARIMA (AutoRegressive Integrated Moving Averag
 
 ## Analytic Function
 
+<a id='xAspect-Based-Sentiment-Analysis'></a>
+### Aspect-Based Sentiment Analysis
+
+#### Insights from Sentiment Analysis with AWS Bedrock
+Extract insights from unstructured data to identify and address customer concerns.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Sentiment_Analysis.ipynb)
+
+#### Sentiment Analysis with Google Gemini
+Extract insights from unstructured data to identify and address customer concerns.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Sentiment_Analysis.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xAutoML'></a>
+### AutoML
+
+#### Banking Churn Prediction with AutoML
+Implement the entire lifecycle of churn prediction using BYOM, VAL and AutoML.<br>
+[Python Version](./UseCases/Banking_Customer_Churn_AutoML/Banking_AutoML.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xComplaint-Summarization'></a>
+### Complaint Summarization
+
+#### Complaints Classification with AWS Bedrock
+Classify customer complaints to swiftly identify and address concerns.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaints_Classification.ipynb)
+
+#### Complaints Summarization with AWS Bedrock
+Efficiently manage and analyze customer complaints, providing actionable insights to enhance customer satisfaction and improve business operations.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Summarization.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xComplaints-Classification'></a>
+### Complaints Classification
+
+#### Complaints Classification with Google Gemini
+Classify customer complaints to swiftly identify and address concerns.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaints_Classification.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xComplaint-Summarization'></a>
+### Complaint Summarization
+
+#### Complaints Summarization with Google Gemini
+Efficiently manage and analyze customer complaints, providing actionable insights to enhance customer satisfaction and improve business operations.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaint_Summarization.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xComplaints-Classification'></a>
+### Complaints Classification
+
+#### Complaints Classification with OpenAI
+Classify customer complaints to swiftly identify and address concerns.<br>
+[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaints_Classification.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xComplaint-Summarization'></a>
+### Complaint Summarization
+
+#### Complaints Summarization with OpenAI
+Efficiently manage and analyze customer complaints, providing actionable insights to enhance customer satisfaction and improve business operations.<br>
+[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaint_Summarization.ipynb)
+
+#### Customer Complaints Analysis with Customer360 with Google Gemini
+Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaint_Analysis_Customer360.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xComplaints-Clustering'></a>
+### Complaints Clustering
+
+#### Complaints Clustering with AWS Bedrock
+Use advanced clustering techniques using AI Embeddings model to group similar customer complaints together.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaints_Clustering.ipynb)
+
+#### Semantic Clustering using OpenSource Language Models
+Bring a language model into Vantage and run NLP models in the database<br>
+[Python Version](./UseCases/Language_Models_InVantage/Semantic_Clustering_Python.ipynb)
+
+#### Complaints Clustering with Google Gemini
+Use advanced clustering techniques using AI Embeddings model to group similar customer complaints together.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaints_Clustering.ipynb)
+
+#### Complaints Clustering with OpenAI
+Use advanced clustering techniques using AI Embeddings model to group similar customer complaints together.<br>
+[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaints_Clustering.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xCustomer-360'></a>
+### Customer 360
+
+#### Customer Complaints Analysis with Customer360 with AWS Bedrock
+Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Analysis_Customer360.ipynb)
+
+#### Customer Complaints Analysis with Customer360 with Google Gemini
+Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaint_Analysis_Customer360.ipynb)
+
+#### Customer Complaints Analysis with Customer360 with OpenAI
+Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
+[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaint_Analysis_Customer360.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xData-Preparation'></a>
 ### Data Preparation
 
@@ -613,6 +717,26 @@ This performs in-database analysis of data values, distribution, histograms, and
 #### VAL teradataml Demo
 Demonstrated the use of Teradataml in Python to perform descriptive statistics, transformation, model building model evaluation and scoring.<br>
 [Python Version](./UseCases/Vantage_Analytics_Library/VAL_teradataml_Demo_Python.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xEmotion-Detection'></a>
+### Emotion Detection
+
+#### Insights from Sentiment Analysis with AWS Bedrock
+Extract insights from unstructured data to identify and address customer concerns.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Sentiment_Analysis.ipynb)
+
+#### Sentiment Analysis with Google Gemini
+Extract insights from unstructured data to identify and address customer concerns.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Sentiment_Analysis.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xFraud-Detection'></a>
+### Fraud Detection
+
+#### Financial Fraud Detection InDB
+Detect financial transaction fraud using powerful in-database machine learning functions<br>
+[Python Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb) &ensp; [R Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_R.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xGenerative-AI'></a>
@@ -739,6 +863,14 @@ Demonstrates the ability of Geospatial to show signal strength, coverage areas a
 [Python Version](./UseCases/Telco_Network_Coverage/Telco_Network_Coverage_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xHyperparameter-Tuning'></a>
+### Hyperparameter Tuning
+
+#### Hyperparameter Tuning using the Titanic Passenger Dataset
+Create a predictive algorithm that can identify whethr or not passengers on the Titanic survived the ship's sinking.<br>
+[Python Version](./UseCases/TitanicSurvival_HyperParameter/Predict_TitanicSurvival_Hyperparameter_Tuning_Python.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xHypothesis-testing'></a>
 ### Hypothesis testing
 
@@ -757,6 +889,126 @@ A detailed coverage of the analytic steps in sales forecasting including data pr
 #### VAL Hypothesis Tests
 This demonstrates a subset of the 18 hypothesis test in the Vantage Analytics library  using SQL such as Parametric, Binomial, Kolmogorov/Smirnoff, Rank, etc.<br>
 [SQL Version](./UseCases/Vantage_Analytics_Library/VAL_Hypothesis_Tests_SQL.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xLanguage-Models'></a>
+### Language Models
+
+#### Initiate Parallel CPU Inferencing of Hugging Face Models in Vantage
+Execute this notebook first to prepare the environment to demonstrate Parallel CPU Inferencing of Hugging Face Models in Vantage<br>
+[Python Version](./UseCases/Language_Models_InVantage/Initialization_and_Model_Load.ipynb)
+
+#### RAG Solution with Embedding/Chunking with Vantage and AWS Bedrock
+Chunk PDFs, run embedding, try vector db style indexing in Vantage and then query Language Model with context/prompts after semantic search<br>
+[Python Version](./UseCases/Language_Models_InVantage/RAG_and_Bedrock_QueryPDF.ipynb)
+
+#### RAG Solution with Vantage Model Catalog and AWS Bedrock
+Explore how to do extract data from metadata tables of Teradata using embedding and vector db style indexing in Vantage and then query LLM with context/prompts to get the details<br>
+[Python Version](./UseCases/Language_Models_InVantage/RAG_and_Bedrock_Querycatalogue.ipynb)
+
+#### Semantic Clustering using OpenSource Language Models
+Bring a language model into Vantage and run NLP models in the database<br>
+[Python Version](./UseCases/Language_Models_InVantage/Semantic_Clustering_Python.ipynb)
+
+#### Semantic Similarity using OpenSource Language Models
+Run Hugging Face Embedding Model in ONNX format to create some embeddings from a Consumer Complaints dataset<br>
+[Python Version](./UseCases/Language_Models_InVantage/Semantic_Similarity_Python.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xLarge-Language-Models'></a>
+### Large Language Models
+
+#### Complaints Classification with OpenAI
+Classify customer complaints to swiftly identify and address concerns.<br>
+[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaints_Classification.ipynb)
+
+#### Complaints Clustering with OpenAI
+Use advanced clustering techniques using AI Embeddings model to group similar customer complaints together.<br>
+[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaints_Clustering.ipynb)
+
+#### Complaints Summarization with OpenAI
+Efficiently manage and analyze customer complaints, providing actionable insights to enhance customer satisfaction and improve business operations.<br>
+[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaint_Summarization.ipynb)
+
+#### Customer Complaints Analysis with Customer360 with OpenAI
+Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
+[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaint_Analysis_Customer360.ipynb)
+
+#### Sentiment Analysis with OpenAI
+Extract insights from unstructured data to identify and address customer concerns.<br>
+[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Sentiment_Analysis.ipynb)
+
+#### Speech Recognition and Sentiment Analysis with AWS Bedrock
+Analyzing consumer complaints using audio files conversations<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Speech_Recognition.ipynb)
+
+#### Speech Recognition and Sentiment Analysis with OpenAI
+Analyzing consumer complaints using audio files conversations<br>
+[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Speech_Recognition.ipynb)
+
+#### Topic Modelling with OpenAI
+Uncover hidden insights from vast amounts of consumer complaints data to enable the identification of trends.<br>
+[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Topic_Modelling.ipynb)
+
+#### Complaints Summarization with AWS Bedrock
+Efficiently manage and analyze customer complaints, providing actionable insights to enhance customer satisfaction and improve business operations.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Summarization.ipynb)
+
+#### Complaints Classification with Google Gemini
+Classify customer complaints to swiftly identify and address concerns.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaints_Classification.ipynb)
+
+#### Complaints Clustering with Google Gemini
+Use advanced clustering techniques using AI Embeddings model to group similar customer complaints together.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaints_Clustering.ipynb)
+
+#### Complaints Summarization with Google Gemini
+Efficiently manage and analyze customer complaints, providing actionable insights to enhance customer satisfaction and improve business operations.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaint_Summarization.ipynb)
+
+#### Customer Complaints Analysis with Customer360 with Google Gemini
+Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaint_Analysis_Customer360.ipynb)
+
+#### Sentiment Analysis with Google Gemini
+Extract insights from unstructured data to identify and address customer concerns.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Sentiment_Analysis.ipynb)
+
+#### Speech Recognition and Sentiment Analysis with Google Gemini
+Analyzing consumer complaints using audio files conversations<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Speech_Recognition.ipynb)
+
+#### Topic Modelling with Google Gemini
+Uncover hidden insights from vast amounts of consumer complaints data to enable the identification of trends.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Topic_Modelling.ipynb)
+
+#### Complaints Clustering with AWS Bedrock
+Use advanced clustering techniques using AI Embeddings model to group similar customer complaints together.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaints_Clustering.ipynb)
+
+#### Topic Modelling with AWS Bedrock
+Uncover hidden insights from vast amounts of consumer complaints data to enable the identification of trends.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Topic_Modelling.ipynb)
+
+#### Customer Complaints Analysis with Customer360 with AWS Bedrock
+Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Analysis_Customer360.ipynb)
+
+#### Insights from Sentiment Analysis with AWS Bedrock
+Extract insights from unstructured data to identify and address customer concerns.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Sentiment_Analysis.ipynb)
+
+#### Customer Complaints Analysis Dashboard with OpenAI
+This is a Dashboard with descriptions and links to various notebooks on various topics using Teradata Vantage and Microsoft Azure.<br>
+[Information](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaint_Analysis_Dashboard.ipynb)
+
+#### Customer Complaint Analysis with Google Gemini
+This is a Dashboard with descriptions and links to various notebooks on various topics using Teradata Vantage and Google Gemini.<br>
+[Information](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaint_Analysis_Dashboard.ipynb)
+
+#### Customer Complaint Analysis with AWS Bedrock
+This is a collection of demos showing multiple methods of dealing with customer complaints using various GenAI techniques.<br>
+[Information](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Analysis_Dashboard.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xMachine-learning'></a>
@@ -907,6 +1159,14 @@ This introduction and table of contents introduces you to ModelOps and provides 
 [Information](./ModelOps/00_ModelOps_Introduction.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xNatural-Language-Processing'></a>
+### Natural Language Processing
+
+#### Natural Language Processing
+Use NLP for Sentiment Analysis, perform Kmeans clustering, execute Principal Component Analysis (PCA) using comments received by a Retail Store<br>
+[Python-SQL Version](./UseCases/Natural_Language_Processing/Natural_Language_Processing_Python.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xObject-Storage'></a>
 ### Object Storage
 
@@ -921,6 +1181,22 @@ This demonstrates integration of local data or foreign tables on GCP and integra
 #### Sensor Data Analytics
 Creative application of geospatial to locations of sensors in  a research lab and integration of data from tables with detailed recordings on cloud storage.<br>
 [Python-SQL Version](./UseCases/Sensor_Data_Analytics/Sensor_Data_Analytics_PY_SQL.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xOpen-Source'></a>
+### Open Source
+
+#### Parkinson's Disease Prediction using Signal Processing
+Detect Parkinson's Disease at an early stage by using Vantage InDB functions for model training and scoring to compare the performance of two models against biomedical voice measurements.<br>
+[Python Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_Python.ipynb)
+
+#### Semantic Clustering using OpenSource Language Models
+Bring a language model into Vantage and run NLP models in the database<br>
+[Python Version](./UseCases/Language_Models_InVantage/Semantic_Clustering_Python.ipynb)
+
+#### Semantic Similarity using OpenSource Language Models
+Run Hugging Face Embedding Model in ONNX format to create some embeddings from a Consumer Complaints dataset<br>
+[Python Version](./UseCases/Language_Models_InVantage/Semantic_Similarity_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xOpen-and-connected-analytics'></a>
@@ -938,6 +1214,22 @@ Evaluates potential failures in spot welds based on voltage anomalies during the
 Uses a combination of Vantage Analytics Library to prepare data, using machine learning in python and importing the resulting PMML model into Vantage for scoring.<br>
 [Python Version](./UseCases/Banking_Customer_Churn/Banking_Customer_Churn_Python.ipynb)
 
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xPath-Analytics'></a>
+### Path Analytics
+
+#### Broken Digital Journey
+This uses nPath® analysis to show the retail events that prevent the ultimate objective: a purchase.  This uses interactive Sankey diagrams to understand the problems.<br>
+[Python Version](./UseCases/Broken_Digital_Journey/Broken_Digital_Journey_Python.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Broken%20Digital%20Journeys%20CX%20Solution%20Accelerator%20Demo%20via%20Python%20Video%20-%20External%20-%20SP004183%20(1).MP4)
+
+#### Customer Behavior Analysis
+Analysis of customer purchase behavior using nPath® analysis in Python with visualization using Sankey diagrams.<br>
+[Python Version](./UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_Python.ipynb) &ensp; [SQL Version](./UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_SQL.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xOpen-and-connected-analytics'></a>
+### Open-and-connected analytics
+
 #### Dataiku
 Discusses how the 3rd party tool DataIku can be used with Vantage.<br>
 [Information](./UseCases/Dataiku/Dataiku.ipynb)
@@ -954,13 +1246,53 @@ This combines machine learning and BYOM to forecast energy consumption using Van
 Demonstration of using Dataiku with Vantage. Instructions provided for use with your Dataiku copy + screen shots if you don't have Dataiku. PMML model from Dataiku is imported to Vantage for execution and scoring.<br>
 [Python Version](./UseCases/Energy_Consumption_Forecasting_Dataiku/Energy_Consumption_Forecasting_Dataiku.ipynb)
 
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xPath-Analytics'></a>
+### Path Analytics
+
+#### Financial Customer Journey
+Uses analytic techniques to find new customers, measure marketing attribution, and maximizing marketing effectiveness<br>
+[Python-SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb) &ensp; [SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Financial_Customer_Journey_Use_Case_Demo_SP004464.MP4)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xOpen-and-connected-analytics'></a>
+### Open-and-connected analytics
+
 #### Financial Fraud Detection VIA BYOM
 A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.<br>
 [Python Version](./UseCases/Financial_Fraud_Detection_BYOM/Financial_Fraud_Detection_BYOM_Python.ipynb)
 
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xPath-Analytics'></a>
+### Path Analytics
+
+#### Knee Replacement Attribution
+The ClearScape Analytics Attribution function is used to determine the weight of various events that precede the final outcome, in this example, knee replacement.<br>
+[SQL Version](./UseCases/Knee_Replacement/Knee_Replacement_Attribution_SQL.ipynb)
+
+#### Knee Replacement nPath
+This uses the ClearScape Analytics nPath® function to provide visuals on the events leading up to the final outcome, in this case, knee replacement.<br>
+[Python Version](./UseCases/Knee_Replacement/Knee_Replacement_nPath_Python.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xOpen-and-connected-analytics'></a>
+### Open-and-connected analytics
+
 #### teradataml Python Basics
 Introduction to Teradataml package for Python including connecting to Vantage, Teradata DataFrames, data manipulation and export to Pandas.<br>
 [Python Version](./Getting_Started/teradataml_Python_Basics/teradataml_Python_Basics_Python.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xPath-Analytics'></a>
+### Path Analytics
+
+#### Train Delay Path Analysis
+Uses nPath displays to show relationship of delays and predictive models to anticipate potential delays and enable proactive planning.<br>
+[Python Version](./UseCases/Train_Delay/Train_Delay_Python.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xOpen-and-connected-analytics'></a>
+### Open-and-connected analytics
 
 #### Vertex AI Integration
  In this tutorial, we will show how to integrate Vantage Analytics capabilities  in Vertex AI ML Pipelines. Vertex AI is the environment for data scientists to deploy ML models.<br>
@@ -971,32 +1303,80 @@ Evaluates potential failures in spot welds based on voltage anomalies during the
 [Python Version](./UseCases/Anomaly_Detection/Anomaly_Detection_Python_TrustedAI.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xPath-Analytics'></a>
-### Path Analytics
+<a id='xPCA-(Principal-Component-Analysis)'></a>
+### PCA (Principal Component Analysis)
 
-#### Broken Digital Journey
-This uses nPath® analysis to show the retail events that prevent the ultimate objective: a purchase.  This uses interactive Sankey diagrams to understand the problems.<br>
-[Python Version](./UseCases/Broken_Digital_Journey/Broken_Digital_Journey_Python.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Broken%20Digital%20Journeys%20CX%20Solution%20Accelerator%20Demo%20via%20Python%20Video%20-%20External%20-%20SP004183%20(1).MP4)
+#### Customer Segmentation with K-means
+Use K-means clustering to segment customers by purchase volume and value using R and tdplyr<br>
+[R Version](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_R.ipynb)
 
-#### Customer Behavior Analysis
-Analysis of customer purchase behavior using nPath® analysis in Python with visualization using Sankey diagrams.<br>
-[Python Version](./UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_Python.ipynb) &ensp; [SQL Version](./UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_SQL.ipynb)
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xPolarity-Classification'></a>
+### Polarity Classification
 
-#### Financial Customer Journey
-Uses analytic techniques to find new customers, measure marketing attribution, and maximizing marketing effectiveness<br>
-[Python-SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb) &ensp; [SQL Version](./UseCases/Financial_Customer_Journey/Financial_Customer_Journey_SQL.ipynb) &ensp; [Video](https://storage.googleapis.com/clearscape_analytics_videos/Financial_Customer_Journey_Use_Case_Demo_SP004464.MP4)
+#### Sentiment Analysis with Google Gemini
+Extract insights from unstructured data to identify and address customer concerns.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Sentiment_Analysis.ipynb)
 
-#### Knee Replacement Attribution
-The ClearScape Analytics Attribution function is used to determine the weight of various events that precede the final outcome, in this example, knee replacement.<br>
-[SQL Version](./UseCases/Knee_Replacement/Knee_Replacement_Attribution_SQL.ipynb)
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xPrediction-Analysis'></a>
+### Prediction Analysis
 
-#### Knee Replacement nPath
-This uses the ClearScape Analytics nPath® function to provide visuals on the events leading up to the final outcome, in this case, knee replacement.<br>
-[Python Version](./UseCases/Knee_Replacement/Knee_Replacement_nPath_Python.ipynb)
+#### Cancer Prediction using the TDAPIClient and VertexAI
+Use TDAPIClient to connect to the Google Cloud Vertex API Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker. Deploy the solution's ML model.<br>
+[Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_VertexAI_CustomModel.ipynb)
 
-#### Train Delay Path Analysis
-Uses nPath displays to show relationship of delays and predictive models to anticipate potential delays and enable proactive planning.<br>
-[Python Version](./UseCases/Train_Delay/Train_Delay_Python.ipynb)
+#### Customer Segmentation with K-means
+Use K-means clustering to segment customers by purchase volume and value using R and tdplyr<br>
+[R Version](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_R.ipynb)
+
+#### Cancer Prediction using Teradata and the SageMaker API
+Use the Vantage SageMaker API feature to connect to an Amazon Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker.  Deploy the solution's ML model.<br>
+[Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_Sagemaker.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xSentiment-Analysis'></a>
+### Sentiment Analysis
+
+#### Insights from Sentiment Analysis with AWS Bedrock
+Extract insights from unstructured data to identify and address customer concerns.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Sentiment_Analysis.ipynb)
+
+#### Customer Complaints Analysis with Customer360 with Google Gemini
+Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaint_Analysis_Customer360.ipynb)
+
+#### Sentiment Analysis with Google Gemini
+Extract insights from unstructured data to identify and address customer concerns.<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Sentiment_Analysis.ipynb)
+
+#### Customer Complaints Analysis with Customer360 with AWS Bedrock
+Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Analysis_Customer360.ipynb)
+
+#### Sentiment Analysis with OpenAI
+Extract insights from unstructured data to identify and address customer concerns.<br>
+[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Sentiment_Analysis.ipynb)
+
+#### Speech Recognition and Sentiment Analysis with OpenAI
+Analyzing consumer complaints using audio files conversations<br>
+[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Speech_Recognition.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xSignal-Processing'></a>
+### Signal Processing
+
+#### Parkinson's Disease Prediction using Signal Processing
+Detect Parkinson's Disease at an early stage by using Vantage InDB functions for model training and scoring to compare the performance of two models against biomedical voice measurements.<br>
+[Python Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_Python.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xTeradataML-Open-Source-Functions'></a>
+### TeradataML Open Source Functions
+
+#### Predicting Medical Expenses in Healthcare
+Use a dataset containing variables like age, sex, BMI, smoking status, number of children, and region to build machine learning models that accurately predict healthcare costs for insurance policyholders, taking into account factors that affect medical expenses.<br>
+[Python Version](./UseCases/Health_Insurance/Health_Insurance_Costs_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xText-Analysis'></a>
@@ -1071,234 +1451,6 @@ Analysis of sessions and queries  you executed using the built-in logging facili
 [SQL Version](./UseCases/Vantage_Query_Log_Analysis/Vantage_Query_Log_Analysis_SQL.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xUnbounded-Array-Framework'></a>
-### Unbounded Array Framework
-
-#### Signal Processing and Classification
-Use the Unbounded Array Framework in ClearScape Analytics to classify sonar signals. Extract and engineer features to use in training and scoring our models.<br>
-[Python Version](./UseCases/Signal_Processing_and_Classification/Signal_Processing_and_Classification_Python.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xPrediction-Analysis'></a>
-### Prediction Analysis
-
-#### Cancer Prediction using the TDAPIClient and VertexAI
-Use TDAPIClient to connect to the Google Cloud Vertex API Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker. Deploy the solution's ML model.<br>
-[Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_VertexAI_CustomModel.ipynb)
-
-#### Customer Segmentation with K-means
-Use K-means clustering to segment customers by purchase volume and value using R and tdplyr<br>
-[R Version](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_R.ipynb)
-
-#### Cancer Prediction using Teradata and the SageMaker API
-Use the Vantage SageMaker API feature to connect to an Amazon Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker.  Deploy the solution's ML model.<br>
-[Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_Sagemaker.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xNatural-Language-Processing'></a>
-### Natural Language Processing
-
-#### Natural Language Processing
-Use NLP for Sentiment Analysis, perform Kmeans clustering, execute Principal Component Analysis (PCA) using comments received by a Retail Store<br>
-[Python-SQL Version](./UseCases/Natural_Language_Processing/Natural_Language_Processing_Python.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xSignal-Processing'></a>
-### Signal Processing
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xOpen-Source'></a>
-### Open Source
-
-#### Parkinson's Disease Prediction using Signal Processing
-Detect Parkinson's Disease at an early stage by using Vantage InDB functions for model training and scoring to compare the performance of two models against biomedical voice measurements.<br>
-[Python Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_Python.ipynb) &ensp; [Python Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_Python.ipynb)
-
-#### Semantic Clustering using OpenSource Language Models
-Bring a language model into Vantage and run NLP models in the database<br>
-[Python Version](./UseCases/Language_Models_InVantage/Semantic_Clustering_Python.ipynb)
-
-#### Semantic Similarity using OpenSource Language Models
-Run Hugging Face Embedding Model in ONNX format to create some embeddings from a Consumer Complaints dataset<br>
-[Python Version](./UseCases/Language_Models_InVantage/Semantic_Similarity_Python.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xAutoML'></a>
-### AutoML
-
-#### Banking Churn Prediction with AutoML
-Implement the entire lifecycle of churn prediction using BYOM, VAL and AutoML.<br>
-[Python Version](./UseCases/Banking_Customer_Churn_AutoML/Banking_AutoML.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xPCA-(Principal-Component-Analysis)'></a>
-### PCA (Principal Component Analysis)
-
-#### Customer Segmentation with K-means
-Use K-means clustering to segment customers by purchase volume and value using R and tdplyr<br>
-[R Version](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_R.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xFraud-Detection'></a>
-### Fraud Detection
-
-#### Financial Fraud Detection InDB
-Detect financial transaction fraud using powerful in-database machine learning functions<br>
-[Python Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb) &ensp; [R Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_R.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xTeradataML-Open-Source-Functions'></a>
-### TeradataML Open Source Functions
-
-#### Predicting Medical Expenses in Healthcare
-Use a dataset containing variables like age, sex, BMI, smoking status, number of children, and region to build machine learning models that accurately predict healthcare costs for insurance policyholders, taking into account factors that affect medical expenses.<br>
-[Python Version](./UseCases/Health_Insurance/Health_Insurance_Costs_Python.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xHyperparameter-Tuning'></a>
-### Hyperparameter Tuning
-
-#### Hyperparameter Tuning using the Titanic Passenger Dataset
-Create a predictive algorithm that can identify whethr or not passengers on the Titanic survived the ship's sinking.<br>
-[Python Version](./UseCases/TitanicSurvival_HyperParameter/Predict_TitanicSurvival_Hyperparameter_Tuning_Python.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xLarge-Language-Models'></a>
-### Large Language Models
-
-#### Complaints Classification with OpenAI
-Classify customer complaints to swiftly identify and address concerns.<br>
-[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaints_Classification.ipynb)
-
-#### Complaints Clustering with OpenAI
-Use advanced clustering techniques using AI Embeddings model to group similar customer complaints together.<br>
-[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaints_Clustering.ipynb)
-
-#### Complaints Summarization with OpenAI
-Efficiently manage and analyze customer complaints, providing actionable insights to enhance customer satisfaction and improve business operations.<br>
-[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaint_Summarization.ipynb)
-
-#### Customer Complaints Analysis with Customer360 with OpenAI
-Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
-[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaint_Analysis_Customer360.ipynb)
-
-#### Sentiment Analysis with OpenAI
-Extract insights from unstructured data to identify and address customer concerns.<br>
-[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Sentiment_Analysis.ipynb)
-
-#### Speech Recognition and Sentiment Analysis with AWS Bedrock
-Analyzing consumer complaints using audio files conversations<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Speech_Recognition.ipynb)
-
-#### Speech Recognition and Sentiment Analysis with OpenAI
-Analyzing consumer complaints using audio files conversations<br>
-[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Speech_Recognition.ipynb)
-
-#### Topic Modelling with OpenAI
-Uncover hidden insights from vast amounts of consumer complaints data to enable the identification of trends.<br>
-[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Topic_Modelling.ipynb)
-
-#### Complaints Summarization with AWS Bedrock
-Efficiently manage and analyze customer complaints, providing actionable insights to enhance customer satisfaction and improve business operations.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Summarization.ipynb)
-
-#### Complaints Classification with Google Gemini
-Classify customer complaints to swiftly identify and address concerns.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaints_Classification.ipynb)
-
-#### Complaints Clustering with Google Gemini
-Use advanced clustering techniques using AI Embeddings model to group similar customer complaints together.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaints_Clustering.ipynb)
-
-#### Complaints Summarization with Google Gemini
-Efficiently manage and analyze customer complaints, providing actionable insights to enhance customer satisfaction and improve business operations.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaint_Summarization.ipynb)
-
-#### Customer Complaints Analysis with Customer360 with Google Gemini
-Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaint_Analysis_Customer360.ipynb)
-
-#### Sentiment Analysis with Google Gemini
-Extract insights from unstructured data to identify and address customer concerns.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Sentiment_Analysis.ipynb)
-
-#### Speech Recognition and Sentiment Analysis with Google Gemini
-Analyzing consumer complaints using audio files conversations<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Speech_Recognition.ipynb)
-
-#### Topic Modelling with Google Gemini
-Uncover hidden insights from vast amounts of consumer complaints data to enable the identification of trends.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Topic_Modelling.ipynb)
-
-#### Complaints Clustering with AWS Bedrock
-Use advanced clustering techniques using AI Embeddings model to group similar customer complaints together.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaints_Clustering.ipynb)
-
-#### Topic Modelling with AWS Bedrock
-Uncover hidden insights from vast amounts of consumer complaints data to enable the identification of trends.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Topic_Modelling.ipynb)
-
-#### Customer Complaints Analysis with Customer360 with AWS Bedrock
-Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Analysis_Customer360.ipynb)
-
-#### Insights from Sentiment Analysis with AWS Bedrock
-Extract insights from unstructured data to identify and address customer concerns.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Sentiment_Analysis.ipynb)
-
-#### Customer Complaints Analysis Dashboard with OpenAI
-This is a Dashboard with descriptions and links to various notebooks on various topics using Teradata Vantage and Microsoft Azure.<br>
-[Information](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaint_Analysis_Dashboard.ipynb)
-
-#### Customer Complaint Analysis with Google Gemini
-This is a Dashboard with descriptions and links to various notebooks on various topics using Teradata Vantage and Google Gemini.<br>
-[Information](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaint_Analysis_Dashboard.ipynb)
-
-#### Customer Complaint Analysis with AWS Bedrock
-This is a collection of demos showing multiple methods of dealing with customer complaints using various GenAI techniques.<br>
-[Information](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Analysis_Dashboard.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xLanguage-Models'></a>
-### Language Models
-
-#### Parallel CPU Inferencing of HuggingFace Models in Vantage
-An introduction to parallel CPU Inferencing of HuggingFace Models in Vantage.<br>
-[Python Version](./UseCases/Language_Models_InVantage/Initialization_and_Model_Load.ipynb)
-
-#### RAG Solution with Embedding/Chunking with Vantage and AWS Bedrock
-Chunk PDFs, run embedding, try vector db style indexing in Vantage and then query Language Model with context/prompts after semantic search<br>
-[Python Version](./UseCases/Language_Models_InVantage/RAG_and_Bedrock_QueryPDF.ipynb)
-
-#### RAG Solution with Vantage Model Catalog and AWS Bedrock
-Explore how to do extract data from metadata tables of Teradata using embedding and vector db style indexing in Vantage and then query LLM with context/prompts to get the details<br>
-[Python Version](./UseCases/Language_Models_InVantage/RAG_and_Bedrock_Querycatalogue.ipynb)
-
-#### Semantic Clustering using OpenSource Language Models
-Bring a language model into Vantage and run NLP models in the database<br>
-[Python Version](./UseCases/Language_Models_InVantage/Semantic_Clustering_Python.ipynb)
-
-#### Semantic Similarity using OpenSource Language Models
-Run Hugging Face Embedding Model in ONNX format to create some embeddings from a Consumer Complaints dataset<br>
-[Python Version](./UseCases/Language_Models_InVantage/Semantic_Similarity_Python.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xCustomer-360'></a>
-### Customer 360
-
-#### Customer Complaints Analysis with Customer360 with AWS Bedrock
-Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Analysis_Customer360.ipynb)
-
-#### Customer Complaints Analysis with Customer360 with Google Gemini
-Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaint_Analysis_Customer360.ipynb)
-
-#### Customer Complaints Analysis with Customer360 with OpenAI
-Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
-[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaint_Analysis_Customer360.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xTopic-Modelling'></a>
 ### Topic Modelling
 
@@ -1323,120 +1475,12 @@ Uncover hidden insights from vast amounts of consumer complaints data to enable 
 [Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Topic_Modelling.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xSentiment-Analysis'></a>
-### Sentiment Analysis
+<a id='xUnbounded-Array-Framework'></a>
+### Unbounded Array Framework
 
-#### Insights from Sentiment Analysis with AWS Bedrock
-Extract insights from unstructured data to identify and address customer concerns.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Sentiment_Analysis.ipynb)
-
-#### Customer Complaints Analysis with Customer360 with Google Gemini
-Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaint_Analysis_Customer360.ipynb)
-
-#### Sentiment Analysis with Google Gemini
-Extract insights from unstructured data to identify and address customer concerns.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Sentiment_Analysis.ipynb)
-
-#### Customer Complaints Analysis with Customer360 with AWS Bedrock
-Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Analysis_Customer360.ipynb)
-
-#### Sentiment Analysis with OpenAI
-Extract insights from unstructured data to identify and address customer concerns.<br>
-[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Sentiment_Analysis.ipynb)
-
-#### Speech Recognition and Sentiment Analysis with OpenAI
-Analyzing consumer complaints using audio files conversations<br>
-[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Speech_Recognition.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xComplaint-Summarization'></a>
-### Complaint Summarization
-
-#### Complaints Classification with AWS Bedrock
-Classify customer complaints to swiftly identify and address concerns.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaints_Classification.ipynb)
-
-#### Complaints Summarization with AWS Bedrock
-Efficiently manage and analyze customer complaints, providing actionable insights to enhance customer satisfaction and improve business operations.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Summarization.ipynb)
-
-#### Complaints Summarization with Google Gemini
-Efficiently manage and analyze customer complaints, providing actionable insights to enhance customer satisfaction and improve business operations.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaint_Summarization.ipynb)
-
-#### Complaints Summarization with OpenAI
-Efficiently manage and analyze customer complaints, providing actionable insights to enhance customer satisfaction and improve business operations.<br>
-[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaint_Summarization.ipynb)
-
-#### Customer Complaints Analysis with Customer360 with Google Gemini
-Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaint_Analysis_Customer360.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xPolarity-Classification'></a>
-### Polarity Classification
-
-#### Sentiment Analysis with Google Gemini
-Extract insights from unstructured data to identify and address customer concerns.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Sentiment_Analysis.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xEmotion-Detection'></a>
-### Emotion Detection
-
-#### Insights from Sentiment Analysis with AWS Bedrock
-Extract insights from unstructured data to identify and address customer concerns.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Sentiment_Analysis.ipynb)
-
-#### Sentiment Analysis with Google Gemini
-Extract insights from unstructured data to identify and address customer concerns.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Sentiment_Analysis.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xAspect-Based-Sentiment-Analysis'></a>
-### Aspect-Based Sentiment Analysis
-
-#### Insights from Sentiment Analysis with AWS Bedrock
-Extract insights from unstructured data to identify and address customer concerns.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Sentiment_Analysis.ipynb)
-
-#### Sentiment Analysis with Google Gemini
-Extract insights from unstructured data to identify and address customer concerns.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Sentiment_Analysis.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xComplaints-Classification'></a>
-### Complaints Classification
-
-#### Complaints Classification with Google Gemini
-Classify customer complaints to swiftly identify and address concerns.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaints_Classification.ipynb)
-
-#### Complaints Classification with OpenAI
-Classify customer complaints to swiftly identify and address concerns.<br>
-[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaints_Classification.ipynb)
-
-<a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xComplaints-Clustering'></a>
-### Complaints Clustering
-
-#### Complaints Clustering with AWS Bedrock
-Use advanced clustering techniques using AI Embeddings model to group similar customer complaints together.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaints_Clustering.ipynb)
-
-#### Semantic Clustering using OpenSource Language Models
-Bring a language model into Vantage and run NLP models in the database<br>
-[Python Version](./UseCases/Language_Models_InVantage/Semantic_Clustering_Python.ipynb)
-
-#### Complaints Clustering with Google Gemini
-Use advanced clustering techniques using AI Embeddings model to group similar customer complaints together.<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaints_Clustering.ipynb)
-
-#### Complaints Clustering with OpenAI
-Use advanced clustering techniques using AI Embeddings model to group similar customer complaints together.<br>
-[Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaints_Clustering.ipynb)
+#### Signal Processing and Classification
+Use the Unbounded Array Framework in ClearScape Analytics to classify sonar signals. Extract and engineer features to use in training and scoring our models.<br>
+[Python Version](./UseCases/Signal_Processing_and_Classification/Signal_Processing_and_Classification_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
@@ -1671,8 +1715,8 @@ Uncover hidden insights from vast amounts of consumer complaints data to enable 
 <a id='xHugging-Face'></a>
 ### Hugging Face
 
-#### Parallel CPU Inferencing of HuggingFace Models in Vantage
-An introduction to parallel CPU Inferencing of HuggingFace Models in Vantage.<br>
+#### Initiate Parallel CPU Inferencing of Hugging Face Models in Vantage
+Execute this notebook first to prepare the environment to demonstrate Parallel CPU Inferencing of Hugging Face Models in Vantage<br>
 [Python Version](./UseCases/Language_Models_InVantage/Initialization_and_Model_Load.ipynb)
 
 #### RAG Solution with Embedding/Chunking with Vantage and AWS Bedrock
@@ -1880,8 +1924,8 @@ This is a collection of demos showing multiple methods of dealing with customer 
 Detect financial transaction fraud using powerful in-database machine learning functions<br>
 [Python Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb) &ensp; [R Version](./UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_R.ipynb)
 
-#### Parallel CPU Inferencing of HuggingFace Models in Vantage
-An introduction to parallel CPU Inferencing of HuggingFace Models in Vantage.<br>
+#### Initiate Parallel CPU Inferencing of Hugging Face Models in Vantage
+Execute this notebook first to prepare the environment to demonstrate Parallel CPU Inferencing of Hugging Face Models in Vantage<br>
 [Python Version](./UseCases/Language_Models_InVantage/Initialization_and_Model_Load.ipynb)
 
 #### Predicting Medical Expenses in Healthcare
@@ -2542,8 +2586,8 @@ This is a Dashboard with descriptions and links to various notebooks on various 
 Efficiently manage and analyze customer complaints, providing actionable insights to enhance customer satisfaction and improve business operations.<br>
 [Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Summarization.ipynb)
 
-#### Parallel CPU Inferencing of HuggingFace Models in Vantage
-An introduction to parallel CPU Inferencing of HuggingFace Models in Vantage.<br>
+#### Initiate Parallel CPU Inferencing of Hugging Face Models in Vantage
+Execute this notebook first to prepare the environment to demonstrate Parallel CPU Inferencing of Hugging Face Models in Vantage<br>
 [Python Version](./UseCases/Language_Models_InVantage/Initialization_and_Model_Load.ipynb)
 
 #### Speech Recognition and Sentiment Analysis with AWS Bedrock
@@ -2582,8 +2626,8 @@ Bring a language model into Vantage and run NLP models in the database<br>
 Run Hugging Face Embedding Model in ONNX format to create some embeddings from a Consumer Complaints dataset<br>
 [Python Version](./UseCases/Language_Models_InVantage/Semantic_Similarity_Python.ipynb)
 
-#### Parallel CPU Inferencing of HuggingFace Models in Vantage
-An introduction to parallel CPU Inferencing of HuggingFace Models in Vantage.<br>
+#### Initiate Parallel CPU Inferencing of Hugging Face Models in Vantage
+Execute this notebook first to prepare the environment to demonstrate Parallel CPU Inferencing of Hugging Face Models in Vantage<br>
 [Python Version](./UseCases/Language_Models_InVantage/Initialization_and_Model_Load.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>

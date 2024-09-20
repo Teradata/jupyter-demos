@@ -8,11 +8,11 @@
             "subjects": [
                 {
                     "id": 2,
-                    "subject": "Travel & Transportation"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 2,
-                    "subject": "Geospatial"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 2,
@@ -57,11 +57,11 @@
             "subjects": [
                 {
                     "id": 39,
-                    "subject": "Time series analytics"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 39,
-                    "subject": "Travel & Transportation"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 39,
@@ -88,19 +88,19 @@
             "subjects": [
                 {
                     "id": 106,
-                    "subject": "Anomaly Detection"
-                },
-                {
-                    "id": 106,
                     "subject": "Open-and-connected analytics"
                 },
                 {
                     "id": 106,
-                    "subject": "Automotive"
+                    "subject": "Anomaly Detection"
                 },
                 {
                     "id": 106,
                     "subject": "Manufacturing"
+                },
+                {
+                    "id": 106,
+                    "subject": "Automotive"
                 },
                 {
                     "id": 106,
@@ -174,11 +174,11 @@
                 },
                 {
                     "id": 164,
-                    "subject": "Enterprise Feature Store"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 164,
-                    "subject": "Machine learning"
+                    "subject": "Enterprise Feature Store"
                 },
                 {
                     "id": 164,
@@ -288,11 +288,11 @@
             "subjects": [
                 {
                     "id": 58,
-                    "subject": "Object Storage"
+                    "subject": "Automotive"
                 },
                 {
                     "id": 58,
-                    "subject": "Automotive"
+                    "subject": "Object Storage"
                 },
                 {
                     "id": 58,
@@ -418,15 +418,15 @@
             "subjects": [
                 {
                     "id": 103,
+                    "subject": "Geospatial"
+                },
+                {
+                    "id": 103,
                     "subject": "Automotive"
                 },
                 {
                     "id": 103,
                     "subject": "Manufacturing"
-                },
-                {
-                    "id": 103,
-                    "subject": "Geospatial"
                 },
                 {
                     "id": 103,
@@ -568,11 +568,11 @@
                 },
                 {
                     "id": 146,
-                    "subject": "Travel & Transportation"
+                    "subject": "Generative AI"
                 },
                 {
                     "id": 146,
-                    "subject": "Generative AI"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 146,
@@ -1069,11 +1069,11 @@
             "subjects": [
                 {
                     "id": 7,
-                    "subject": "Time series analytics"
+                    "subject": "Financial"
                 },
                 {
                     "id": 7,
-                    "subject": "Financial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 7,
@@ -2050,11 +2050,11 @@
                 },
                 {
                     "id": 111,
-                    "subject": "Energy & Natural Resources"
+                    "subject": "Dataiku"
                 },
                 {
                     "id": 111,
-                    "subject": "Dataiku"
+                    "subject": "Energy & Natural Resources"
                 },
                 {
                     "id": 111,
@@ -2607,11 +2607,11 @@
             "subjects": [
                 {
                     "id": 129,
-                    "subject": "Marketing"
+                    "subject": "Retail"
                 },
                 {
                     "id": 129,
-                    "subject": "Retail"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 129,
@@ -2680,6 +2680,49 @@
             ]
         },
         {
+            "id": 215,
+            "demo": "Initiate Parallel CPU Inferencing of Hugging Face Models in Vantage",
+            "description": "Execute this notebook first to prepare the environment to demonstrate Parallel CPU Inferencing of Hugging Face Models in Vantage",
+            "subjects": [
+                {
+                    "id": 215,
+                    "subject": "Language Models"
+                },
+                {
+                    "id": 215,
+                    "subject": "Hugging Face"
+                },
+                {
+                    "id": 215,
+                    "subject": "Parallel CPU Inferencing"
+                },
+                {
+                    "id": 215,
+                    "subject": "Developer Information"
+                },
+                {
+                    "id": 215,
+                    "subject": "Python"
+                },
+                {
+                    "id": 215,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Language_Models_InVantage/Initialization_and_Model_Load.ipynb",
+                    "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Language_Models_InVantage/Pop_Initialization_and_Model_Load.ipynb",
+                    "label": "Read Only Python"
+                }
+            ]
+        },
+        {
             "id": 195,
             "demo": "Insights from Sentiment Analysis with AWS Bedrock",
             "description": "Extract insights from unstructured data to identify and address customer concerns.",
@@ -2741,11 +2784,11 @@
             "subjects": [
                 {
                     "id": 47,
-                    "subject": "Financial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 47,
-                    "subject": "Time series analytics"
+                    "subject": "Financial"
                 },
                 {
                     "id": 47,
@@ -2932,15 +2975,15 @@
             "subjects": [
                 {
                     "id": 116,
+                    "subject": "Retail"
+                },
+                {
+                    "id": 116,
                     "subject": "Machine learning"
                 },
                 {
                     "id": 116,
                     "subject": "Marketing"
-                },
-                {
-                    "id": 116,
-                    "subject": "Retail"
                 },
                 {
                     "id": 116,
@@ -3140,15 +3183,15 @@
             "subjects": [
                 {
                     "id": 130,
+                    "subject": "Machine learning"
+                },
+                {
+                    "id": 130,
                     "subject": "Marketing"
                 },
                 {
                     "id": 130,
                     "subject": "Retail"
-                },
-                {
-                    "id": 130,
-                    "subject": "Machine learning"
                 },
                 {
                     "id": 130,
@@ -3175,15 +3218,15 @@
             "subjects": [
                 {
                     "id": 131,
+                    "subject": "Machine learning"
+                },
+                {
+                    "id": 131,
                     "subject": "Marketing"
                 },
                 {
                     "id": 131,
                     "subject": "Retail"
-                },
-                {
-                    "id": 131,
-                    "subject": "Machine learning"
                 },
                 {
                     "id": 131,
@@ -3315,49 +3358,6 @@
                     "type": "nbviewer",
                     "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Outlier_Analysis/Pop_Outlier_Analysis_SQL.ipynb",
                     "label": "Read Only SQL"
-                }
-            ]
-        },
-        {
-            "id": 215,
-            "demo": "Parallel CPU Inferencing of HuggingFace Models in Vantage",
-            "description": "An introduction to parallel CPU Inferencing of HuggingFace Models in Vantage.",
-            "subjects": [
-                {
-                    "id": 215,
-                    "subject": "Language Models"
-                },
-                {
-                    "id": 215,
-                    "subject": "Hugging Face"
-                },
-                {
-                    "id": 215,
-                    "subject": "Parallel CPU Inferencing"
-                },
-                {
-                    "id": 215,
-                    "subject": "Developer Information"
-                },
-                {
-                    "id": 215,
-                    "subject": "Python"
-                },
-                {
-                    "id": 215,
-                    "subject": "New"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "UseCases/Language_Models_InVantage/Initialization_and_Model_Load.ipynb",
-                    "label": "Python Version"
-                },
-                {
-                    "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Language_Models_InVantage/Pop_Initialization_and_Model_Load.ipynb",
-                    "label": "Read Only Python"
                 }
             ]
         },
@@ -3568,11 +3568,11 @@
                 },
                 {
                     "id": 165,
-                    "subject": "Python"
+                    "subject": "Retail"
                 },
                 {
                     "id": 165,
-                    "subject": "Retail"
+                    "subject": "Python"
                 }
             ],
             "links": [
@@ -3846,11 +3846,11 @@
                 },
                 {
                     "id": 149,
-                    "subject": "Machine learning"
+                    "subject": "Python"
                 },
                 {
                     "id": 149,
-                    "subject": "Python"
+                    "subject": "Machine learning"
                 }
             ],
             "links": [
@@ -4307,11 +4307,11 @@
             "subjects": [
                 {
                     "id": 134,
-                    "subject": "Machine learning"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 134,
-                    "subject": "Marketing"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 134,
@@ -4475,11 +4475,11 @@
             "subjects": [
                 {
                     "id": 48,
-                    "subject": "Geospatial"
+                    "subject": "Telco"
                 },
                 {
                     "id": 48,
-                    "subject": "Telco"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 48,
@@ -4732,11 +4732,11 @@
                 },
                 {
                     "id": 105,
-                    "subject": "Path Analytics"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 105,
-                    "subject": "Machine learning"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 105,
