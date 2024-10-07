@@ -76,6 +76,10 @@
             "category": "Analytic Function",
             "subjects": [
                 {
+                    "subjseq": 39,
+                    "subject": "Arima"
+                },
+                {
                     "subjseq": 40,
                     "subject": "Aspect-Based Sentiment Analysis"
                 },

@@ -8,15 +8,15 @@
             "subjects": [
                 {
                     "id": 2,
-                    "subject": "Geospatial"
-                },
-                {
-                    "id": 2,
                     "subject": "Travel & Transportation"
                 },
                 {
                     "id": 2,
                     "subject": "Time series analytics"
+                },
+                {
+                    "id": 2,
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 2,
@@ -57,11 +57,11 @@
             "subjects": [
                 {
                     "id": 39,
-                    "subject": "Travel & Transportation"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 39,
-                    "subject": "Time series analytics"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 39,
@@ -88,19 +88,19 @@
             "subjects": [
                 {
                     "id": 106,
-                    "subject": "Open-and-connected analytics"
-                },
-                {
-                    "id": 106,
                     "subject": "Anomaly Detection"
                 },
                 {
                     "id": 106,
-                    "subject": "Manufacturing"
+                    "subject": "Open-and-connected analytics"
                 },
                 {
                     "id": 106,
                     "subject": "Automotive"
+                },
+                {
+                    "id": 106,
+                    "subject": "Manufacturing"
                 },
                 {
                     "id": 106,
@@ -174,15 +174,15 @@
                 },
                 {
                     "id": 164,
-                    "subject": "Machine learning"
-                },
-                {
-                    "id": 164,
                     "subject": "Enterprise Feature Store"
                 },
                 {
                     "id": 164,
                     "subject": "Python"
+                },
+                {
+                    "id": 164,
+                    "subject": "Machine learning"
                 }
             ],
             "links": [
@@ -288,11 +288,11 @@
             "subjects": [
                 {
                     "id": 58,
-                    "subject": "Automotive"
+                    "subject": "Object Storage"
                 },
                 {
                     "id": 58,
-                    "subject": "Object Storage"
+                    "subject": "Automotive"
                 },
                 {
                     "id": 58,
@@ -318,11 +318,11 @@
             "subjects": [
                 {
                     "id": 82,
-                    "subject": "Path Analytics"
+                    "subject": "Retail"
                 },
                 {
                     "id": 82,
-                    "subject": "Retail"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 82,
@@ -422,11 +422,11 @@
                 },
                 {
                     "id": 103,
-                    "subject": "Automotive"
+                    "subject": "Manufacturing"
                 },
                 {
                     "id": 103,
-                    "subject": "Manufacturing"
+                    "subject": "Automotive"
                 },
                 {
                     "id": 103,
@@ -484,11 +484,11 @@
             "subjects": [
                 {
                     "id": 114,
-                    "subject": "Financial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 114,
-                    "subject": "Time series analytics"
+                    "subject": "Financial"
                 },
                 {
                     "id": 114,
@@ -607,11 +607,11 @@
                 },
                 {
                     "id": 136,
-                    "subject": "Marketing"
+                    "subject": "Retail"
                 },
                 {
                     "id": 136,
-                    "subject": "Retail"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 136,
@@ -654,10 +654,6 @@
                 },
                 {
                     "id": 197,
-                    "subject": "New"
-                },
-                {
-                    "id": 197,
                     "subject": "Python"
                 }
             ],
@@ -686,10 +682,6 @@
                 {
                     "id": 202,
                     "subject": "Google Gemini"
-                },
-                {
-                    "id": 202,
-                    "subject": "New"
                 },
                 {
                     "id": 202,
@@ -740,10 +732,6 @@
                 },
                 {
                     "id": 210,
-                    "subject": "New"
-                },
-                {
-                    "id": 210,
                     "subject": "Azure"
                 },
                 {
@@ -791,10 +779,6 @@
                 },
                 {
                     "id": 198,
-                    "subject": "New"
-                },
-                {
-                    "id": 198,
                     "subject": "Large Language Models"
                 },
                 {
@@ -831,10 +815,6 @@
                 {
                     "id": 203,
                     "subject": "Google Gemini"
-                },
-                {
-                    "id": 203,
-                    "subject": "New"
                 },
                 {
                     "id": 203,
@@ -886,10 +866,6 @@
                 {
                     "id": 211,
                     "subject": "Python"
-                },
-                {
-                    "id": 211,
-                    "subject": "New"
                 },
                 {
                     "id": 211,
@@ -945,10 +921,6 @@
                 {
                     "id": 196,
                     "subject": "Customer Complaint Analysis"
-                },
-                {
-                    "id": 196,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -976,10 +948,6 @@
                 {
                     "id": 201,
                     "subject": "Google Gemini"
-                },
-                {
-                    "id": 201,
-                    "subject": "New"
                 },
                 {
                     "id": 201,
@@ -1027,10 +995,6 @@
                 {
                     "id": 209,
                     "subject": "Python"
-                },
-                {
-                    "id": 209,
-                    "subject": "New"
                 },
                 {
                     "id": 209,
@@ -1116,6 +1080,32 @@
             ]
         },
         {
+            "id": 147,
+            "demo": "Credit Card Data Preparation",
+            "description": "Uses functions from TeradataML Python library to prepare data for analysis using data cleansing, exploration and feature engineering functions.",
+            "subjects": [
+                {
+                    "id": 147,
+                    "subject": "Data Preparation"
+                },
+                {
+                    "id": 147,
+                    "subject": "Financial"
+                },
+                {
+                    "id": 147,
+                    "subject": "Python"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_Python.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 60,
             "demo": "Credit Card Data Preparation",
             "description": "This shows the use of ClearScape analytics to reduce the pre-processing effort of incoming raw credit card data to prepare for analysis of potential loan defaulters.",
@@ -1143,32 +1133,6 @@
                     "type": "nbviewer",
                     "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Credit_Card_Data_Preparation/Pop_Credit_Card_Data_Preparation_SQL.ipynb",
                     "label": "Read Only SQL"
-                }
-            ]
-        },
-        {
-            "id": 147,
-            "demo": "Credit Card Data Preparation",
-            "description": "Uses functions from TeradataML Python library to prepare data for analysis using data cleansing, exploration and feature engineering functions.",
-            "subjects": [
-                {
-                    "id": 147,
-                    "subject": "Data Preparation"
-                },
-                {
-                    "id": 147,
-                    "subject": "Financial"
-                },
-                {
-                    "id": 147,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_Python.ipynb",
-                    "label": "Python Version"
                 }
             ]
         },
@@ -1253,14 +1217,14 @@
             ],
             "links": [
                 {
-                    "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Customer_Behavior_Analysis/Pop_Customer_Behavior_Analysis_SQL.ipynb",
-                    "label": "Read Only SQL"
-                },
-                {
                     "type": "notebook",
                     "url": "UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_Python.ipynb",
                     "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Customer_Behavior_Analysis/Pop_Customer_Behavior_Analysis_SQL.ipynb",
+                    "label": "Read Only SQL"
                 },
                 {
                     "type": "notebook",
@@ -1290,10 +1254,6 @@
                 {
                     "id": 180,
                     "subject": "Python"
-                },
-                {
-                    "id": 180,
-                    "subject": "New"
                 },
                 {
                     "id": 180,
@@ -1333,10 +1293,6 @@
                 {
                     "id": 191,
                     "subject": "Python"
-                },
-                {
-                    "id": 191,
-                    "subject": "New"
                 },
                 {
                     "id": 191,
@@ -1388,10 +1344,6 @@
                 {
                     "id": 192,
                     "subject": "Python"
-                },
-                {
-                    "id": 192,
-                    "subject": "New"
                 },
                 {
                     "id": 192,
@@ -1451,10 +1403,6 @@
                 {
                     "id": 193,
                     "subject": "Sentiment Analysis"
-                },
-                {
-                    "id": 193,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -1482,10 +1430,6 @@
                 {
                     "id": 200,
                     "subject": "Google Gemini"
-                },
-                {
-                    "id": 200,
-                    "subject": "New"
                 },
                 {
                     "id": 200,
@@ -1545,10 +1489,6 @@
                 {
                     "id": 208,
                     "subject": "Python"
-                },
-                {
-                    "id": 208,
-                    "subject": "New"
                 },
                 {
                     "id": 208,
@@ -1976,11 +1916,11 @@
             "subjects": [
                 {
                     "id": 142,
-                    "subject": "Celebrus"
+                    "subject": "Financial"
                 },
                 {
                     "id": 142,
-                    "subject": "Financial"
+                    "subject": "Celebrus"
                 },
                 {
                     "id": 142,
@@ -2050,11 +1990,11 @@
                 },
                 {
                     "id": 111,
-                    "subject": "Dataiku"
+                    "subject": "Energy & Natural Resources"
                 },
                 {
                     "id": 111,
-                    "subject": "Energy & Natural Resources"
+                    "subject": "Dataiku"
                 },
                 {
                     "id": 111,
@@ -2101,6 +2041,58 @@
                 {
                     "type": "notebook",
                     "url": "UseCases/Energy_Consumption_Forecasting_AzureML/Energy_Consumption_Forecasting_AzureML.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 224,
+            "demo": "Enhance Product Hierarchies with In-DB K-means Clustering",
+            "description": "Enhance a product hierarchy by leveraging time series analysis and clustering techniques",
+            "subjects": [
+                {
+                    "id": 224,
+                    "subject": "New"
+                },
+                {
+                    "id": 224,
+                    "subject": "Time series analytics"
+                },
+                {
+                    "id": 224,
+                    "subject": "Retail"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Retail_Product_Hierarchy/Retail_Product_Hierarchy_Clustering_Python.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 223,
+            "demo": "Execute Custom Python Scripts in Vantage",
+            "description": "Run an external custom python script in Vantage using Script Table Operator(STO) to execute custom python scripts on Vantage",
+            "subjects": [
+                {
+                    "id": 223,
+                    "subject": "New"
+                },
+                {
+                    "id": 223,
+                    "subject": "Developer Information"
+                },
+                {
+                    "id": 223,
+                    "subject": "Python"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Getting_Started/Script_Table_Operator/Getting_Started_STO_Python.ipynb",
                     "label": "Python Version"
                 }
             ]
@@ -2272,11 +2264,11 @@
             "subjects": [
                 {
                     "id": 140,
-                    "subject": "Geospatial"
+                    "subject": "Financial"
                 },
                 {
                     "id": 140,
-                    "subject": "Financial"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 140,
@@ -2607,15 +2599,15 @@
             "subjects": [
                 {
                     "id": 129,
-                    "subject": "Retail"
-                },
-                {
-                    "id": 129,
                     "subject": "Marketing"
                 },
                 {
                     "id": 129,
                     "subject": "Machine learning"
+                },
+                {
+                    "id": 129,
+                    "subject": "Retail"
                 },
                 {
                     "id": 129,
@@ -2703,10 +2695,6 @@
                 {
                     "id": 215,
                     "subject": "Python"
-                },
-                {
-                    "id": 215,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -2754,10 +2742,6 @@
                 {
                     "id": 195,
                     "subject": "Large Language Models"
-                },
-                {
-                    "id": 195,
-                    "subject": "New"
                 },
                 {
                     "id": 195,
@@ -2979,11 +2963,11 @@
                 },
                 {
                     "id": 116,
-                    "subject": "Machine learning"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 116,
-                    "subject": "Marketing"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 116,
@@ -3625,10 +3609,6 @@
                 },
                 {
                     "id": 216,
-                    "subject": "New"
-                },
-                {
-                    "id": 216,
                     "subject": "Language Models"
                 },
                 {
@@ -3672,10 +3652,6 @@
                 },
                 {
                     "id": 217,
-                    "subject": "New"
-                },
-                {
-                    "id": 217,
                     "subject": "Language Models"
                 },
                 {
@@ -3711,11 +3687,11 @@
             "subjects": [
                 {
                     "id": 113,
-                    "subject": "Travel & Transportation"
+                    "subject": "Manufacturing"
                 },
                 {
                     "id": 113,
-                    "subject": "Manufacturing"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 113,
@@ -3736,6 +3712,40 @@
                     "type": "notebook",
                     "url": "UseCases/Remaining_Useful_Life_Forecasting/Remaining_Useful_Life_Forecasting_PY_SQL.ipynb",
                     "label": "Python-SQL Version"
+                }
+            ]
+        },
+        {
+            "id": 220,
+            "demo": "Resume Classification Model Training using Vantage In-DB Functions",
+            "description": "Use data from a collection of Resume Examples taken from kaggle for categorizing a given resume into any of the labels defined in the dataset. Summarize and ask questions using a ChatBot.",
+            "subjects": [
+                {
+                    "id": 220,
+                    "subject": "New"
+                },
+                {
+                    "id": 220,
+                    "subject": "Machine learning"
+                },
+                {
+                    "id": 220,
+                    "subject": "OpenAI"
+                },
+                {
+                    "id": 220,
+                    "subject": "Python"
+                },
+                {
+                    "id": 220,
+                    "subject": "Dashboard Notebook"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Resume_Analyzer/Introduction.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -3798,6 +3808,36 @@
             ]
         },
         {
+            "id": 222,
+            "demo": "Sales Forecasting using Teradata AUTOARIMA",
+            "description": "Forecast the amount of future sales by developing a time-series modelling pipeline using Vantage and In-DB analytics",
+            "subjects": [
+                {
+                    "id": 222,
+                    "subject": "New"
+                },
+                {
+                    "id": 222,
+                    "subject": "Python"
+                },
+                {
+                    "id": 222,
+                    "subject": "Retail"
+                },
+                {
+                    "id": 222,
+                    "subject": "Arima"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Sales_Forecasting_AutoArima/Sales_Forecasting_AutoArima_Python.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 143,
             "demo": "Sales Forecasting using UAF",
             "description": "A detailed coverage of the analytic steps in sales forecasting including data preparation, exploration, seasonal normalizing, model creation, validation, and forecasting.",
@@ -3846,11 +3886,11 @@
                 },
                 {
                     "id": 149,
-                    "subject": "Python"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 149,
-                    "subject": "Machine learning"
+                    "subject": "Python"
                 }
             ],
             "links": [
@@ -3888,10 +3928,6 @@
                 {
                     "id": 218,
                     "subject": "Hugging Face"
-                },
-                {
-                    "id": 218,
-                    "subject": "New"
                 },
                 {
                     "id": 218,
@@ -3935,10 +3971,6 @@
                 {
                     "id": 219,
                     "subject": "Hugging Face"
-                },
-                {
-                    "id": 219,
-                    "subject": "New"
                 },
                 {
                     "id": 219,
@@ -4012,10 +4044,6 @@
                 },
                 {
                     "id": 204,
-                    "subject": "New"
-                },
-                {
-                    "id": 204,
                     "subject": "Large Language Models"
                 },
                 {
@@ -4072,10 +4100,6 @@
                 {
                     "id": 212,
                     "subject": "Python"
-                },
-                {
-                    "id": 212,
-                    "subject": "New"
                 },
                 {
                     "id": 212,
@@ -4187,10 +4211,6 @@
                 {
                     "id": 194,
                     "subject": "Customer Complaint Analysis"
-                },
-                {
-                    "id": 194,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -4218,10 +4238,6 @@
                 {
                     "id": 205,
                     "subject": "Google Gemini"
-                },
-                {
-                    "id": 205,
-                    "subject": "New"
                 },
                 {
                     "id": 205,
@@ -4268,10 +4284,6 @@
                 },
                 {
                     "id": 213,
-                    "subject": "New"
-                },
-                {
-                    "id": 213,
                     "subject": "Azure"
                 },
                 {
@@ -4311,11 +4323,11 @@
                 },
                 {
                     "id": 134,
-                    "subject": "Machine learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 134,
-                    "subject": "Retail"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 134,
@@ -4367,14 +4379,36 @@
             ]
         },
         {
+            "id": 221,
+            "demo": "Streamlining Analytics with Hyper-Segmented Models",
+            "description": "By addressing unique customer behaviors and preferences within specific micro-segments, enhance customer satisfaction, boost operational efficiency, and improve profitability by to deploying and managing hyper-segmented models at scale.",
+            "subjects": [
+                {
+                    "id": 221,
+                    "subject": "New"
+                },
+                {
+                    "id": 221,
+                    "subject": "Python"
+                },
+                {
+                    "id": 221,
+                    "subject": "Language Models"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Hyper_Segmented_Models/Hyper_Segmented_Models.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 150,
             "demo": "Supply Chain Visibility",
             "description": "Shows the integration of data from warehouse, trucking company, and customer Order Management Systems (OMS) using temporal  to reconcile different update frequencies and show rerouting when warehouse is unavailable.",
             "subjects": [
-                {
-                    "id": 150,
-                    "subject": "Time series analytics"
-                },
                 {
                     "id": 150,
                     "subject": "Travel & Transportation"
@@ -4382,6 +4416,10 @@
                 {
                     "id": 150,
                     "subject": "Geospatial"
+                },
+                {
+                    "id": 150,
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 150,
@@ -4583,10 +4621,6 @@
             "subjects": [
                 {
                     "id": 199,
-                    "subject": "New"
-                },
-                {
-                    "id": 199,
                     "subject": "AWS Bedrock"
                 },
                 {
@@ -4638,10 +4672,6 @@
                 },
                 {
                     "id": 206,
-                    "subject": "New"
-                },
-                {
-                    "id": 206,
                     "subject": "Large Language Models"
                 },
                 {
@@ -4689,10 +4719,6 @@
                 },
                 {
                     "id": 214,
-                    "subject": "New"
-                },
-                {
-                    "id": 214,
                     "subject": "Azure"
                 },
                 {
@@ -4732,11 +4758,11 @@
                 },
                 {
                     "id": 105,
-                    "subject": "Machine learning"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 105,
-                    "subject": "Path Analytics"
+                    "subject": "Machine learning"
                 },
                 {
                     "id": 105,
