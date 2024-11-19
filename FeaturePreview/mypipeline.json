@@ -1,0 +1,1893 @@
+{
+    "preprocessors": {
+        "140185644533792": {
+            "classname": "Impute",
+            "attributes": {
+                "kind": "custom",
+                "value": 0,
+                "necessary_statistics": []
+            }
+        },
+        "140185644531776": {
+            "classname": "Impute",
+            "attributes": {
+                "kind": "mean",
+                "value": null,
+                "necessary_statistics": [
+                    [
+                        "standard"
+                    ]
+                ]
+            }
+        },
+        "140185644533600": {
+            "classname": "ImputeText",
+            "attributes": {
+                "kind": "custom",
+                "value": "France",
+                "necessary_statistics": []
+            }
+        },
+        "140185644534848": {
+            "classname": "OneHotEncoder",
+            "attributes": {
+                "kind": "auto",
+                "values": [],
+                "max_categories": 50,
+                "_output_col_formula": [
+                    "CASE c_i_229 WHEN 'France' THEN 1 ELSE 0 END ",
+                    "CASE c_i_229 WHEN 'Spain' THEN 1 ELSE 0 END ",
+                    "CASE c_i_229 WHEN 'Germany' THEN 1 ELSE 0 END ",
+                    "CASE WHEN (c_i_229) IS NOT IN ('France', 'Spain', 'Germany') THEN 1 ELSE 0 END "
+                ],
+                "_output_col_name": [
+                    "Geography__OHE_1_France",
+                    "Geography__OHE_2_Spain",
+                    "Geography__OHE_3_Germany",
+                    "Geography__OHE_0_otherwise"
+                ],
+                "necessary_statistics": [
+                    [
+                        "TOP",
+                        50
+                    ]
+                ]
+            }
+        },
+        "140185644534128": {
+            "classname": "LabelEncoder",
+            "attributes": {
+                "elements": [
+                    "Female"
+                ],
+                "necessary_statistics": []
+            }
+        },
+        "140185644532688": {
+            "classname": "CutOff",
+            "attributes": {
+                "cutoff_min": 10,
+                "cutoff_max": 100,
+                "necessary_statistics": []
+            }
+        },
+        "140187870451936": {
+            "classname": "CutOff",
+            "attributes": {
+                "cutoff_min": 1,
+                "cutoff_max": null,
+                "necessary_statistics": []
+            }
+        },
+        "140185644162016": {
+            "classname": "CustomTransformer",
+            "attributes": {
+                "custom_str": " LN(%%COL%%) ",
+                "output_column_type": "FLOAT()",
+                "necessary_statistics": []
+            }
+        },
+        "140185644162112": {
+            "classname": "Cast",
+            "attributes": {
+                "new_type": "FLOAT",
+                "necessary_statistics": []
+            }
+        },
+        "140185644162208": {
+            "classname": "Scale",
+            "attributes": {
+                "kind": "minmax",
+                "numerator_subtr": 0,
+                "denominator": 1,
+                "zerofinull": false,
+                "feature_range": [
+                    0,
+                    1
+                ],
+                "clip": false,
+                "necessary_statistics": [
+                    [
+                        "standard"
+                    ]
+                ]
+            }
+        },
+        "140185644162256": {
+            "classname": "Cast",
+            "attributes": {
+                "new_type": "FLOAT",
+                "necessary_statistics": []
+            }
+        }
+    },
+    "nodes": {
+        "140185644161920": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "7c9148a80f4847eca39965bcf1b44a25",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "CustomerId",
+                "column_name_internal": "c_i_211",
+                "tdtype": "BIGINT()",
+                "column_definition": "CustomerId"
+            }
+        },
+        "140185711301248": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "f46e8341d9554fc4ac4c8eecf7bfef8e",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Exited",
+                "column_name_internal": "c_i_212",
+                "tdtype": "BYTEINT()",
+                "column_definition": "Exited"
+            }
+        },
+        "140185644161440": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "87c22c49b532437bbd327d270340f380",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Age",
+                "column_name_internal": "c_i_213",
+                "tdtype": "INTEGER()",
+                "column_definition": "Age"
+            }
+        },
+        "140185644161392": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "220a7e379a1f4bfebd2c9de9697d35bb",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Balance",
+                "column_name_internal": "c_i_214",
+                "tdtype": "DECIMAL(precision=15, scale=2)",
+                "column_definition": "Balance"
+            }
+        },
+        "140185644161776": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "cd2093d0cfc547659ba790164041298a",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "CreditScore",
+                "column_name_internal": "c_i_215",
+                "tdtype": "INTEGER()",
+                "column_definition": "CreditScore"
+            }
+        },
+        "140185644160768": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "0766229e7e7f4314be9a2067436c8c2d",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "EstimatedSalary",
+                "column_name_internal": "c_i_216",
+                "tdtype": "DECIMAL(precision=15, scale=2)",
+                "column_definition": "EstimatedSalary"
+            }
+        },
+        "140185644161056": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "3e0c6832f39a43fc88a51a23cb5c778d",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Tenure",
+                "column_name_internal": "c_i_217",
+                "tdtype": "INTEGER()",
+                "column_definition": "Tenure"
+            }
+        },
+        "140185644161344": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "2c7d0a1785a14b009bf08fcfe8e3de37",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Gender",
+                "column_name_internal": "c_i_218",
+                "tdtype": "VARCHAR(length=10, charset='UNICODE')",
+                "column_definition": "Gender"
+            }
+        },
+        "140185644161248": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "d9035a431f1043458201ab5ea456677e",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Geography",
+                "column_name_internal": "c_i_219",
+                "tdtype": "VARCHAR(length=15, charset='UNICODE')",
+                "column_definition": "Geography"
+            }
+        },
+        "140185644160816": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "b443c1c9180a4dcb8d7fe6767ea93cbc",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "NumOfProducts",
+                "column_name_internal": "c_i_220",
+                "tdtype": "INTEGER()",
+                "column_definition": "NumOfProducts"
+            }
+        },
+        "140185644160576": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "cda2149ced534cfe951b2fc16a407471",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "HasCrCard",
+                "column_name_internal": "c_i_221",
+                "tdtype": "BYTEINT()",
+                "column_definition": "HasCrCard"
+            }
+        },
+        "140185644161296": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "19e5217eb35240b1adb19128e5297185",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "IsActiveMember",
+                "column_name_internal": "c_i_222",
+                "tdtype": "BYTEINT()",
+                "column_definition": "IsActiveMember"
+            }
+        },
+        "140185644160096": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "8f22e0836c884ab684b2813876d62935",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 0,
+                "comment": "-- Step 0: Impute"
+            }
+        },
+        "140185643691696": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "4457a73545434e49a3c67d299c64ccad",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 6,
+                "comment": "-- Step 6: CutOff"
+            }
+        },
+        "140185644160288": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "6dc6514a7690496e83032575e31284bd",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 0,
+                "comment": null
+            }
+        },
+        "140185643691648": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "98041101403f465cb7a22f6ed4b820af",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 6,
+                "comment": null
+            }
+        },
+        "140185644160384": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "373764a6e34c4350a117538d92826061",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 0,
+                "comment": null
+            }
+        },
+        "140185643691888": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "efe7d1eaaf58459eac1c3c41d31577c3",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 4,
+                "comment": "-- Step 4: LabelEncoder"
+            }
+        },
+        "140185644166064": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "4062a5f3ad544e8db4593cfb67475a4b",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 2,
+                "comment": "-- Step 2: ImputeText"
+            }
+        },
+        "140185644160432": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "8e3f3d8c4cd34348b95deb3f4c9c7fec",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 0,
+                "comment": null
+            }
+        },
+        "140185644160048": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "de4b69d9cbe64c4ab7ee5cc594e7a45b",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 0,
+                "comment": null
+            }
+        },
+        "140185644160000": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "de46649162264848a45b6c34658e203f",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 0,
+                "comment": null
+            }
+        },
+        "140185644160240": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "ec0d0e236b794dffad6f33f0b50a5d1f",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Age",
+                "column_name_internal": "c_i_223",
+                "tdtype": "INTEGER()",
+                "column_definition": "COALESCE( c_i_213 , 0.0 )"
+            }
+        },
+        "140185643691984": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "22b9cf97bbe44b06ba5daa413b0a0519",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Balance",
+                "column_name_internal": "c_i_236",
+                "tdtype": "FLOAT()",
+                "column_definition": "CASE WHEN c_i_214 < 1 THEN 1 ELSE c_i_214 END"
+            }
+        },
+        "140185644159856": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "15528fcac10444db846d8be836125672",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "CreditScore",
+                "column_name_internal": "c_i_224",
+                "tdtype": "INTEGER()",
+                "column_definition": "COALESCE( c_i_215 , 0.0 )"
+            }
+        },
+        "140185644184432": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "8685572f58b6411d9e37fb6b505fc8e7",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "EstimatedSalary",
+                "column_name_internal": "c_i_237",
+                "tdtype": "FLOAT()",
+                "column_definition": "CASE WHEN c_i_216 < 1 THEN 1 ELSE c_i_216 END"
+            }
+        },
+        "140185644159808": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "eac903e0c4a240d48d6ce310dd7cc6e5",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Tenure",
+                "column_name_internal": "c_i_225",
+                "tdtype": "INTEGER()",
+                "column_definition": "COALESCE( c_i_217 , 0.0 )"
+            }
+        },
+        "140185643691312": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "b4be3a5479d34543b9328e301683d733",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Gender",
+                "column_name_internal": "c_i_234",
+                "tdtype": "INTEGER()",
+                "column_definition": "CASE c_i_218 WHEN 'Female' THEN 1 ELSE 0 END "
+            }
+        },
+        "140185644164480": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "33e539d3db564346a34559fd2730aecf",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Geography",
+                "column_name_internal": "c_i_229",
+                "tdtype": "VARCHAR()",
+                "column_definition": "COALESCE( c_i_219 , 'France' )"
+            }
+        },
+        "140185644159760": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "429933bcbece493f8249252d6d36423d",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "NumOfProducts",
+                "column_name_internal": "c_i_226",
+                "tdtype": "INTEGER()",
+                "column_definition": "COALESCE( c_i_220 , 0.0 )"
+            }
+        },
+        "140185644159712": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "2a287e2cd31540f691d6fa048e4b765e",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "HasCrCard",
+                "column_name_internal": "c_i_227",
+                "tdtype": "",
+                "column_definition": "COALESCE( c_i_221 , 0.0 )"
+            }
+        },
+        "140185644159616": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "1523c605932848489ad454e8b798ded3",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "IsActiveMember",
+                "column_name_internal": "c_i_228",
+                "tdtype": "",
+                "column_definition": "COALESCE( c_i_222 , 0.0 )"
+            }
+        },
+        "140185643691264": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "e9c4e5f565b14eeebc24f8ad43fde675",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 5,
+                "comment": "-- Step 5: CutOff"
+            }
+        },
+        "140185644185824": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "8b2ef857278f4986b2d637e90e5f8eb2",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 7,
+                "comment": "-- Step 7: CustomTransformer"
+            }
+        },
+        "140185644185920": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "6fa2be1483744614befbbbb0f601ef63",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 8,
+                "comment": "-- Step 8: Cast"
+            }
+        },
+        "140185644185200": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "fcfd834ac98d42a2af5f7c83893cc488",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 7,
+                "comment": null
+            }
+        },
+        "140185643704576": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "98c727ecf6ca4f78a051714f01432544",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 8,
+                "comment": null
+            }
+        },
+        "140185644187312": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "7bff1a268e344a9bba128829d02eda9e",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 10,
+                "comment": null
+            }
+        },
+        "140185644166592": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "3c0b45d52a0b4e709c9eeff99f8ade90",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {
+                    "Geography": {
+                        "top": [
+                            "France",
+                            "Spain",
+                            "Germany"
+                        ]
+                    }
+                },
+                "step_number": 3,
+                "comment": "-- Step 3: OneHotEncoder"
+            }
+        },
+        "140185643704816": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "90e2bca9949e4aff911a51ea26382715",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 8,
+                "comment": null
+            }
+        },
+        "140185644187120": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "ef6ff56631db4ed39bcd6c3482b9299a",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 10,
+                "comment": null
+            }
+        },
+        "140185644185248": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "0e10d750dc7d44e18733743c509dfe20",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 10,
+                "comment": null
+            }
+        },
+        "140185643691840": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "4d391e63e1914bb4a1c3b3f0846321fc",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Age",
+                "column_name_internal": "c_i_235",
+                "tdtype": "FLOAT()",
+                "column_definition": "CASE WHEN c_i_223 > 100 THEN 100 ELSE CASE WHEN c_i_223 < 10 THEN 10 ELSE c_i_223 END END"
+            }
+        },
+        "140185643704768": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "f38080e0fa894fd597bac79b972dcedf",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Balance",
+                "column_name_internal": "c_i_238",
+                "tdtype": "FLOAT()",
+                "column_definition": " LN(( c_i_236 )) "
+            }
+        },
+        "140185643704384": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "64e1bf23501e403a87208f0b2941995c",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "CreditScore",
+                "column_name_internal": "c_i_240",
+                "tdtype": "FLOAT",
+                "column_definition": "CAST( (c_i_224) AS FLOAT )"
+            }
+        },
+        "140185643705824": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "e2c00dedfcef4ecbbbc318bc0377ef01",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "EstimatedSalary",
+                "column_name_internal": "c_i_239",
+                "tdtype": "FLOAT()",
+                "column_definition": " LN(( c_i_237 )) "
+            }
+        },
+        "140185643706208": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "51d65bcec2824105b399969bac7f9b5e",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Tenure",
+                "column_name_internal": "c_i_241",
+                "tdtype": "FLOAT",
+                "column_definition": "CAST( (c_i_225) AS FLOAT )"
+            }
+        },
+        "140185644187072": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "0f646c7668ec4cfeb6e3a073246bb044",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Gender",
+                "column_name_internal": "c_i_250",
+                "tdtype": "FLOAT",
+                "column_definition": "CAST( (c_i_234) AS FLOAT )"
+            }
+        },
+        "140185643691456": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "e670d141e92346918358a80856a46fb8",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Geography__OHE_1_France",
+                "column_name_internal": "c_i_230",
+                "tdtype": "INTEGER()",
+                "column_definition": "CASE c_i_229 WHEN 'France' THEN 1 ELSE 0 END "
+            }
+        },
+        "140185643691792": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "3f1fc7f2631747559a5f34604571824a",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Geography__OHE_2_Spain",
+                "column_name_internal": "c_i_231",
+                "tdtype": "INTEGER()",
+                "column_definition": "CASE c_i_229 WHEN 'Spain' THEN 1 ELSE 0 END "
+            }
+        },
+        "140185643691408": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "ba82605cb8bd4e8a82b3f150ef361be0",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Geography__OHE_3_Germany",
+                "column_name_internal": "c_i_232",
+                "tdtype": "INTEGER()",
+                "column_definition": "CASE c_i_229 WHEN 'Germany' THEN 1 ELSE 0 END "
+            }
+        },
+        "140185643691552": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "8035929ac8af4f01bda99fb0295628be",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Geography__OHE_0_otherwise",
+                "column_name_internal": "c_i_233",
+                "tdtype": "INTEGER()",
+                "column_definition": "CASE WHEN (c_i_229) IS NOT IN ('France', 'Spain', 'Germany') THEN 1 ELSE 0 END "
+            }
+        },
+        "140185643705920": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "9b5d61501a0c4e9986d734596682324e",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "NumOfProducts",
+                "column_name_internal": "c_i_242",
+                "tdtype": "FLOAT",
+                "column_definition": "CAST( (c_i_226) AS FLOAT )"
+            }
+        },
+        "140185644184480": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "db998caac92941ed94e4d9765b3a0fdf",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "HasCrCard",
+                "column_name_internal": "c_i_256",
+                "tdtype": "FLOAT",
+                "column_definition": "CAST( (c_i_227) AS FLOAT )"
+            }
+        },
+        "140185644186640": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "45122f930d0f4025bd532bcc0210cf32",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "IsActiveMember",
+                "column_name_internal": "c_i_257",
+                "tdtype": "FLOAT",
+                "column_definition": "CAST( (c_i_228) AS FLOAT )"
+            }
+        },
+        "140185644185152": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "e29c470d167041fd829ebebdc0b5d1da",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 10,
+                "comment": "-- Step 10: Cast"
+            }
+        },
+        "140185644186832": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "fd2f5f72a87c41c3aac1862323b945ac",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 10,
+                "comment": null
+            }
+        },
+        "140185643706064": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "a60e848fc32c4199b136213f9f4b6b8e",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {
+                    "Tenure": {
+                        "min": 0.0,
+                        "max": 10.0,
+                        "mean": 4.9726,
+                        "std": 2.9147123957038708,
+                        "mode": 2.0
+                    },
+                    "CreditScore": {
+                        "min": 350.0,
+                        "max": 850.0,
+                        "mean": 650.7018,
+                        "std": 96.65753055195631,
+                        "mode": 850.0
+                    }
+                },
+                "step_number": 9,
+                "comment": "-- Step 9: Scale"
+            }
+        },
+        "140185644186448": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "1201b0db541c40ff864cf19dd86c3db7",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 10,
+                "comment": null
+            }
+        },
+        "140185643705536": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "245bf5d34321473a9b9adac94d11cf8c",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {
+                    "Tenure": {
+                        "min": 0.0,
+                        "max": 10.0,
+                        "mean": 4.9726,
+                        "std": 2.9147123957038708,
+                        "mode": 2.0
+                    },
+                    "CreditScore": {
+                        "min": 350.0,
+                        "max": 850.0,
+                        "mean": 650.7018,
+                        "std": 96.65753055195631,
+                        "mode": 850.0
+                    }
+                },
+                "step_number": 9,
+                "comment": null
+            }
+        },
+        "140185644184816": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "f64edea86c084a08b4215dc63d29ac83",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 10,
+                "comment": null
+            }
+        },
+        "140185644184288": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "207f118fc7f447d8ab8d1a7d51a75a6f",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 10,
+                "comment": null
+            }
+        },
+        "140185644187264": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "5bd3a329f88445b199d1542edbb7bd2a",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 10,
+                "comment": null
+            }
+        },
+        "140185644186736": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "de3494d0f60f44e986834d97206ae0b7",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 10,
+                "comment": null
+            }
+        },
+        "140185644187216": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "c077247772e246be9daf4dd19531f338",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 10,
+                "comment": null
+            }
+        },
+        "140185644184672": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "0c7c91b32d1a42b3b1e6ebe6b1230b54",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Age",
+                "column_name_internal": "c_i_245",
+                "tdtype": "FLOAT",
+                "column_definition": "CAST( (c_i_235) AS FLOAT )"
+            }
+        },
+        "140185644185680": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "96d42e7531714111b00424f60dd787b3",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Balance",
+                "column_name_internal": "c_i_246",
+                "tdtype": "FLOAT",
+                "column_definition": "CAST( (c_i_238) AS FLOAT )"
+            }
+        },
+        "140185644186592": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "e1061b0ad4a24513816ea7b87a3b00f2",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "CreditScore",
+                "column_name_internal": "c_i_243",
+                "tdtype": "FLOAT()",
+                "column_definition": " ( ( c_i_240 )  - 350.0 ) / NULLIF( 500.0 , 0) "
+            }
+        },
+        "140185644183616": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "7f4d7bdc661c40cb9f06b2ad801e7663",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "EstimatedSalary",
+                "column_name_internal": "c_i_248",
+                "tdtype": "FLOAT",
+                "column_definition": "CAST( (c_i_239) AS FLOAT )"
+            }
+        },
+        "140185644185968": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "483ba34db8c34916ae89429f1626e92a",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Tenure",
+                "column_name_internal": "c_i_244",
+                "tdtype": "FLOAT()",
+                "column_definition": " ( ( c_i_241 )  - 0.0 ) / NULLIF( 10.0 , 0) "
+            }
+        },
+        "140185644184048": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "44f398607e244a51841084a3dd4c1d03",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Geography__OHE_1_France",
+                "column_name_internal": "c_i_251",
+                "tdtype": "FLOAT",
+                "column_definition": "CAST( (c_i_230) AS FLOAT )"
+            }
+        },
+        "140185644185056": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "1ac915d46b024627af1d8c0778f0fef3",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Geography__OHE_2_Spain",
+                "column_name_internal": "c_i_252",
+                "tdtype": "FLOAT",
+                "column_definition": "CAST( (c_i_231) AS FLOAT )"
+            }
+        },
+        "140185644186304": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "7ab47a3b49da42f4a3bec83e30d731ca",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Geography__OHE_3_Germany",
+                "column_name_internal": "c_i_253",
+                "tdtype": "FLOAT",
+                "column_definition": "CAST( (c_i_232) AS FLOAT )"
+            }
+        },
+        "140185644183760": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "d93e7d4d43194c149f9712a98866f32c",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Geography__OHE_0_otherwise",
+                "column_name_internal": "c_i_254",
+                "tdtype": "FLOAT",
+                "column_definition": "CAST( (c_i_233) AS FLOAT )"
+            }
+        },
+        "140185644187600": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "10a34e0cdb9d4f0ea57188493469ba3f",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "NumOfProducts",
+                "column_name_internal": "c_i_255",
+                "tdtype": "FLOAT",
+                "column_definition": "CAST( (c_i_242) AS FLOAT )"
+            }
+        },
+        "140185644185776": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "9ba176b82b574a9bbe544fb4b03e3eac",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 10,
+                "comment": null
+            }
+        },
+        "140185644185344": {
+            "classname": "PreProcesserNode",
+            "attributes": {
+                "node_id": "53814e57bc6641b68cc799d5b3d907d8",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "options": {},
+                "fitted_statistics": {},
+                "step_number": 10,
+                "comment": null
+            }
+        },
+        "140185644184960": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "b016cd4fb4004f08ab960dc398539cd9",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "CreditScore",
+                "column_name_internal": "c_i_247",
+                "tdtype": "FLOAT",
+                "column_definition": "CAST( (c_i_243) AS FLOAT )"
+            }
+        },
+        "140185644186112": {
+            "classname": "ColumnNode",
+            "attributes": {
+                "node_id": "3a91db8cd3934002b7b554f76b38f064",
+                "clauses_withas": [],
+                "clauses_final": [],
+                "column_name": "Tenure",
+                "column_name_internal": "c_i_249",
+                "tdtype": "FLOAT",
+                "column_definition": "CAST( (c_i_244) AS FLOAT )"
+            }
+        }
+    },
+    "dag": {
+        "query": "WITH preprocessing_steps AS\n(\n    SELECT\n    CustomerId AS c_i_211,\n    Exited AS c_i_212,\n    Age AS c_i_213,\n    Balance AS c_i_214,\n    CreditScore AS c_i_215,\n    EstimatedSalary AS c_i_216,\n    Tenure AS c_i_217,\n    Gender AS c_i_218,\n    Geography AS c_i_219,\n    NumOfProducts AS c_i_220,\n    HasCrCard AS c_i_221,\n    IsActiveMember AS c_i_222,\n    COALESCE( c_i_213 , 0.0 ) AS c_i_223,\n    CASE WHEN c_i_214 < 1 THEN 1 ELSE c_i_214 END AS c_i_236,\n    COALESCE( c_i_215 , 0.0 ) AS c_i_224,\n    CASE WHEN c_i_216 < 1 THEN 1 ELSE c_i_216 END AS c_i_237,\n    COALESCE( c_i_217 , 0.0 ) AS c_i_225,\n    CASE c_i_218 WHEN 'Female' THEN 1 ELSE 0 END  AS c_i_234,\n    COALESCE( c_i_219 , 'France' ) AS c_i_229,\n    COALESCE( c_i_220 , 0.0 ) AS c_i_226,\n    COALESCE( c_i_221 , 0.0 ) AS c_i_227,\n    COALESCE( c_i_222 , 0.0 ) AS c_i_228,\n    CASE WHEN c_i_223 > 100 THEN 100 ELSE CASE WHEN c_i_223 < 10 THEN 10 ELSE c_i_223 END END AS c_i_235,\n     LN(( c_i_236 ))  AS c_i_238,\n    CAST( (c_i_224) AS FLOAT ) AS c_i_240,\n     LN(( c_i_237 ))  AS c_i_239,\n    CAST( (c_i_225) AS FLOAT ) AS c_i_241,\n    CASE c_i_229 WHEN 'France' THEN 1 ELSE 0 END  AS c_i_230,\n    CASE c_i_229 WHEN 'Spain' THEN 1 ELSE 0 END  AS c_i_231,\n    CASE c_i_229 WHEN 'Germany' THEN 1 ELSE 0 END  AS c_i_232,\n    CASE WHEN (c_i_229) IS NOT IN ('France', 'Spain', 'Germany') THEN 1 ELSE 0 END  AS c_i_233,\n    CAST( (c_i_226) AS FLOAT ) AS c_i_242\n    FROM\n        ${table_view} t\n)\n\nSELECT\n    c_i_211 AS CustomerId,\n    c_i_212 AS Exited,\n    c_i_235 AS Age,\n    c_i_238 AS Balance,\n    c_i_240 AS CreditScore,\n    c_i_239 AS EstimatedSalary,\n    c_i_241 AS Tenure,\n    c_i_234 AS Gender,\n    c_i_230 AS Geography__OHE_1_France,\n    c_i_231 AS Geography__OHE_2_Spain,\n    c_i_232 AS Geography__OHE_3_Germany,\n    c_i_233 AS Geography__OHE_0_otherwise,\n    c_i_242 AS NumOfProducts,\n    c_i_227 AS HasCrCard,\n    c_i_228 AS IsActiveMember\nFROM\npreprocessing_steps t\n"
+    },
+    "pipeline": {
+        "_is_fitted": true,
+        "_needs_DF_for_fitting": true
+    },
+    "node_to_preprocessor": [
+        [
+            "140185644160096",
+            "140185644533792"
+        ],
+        [
+            "140185643691696",
+            "140187870451936"
+        ],
+        [
+            "140185644160288",
+            "140185644533792"
+        ],
+        [
+            "140185643691648",
+            "140187870451936"
+        ],
+        [
+            "140185644160384",
+            "140185644533792"
+        ],
+        [
+            "140185643691888",
+            "140185644534128"
+        ],
+        [
+            "140185644166064",
+            "140185644533600"
+        ],
+        [
+            "140185644160432",
+            "140185644533792"
+        ],
+        [
+            "140185644160048",
+            "140185644533792"
+        ],
+        [
+            "140185644160000",
+            "140185644533792"
+        ],
+        [
+            "140185643691264",
+            "140185644532688"
+        ],
+        [
+            "140185644185824",
+            "140185644162016"
+        ],
+        [
+            "140185644185920",
+            "140185644162112"
+        ],
+        [
+            "140185644185200",
+            "140185644162016"
+        ],
+        [
+            "140185643704576",
+            "140185644162112"
+        ],
+        [
+            "140185644187312",
+            "140185644162256"
+        ],
+        [
+            "140185644166592",
+            "140185644534848"
+        ],
+        [
+            "140185643704816",
+            "140185644162112"
+        ],
+        [
+            "140185644187120",
+            "140185644162256"
+        ],
+        [
+            "140185644185248",
+            "140185644162256"
+        ],
+        [
+            "140185644185152",
+            "140185644162256"
+        ],
+        [
+            "140185644186832",
+            "140185644162256"
+        ],
+        [
+            "140185643706064",
+            "140185644162208"
+        ],
+        [
+            "140185644186448",
+            "140185644162256"
+        ],
+        [
+            "140185643705536",
+            "140185644162208"
+        ],
+        [
+            "140185644184816",
+            "140185644162256"
+        ],
+        [
+            "140185644184288",
+            "140185644162256"
+        ],
+        [
+            "140185644187264",
+            "140185644162256"
+        ],
+        [
+            "140185644186736",
+            "140185644162256"
+        ],
+        [
+            "140185644187216",
+            "140185644162256"
+        ],
+        [
+            "140185644185776",
+            "140185644162256"
+        ],
+        [
+            "140185644185344",
+            "140185644162256"
+        ]
+    ],
+    "node_to_previous": [
+        [
+            "140185644160096",
+            "140185644161440"
+        ],
+        [
+            "140185643691696",
+            "140185644161392"
+        ],
+        [
+            "140185644160288",
+            "140185644161776"
+        ],
+        [
+            "140185643691648",
+            "140185644160768"
+        ],
+        [
+            "140185644160384",
+            "140185644161056"
+        ],
+        [
+            "140185643691888",
+            "140185644161344"
+        ],
+        [
+            "140185644166064",
+            "140185644161248"
+        ],
+        [
+            "140185644160432",
+            "140185644160816"
+        ],
+        [
+            "140185644160048",
+            "140185644160576"
+        ],
+        [
+            "140185644160000",
+            "140185644161296"
+        ],
+        [
+            "140185644160240",
+            "140185644160096"
+        ],
+        [
+            "140185643691984",
+            "140185643691696"
+        ],
+        [
+            "140185644159856",
+            "140185644160288"
+        ],
+        [
+            "140185644184432",
+            "140185643691648"
+        ],
+        [
+            "140185644159808",
+            "140185644160384"
+        ],
+        [
+            "140185643691312",
+            "140185643691888"
+        ],
+        [
+            "140185644164480",
+            "140185644166064"
+        ],
+        [
+            "140185644159760",
+            "140185644160432"
+        ],
+        [
+            "140185644159712",
+            "140185644160048"
+        ],
+        [
+            "140185644159616",
+            "140185644160000"
+        ],
+        [
+            "140185643691264",
+            "140185644160240"
+        ],
+        [
+            "140185644185824",
+            "140185643691984"
+        ],
+        [
+            "140185644185920",
+            "140185644159856"
+        ],
+        [
+            "140185644185200",
+            "140185644184432"
+        ],
+        [
+            "140185643704576",
+            "140185644159808"
+        ],
+        [
+            "140185644187312",
+            "140185643691312"
+        ],
+        [
+            "140185644166592",
+            "140185644164480"
+        ],
+        [
+            "140185643704816",
+            "140185644159760"
+        ],
+        [
+            "140185644187120",
+            "140185644159712"
+        ],
+        [
+            "140185644185248",
+            "140185644159616"
+        ],
+        [
+            "140185643691840",
+            "140185643691264"
+        ],
+        [
+            "140185643704768",
+            "140185644185824"
+        ],
+        [
+            "140185643704384",
+            "140185644185920"
+        ],
+        [
+            "140185643705824",
+            "140185644185200"
+        ],
+        [
+            "140185643706208",
+            "140185643704576"
+        ],
+        [
+            "140185644187072",
+            "140185644187312"
+        ],
+        [
+            "140185643691456",
+            "140185644166592"
+        ],
+        [
+            "140185643691792",
+            "140185644166592"
+        ],
+        [
+            "140185643691408",
+            "140185644166592"
+        ],
+        [
+            "140185643691552",
+            "140185644166592"
+        ],
+        [
+            "140185643705920",
+            "140185643704816"
+        ],
+        [
+            "140185644184480",
+            "140185644187120"
+        ],
+        [
+            "140185644186640",
+            "140185644185248"
+        ],
+        [
+            "140185644185152",
+            "140185643691840"
+        ],
+        [
+            "140185644186832",
+            "140185643704768"
+        ],
+        [
+            "140185643706064",
+            "140185643704384"
+        ],
+        [
+            "140185644186448",
+            "140185643705824"
+        ],
+        [
+            "140185643705536",
+            "140185643706208"
+        ],
+        [
+            "140185644184816",
+            "140185643691456"
+        ],
+        [
+            "140185644184288",
+            "140185643691792"
+        ],
+        [
+            "140185644187264",
+            "140185643691408"
+        ],
+        [
+            "140185644186736",
+            "140185643691552"
+        ],
+        [
+            "140185644187216",
+            "140185643705920"
+        ],
+        [
+            "140185644184672",
+            "140185644185152"
+        ],
+        [
+            "140185644185680",
+            "140185644186832"
+        ],
+        [
+            "140185644186592",
+            "140185643706064"
+        ],
+        [
+            "140185644183616",
+            "140185644186448"
+        ],
+        [
+            "140185644185968",
+            "140185643705536"
+        ],
+        [
+            "140185644184048",
+            "140185644184816"
+        ],
+        [
+            "140185644185056",
+            "140185644184288"
+        ],
+        [
+            "140185644186304",
+            "140185644187264"
+        ],
+        [
+            "140185644183760",
+            "140185644186736"
+        ],
+        [
+            "140185644187600",
+            "140185644187216"
+        ],
+        [
+            "140185644185776",
+            "140185644186592"
+        ],
+        [
+            "140185644185344",
+            "140185644185968"
+        ],
+        [
+            "140185644184960",
+            "140185644185776"
+        ],
+        [
+            "140185644186112",
+            "140185644185344"
+        ]
+    ],
+    "node_to_successor": [
+        [
+            "140185644161440",
+            "140185644160096"
+        ],
+        [
+            "140185644161392",
+            "140185643691696"
+        ],
+        [
+            "140185644161776",
+            "140185644160288"
+        ],
+        [
+            "140185644160768",
+            "140185643691648"
+        ],
+        [
+            "140185644161056",
+            "140185644160384"
+        ],
+        [
+            "140185644161344",
+            "140185643691888"
+        ],
+        [
+            "140185644161248",
+            "140185644166064"
+        ],
+        [
+            "140185644160816",
+            "140185644160432"
+        ],
+        [
+            "140185644160576",
+            "140185644160048"
+        ],
+        [
+            "140185644161296",
+            "140185644160000"
+        ],
+        [
+            "140185644160096",
+            "140185644160240"
+        ],
+        [
+            "140185643691696",
+            "140185643691984"
+        ],
+        [
+            "140185644160288",
+            "140185644159856"
+        ],
+        [
+            "140185643691648",
+            "140185644184432"
+        ],
+        [
+            "140185644160384",
+            "140185644159808"
+        ],
+        [
+            "140185643691888",
+            "140185643691312"
+        ],
+        [
+            "140185644166064",
+            "140185644164480"
+        ],
+        [
+            "140185644160432",
+            "140185644159760"
+        ],
+        [
+            "140185644160048",
+            "140185644159712"
+        ],
+        [
+            "140185644160000",
+            "140185644159616"
+        ],
+        [
+            "140185644160240",
+            "140185643691264"
+        ],
+        [
+            "140185643691984",
+            "140185644185824"
+        ],
+        [
+            "140185644159856",
+            "140185644185920"
+        ],
+        [
+            "140185644184432",
+            "140185644185200"
+        ],
+        [
+            "140185644159808",
+            "140185643704576"
+        ],
+        [
+            "140185643691312",
+            "140185644187312"
+        ],
+        [
+            "140185644164480",
+            "140185644166592"
+        ],
+        [
+            "140185644159760",
+            "140185643704816"
+        ],
+        [
+            "140185644159712",
+            "140185644187120"
+        ],
+        [
+            "140185644159616",
+            "140185644185248"
+        ],
+        [
+            "140185643691264",
+            "140185643691840"
+        ],
+        [
+            "140185644185824",
+            "140185643704768"
+        ],
+        [
+            "140185644185920",
+            "140185643704384"
+        ],
+        [
+            "140185644185200",
+            "140185643705824"
+        ],
+        [
+            "140185643704576",
+            "140185643706208"
+        ],
+        [
+            "140185644187312",
+            "140185644187072"
+        ],
+        [
+            "140185644166592",
+            "140185643691456"
+        ],
+        [
+            "140185644166592",
+            "140185643691792"
+        ],
+        [
+            "140185644166592",
+            "140185643691408"
+        ],
+        [
+            "140185644166592",
+            "140185643691552"
+        ],
+        [
+            "140185643704816",
+            "140185643705920"
+        ],
+        [
+            "140185644187120",
+            "140185644184480"
+        ],
+        [
+            "140185644185248",
+            "140185644186640"
+        ],
+        [
+            "140185643691840",
+            "140185644185152"
+        ],
+        [
+            "140185643704768",
+            "140185644186832"
+        ],
+        [
+            "140185643704384",
+            "140185643706064"
+        ],
+        [
+            "140185643705824",
+            "140185644186448"
+        ],
+        [
+            "140185643706208",
+            "140185643705536"
+        ],
+        [
+            "140185643691456",
+            "140185644184816"
+        ],
+        [
+            "140185643691792",
+            "140185644184288"
+        ],
+        [
+            "140185643691408",
+            "140185644187264"
+        ],
+        [
+            "140185643691552",
+            "140185644186736"
+        ],
+        [
+            "140185643705920",
+            "140185644187216"
+        ],
+        [
+            "140185644185152",
+            "140185644184672"
+        ],
+        [
+            "140185644186832",
+            "140185644185680"
+        ],
+        [
+            "140185643706064",
+            "140185644186592"
+        ],
+        [
+            "140185644186448",
+            "140185644183616"
+        ],
+        [
+            "140185643705536",
+            "140185644185968"
+        ],
+        [
+            "140185644184816",
+            "140185644184048"
+        ],
+        [
+            "140185644184288",
+            "140185644185056"
+        ],
+        [
+            "140185644187264",
+            "140185644186304"
+        ],
+        [
+            "140185644186736",
+            "140185644183760"
+        ],
+        [
+            "140185644187216",
+            "140185644187600"
+        ],
+        [
+            "140185644186592",
+            "140185644185776"
+        ],
+        [
+            "140185644185968",
+            "140185644185344"
+        ],
+        [
+            "140185644185776",
+            "140185644184960"
+        ],
+        [
+            "140185644185344",
+            "140185644186112"
+        ]
+    ],
+    "dag_to_root_nodes": [
+        "140185644161920",
+        "140185711301248",
+        "140185644161440",
+        "140185644161392",
+        "140185644161776",
+        "140185644160768",
+        "140185644161056",
+        "140185644161344",
+        "140185644161248",
+        "140185644160816",
+        "140185644160576",
+        "140185644161296"
+    ],
+    "steps_to_preprocessor_ids": [
+        [
+            [
+                "Age",
+                "CreditScore",
+                "Tenure",
+                "NumOfProducts",
+                "HasCrCard",
+                "IsActiveMember"
+            ],
+            "140185644533792",
+            {}
+        ],
+        [
+            [],
+            "140185644531776",
+            {}
+        ],
+        [
+            [
+                "Geography"
+            ],
+            "140185644533600",
+            {}
+        ],
+        [
+            [
+                "Geography"
+            ],
+            "140185644534848",
+            {}
+        ],
+        [
+            [
+                "Gender"
+            ],
+            "140185644534128",
+            {}
+        ],
+        [
+            [
+                "Age"
+            ],
+            "140185644532688",
+            {}
+        ],
+        [
+            [
+                "Balance",
+                "EstimatedSalary"
+            ],
+            "140187870451936",
+            {}
+        ],
+        [
+            [
+                "Balance",
+                "EstimatedSalary"
+            ],
+            "140185644162016",
+            {}
+        ],
+        [
+            [
+                "CreditScore",
+                "Tenure",
+                "NumOfProducts"
+            ],
+            "140185644162112",
+            {}
+        ],
+        [
+            [
+                "CreditScore",
+                "Tenure"
+            ],
+            "140185644162208",
+            {}
+        ],
+        [
+            {
+                "columns_exclude": [
+                    "CustomerId",
+                    "Exited"
+                ]
+            },
+            "140185644162256",
+            {}
+        ]
+    ]
+}
