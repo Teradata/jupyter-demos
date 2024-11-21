@@ -1,11 +1,13 @@
 langchain 
 langchain_community
-openai
+boto3
+awscli
 faiss-cpu
 tiktoken
+pypdf
 PyMuPDF
 panel==1.3.4
-google-cloud-aiplatform
 pyopenssl
 cryptography
 tdapiclient
+langchain_aws
