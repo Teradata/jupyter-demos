@@ -11,3 +11,5 @@ pyopenssl
 cryptography
 tdapiclient
 langchain_aws
+torch_audio
+pydantic==2.9.2
