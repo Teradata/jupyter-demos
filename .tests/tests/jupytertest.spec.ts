@@ -123,6 +123,18 @@ for (let i = 0; i < testCount; i++) {
             await expect(page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']")).toHaveCount(0);
             await expect(page.locator(`div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell:nth-child(${i})`)).toHaveClass(/jp-mod-active/);
 
+            //restart the kernel if the cell has 'zero zero' text
+            const restartKernal = await page.locator(`div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell:nth-child(${i})`)
+                                            .filter({ hasText: 'The simplest way to restart the Kernel is by typing zero zero:' });
+            if(await restartKernal.isVisible()){
+                console.log('Found Restarting the kernel');
+                await page.keyboard.press('Digit0');
+                await page.keyboard.press('Digit0');
+                await page.getByRole('button', { name: 'Restart', exact: true }).waitFor({ timeout: 3000 });
+                await page.keyboard.press('Enter');
+                await page.locator('span[class="f1235lqo"] >> text="' + strKernelType + '| Idle"').waitFor({ timeout: 600000 });
+            }
+
             // Go to next step by clicking the Run button
             await page.getByRole('button', { name: 'Run the selected cells and' }).click();
 
@@ -181,7 +193,7 @@ for (let i = 0; i < testCount; i++) {
                 await page.keyboard.press('Enter');
                 await page.keyboard.press('ArrowDown');
             }
-            
+           
             // If same cell is active after execution, adding some wait here.
             try {
                 await page.locator(`div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell:nth-child(${i}).jp-mod-active`).waitFor({ timeout: 3000 });
