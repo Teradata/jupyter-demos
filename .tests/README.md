@@ -32,3 +32,7 @@ Note: Can use the cell or prompt from selecting the input, When both cell and pr
 | ----------------- | ----- |
 | CSAE_ENV_PASSWORD   | Vantage DB password for the environment |
 | CSAE_OPENAPI_KEY | OpenAI API Key for GenAI |
+
+## Restart the kernal
+There are few notebooks where you may have to restart the kernal. This script can restart the kernal of it finds the text below.
+`The simplest way to restart the Kernel is by typing zero zero:` in the cell.

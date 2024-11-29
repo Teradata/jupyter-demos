@@ -123,9 +123,9 @@ for (let i = 0; i < testCount; i++) {
             await expect(page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']")).toHaveCount(0);
             await expect(page.locator(`div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell:nth-child(${i})`)).toHaveClass(/jp-mod-active/);
 
-            //resetart the kernel if the cell has 'zero zero' text
+            //restart the kernel if the cell has 'zero zero' text
             const restartKernal = await page.locator(`div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell:nth-child(${i})`)
-                                            .filter({ hasText: 'zero zero' });
+                                            .filter({ hasText: 'The simplest way to restart the Kernel is by typing zero zero:' });
             if(await restartKernal.isVisible()){
                 console.log('Found Restarting the kernel');
                 await page.keyboard.press('Digit0');
