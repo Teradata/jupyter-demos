@@ -89,7 +89,7 @@ for (let i = 0; i < testCount; i++) {
         if(env.isBranchSet === false && CI_BRANCH !== 'main'){
             console.log('Checking out to branch: ' + CI_BRANCH);
             await page.goto(env.getJuypterUrl('Demo.index'));
-
+            await page.locator('#jp-main-dock-panel').getByText('Demo.index').waitFor({ timeout: 600000 })
             try{
                 await page.locator('#jp-main-dock-panel').getByText('Launcher').click({timeout: 5000});
                 await page.locator('#launcher-0').getByText('Terminal').click();
