@@ -9,6 +9,7 @@ export class Environments {
     public readonly envName: string;
     public readonly region: string;
     public readonly password: string;
+    public isBranchSet: boolean;
 
     public envDetails: any;
 
@@ -16,6 +17,7 @@ export class Environments {
         this.envName = evnName;
         this.region = region;
         this.password = password;
+        this.isBranchSet = false;
     }
     public list() {
         return axios.get(url, {

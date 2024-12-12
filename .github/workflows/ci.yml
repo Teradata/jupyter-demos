@@ -116,6 +116,7 @@ jobs:
           - name: Run Playwright tests
             if: ${{ steps.load-files.outputs.tests_exists == 'true' }}
             run: |
+                export CI_BRANCH = ${{ github.head_ref || github.ref_name }} 
                 npx playwright test
           - name: Delete test environments
             if: ${{always() && steps.load-files.outputs.tests_exists == 'true'}}
