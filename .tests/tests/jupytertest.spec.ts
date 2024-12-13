@@ -10,6 +10,7 @@ const envPool = new EnvPool(Math.floor(CSAE_WORKERS_COUNT / CSAE_PARALLEL_TESTS_
 
 const CSAE_CI_JOB_IDX = parseInt(process.env.CSAE_CI_JOB_IDX || '0');
 const CSAE_CI_JOB_COUNT = parseInt(process.env.CSAE_CI_JOB_COUNT || '1');
+const CI_BRANCH = process.env.CI_BRANCH || 'main';
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
@@ -83,6 +84,27 @@ for (let i = 0; i < testCount; i++) {
 
         // Create Env or get existing Env
         const env = await envPool.getEnv(testInfo.parallelIndex);
+
+        //Checkout to correct branch
+        if(env.isBranchSet === false && CI_BRANCH !== 'main'){
+            console.log('Checking out to branch: ' + CI_BRANCH);
+            await page.goto(env.getJuypterUrl('Demo.index'));
+            await page.locator('#jp-main-dock-panel').getByText('Demo.index').waitFor({ timeout: 600000 })
+            try{
+                await page.locator('#jp-main-dock-panel').getByText('Launcher').click({timeout: 5000});
+                await page.locator('#launcher-0').getByText('Terminal').click();
+            }catch(e){
+                if (!(e instanceof errors.TimeoutError)) {
+                    throw e;  
+                }
+            }
+    
+            await page.locator('#jp-main-dock-panel').getByText('jovyan@').click();
+            await page.keyboard.type(`git checkout ${CI_BRANCH}`);
+            await page.keyboard.press('Enter');
+        }
+        env.isBranchSet = true;
+
         console.log('url:' + env.getJuypterUrl(name.substring(3)));
         await page.goto(env.getJuypterUrl(name.substring(3)));
 
