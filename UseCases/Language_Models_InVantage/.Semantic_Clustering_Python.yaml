@@ -1,0 +1,4 @@
+inputs:
+  - type: text
+    value: 'Do you want to generate embeddings? ('yes'/'no'): '
+    prompt: 'yes'
