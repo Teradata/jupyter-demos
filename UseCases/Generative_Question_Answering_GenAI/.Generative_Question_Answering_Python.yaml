@@ -1,4 +1,4 @@
 inputs:
   - type: text
-    value: 'What is the average income for Phoenix?'
     prompt: 'We invite you to enter your natural language query:'
+    value: 'What is the average income for Phoenix?'
