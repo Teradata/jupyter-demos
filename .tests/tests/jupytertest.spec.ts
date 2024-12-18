@@ -47,7 +47,9 @@ function loadTestData(filename): Input[] {
     const filenameArray = filename.split('/')
     filenameArray[filenameArray.length - 1] = '.'+filenameArray[filenameArray.length - 1].replace(/.ipynb$/, '.yaml');
     const testDataFilename = filenameArray.join('/');
+    console.log('Checking if test data(.yaml) file exists: ' + testDataFilename);
     if (fs.existsSync(testDataFilename)){
+        console.log('Found test data(.yaml) file, Loading into memory: ' + testDataFilename);
         return (yamlParse(fs.readFileSync(testDataFilename, 'utf8')) as TestData).inputs;
     }
     return []
