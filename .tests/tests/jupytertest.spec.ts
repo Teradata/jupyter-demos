@@ -10,6 +10,7 @@ const envPool = new EnvPool(Math.floor(CSAE_WORKERS_COUNT / CSAE_PARALLEL_TESTS_
 
 const CSAE_CI_JOB_IDX = parseInt(process.env.CSAE_CI_JOB_IDX || '0');
 const CSAE_CI_JOB_COUNT = parseInt(process.env.CSAE_CI_JOB_COUNT || '1');
+const CI_BRANCH = process.env.CI_BRANCH || 'main';
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
@@ -46,7 +47,9 @@ function loadTestData(filename): Input[] {
     const filenameArray = filename.split('/')
     filenameArray[filenameArray.length - 1] = '.'+filenameArray[filenameArray.length - 1].replace(/.ipynb$/, '.yaml');
     const testDataFilename = filenameArray.join('/');
+    console.log('Checking if test data(.yaml) file exists: ' + testDataFilename);
     if (fs.existsSync(testDataFilename)){
+        console.log('Found test data(.yaml) file, Loading into memory: ' + testDataFilename);
         return (yamlParse(fs.readFileSync(testDataFilename, 'utf8')) as TestData).inputs;
     }
     return []
@@ -83,6 +86,27 @@ for (let i = 0; i < testCount; i++) {
 
         // Create Env or get existing Env
         const env = await envPool.getEnv(testInfo.parallelIndex);
+
+        //Checkout to correct branch
+        if(env.isBranchSet === false && CI_BRANCH !== 'main'){
+            console.log('Checking out to branch: ' + CI_BRANCH);
+            await page.goto(env.getJuypterUrl('Demo.index'));
+            await page.locator('#jp-main-dock-panel').getByText('Demo.index').waitFor({ timeout: 600000 })
+            try{
+                await page.locator('#jp-main-dock-panel').getByText('Launcher').click({timeout: 5000});
+                await page.locator('#launcher-0').getByText('Terminal').click();
+            }catch(e){
+                if (!(e instanceof errors.TimeoutError)) {
+                    throw e;  
+                }
+            }
+    
+            await page.locator('#jp-main-dock-panel').getByText('jovyan@').click();
+            await page.keyboard.type(`git checkout ${CI_BRANCH}`);
+            await page.keyboard.press('Enter');
+        }
+        env.isBranchSet = true;
+
         console.log('url:' + env.getJuypterUrl(name.substring(3)));
         await page.goto(env.getJuypterUrl(name.substring(3)));
 
@@ -122,6 +146,18 @@ for (let i = 0; i < testCount; i++) {
             //Check for any errors so far
             await expect(page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']")).toHaveCount(0);
             await expect(page.locator(`div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell:nth-child(${i})`)).toHaveClass(/jp-mod-active/);
+
+            //restart the kernel if the cell has 'zero zero' text
+            const restartKernal = await page.locator(`div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell:nth-child(${i})`)
+                                            .filter({ hasText: 'The simplest way to restart the Kernel is by typing zero zero:' });
+            if(await restartKernal.isVisible()){
+                console.log('Found Restarting the kernel');
+                await page.keyboard.press('Digit0');
+                await page.keyboard.press('Digit0');
+                await page.getByRole('button', { name: 'Restart', exact: true }).waitFor({ timeout: 3000 });
+                await page.keyboard.press('Enter');
+                await page.locator('span[class="f1235lqo"] >> text="' + strKernelType + '| Idle"').waitFor({ timeout: 600000 });
+            }
 
             // Go to next step by clicking the Run button
             await page.getByRole('button', { name: 'Run the selected cells and' }).click();
@@ -181,7 +217,7 @@ for (let i = 0; i < testCount; i++) {
                 await page.keyboard.press('Enter');
                 await page.keyboard.press('ArrowDown');
             }
-            
+           
             // If same cell is active after execution, adding some wait here.
             try {
                 await page.locator(`div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell:nth-child(${i}).jp-mod-active`).waitFor({ timeout: 3000 });
