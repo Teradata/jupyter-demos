@@ -2,7 +2,3 @@ inputs:
   - type: env
     value: 'GOOGLE_API_KEY'
     cell: 14
-  - type: text
-    value: 4
-    prompt: 'Cell number after executing previous'
-    
