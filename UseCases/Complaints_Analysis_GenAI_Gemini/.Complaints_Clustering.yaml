@@ -1,0 +1,7 @@
+inputs:
+  - type: env
+    value: 'GOOGLE_AI_API_KEY'
+    cell: 30
+- type: text
+    value: 'yes'
+    prompt: 'Do you want to generate embeddings? ('yes'/'no'):'
