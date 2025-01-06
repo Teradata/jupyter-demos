@@ -1,0 +1,4 @@
+inputs:
+  - type: env
+    value: 'GOOGLE_API_KEY'
+    cell: 14
