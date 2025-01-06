@@ -205,7 +205,7 @@ for (let i = 0; i < testCount; i++) {
                 } else {
                     //all generalized inputs and actions are done here
                     if (await page.getByText('Please Enter OpenAI API key:', { exact: true }).isVisible()) {
-                        input = process.env.CSAE_OPENAPI_KEY!;
+                        input = process.env.OPENAI_API_KEY!;
                     }
 
                     
