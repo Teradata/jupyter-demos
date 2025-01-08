@@ -7,7 +7,7 @@ The configuration file is a simple set of key-value pairs in yaml format
 ```
 inputs:
   - type: env
-    value: 'CSAE_OPENAPI_KEY'
+    value: 'OPENAI_API_KEY'
     cell: 12
   - type: env
     value: 'CSAE_ENV_PASSWORD'
@@ -31,7 +31,9 @@ Note: Can use the cell or prompt from selecting the input, When both cell and pr
 | Secret env  | value |
 | ----------------- | ----- |
 | CSAE_ENV_PASSWORD   | Vantage DB password for the environment |
-| CSAE_OPENAPI_KEY | OpenAI API Key for GenAI |
+| OPENAI_API_KEY | OpenAI API Key for GenAI |
+| GOOGLE_AI_API_KEY | Google AI API Key for AI |
+| GOOGLE_API_KEY | Google API Key |
 
 ## Restart the kernal
 There are few notebooks where you may have to restart the kernal. This script can restart the kernal of it finds the text below.

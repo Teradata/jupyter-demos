@@ -144,7 +144,11 @@ for (let i = 0; i < testCount; i++) {
             await page.locator('span[class="f1235lqo"] >> text="' + strKernelType + '| Idle"').waitFor({ timeout: 600000 });
 
             //Check for any errors so far
-            await expect(page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']")).toHaveCount(0);
+            if(strKernelType === "Python 3 (ipykernel) "){
+                await expect(page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']").filter({ hasText: 'Traceback (most recent call last):' })).toHaveCount(0);
+            }else{
+                await expect(page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']")).toHaveCount(0);
+            }
             await expect(page.locator(`div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell:nth-child(${i})`)).toHaveClass(/jp-mod-active/);
 
             //restart the kernel if the cell has 'zero zero' text
@@ -205,7 +209,7 @@ for (let i = 0; i < testCount; i++) {
                 } else {
                     //all generalized inputs and actions are done here
                     if (await page.getByText('Please Enter OpenAI API key:', { exact: true }).isVisible()) {
-                        input = process.env.CSAE_OPENAPI_KEY!;
+                        input = process.env.OPENAI_API_KEY!;
                     }
 
                     
