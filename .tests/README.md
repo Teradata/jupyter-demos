@@ -36,7 +36,7 @@ Note: Can use the cell or prompt from selecting the input, When both cell and pr
 | GOOGLE_API_KEY | Google API Key |
 | AWS_BEDROCK_ACCESS_KEY_ID | AWS BEDROCK Credentials
 | AWS_BEDROCK_REGION_NAME | AWS BEDROCK Credentials
-| AWS_BEDROCK_SECERT_ACCESS_KEY | AWS BEDROCK Credentials
+| AWS_BEDROCK_SECRET_ACCESS_KEY | AWS BEDROCK Credentials
 
 ## Restart the kernal
 There are few notebooks where you may have to restart the kernal. This script can restart the kernal of it finds the text below.
