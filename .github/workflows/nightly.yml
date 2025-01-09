@@ -94,7 +94,7 @@ jobs:
     - name: Delete test environments
       if: always()
       run: npx ts-node post_delete_env.ts
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       if: always()
       with:
         name: playwright-report-job-${{ matrix.idx }}
