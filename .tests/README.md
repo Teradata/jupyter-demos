@@ -34,6 +34,9 @@ Note: Can use the cell or prompt from selecting the input, When both cell and pr
 | OPENAI_API_KEY | OpenAI API Key for GenAI |
 | GOOGLE_AI_API_KEY | Google AI API Key for AI |
 | GOOGLE_API_KEY | Google API Key |
+| AWS_BEDROCK_ACCESS_KEY_ID | AWS BEDROCK Credentials
+| AWS_BEDROCK_REGION_NAME | AWS BEDROCK Credentials
+| AWS_BEDROCK_SECERT_ACCESS_KEY | AWS BEDROCK Credentials
 
 ## Restart the kernal
 There are few notebooks where you may have to restart the kernal. This script can restart the kernal of it finds the text below.
