@@ -76,7 +76,7 @@ jobs:
           GOOGLE_API_KEY:${{steps.define-environment.outputs.gcp_project}}/GOOGLE_API_KEY
           AWS_BEDROCK_ACCESS_KEY_ID:${{steps.define-environment.outputs.gcp_project}}/AWS_BEDROCK_ACCESS_KEY_ID
           AWS_BEDROCK_REGION_NAME:${{steps.define-environment.outputs.gcp_project}}/AWS_BEDROCK_REGION_NAME
-          AWS_BEDROCK_SECERT_ACCESS_KEY:${{steps.define-environment.outputs.gcp_project}}/AWS_BEDROCK_SECERT_ACCESS_KEY
+          AWS_BEDROCK_SECRET_ACCESS_KEY:${{steps.define-environment.outputs.gcp_project}}/AWS_BEDROCK_SECRET_ACCESS_KEY
         export_to_environment: true
     - name: Install dependencies
       run: npm ci
