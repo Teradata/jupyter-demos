@@ -1,0 +1,8 @@
+inputs:
+  - type: text
+    value: '../../UseCases/Anomaly_Detection/Anomaly_Detection_PY_SQL.ipynb'
+    prompt: 'Enter the notebook path:'
+  - type: env
+    value: 'JUPYTER_NOTEBOOK_CI_OPEN_AI_KEY'
+    cell: 8
+    
