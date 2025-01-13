@@ -13,3 +13,4 @@ tdapiclient
 langchain_aws
 pydantic==2.9.2
 fastparquet
+ipywidgets
