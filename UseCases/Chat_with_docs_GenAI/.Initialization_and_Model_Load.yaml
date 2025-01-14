@@ -1,0 +1,7 @@
+inputs:
+  - type: text
+    value: n
+    prompt: 'Do you want to reload the model (y/n)?'
+  - type: text
+    value: n
+    prompt: 'Do you want to reload the tokenizer (y/n)?'

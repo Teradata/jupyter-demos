@@ -1,0 +1,13 @@
+inputs:
+  - type: text
+    value: 'no'
+    prompt: "Do you want to generate embeddings? ('yes'/'no'):"
+  - type: env
+    value: 'AWS_BEDROCK_ACCESS_KEY_ID'
+    cell: 57  
+  - type: env
+    value: 'AWS_BEDROCK_SECRET_ACCESS_KEY'
+    cell: 58
+  - type: env
+    value: 'AWS_BEDROCK_REGION_NAME'
+    cell: 59
