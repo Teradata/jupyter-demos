@@ -1,7 +1,7 @@
 inputs:
   - type: text
     value: 'no'
-    prompt: 'Do you want to generate embeddings? ('yes'/'no'):'
+    prompt: "Do you want to generate embeddings? ('yes'/'no'):"
   - type: env
     value: 'AWS_BEDROCK_ACCESS_KEY_ID'
     cell: 57  
