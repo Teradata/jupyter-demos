@@ -1,0 +1,4 @@
+teradataml
+numpy
+pandas
+teradatamodelops
