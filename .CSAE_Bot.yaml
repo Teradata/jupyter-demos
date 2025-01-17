@@ -1,0 +1,10 @@
+inputs:
+  - type: env
+    value: 'JUPYTER_NOTEBOOK_CI_OPEN_AI_KEY'
+    cell: 6
+  - type: text
+    value: 'What is Script table operator?'
+    prompt: "Enter your query here. To stop, type 'exit'. Query:"
+  - type: text
+    value: 'exit'
+    prompt: 'Please enter your query here...'
