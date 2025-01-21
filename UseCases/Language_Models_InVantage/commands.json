@@ -16,7 +16,7 @@
       "query": "GRANT DROP FUNCTION ON ivsm TO demo_user;"
     },
     {
-      "query": "CALL SQLJ.INSTALL_JAR('cj!./tokenizer-0.0.1-BETA.jar','TOKENIZER',0);"
+      "query": "CALL SQLJ.INSTALL_JAR('cj!/home/jovyan/JupyterLabRoot/UseCases/Language_Models_InVantage/tokenizer-0.0.1-BETA.jar','TOKENIZER',0);"
     },
     {
       "query": "REPLACE FUNCTION ivsm.tokenizer_encode() RETURNS TABLE VARYING USING FUNCTION Encoder_contract SPECIFIC tokenizer_encode LANGUAGE JAVA NO SQL NO EXTERNAL DATA PARAMETER STYLE SQLTable NOT DETERMINISTIC CALLED ON NULL INPUT EXTERNAL NAME 'TOKENIZER:com.teradata.tokenizer.to.Encoder.execute';"
@@ -31,7 +31,7 @@
       "query": "DATABASE ivsm;"
     },
     {
-      "query": "CALL SQLJ.INSTALL_JAR('CJ!./engine-8.0.0.jar','IVSM',0);"
+      "query": "CALL SQLJ.INSTALL_JAR('CJ!/home/jovyan/JupyterLabRoot/UseCases/Language_Models_InVantage/engine-8.0.0.jar','IVSM',0);"
     },
     {
       "query": "REPLACE FUNCTION ivsm.IVSM_score() RETURNS TABLE VARYING USING FUNCTION SMO_contract SPECIFIC IVSM_score LANGUAGE JAVA NO SQL NO EXTERNAL DATA PARAMETER STYLE SQLTable NOT DETERMINISTIC CALLED ON NULL INPUT EXTERNAL NAME 'IVSM:com.teradata.ivsm.engine.SMO.execute()';"
