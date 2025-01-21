@@ -179,9 +179,18 @@ for (let i = 0; i < testCount; i++) {
                 throw e;
             }
            
-            if (await inputField.isVisible()) {
-                
+            let previosText;
+            while (await inputField.isVisible()) {
+
                 console.log('input prompt appeared at cell ' + i);
+
+                const currentPrompt = await page.locator('pre[class="jp-Stdin-prompt"]').textContent()
+                if(previosText === currentPrompt){
+                    console.log('Stuck at input prompt not appeared at cell ' + i);
+                    break;
+                }
+                previosText = currentPrompt;
+                
                 //defaults
                 let input = CSAE_ENV_PASSWORD;
                 let inputData = inputs ? inputs.find(input => input.cell === i) : undefined;
@@ -220,6 +229,17 @@ for (let i = 0; i < testCount; i++) {
                 await page.locator('input[class="jp-Stdin-input"]').click();
                 await page.keyboard.press('Enter');
                 await page.keyboard.press('ArrowDown');
+
+                try {
+                    await page.locator('span[class="f1235lqo"] >> text="' + strKernelType + '| Busy"').waitFor({ timeout: 2000 });
+                    //wait for input field to appear or else error out and continue to kernal Idle state.
+                    await inputField.waitFor({ timeout: 3000 });
+                } catch (e) {
+                    if (e instanceof errors.TimeoutError) {
+                        continue;
+                    }
+                    throw e;
+                }
             }
            
             // If same cell is active after execution, adding some wait here.
