@@ -11,6 +11,7 @@ const envPool = new EnvPool(Math.floor(CSAE_WORKERS_COUNT / CSAE_PARALLEL_TESTS_
 const CSAE_CI_JOB_IDX = parseInt(process.env.CSAE_CI_JOB_IDX || '0');
 const CSAE_CI_JOB_COUNT = parseInt(process.env.CSAE_CI_JOB_COUNT || '1');
 const CI_BRANCH = process.env.CI_BRANCH || 'main';
+const IGNORE_BLACKLIST = process.env.IGNORE_BLACKLIST || 'false';
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
@@ -61,7 +62,10 @@ let files;
 if(process.env.CSAE_NOTEBOOKS){
     files = process.env.CSAE_NOTEBOOKS.split(',').map((name) => name.trim());
 }else{
-    files = readFileIntoArray(FILE_NAME).filter((name) => skipfiles.indexOf(name) === -1);
+    files = readFileIntoArray(FILE_NAME);
+    if(IGNORE_BLACKLIST !== 'true'){
+        files = files.filter((name) => skipfiles.indexOf(name) === -1);
+    }
 }
 
 const testCount = Math.ceil(files.length / CSAE_CI_JOB_COUNT);

@@ -62,3 +62,8 @@
 ../UseCases/Generative_Question_Answering_GenAI/Generative_Question_Answering_Python.ipynb
 ../UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_Finetune_LLM.ipynb
 ../UseCases/Chat_with_docs_GenAI/Teradata_Enterprise_VectorStore_VectorizingPDFs_GenAI_Python.ipynb
+../UseCases/Inventory_Management/Inventory_Management_SQL.ipynb
+../UseCases/EFS_Demo/Telco_Churn_using_EFS.ipynb
+../UseCases/EFS_Demo/Telco_Churn_using_tdfs4ds_Feature_Store.ipynb
+../UseCases/Complaints_Analysis_GenAI_Gemini/Complaints_Clustering.ipynb
+../Recipes/Creating_Workshop_Notebooks/Creating_Workshop_Notebooks.ipynb
