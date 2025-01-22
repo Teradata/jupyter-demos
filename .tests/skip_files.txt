@@ -15,4 +15,5 @@
 ../UseCases/Digital_Identity_Management/Digital_Identity_Management_SQL.ipynb
 ../UseCases/Language_Models_InVantage/Initialization_and_Model_Load.ipynb
 ../UseCases/Signal_Processing_and_Classification/Signal_Processing_and_Classification_Python.ipynb
-../UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb 
+../UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb
+../UseCases/Recommendations_product_search/Recommendations_product_search_OpenSource_Python.ipynb
