@@ -15,6 +15,11 @@ on:
       notebooks: 
         description: 'The path to the notebooks to test. leave empty to test all notebooks'
         required: false
+      ignore_blacklist:
+        type: 'boolean'
+        description: 'Ignore the blacklist and run all tests'
+        required: false
+        default: false
 
 defaults:
   run:
@@ -37,6 +42,7 @@ jobs:
         CSAE_CI_JOB_IDX: ${{ matrix.idx }}
         TEST_ENV: ${{ github.event.inputs.test_env || 'PROD' }}
         CSAE_CI_JOB_COUNT: ${{ github.event.inputs.notebooks == '' && '10' || '1' }}
+        IGNORE_BLACKLIST: ${{ github.event.inputs.ignore_blacklist || 'false' }}
     name: Job ${{ matrix.idx }}
     timeout-minutes:  1440
     runs-on: ubuntu-latest
