@@ -1,1 +1,5 @@
 nbconvert==7.16.5
+teradataml
+numpy
+pandas
+teradatamodelops
