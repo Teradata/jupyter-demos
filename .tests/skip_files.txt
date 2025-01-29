@@ -4,7 +4,6 @@
 ../UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_R.ipynb
 ../Recipes/tdprepview/startup.ipynb
 ../Getting_Started/tdplyr_R_Basics/tdplyr_R_Basics.ipynb
-../UseCases/Inventory_Management/Inventory_Management_SQL.ipynb
 ../UseCases/Energy_Consumption_Forecasting_AzureML/Energy_Consumption_Forecasting_AzureML.ipynb
 ../ModelOps/07_ModelOps_GIT_PIMA_Python_Indb_GLM.ipynb
 ../UseCases/EFS_Demo/Telco_Churn_using_tdfs4ds_Feature_Store.ipynb
