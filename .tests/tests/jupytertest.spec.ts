@@ -150,6 +150,8 @@ for (let i = 0; i < testCount; i++) {
             //Check for any errors so far
             if(strKernelType === "Python 3 (ipykernel) "){
                 await expect(page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']").filter({ hasText: 'Traceback (most recent call last):' })).toHaveCount(0);
+            }else if(strKernelType === 'Teradata SQL '){
+                await expect(page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']").filter({ hasNotText: '[Teradata Database] [Warning' })).toHaveCount(0);
             }else{
                 await expect(page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']")).toHaveCount(0);
             }
