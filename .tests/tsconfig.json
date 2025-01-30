@@ -13,12 +13,9 @@
       "esModuleInterop": true,
     },
     "include": [
-      "src/**/*.ts",
-      "test/**/*.ts",
-      "test-helpers/**/*.ts",
+      "tests/**/*.ts",
       "./package.json",
       "./package-lock.json",
-      "./templates/**/*.mustache"
     ],
     "exclude": ["node_modules"]
   }
