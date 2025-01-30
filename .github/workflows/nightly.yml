@@ -106,3 +106,16 @@ jobs:
         name: playwright-report-job-${{ matrix.idx }}
         path: .tests/playwright-report/
         retention-days: 30
+  merge_reports:
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+    runs-on: ubuntu-latest
+    name: Job ${{ matrix.idx }}
+    timeout-minutes:  1440
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: playwright-report-job-${{ matrix.idx }}
+          path: playwright-reports
+      - run: ls playwright-reports
