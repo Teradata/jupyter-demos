@@ -27,7 +27,7 @@ defaults:
     shell: bash
     
 jobs:
-  tests:
+  playwright-tests:
     permissions:
      contents: 'read'
      id-token: 'write'
@@ -43,6 +43,7 @@ jobs:
         TEST_ENV: ${{ github.event.inputs.test_env || 'PROD' }}
         CSAE_CI_JOB_COUNT: ${{ github.event.inputs.notebooks == '' && '10' || '1' }}
         IGNORE_BLACKLIST: ${{ github.event.inputs.ignore_blacklist || 'false' }}
+        CI_ENV: 'nightly'
     name: Job ${{ matrix.idx }}
     timeout-minutes:  1440
     runs-on: ubuntu-latest
@@ -100,22 +101,40 @@ jobs:
     - name: Delete test environments
       if: always()
       run: npx ts-node post_delete_env.ts
-    - uses: actions/upload-artifact@v4
-      if: always()
+    - name: Upload blob report to GitHub Actions Artifacts
+      if: ${{ !cancelled() }}
+      uses: actions/upload-artifact@v4
       with:
-        name: playwright-report-job-${{ matrix.idx }}
-        path: .tests/playwright-report/
-        retention-days: 30
-  merge_reports:
-    permissions:
-      contents: 'read'
-      id-token: 'write'
+        name: blob-report-${{ matrix.idx }}
+        path: blob-report
+        retention-days: 1
+  merge-reports:
+    # Merge reports after playwright-tests, even if some shards have failed
+    if: ${{ !cancelled() }}
+    needs: [playwright-tests]
+
     runs-on: ubuntu-latest
-    name: Job ${{ matrix.idx }}
-    timeout-minutes:  1440
     steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: playwright-report-job-${{ matrix.idx }}
-          path: playwright-reports
-      - run: ls playwright-reports
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: lts/*
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Download blob reports from GitHub Actions Artifacts
+      uses: actions/download-artifact@v4
+      with:
+        path: all-blob-reports
+        pattern: blob-report-*
+        merge-multiple: true
+
+    - name: Merge into HTML Report
+      run: npx playwright merge-reports --reporter html ./all-blob-reports
+
+    - name: Upload HTML report
+      uses: actions/upload-artifact@v4
+      with:
+        name: html-report--attempt-${{ github.run_attempt }}
+        path: playwright-report
+        retention-days: 14
