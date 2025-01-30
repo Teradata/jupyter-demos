@@ -148,12 +148,13 @@ for (let i = 0; i < testCount; i++) {
             await page.locator('span[class="f1235lqo"] >> text="' + strKernelType + '| Idle"').waitFor({ timeout: 600000 });
 
             //Check for any errors so far
+            const errorLocator = page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']");
             if(strKernelType === "Python 3 (ipykernel) "){
-                await expect(page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']").filter({ hasText: 'Traceback (most recent call last):' })).toHaveCount(0);
+                await expect(errorLocator.filter({ hasText: 'Traceback (most recent call last):' }),`Occured At: ${await errorLocator.textContent()}`).toHaveCount(0);
             }else if(strKernelType === 'Teradata SQL '){
-                await expect(page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']")).toHaveCount(0)//.filter({ hasNotText: '[Teradata Database] [Warning' })).toHaveCount(0);
+                await expect(errorLocator.filter({ hasNotText: '[Teradata Database] [Warning' }),`Occured At: ${await errorLocator.textContent()}`).toHaveCount(0);
             }else{
-                await expect(page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']")).toHaveCount(0);
+                await expect(errorLocator,`Occured At: ${await errorLocator.textContent()}`).toHaveCount(0);
             }
             await expect(page.locator(`div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell:nth-child(${i})`)).toHaveClass(/jp-mod-active/);
 
