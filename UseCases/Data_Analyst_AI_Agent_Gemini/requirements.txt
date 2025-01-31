@@ -1,0 +1,6 @@
+langchain-community
+langchain_google_genai
+langsmith
+teradataml
+pyOpenSSL
+cryptography
