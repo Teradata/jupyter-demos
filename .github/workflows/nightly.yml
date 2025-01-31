@@ -113,7 +113,6 @@ jobs:
     # Merge reports after playwright-tests, even if some shards have failed
     if: ${{ !cancelled() }}
     needs: [playwright-tests]
-
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -122,20 +121,27 @@ jobs:
         node-version: lts/*
     - name: Install dependencies
       run: npm ci
-
     - name: Download blob reports from GitHub Actions Artifacts
       uses: actions/download-artifact@v4
       with:
-        path: all-blob-reports
+        path: .tests/all-blob-reports
         pattern: blob-report-*
         merge-multiple: true
-
     - name: Merge into HTML Report
       run: npx playwright merge-reports --reporter html ./all-blob-reports
-
     - name: Upload HTML report
       uses: actions/upload-artifact@v4
       with:
         name: html-report--attempt-${{ github.run_attempt }}
-        path: playwright-report
+        path: .tests/playwright-report/
         retention-days: 14
+    - name: Setup pages
+      uses: actions/configure-pages@v5
+    - name: Upload report to GitHub Pages
+      uses: actions/upload-artifact@v4
+      with:
+        path: .tests/playwright-report/
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
+      
