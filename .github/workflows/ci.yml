@@ -31,7 +31,7 @@ jobs:
             CSAE_PARALLEL_TESTS_COUNT: ${{ vars.CSAE_PARALLEL_TESTS_COUNT }}
             CSAE_WORKERS_COUNT: ${{ vars.CSAE_WORKERS_COUNT }}
             TEST_ENV: ${{ github.event.inputs.test_env || 'PROD' }}
-            CSAE_CI_JOB_IDX: 0
+            CSAE_CI_JOB_IDX: 1
             CSAE_CI_JOB_COUNT: 1
         name: Playwirght Test
         timeout-minutes:  1440

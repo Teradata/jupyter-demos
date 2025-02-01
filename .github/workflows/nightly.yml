@@ -33,7 +33,7 @@ jobs:
      id-token: 'write'
     strategy:
       fail-fast: false
-      matrix: ${{ github.event.inputs.notebooks == '' && fromJson('{"idx":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}') || fromJson('{"idx":[0]}') }}
+      matrix: ${{ github.event.inputs.notebooks == '' && fromJson('{"idx":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}') || fromJson('{"idx":[1]}') }}
     env:
         CSAE_NOTEBOOKS: ${{ github.event.inputs.notebooks }}
         CSAE_ENV_PASSWORD: ${{ secrets.CSAE_ENV_PASSWORD }}
@@ -91,13 +91,13 @@ jobs:
       run: |
         npx playwright install --with-deps
     - name: Find all Jupyter notebooks
-      run: find .. -name '*.ipynb' |tail -n 10| sort > ./files.txt
+      run: find .. -name '*.ipynb' |head -n 10| sort > ./files.txt
     - name: Start test environments
       id: start-test-environment
       run: npx ts-node pre_create_env.ts
     - name: Run Playwright tests
       run: |
-        npx playwright test
+        npx playwright test --shard ${{matrix.idx}}/10
     - name: Delete test environments
       if: always()
       run: npx ts-node post_delete_env.ts
@@ -132,7 +132,7 @@ jobs:
     - name: Upload HTML report
       uses: actions/upload-artifact@v4
       with:
-        name: html-report--attempt-${{ github.run_attempt }}
+        name: html-report-attempt-${{ github.run_attempt }}
         path: .tests/playwright-report/
         retention-days: 14
     - name: Setup pages

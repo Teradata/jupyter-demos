@@ -8,7 +8,7 @@ const CSAE_WORKERS_COUNT = parseInt(process.env.CSAE_WORKERS_COUNT || '1');
 const CSAE_PARALLEL_TESTS_COUNT = parseInt(process.env.CSAE_PARALLEL_TESTS_COUNT || '1');
 const envPool = new EnvPool(Math.floor(CSAE_WORKERS_COUNT / CSAE_PARALLEL_TESTS_COUNT));
 
-const CSAE_CI_JOB_IDX = parseInt(process.env.CSAE_CI_JOB_IDX || '0');
+const CSAE_CI_JOB_IDX = parseInt(process.env.CSAE_CI_JOB_IDX || '1');
 const CSAE_CI_JOB_COUNT = parseInt(process.env.CSAE_CI_JOB_COUNT || '1');
 const CI_BRANCH = process.env.CI_BRANCH || 'main';
 const IGNORE_BLACKLIST = process.env.IGNORE_BLACKLIST || 'false';
@@ -70,7 +70,7 @@ const testCount = Math.ceil(files.length / CSAE_CI_JOB_COUNT);
 
 for (let i = 0; i < testCount; i++) {
 
-    const idx = i * CSAE_CI_JOB_COUNT + CSAE_CI_JOB_IDX;
+    const idx = i * CSAE_CI_JOB_COUNT + (CSAE_CI_JOB_IDX-1);
     if (idx >= files.length) {
         break;
     }
