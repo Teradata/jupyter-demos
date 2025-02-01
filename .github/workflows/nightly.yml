@@ -97,7 +97,7 @@ jobs:
       run: npx ts-node pre_create_env.ts
     - name: Run Playwright tests
       run: |
-        npx playwright test --shard ${{matrix.idx}}/10
+        npx playwright test --shard=${{matrix.idx}}/10
     - name: Delete test environments
       if: always()
       run: npx ts-node post_delete_env.ts
