@@ -29,7 +29,6 @@ defaults:
 jobs:
   playwright-tests:
     permissions:
-      pages: write
       contents: 'read'
       id-token: 'write'
     strategy:
@@ -113,6 +112,10 @@ jobs:
   merge-reports:
     # Merge reports after playwright-tests, even if some shards have failed
     if: ${{ !cancelled() }}
+    permissions:
+      pages: 'write'
+      contents: 'read'
+      id-token: 'write'
     needs: [playwright-tests]
     runs-on: ubuntu-latest
     steps:
