@@ -29,8 +29,9 @@ defaults:
 jobs:
   playwright-tests:
     permissions:
-     contents: 'read'
-     id-token: 'write'
+      pages: write
+      contents: 'read'
+      id-token: 'write'
     strategy:
       fail-fast: false
       matrix: ${{ github.event.inputs.notebooks == '' && fromJson('{"idx":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}') || fromJson('{"idx":[1]}') }}
@@ -91,7 +92,7 @@ jobs:
       run: |
         npx playwright install --with-deps
     - name: Find all Jupyter notebooks
-      run: find .. -name '*.ipynb' | tail -n 10 | sort > ./files.txt
+      run: find .. -name '*.ipynb' | head -n 10 | sort > ./files.txt
     - name: Start test environments
       id: start-test-environment
       run: npx ts-node pre_create_env.ts
