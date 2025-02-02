@@ -152,6 +152,6 @@ jobs:
     - name: Job summary
       run: |
         echo "# Deployment result" >> $GITHUB_STEP_SUMMARY
-        echo "View the [Playwright report](${{ steps.deployment.outputs.url }})" >> $GITHUB_STEP_SUMMARY
+        echo "View the [Playwright report](https://teradata.github.io/jupyter-demos/)" >> $GITHUB_STEP_SUMMARY
 
       
