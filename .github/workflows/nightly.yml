@@ -91,7 +91,7 @@ jobs:
       run: |
         npx playwright install --with-deps
     - name: Find all Jupyter notebooks
-      run: find .. -name '*.ipynb' | tail -n 10 | sort > ./files.txt
+      run: find .. -name '*.ipynb' | tail -n 2 | sort > ./files.txt
     - name: Start test environments
       id: start-test-environment
       run: npx ts-node pre_create_env.ts
@@ -149,4 +149,9 @@ jobs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
+    - name: Job summary
+      run: |
+        echo "# Deployment result" >> $GITHUB_STEP_SUMMARY
+        View the [Playwright report](${{ steps.deployment.outputs.url }}) >> $GITHUB_STEP_SUMMARY
+
       
