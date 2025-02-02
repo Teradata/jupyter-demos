@@ -139,10 +139,11 @@ jobs:
         name: html-report-attempt-${{ github.run_attempt }}
         path: .tests/playwright-report/
         retention-days: 14
+        
     - name: Setup pages
       uses: actions/configure-pages@v5
     - name: Upload report to GitHub Pages
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-pages-artifact@v3
       with:
         path: .tests/playwright-report/
     - name: Deploy to GitHub Pages
