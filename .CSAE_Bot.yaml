@@ -1,7 +1,0 @@
-inputs:
-  - type: env
-    value: 'JUPYTER_NOTEBOOK_CI_OPEN_AI_KEY'
-    cell: 8
-  - type: text
-    value: 'exit'
-    prompt: "Enter your query here. To stop, type 'exit'. Query:"
