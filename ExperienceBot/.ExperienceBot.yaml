@@ -1,7 +1,7 @@
 inputs:
   - type: env
     value: 'JUPYTER_NOTEBOOK_CI_OPEN_AI_KEY'
-    cell: 9
+    cell: 11
   -type: text
     value: 'no'
     prompt: "Do you want to generate embeddings? ('yes'/'no'):"  
