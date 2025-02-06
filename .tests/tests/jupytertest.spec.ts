@@ -8,12 +8,8 @@ const CSAE_WORKERS_COUNT = parseInt(process.env.CSAE_WORKERS_COUNT || '1');
 const CSAE_PARALLEL_TESTS_COUNT = parseInt(process.env.CSAE_PARALLEL_TESTS_COUNT || '1');
 const envPool = new EnvPool(Math.floor(CSAE_WORKERS_COUNT / CSAE_PARALLEL_TESTS_COUNT));
 
-const CSAE_CI_JOB_IDX = parseInt(process.env.CSAE_CI_JOB_IDX || '0');
-const CSAE_CI_JOB_COUNT = parseInt(process.env.CSAE_CI_JOB_COUNT || '1');
 const CI_BRANCH = process.env.CI_BRANCH || 'main';
 const IGNORE_BLACKLIST = process.env.IGNORE_BLACKLIST || 'false';
-
-const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
 test.describe.configure({ mode: 'parallel' });
 // files.txt will contain the list of files to be tested.
@@ -68,19 +64,12 @@ if(process.env.CSAE_NOTEBOOKS){
     }
 }
 
-const testCount = Math.ceil(files.length / CSAE_CI_JOB_COUNT);
 
-for (let i = 0; i < testCount; i++) {
-
-    const idx = i * CSAE_CI_JOB_COUNT + CSAE_CI_JOB_IDX;
-    if (idx >= files.length) {
-        break;
-    }
-    const name = files[idx];
+for (let i = 0; i < files.length ; i++) {
+    const name = files[i];
     if (name === '') {
         continue;
     }
-
 
     test(`test ${i}: ${name}`, async ({ page }, testInfo) => {
         test.setTimeout(10800000);
@@ -146,17 +135,23 @@ for (let i = 0; i < testCount; i++) {
         for (let i = 1; i <= dm; i++) {
             // To continute the notebook the kernel should be in Idle state. i.e previous cell execution should be completed.
             await page.locator('span[class="f1235lqo"] >> text="' + strKernelType + '| Idle"').waitFor({ timeout: 600000 });
-
+           
+            const errorLocator = page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']");
+            try {
             //Check for any errors so far
-            if(strKernelType === "Python 3 (ipykernel) "){
-                await expect(page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']").filter({ hasText: 'Traceback (most recent call last):' })).toHaveCount(0);
-            }else if(strKernelType === 'Teradata SQL '){
-                await expect(page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']").filter({ hasNotText: '[Teradata Database] [Warning' })).toHaveCount(0);
-            }else{
-                await expect(page.locator(".jp-RenderedText[data-mime-type='application/vnd.jupyter.stderr']")).toHaveCount(0);
+                if(strKernelType === "Python 3 (ipykernel) "){
+                    await expect(errorLocator.filter({ hasText: 'Traceback (most recent call last):' })).toHaveCount(0);
+                }else if(strKernelType === 'Teradata SQL '){
+                    await expect(errorLocator.filter({ hasNotText: '[Teradata Database] [Warning'})).toHaveCount(0);
+                }else{
+                    await expect(errorLocator).toHaveCount(0);
+                }
+                await expect(page.locator(`div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell:nth-child(${i})`)).toHaveClass(/jp-mod-active/);
+            }catch(e){
+                console.log('Error found in cell ' + i + ' with following error:');
+                console.log(await errorLocator.textContent())
+                throw e;
             }
-            await expect(page.locator(`div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell:nth-child(${i})`)).toHaveClass(/jp-mod-active/);
-
             //restart the kernel if the cell has 'zero zero' text
             const restartKernal = await page.locator(`div.jp-NotebookPanel:not(.p-mod-hidden)> div > div.jp-Cell:nth-child(${i})`)
                                             .filter({ hasText: 'The simplest way to restart the Kernel is by typing zero zero:' });
