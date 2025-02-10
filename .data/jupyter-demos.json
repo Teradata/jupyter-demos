@@ -8,7 +8,7 @@
             "subjects": [
                 {
                     "id": 2,
-                    "subject": "Travel & Transportation"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 2,
@@ -16,7 +16,7 @@
                 },
                 {
                     "id": 2,
-                    "subject": "Geospatial"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 2,
@@ -30,7 +30,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/4D_Analytics_on_bike_sharing/Pop_4D_Analytics_on_bike_sharing_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/4D_Analytics_on_bike_sharing/Pop_4D_Analytics_on_bike_sharing_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -40,7 +40,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/4D_Analytics_on_bike_sharing/Pop_4D_Analytics_on_bike_sharing_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/4D_Analytics_on_bike_sharing/Pop_4D_Analytics_on_bike_sharing_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -51,17 +51,43 @@
             ]
         },
         {
+            "id": 225,
+            "demo": "Advertising Sales Prediction using teradataml OpenSourceML in Vantage",
+            "description": "Predict sales for multiple channels using Open-Source Machine Learning Functions",
+            "subjects": [
+                {
+                    "id": 225,
+                    "subject": "teradataml OpenSourceML"
+                },
+                {
+                    "id": 225,
+                    "subject": "Python"
+                },
+                {
+                    "id": 225,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Advertising_Sales_Prediction_OpenSourceML/Advertising_Sales_Prediction_Using_OpensourceML.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 39,
             "demo": "Air Passenger Forecasting",
             "description": "Applies Auto Regressive Integrated Moving Average (ARIMA) analysis to forecast airplane passenger volume.",
             "subjects": [
                 {
                     "id": 39,
-                    "subject": "Time series analytics"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 39,
-                    "subject": "Travel & Transportation"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 39,
@@ -76,7 +102,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Air_Passenger_Forecasting/Pop_Air_Passenger_Forecasting_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Air_Passenger_Forecasting/Pop_Air_Passenger_Forecasting_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -96,15 +122,15 @@
                 },
                 {
                     "id": 106,
-                    "subject": "Automotive"
-                },
-                {
-                    "id": 106,
                     "subject": "Manufacturing"
                 },
                 {
                     "id": 106,
-                    "subject": "Machine learning"
+                    "subject": "Automotive"
+                },
+                {
+                    "id": 106,
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 106,
@@ -114,7 +140,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Anomaly_Detection/Pop_Anomaly_Detection_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Anomaly_Detection/Pop_Anomaly_Detection_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -140,7 +166,7 @@
                 },
                 {
                     "id": 177,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 177,
@@ -174,7 +200,7 @@
                 },
                 {
                     "id": 164,
-                    "subject": "Enterprise Feature Store"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 164,
@@ -182,13 +208,73 @@
                 },
                 {
                     "id": 164,
-                    "subject": "Machine learning"
+                    "subject": "Enterprise Feature Store"
                 }
             ],
             "links": [
                 {
                     "type": "notebook",
                     "url": "UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 263,
+            "demo": "Antiselect function in Vantage",
+            "description": "Return all columns except those specified in an exclude parameter.",
+            "subjects": [
+                {
+                    "id": 263,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 263,
+                    "subject": "Python"
+                },
+                {
+                    "id": 263,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/Antiselect.ipynb",
+                    "label": "Python"
+                }
+            ]
+        },
+        {
+            "id": 229,
+            "demo": "Automatic Data Pre-Processing with tdprepview",
+            "description": "Prepare datasets for tabular supervised or unsupervised machine learning. Prepare data to predict customer churn for a bank.",
+            "subjects": [
+                {
+                    "id": 229,
+                    "subject": "Feature Engineering"
+                },
+                {
+                    "id": 229,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 229,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 229,
+                    "subject": "Python"
+                },
+                {
+                    "id": 229,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/tdprepview/Automatic_DataPreprocessing_tdprepview.ipynb",
                     "label": "Python Version"
                 }
             ]
@@ -234,7 +320,7 @@
                 },
                 {
                     "id": 92,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 92,
@@ -244,7 +330,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Banking_Customer_Churn/Pop_Banking_Customer_Churn_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Banking_Customer_Churn/Pop_Banking_Customer_Churn_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -276,7 +362,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/Getting_Started/Basic_Jupyter_Navigation/Pop_Basic_Jupyter_Navigation_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/Getting_Started/Basic_Jupyter_Navigation/Pop_Basic_Jupyter_Navigation_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -288,11 +374,11 @@
             "subjects": [
                 {
                     "id": 58,
-                    "subject": "Object Storage"
+                    "subject": "Automotive"
                 },
                 {
                     "id": 58,
-                    "subject": "Automotive"
+                    "subject": "Object Storage"
                 },
                 {
                     "id": 58,
@@ -312,17 +398,43 @@
             ]
         },
         {
+            "id": 264,
+            "demo": "BincodeFit and BincodeTransform functions in Vantage",
+            "description": "Transform continuous data into bins.  Then apply the transformation to a DataFrame.",
+            "subjects": [
+                {
+                    "id": 264,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 264,
+                    "subject": "Python"
+                },
+                {
+                    "id": 264,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/BincodeFitandTransform.ipynb",
+                    "label": "Python"
+                }
+            ]
+        },
+        {
             "id": 82,
             "demo": "Broken Digital Journey",
             "description": "This uses nPath\u00ae analysis to show the retail events that prevent the ultimate objective: a purchase.  This uses interactive Sankey diagrams to understand the problems.",
             "subjects": [
                 {
                     "id": 82,
-                    "subject": "Retail"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 82,
-                    "subject": "Path Analytics"
+                    "subject": "Retail"
                 },
                 {
                     "id": 82,
@@ -332,7 +444,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Broken_Digital_Journey/Pop_Broken_Digital_Journey_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Broken_Digital_Journey/Pop_Broken_Digital_Journey_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -362,7 +474,7 @@
                 },
                 {
                     "id": 160,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 160,
@@ -388,7 +500,7 @@
                 },
                 {
                     "id": 167,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 167,
@@ -418,15 +530,15 @@
             "subjects": [
                 {
                     "id": 103,
-                    "subject": "Geospatial"
-                },
-                {
-                    "id": 103,
                     "subject": "Manufacturing"
                 },
                 {
                     "id": 103,
                     "subject": "Automotive"
+                },
+                {
+                    "id": 103,
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 103,
@@ -436,7 +548,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Car_Complaints/Pop_Car_Complaints_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Car_Complaints/Pop_Car_Complaints_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -467,7 +579,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Carbon_Footprint_Analytics/Pop_Carbon_Footprint_Analytics_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Carbon_Footprint_Analytics/Pop_Carbon_Footprint_Analytics_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -492,6 +604,10 @@
                 },
                 {
                     "id": 114,
+                    "subject": "ARIMA"
+                },
+                {
+                    "id": 114,
                     "subject": "SQL"
                 }
             ],
@@ -503,8 +619,38 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Cash_Demand_Forecasting/Pop_Cash_Demand_Forecasting_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Cash_Demand_Forecasting/Pop_Cash_Demand_Forecasting_SQL.ipynb",
                     "label": "Read Only SQL"
+                }
+            ]
+        },
+        {
+            "id": 239,
+            "demo": "CategoricalSummary function in Vantage",
+            "description": "Display distinct values and counts for a column in a Banking dataset",
+            "subjects": [
+                {
+                    "id": 239,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 239,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 239,
+                    "subject": "Python"
+                },
+                {
+                    "id": 239,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/CategoricalSummary.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -530,7 +676,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/Getting_Started/Charting_and_Visualization/Pop_Charting_and_Visualization_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/Getting_Started/Charting_and_Visualization/Pop_Charting_and_Visualization_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -593,6 +739,36 @@
             ]
         },
         {
+            "id": 240,
+            "demo": "ColumnSummary function in Vantage",
+            "description": "Summarize a column and return standard values like positive, negative, nulls, zeros, etc.",
+            "subjects": [
+                {
+                    "id": 240,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 240,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 240,
+                    "subject": "Python"
+                },
+                {
+                    "id": 240,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/ColumnSummary.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 136,
             "demo": "Competitor Proximity Geospatial Analysis",
             "description": "This looks at the impact on purchasing when people that shop at our stores live within reasonable drive time to a competitor. This could identify proximity based marketing tactics to target larger promotions to those customers to increase share of their spend.",
@@ -607,11 +783,11 @@
                 },
                 {
                     "id": 136,
-                    "subject": "Retail"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 136,
-                    "subject": "Marketing"
+                    "subject": "Retail"
                 },
                 {
                     "id": 136,
@@ -621,7 +797,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Competitor_Proximity_Geospatial_Analysis/Pop_Competitor_Proximity_Geospatial_Analysis_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Competitor_Proximity_Geospatial_Analysis/Pop_Competitor_Proximity_Geospatial_Analysis_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -660,7 +836,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Complaints_Classification.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Complaints_Classification.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -703,7 +879,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Complaints_Classification.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Complaints_Classification.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -750,7 +926,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Complaints_Classification.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Complaints_Classification.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -798,7 +974,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Complaints_Clustering.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Complaints_Clustering.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -845,7 +1021,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Complaints_Clustering.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Complaints_Clustering.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -887,7 +1063,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Complaints_Clustering.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Complaints_Clustering.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -931,7 +1107,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Complaint_Summarization.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Complaint_Summarization.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -969,7 +1145,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Complaint_Summarization.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Complaint_Summarization.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -1016,7 +1192,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Complaint_Summarization.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Complaint_Summarization.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -1047,7 +1223,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Consumer_Complaints/Pop_Consumer_Complaints_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Consumer_Complaints/Pop_Consumer_Complaints_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -1075,6 +1251,32 @@
                 {
                     "type": "notebook",
                     "url": "Getting_Started/PySpark_to_Teradataml/HousingPrices_pyspark_to_tdml.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 234,
+            "demo": "Create a Workshop version of a Notebook",
+            "description": "Use OpenAI to convert code cells into interactive exercises with solutions that can be collapsed or expanded.",
+            "subjects": [
+                {
+                    "id": 234,
+                    "subject": "Python"
+                },
+                {
+                    "id": 234,
+                    "subject": "New"
+                },
+                {
+                    "id": 234,
+                    "subject": "OpenAI"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/Creating_Workshop_Notebooks/Creating_Workshop_Notebooks.ipynb",
                     "label": "Python Version"
                 }
             ]
@@ -1131,7 +1333,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Credit_Card_Data_Preparation/Pop_Credit_Card_Data_Preparation_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Credit_Card_Data_Preparation/Pop_Credit_Card_Data_Preparation_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -1147,7 +1349,7 @@
                 },
                 {
                     "id": 172,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 172,
@@ -1188,7 +1390,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Customer360/Pop_CustomerIdentityMatching_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Customer360/Pop_CustomerIdentityMatching_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -1223,7 +1425,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Customer_Behavior_Analysis/Pop_Customer_Behavior_Analysis_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Customer_Behavior_Analysis/Pop_Customer_Behavior_Analysis_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -1233,7 +1435,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Customer_Behavior_Analysis/Pop_Customer_Behavior_Analysis_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Customer_Behavior_Analysis/Pop_Customer_Behavior_Analysis_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -1271,7 +1473,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Complaint_Analysis_Dashboard.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Complaint_Analysis_Dashboard.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -1314,7 +1516,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Complaint_Analysis_Dashboard.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Complaint_Analysis_Dashboard.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -1357,7 +1559,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Complaint_Analysis_Dashboard.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Complaint_Analysis_Dashboard.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -1413,7 +1615,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Complaint_Analysis_Customer360.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Complaint_Analysis_Customer360.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -1468,7 +1670,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Complaint_Analysis_Customer360.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Complaint_Analysis_Customer360.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -1510,7 +1712,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Complaint_Analysis_Customer360.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Complaint_Analysis_Customer360.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -1577,6 +1779,36 @@
                     "type": "notebook",
                     "url": "UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_R.ipynb",
                     "label": "R Version"
+                }
+            ]
+        },
+        {
+            "id": 256,
+            "demo": "DIFF and UNDIFF functions in Vantage",
+            "description": "Transform a stationary, seasonal, or non-stationary time series into a differenced time series and then reverse it.",
+            "subjects": [
+                {
+                    "id": 256,
+                    "subject": "Retail"
+                },
+                {
+                    "id": 256,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 256,
+                    "subject": "Python"
+                },
+                {
+                    "id": 256,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/DIFF_UNDIFF.ipynb",
+                    "label": "Python"
                 }
             ]
         },
@@ -1668,7 +1900,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/Getting_Started/Data_Loading/Pop_Data_Loading_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/Getting_Started/Data_Loading/Pop_Data_Loading_Python.ipynb",
                     "label": "Read Only Python-SQL"
                 }
             ]
@@ -1695,7 +1927,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/Getting_Started/Data_Loading/Pop_Data_Loading_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/Getting_Started/Data_Loading/Pop_Data_Loading_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -1722,12 +1954,12 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Data_Prep_and_Transformation/Pop_Data_Prep_and_Transformation_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Data_Prep_and_Transformation/Pop_Data_Prep_and_Transformation_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Data_Prep_and_Transformation/Pop_Data_Prep_and_Transformation_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Data_Prep_and_Transformation/Pop_Data_Prep_and_Transformation_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -1744,7 +1976,7 @@
             "subjects": [
                 {
                     "id": 170,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 170,
@@ -1784,7 +2016,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Data_Science_101_with_Python/Pop_Data_Science_101_with_Python_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Data_Science_101_with_Python/Pop_Data_Science_101_with_Python_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -1842,8 +2074,34 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Deep_History_via_Object_Store/Pop_Deep_History_via_Object_Store_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Deep_History_via_Object_Store/Pop_Deep_History_via_Object_Store_SQL.ipynb",
                     "label": "Read Only SQL"
+                }
+            ]
+        },
+        {
+            "id": 261,
+            "demo": "Deploy a Hyper-Segmented Model Scikit Learn Pipeline",
+            "description": "Deploy a hyper-segmented model created using the Python Scikit-Learn module and then load and run it in Vantage.",
+            "subjects": [
+                {
+                    "id": 261,
+                    "subject": "Model Pipelines"
+                },
+                {
+                    "id": 261,
+                    "subject": "Python"
+                },
+                {
+                    "id": 261,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/HyperSegmented_Model_Pipelines/Deploy_HyperSegmented_Model_Pipeline.ipynb",
+                    "label": "Python"
                 }
             ]
         },
@@ -1873,7 +2131,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Diabetes_Prediction/Pop_Diabetes_Prediction_via_BYOM_H2O_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Diabetes_Prediction/Pop_Diabetes_Prediction_via_BYOM_H2O_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 }
             ]
@@ -1889,7 +2147,7 @@
                 },
                 {
                     "id": 68,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 68,
@@ -1899,7 +2157,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Diabetes_Prediction/Pop_Diabetes_Prediction_via_DF_and_GLM_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Diabetes_Prediction/Pop_Diabetes_Prediction_via_DF_and_GLM_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -1916,11 +2174,11 @@
             "subjects": [
                 {
                     "id": 142,
-                    "subject": "Financial"
+                    "subject": "Celebrus"
                 },
                 {
                     "id": 142,
-                    "subject": "Celebrus"
+                    "subject": "Financial"
                 },
                 {
                     "id": 142,
@@ -1934,7 +2192,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Digital_Identity_Management/Pop_Digital_Identity_Management_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Digital_Identity_Management/Pop_Digital_Identity_Management_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -1974,7 +2232,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Energy_Consumption_Forecasting/Pop_Energy_Consumption_Forecasting_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Energy_Consumption_Forecasting/Pop_Energy_Consumption_Forecasting_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -1990,11 +2248,11 @@
                 },
                 {
                     "id": 111,
-                    "subject": "Energy & Natural Resources"
+                    "subject": "Dataiku"
                 },
                 {
                     "id": 111,
-                    "subject": "Dataiku"
+                    "subject": "Energy & Natural Resources"
                 },
                 {
                     "id": 111,
@@ -2004,7 +2262,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Energy_Consumption_Forecasting_Dataiku/Pop_Energy_Consumption_Forecasting_Dataiku.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Energy_Consumption_Forecasting_Dataiku/Pop_Energy_Consumption_Forecasting_Dataiku.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -2021,11 +2279,11 @@
             "subjects": [
                 {
                     "id": 138,
-                    "subject": "Azure ML"
+                    "subject": "Energy & Natural Resources"
                 },
                 {
                     "id": 138,
-                    "subject": "Energy & Natural Resources"
+                    "subject": "Azure ML"
                 },
                 {
                     "id": 138,
@@ -2035,7 +2293,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Energy_Consumption_Forecasting_AzureML/Pop_Energy_Consumption_Forecasting_AzureML.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Energy_Consumption_Forecasting_AzureML/Pop_Energy_Consumption_Forecasting_AzureML.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -2050,10 +2308,6 @@
             "demo": "Enhance Product Hierarchies with In-DB K-means Clustering",
             "description": "Enhance a product hierarchy by leveraging time series analysis and clustering techniques",
             "subjects": [
-                {
-                    "id": 224,
-                    "subject": "New"
-                },
                 {
                     "id": 224,
                     "subject": "Time series analytics"
@@ -2078,10 +2332,6 @@
             "subjects": [
                 {
                     "id": 223,
-                    "subject": "New"
-                },
-                {
-                    "id": 223,
                     "subject": "Developer Information"
                 },
                 {
@@ -2093,6 +2343,40 @@
                 {
                     "type": "notebook",
                     "url": "Getting_Started/Script_Table_Operator/Getting_Started_STO_Python.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 245,
+            "demo": "Feature Store and Feature Engineering using tdfs4ds",
+            "description": "Setup and deploy a Feature Store and then continue with the process of Feature Engineering.",
+            "subjects": [
+                {
+                    "id": 245,
+                    "subject": "Feature Engineering"
+                },
+                {
+                    "id": 245,
+                    "subject": "Retail"
+                },
+                {
+                    "id": 245,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 245,
+                    "subject": "Python"
+                },
+                {
+                    "id": 245,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/Feature_Store_Feature_Engg/Feature_Engineering_and_Feature_Store_Usage.ipynb",
                     "label": "Python Version"
                 }
             ]
@@ -2122,7 +2406,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Financial_Customer_Journey/Pop_Financial_Customer_Journey_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Financial_Customer_Journey/Pop_Financial_Customer_Journey_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -2137,13 +2421,49 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Financial_Customer_Journey/Pop_Financial_Customer_Journey_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Financial_Customer_Journey/Pop_Financial_Customer_Journey_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
                     "type": "notebook",
                     "url": "UseCases/Financial_Customer_Journey/Financial_Customer_Journey_PY_SQL.ipynb",
                     "label": "Python-SQL Version"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "demo": "Financial Fraud Detection InDB",
+            "description": "Detect financial transaction fraud  using powerful in-database machine learning functions",
+            "subjects": [
+                {
+                    "id": 4,
+                    "subject": "Financial"
+                },
+                {
+                    "id": 4,
+                    "subject": "Machine Learning"
+                },
+                {
+                    "id": 4,
+                    "subject": "Python"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb",
+                    "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Financial_Fraud_Detection_InDB/Pop_Financial_Fraud_Detection_InDB_Python.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "Web",
+                    "url": "https://storage.googleapis.com/clearscape_analytics_videos/Financial_Fraud_Detection_Use_Case_Demo_SP004465.MP4",
+                    "label": "Video"
                 }
             ]
         },
@@ -2158,7 +2478,7 @@
                 },
                 {
                     "id": 187,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 187,
@@ -2187,42 +2507,6 @@
             ]
         },
         {
-            "id": 4,
-            "demo": "Financial Fraud Detection InDB",
-            "description": "Detect financial transaction fraud  using powerful in-database machine learning functions",
-            "subjects": [
-                {
-                    "id": 4,
-                    "subject": "Financial"
-                },
-                {
-                    "id": 4,
-                    "subject": "Machine learning"
-                },
-                {
-                    "id": 4,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb",
-                    "label": "Python Version"
-                },
-                {
-                    "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Financial_Fraud_Detection_InDB/Pop_Financial_Fraud_Detection_InDB_Python.ipynb",
-                    "label": "Read Only Python"
-                },
-                {
-                    "type": "Web",
-                    "url": "https://storage.googleapis.com/clearscape_analytics_videos/Financial_Fraud_Detection_Use_Case_Demo_SP004465.MP4",
-                    "label": "Video"
-                }
-            ]
-        },
-        {
             "id": 98,
             "demo": "Financial Fraud Detection VIA BYOM",
             "description": "A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.",
@@ -2237,7 +2521,7 @@
                 },
                 {
                     "id": 98,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 98,
@@ -2252,7 +2536,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Financial_Fraud_Detection_BYOM/Pop_Financial_Fraud_Detection_BYOM_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Financial_Fraud_Detection_BYOM/Pop_Financial_Fraud_Detection_BYOM_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -2287,7 +2571,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Flood_Proximity_Analysis/Pop_Flood_Proximity_Analysis_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Flood_Proximity_Analysis/Pop_Flood_Proximity_Analysis_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -2309,13 +2593,43 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Fourier_Transforms/Pop_Fourier_Transforms_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Fourier_Transforms/Pop_Fourier_Transforms_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
                     "type": "notebook",
                     "url": "UseCases/Fourier_Transforms/Fourier_Transforms_SQL.ipynb",
                     "label": "SQL Version"
+                }
+            ]
+        },
+        {
+            "id": 238,
+            "demo": "Ftest function in Vantage",
+            "description": "Compare the variance of two independent populations",
+            "subjects": [
+                {
+                    "id": 238,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 238,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 238,
+                    "subject": "Python"
+                },
+                {
+                    "id": 238,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/FTest.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -2379,12 +2693,102 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Generative_Question_Answering_GenAI/Pop_Generative_Question_Answering_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Generative_Question_Answering_GenAI/Pop_Generative_Question_Answering_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
                     "type": "notebook",
                     "url": "UseCases/Generative_Question_Answering_GenAI/Generative_Question_Answering_Python.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 251,
+            "demo": "GetFutileColumns function in Vantage",
+            "description": "Interrogate a table to discover which columns would have no impact on creating a model.",
+            "subjects": [
+                {
+                    "id": 251,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 251,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 251,
+                    "subject": "Python"
+                },
+                {
+                    "id": 251,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/GetFutileColumns.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 241,
+            "demo": "GetRowsWithMissingValues function in Vantage",
+            "description": "Display rows that have NULL values in a specified data column",
+            "subjects": [
+                {
+                    "id": 241,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 241,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 241,
+                    "subject": "Python"
+                },
+                {
+                    "id": 241,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/GetRowsWithMissingValues.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 250,
+            "demo": "GetRowsWithoutMissingValues function in Vantage",
+            "description": "Explore the rows of a dataset that have non-NULL values in specific columns.",
+            "subjects": [
+                {
+                    "id": 250,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 250,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 250,
+                    "subject": "Python"
+                },
+                {
+                    "id": 250,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/GetRowsWithoutMissingValues.ipynb",
                     "label": "Python Version"
                 }
             ]
@@ -2452,7 +2856,7 @@
                 },
                 {
                     "id": 128,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 128,
@@ -2467,7 +2871,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Graph_Analysis/Pop_Graph_Analysis_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Graph_Analysis/Pop_Graph_Analysis_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 }
             ]
@@ -2483,7 +2887,7 @@
                 },
                 {
                     "id": 96,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 96,
@@ -2498,7 +2902,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Green_Manufacturing/Pop_Green_Manufacturing_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Green_Manufacturing/Pop_Green_Manufacturing_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -2540,7 +2944,7 @@
                 },
                 {
                     "id": 67,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 67,
@@ -2550,7 +2954,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Heart_Failure_Prediction/Pop_Heart_Failure_Prediction_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Heart_Failure_Prediction/Pop_Heart_Failure_Prediction_Python.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -2560,8 +2964,34 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Heart_Failure_Prediction/Pop_Heart_Failure_Prediction_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Heart_Failure_Prediction/Pop_Heart_Failure_Prediction_Python.ipynb",
                     "label": "Read Only Python"
+                }
+            ]
+        },
+        {
+            "id": 244,
+            "demo": "Histogram function in Vantage",
+            "description": "Calculate the frequency distribution of a data set using multiple methods: Sturges, Scot, Variable-width, Equal-width",
+            "subjects": [
+                {
+                    "id": 244,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 244,
+                    "subject": "Python"
+                },
+                {
+                    "id": 244,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/Histogram.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -2593,6 +3023,36 @@
             ]
         },
         {
+            "id": 232,
+            "demo": "Hugging Face Model using Script Table Operator",
+            "description": "Execute a Huggingface model using the Vantage Script Table operator(STO) on Vantage Enterprise.",
+            "subjects": [
+                {
+                    "id": 232,
+                    "subject": "Python"
+                },
+                {
+                    "id": 232,
+                    "subject": "New"
+                },
+                {
+                    "id": 232,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 232,
+                    "subject": "Hugging Face"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/Huggingface_model_STO_Python/Huggingface_model_STO_Python.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 129,
             "demo": "Hyper-Personalization",
             "description": "Hyper-personalization creates models from customer iteractions on multiple channels to determine the \"Next Best Offer\" for the individual.",
@@ -2603,7 +3063,7 @@
                 },
                 {
                     "id": 129,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 129,
@@ -2617,7 +3077,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Hyper_Personalization/Pop_Hyper_Personalization_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Hyper_Personalization/Pop_Hyper_Personalization_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -2638,7 +3098,7 @@
                 },
                 {
                     "id": 155,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 155,
@@ -2705,7 +3165,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Language_Models_InVantage/Pop_Initialization_and_Model_Load.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Language_Models_InVantage/Pop_Initialization_and_Model_Load.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -2756,7 +3216,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Sentiment_Analysis.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Sentiment_Analysis.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -2782,13 +3242,43 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Insurance_Policy_Temporal/Pop_Insurance_Policy_Temporal_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Insurance_Policy_Temporal/Pop_Insurance_Policy_Temporal_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
                     "type": "notebook",
                     "url": "UseCases/Insurance_Policy_Temporal/Insurance_Policy_Temporal_SQL.ipynb",
                     "label": "SQL Version"
+                }
+            ]
+        },
+        {
+            "id": 262,
+            "demo": "Interactive Npath Widget",
+            "description": "Generate Sankey and Icicle charts from event logs.",
+            "subjects": [
+                {
+                    "id": 262,
+                    "subject": "Path Analytics"
+                },
+                {
+                    "id": 262,
+                    "subject": "Teradata Packages"
+                },
+                {
+                    "id": 262,
+                    "subject": "Python"
+                },
+                {
+                    "id": 262,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/NPath_Visualizer_Widget/NPath_Visualizer_Widget.ipynb",
+                    "label": "Python"
                 }
             ]
         },
@@ -2809,7 +3299,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/Getting_Started/Intro_to_Pandas_For_Python/Pop_Intro_to_Pandas_For_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/Getting_Started/Intro_to_Pandas_For_Python/Pop_Intro_to_Pandas_For_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -2866,11 +3356,11 @@
             "subjects": [
                 {
                     "id": 73,
-                    "subject": "Retail"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 73,
-                    "subject": "Machine learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 73,
@@ -2880,7 +3370,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/K-Means_Clustering_and_ML_model/Pop_K-Means_Clustering_and_ML_model_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/K-Means_Clustering_and_ML_model/Pop_K-Means_Clustering_and_ML_model_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -2916,7 +3406,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Knee_Replacement/Pop_Knee_Replacement_Attribution_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Knee_Replacement/Pop_Knee_Replacement_Attribution_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -2947,8 +3437,42 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Knee_Replacement/Pop_Knee_Replacement_nPath_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Knee_Replacement/Pop_Knee_Replacement_nPath_Python.ipynb",
                     "label": "Read Only Python"
+                }
+            ]
+        },
+        {
+            "id": 259,
+            "demo": "LinearRegr function in Vantage",
+            "description": "Fit data to a curve using a formula that defines the relationship between the explanatory variable and the response variable.",
+            "subjects": [
+                {
+                    "id": 259,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 259,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 259,
+                    "subject": "Python"
+                },
+                {
+                    "id": 259,
+                    "subject": "SQL"
+                },
+                {
+                    "id": 259,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/LinearRegr.ipynb",
+                    "label": "Python"
                 }
             ]
         },
@@ -2959,15 +3483,15 @@
             "subjects": [
                 {
                     "id": 116,
+                    "subject": "Machine Learning"
+                },
+                {
+                    "id": 116,
                     "subject": "Retail"
                 },
                 {
                     "id": 116,
                     "subject": "Marketing"
-                },
-                {
-                    "id": 116,
-                    "subject": "Machine learning"
                 },
                 {
                     "id": 116,
@@ -2977,7 +3501,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Marketing_Campaign_Effectiveness/Pop_Marketing_Campaign_Effectiveness_Preditction_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Marketing_Campaign_Effectiveness/Pop_Marketing_Campaign_Effectiveness_Preditction_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -3014,6 +3538,126 @@
             ]
         },
         {
+            "id": 267,
+            "demo": "ModelOps",
+            "description": "Implement Model Factory Solution Accelerator using Python commands with the Restful API layer of ClearScape Analytics ModelOps.",
+            "subjects": [
+                {
+                    "id": 267,
+                    "subject": "New"
+                },
+                {
+                    "id": 267,
+                    "subject": "ModelOps"
+                },
+                {
+                    "id": 267,
+                    "subject": "Python"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb",
+                    "label": "Python"
+                }
+            ]
+        },
+        {
+            "id": 257,
+            "demo": "ModelOps BYOM with Dataiku",
+            "description": "Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a Dataiku model.",
+            "subjects": [
+                {
+                    "id": 257,
+                    "subject": "ModelOps"
+                },
+                {
+                    "id": 257,
+                    "subject": "Python"
+                },
+                {
+                    "id": 257,
+                    "subject": "SQL"
+                },
+                {
+                    "id": 257,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "ModelOps/17_ModelOps_BYOM_PIMA_DATAIKU.ipynb",
+                    "label": "Python"
+                }
+            ]
+        },
+        {
+            "id": 258,
+            "demo": "ModelOps BYOM with Datarobot",
+            "description": "Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a DataRobot model.",
+            "subjects": [
+                {
+                    "id": 258,
+                    "subject": "ModelOps"
+                },
+                {
+                    "id": 258,
+                    "subject": "Python"
+                },
+                {
+                    "id": 258,
+                    "subject": "SQL"
+                },
+                {
+                    "id": 258,
+                    "subject": "New"
+                },
+                {
+                    "id": 258,
+                    "subject": "DataRobot"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb",
+                    "label": "Python"
+                }
+            ]
+        },
+        {
+            "id": 242,
+            "demo": "ModelOps Feature Engineering",
+            "description": "Preprocess and transform data within the ModelOps pipeline",
+            "subjects": [
+                {
+                    "id": 242,
+                    "subject": "Feature Engineering"
+                },
+                {
+                    "id": 242,
+                    "subject": "ModelOps"
+                },
+                {
+                    "id": 242,
+                    "subject": "Python"
+                },
+                {
+                    "id": 242,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "ModelOps/15_ModelOps_Feature_Engineering.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 117,
             "demo": "ModelOps Introduction & List of Notebooks",
             "description": "This introduction and table of contents introduces you to ModelOps and provides a launch for ModelOps. It is **recommended** to go through ModelOps demonstrations in sequence.",
@@ -3040,6 +3684,36 @@
                     "type": "notebook",
                     "url": "ModelOps/00_ModelOps_Introduction.ipynb",
                     "label": "Information"
+                }
+            ]
+        },
+        {
+            "id": 237,
+            "demo": "ModelOps Notebook Scheduling using BYOM",
+            "description": "Users can deploy and schedule notebook jobs, with execution logs available in both HTML and notebook formats.",
+            "subjects": [
+                {
+                    "id": 237,
+                    "subject": "ModelOps"
+                },
+                {
+                    "id": 237,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 237,
+                    "subject": "Python"
+                },
+                {
+                    "id": 237,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "ModelOps/16_ModelOps_Notebook_Scheduling.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -3136,11 +3810,11 @@
             "subjects": [
                 {
                     "id": 148,
-                    "subject": "Generative AI"
+                    "subject": "Financial"
                 },
                 {
                     "id": 148,
-                    "subject": "Financial"
+                    "subject": "Generative AI"
                 },
                 {
                     "id": 148,
@@ -3155,7 +3829,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Mortgage_Calculator_GenAI/Pop_Mortgage_Calculator_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Mortgage_Calculator_GenAI/Pop_Mortgage_Calculator_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -3167,11 +3841,11 @@
             "subjects": [
                 {
                     "id": 130,
-                    "subject": "Machine learning"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 130,
-                    "subject": "Marketing"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 130,
@@ -3185,7 +3859,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/MultiTouch_Attribution/Pop_Analyst_MultiTouch_Attribution_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/MultiTouch_Attribution/Pop_Analyst_MultiTouch_Attribution_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -3202,7 +3876,7 @@
             "subjects": [
                 {
                     "id": 131,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 131,
@@ -3220,13 +3894,47 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/MultiTouch_Attribution/Pop_MultiTouch_Attribution_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/MultiTouch_Attribution/Pop_MultiTouch_Attribution_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
                     "type": "notebook",
                     "url": "UseCases/MultiTouch_Attribution/MultiTouch_Attribution_PY_SQL.ipynb",
                     "label": "Python-SQL Version"
+                }
+            ]
+        },
+        {
+            "id": 260,
+            "demo": "MultivarRegr function in Vantage",
+            "description": "Use a formula that defines the relationship between the explanatory variable and multiple response variables.",
+            "subjects": [
+                {
+                    "id": 260,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 260,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 260,
+                    "subject": "Python"
+                },
+                {
+                    "id": 260,
+                    "subject": "SQL"
+                },
+                {
+                    "id": 260,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/MultivarRegr.ipynb",
+                    "label": "Python"
                 }
             ]
         },
@@ -3251,7 +3959,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/NYC_Taxi/Pop_NYC_Taxi_Geospatial_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/NYC_Taxi/Pop_NYC_Taxi_Geospatial_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -3283,7 +3991,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/NYC_Taxi/Pop_NYC_Taxi_Temporal_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/NYC_Taxi/Pop_NYC_Taxi_Temporal_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -3340,8 +4048,64 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Outlier_Analysis/Pop_Outlier_Analysis_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Outlier_Analysis/Pop_Outlier_Analysis_SQL.ipynb",
                     "label": "Read Only SQL"
+                }
+            ]
+        },
+        {
+            "id": 254,
+            "demo": "OutlierFilterFit and OutlierFilterTransform",
+            "description": "Use outlier filtering to identify and remove outliers from a dataset.",
+            "subjects": [
+                {
+                    "id": 254,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 254,
+                    "subject": "Python"
+                },
+                {
+                    "id": 254,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/OutlierFilterFitandTransform.ipynb",
+                    "label": "Python"
+                }
+            ]
+        },
+        {
+            "id": 228,
+            "demo": "PIMA Predicitons with teradataml OpenSourceML LightFBM using GIT",
+            "description": "Use the Teradata OpenSourceML LightGBM model to operationalize the PIMA diabetes use case with Python and ModelOps",
+            "subjects": [
+                {
+                    "id": 228,
+                    "subject": "teradataml OpenSourceML"
+                },
+                {
+                    "id": 228,
+                    "subject": "ModelOps"
+                },
+                {
+                    "id": 228,
+                    "subject": "Python"
+                },
+                {
+                    "id": 228,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "ModelOps/14_ModelOps_GIT_PIMA_Python_osml_LightGBM.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -3360,7 +4124,7 @@
                 },
                 {
                     "id": 179,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 179,
@@ -3390,7 +4154,7 @@
                 },
                 {
                     "id": 190,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 190,
@@ -3402,7 +4166,7 @@
                 },
                 {
                     "id": 190,
-                    "subject": "TeradataML Open Source Functions"
+                    "subject": "teradataml OpenSourceML"
                 }
             ],
             "links": [
@@ -3424,7 +4188,7 @@
                 },
                 {
                     "id": 97,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 97,
@@ -3434,18 +4198,18 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Predictive_Maintenance/Pop_Predictive_Maintenance_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Predictive_Maintenance/Pop_Predictive_Maintenance_Python.ipynb",
                     "label": "Read Only Python-SQL"
-                },
-                {
-                    "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Predictive_Maintenance/Pop_Predictive_Maintenance_Python.ipynb",
-                    "label": "Read Only Python"
                 },
                 {
                     "type": "notebook",
                     "url": "UseCases/Predictive_Maintenance/Predictive_Maintenance_Python.ipynb",
                     "label": "Python-SQL Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Predictive_Maintenance/Pop_Predictive_Maintenance_Python.ipynb",
+                    "label": "Read Only Python"
                 }
             ]
         },
@@ -3500,7 +4264,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Recommendations_product_search/Pop_Recommendations_product_search_OpenSource_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Recommendations_product_search/Pop_Recommendations_product_search_OpenSource_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -3531,7 +4295,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Recommendations_product_search/Pop_Recommendations_product_search_OpenAI_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Recommendations_product_search/Pop_Recommendations_product_search_OpenAI_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -3568,6 +4332,32 @@
             ]
         },
         {
+            "id": 243,
+            "demo": "QQNorm function in Vantage",
+            "description": "Determine if values in a data column follow normal distribution or not.",
+            "subjects": [
+                {
+                    "id": 243,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 243,
+                    "subject": "Python"
+                },
+                {
+                    "id": 243,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/QQNorm.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 115,
             "demo": "Query Service REST API",
             "description": "Demonstration of using REST API calls to Vantage which is useful for web or mobile applications to access and maintain data.",
@@ -3589,7 +4379,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Query_Service/Pop_Query_Service.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Query_Service/Pop_Query_Service.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -3627,7 +4417,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Language_Models_InVantage/Pop_RAG_and_Bedrock_QueryPDF.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Language_Models_InVantage/Pop_RAG_and_Bedrock_QueryPDF.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -3675,7 +4465,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Language_Models_InVantage/Pop_RAG_and_Bedrock_Querycatalogue.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Language_Models_InVantage/Pop_RAG_and_Bedrock_Querycatalogue.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -3695,7 +4485,7 @@
                 },
                 {
                     "id": 113,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 113,
@@ -3705,7 +4495,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Remaining_Useful_Life_Forecasting/Pop_Remaining_Useful_Life_Forecasting_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Remaining_Useful_Life_Forecasting/Pop_Remaining_Useful_Life_Forecasting_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -3716,17 +4506,43 @@
             ]
         },
         {
+            "id": 252,
+            "demo": "Resample function in Vantage",
+            "description": "Transform an irregular time series into a regular time series.",
+            "subjects": [
+                {
+                    "id": 252,
+                    "subject": "Retail"
+                },
+                {
+                    "id": 252,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 252,
+                    "subject": "Python"
+                },
+                {
+                    "id": 252,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/Resample.ipynb",
+                    "label": "Python"
+                }
+            ]
+        },
+        {
             "id": 220,
             "demo": "Resume Classification Model Training using Vantage In-DB Functions",
             "description": "Use data from a collection of Resume Examples taken from kaggle for categorizing a given resume into any of the labels defined in the dataset. Summarize and ask questions using a ChatBot.",
             "subjects": [
                 {
                     "id": 220,
-                    "subject": "New"
-                },
-                {
-                    "id": 220,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 220,
@@ -3770,7 +4586,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Retail_Demand_Forecasting/Pop_Retail_Demand_Forecasting_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Retail_Demand_Forecasting/Pop_Retail_Demand_Forecasting_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -3797,7 +4613,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/Getting_Started/SQL_Basics_in_Jupyter/Pop_SQL_Basics_in_Jupyter_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/Getting_Started/SQL_Basics_in_Jupyter/Pop_SQL_Basics_in_Jupyter_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -3814,10 +4630,6 @@
             "subjects": [
                 {
                     "id": 222,
-                    "subject": "New"
-                },
-                {
-                    "id": 222,
                     "subject": "Python"
                 },
                 {
@@ -3826,7 +4638,7 @@
                 },
                 {
                     "id": 222,
-                    "subject": "Arima"
+                    "subject": "ARIMA"
                 }
             ],
             "links": [
@@ -3886,7 +4698,7 @@
                 },
                 {
                     "id": 149,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 149,
@@ -3901,18 +4713,100 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/SalesForecast_SAS_Vantage/Pop_Sales_Forecasting_SAS_Vantage_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/SalesForecast_SAS_Vantage/Pop_Sales_Forecasting_SAS_Vantage_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/SalesForecast_SAS_Vantage/Pop_Sales_Forecasting_SAS_Vantage_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/SalesForecast_SAS_Vantage/Pop_Sales_Forecasting_SAS_Vantage_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
                     "type": "notebook",
                     "url": "UseCases/SalesForecast_SAS_Vantage/Sales_Forecasting_SAS_Vantage_SQL.ipynb",
                     "label": "SQL Version"
+                }
+            ]
+        },
+        {
+            "id": 265,
+            "demo": "Search all notebooks with a ChatBot",
+            "description": "Run this notebook to search all notebooks with a ChatBot.",
+            "subjects": [
+                {
+                    "id": 265,
+                    "subject": "New"
+                },
+                {
+                    "id": 265,
+                    "subject": "Python"
+                },
+                {
+                    "id": 265,
+                    "subject": "OpenAI"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "ExperienceBot/ExperienceBot_NoCode.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 266,
+            "demo": "Search all notebooks with a ChatBot using Vantage",
+            "description": "Run this notebook to search all notebooks with a ChatBot and Database connectivity.",
+            "subjects": [
+                {
+                    "id": 266,
+                    "subject": "New"
+                },
+                {
+                    "id": 266,
+                    "subject": "Python"
+                },
+                {
+                    "id": 266,
+                    "subject": "OpenAI"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "ExperienceBot/ExperienceBot.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 255,
+            "demo": "SeasonalNormalize and Unnormalize functions in Vantage",
+            "description": "Take a non-stationary series and normalize it.  Then unnormalize the series to produce a forcasted series.",
+            "subjects": [
+                {
+                    "id": 255,
+                    "subject": "Retail"
+                },
+                {
+                    "id": 255,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 255,
+                    "subject": "Python"
+                },
+                {
+                    "id": 255,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/SeasonalNormalize_UnNormalize.ipynb",
+                    "label": "Python"
                 }
             ]
         },
@@ -3949,7 +4843,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Language_Models_InVantage/Pop_Semantic_Clustering_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Language_Models_InVantage/Pop_Semantic_Clustering_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -3993,7 +4887,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Language_Models_InVantage/Pop_Semantic_Similarity_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Language_Models_InVantage/Pop_Semantic_Similarity_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -4018,14 +4912,14 @@
             ],
             "links": [
                 {
-                    "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Sensor_Data_Analytics/Pop_Sensor_Data_Analytics_PY_SQL.ipynb",
-                    "label": "Read Only Python-SQL"
-                },
-                {
                     "type": "notebook",
                     "url": "UseCases/Sensor_Data_Analytics/Sensor_Data_Analytics_PY_SQL.ipynb",
                     "label": "Python-SQL Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Sensor_Data_Analytics/Pop_Sensor_Data_Analytics_PY_SQL.ipynb",
+                    "label": "Read Only Python-SQL"
                 }
             ]
         },
@@ -4074,7 +4968,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Sentiment_Analysis.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Sentiment_Analysis.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -4126,7 +5020,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Sentiment_Analysis.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Sentiment_Analysis.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -4146,7 +5040,7 @@
                 },
                 {
                     "id": 161,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 161,
@@ -4188,6 +5082,92 @@
             ]
         },
         {
+            "id": 249,
+            "demo": "SimpleImputeFit and SimpleImputeTransform functions in Vantage",
+            "description": "Use the two functions to impute missing values in a dataset.",
+            "subjects": [
+                {
+                    "id": 249,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 249,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 249,
+                    "subject": "Python"
+                },
+                {
+                    "id": 249,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/SimpleImputeFitandTransform.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 253,
+            "demo": "Smoothma function in Vantage",
+            "description": "Apply smoothing to a time series to highlight the mean of that series.",
+            "subjects": [
+                {
+                    "id": 253,
+                    "subject": "Manufacturing"
+                },
+                {
+                    "id": 253,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 253,
+                    "subject": "Python"
+                },
+                {
+                    "id": 253,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/Smoothma.ipynb",
+                    "label": "Python"
+                }
+            ]
+        },
+        {
+            "id": 230,
+            "demo": "Solve complex inventory issues with Vantage In-DB functions.",
+            "description": "Use resampling to fill-in missing data, find phantom inventory, show key inventory metrics, calculate safe stock levels.",
+            "subjects": [
+                {
+                    "id": 230,
+                    "subject": "Retail"
+                },
+                {
+                    "id": 230,
+                    "subject": "SQL"
+                },
+                {
+                    "id": 230,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Inventory_Management/Inventory_Management_SQL.ipynb",
+                    "label": "SQL Version"
+                }
+            ]
+        },
+        {
             "id": 194,
             "demo": "Speech Recognition and Sentiment Analysis with AWS Bedrock",
             "description": "Analyzing consumer complaints using audio files conversations",
@@ -4221,7 +5201,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Speech_Recognition.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Speech_Recognition.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -4260,7 +5240,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Speech_Recognition.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Speech_Recognition.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -4307,7 +5287,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Speech_Recognition.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Speech_Recognition.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -4327,7 +5307,7 @@
                 },
                 {
                     "id": 134,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 134,
@@ -4342,7 +5322,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Store_Sales_Forecasting_ARIMA/Pop_Store_Sales_Forecasting_ARIMA_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Store_Sales_Forecasting_ARIMA/Pop_Store_Sales_Forecasting_ARIMA_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -4354,7 +5334,7 @@
             "subjects": [
                 {
                     "id": 133,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 133,
@@ -4368,7 +5348,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Store_Sales_Forecasting_Prophet_STO/Pop_Store_Sales_Forecasting_Prophet_STO_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Store_Sales_Forecasting_Prophet_STO/Pop_Store_Sales_Forecasting_Prophet_STO_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 },
                 {
@@ -4383,10 +5363,6 @@
             "demo": "Streamlining Analytics with Hyper-Segmented Models",
             "description": "By addressing unique customer behaviors and preferences within specific micro-segments, enhance customer satisfaction, boost operational efficiency, and improve profitability by to deploying and managing hyper-segmented models at scale.",
             "subjects": [
-                {
-                    "id": 221,
-                    "subject": "New"
-                },
                 {
                     "id": 221,
                     "subject": "Python"
@@ -4411,15 +5387,15 @@
             "subjects": [
                 {
                     "id": 150,
-                    "subject": "Travel & Transportation"
-                },
-                {
-                    "id": 150,
                     "subject": "Geospatial"
                 },
                 {
                     "id": 150,
                     "subject": "Time series analytics"
+                },
+                {
+                    "id": 150,
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 150,
@@ -4434,8 +5410,38 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Supply_Chain_Visibility/Pop_Supply_Chain_Visibility_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Supply_Chain_Visibility/Pop_Supply_Chain_Visibility_Python.ipynb",
                     "label": "Read Only Python"
+                }
+            ]
+        },
+        {
+            "id": 231,
+            "demo": "TD GeoDataFrame to ESRI Conversion",
+            "description": "Extract Teradata geospatial data and export it into widely-used formats such as ESRI shapefiles.",
+            "subjects": [
+                {
+                    "id": 231,
+                    "subject": "Geospatial"
+                },
+                {
+                    "id": 231,
+                    "subject": "Vantage Database Functions"
+                },
+                {
+                    "id": 231,
+                    "subject": "Python"
+                },
+                {
+                    "id": 231,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/TD_Geo_Esri/TD_Geo_Esri.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -4454,19 +5460,83 @@
                 },
                 {
                     "id": 151,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 }
             ],
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Telco_5G_QOE_Analysis/Pop_Telco_5G_QOE_Analysis_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Telco_5G_QOE_Analysis/Pop_Telco_5G_QOE_Analysis_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
                     "type": "notebook",
                     "url": "UseCases/Telco_5G_QOE_Analysis/Telco_5G_QOE_Analysis_SQL.ipynb",
                     "label": "SQL Version"
+                }
+            ]
+        },
+        {
+            "id": 226,
+            "demo": "Telco Churn using Enterprise Feature Store",
+            "description": "analyzing a time series of data, where each data point represents the outstanding amount at the end of each month. To detect anomalies,",
+            "subjects": [
+                {
+                    "id": 226,
+                    "subject": "Telco"
+                },
+                {
+                    "id": 226,
+                    "subject": "Python"
+                },
+                {
+                    "id": 226,
+                    "subject": "New"
+                },
+                {
+                    "id": 226,
+                    "subject": "EFS"
+                },
+                {
+                    "id": 226,
+                    "subject": "AutoML"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/EFS_Demo/Telco_Churn_using_EFS.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 233,
+            "demo": "Telco Churn using Feature Store in Vantage",
+            "description": "Detect anomalies in monthly bill amounts to detect and prevent churn using pre-calculated features stored in Vantage.",
+            "subjects": [
+                {
+                    "id": 233,
+                    "subject": "Telco"
+                },
+                {
+                    "id": 233,
+                    "subject": "Python"
+                },
+                {
+                    "id": 233,
+                    "subject": "New"
+                },
+                {
+                    "id": 233,
+                    "subject": "EFS"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/EFS_Demo/Telco_Churn_using_tdfs4ds_Feature_Store.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -4481,7 +5551,7 @@
                 },
                 {
                     "id": 93,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 93,
@@ -4491,7 +5561,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Telco_Customer_Churn/Pop_Telco_Customer_Churn_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Telco_Customer_Churn/Pop_Telco_Customer_Churn_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -4532,7 +5602,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Telco_Network_Coverage/Pop_Telco_Network_Coverage_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Telco_Network_Coverage/Pop_Telco_Network_Coverage_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -4594,7 +5664,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Text_Term_Frequency/Pop_Text_Term_Frequency_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Text_Term_Frequency/Pop_Text_Term_Frequency_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -4604,12 +5674,12 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Text_Term_Frequency/Pop_Text_Term_Frequency_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Text_Term_Frequency/Pop_Text_Term_Frequency_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Text_Term_Frequency/Pop_Text_Term_Frequency_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Text_Term_Frequency/Pop_Text_Term_Frequency_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 }
             ]
@@ -4647,7 +5717,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Topic_Modelling.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_GenAI_Bedrock/Pop_Topic_Modelling.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -4690,7 +5760,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Topic_Modelling.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_GenAI_Gemini/Pop_Topic_Modelling.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -4737,7 +5807,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Topic_Modelling.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Complaints_Analysis_Azure_OpenAI/Pop_Topic_Modelling.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -4758,11 +5828,11 @@
                 },
                 {
                     "id": 105,
-                    "subject": "Path Analytics"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 105,
-                    "subject": "Machine learning"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 105,
@@ -4777,7 +5847,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Train_Delay/Pop_Train_Delay_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Train_Delay/Pop_Train_Delay_Python.ipynb",
                     "label": "Read Only Python"
                 }
             ]
@@ -4805,6 +5875,36 @@
             ]
         },
         {
+            "id": 246,
+            "demo": "UnivariateStatistics function in Vantage",
+            "description": "Use the UnivariateStatistics function available in Vantage  to explore the descriptive statistics of a dataset",
+            "subjects": [
+                {
+                    "id": 246,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 246,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 246,
+                    "subject": "Python"
+                },
+                {
+                    "id": 246,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/UnivariateStatistics.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 158,
             "demo": "Using ClearScape Analytics with openAI",
             "description": "To ensure optimal utilization of the OpenAI API in generative AI notebooks, it is essential to establish the API keys correctly. This concise guide outlines the process of configuring OpenAI API keys for seamless integration across multiple notebooks.",
@@ -4827,13 +5927,95 @@
             ]
         },
         {
+            "id": 236,
+            "demo": "Using Pearson's chi-squared test function in Vantage",
+            "description": "Use the Vantage implementation of Pearson's chi-square test to compare goodness of fit, homogeneity, and independence.",
+            "subjects": [
+                {
+                    "id": 236,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 236,
+                    "subject": "Python"
+                },
+                {
+                    "id": 236,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/ChiSq.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 235,
+            "demo": "Using the Analysis of Variance (Anova) function in Vantage",
+            "description": "Use the Anova function to execute a statistical test to analyze the difference between the means of more than two groups",
+            "subjects": [
+                {
+                    "id": 235,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 235,
+                    "subject": "Python"
+                },
+                {
+                    "id": 235,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/Anova.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 227,
+            "demo": "Using the Vantage Enterprise Feature Store Functions",
+            "description": "Work through a series of practical exercises that demonstrate how to use the Enterprise Feature Store capabilities in Vantage.\u00a0",
+            "subjects": [
+                {
+                    "id": 227,
+                    "subject": "First Time User"
+                },
+                {
+                    "id": 227,
+                    "subject": "Python"
+                },
+                {
+                    "id": 227,
+                    "subject": "New"
+                },
+                {
+                    "id": 227,
+                    "subject": "EFS"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "FeaturePreview/Enterprise_Feature_Store/EFS_Getting_Started_Python.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 21,
             "demo": "VAL Analytics and ML",
             "description": "Demonstration of Vantage Analytic Library scoring and analytic functions like linear regression, decision trees, K-Means clustering, Factor Analysis, etc.",
             "subjects": [
                 {
                     "id": 21,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 21,
@@ -4848,7 +6030,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Vantage_Analytics_Library/Pop_VAL_Analytics_and_ML_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Vantage_Analytics_Library/Pop_VAL_Analytics_and_ML_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -4879,7 +6061,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Vantage_Analytics_Library/Pop_VAL_Descriptive_Statistics_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Vantage_Analytics_Library/Pop_VAL_Descriptive_Statistics_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -4901,7 +6083,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Vantage_Analytics_Library/Pop_VAL_Hypothesis_Tests_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Vantage_Analytics_Library/Pop_VAL_Hypothesis_Tests_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -4950,7 +6132,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Vantage_Analytics_Library/Pop_VAL_teradataml_Demo_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Vantage_Analytics_Library/Pop_VAL_teradataml_Demo_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -5012,7 +6194,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/UseCases/Vehicle_Routing_Delivery/Pop_Vehicle_Routing_Delivery_STO_PY_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Vehicle_Routing_Delivery/Pop_Vehicle_Routing_Delivery_STO_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
                 }
             ]
@@ -5028,7 +6210,7 @@
                 },
                 {
                     "id": 59,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 59,
@@ -5043,6 +6225,66 @@
                 {
                     "type": "notebook",
                     "url": "UseCases/Vertex_AI_Integration/Vertex_AI_Integration_Python.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 247,
+            "demo": "WhichMax function in Vantage",
+            "description": "Use the WhichMax function to explore a dataset.  Displays all rows that have the maximum value in a specified input table column.",
+            "subjects": [
+                {
+                    "id": 247,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 247,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 247,
+                    "subject": "Python"
+                },
+                {
+                    "id": 247,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/WhichMax.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 248,
+            "demo": "WhichMin function in Vantage",
+            "description": "Use the WhichMin function to return a specified minimum value in a specified table's column.",
+            "subjects": [
+                {
+                    "id": 248,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 248,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 248,
+                    "subject": "Python"
+                },
+                {
+                    "id": 248,
+                    "subject": "New"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/WhichMin.ipynb",
                     "label": "Python Version"
                 }
             ]
@@ -5090,7 +6332,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/91499cbac16084b284f522a76db305a2ed084dcf/Getting_Started/teradataml_Python_Basics/Pop_teradataml_Python_Basics_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/Getting_Started/teradataml_Python_Basics/Pop_teradataml_Python_Basics_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
