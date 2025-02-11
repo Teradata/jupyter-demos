@@ -17,3 +17,4 @@
 ../UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb
 ../UseCases/Recommendations_product_search/Recommendations_product_search_OpenSource_Python.ipynb
 ../ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb
+../UseCases/Data_Dictionary/Data_Dictionary_Raw.ipynb
