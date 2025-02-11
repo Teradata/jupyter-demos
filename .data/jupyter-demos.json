@@ -8,7 +8,7 @@
             "subjects": [
                 {
                     "id": 2,
-                    "subject": "Geospatial"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 2,
@@ -16,7 +16,7 @@
                 },
                 {
                     "id": 2,
-                    "subject": "Travel & Transportation"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 2,
@@ -122,11 +122,11 @@
                 },
                 {
                     "id": 106,
-                    "subject": "Manufacturing"
+                    "subject": "Automotive"
                 },
                 {
                     "id": 106,
-                    "subject": "Automotive"
+                    "subject": "Manufacturing"
                 },
                 {
                     "id": 106,
@@ -241,7 +241,7 @@
                 {
                     "type": "notebook",
                     "url": "Recipes/ClearScape_Functions/Antiselect.ipynb",
-                    "label": "Python"
+                    "label": "Python Version"
                 }
             ]
         },
@@ -374,11 +374,11 @@
             "subjects": [
                 {
                     "id": 58,
-                    "subject": "Automotive"
+                    "subject": "Object Storage"
                 },
                 {
                     "id": 58,
-                    "subject": "Object Storage"
+                    "subject": "Automotive"
                 },
                 {
                     "id": 58,
@@ -419,7 +419,7 @@
                 {
                     "type": "notebook",
                     "url": "Recipes/ClearScape_Functions/BincodeFitandTransform.ipynb",
-                    "label": "Python"
+                    "label": "Python Version"
                 }
             ]
         },
@@ -430,11 +430,11 @@
             "subjects": [
                 {
                     "id": 82,
-                    "subject": "Path Analytics"
+                    "subject": "Retail"
                 },
                 {
                     "id": 82,
-                    "subject": "Retail"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 82,
@@ -530,15 +530,15 @@
             "subjects": [
                 {
                     "id": 103,
+                    "subject": "Geospatial"
+                },
+                {
+                    "id": 103,
                     "subject": "Manufacturing"
                 },
                 {
                     "id": 103,
                     "subject": "Automotive"
-                },
-                {
-                    "id": 103,
-                    "subject": "Geospatial"
                 },
                 {
                     "id": 103,
@@ -714,11 +714,11 @@
                 },
                 {
                     "id": 146,
-                    "subject": "Generative AI"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 146,
-                    "subject": "Travel & Transportation"
+                    "subject": "Generative AI"
                 },
                 {
                     "id": 146,
@@ -1808,7 +1808,7 @@
                 {
                     "type": "notebook",
                     "url": "Recipes/ClearScape_Functions/DIFF_UNDIFF.ipynb",
-                    "label": "Python"
+                    "label": "Python Version"
                 }
             ]
         },
@@ -2101,7 +2101,7 @@
                 {
                     "type": "notebook",
                     "url": "Recipes/HyperSegmented_Model_Pipelines/Deploy_HyperSegmented_Model_Pipeline.ipynb",
-                    "label": "Python"
+                    "label": "Python Version"
                 }
             ]
         },
@@ -2174,11 +2174,11 @@
             "subjects": [
                 {
                     "id": 142,
-                    "subject": "Celebrus"
+                    "subject": "Financial"
                 },
                 {
                     "id": 142,
-                    "subject": "Financial"
+                    "subject": "Celebrus"
                 },
                 {
                     "id": 142,
@@ -2279,11 +2279,11 @@
             "subjects": [
                 {
                     "id": 138,
-                    "subject": "Energy & Natural Resources"
+                    "subject": "Azure ML"
                 },
                 {
                     "id": 138,
-                    "subject": "Azure ML"
+                    "subject": "Energy & Natural Resources"
                 },
                 {
                     "id": 138,
@@ -2548,11 +2548,11 @@
             "subjects": [
                 {
                     "id": 140,
-                    "subject": "Financial"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 140,
-                    "subject": "Geospatial"
+                    "subject": "Financial"
                 },
                 {
                     "id": 140,
@@ -3059,7 +3059,7 @@
             "subjects": [
                 {
                     "id": 129,
-                    "subject": "Marketing"
+                    "subject": "Retail"
                 },
                 {
                     "id": 129,
@@ -3067,7 +3067,7 @@
                 },
                 {
                     "id": 129,
-                    "subject": "Retail"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 129,
@@ -3278,7 +3278,7 @@
                 {
                     "type": "notebook",
                     "url": "Recipes/NPath_Visualizer_Widget/NPath_Visualizer_Widget.ipynb",
-                    "label": "Python"
+                    "label": "Python Version"
                 }
             ]
         },
@@ -3472,7 +3472,7 @@
                 {
                     "type": "notebook",
                     "url": "Recipes/ClearScape_Functions/LinearRegr.ipynb",
-                    "label": "Python"
+                    "label": "Python Version"
                 }
             ]
         },
@@ -3559,7 +3559,7 @@
                 {
                     "type": "notebook",
                     "url": "ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb",
-                    "label": "Python"
+                    "label": "Python Version"
                 }
             ]
         },
@@ -3589,7 +3589,7 @@
                 {
                     "type": "notebook",
                     "url": "ModelOps/17_ModelOps_BYOM_PIMA_DATAIKU.ipynb",
-                    "label": "Python"
+                    "label": "Python Version"
                 }
             ]
         },
@@ -3623,7 +3623,7 @@
                 {
                     "type": "notebook",
                     "url": "ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb",
-                    "label": "Python"
+                    "label": "Python Version"
                 }
             ]
         },
@@ -3841,11 +3841,11 @@
             "subjects": [
                 {
                     "id": 130,
-                    "subject": "Marketing"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 130,
-                    "subject": "Machine Learning"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 130,
@@ -3880,11 +3880,11 @@
                 },
                 {
                     "id": 131,
-                    "subject": "Marketing"
+                    "subject": "Retail"
                 },
                 {
                     "id": 131,
-                    "subject": "Retail"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 131,
@@ -3934,7 +3934,7 @@
                 {
                     "type": "notebook",
                     "url": "Recipes/ClearScape_Functions/MultivarRegr.ipynb",
-                    "label": "Python"
+                    "label": "Python Version"
                 }
             ]
         },
@@ -3945,11 +3945,11 @@
             "subjects": [
                 {
                     "id": 26,
-                    "subject": "Geospatial"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 26,
-                    "subject": "Travel & Transportation"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 26,
@@ -4075,7 +4075,7 @@
                 {
                     "type": "notebook",
                     "url": "Recipes/ClearScape_Functions/OutlierFilterFitandTransform.ipynb",
-                    "label": "Python"
+                    "label": "Python Version"
                 }
             ]
         },
@@ -4316,11 +4316,11 @@
                 },
                 {
                     "id": 165,
-                    "subject": "Retail"
+                    "subject": "Python"
                 },
                 {
                     "id": 165,
-                    "subject": "Python"
+                    "subject": "Retail"
                 }
             ],
             "links": [
@@ -4531,7 +4531,7 @@
                 {
                     "type": "notebook",
                     "url": "Recipes/ClearScape_Functions/Resample.ipynb",
-                    "label": "Python"
+                    "label": "Python Version"
                 }
             ]
         },
@@ -4698,11 +4698,11 @@
                 },
                 {
                     "id": 149,
-                    "subject": "Machine Learning"
+                    "subject": "Python"
                 },
                 {
                     "id": 149,
-                    "subject": "Python"
+                    "subject": "Machine Learning"
                 }
             ],
             "links": [
@@ -4744,6 +4744,10 @@
                 {
                     "id": 265,
                     "subject": "OpenAI"
+                },
+                {
+                    "id": 265,
+                    "subject": "ExperienceBot"
                 }
             ],
             "links": [
@@ -4770,6 +4774,10 @@
                 {
                     "id": 266,
                     "subject": "OpenAI"
+                },
+                {
+                    "id": 266,
+                    "subject": "ExperienceBot"
                 }
             ],
             "links": [
@@ -4806,7 +4814,7 @@
                 {
                     "type": "notebook",
                     "url": "Recipes/ClearScape_Functions/SeasonalNormalize_UnNormalize.ipynb",
-                    "label": "Python"
+                    "label": "Python Version"
                 }
             ]
         },
@@ -4912,14 +4920,14 @@
             ],
             "links": [
                 {
-                    "type": "notebook",
-                    "url": "UseCases/Sensor_Data_Analytics/Sensor_Data_Analytics_PY_SQL.ipynb",
-                    "label": "Python-SQL Version"
-                },
-                {
                     "type": "nbviewer",
                     "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Sensor_Data_Analytics/Pop_Sensor_Data_Analytics_PY_SQL.ipynb",
                     "label": "Read Only Python-SQL"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Sensor_Data_Analytics/Sensor_Data_Analytics_PY_SQL.ipynb",
+                    "label": "Python-SQL Version"
                 }
             ]
         },
@@ -5137,7 +5145,7 @@
                 {
                     "type": "notebook",
                     "url": "Recipes/ClearScape_Functions/Smoothma.ipynb",
-                    "label": "Python"
+                    "label": "Python Version"
                 }
             ]
         },
@@ -5334,11 +5342,11 @@
             "subjects": [
                 {
                     "id": 133,
-                    "subject": "Machine Learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 133,
-                    "subject": "Retail"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 133,
@@ -5583,11 +5591,11 @@
             "subjects": [
                 {
                     "id": 48,
-                    "subject": "Telco"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 48,
-                    "subject": "Geospatial"
+                    "subject": "Telco"
                 },
                 {
                     "id": 48,

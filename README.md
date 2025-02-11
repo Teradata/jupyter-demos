@@ -27,7 +27,7 @@ If you have questions or issues, [**click here**](mailto:SC230208@teradata.com?s
 |<a href='#xFirst-Time-User'>**First Time User**</a>|<a href='#xAutomotive'>Automotive</a>|<a href='#xFinance'>Finance</a>| |<a href='#xAWS-SageMaker'>AWS SageMaker</a>|<a href='#xPython'>Python</a>|<a href='#xAnomaly-Detection'>Anomaly Detection</a>|*Beta Review*|<a href='#xAWS'>AWS</a>|<a href='#xClearScape-Analytic-Functions'>ClearScape Analytic Functions</a>|
 |<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>|<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>| |<a href='#xAzure-ML'>Azure ML</a>|<a href='#xSQL'>SQL</a>|<a href='#xCustomer-Complaint-Analysis'>Customer Complaint Analysis</a>|<a href='#xNew'>New</a>|<a href='#xGoogle'>Google</a>|<a href='#xVantage-Database-Functions'>Vantage Database Functions</a>|
 |<a href='#xDeveloper-Information'>Developer Information</a>|<a href='#xFinancial'>Financial</a>| | |<a href='#xCelebrus'>Celebrus</a>| |<a href='#xEnterprise-Feature-Store'>Enterprise Feature Store</a>|<a href='#xParallel-CPU-Inferencing'>Parallel CPU Inferencing</a>|<a href='#xAzure'>Azure</a>|<a href='#xModel-Pipelines'>Model Pipelines</a>|
-| |<a href='#xHealthcare'>Healthcare</a>| | |<a href='#xDataiku'>Dataiku</a>| |*Model Factory*|<a href='#xDashboard-Notebook'>Dashboard Notebook</a>| |<a href='#xTeradata-Packages'>Teradata Packages</a>|
+|<a href='#xExperienceBot'>ExperienceBot</a>|<a href='#xHealthcare'>Healthcare</a>| | |<a href='#xDataiku'>Dataiku</a>| |*Model Factory*|<a href='#xDashboard-Notebook'>Dashboard Notebook</a>| |<a href='#xTeradata-Packages'>Teradata Packages</a>|
 | |<a href='#xManufacturing'>Manufacturing</a>| | |<a href='#xH2O.ai'>H2O.ai</a>| | |<a href='#xEFS'>EFS</a>| | |
 | |<a href='#xRetail'>Retail</a>| | |*Microsoft PowerBI*| | | | | |
 | |<a href='#xTelco'>Telco</a>| | |*MicroStrategy*| | | | | |
@@ -166,6 +166,18 @@ This provides an index to all of the databases used by demo notebooks on this ma
 #### How to Submit Your Demos
 It is very easy to submit your demo for publication. Tell us directory with the notebook and referenced files and grant us access to your database.  We'll take it from there.<br>
 [Python Version](./Getting_Started/How_to_Submit_Your_Demos/How_to_Submit_Your_Demos.ipynb) &ensp; [Video](./Getting_Started/How_to_Submit_Your_Demos/How_to_Submit_Your_Demos_Video.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xExperienceBot'></a>
+### ExperienceBot
+
+#### Search all notebooks with a ChatBot
+Run this notebook to search all notebooks with a ChatBot.<br>
+[Python Version](./ExperienceBot/ExperienceBot_NoCode.ipynb)
+
+#### Search all notebooks with a ChatBot using Vantage
+Run this notebook to search all notebooks with a ChatBot and Database connectivity.<br>
+[Python Version](./ExperienceBot/ExperienceBot.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
@@ -374,7 +386,7 @@ Evaluates potential failures in spot welds based on voltage anomalies during the
 
 #### Smoothma function in Vantage
 Apply smoothing to a time series to highlight the mean of that series.<br>
-[Python](./Recipes/ClearScape_Functions/Smoothma.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/Smoothma.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xRetail'></a>
@@ -454,7 +466,7 @@ Customer reviews analysis is a crucial aspect of understanding customer sentimen
 
 #### DIFF and UNDIFF functions in Vantage
 Transform a stationary, seasonal, or non-stationary time series into a differenced time series and then reverse it.<br>
-[Python](./Recipes/ClearScape_Functions/DIFF_UNDIFF.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/DIFF_UNDIFF.ipynb)
 
 #### Product Recommendation via AWS Bedrock
 Use AWS Bedrock, Embedding from HuggingFace and Vantage in-DB functions to assist in providing product recommendations to develop a recipe assistant chatbot.<br>
@@ -462,11 +474,11 @@ Use AWS Bedrock, Embedding from HuggingFace and Vantage in-DB functions to assis
 
 #### Resample function in Vantage
 Transform an irregular time series into a regular time series.<br>
-[Python](./Recipes/ClearScape_Functions/Resample.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/Resample.ipynb)
 
 #### SeasonalNormalize and Unnormalize functions in Vantage
 Take a non-stationary series and normalize it.  Then unnormalize the series to produce a forcasted series.<br>
-[Python](./Recipes/ClearScape_Functions/SeasonalNormalize_UnNormalize.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/SeasonalNormalize_UnNormalize.ipynb)
 
 #### Solve complex inventory issues with Vantage In-DB functions.
 Use resampling to fill-in missing data, find phantom inventory, show key inventory metrics, calculate safe stock levels.<br>
@@ -603,7 +615,7 @@ Explore the rows of a dataset that have non-NULL values in specific columns.<br>
 
 #### LinearRegr function in Vantage
 Fit data to a curve using a formula that defines the relationship between the explanatory variable and the response variable.<br>
-[Python](./Recipes/ClearScape_Functions/LinearRegr.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/LinearRegr.ipynb)
 
 #### ModelOps Notebook Scheduling using BYOM
 Users can deploy and schedule notebook jobs, with execution logs available in both HTML and notebook formats.<br>
@@ -611,7 +623,7 @@ Users can deploy and schedule notebook jobs, with execution logs available in bo
 
 #### MultivarRegr function in Vantage
 Use a formula that defines the relationship between the explanatory variable and multiple response variables.<br>
-[Python](./Recipes/ClearScape_Functions/MultivarRegr.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/MultivarRegr.ipynb)
 
 #### SimpleImputeFit and SimpleImputeTransform functions in Vantage
 Use the two functions to impute missing values in a dataset.<br>
@@ -1316,11 +1328,11 @@ This introduction and table of contents introduces you to ModelOps and provides 
 
 #### ModelOps BYOM with Dataiku
 Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a Dataiku model.<br>
-[Python](./ModelOps/17_ModelOps_BYOM_PIMA_DATAIKU.ipynb)
+[Python Version](./ModelOps/17_ModelOps_BYOM_PIMA_DATAIKU.ipynb)
 
 #### ModelOps BYOM with Datarobot
 Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a DataRobot model.<br>
-[Python](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
+[Python Version](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
 
 #### ModelOps Notebook Scheduling using BYOM
 Users can deploy and schedule notebook jobs, with execution logs available in both HTML and notebook formats.<br>
@@ -1328,7 +1340,7 @@ Users can deploy and schedule notebook jobs, with execution logs available in bo
 
 #### ModelOps
 Implement Model Factory Solution Accelerator using Python commands with the Restful API layer of ClearScape Analytics ModelOps.<br>
-[Python](./ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb)
+[Python Version](./ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb)
 
 #### ModelOps Feature Engineering
 Preprocess and transform data within the ModelOps pipeline<br>
@@ -1484,7 +1496,7 @@ Uses nPath displays to show relationship of delays and predictive models to anti
 
 #### Interactive Npath Widget
 Generate Sankey and Icicle charts from event logs.<br>
-[Python](./Recipes/NPath_Visualizer_Widget/NPath_Visualizer_Widget.ipynb)
+[Python Version](./Recipes/NPath_Visualizer_Widget/NPath_Visualizer_Widget.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xOpen-and-connected-analytics'></a>
@@ -1965,7 +1977,7 @@ Execute a Huggingface model using the Vantage Script Table operator(STO) on Vant
 
 #### ModelOps BYOM with Datarobot
 Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a DataRobot model.<br>
-[Python](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
+[Python Version](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
@@ -2066,11 +2078,11 @@ Predict sales for multiple channels using Open-Source Machine Learning Functions
 
 #### Antiselect function in Vantage
 Return all columns except those specified in an exclude parameter.<br>
-[Python](./Recipes/ClearScape_Functions/Antiselect.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/Antiselect.ipynb)
 
 #### BincodeFit and BincodeTransform functions in Vantage
 Transform continuous data into bins.  Then apply the transformation to a DataFrame.<br>
-[Python](./Recipes/ClearScape_Functions/BincodeFitandTransform.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/BincodeFitandTransform.ipynb)
 
 #### Convert PySpark to teradatamlspk
 Convert a PySpark script to teradatamlspk syntax and generate a HTML report using Housing Prices to generate price predictions.<br>
@@ -2082,7 +2094,7 @@ Customer360 which is a comprehensive approach to managing customer complaints an
 
 #### Deploy a Hyper-Segmented Model Scikit Learn Pipeline
 Deploy a hyper-segmented model created using the Python Scikit-Learn module and then load and run it in Vantage.<br>
-[Python](./Recipes/HyperSegmented_Model_Pipelines/Deploy_HyperSegmented_Model_Pipeline.ipynb)
+[Python Version](./Recipes/HyperSegmented_Model_Pipelines/Deploy_HyperSegmented_Model_Pipeline.ipynb)
 
 #### Generate Teradata SQL with GenAI and AWS Bedrock
 In this demo, we use AWS Bedrock's LLMs and LangChain to create a text-to-Teradata SQL agent.<br>
@@ -2098,15 +2110,15 @@ This is an introduction to using the various Plot types available as widgets: Li
 
 #### ModelOps BYOM with Dataiku
 Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a Dataiku model.<br>
-[Python](./ModelOps/17_ModelOps_BYOM_PIMA_DATAIKU.ipynb)
+[Python Version](./ModelOps/17_ModelOps_BYOM_PIMA_DATAIKU.ipynb)
 
 #### ModelOps BYOM with Datarobot
 Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a DataRobot model.<br>
-[Python](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
+[Python Version](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
 
 #### OutlierFilterFit and OutlierFilterTransform
 Use outlier filtering to identify and remove outliers from a dataset.<br>
-[Python](./Recipes/ClearScape_Functions/OutlierFilterFitandTransform.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/OutlierFilterFitandTransform.ipynb)
 
 #### QQNorm function in Vantage
 Determine if values in a data column follow normal distribution or not.<br>
@@ -2194,7 +2206,7 @@ Compare the distribution and variation of data between two time intervals usin I
 
 #### DIFF and UNDIFF functions in Vantage
 Transform a stationary, seasonal, or non-stationary time series into a differenced time series and then reverse it.<br>
-[Python](./Recipes/ClearScape_Functions/DIFF_UNDIFF.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/DIFF_UNDIFF.ipynb)
 
 #### Execute Custom Python Scripts in Vantage
 Run an external custom python script in Vantage using Script Table Operator(STO) to execute custom python scripts on Vantage<br>
@@ -2218,11 +2230,11 @@ Explore the rows of a dataset that have non-NULL values in specific columns.<br>
 
 #### Interactive Npath Widget
 Generate Sankey and Icicle charts from event logs.<br>
-[Python](./Recipes/NPath_Visualizer_Widget/NPath_Visualizer_Widget.ipynb)
+[Python Version](./Recipes/NPath_Visualizer_Widget/NPath_Visualizer_Widget.ipynb)
 
 #### LinearRegr function in Vantage
 Fit data to a curve using a formula that defines the relationship between the explanatory variable and the response variable.<br>
-[Python](./Recipes/ClearScape_Functions/LinearRegr.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/LinearRegr.ipynb)
 
 #### Mental Health Chat with Fine-tuned OpenAI Model
 Train a GPT-3.5 Turbo model using the OpenAI API endpoint.  Ask mental health questions using a chat input box.<br>
@@ -2230,7 +2242,7 @@ Train a GPT-3.5 Turbo model using the OpenAI API endpoint.  Ask mental health qu
 
 #### ModelOps
 Implement Model Factory Solution Accelerator using Python commands with the Restful API layer of ClearScape Analytics ModelOps.<br>
-[Python](./ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb)
+[Python Version](./ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb)
 
 #### ModelOps Feature Engineering
 Preprocess and transform data within the ModelOps pipeline<br>
@@ -2250,7 +2262,7 @@ Experience the integration of LLM models to provide user-friendly responses to q
 
 #### MultivarRegr function in Vantage
 Use a formula that defines the relationship between the explanatory variable and multiple response variables.<br>
-[Python](./Recipes/ClearScape_Functions/MultivarRegr.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/MultivarRegr.ipynb)
 
 #### Parkinson's Disease Prediction using Signal Processing
 Detect Parkinson's Disease at an early stage by using Vantage InDB functions for model training and scoring to compare the performance of two models against biomedical voice measurements.<br>
@@ -2262,11 +2274,11 @@ Use the Teradata OpenSourceML LightGBM model to operationalize the PIMA diabetes
 
 #### Resample function in Vantage
 Transform an irregular time series into a regular time series.<br>
-[Python](./Recipes/ClearScape_Functions/Resample.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/Resample.ipynb)
 
 #### SeasonalNormalize and Unnormalize functions in Vantage
 Take a non-stationary series and normalize it.  Then unnormalize the series to produce a forcasted series.<br>
-[Python](./Recipes/ClearScape_Functions/SeasonalNormalize_UnNormalize.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/SeasonalNormalize_UnNormalize.ipynb)
 
 #### Sentiment Analysis with OpenAI
 Extract insights from unstructured data to identify and address customer concerns.<br>
@@ -2278,7 +2290,7 @@ Use the two functions to impute missing values in a dataset.<br>
 
 #### Smoothma function in Vantage
 Apply smoothing to a time series to highlight the mean of that series.<br>
-[Python](./Recipes/ClearScape_Functions/Smoothma.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/Smoothma.ipynb)
 
 #### Speech Recognition and Sentiment Analysis with OpenAI
 Analyzing consumer complaints using audio files conversations<br>
@@ -2646,19 +2658,19 @@ Use resampling to fill-in missing data, find phantom inventory, show key invento
 
 #### ModelOps BYOM with Dataiku
 Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a Dataiku model.<br>
-[Python](./ModelOps/17_ModelOps_BYOM_PIMA_DATAIKU.ipynb)
+[Python Version](./ModelOps/17_ModelOps_BYOM_PIMA_DATAIKU.ipynb)
 
 #### ModelOps BYOM with Datarobot
 Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a DataRobot model.<br>
-[Python](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
+[Python Version](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
 
 #### LinearRegr function in Vantage
 Fit data to a curve using a formula that defines the relationship between the explanatory variable and the response variable.<br>
-[Python](./Recipes/ClearScape_Functions/LinearRegr.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/LinearRegr.ipynb)
 
 #### MultivarRegr function in Vantage
 Use a formula that defines the relationship between the explanatory variable and multiple response variables.<br>
-[Python](./Recipes/ClearScape_Functions/MultivarRegr.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/MultivarRegr.ipynb)
 
 #### 4D Analytics on bike sharing
 Demonstration of Geospatial and TimeSeries using Austin bike trip data between 2014 and 2017.<br>
@@ -2928,7 +2940,7 @@ Anomaly detection in bank accounts can help in identifying unusual patterns, pot
 
 #### ModelOps
 Implement Model Factory Solution Accelerator using Python commands with the Restful API layer of ClearScape Analytics ModelOps.<br>
-[Python](./ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb)
+[Python Version](./ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb)
 
 #### Search all notebooks with a ChatBot
 Run this notebook to search all notebooks with a ChatBot.<br>
@@ -2952,15 +2964,15 @@ Predict sales for multiple channels using Open-Source Machine Learning Functions
 
 #### Antiselect function in Vantage
 Return all columns except those specified in an exclude parameter.<br>
-[Python](./Recipes/ClearScape_Functions/Antiselect.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/Antiselect.ipynb)
 
 #### BincodeFit and BincodeTransform functions in Vantage
 Transform continuous data into bins.  Then apply the transformation to a DataFrame.<br>
-[Python](./Recipes/ClearScape_Functions/BincodeFitandTransform.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/BincodeFitandTransform.ipynb)
 
 #### Deploy a Hyper-Segmented Model Scikit Learn Pipeline
 Deploy a hyper-segmented model created using the Python Scikit-Learn module and then load and run it in Vantage.<br>
-[Python](./Recipes/HyperSegmented_Model_Pipelines/Deploy_HyperSegmented_Model_Pipeline.ipynb)
+[Python Version](./Recipes/HyperSegmented_Model_Pipelines/Deploy_HyperSegmented_Model_Pipeline.ipynb)
 
 #### Histogram function in Vantage
 Calculate the frequency distribution of a data set using multiple methods: Sturges, Scot, Variable-width, Equal-width<br>
@@ -2968,7 +2980,7 @@ Calculate the frequency distribution of a data set using multiple methods: Sturg
 
 #### OutlierFilterFit and OutlierFilterTransform
 Use outlier filtering to identify and remove outliers from a dataset.<br>
-[Python](./Recipes/ClearScape_Functions/OutlierFilterFitandTransform.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/OutlierFilterFitandTransform.ipynb)
 
 #### QQNorm function in Vantage
 Determine if values in a data column follow normal distribution or not.<br>
@@ -3008,7 +3020,7 @@ Summarize a column and return standard values like positive, negative, nulls, ze
 
 #### DIFF and UNDIFF functions in Vantage
 Transform a stationary, seasonal, or non-stationary time series into a differenced time series and then reverse it.<br>
-[Python](./Recipes/ClearScape_Functions/DIFF_UNDIFF.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/DIFF_UNDIFF.ipynb)
 
 #### Ftest function in Vantage
 Compare the variance of two independent populations<br>
@@ -3028,15 +3040,15 @@ Explore the rows of a dataset that have non-NULL values in specific columns.<br>
 
 #### Interactive Npath Widget
 Generate Sankey and Icicle charts from event logs.<br>
-[Python](./Recipes/NPath_Visualizer_Widget/NPath_Visualizer_Widget.ipynb)
+[Python Version](./Recipes/NPath_Visualizer_Widget/NPath_Visualizer_Widget.ipynb)
 
 #### ModelOps BYOM with Dataiku
 Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a Dataiku model.<br>
-[Python](./ModelOps/17_ModelOps_BYOM_PIMA_DATAIKU.ipynb)
+[Python Version](./ModelOps/17_ModelOps_BYOM_PIMA_DATAIKU.ipynb)
 
 #### ModelOps BYOM with Datarobot
 Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a DataRobot model.<br>
-[Python](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
+[Python Version](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
 
 #### ModelOps Feature Engineering
 Preprocess and transform data within the ModelOps pipeline<br>
@@ -3052,11 +3064,11 @@ Use the Teradata OpenSourceML LightGBM model to operationalize the PIMA diabetes
 
 #### Resample function in Vantage
 Transform an irregular time series into a regular time series.<br>
-[Python](./Recipes/ClearScape_Functions/Resample.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/Resample.ipynb)
 
 #### SeasonalNormalize and Unnormalize functions in Vantage
 Take a non-stationary series and normalize it.  Then unnormalize the series to produce a forcasted series.<br>
-[Python](./Recipes/ClearScape_Functions/SeasonalNormalize_UnNormalize.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/SeasonalNormalize_UnNormalize.ipynb)
 
 #### SimpleImputeFit and SimpleImputeTransform functions in Vantage
 Use the two functions to impute missing values in a dataset.<br>
@@ -3064,7 +3076,7 @@ Use the two functions to impute missing values in a dataset.<br>
 
 #### Smoothma function in Vantage
 Apply smoothing to a time series to highlight the mean of that series.<br>
-[Python](./Recipes/ClearScape_Functions/Smoothma.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/Smoothma.ipynb)
 
 #### TD GeoDataFrame to ESRI Conversion
 Extract Teradata geospatial data and export it into widely-used formats such as ESRI shapefiles.<br>
@@ -3092,11 +3104,11 @@ Setup and deploy a Feature Store and then continue with the process of Feature E
 
 #### LinearRegr function in Vantage
 Fit data to a curve using a formula that defines the relationship between the explanatory variable and the response variable.<br>
-[Python](./Recipes/ClearScape_Functions/LinearRegr.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/LinearRegr.ipynb)
 
 #### MultivarRegr function in Vantage
 Use a formula that defines the relationship between the explanatory variable and multiple response variables.<br>
-[Python](./Recipes/ClearScape_Functions/MultivarRegr.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/MultivarRegr.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xParallel-CPU-Inferencing'></a>
@@ -3298,11 +3310,11 @@ Uncover hidden insights from vast amounts of consumer complaints data to enable 
 
 #### Antiselect function in Vantage
 Return all columns except those specified in an exclude parameter.<br>
-[Python](./Recipes/ClearScape_Functions/Antiselect.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/Antiselect.ipynb)
 
 #### BincodeFit and BincodeTransform functions in Vantage
 Transform continuous data into bins.  Then apply the transformation to a DataFrame.<br>
-[Python](./Recipes/ClearScape_Functions/BincodeFitandTransform.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/BincodeFitandTransform.ipynb)
 
 #### CategoricalSummary function in Vantage
 Display distinct values and counts for a column in a Banking dataset<br>
@@ -3334,15 +3346,15 @@ Calculate the frequency distribution of a data set using multiple methods: Sturg
 
 #### LinearRegr function in Vantage
 Fit data to a curve using a formula that defines the relationship between the explanatory variable and the response variable.<br>
-[Python](./Recipes/ClearScape_Functions/LinearRegr.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/LinearRegr.ipynb)
 
 #### MultivarRegr function in Vantage
 Use a formula that defines the relationship between the explanatory variable and multiple response variables.<br>
-[Python](./Recipes/ClearScape_Functions/MultivarRegr.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/MultivarRegr.ipynb)
 
 #### OutlierFilterFit and OutlierFilterTransform
 Use outlier filtering to identify and remove outliers from a dataset.<br>
-[Python](./Recipes/ClearScape_Functions/OutlierFilterFitandTransform.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/OutlierFilterFitandTransform.ipynb)
 
 #### QQNorm function in Vantage
 Determine if values in a data column follow normal distribution or not.<br>
@@ -3378,19 +3390,19 @@ Prepare datasets for tabular supervised or unsupervised machine learning. Prepar
 
 #### DIFF and UNDIFF functions in Vantage
 Transform a stationary, seasonal, or non-stationary time series into a differenced time series and then reverse it.<br>
-[Python](./Recipes/ClearScape_Functions/DIFF_UNDIFF.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/DIFF_UNDIFF.ipynb)
 
 #### Resample function in Vantage
 Transform an irregular time series into a regular time series.<br>
-[Python](./Recipes/ClearScape_Functions/Resample.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/Resample.ipynb)
 
 #### SeasonalNormalize and Unnormalize functions in Vantage
 Take a non-stationary series and normalize it.  Then unnormalize the series to produce a forcasted series.<br>
-[Python](./Recipes/ClearScape_Functions/SeasonalNormalize_UnNormalize.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/SeasonalNormalize_UnNormalize.ipynb)
 
 #### Smoothma function in Vantage
 Apply smoothing to a time series to highlight the mean of that series.<br>
-[Python](./Recipes/ClearScape_Functions/Smoothma.ipynb)
+[Python Version](./Recipes/ClearScape_Functions/Smoothma.ipynb)
 
 #### Feature Store and Feature Engineering using tdfs4ds
 Setup and deploy a Feature Store and then continue with the process of Feature Engineering.<br>
@@ -3410,7 +3422,7 @@ Extract Teradata geospatial data and export it into widely-used formats such as 
 
 #### Deploy a Hyper-Segmented Model Scikit Learn Pipeline
 Deploy a hyper-segmented model created using the Python Scikit-Learn module and then load and run it in Vantage.<br>
-[Python](./Recipes/HyperSegmented_Model_Pipelines/Deploy_HyperSegmented_Model_Pipeline.ipynb)
+[Python Version](./Recipes/HyperSegmented_Model_Pipelines/Deploy_HyperSegmented_Model_Pipeline.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xTeradata-Packages'></a>
@@ -3418,11 +3430,10 @@ Deploy a hyper-segmented model created using the Python Scikit-Learn module and 
 
 #### Interactive Npath Widget
 Generate Sankey and Icicle charts from event logs.<br>
-[Python](./Recipes/NPath_Visualizer_Widget/NPath_Visualizer_Widget.ipynb)
+[Python Version](./Recipes/NPath_Visualizer_Widget/NPath_Visualizer_Widget.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
 ---
 
 <footer style="padding:10px;background:#f9f9f9;border-bottom:3px solid #394851">©2023 Teradata. All Rights Reserved</footer>
-
