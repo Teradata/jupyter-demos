@@ -1,5 +1,5 @@
 <img id=Teradata-logo src="./images/CSAE_Header.png" alt="Teradata" width="100%"  /><br>
-#ClearScape Analytics™ Demonstrations via Jupyter
+# ClearScape Analytics™ Demonstrations via Jupyter
  
 Welcome to ClearScape Analytics Experience.  This service consists of [multiple demonstrations](#Table-of-Contents) of the industry leading in-database analytics that **you can run on your own**.
 You can modify them or use them as examples to use with your own tools against our data or small (not sensitive) data you upload. Each notebook will:
@@ -24,19 +24,19 @@ If you have questions or issues, [**click here**](mailto:SC230208@teradata.com?s
 
 | Getting Started | Industries | Business Function | Analytic Function| 3rd Party Tools|
 |-----------|--------------|---------------|--------------- | --------------- |
-|<a href='#xFirst-Time-User'>**First Time User**</a>|<a href='#xAutomotive'>Automotive</a>|*Finance*| |<a href='#xAWS-SageMaker'>AWS SageMaker</a>|<a href='#xPython'>Python</a>|<a href='#xAnomaly-Detection'>Anomaly Detection</a>|*Beta Review*|<a href='#xAWS'>AWS</a>|
-|<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>|<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>| |<a href='#xAzure-ML'>Azure ML</a>|<a href='#xSQL'>SQL</a>|<a href='#xCustomer-Complaint-Analysis'>Customer Complaint Analysis</a>|<a href='#xNew'>New</a>|<a href='#xGoogle'>Google</a>|
-|<a href='#xDeveloper-Information'>Developer Information</a>|<a href='#xFinancial'>Financial</a>| | |<a href='#xCelebrus'>Celebrus</a>| |<a href='#xEnterprise-Feature-Store'>Enterprise Feature Store</a>|<a href='#xParallel-CPU-Inferencing'>Parallel CPU Inferencing</a>|<a href='#xAzure'>Azure</a>|
-| |<a href='#xHealthcare'>Healthcare</a>| | |<a href='#xDataiku'>Dataiku</a>| |*Model Factory*|<a href='#xDashboard-Notebook'>Dashboard Notebook</a>| |
-| |<a href='#xManufacturing'>Manufacturing</a>| | |<a href='#xH2O.ai'>H2O.ai</a>| | | | |
-| |<a href='#xRetail'>Retail</a>| | |*Microsoft PowerBI*| | | | |
-| |<a href='#xTelco'>Telco</a>| | |*MicroStrategy*| | | | |
-| |<a href='#xTravel-&-Transportation'>Travel & Transportation</a>| | | |<a href='#xR'>R</a>| | | |
-| |<a href='#xDefense'>Defense</a>| | |*SAP Business Objects*| | | | |
-| | | | |<a href='#xSAS'>SAS</a>| | | | |
-| | | | |*Tableau*| | | | |
-| | | | |<a href='#xVertex-AI'>Vertex AI</a>| | | | |
-| | | | |<a href='#xAWS-Bedrock'>AWS Bedrock</a>| | | | |
+|<a href='#xFirst-Time-User'>**First Time User**</a>|<a href='#xAutomotive'>Automotive</a>|<a href='#xFinance'>Finance</a>| |<a href='#xAWS-SageMaker'>AWS SageMaker</a>|<a href='#xPython'>Python</a>|<a href='#xAnomaly-Detection'>Anomaly Detection</a>|*Beta Review*|<a href='#xAWS'>AWS</a>|<a href='#xClearScape-Analytic-Functions'>ClearScape Analytic Functions</a>|
+|<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>|<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>| |<a href='#xAzure-ML'>Azure ML</a>|<a href='#xSQL'>SQL</a>|<a href='#xCustomer-Complaint-Analysis'>Customer Complaint Analysis</a>|<a href='#xNew'>New</a>|<a href='#xGoogle'>Google</a>|<a href='#xVantage-Database-Functions'>Vantage Database Functions</a>|
+|<a href='#xDeveloper-Information'>Developer Information</a>|<a href='#xFinancial'>Financial</a>| | |<a href='#xCelebrus'>Celebrus</a>| |<a href='#xEnterprise-Feature-Store'>Enterprise Feature Store</a>|<a href='#xParallel-CPU-Inferencing'>Parallel CPU Inferencing</a>|<a href='#xAzure'>Azure</a>|<a href='#xModel-Pipelines'>Model Pipelines</a>|
+|<a href='#xExperienceBot'>ExperienceBot</a>|<a href='#xHealthcare'>Healthcare</a>| | |<a href='#xDataiku'>Dataiku</a>| |*Model Factory*|<a href='#xDashboard-Notebook'>Dashboard Notebook</a>| |<a href='#xTeradata-Packages'>Teradata Packages</a>|
+| |<a href='#xManufacturing'>Manufacturing</a>| | |<a href='#xH2O.ai'>H2O.ai</a>| | |<a href='#xEFS'>EFS</a>| | |
+| |<a href='#xRetail'>Retail</a>| | |*Microsoft PowerBI*| | | | | |
+| |<a href='#xTelco'>Telco</a>| | |*MicroStrategy*| | | | | |
+| |<a href='#xTravel-&-Transportation'>Travel & Transportation</a>| | | |<a href='#xR'>R</a>| | | | |
+| |<a href='#xDefense'>Defense</a>| | |*SAP Business Objects*| | | | | |
+| | | | |<a href='#xSAS'>SAS</a>| | | | | |
+| | | | |*Tableau*| | | | | |
+| | | | |<a href='#xVertex-AI'>Vertex AI</a>| | | | | |
+| | | | |<a href='#xAWS-Bedrock'>AWS Bedrock</a>| | | | | |
 
 
 
@@ -50,6 +50,10 @@ If you have questions or issues, [**click here**](mailto:SC230208@teradata.com?s
 
 <a id='xFirst-Time-User'></a>
 ### First Time User
+
+#### Using the Vantage Enterprise Feature Store Functions
+Work through a series of practical exercises that demonstrate how to use the Enterprise Feature Store capabilities in Vantage. <br>
+[Python Version](./FeaturePreview/Enterprise_Feature_Store/EFS_Getting_Started_Python.ipynb)
 
 #### Getting Started With Azure
 Follow these steps to create your first Azure account and create an Azure Machine Learning workspace to complete our AzureML use cases.<br>
@@ -162,6 +166,18 @@ This provides an index to all of the databases used by demo notebooks on this ma
 #### How to Submit Your Demos
 It is very easy to submit your demo for publication. Tell us directory with the notebook and referenced files and grant us access to your database.  We'll take it from there.<br>
 [Python Version](./Getting_Started/How_to_Submit_Your_Demos/How_to_Submit_Your_Demos.ipynb) &ensp; [Video](./Getting_Started/How_to_Submit_Your_Demos/How_to_Submit_Your_Demos_Video.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xExperienceBot'></a>
+### ExperienceBot
+
+#### Search all notebooks with a ChatBot
+Run this notebook to search all notebooks with a ChatBot.<br>
+[Python Version](./ExperienceBot/ExperienceBot_NoCode.ipynb)
+
+#### Search all notebooks with a ChatBot using Vantage
+Run this notebook to search all notebooks with a ChatBot and Database connectivity.<br>
+[Python Version](./ExperienceBot/ExperienceBot.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
@@ -368,6 +384,10 @@ Applies machine learning to predict Remaining Useful Life (RUL) of jet engines, 
 Evaluates potential failures in spot welds based on voltage anomalies during the welding process.<br>
 [Python Version](./UseCases/Anomaly_Detection/Anomaly_Detection_Python_TrustedAI.ipynb)
 
+#### Smoothma function in Vantage
+Apply smoothing to a time series to highlight the mean of that series.<br>
+[Python Version](./Recipes/ClearScape_Functions/Smoothma.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xRetail'></a>
 ### Retail
@@ -444,9 +464,29 @@ Use NGram splitter to analyze comments  retail products to determine patterns of
 Customer reviews analysis is a crucial aspect of understanding customer sentiment and preferences. By leveraging the power of OpenAIEmbeddings and Vantage InDB Analytic Function, we can gain valuable insights from customer reviews.<br>
 [Python Version](./UseCases/Customer_reviews_analysis_using_GenAI/Customer_reviews_analysis_using_GenAI_Python.ipynb)
 
+#### DIFF and UNDIFF functions in Vantage
+Transform a stationary, seasonal, or non-stationary time series into a differenced time series and then reverse it.<br>
+[Python Version](./Recipes/ClearScape_Functions/DIFF_UNDIFF.ipynb)
+
 #### Product Recommendation via AWS Bedrock
 Use AWS Bedrock, Embedding from HuggingFace and Vantage in-DB functions to assist in providing product recommendations to develop a recipe assistant chatbot.<br>
 [Python Version](./UseCases/Chat_Powered_Product_Recommendation/Chat_powered_product_recommendation_based_on_search_output.ipynb)
+
+#### Resample function in Vantage
+Transform an irregular time series into a regular time series.<br>
+[Python Version](./Recipes/ClearScape_Functions/Resample.ipynb)
+
+#### SeasonalNormalize and Unnormalize functions in Vantage
+Take a non-stationary series and normalize it.  Then unnormalize the series to produce a forcasted series.<br>
+[Python Version](./Recipes/ClearScape_Functions/SeasonalNormalize_UnNormalize.ipynb)
+
+#### Solve complex inventory issues with Vantage In-DB functions.
+Use resampling to fill-in missing data, find phantom inventory, show key inventory metrics, calculate safe stock levels.<br>
+[SQL Version](./UseCases/Inventory_Management/Inventory_Management_SQL.ipynb)
+
+#### Feature Store and Feature Engineering using tdfs4ds
+Setup and deploy a Feature Store and then continue with the process of Feature Engineering.<br>
+[Python Version](./Recipes/Feature_Store_Feature_Engg/Feature_Engineering_and_Feature_Store_Usage.ipynb)
 
 #### Natural Language Processing
 Use NLP for Sentiment Analysis, perform Kmeans clustering, execute Principal Component Analysis (PCA) using comments received by a Retail Store<br>
@@ -483,6 +523,14 @@ This uses logistic regression for supervised learning to predict the probability
 #### Telco Network Coverage
 Demonstrates the ability of Geospatial to show signal strength, coverage areas and travel path of customers through cell tower coverage area.<br>
 [Python Version](./UseCases/Telco_Network_Coverage/Telco_Network_Coverage_Python.ipynb)
+
+#### Telco Churn using Enterprise Feature Store
+analyzing a time series of data, where each data point represents the outstanding amount at the end of each month. To detect anomalies,<br>
+[Python Version](./UseCases/EFS_Demo/Telco_Churn_using_EFS.ipynb)
+
+#### Telco Churn using Feature Store in Vantage
+Detect anomalies in monthly bill amounts to detect and prevent churn using pre-calculated features stored in Vantage.<br>
+[Python Version](./UseCases/EFS_Demo/Telco_Churn_using_tdfs4ds_Feature_Store.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xTravel-&-Transportation'></a>
@@ -538,6 +586,66 @@ Use the Unbounded Array Framework in ClearScape Analytics to classify sonar sign
 
 ## Business Function
 
+<a id='xFinance'></a>
+### Finance
+
+#### CategoricalSummary function in Vantage
+Display distinct values and counts for a column in a Banking dataset<br>
+[Python Version](./Recipes/ClearScape_Functions/CategoricalSummary.ipynb)
+
+#### ColumnSummary function in Vantage
+Summarize a column and return standard values like positive, negative, nulls, zeros, etc.<br>
+[Python Version](./Recipes/ClearScape_Functions/ColumnSummary.ipynb)
+
+#### Ftest function in Vantage
+Compare the variance of two independent populations<br>
+[Python Version](./Recipes/ClearScape_Functions/FTest.ipynb)
+
+#### GetFutileColumns function in Vantage
+Interrogate a table to discover which columns would have no impact on creating a model.<br>
+[Python Version](./Recipes/ClearScape_Functions/GetFutileColumns.ipynb)
+
+#### GetRowsWithMissingValues function in Vantage
+Display rows that have NULL values in a specified data column<br>
+[Python Version](./Recipes/ClearScape_Functions/GetRowsWithMissingValues.ipynb)
+
+#### GetRowsWithoutMissingValues function in Vantage
+Explore the rows of a dataset that have non-NULL values in specific columns.<br>
+[Python Version](./Recipes/ClearScape_Functions/GetRowsWithoutMissingValues.ipynb)
+
+#### LinearRegr function in Vantage
+Fit data to a curve using a formula that defines the relationship between the explanatory variable and the response variable.<br>
+[Python Version](./Recipes/ClearScape_Functions/LinearRegr.ipynb)
+
+#### ModelOps Notebook Scheduling using BYOM
+Users can deploy and schedule notebook jobs, with execution logs available in both HTML and notebook formats.<br>
+[Python Version](./ModelOps/16_ModelOps_Notebook_Scheduling.ipynb)
+
+#### MultivarRegr function in Vantage
+Use a formula that defines the relationship between the explanatory variable and multiple response variables.<br>
+[Python Version](./Recipes/ClearScape_Functions/MultivarRegr.ipynb)
+
+#### SimpleImputeFit and SimpleImputeTransform functions in Vantage
+Use the two functions to impute missing values in a dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/SimpleImputeFitandTransform.ipynb)
+
+#### UnivariateStatistics function in Vantage
+Use the UnivariateStatistics function available in Vantage  to explore the descriptive statistics of a dataset<br>
+[Python Version](./Recipes/ClearScape_Functions/UnivariateStatistics.ipynb)
+
+#### WhichMax function in Vantage
+Use the WhichMax function to explore a dataset.  Displays all rows that have the maximum value in a specified input table column.<br>
+[Python Version](./Recipes/ClearScape_Functions/WhichMax.ipynb)
+
+#### WhichMin function in Vantage
+Use the WhichMin function to return a specified minimum value in a specified table's column.<br>
+[Python Version](./Recipes/ClearScape_Functions/WhichMin.ipynb)
+
+#### Automatic Data Pre-Processing with tdprepview
+Prepare datasets for tabular supervised or unsupervised machine learning. Prepare data to predict customer churn for a bank.<br>
+[Python Version](./Recipes/tdprepview/Automatic_DataPreprocessing_tdprepview.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xMarketing'></a>
 ### Marketing
 
@@ -583,8 +691,12 @@ Forecasts total store sales using ARIMA (AutoRegressive Integrated Moving Averag
 
 ## Analytic Function
 
-<a id='xArima'></a>
-### Arima
+<a id='xARIMA'></a>
+### ARIMA
+
+#### Cash Demand Forecasing
+Predicts the future demand for cast in Automatic Teller Machines (ATMs) using Auto Regressive Integrated Moving Average  (ARIMA) using In-Database functions.<br>
+[SQL Version](./UseCases/Cash_Demand_Forecasting/Cash_Demand_Forecasting_SQL.ipynb)
 
 #### Sales Forecasting using Teradata AUTOARIMA
 Forecast the amount of future sales by developing a time-series modelling pipeline using Vantage and In-DB analytics<br>
@@ -609,6 +721,10 @@ Extract insights from unstructured data to identify and address customer concern
 #### Banking Churn Prediction with AutoML
 Implement the entire lifecycle of churn prediction using BYOM, VAL and AutoML.<br>
 [Python Version](./UseCases/Banking_Customer_Churn_AutoML/Banking_AutoML.ipynb)
+
+#### Telco Churn using Enterprise Feature Store
+analyzing a time series of data, where each data point represents the outstanding amount at the end of each month. To detect anomalies,<br>
+[Python Version](./UseCases/EFS_Demo/Telco_Churn_using_EFS.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xComplaint-Summarization'></a>
@@ -751,6 +867,22 @@ Extract insights from unstructured data to identify and address customer concern
 [Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Sentiment_Analysis.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xFeature-Engineering'></a>
+### Feature Engineering
+
+#### Automatic Data Pre-Processing with tdprepview
+Prepare datasets for tabular supervised or unsupervised machine learning. Prepare data to predict customer churn for a bank.<br>
+[Python Version](./Recipes/tdprepview/Automatic_DataPreprocessing_tdprepview.ipynb)
+
+#### Feature Store and Feature Engineering using tdfs4ds
+Setup and deploy a Feature Store and then continue with the process of Feature Engineering.<br>
+[Python Version](./Recipes/Feature_Store_Feature_Engg/Feature_Engineering_and_Feature_Store_Usage.ipynb)
+
+#### ModelOps Feature Engineering
+Preprocess and transform data within the ModelOps pipeline<br>
+[Python Version](./ModelOps/15_ModelOps_Feature_Engineering.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xFraud-Detection'></a>
 ### Fraud Detection
 
@@ -882,6 +1014,10 @@ Creative application of geospatial to locations of sensors in  a research lab an
 Demonstrates the ability of Geospatial to show signal strength, coverage areas and travel path of customers through cell tower coverage area.<br>
 [Python Version](./UseCases/Telco_Network_Coverage/Telco_Network_Coverage_Python.ipynb)
 
+#### TD GeoDataFrame to ESRI Conversion
+Extract Teradata geospatial data and export it into widely-used formats such as ESRI shapefiles.<br>
+[Python Version](./Recipes/TD_Geo_Esri/TD_Geo_Esri.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xHyperparameter-Tuning'></a>
 ### Hyperparameter Tuning
@@ -978,6 +1114,10 @@ Uncover hidden insights from vast amounts of consumer complaints data to enable 
 Efficiently manage and analyze customer complaints, providing actionable insights to enhance customer satisfaction and improve business operations.<br>
 [Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Summarization.ipynb)
 
+#### Hugging Face Model using Script Table Operator
+Execute a Huggingface model using the Vantage Script Table operator(STO) on Vantage Enterprise.<br>
+[Python Version](./Recipes/Huggingface_model_STO_Python/Huggingface_model_STO_Python.ipynb)
+
 #### Complaints Classification with Google Gemini
 Classify customer complaints to swiftly identify and address concerns.<br>
 [Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaints_Classification.ipynb)
@@ -1035,8 +1175,8 @@ This is a collection of demos showing multiple methods of dealing with customer 
 [Information](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Analysis_Dashboard.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xMachine-learning'></a>
-### Machine learning
+<a id='xMachine-Learning'></a>
+### Machine Learning
 
 #### Anomaly Detection of Outstanding Amounts
 Anomaly detection in bank accounts can help in identifying unusual patterns, potentially flagging issues like errors or fraudulent activities.  Enterprise re-use of Features ensures rapid creation & deployment of models while new Features can be created and used without extensive engineering support.<br>
@@ -1186,6 +1326,30 @@ Detect Parkinson's Disease at an early stage by using Vantage InDB functions for
 This introduction and table of contents introduces you to ModelOps and provides a launch for ModelOps. It is **recommended** to go through ModelOps demonstrations in sequence.<br>
 [Information](./ModelOps/00_ModelOps_Introduction.ipynb)
 
+#### ModelOps BYOM with Dataiku
+Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a Dataiku model.<br>
+[Python Version](./ModelOps/17_ModelOps_BYOM_PIMA_DATAIKU.ipynb)
+
+#### ModelOps BYOM with Datarobot
+Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a DataRobot model.<br>
+[Python Version](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
+
+#### ModelOps Notebook Scheduling using BYOM
+Users can deploy and schedule notebook jobs, with execution logs available in both HTML and notebook formats.<br>
+[Python Version](./ModelOps/16_ModelOps_Notebook_Scheduling.ipynb)
+
+#### ModelOps
+Implement Model Factory Solution Accelerator using Python commands with the Restful API layer of ClearScape Analytics ModelOps.<br>
+[Python Version](./ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb)
+
+#### ModelOps Feature Engineering
+Preprocess and transform data within the ModelOps pipeline<br>
+[Python Version](./ModelOps/15_ModelOps_Feature_Engineering.ipynb)
+
+#### PIMA Predicitons with teradataml OpenSourceML LightFBM using GIT
+Use the Teradata OpenSourceML LightGBM model to operationalize the PIMA diabetes use case with Python and ModelOps<br>
+[Python Version](./ModelOps/14_ModelOps_GIT_PIMA_Python_osml_LightGBM.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xNatural-Language-Processing'></a>
 ### Natural Language Processing
@@ -1326,6 +1490,18 @@ Uses nPath displays to show relationship of delays and predictive models to anti
  In this tutorial, we will show how to integrate Vantage Analytics capabilities  in Vertex AI ML Pipelines. Vertex AI is the environment for data scientists to deploy ML models.<br>
 [Python Version](./UseCases/Vertex_AI_Integration/Vertex_AI_Integration_Python.ipynb)
 
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xPath-Analytics'></a>
+### Path Analytics
+
+#### Interactive Npath Widget
+Generate Sankey and Icicle charts from event logs.<br>
+[Python Version](./Recipes/NPath_Visualizer_Widget/NPath_Visualizer_Widget.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xOpen-and-connected-analytics'></a>
+### Open-and-connected analytics
+
 #### Anomaly Detection in Spot Welding Process - Trusted AI
 Evaluates potential failures in spot welds based on voltage anomalies during the welding process.<br>
 [Python Version](./UseCases/Anomaly_Detection/Anomaly_Detection_Python_TrustedAI.ipynb)
@@ -1399,8 +1575,16 @@ Detect Parkinson's Disease at an early stage by using Vantage InDB functions for
 [Python Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xTeradataML-Open-Source-Functions'></a>
-### TeradataML Open Source Functions
+<a id='xteradataml-OpenSourceML'></a>
+### teradataml OpenSourceML
+
+#### Advertising Sales Prediction using teradataml OpenSourceML in Vantage
+Predict sales for multiple channels using Open-Source Machine Learning Functions<br>
+[Python Version](./UseCases/Advertising_Sales_Prediction_OpenSourceML/Advertising_Sales_Prediction_Using_OpensourceML.ipynb)
+
+#### PIMA Predicitons with teradataml OpenSourceML LightFBM using GIT
+Use the Teradata OpenSourceML LightGBM model to operationalize the PIMA diabetes use case with Python and ModelOps<br>
+[Python Version](./ModelOps/14_ModelOps_GIT_PIMA_Python_osml_LightGBM.ipynb)
 
 #### Predicting Medical Expenses in Healthcare
 Use a dataset containing variables like age, sex, BMI, smoking status, number of children, and region to build machine learning models that accurately predict healthcare costs for insurance policyholders, taking into account factors that affect medical expenses.<br>
@@ -1671,9 +1855,21 @@ Fine-tuned an OpenAI model using RAG, LangChain and LLM models framework.  Query
 Build a conversational chatbot and ask questions about a mortgage and available housing within a predefined area using LangChain.<br>
 [Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_RAG.ipynb)
 
+#### Create a Workshop version of a Notebook
+Use OpenAI to convert code cells into interactive exercises with solutions that can be collapsed or expanded.<br>
+[Python Version](./Recipes/Creating_Workshop_Notebooks/Creating_Workshop_Notebooks.ipynb)
+
 #### Resume Classification Model Training using Vantage In-DB Functions
 Use data from a collection of Resume Examples taken from kaggle for categorizing a given resume into any of the labels defined in the dataset. Summarize and ask questions using a ChatBot.<br>
 [Python Version](./Resume_Analyzer/Introduction.ipynb)
+
+#### Search all notebooks with a ChatBot
+Run this notebook to search all notebooks with a ChatBot.<br>
+[Python Version](./ExperienceBot/ExperienceBot_NoCode.ipynb)
+
+#### Search all notebooks with a ChatBot using Vantage
+Run this notebook to search all notebooks with a ChatBot and Database connectivity.<br>
+[Python Version](./ExperienceBot/ExperienceBot.ipynb)
 
 #### Mortgage Calculator Chatbot using Trusted AI(RAG)
 Experience the integration of LLM models to provide user-friendly responses to queries.  RAG combines retrieval and generative approaches.<br>
@@ -1771,6 +1967,18 @@ Bring a language model into Vantage and run NLP models in the database<br>
 Run Hugging Face Embedding Model in ONNX format to create some embeddings from a Consumer Complaints dataset<br>
 [Python Version](./UseCases/Language_Models_InVantage/Semantic_Similarity_Python.ipynb)
 
+#### Hugging Face Model using Script Table Operator
+Execute a Huggingface model using the Vantage Script Table operator(STO) on Vantage Enterprise.<br>
+[Python Version](./Recipes/Huggingface_model_STO_Python/Huggingface_model_STO_Python.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xDataRobot'></a>
+### DataRobot
+
+#### ModelOps BYOM with Datarobot
+Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a DataRobot model.<br>
+[Python Version](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
 ---
@@ -1836,6 +2044,10 @@ Create a predictive algorithm that can identify whethr or not passengers on the 
 Use the Unbounded Array Framework in ClearScape Analytics to classify sonar signals. Extract and engineer features to use in training and scoring our models.<br>
 [Python Version](./UseCases/Signal_Processing_and_Classification/Signal_Processing_and_Classification_Python.ipynb)
 
+#### Create a Workshop version of a Notebook
+Use OpenAI to convert code cells into interactive exercises with solutions that can be collapsed or expanded.<br>
+[Python Version](./Recipes/Creating_Workshop_Notebooks/Creating_Workshop_Notebooks.ipynb)
+
 #### Customer Complaint Analysis with Google Gemini
 This is a Dashboard with descriptions and links to various notebooks on various topics using Teradata Vantage and Google Gemini.<br>
 [Information](./UseCases/Complaints_Analysis_GenAI_Gemini/Complaint_Analysis_Dashboard.ipynb)
@@ -1843,6 +2055,10 @@ This is a Dashboard with descriptions and links to various notebooks on various 
 #### Getting Started with Azure OpenAI
 Follow these instructions to setup the Azure OpenAI endpoint and generate the access Keys required to run the model.<br>
 [Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Azure-OpenAI.ipynb)
+
+#### Hugging Face Model using Script Table Operator
+Execute a Huggingface model using the Vantage Script Table operator(STO) on Vantage Enterprise.<br>
+[Python Version](./Recipes/Huggingface_model_STO_Python/Huggingface_model_STO_Python.ipynb)
 
 #### Natural Language Processing
 Use NLP for Sentiment Analysis, perform Kmeans clustering, execute Principal Component Analysis (PCA) using comments received by a Retail Store<br>
@@ -1856,6 +2072,18 @@ Analyzing consumer complaints using audio files conversations<br>
 Use Teradataml Widgets to display interactive prompting to generate datasets from the Vantage database.<br>
 [Python Version](./Getting_Started/Teradataml_Widgets/Tutorial.ipynb)
 
+#### Advertising Sales Prediction using teradataml OpenSourceML in Vantage
+Predict sales for multiple channels using Open-Source Machine Learning Functions<br>
+[Python Version](./UseCases/Advertising_Sales_Prediction_OpenSourceML/Advertising_Sales_Prediction_Using_OpensourceML.ipynb)
+
+#### Antiselect function in Vantage
+Return all columns except those specified in an exclude parameter.<br>
+[Python Version](./Recipes/ClearScape_Functions/Antiselect.ipynb)
+
+#### BincodeFit and BincodeTransform functions in Vantage
+Transform continuous data into bins.  Then apply the transformation to a DataFrame.<br>
+[Python Version](./Recipes/ClearScape_Functions/BincodeFitandTransform.ipynb)
+
 #### Convert PySpark to teradatamlspk
 Convert a PySpark script to teradatamlspk syntax and generate a HTML report using Housing Prices to generate price predictions.<br>
 [Python Version](./Getting_Started/PySpark_to_Teradataml/HousingPrices_pyspark_to_tdml.ipynb)
@@ -1864,25 +2092,85 @@ Convert a PySpark script to teradatamlspk syntax and generate a HTML report usin
 Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
 [Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Analysis_Customer360.ipynb)
 
+#### Deploy a Hyper-Segmented Model Scikit Learn Pipeline
+Deploy a hyper-segmented model created using the Python Scikit-Learn module and then load and run it in Vantage.<br>
+[Python Version](./Recipes/HyperSegmented_Model_Pipelines/Deploy_HyperSegmented_Model_Pipeline.ipynb)
+
 #### Generate Teradata SQL with GenAI and AWS Bedrock
 In this demo, we use AWS Bedrock's LLMs and LangChain to create a text-to-Teradata SQL agent.<br>
 [Python Version](./UseCases/Generative_Question_Answering_GenAI_Bedrock/AWS_Bedrock_LangChain_Text_to_SQL.ipynb)
+
+#### Histogram function in Vantage
+Calculate the frequency distribution of a data set using multiple methods: Sturges, Scot, Variable-width, Equal-width<br>
+[Python Version](./Recipes/ClearScape_Functions/Histogram.ipynb)
 
 #### Introduction to Plot types using Teradataml Widgets.
 This is an introduction to using the various Plot types available as widgets: Line, Bar, Mesh, Wiggle, Geometry, etc.<br>
 [Python Version](./Getting_Started/Teradataml_Widgets/Plot_Notebook.ipynb)
 
+#### ModelOps BYOM with Dataiku
+Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a Dataiku model.<br>
+[Python Version](./ModelOps/17_ModelOps_BYOM_PIMA_DATAIKU.ipynb)
+
+#### ModelOps BYOM with Datarobot
+Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a DataRobot model.<br>
+[Python Version](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
+
+#### OutlierFilterFit and OutlierFilterTransform
+Use outlier filtering to identify and remove outliers from a dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/OutlierFilterFitandTransform.ipynb)
+
+#### QQNorm function in Vantage
+Determine if values in a data column follow normal distribution or not.<br>
+[Python Version](./Recipes/ClearScape_Functions/QQNorm.ipynb)
+
 #### Sales Forecasting using Teradata AUTOARIMA
 Forecast the amount of future sales by developing a time-series modelling pipeline using Vantage and In-DB analytics<br>
 [Python Version](./UseCases/Sales_Forecasting_AutoArima/Sales_Forecasting_AutoArima_Python.ipynb)
+
+#### Search all notebooks with a ChatBot
+Run this notebook to search all notebooks with a ChatBot.<br>
+[Python Version](./ExperienceBot/ExperienceBot_NoCode.ipynb)
+
+#### Search all notebooks with a ChatBot using Vantage
+Run this notebook to search all notebooks with a ChatBot and Database connectivity.<br>
+[Python Version](./ExperienceBot/ExperienceBot.ipynb)
 
 #### Streamlining Analytics with Hyper-Segmented Models
 By addressing unique customer behaviors and preferences within specific micro-segments, enhance customer satisfaction, boost operational efficiency, and improve profitability by to deploying and managing hyper-segmented models at scale.<br>
 [Python Version](./UseCases/Hyper_Segmented_Models/Hyper_Segmented_Models.ipynb)
 
+#### Telco Churn using Enterprise Feature Store
+analyzing a time series of data, where each data point represents the outstanding amount at the end of each month. To detect anomalies,<br>
+[Python Version](./UseCases/EFS_Demo/Telco_Churn_using_EFS.ipynb)
+
+#### Telco Churn using Feature Store in Vantage
+Detect anomalies in monthly bill amounts to detect and prevent churn using pre-calculated features stored in Vantage.<br>
+[Python Version](./UseCases/EFS_Demo/Telco_Churn_using_tdfs4ds_Feature_Store.ipynb)
+
+#### Using Pearson's chi-squared test function in Vantage
+Use the Vantage implementation of Pearson's chi-square test to compare goodness of fit, homogeneity, and independence.<br>
+[Python Version](./Recipes/ClearScape_Functions/ChiSq.ipynb)
+
+#### Using the Analysis of Variance (Anova) function in Vantage
+Use the Anova function to execute a statistical test to analyze the difference between the means of more than two groups<br>
+[Python Version](./Recipes/ClearScape_Functions/Anova.ipynb)
+
+#### Using the Vantage Enterprise Feature Store Functions
+Work through a series of practical exercises that demonstrate how to use the Enterprise Feature Store capabilities in Vantage. <br>
+[Python Version](./FeaturePreview/Enterprise_Feature_Store/EFS_Getting_Started_Python.ipynb)
+
 #### Banking Churn Prediction with AutoML
 Implement the entire lifecycle of churn prediction using BYOM, VAL and AutoML.<br>
 [Python Version](./UseCases/Banking_Customer_Churn_AutoML/Banking_AutoML.ipynb)
+
+#### CategoricalSummary function in Vantage
+Display distinct values and counts for a column in a Banking dataset<br>
+[Python Version](./Recipes/ClearScape_Functions/CategoricalSummary.ipynb)
+
+#### ColumnSummary function in Vantage
+Summarize a column and return standard values like positive, negative, nulls, zeros, etc.<br>
+[Python Version](./Recipes/ClearScape_Functions/ColumnSummary.ipynb)
 
 #### Complaints Classification with OpenAI
 Classify customer complaints to swiftly identify and address concerns.<br>
@@ -1916,13 +2204,53 @@ Customer reviews analysis is a crucial aspect of understanding customer sentimen
 Compare the distribution and variation of data between two time intervals usin In-DB function executed via a framework to provide alerts highlighting data anomalies.<br>
 [Python Version](./UseCases/Data_Quality_Anomaly_Detection/Data_Quality_Anomaly_Detection_Python.ipynb)
 
+#### DIFF and UNDIFF functions in Vantage
+Transform a stationary, seasonal, or non-stationary time series into a differenced time series and then reverse it.<br>
+[Python Version](./Recipes/ClearScape_Functions/DIFF_UNDIFF.ipynb)
+
 #### Execute Custom Python Scripts in Vantage
 Run an external custom python script in Vantage using Script Table Operator(STO) to execute custom python scripts on Vantage<br>
 [Python Version](./Getting_Started/Script_Table_Operator/Getting_Started_STO_Python.ipynb)
 
+#### Ftest function in Vantage
+Compare the variance of two independent populations<br>
+[Python Version](./Recipes/ClearScape_Functions/FTest.ipynb)
+
+#### GetFutileColumns function in Vantage
+Interrogate a table to discover which columns would have no impact on creating a model.<br>
+[Python Version](./Recipes/ClearScape_Functions/GetFutileColumns.ipynb)
+
+#### GetRowsWithMissingValues function in Vantage
+Display rows that have NULL values in a specified data column<br>
+[Python Version](./Recipes/ClearScape_Functions/GetRowsWithMissingValues.ipynb)
+
+#### GetRowsWithoutMissingValues function in Vantage
+Explore the rows of a dataset that have non-NULL values in specific columns.<br>
+[Python Version](./Recipes/ClearScape_Functions/GetRowsWithoutMissingValues.ipynb)
+
+#### Interactive Npath Widget
+Generate Sankey and Icicle charts from event logs.<br>
+[Python Version](./Recipes/NPath_Visualizer_Widget/NPath_Visualizer_Widget.ipynb)
+
+#### LinearRegr function in Vantage
+Fit data to a curve using a formula that defines the relationship between the explanatory variable and the response variable.<br>
+[Python Version](./Recipes/ClearScape_Functions/LinearRegr.ipynb)
+
 #### Mental Health Chat with Fine-tuned OpenAI Model
 Train a GPT-3.5 Turbo model using the OpenAI API endpoint.  Ask mental health questions using a chat input box.<br>
 [Python Version](./UseCases/Fine_Tuning_OpenAI_Model/Fine_Tuning_OpenAI_Model_Python.ipynb)
+
+#### ModelOps
+Implement Model Factory Solution Accelerator using Python commands with the Restful API layer of ClearScape Analytics ModelOps.<br>
+[Python Version](./ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb)
+
+#### ModelOps Feature Engineering
+Preprocess and transform data within the ModelOps pipeline<br>
+[Python Version](./ModelOps/15_ModelOps_Feature_Engineering.ipynb)
+
+#### ModelOps Notebook Scheduling using BYOM
+Users can deploy and schedule notebook jobs, with execution logs available in both HTML and notebook formats.<br>
+[Python Version](./ModelOps/16_ModelOps_Notebook_Scheduling.ipynb)
 
 #### Mortgage Calculator chatbot using GenAI: RAG
 Build a conversational chatbot and ask questions about a mortgage and available housing within a predefined area using LangChain.<br>
@@ -1932,25 +2260,69 @@ Build a conversational chatbot and ask questions about a mortgage and available 
 Experience the integration of LLM models to provide user-friendly responses to queries.  RAG combines retrieval and generative approaches.<br>
 [Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_RAG.ipynb)
 
+#### MultivarRegr function in Vantage
+Use a formula that defines the relationship between the explanatory variable and multiple response variables.<br>
+[Python Version](./Recipes/ClearScape_Functions/MultivarRegr.ipynb)
+
 #### Parkinson's Disease Prediction using Signal Processing
 Detect Parkinson's Disease at an early stage by using Vantage InDB functions for model training and scoring to compare the performance of two models against biomedical voice measurements.<br>
 [Python Version](./UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_Python.ipynb)
+
+#### PIMA Predicitons with teradataml OpenSourceML LightFBM using GIT
+Use the Teradata OpenSourceML LightGBM model to operationalize the PIMA diabetes use case with Python and ModelOps<br>
+[Python Version](./ModelOps/14_ModelOps_GIT_PIMA_Python_osml_LightGBM.ipynb)
+
+#### Resample function in Vantage
+Transform an irregular time series into a regular time series.<br>
+[Python Version](./Recipes/ClearScape_Functions/Resample.ipynb)
+
+#### SeasonalNormalize and Unnormalize functions in Vantage
+Take a non-stationary series and normalize it.  Then unnormalize the series to produce a forcasted series.<br>
+[Python Version](./Recipes/ClearScape_Functions/SeasonalNormalize_UnNormalize.ipynb)
 
 #### Sentiment Analysis with OpenAI
 Extract insights from unstructured data to identify and address customer concerns.<br>
 [Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Sentiment_Analysis.ipynb)
 
+#### SimpleImputeFit and SimpleImputeTransform functions in Vantage
+Use the two functions to impute missing values in a dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/SimpleImputeFitandTransform.ipynb)
+
+#### Smoothma function in Vantage
+Apply smoothing to a time series to highlight the mean of that series.<br>
+[Python Version](./Recipes/ClearScape_Functions/Smoothma.ipynb)
+
 #### Speech Recognition and Sentiment Analysis with OpenAI
 Analyzing consumer complaints using audio files conversations<br>
 [Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Speech_Recognition.ipynb)
+
+#### TD GeoDataFrame to ESRI Conversion
+Extract Teradata geospatial data and export it into widely-used formats such as ESRI shapefiles.<br>
+[Python Version](./Recipes/TD_Geo_Esri/TD_Geo_Esri.ipynb)
 
 #### Topic Modelling with OpenAI
 Uncover hidden insights from vast amounts of consumer complaints data to enable the identification of trends.<br>
 [Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Topic_Modelling.ipynb)
 
+#### UnivariateStatistics function in Vantage
+Use the UnivariateStatistics function available in Vantage  to explore the descriptive statistics of a dataset<br>
+[Python Version](./Recipes/ClearScape_Functions/UnivariateStatistics.ipynb)
+
+#### WhichMax function in Vantage
+Use the WhichMax function to explore a dataset.  Displays all rows that have the maximum value in a specified input table column.<br>
+[Python Version](./Recipes/ClearScape_Functions/WhichMax.ipynb)
+
+#### WhichMin function in Vantage
+Use the WhichMin function to return a specified minimum value in a specified table's column.<br>
+[Python Version](./Recipes/ClearScape_Functions/WhichMin.ipynb)
+
 #### Anomaly Detection in Spot Welding Process - Trusted AI
 Evaluates potential failures in spot welds based on voltage anomalies during the welding process.<br>
 [Python Version](./UseCases/Anomaly_Detection/Anomaly_Detection_Python_TrustedAI.ipynb)
+
+#### Automatic Data Pre-Processing with tdprepview
+Prepare datasets for tabular supervised or unsupervised machine learning. Prepare data to predict customer churn for a bank.<br>
+[Python Version](./Recipes/tdprepview/Automatic_DataPreprocessing_tdprepview.ipynb)
 
 #### Cancer Prediction using the TDAPIClient and VertexAI
 Use TDAPIClient to connect to the Google Cloud Vertex API Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker. Deploy the solution's ML model.<br>
@@ -1959,6 +2331,10 @@ Use TDAPIClient to connect to the Google Cloud Vertex API Endpoint to orchestrat
 #### Customer Complaints Analysis Dashboard with OpenAI
 This is a Dashboard with descriptions and links to various notebooks on various topics using Teradata Vantage and Microsoft Azure.<br>
 [Information](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaint_Analysis_Dashboard.ipynb)
+
+#### Feature Store and Feature Engineering using tdfs4ds
+Setup and deploy a Feature Store and then continue with the process of Feature Engineering.<br>
+[Python Version](./Recipes/Feature_Store_Feature_Engg/Feature_Engineering_and_Feature_Store_Usage.ipynb)
 
 #### Product Recommendation via AWS Bedrock
 Use AWS Bedrock, Embedding from HuggingFace and Vantage in-DB functions to assist in providing product recommendations to develop a recipe assistant chatbot.<br>
@@ -2276,6 +2652,26 @@ Analysis of customer purchase behavior using nPath® analysis in Python with vis
 Use context-based product recommendations powered by GenAI Large Language Models to enhance a shopping experience.<br>
 [Python-SQL Version](./UseCases/Grocery_Recommendation/Grocery_Recommendation_PY_SQL.ipynb)
 
+#### Solve complex inventory issues with Vantage In-DB functions.
+Use resampling to fill-in missing data, find phantom inventory, show key inventory metrics, calculate safe stock levels.<br>
+[SQL Version](./UseCases/Inventory_Management/Inventory_Management_SQL.ipynb)
+
+#### ModelOps BYOM with Dataiku
+Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a Dataiku model.<br>
+[Python Version](./ModelOps/17_ModelOps_BYOM_PIMA_DATAIKU.ipynb)
+
+#### ModelOps BYOM with Datarobot
+Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a DataRobot model.<br>
+[Python Version](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
+
+#### LinearRegr function in Vantage
+Fit data to a curve using a formula that defines the relationship between the explanatory variable and the response variable.<br>
+[Python Version](./Recipes/ClearScape_Functions/LinearRegr.ipynb)
+
+#### MultivarRegr function in Vantage
+Use a formula that defines the relationship between the explanatory variable and multiple response variables.<br>
+[Python Version](./Recipes/ClearScape_Functions/MultivarRegr.ipynb)
+
 #### 4D Analytics on bike sharing
 Demonstration of Geospatial and TimeSeries using Austin bike trip data between 2014 and 2017.<br>
 [Python-SQL Version](./UseCases/4D_Analytics_on_bike_sharing/4D_Analytics_on_bike_sharing_PY_SQL.ipynb) &ensp; [SQL Version](./UseCases/4D_Analytics_on_bike_sharing/4D_Analytics_on_bike_sharing_SQL.ipynb)
@@ -2542,25 +2938,177 @@ Anomaly detection in bank accounts can help in identifying unusual patterns, pot
 <a id='xNew'></a>
 ### New
 
-#### Enhance Product Hierarchies with In-DB K-means Clustering
-Enhance a product hierarchy by leveraging time series analysis and clustering techniques<br>
-[Python Version](./UseCases/Retail_Product_Hierarchy/Retail_Product_Hierarchy_Clustering_Python.ipynb)
+#### ModelOps
+Implement Model Factory Solution Accelerator using Python commands with the Restful API layer of ClearScape Analytics ModelOps.<br>
+[Python Version](./ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb)
 
-#### Execute Custom Python Scripts in Vantage
-Run an external custom python script in Vantage using Script Table Operator(STO) to execute custom python scripts on Vantage<br>
-[Python Version](./Getting_Started/Script_Table_Operator/Getting_Started_STO_Python.ipynb)
+#### Search all notebooks with a ChatBot
+Run this notebook to search all notebooks with a ChatBot.<br>
+[Python Version](./ExperienceBot/ExperienceBot_NoCode.ipynb)
 
-#### Resume Classification Model Training using Vantage In-DB Functions
-Use data from a collection of Resume Examples taken from kaggle for categorizing a given resume into any of the labels defined in the dataset. Summarize and ask questions using a ChatBot.<br>
-[Python Version](./Resume_Analyzer/Introduction.ipynb)
+#### Search all notebooks with a ChatBot using Vantage
+Run this notebook to search all notebooks with a ChatBot and Database connectivity.<br>
+[Python Version](./ExperienceBot/ExperienceBot.ipynb)
 
-#### Sales Forecasting using Teradata AUTOARIMA
-Forecast the amount of future sales by developing a time-series modelling pipeline using Vantage and In-DB analytics<br>
-[Python Version](./UseCases/Sales_Forecasting_AutoArima/Sales_Forecasting_AutoArima_Python.ipynb)
+#### Create a Workshop version of a Notebook
+Use OpenAI to convert code cells into interactive exercises with solutions that can be collapsed or expanded.<br>
+[Python Version](./Recipes/Creating_Workshop_Notebooks/Creating_Workshop_Notebooks.ipynb)
 
-#### Streamlining Analytics with Hyper-Segmented Models
-By addressing unique customer behaviors and preferences within specific micro-segments, enhance customer satisfaction, boost operational efficiency, and improve profitability by to deploying and managing hyper-segmented models at scale.<br>
-[Python Version](./UseCases/Hyper_Segmented_Models/Hyper_Segmented_Models.ipynb)
+#### Hugging Face Model using Script Table Operator
+Execute a Huggingface model using the Vantage Script Table operator(STO) on Vantage Enterprise.<br>
+[Python Version](./Recipes/Huggingface_model_STO_Python/Huggingface_model_STO_Python.ipynb)
+
+#### Advertising Sales Prediction using teradataml OpenSourceML in Vantage
+Predict sales for multiple channels using Open-Source Machine Learning Functions<br>
+[Python Version](./UseCases/Advertising_Sales_Prediction_OpenSourceML/Advertising_Sales_Prediction_Using_OpensourceML.ipynb)
+
+#### Antiselect function in Vantage
+Return all columns except those specified in an exclude parameter.<br>
+[Python Version](./Recipes/ClearScape_Functions/Antiselect.ipynb)
+
+#### BincodeFit and BincodeTransform functions in Vantage
+Transform continuous data into bins.  Then apply the transformation to a DataFrame.<br>
+[Python Version](./Recipes/ClearScape_Functions/BincodeFitandTransform.ipynb)
+
+#### Deploy a Hyper-Segmented Model Scikit Learn Pipeline
+Deploy a hyper-segmented model created using the Python Scikit-Learn module and then load and run it in Vantage.<br>
+[Python Version](./Recipes/HyperSegmented_Model_Pipelines/Deploy_HyperSegmented_Model_Pipeline.ipynb)
+
+#### Histogram function in Vantage
+Calculate the frequency distribution of a data set using multiple methods: Sturges, Scot, Variable-width, Equal-width<br>
+[Python Version](./Recipes/ClearScape_Functions/Histogram.ipynb)
+
+#### OutlierFilterFit and OutlierFilterTransform
+Use outlier filtering to identify and remove outliers from a dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/OutlierFilterFitandTransform.ipynb)
+
+#### QQNorm function in Vantage
+Determine if values in a data column follow normal distribution or not.<br>
+[Python Version](./Recipes/ClearScape_Functions/QQNorm.ipynb)
+
+#### Solve complex inventory issues with Vantage In-DB functions.
+Use resampling to fill-in missing data, find phantom inventory, show key inventory metrics, calculate safe stock levels.<br>
+[SQL Version](./UseCases/Inventory_Management/Inventory_Management_SQL.ipynb)
+
+#### Telco Churn using Enterprise Feature Store
+analyzing a time series of data, where each data point represents the outstanding amount at the end of each month. To detect anomalies,<br>
+[Python Version](./UseCases/EFS_Demo/Telco_Churn_using_EFS.ipynb)
+
+#### Telco Churn using Feature Store in Vantage
+Detect anomalies in monthly bill amounts to detect and prevent churn using pre-calculated features stored in Vantage.<br>
+[Python Version](./UseCases/EFS_Demo/Telco_Churn_using_tdfs4ds_Feature_Store.ipynb)
+
+#### Using Pearson's chi-squared test function in Vantage
+Use the Vantage implementation of Pearson's chi-square test to compare goodness of fit, homogeneity, and independence.<br>
+[Python Version](./Recipes/ClearScape_Functions/ChiSq.ipynb)
+
+#### Using the Analysis of Variance (Anova) function in Vantage
+Use the Anova function to execute a statistical test to analyze the difference between the means of more than two groups<br>
+[Python Version](./Recipes/ClearScape_Functions/Anova.ipynb)
+
+#### Using the Vantage Enterprise Feature Store Functions
+Work through a series of practical exercises that demonstrate how to use the Enterprise Feature Store capabilities in Vantage. <br>
+[Python Version](./FeaturePreview/Enterprise_Feature_Store/EFS_Getting_Started_Python.ipynb)
+
+#### CategoricalSummary function in Vantage
+Display distinct values and counts for a column in a Banking dataset<br>
+[Python Version](./Recipes/ClearScape_Functions/CategoricalSummary.ipynb)
+
+#### ColumnSummary function in Vantage
+Summarize a column and return standard values like positive, negative, nulls, zeros, etc.<br>
+[Python Version](./Recipes/ClearScape_Functions/ColumnSummary.ipynb)
+
+#### DIFF and UNDIFF functions in Vantage
+Transform a stationary, seasonal, or non-stationary time series into a differenced time series and then reverse it.<br>
+[Python Version](./Recipes/ClearScape_Functions/DIFF_UNDIFF.ipynb)
+
+#### Ftest function in Vantage
+Compare the variance of two independent populations<br>
+[Python Version](./Recipes/ClearScape_Functions/FTest.ipynb)
+
+#### GetFutileColumns function in Vantage
+Interrogate a table to discover which columns would have no impact on creating a model.<br>
+[Python Version](./Recipes/ClearScape_Functions/GetFutileColumns.ipynb)
+
+#### GetRowsWithMissingValues function in Vantage
+Display rows that have NULL values in a specified data column<br>
+[Python Version](./Recipes/ClearScape_Functions/GetRowsWithMissingValues.ipynb)
+
+#### GetRowsWithoutMissingValues function in Vantage
+Explore the rows of a dataset that have non-NULL values in specific columns.<br>
+[Python Version](./Recipes/ClearScape_Functions/GetRowsWithoutMissingValues.ipynb)
+
+#### Interactive Npath Widget
+Generate Sankey and Icicle charts from event logs.<br>
+[Python Version](./Recipes/NPath_Visualizer_Widget/NPath_Visualizer_Widget.ipynb)
+
+#### ModelOps BYOM with Dataiku
+Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a Dataiku model.<br>
+[Python Version](./ModelOps/17_ModelOps_BYOM_PIMA_DATAIKU.ipynb)
+
+#### ModelOps BYOM with Datarobot
+Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a DataRobot model.<br>
+[Python Version](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
+
+#### ModelOps Feature Engineering
+Preprocess and transform data within the ModelOps pipeline<br>
+[Python Version](./ModelOps/15_ModelOps_Feature_Engineering.ipynb)
+
+#### ModelOps Notebook Scheduling using BYOM
+Users can deploy and schedule notebook jobs, with execution logs available in both HTML and notebook formats.<br>
+[Python Version](./ModelOps/16_ModelOps_Notebook_Scheduling.ipynb)
+
+#### PIMA Predicitons with teradataml OpenSourceML LightFBM using GIT
+Use the Teradata OpenSourceML LightGBM model to operationalize the PIMA diabetes use case with Python and ModelOps<br>
+[Python Version](./ModelOps/14_ModelOps_GIT_PIMA_Python_osml_LightGBM.ipynb)
+
+#### Resample function in Vantage
+Transform an irregular time series into a regular time series.<br>
+[Python Version](./Recipes/ClearScape_Functions/Resample.ipynb)
+
+#### SeasonalNormalize and Unnormalize functions in Vantage
+Take a non-stationary series and normalize it.  Then unnormalize the series to produce a forcasted series.<br>
+[Python Version](./Recipes/ClearScape_Functions/SeasonalNormalize_UnNormalize.ipynb)
+
+#### SimpleImputeFit and SimpleImputeTransform functions in Vantage
+Use the two functions to impute missing values in a dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/SimpleImputeFitandTransform.ipynb)
+
+#### Smoothma function in Vantage
+Apply smoothing to a time series to highlight the mean of that series.<br>
+[Python Version](./Recipes/ClearScape_Functions/Smoothma.ipynb)
+
+#### TD GeoDataFrame to ESRI Conversion
+Extract Teradata geospatial data and export it into widely-used formats such as ESRI shapefiles.<br>
+[Python Version](./Recipes/TD_Geo_Esri/TD_Geo_Esri.ipynb)
+
+#### UnivariateStatistics function in Vantage
+Use the UnivariateStatistics function available in Vantage  to explore the descriptive statistics of a dataset<br>
+[Python Version](./Recipes/ClearScape_Functions/UnivariateStatistics.ipynb)
+
+#### WhichMax function in Vantage
+Use the WhichMax function to explore a dataset.  Displays all rows that have the maximum value in a specified input table column.<br>
+[Python Version](./Recipes/ClearScape_Functions/WhichMax.ipynb)
+
+#### WhichMin function in Vantage
+Use the WhichMin function to return a specified minimum value in a specified table's column.<br>
+[Python Version](./Recipes/ClearScape_Functions/WhichMin.ipynb)
+
+#### Automatic Data Pre-Processing with tdprepview
+Prepare datasets for tabular supervised or unsupervised machine learning. Prepare data to predict customer churn for a bank.<br>
+[Python Version](./Recipes/tdprepview/Automatic_DataPreprocessing_tdprepview.ipynb)
+
+#### Feature Store and Feature Engineering using tdfs4ds
+Setup and deploy a Feature Store and then continue with the process of Feature Engineering.<br>
+[Python Version](./Recipes/Feature_Store_Feature_Engg/Feature_Engineering_and_Feature_Store_Usage.ipynb)
+
+#### LinearRegr function in Vantage
+Fit data to a curve using a formula that defines the relationship between the explanatory variable and the response variable.<br>
+[Python Version](./Recipes/ClearScape_Functions/LinearRegr.ipynb)
+
+#### MultivarRegr function in Vantage
+Use a formula that defines the relationship between the explanatory variable and multiple response variables.<br>
+[Python Version](./Recipes/ClearScape_Functions/MultivarRegr.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xParallel-CPU-Inferencing'></a>
@@ -2605,6 +3153,22 @@ This is a collection of demos showing multiple methods of dealing with customer 
 #### Customer Complaints Analysis Dashboard with OpenAI
 This is a Dashboard with descriptions and links to various notebooks on various topics using Teradata Vantage and Microsoft Azure.<br>
 [Information](./UseCases/Complaints_Analysis_Azure_OpenAI/Complaint_Analysis_Dashboard.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xEFS'></a>
+### EFS
+
+#### Telco Churn using Enterprise Feature Store
+analyzing a time series of data, where each data point represents the outstanding amount at the end of each month. To detect anomalies,<br>
+[Python Version](./UseCases/EFS_Demo/Telco_Churn_using_EFS.ipynb)
+
+#### Telco Churn using Feature Store in Vantage
+Detect anomalies in monthly bill amounts to detect and prevent churn using pre-calculated features stored in Vantage.<br>
+[Python Version](./UseCases/EFS_Demo/Telco_Churn_using_tdfs4ds_Feature_Store.ipynb)
+
+#### Using the Vantage Enterprise Feature Store Functions
+Work through a series of practical exercises that demonstrate how to use the Enterprise Feature Store capabilities in Vantage. <br>
+[Python Version](./FeaturePreview/Enterprise_Feature_Store/EFS_Getting_Started_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
@@ -2739,5 +3303,137 @@ Uncover hidden insights from vast amounts of consumer complaints data to enable 
 
 ---
 
-<footer style="padding:10px;background:#f9f9f9;border-bottom:3px solid #394851">©2023,2024 Teradata. All Rights Reserved</footer>
+## Recipes
 
+<a id='xClearScape-Analytic-Functions'></a>
+### ClearScape Analytic Functions
+
+#### Antiselect function in Vantage
+Return all columns except those specified in an exclude parameter.<br>
+[Python Version](./Recipes/ClearScape_Functions/Antiselect.ipynb)
+
+#### BincodeFit and BincodeTransform functions in Vantage
+Transform continuous data into bins.  Then apply the transformation to a DataFrame.<br>
+[Python Version](./Recipes/ClearScape_Functions/BincodeFitandTransform.ipynb)
+
+#### CategoricalSummary function in Vantage
+Display distinct values and counts for a column in a Banking dataset<br>
+[Python Version](./Recipes/ClearScape_Functions/CategoricalSummary.ipynb)
+
+#### ColumnSummary function in Vantage
+Summarize a column and return standard values like positive, negative, nulls, zeros, etc.<br>
+[Python Version](./Recipes/ClearScape_Functions/ColumnSummary.ipynb)
+
+#### Ftest function in Vantage
+Compare the variance of two independent populations<br>
+[Python Version](./Recipes/ClearScape_Functions/FTest.ipynb)
+
+#### GetFutileColumns function in Vantage
+Interrogate a table to discover which columns would have no impact on creating a model.<br>
+[Python Version](./Recipes/ClearScape_Functions/GetFutileColumns.ipynb)
+
+#### GetRowsWithMissingValues function in Vantage
+Display rows that have NULL values in a specified data column<br>
+[Python Version](./Recipes/ClearScape_Functions/GetRowsWithMissingValues.ipynb)
+
+#### GetRowsWithoutMissingValues function in Vantage
+Explore the rows of a dataset that have non-NULL values in specific columns.<br>
+[Python Version](./Recipes/ClearScape_Functions/GetRowsWithoutMissingValues.ipynb)
+
+#### Histogram function in Vantage
+Calculate the frequency distribution of a data set using multiple methods: Sturges, Scot, Variable-width, Equal-width<br>
+[Python Version](./Recipes/ClearScape_Functions/Histogram.ipynb)
+
+#### LinearRegr function in Vantage
+Fit data to a curve using a formula that defines the relationship between the explanatory variable and the response variable.<br>
+[Python Version](./Recipes/ClearScape_Functions/LinearRegr.ipynb)
+
+#### MultivarRegr function in Vantage
+Use a formula that defines the relationship between the explanatory variable and multiple response variables.<br>
+[Python Version](./Recipes/ClearScape_Functions/MultivarRegr.ipynb)
+
+#### OutlierFilterFit and OutlierFilterTransform
+Use outlier filtering to identify and remove outliers from a dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/OutlierFilterFitandTransform.ipynb)
+
+#### QQNorm function in Vantage
+Determine if values in a data column follow normal distribution or not.<br>
+[Python Version](./Recipes/ClearScape_Functions/QQNorm.ipynb)
+
+#### SimpleImputeFit and SimpleImputeTransform functions in Vantage
+Use the two functions to impute missing values in a dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/SimpleImputeFitandTransform.ipynb)
+
+#### UnivariateStatistics function in Vantage
+Use the UnivariateStatistics function available in Vantage  to explore the descriptive statistics of a dataset<br>
+[Python Version](./Recipes/ClearScape_Functions/UnivariateStatistics.ipynb)
+
+#### Using Pearson's chi-squared test function in Vantage
+Use the Vantage implementation of Pearson's chi-square test to compare goodness of fit, homogeneity, and independence.<br>
+[Python Version](./Recipes/ClearScape_Functions/ChiSq.ipynb)
+
+#### Using the Analysis of Variance (Anova) function in Vantage
+Use the Anova function to execute a statistical test to analyze the difference between the means of more than two groups<br>
+[Python Version](./Recipes/ClearScape_Functions/Anova.ipynb)
+
+#### WhichMax function in Vantage
+Use the WhichMax function to explore a dataset.  Displays all rows that have the maximum value in a specified input table column.<br>
+[Python Version](./Recipes/ClearScape_Functions/WhichMax.ipynb)
+
+#### WhichMin function in Vantage
+Use the WhichMin function to return a specified minimum value in a specified table's column.<br>
+[Python Version](./Recipes/ClearScape_Functions/WhichMin.ipynb)
+
+#### Automatic Data Pre-Processing with tdprepview
+Prepare datasets for tabular supervised or unsupervised machine learning. Prepare data to predict customer churn for a bank.<br>
+[Python Version](./Recipes/tdprepview/Automatic_DataPreprocessing_tdprepview.ipynb)
+
+#### DIFF and UNDIFF functions in Vantage
+Transform a stationary, seasonal, or non-stationary time series into a differenced time series and then reverse it.<br>
+[Python Version](./Recipes/ClearScape_Functions/DIFF_UNDIFF.ipynb)
+
+#### Resample function in Vantage
+Transform an irregular time series into a regular time series.<br>
+[Python Version](./Recipes/ClearScape_Functions/Resample.ipynb)
+
+#### SeasonalNormalize and Unnormalize functions in Vantage
+Take a non-stationary series and normalize it.  Then unnormalize the series to produce a forcasted series.<br>
+[Python Version](./Recipes/ClearScape_Functions/SeasonalNormalize_UnNormalize.ipynb)
+
+#### Smoothma function in Vantage
+Apply smoothing to a time series to highlight the mean of that series.<br>
+[Python Version](./Recipes/ClearScape_Functions/Smoothma.ipynb)
+
+#### Feature Store and Feature Engineering using tdfs4ds
+Setup and deploy a Feature Store and then continue with the process of Feature Engineering.<br>
+[Python Version](./Recipes/Feature_Store_Feature_Engg/Feature_Engineering_and_Feature_Store_Usage.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xVantage-Database-Functions'></a>
+### Vantage Database Functions
+
+#### TD GeoDataFrame to ESRI Conversion
+Extract Teradata geospatial data and export it into widely-used formats such as ESRI shapefiles.<br>
+[Python Version](./Recipes/TD_Geo_Esri/TD_Geo_Esri.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xModel-Pipelines'></a>
+### Model Pipelines
+
+#### Deploy a Hyper-Segmented Model Scikit Learn Pipeline
+Deploy a hyper-segmented model created using the Python Scikit-Learn module and then load and run it in Vantage.<br>
+[Python Version](./Recipes/HyperSegmented_Model_Pipelines/Deploy_HyperSegmented_Model_Pipeline.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xTeradata-Packages'></a>
+### Teradata Packages
+
+#### Interactive Npath Widget
+Generate Sankey and Icicle charts from event logs.<br>
+[Python Version](./Recipes/NPath_Visualizer_Widget/NPath_Visualizer_Widget.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+
+---
+
+<footer style="padding:10px;background:#f9f9f9;border-bottom:3px solid #394851">©2023 Teradata. All Rights Reserved</footer>
