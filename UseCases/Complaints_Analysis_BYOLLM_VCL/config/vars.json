@@ -1,0 +1,102 @@
+{
+    "environment": {
+        "host": "xx.xx.xx.xx",
+        "UES_URI": "url",
+        "bucket": ""
+    },
+    "hierarchy": {
+        "DBC": {
+            "username": "xx",
+            "password": "xxx!"
+        },
+        "SYSDBA": {
+            "username": "xxx",
+            "password": "xxx",
+            "perm": "8E11",
+            "spool": "8E11"
+        },
+        "users": {
+            "perm": "3E10",
+            "spool": "1E11",
+            "support_users": [
+                {
+                    "username": "xxxx",
+                    "password": "xxx"
+                }
+            ],
+            "business_users": [
+                {
+                    "username": "xxx",
+                    "password": "xxx",
+                    "role": "xxx",
+                    "compute_group": "xxx"
+                },
+                {
+                    "username": "xxx",
+                    "password": "xxx",
+                    "role": "xxx",
+                    "compute_group": "xxx",
+                    "pat_token": "xxx",
+                    "key_file": "./config/xxx.pem"
+                }
+            ]
+        },
+        "compute_groups": [
+            {
+                "name": "xxx",
+                "type": "STANDARD",
+                "profiles": [
+                    {
+                        "name": "xxx",
+                        "type": "STANDARD",
+                        "size": "xxx",
+                        "min": "1",
+                        "max": "2"
+                    }
+                ]
+            },
+            {
+                "name": "xxx",
+                "type": "ANALYTIC",
+                "profiles": [
+                    {
+                        "name": "xxx",
+                        "type": "ANALYTIC",
+                        "size": "xxx",
+                        "min": "1",
+                        "max": "1"
+                    }
+                ]
+            }
+        ],
+        "compute_group_roles": [
+            {
+                "name": "xxx",
+                "type": "STANDARD",
+                "compute_group": "xxx"
+            },
+            {
+                "name": "xxx",
+                "type": "ANALYTIC",
+                "compute_group": "ANALYTICGROUP"
+            }
+        ],
+        "repositories": {
+            "name": "Repositories",
+            "perm": "3e11",
+            "databases": [
+                {
+                    "name": "demo",
+                    "perm": "1e11",
+                    "default_storage": "TD_NDSSTORAGE"
+                },
+                {
+                    "name": "demo_ofs",
+                    "perm": "1e11",
+                    "default_storage": "TD_OFSSTORAGE"
+                }
+            ],
+            "iam_authorizations": []
+        }
+    }
+}
