@@ -1,5 +1,5 @@
 <img id=Teradata-logo src="./images/CSAE_Header.png" alt="Teradata" width="100%"  /><br>
-# ClearScape Analytics™ Demonstrations via Jupyter
+#ClearScape Analytics™ Demonstrations via Jupyter
  
 Welcome to ClearScape Analytics Experience.  This service consists of [multiple demonstrations](#Table-of-Contents) of the industry leading in-database analytics that **you can run on your own**.
 You can modify them or use them as examples to use with your own tools against our data or small (not sensitive) data you upload. Each notebook will:
@@ -1943,6 +1943,10 @@ Analyzing consumer complaints using audio files conversations<br>
 Uncover hidden insights from vast amounts of consumer complaints data to enable the identification of trends.<br>
 [Python Version](./UseCases/Complaints_Analysis_GenAI_Gemini/Topic_Modelling.ipynb)
 
+#### Data Analyst AI Agent with LangChain and Google Gemini
+Create a text-to-SQL autonomous agent that will enable the retrieval of answers and insights from a database.<br>
+[Python Version](./UseCases/Data_Analyst_AI_Agent_Gemini/Data_Analyst_AI_Agent_Gemini.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xHugging-Face'></a>
 ### Hugging Face
@@ -1978,6 +1982,14 @@ Execute a Huggingface model using the Vantage Script Table operator(STO) on Vant
 #### ModelOps BYOM with Datarobot
 Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a DataRobot model.<br>
 [Python Version](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xLangSmith'></a>
+### LangSmith
+
+#### Data Analyst AI Agent with LangChain and Google Gemini
+Create a text-to-SQL autonomous agent that will enable the retrieval of answers and insights from a database.<br>
+[Python Version](./UseCases/Data_Analyst_AI_Agent_Gemini/Data_Analyst_AI_Agent_Gemini.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
@@ -2080,6 +2092,10 @@ Predict sales for multiple channels using Open-Source Machine Learning Functions
 Return all columns except those specified in an exclude parameter.<br>
 [Python Version](./Recipes/ClearScape_Functions/Antiselect.ipynb)
 
+#### Attribution Function in Vantage
+Use the Attribution function to assign scores to events that will then  be inserted in an Attribution Model.<br>
+[Python Version](./Recipes/ClearScape_Functions/Attribution.ipynb)
+
 #### BincodeFit and BincodeTransform functions in Vantage
 Transform continuous data into bins.  Then apply the transformation to a DataFrame.<br>
 [Python Version](./Recipes/ClearScape_Functions/BincodeFitandTransform.ipynb)
@@ -2092,13 +2108,25 @@ Convert a PySpark script to teradatamlspk syntax and generate a HTML report usin
 Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
 [Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Analysis_Customer360.ipynb)
 
+#### Data Analyst AI Agent with LangChain and Google Gemini
+Create a text-to-SQL autonomous agent that will enable the retrieval of answers and insights from a database.<br>
+[Python Version](./UseCases/Data_Analyst_AI_Agent_Gemini/Data_Analyst_AI_Agent_Gemini.ipynb)
+
 #### Deploy a Hyper-Segmented Model Scikit Learn Pipeline
 Deploy a hyper-segmented model created using the Python Scikit-Learn module and then load and run it in Vantage.<br>
 [Python Version](./Recipes/HyperSegmented_Model_Pipelines/Deploy_HyperSegmented_Model_Pipeline.ipynb)
 
+#### Fit and Transform functions in Vantage
+Determine if a specific numeric transformation can be applied to target columns and make the output available to the Transform() function.<br>
+[Python Version](./Recipes/ClearScape_Functions/FitandTransform.ipynb)
+
 #### Generate Teradata SQL with GenAI and AWS Bedrock
 In this demo, we use AWS Bedrock's LLMs and LangChain to create a text-to-Teradata SQL agent.<br>
 [Python Version](./UseCases/Generative_Question_Answering_GenAI_Bedrock/AWS_Bedrock_LangChain_Text_to_SQL.ipynb)
+
+#### GenseriesFormula Function in Vantage
+Define and apply a formula to generate a time series.<br>
+[Python Version](./Recipes/ClearScape_Functions/GenseriesFormula.ipynb)
 
 #### Histogram function in Vantage
 Calculate the frequency distribution of a data set using multiple methods: Sturges, Scot, Variable-width, Equal-width<br>
@@ -2108,6 +2136,10 @@ Calculate the frequency distribution of a data set using multiple methods: Sturg
 This is an introduction to using the various Plot types available as widgets: Line, Bar, Mesh, Wiggle, Geometry, etc.<br>
 [Python Version](./Getting_Started/Teradataml_Widgets/Plot_Notebook.ipynb)
 
+#### MatricMultiply Function in Vantage
+Create a data series based on two matrixes.<br>
+[Python Version](./Recipes/ClearScape_Functions/MatrixMultiply.ipynb)
+
 #### ModelOps BYOM with Dataiku
 Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a Dataiku model.<br>
 [Python Version](./ModelOps/17_ModelOps_BYOM_PIMA_DATAIKU.ipynb)
@@ -2115,6 +2147,14 @@ Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a Dataik
 #### ModelOps BYOM with Datarobot
 Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a DataRobot model.<br>
 [Python Version](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
+
+#### NonLinearCombineFit and NonLinearCombineTransform Function in Vantage
+Use the NonLinearCombineFit and NonLinearCombineTransform functions available in Vantage to create new feature columns in a dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/NonLinearCombineFitandTransform.ipynb)
+
+#### OneClassSVM and OneClassSVMPredict functions in Vantage
+See how to use the OneClassSVM and OneClassSVMPredict functions .<br>
+[Python Version](./Recipes/ClearScape_Functions/OneClassSVMandOneClassSVMPredict.ipynb)
 
 #### OutlierFilterFit and OutlierFilterTransform
 Use outlier filtering to identify and remove outliers from a dataset.<br>
@@ -2938,177 +2978,33 @@ Anomaly detection in bank accounts can help in identifying unusual patterns, pot
 <a id='xNew'></a>
 ### New
 
-#### ModelOps
-Implement Model Factory Solution Accelerator using Python commands with the Restful API layer of ClearScape Analytics ModelOps.<br>
-[Python Version](./ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb)
+#### Attribution Function in Vantage
+Use the Attribution function to assign scores to events that will then  be inserted in an Attribution Model.<br>
+[Python Version](./Recipes/ClearScape_Functions/Attribution.ipynb)
 
-#### Search all notebooks with a ChatBot
-Run this notebook to search all notebooks with a ChatBot.<br>
-[Python Version](./ExperienceBot/ExperienceBot_NoCode.ipynb)
+#### Data Analyst AI Agent with LangChain and Google Gemini
+Create a text-to-SQL autonomous agent that will enable the retrieval of answers and insights from a database.<br>
+[Python Version](./UseCases/Data_Analyst_AI_Agent_Gemini/Data_Analyst_AI_Agent_Gemini.ipynb)
 
-#### Search all notebooks with a ChatBot using Vantage
-Run this notebook to search all notebooks with a ChatBot and Database connectivity.<br>
-[Python Version](./ExperienceBot/ExperienceBot.ipynb)
+#### Fit and Transform functions in Vantage
+Determine if a specific numeric transformation can be applied to target columns and make the output available to the Transform() function.<br>
+[Python Version](./Recipes/ClearScape_Functions/FitandTransform.ipynb)
 
-#### Create a Workshop version of a Notebook
-Use OpenAI to convert code cells into interactive exercises with solutions that can be collapsed or expanded.<br>
-[Python Version](./Recipes/Creating_Workshop_Notebooks/Creating_Workshop_Notebooks.ipynb)
+#### GenseriesFormula Function in Vantage
+Define and apply a formula to generate a time series.<br>
+[Python Version](./Recipes/ClearScape_Functions/GenseriesFormula.ipynb)
 
-#### Hugging Face Model using Script Table Operator
-Execute a Huggingface model using the Vantage Script Table operator(STO) on Vantage Enterprise.<br>
-[Python Version](./Recipes/Huggingface_model_STO_Python/Huggingface_model_STO_Python.ipynb)
+#### MatricMultiply Function in Vantage
+Create a data series based on two matrixes.<br>
+[Python Version](./Recipes/ClearScape_Functions/MatrixMultiply.ipynb)
 
-#### Advertising Sales Prediction using teradataml OpenSourceML in Vantage
-Predict sales for multiple channels using Open-Source Machine Learning Functions<br>
-[Python Version](./UseCases/Advertising_Sales_Prediction_OpenSourceML/Advertising_Sales_Prediction_Using_OpensourceML.ipynb)
+#### NonLinearCombineFit and NonLinearCombineTransform Function in Vantage
+Use the NonLinearCombineFit and NonLinearCombineTransform functions available in Vantage to create new feature columns in a dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/NonLinearCombineFitandTransform.ipynb)
 
-#### Antiselect function in Vantage
-Return all columns except those specified in an exclude parameter.<br>
-[Python Version](./Recipes/ClearScape_Functions/Antiselect.ipynb)
-
-#### BincodeFit and BincodeTransform functions in Vantage
-Transform continuous data into bins.  Then apply the transformation to a DataFrame.<br>
-[Python Version](./Recipes/ClearScape_Functions/BincodeFitandTransform.ipynb)
-
-#### Deploy a Hyper-Segmented Model Scikit Learn Pipeline
-Deploy a hyper-segmented model created using the Python Scikit-Learn module and then load and run it in Vantage.<br>
-[Python Version](./Recipes/HyperSegmented_Model_Pipelines/Deploy_HyperSegmented_Model_Pipeline.ipynb)
-
-#### Histogram function in Vantage
-Calculate the frequency distribution of a data set using multiple methods: Sturges, Scot, Variable-width, Equal-width<br>
-[Python Version](./Recipes/ClearScape_Functions/Histogram.ipynb)
-
-#### OutlierFilterFit and OutlierFilterTransform
-Use outlier filtering to identify and remove outliers from a dataset.<br>
-[Python Version](./Recipes/ClearScape_Functions/OutlierFilterFitandTransform.ipynb)
-
-#### QQNorm function in Vantage
-Determine if values in a data column follow normal distribution or not.<br>
-[Python Version](./Recipes/ClearScape_Functions/QQNorm.ipynb)
-
-#### Solve complex inventory issues with Vantage In-DB functions.
-Use resampling to fill-in missing data, find phantom inventory, show key inventory metrics, calculate safe stock levels.<br>
-[SQL Version](./UseCases/Inventory_Management/Inventory_Management_SQL.ipynb)
-
-#### Telco Churn using Enterprise Feature Store
-analyzing a time series of data, where each data point represents the outstanding amount at the end of each month. To detect anomalies,<br>
-[Python Version](./UseCases/EFS_Demo/Telco_Churn_using_EFS.ipynb)
-
-#### Telco Churn using Feature Store in Vantage
-Detect anomalies in monthly bill amounts to detect and prevent churn using pre-calculated features stored in Vantage.<br>
-[Python Version](./UseCases/EFS_Demo/Telco_Churn_using_tdfs4ds_Feature_Store.ipynb)
-
-#### Using Pearson's chi-squared test function in Vantage
-Use the Vantage implementation of Pearson's chi-square test to compare goodness of fit, homogeneity, and independence.<br>
-[Python Version](./Recipes/ClearScape_Functions/ChiSq.ipynb)
-
-#### Using the Analysis of Variance (Anova) function in Vantage
-Use the Anova function to execute a statistical test to analyze the difference between the means of more than two groups<br>
-[Python Version](./Recipes/ClearScape_Functions/Anova.ipynb)
-
-#### Using the Vantage Enterprise Feature Store Functions
-Work through a series of practical exercises that demonstrate how to use the Enterprise Feature Store capabilities in Vantage. <br>
-[Python Version](./FeaturePreview/Enterprise_Feature_Store/EFS_Getting_Started_Python.ipynb)
-
-#### CategoricalSummary function in Vantage
-Display distinct values and counts for a column in a Banking dataset<br>
-[Python Version](./Recipes/ClearScape_Functions/CategoricalSummary.ipynb)
-
-#### ColumnSummary function in Vantage
-Summarize a column and return standard values like positive, negative, nulls, zeros, etc.<br>
-[Python Version](./Recipes/ClearScape_Functions/ColumnSummary.ipynb)
-
-#### DIFF and UNDIFF functions in Vantage
-Transform a stationary, seasonal, or non-stationary time series into a differenced time series and then reverse it.<br>
-[Python Version](./Recipes/ClearScape_Functions/DIFF_UNDIFF.ipynb)
-
-#### Ftest function in Vantage
-Compare the variance of two independent populations<br>
-[Python Version](./Recipes/ClearScape_Functions/FTest.ipynb)
-
-#### GetFutileColumns function in Vantage
-Interrogate a table to discover which columns would have no impact on creating a model.<br>
-[Python Version](./Recipes/ClearScape_Functions/GetFutileColumns.ipynb)
-
-#### GetRowsWithMissingValues function in Vantage
-Display rows that have NULL values in a specified data column<br>
-[Python Version](./Recipes/ClearScape_Functions/GetRowsWithMissingValues.ipynb)
-
-#### GetRowsWithoutMissingValues function in Vantage
-Explore the rows of a dataset that have non-NULL values in specific columns.<br>
-[Python Version](./Recipes/ClearScape_Functions/GetRowsWithoutMissingValues.ipynb)
-
-#### Interactive Npath Widget
-Generate Sankey and Icicle charts from event logs.<br>
-[Python Version](./Recipes/NPath_Visualizer_Widget/NPath_Visualizer_Widget.ipynb)
-
-#### ModelOps BYOM with Dataiku
-Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a Dataiku model.<br>
-[Python Version](./ModelOps/17_ModelOps_BYOM_PIMA_DATAIKU.ipynb)
-
-#### ModelOps BYOM with Datarobot
-Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a DataRobot model.<br>
-[Python Version](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
-
-#### ModelOps Feature Engineering
-Preprocess and transform data within the ModelOps pipeline<br>
-[Python Version](./ModelOps/15_ModelOps_Feature_Engineering.ipynb)
-
-#### ModelOps Notebook Scheduling using BYOM
-Users can deploy and schedule notebook jobs, with execution logs available in both HTML and notebook formats.<br>
-[Python Version](./ModelOps/16_ModelOps_Notebook_Scheduling.ipynb)
-
-#### PIMA Predicitons with teradataml OpenSourceML LightFBM using GIT
-Use the Teradata OpenSourceML LightGBM model to operationalize the PIMA diabetes use case with Python and ModelOps<br>
-[Python Version](./ModelOps/14_ModelOps_GIT_PIMA_Python_osml_LightGBM.ipynb)
-
-#### Resample function in Vantage
-Transform an irregular time series into a regular time series.<br>
-[Python Version](./Recipes/ClearScape_Functions/Resample.ipynb)
-
-#### SeasonalNormalize and Unnormalize functions in Vantage
-Take a non-stationary series and normalize it.  Then unnormalize the series to produce a forcasted series.<br>
-[Python Version](./Recipes/ClearScape_Functions/SeasonalNormalize_UnNormalize.ipynb)
-
-#### SimpleImputeFit and SimpleImputeTransform functions in Vantage
-Use the two functions to impute missing values in a dataset.<br>
-[Python Version](./Recipes/ClearScape_Functions/SimpleImputeFitandTransform.ipynb)
-
-#### Smoothma function in Vantage
-Apply smoothing to a time series to highlight the mean of that series.<br>
-[Python Version](./Recipes/ClearScape_Functions/Smoothma.ipynb)
-
-#### TD GeoDataFrame to ESRI Conversion
-Extract Teradata geospatial data and export it into widely-used formats such as ESRI shapefiles.<br>
-[Python Version](./Recipes/TD_Geo_Esri/TD_Geo_Esri.ipynb)
-
-#### UnivariateStatistics function in Vantage
-Use the UnivariateStatistics function available in Vantage  to explore the descriptive statistics of a dataset<br>
-[Python Version](./Recipes/ClearScape_Functions/UnivariateStatistics.ipynb)
-
-#### WhichMax function in Vantage
-Use the WhichMax function to explore a dataset.  Displays all rows that have the maximum value in a specified input table column.<br>
-[Python Version](./Recipes/ClearScape_Functions/WhichMax.ipynb)
-
-#### WhichMin function in Vantage
-Use the WhichMin function to return a specified minimum value in a specified table's column.<br>
-[Python Version](./Recipes/ClearScape_Functions/WhichMin.ipynb)
-
-#### Automatic Data Pre-Processing with tdprepview
-Prepare datasets for tabular supervised or unsupervised machine learning. Prepare data to predict customer churn for a bank.<br>
-[Python Version](./Recipes/tdprepview/Automatic_DataPreprocessing_tdprepview.ipynb)
-
-#### Feature Store and Feature Engineering using tdfs4ds
-Setup and deploy a Feature Store and then continue with the process of Feature Engineering.<br>
-[Python Version](./Recipes/Feature_Store_Feature_Engg/Feature_Engineering_and_Feature_Store_Usage.ipynb)
-
-#### LinearRegr function in Vantage
-Fit data to a curve using a formula that defines the relationship between the explanatory variable and the response variable.<br>
-[Python Version](./Recipes/ClearScape_Functions/LinearRegr.ipynb)
-
-#### MultivarRegr function in Vantage
-Use a formula that defines the relationship between the explanatory variable and multiple response variables.<br>
-[Python Version](./Recipes/ClearScape_Functions/MultivarRegr.ipynb)
+#### OneClassSVM and OneClassSVMPredict functions in Vantage
+See how to use the OneClassSVM and OneClassSVMPredict functions .<br>
+[Python Version](./Recipes/ClearScape_Functions/OneClassSVMandOneClassSVMPredict.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xParallel-CPU-Inferencing'></a>
@@ -3404,9 +3300,33 @@ Take a non-stationary series and normalize it.  Then unnormalize the series to p
 Apply smoothing to a time series to highlight the mean of that series.<br>
 [Python Version](./Recipes/ClearScape_Functions/Smoothma.ipynb)
 
+#### Attribution Function in Vantage
+Use the Attribution function to assign scores to events that will then  be inserted in an Attribution Model.<br>
+[Python Version](./Recipes/ClearScape_Functions/Attribution.ipynb)
+
 #### Feature Store and Feature Engineering using tdfs4ds
 Setup and deploy a Feature Store and then continue with the process of Feature Engineering.<br>
 [Python Version](./Recipes/Feature_Store_Feature_Engg/Feature_Engineering_and_Feature_Store_Usage.ipynb)
+
+#### Fit and Transform functions in Vantage
+Determine if a specific numeric transformation can be applied to target columns and make the output available to the Transform() function.<br>
+[Python Version](./Recipes/ClearScape_Functions/FitandTransform.ipynb)
+
+#### GenseriesFormula Function in Vantage
+Define and apply a formula to generate a time series.<br>
+[Python Version](./Recipes/ClearScape_Functions/GenseriesFormula.ipynb)
+
+#### MatricMultiply Function in Vantage
+Create a data series based on two matrixes.<br>
+[Python Version](./Recipes/ClearScape_Functions/MatrixMultiply.ipynb)
+
+#### NonLinearCombineFit and NonLinearCombineTransform Function in Vantage
+Use the NonLinearCombineFit and NonLinearCombineTransform functions available in Vantage to create new feature columns in a dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/NonLinearCombineFitandTransform.ipynb)
+
+#### OneClassSVM and OneClassSVMPredict functions in Vantage
+See how to use the OneClassSVM and OneClassSVMPredict functions .<br>
+[Python Version](./Recipes/ClearScape_Functions/OneClassSVMandOneClassSVMPredict.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xVantage-Database-Functions'></a>
@@ -3437,3 +3357,4 @@ Generate Sankey and Icicle charts from event logs.<br>
 ---
 
 <footer style="padding:10px;background:#f9f9f9;border-bottom:3px solid #394851">©2023 Teradata. All Rights Reserved</footer>
+

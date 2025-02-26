@@ -8,15 +8,15 @@
             "subjects": [
                 {
                     "id": 2,
+                    "subject": "Geospatial"
+                },
+                {
+                    "id": 2,
                     "subject": "Travel & Transportation"
                 },
                 {
                     "id": 2,
                     "subject": "Time series analytics"
-                },
-                {
-                    "id": 2,
-                    "subject": "Geospatial"
                 },
                 {
                     "id": 2,
@@ -62,10 +62,6 @@
                 {
                     "id": 225,
                     "subject": "Python"
-                },
-                {
-                    "id": 225,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -83,11 +79,11 @@
             "subjects": [
                 {
                     "id": 39,
-                    "subject": "Travel & Transportation"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 39,
-                    "subject": "Time series analytics"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 39,
@@ -122,11 +118,11 @@
                 },
                 {
                     "id": 106,
-                    "subject": "Automotive"
+                    "subject": "Manufacturing"
                 },
                 {
                     "id": 106,
-                    "subject": "Manufacturing"
+                    "subject": "Automotive"
                 },
                 {
                     "id": 106,
@@ -200,11 +196,11 @@
                 },
                 {
                     "id": 164,
-                    "subject": "Machine Learning"
+                    "subject": "Python"
                 },
                 {
                     "id": 164,
-                    "subject": "Python"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 164,
@@ -231,16 +227,38 @@
                 {
                     "id": 263,
                     "subject": "Python"
-                },
-                {
-                    "id": 263,
-                    "subject": "New"
                 }
             ],
             "links": [
                 {
                     "type": "notebook",
                     "url": "Recipes/ClearScape_Functions/Antiselect.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 272,
+            "demo": "Attribution Function in Vantage",
+            "description": "Use the Attribution function to assign scores to events that will then  be inserted in an Attribution Model.",
+            "subjects": [
+                {
+                    "id": 272,
+                    "subject": "New"
+                },
+                {
+                    "id": 272,
+                    "subject": "Python"
+                },
+                {
+                    "id": 272,
+                    "subject": "ClearScape Analytic Functions"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/Attribution.ipynb",
                     "label": "Python Version"
                 }
             ]
@@ -265,10 +283,6 @@
                 {
                     "id": 229,
                     "subject": "Python"
-                },
-                {
-                    "id": 229,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -409,10 +423,6 @@
                 {
                     "id": 264,
                     "subject": "Python"
-                },
-                {
-                    "id": 264,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -430,11 +440,11 @@
             "subjects": [
                 {
                     "id": 82,
-                    "subject": "Retail"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 82,
-                    "subject": "Path Analytics"
+                    "subject": "Retail"
                 },
                 {
                     "id": 82,
@@ -534,11 +544,11 @@
                 },
                 {
                     "id": 103,
-                    "subject": "Manufacturing"
+                    "subject": "Automotive"
                 },
                 {
                     "id": 103,
-                    "subject": "Automotive"
+                    "subject": "Manufacturing"
                 },
                 {
                     "id": 103,
@@ -640,10 +650,6 @@
                 {
                     "id": 239,
                     "subject": "Python"
-                },
-                {
-                    "id": 239,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -754,10 +760,6 @@
                 {
                     "id": 240,
                     "subject": "Python"
-                },
-                {
-                    "id": 240,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -1209,11 +1211,11 @@
             "subjects": [
                 {
                     "id": 7,
-                    "subject": "Financial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 7,
-                    "subject": "Time series analytics"
+                    "subject": "Financial"
                 },
                 {
                     "id": 7,
@@ -1266,10 +1268,6 @@
                 },
                 {
                     "id": 234,
-                    "subject": "New"
-                },
-                {
-                    "id": 234,
                     "subject": "OpenAI"
                 }
             ],
@@ -1277,32 +1275,6 @@
                 {
                     "type": "notebook",
                     "url": "Recipes/Creating_Workshop_Notebooks/Creating_Workshop_Notebooks.ipynb",
-                    "label": "Python Version"
-                }
-            ]
-        },
-        {
-            "id": 147,
-            "demo": "Credit Card Data Preparation",
-            "description": "Uses functions from TeradataML Python library to prepare data for analysis using data cleansing, exploration and feature engineering functions.",
-            "subjects": [
-                {
-                    "id": 147,
-                    "subject": "Data Preparation"
-                },
-                {
-                    "id": 147,
-                    "subject": "Financial"
-                },
-                {
-                    "id": 147,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_Python.ipynb",
                     "label": "Python Version"
                 }
             ]
@@ -1335,6 +1307,32 @@
                     "type": "nbviewer",
                     "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Credit_Card_Data_Preparation/Pop_Credit_Card_Data_Preparation_SQL.ipynb",
                     "label": "Read Only SQL"
+                }
+            ]
+        },
+        {
+            "id": 147,
+            "demo": "Credit Card Data Preparation",
+            "description": "Uses functions from TeradataML Python library to prepare data for analysis using data cleansing, exploration and feature engineering functions.",
+            "subjects": [
+                {
+                    "id": 147,
+                    "subject": "Data Preparation"
+                },
+                {
+                    "id": 147,
+                    "subject": "Financial"
+                },
+                {
+                    "id": 147,
+                    "subject": "Python"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_Python.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -1419,14 +1417,14 @@
             ],
             "links": [
                 {
-                    "type": "notebook",
-                    "url": "UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_Python.ipynb",
-                    "label": "Python Version"
-                },
-                {
                     "type": "nbviewer",
                     "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Customer_Behavior_Analysis/Pop_Customer_Behavior_Analysis_SQL.ipynb",
                     "label": "Read Only SQL"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Customer_Behavior_Analysis/Customer_Behavior_Analysis_Python.ipynb",
+                    "label": "Python Version"
                 },
                 {
                     "type": "notebook",
@@ -1798,16 +1796,42 @@
                 {
                     "id": 256,
                     "subject": "Python"
-                },
-                {
-                    "id": 256,
-                    "subject": "New"
                 }
             ],
             "links": [
                 {
                     "type": "notebook",
                     "url": "Recipes/ClearScape_Functions/DIFF_UNDIFF.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 268,
+            "demo": "Data Analyst AI Agent with LangChain and Google Gemini",
+            "description": "Create a text-to-SQL autonomous agent that will enable the retrieval of answers and insights from a database.",
+            "subjects": [
+                {
+                    "id": 268,
+                    "subject": "New"
+                },
+                {
+                    "id": 268,
+                    "subject": "Python"
+                },
+                {
+                    "id": 268,
+                    "subject": "LangSmith"
+                },
+                {
+                    "id": 268,
+                    "subject": "Google Gemini"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Data_Analyst_AI_Agent_Gemini/Data_Analyst_AI_Agent_Gemini.ipynb",
                     "label": "Python Version"
                 }
             ]
@@ -2091,10 +2115,6 @@
                 {
                     "id": 261,
                     "subject": "Python"
-                },
-                {
-                    "id": 261,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -2174,11 +2194,11 @@
             "subjects": [
                 {
                     "id": 142,
-                    "subject": "Financial"
+                    "subject": "Celebrus"
                 },
                 {
                     "id": 142,
-                    "subject": "Celebrus"
+                    "subject": "Financial"
                 },
                 {
                     "id": 142,
@@ -2248,11 +2268,11 @@
                 },
                 {
                     "id": 111,
-                    "subject": "Dataiku"
+                    "subject": "Energy & Natural Resources"
                 },
                 {
                     "id": 111,
-                    "subject": "Energy & Natural Resources"
+                    "subject": "Dataiku"
                 },
                 {
                     "id": 111,
@@ -2367,10 +2387,6 @@
                 {
                     "id": 245,
                     "subject": "Python"
-                },
-                {
-                    "id": 245,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -2432,42 +2448,6 @@
             ]
         },
         {
-            "id": 4,
-            "demo": "Financial Fraud Detection InDB",
-            "description": "Detect financial transaction fraud  using powerful in-database machine learning functions",
-            "subjects": [
-                {
-                    "id": 4,
-                    "subject": "Financial"
-                },
-                {
-                    "id": 4,
-                    "subject": "Machine Learning"
-                },
-                {
-                    "id": 4,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb",
-                    "label": "Python Version"
-                },
-                {
-                    "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Financial_Fraud_Detection_InDB/Pop_Financial_Fraud_Detection_InDB_Python.ipynb",
-                    "label": "Read Only Python"
-                },
-                {
-                    "type": "Web",
-                    "url": "https://storage.googleapis.com/clearscape_analytics_videos/Financial_Fraud_Detection_Use_Case_Demo_SP004465.MP4",
-                    "label": "Video"
-                }
-            ]
-        },
-        {
             "id": 187,
             "demo": "Financial Fraud Detection InDB",
             "description": "Detect financial transaction fraud using powerful in-database machine learning functions",
@@ -2507,6 +2487,42 @@
             ]
         },
         {
+            "id": 4,
+            "demo": "Financial Fraud Detection InDB",
+            "description": "Detect financial transaction fraud  using powerful in-database machine learning functions",
+            "subjects": [
+                {
+                    "id": 4,
+                    "subject": "Financial"
+                },
+                {
+                    "id": 4,
+                    "subject": "Machine Learning"
+                },
+                {
+                    "id": 4,
+                    "subject": "Python"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb",
+                    "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Financial_Fraud_Detection_InDB/Pop_Financial_Fraud_Detection_InDB_Python.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "Web",
+                    "url": "https://storage.googleapis.com/clearscape_analytics_videos/Financial_Fraud_Detection_Use_Case_Demo_SP004465.MP4",
+                    "label": "Video"
+                }
+            ]
+        },
+        {
             "id": 98,
             "demo": "Financial Fraud Detection VIA BYOM",
             "description": "A model that was developed externally  is imported into Vantage for evaluation and execution at scale to detect fraud.",
@@ -2538,6 +2554,32 @@
                     "type": "nbviewer",
                     "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Financial_Fraud_Detection_BYOM/Pop_Financial_Fraud_Detection_BYOM_Python.ipynb",
                     "label": "Read Only Python"
+                }
+            ]
+        },
+        {
+            "id": 270,
+            "demo": "Fit and Transform functions in Vantage",
+            "description": "Determine if a specific numeric transformation can be applied to target columns and make the output available to the Transform() function.",
+            "subjects": [
+                {
+                    "id": 270,
+                    "subject": "New"
+                },
+                {
+                    "id": 270,
+                    "subject": "Python"
+                },
+                {
+                    "id": 270,
+                    "subject": "ClearScape Analytic Functions"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/FitandTransform.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -2619,10 +2661,6 @@
                 {
                     "id": 238,
                     "subject": "Python"
-                },
-                {
-                    "id": 238,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -2704,6 +2742,32 @@
             ]
         },
         {
+            "id": 274,
+            "demo": "GenseriesFormula Function in Vantage",
+            "description": "Define and apply a formula to generate a time series.",
+            "subjects": [
+                {
+                    "id": 274,
+                    "subject": "New"
+                },
+                {
+                    "id": 274,
+                    "subject": "Python"
+                },
+                {
+                    "id": 274,
+                    "subject": "ClearScape Analytic Functions"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/GenseriesFormula.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 251,
             "demo": "GetFutileColumns function in Vantage",
             "description": "Interrogate a table to discover which columns would have no impact on creating a model.",
@@ -2719,10 +2783,6 @@
                 {
                     "id": 251,
                     "subject": "Python"
-                },
-                {
-                    "id": 251,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -2749,10 +2809,6 @@
                 {
                     "id": 241,
                     "subject": "Python"
-                },
-                {
-                    "id": 241,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -2779,10 +2835,6 @@
                 {
                     "id": 250,
                     "subject": "Python"
-                },
-                {
-                    "id": 250,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -2981,10 +3033,6 @@
                 {
                     "id": 244,
                     "subject": "Python"
-                },
-                {
-                    "id": 244,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -3033,10 +3081,6 @@
                 },
                 {
                     "id": 232,
-                    "subject": "New"
-                },
-                {
-                    "id": 232,
                     "subject": "Large Language Models"
                 },
                 {
@@ -3059,15 +3103,15 @@
             "subjects": [
                 {
                     "id": 129,
+                    "subject": "Marketing"
+                },
+                {
+                    "id": 129,
                     "subject": "Retail"
                 },
                 {
                     "id": 129,
                     "subject": "Machine Learning"
-                },
-                {
-                    "id": 129,
-                    "subject": "Marketing"
                 },
                 {
                     "id": 129,
@@ -3228,11 +3272,11 @@
             "subjects": [
                 {
                     "id": 47,
-                    "subject": "Time series analytics"
+                    "subject": "Financial"
                 },
                 {
                     "id": 47,
-                    "subject": "Financial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 47,
@@ -3268,10 +3312,6 @@
                 {
                     "id": 262,
                     "subject": "Python"
-                },
-                {
-                    "id": 262,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -3462,10 +3502,6 @@
                 {
                     "id": 259,
                     "subject": "SQL"
-                },
-                {
-                    "id": 259,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -3512,6 +3548,32 @@
             ]
         },
         {
+            "id": 271,
+            "demo": "MatricMultiply Function in Vantage",
+            "description": "Create a data series based on two matrixes.",
+            "subjects": [
+                {
+                    "id": 271,
+                    "subject": "New"
+                },
+                {
+                    "id": 271,
+                    "subject": "Python"
+                },
+                {
+                    "id": 271,
+                    "subject": "ClearScape Analytic Functions"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/MatrixMultiply.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 178,
             "demo": "Mental Health Chat with Fine-tuned OpenAI Model",
             "description": "Train a GPT-3.5 Turbo model using the OpenAI API endpoint.  Ask mental health questions using a chat input box.",
@@ -3542,10 +3604,6 @@
             "demo": "ModelOps",
             "description": "Implement Model Factory Solution Accelerator using Python commands with the Restful API layer of ClearScape Analytics ModelOps.",
             "subjects": [
-                {
-                    "id": 267,
-                    "subject": "New"
-                },
                 {
                     "id": 267,
                     "subject": "ModelOps"
@@ -3579,10 +3637,6 @@
                 {
                     "id": 257,
                     "subject": "SQL"
-                },
-                {
-                    "id": 257,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -3609,10 +3663,6 @@
                 {
                     "id": 258,
                     "subject": "SQL"
-                },
-                {
-                    "id": 258,
-                    "subject": "New"
                 },
                 {
                     "id": 258,
@@ -3643,10 +3693,6 @@
                 {
                     "id": 242,
                     "subject": "Python"
-                },
-                {
-                    "id": 242,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -3703,10 +3749,6 @@
                 {
                     "id": 237,
                     "subject": "Python"
-                },
-                {
-                    "id": 237,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -3810,11 +3852,11 @@
             "subjects": [
                 {
                     "id": 148,
-                    "subject": "Financial"
+                    "subject": "Generative AI"
                 },
                 {
                     "id": 148,
-                    "subject": "Generative AI"
+                    "subject": "Financial"
                 },
                 {
                     "id": 148,
@@ -3841,7 +3883,7 @@
             "subjects": [
                 {
                     "id": 130,
-                    "subject": "Machine Learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 130,
@@ -3849,7 +3891,7 @@
                 },
                 {
                     "id": 130,
-                    "subject": "Retail"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 130,
@@ -3880,11 +3922,11 @@
                 },
                 {
                     "id": 131,
-                    "subject": "Retail"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 131,
-                    "subject": "Marketing"
+                    "subject": "Retail"
                 },
                 {
                     "id": 131,
@@ -3924,10 +3966,6 @@
                 {
                     "id": 260,
                     "subject": "SQL"
-                },
-                {
-                    "id": 260,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -3945,11 +3983,11 @@
             "subjects": [
                 {
                     "id": 26,
-                    "subject": "Travel & Transportation"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 26,
-                    "subject": "Geospatial"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 26,
@@ -4027,6 +4065,58 @@
             ]
         },
         {
+            "id": 273,
+            "demo": "NonLinearCombineFit and NonLinearCombineTransform Function in Vantage",
+            "description": "Use the NonLinearCombineFit and NonLinearCombineTransform functions available in Vantage to create new feature columns in a dataset.",
+            "subjects": [
+                {
+                    "id": 273,
+                    "subject": "New"
+                },
+                {
+                    "id": 273,
+                    "subject": "Python"
+                },
+                {
+                    "id": 273,
+                    "subject": "ClearScape Analytic Functions"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/NonLinearCombineFitandTransform.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 269,
+            "demo": "OneClassSVM and OneClassSVMPredict functions in Vantage",
+            "description": "See how to use the OneClassSVM and OneClassSVMPredict functions .",
+            "subjects": [
+                {
+                    "id": 269,
+                    "subject": "New"
+                },
+                {
+                    "id": 269,
+                    "subject": "Python"
+                },
+                {
+                    "id": 269,
+                    "subject": "ClearScape Analytic Functions"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/OneClassSVMandOneClassSVMPredict.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 81,
             "demo": "Outlier Analysis",
             "description": "Outliers in an analysis skew the results and make it difficult to recognize the main patterns. ClearScape Analytics has tools to remove outliers automatically.",
@@ -4065,10 +4155,6 @@
                 {
                     "id": 254,
                     "subject": "Python"
-                },
-                {
-                    "id": 254,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -4095,10 +4181,6 @@
                 {
                     "id": 228,
                     "subject": "Python"
-                },
-                {
-                    "id": 228,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -4202,14 +4284,14 @@
                     "label": "Read Only Python-SQL"
                 },
                 {
-                    "type": "notebook",
-                    "url": "UseCases/Predictive_Maintenance/Predictive_Maintenance_Python.ipynb",
-                    "label": "Python-SQL Version"
-                },
-                {
                     "type": "nbviewer",
                     "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/85d6dd55cfe0e8b509e536bb4e61d9e45a2cb5c9/UseCases/Predictive_Maintenance/Pop_Predictive_Maintenance_Python.ipynb",
                     "label": "Read Only Python"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Predictive_Maintenance/Predictive_Maintenance_Python.ipynb",
+                    "label": "Python-SQL Version"
                 }
             ]
         },
@@ -4343,10 +4425,6 @@
                 {
                     "id": 243,
                     "subject": "Python"
-                },
-                {
-                    "id": 243,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -4477,11 +4555,11 @@
             "subjects": [
                 {
                     "id": 113,
-                    "subject": "Manufacturing"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 113,
-                    "subject": "Travel & Transportation"
+                    "subject": "Manufacturing"
                 },
                 {
                     "id": 113,
@@ -4521,10 +4599,6 @@
                 {
                     "id": 252,
                     "subject": "Python"
-                },
-                {
-                    "id": 252,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -4735,10 +4809,6 @@
             "subjects": [
                 {
                     "id": 265,
-                    "subject": "New"
-                },
-                {
-                    "id": 265,
                     "subject": "Python"
                 },
                 {
@@ -4763,10 +4833,6 @@
             "demo": "Search all notebooks with a ChatBot using Vantage",
             "description": "Run this notebook to search all notebooks with a ChatBot and Database connectivity.",
             "subjects": [
-                {
-                    "id": 266,
-                    "subject": "New"
-                },
                 {
                     "id": 266,
                     "subject": "Python"
@@ -4804,10 +4870,6 @@
                 {
                     "id": 255,
                     "subject": "Python"
-                },
-                {
-                    "id": 255,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -4907,11 +4969,11 @@
             "subjects": [
                 {
                     "id": 29,
-                    "subject": "Geospatial"
+                    "subject": "Object Storage"
                 },
                 {
                     "id": 29,
-                    "subject": "Object Storage"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 29,
@@ -5105,10 +5167,6 @@
                 {
                     "id": 249,
                     "subject": "Python"
-                },
-                {
-                    "id": 249,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -5135,10 +5193,6 @@
                 {
                     "id": 253,
                     "subject": "Python"
-                },
-                {
-                    "id": 253,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -5161,10 +5215,6 @@
                 {
                     "id": 230,
                     "subject": "SQL"
-                },
-                {
-                    "id": 230,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -5307,7 +5357,7 @@
             "subjects": [
                 {
                     "id": 134,
-                    "subject": "Marketing"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 134,
@@ -5315,7 +5365,7 @@
                 },
                 {
                     "id": 134,
-                    "subject": "Machine Learning"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 134,
@@ -5342,11 +5392,11 @@
             "subjects": [
                 {
                     "id": 133,
-                    "subject": "Retail"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 133,
-                    "subject": "Machine Learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 133,
@@ -5399,11 +5449,11 @@
                 },
                 {
                     "id": 150,
-                    "subject": "Time series analytics"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 150,
-                    "subject": "Travel & Transportation"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 150,
@@ -5439,10 +5489,6 @@
                 {
                     "id": 231,
                     "subject": "Python"
-                },
-                {
-                    "id": 231,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -5499,10 +5545,6 @@
                 },
                 {
                     "id": 226,
-                    "subject": "New"
-                },
-                {
-                    "id": 226,
                     "subject": "EFS"
                 },
                 {
@@ -5530,10 +5572,6 @@
                 {
                     "id": 233,
                     "subject": "Python"
-                },
-                {
-                    "id": 233,
-                    "subject": "New"
                 },
                 {
                     "id": 233,
@@ -5591,11 +5629,11 @@
             "subjects": [
                 {
                     "id": 48,
-                    "subject": "Geospatial"
+                    "subject": "Telco"
                 },
                 {
                     "id": 48,
-                    "subject": "Telco"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 48,
@@ -5898,10 +5936,6 @@
                 {
                     "id": 246,
                     "subject": "Python"
-                },
-                {
-                    "id": 246,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -5946,10 +5980,6 @@
                 {
                     "id": 236,
                     "subject": "Python"
-                },
-                {
-                    "id": 236,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -5972,10 +6002,6 @@
                 {
                     "id": 235,
                     "subject": "Python"
-                },
-                {
-                    "id": 235,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -5998,10 +6024,6 @@
                 {
                     "id": 227,
                     "subject": "Python"
-                },
-                {
-                    "id": 227,
-                    "subject": "New"
                 },
                 {
                     "id": 227,
@@ -6253,10 +6275,6 @@
                 {
                     "id": 247,
                     "subject": "Python"
-                },
-                {
-                    "id": 247,
-                    "subject": "New"
                 }
             ],
             "links": [
@@ -6283,10 +6301,6 @@
                 {
                     "id": 248,
                     "subject": "Python"
-                },
-                {
-                    "id": 248,
-                    "subject": "New"
                 }
             ],
             "links": [
