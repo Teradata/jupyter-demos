@@ -1,0 +1,13 @@
+langchain-community
+tiktoken
+langchain-openai
+langchainhub
+faiss-cpu
+langchain
+langgraph
+langchain-text-splitters
+teradataml
+pandas
+panel
+langchain-community
+pypdf
