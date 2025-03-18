@@ -1,0 +1,1001 @@
+Customer_ID,Age,Gender,Income_Level,Occupation,Education_Level,Travel_Frequency,Destination,Trip_Duration,Travel_Purpose,Previous_Dental Treatment,General_Health_Status,Dental_Issue_History,Dental_Visit_Frequency,Previous_Insurance_Policy,Claims_History,Insurance_Duration,Online_Behavior,Marketing_Engagement,Social_Media_Activity,Credit_Score,Spending_Pattern,Payment_History,Propensity_Score
+1,30,Male,60429,Business,PhD,5,International,30,Leisure,False,Average,False,0,True,2,3,High,High,Medium,419,Medium,Average,0.0934969709590475
+2,33,Male,56246,Teacher,Master,2,Domestic,10,Medical,False,Poor,True,2,True,3,2,Medium,High,High,489,High,Average,0.6894262577464019
+3,61,Female,131077,Doctor,Master,8,Domestic,15,Medical,True,Poor,False,3,True,4,4,Medium,Medium,High,355,Low,Average,0.6798047690220349
+4,69,Male,93749,Lawyer,High School,6,International,20,Leisure,True,Average,True,0,False,0,2,Medium,Medium,Medium,600,Medium,Good,0.4434816968678502
+5,50,Male,92679,Doctor,Master,9,Domestic,2,Medical,True,Average,True,0,False,5,9,High,Low,High,319,Medium,Average,0.445266786478262
+6,23,Male,56481,Doctor,Bachelor,6,Domestic,5,Leisure,True,Average,False,5,False,5,3,Medium,Low,Medium,832,Low,Poor,0.6076147957106908
+7,26,Female,87740,Business,High School,5,Domestic,11,Leisure,True,Average,True,1,True,2,7,High,Low,Low,535,Medium,Average,0.2641629590736114
+8,71,Male,41485,Artist,High School,8,Domestic,20,Medical,True,Average,True,3,False,5,8,Low,High,High,443,High,Poor,0.9126989707700158
+9,53,Female,87431,Business,Master,9,International,1,Leisure,True,Poor,True,5,True,0,1,High,Low,Medium,629,Medium,Poor,0.6455049629716583
+10,47,Male,53863,Doctor,Master,3,International,26,Medical,True,Average,False,1,True,3,8,Low,Low,High,749,Medium,Average,0.2474832725279591
+11,29,Male,143613,Artist,Master,5,Domestic,10,Business,False,Poor,False,4,False,3,7,Medium,Medium,Medium,498,High,Poor,0.5053140542470173
+12,74,Male,123740,Artist,Bachelor,9,Domestic,8,Leisure,True,Poor,True,6,False,5,9,High,Low,Low,305,High,Average,0.7354294782547711
+13,72,Male,125829,Business,Bachelor,9,Domestic,10,Medical,True,Average,True,7,False,4,10,High,Low,Low,663,Medium,Good,0.8040443957646116
+14,68,Female,128179,Teacher,PhD,6,International,10,Medical,True,Poor,True,7,False,1,6,Low,High,Medium,791,Low,Good,0.9717645061172676
+15,63,Male,66383,Teacher,Bachelor,0,International,15,Business,False,Poor,True,4,False,5,5,Medium,High,Low,387,Low,Good,0.4927934203266978
+16,43,Female,77510,Business,Master,2,Domestic,10,Leisure,False,Poor,False,1,False,0,6,Low,Medium,Low,408,High,Good,0.5938838732927649
+17,64,Female,117061,Lawyer,High School,8,International,1,Business,False,Poor,False,4,True,4,4,Medium,Low,High,824,High,Average,0.4621113919989681
+18,26,Female,40512,Business,High School,3,Domestic,21,Medical,False,Poor,False,5,False,5,9,Low,High,Low,611,Medium,Good,0.4768602425860536
+19,65,Male,35328,Teacher,Bachelor,10,International,10,Business,True,Average,True,5,True,0,5,Low,Medium,Medium,786,Low,Average,0.7783525625968493
+20,38,Female,79142,Engineer,High School,3,Domestic,4,Leisure,True,Poor,True,3,False,2,10,Low,High,High,385,Medium,Poor,0.060790084387875
+21,54,Male,31481,Engineer,High School,1,Domestic,14,Leisure,False,Poor,False,3,False,2,5,Low,High,High,583,Low,Good,0.5917182043246849
+22,30,Female,128619,Teacher,Bachelor,9,International,14,Leisure,False,Good,False,1,False,3,1,High,Medium,Low,611,Medium,Poor,0.2093692513767392
+23,46,Male,51357,Business,High School,8,International,4,Leisure,True,Average,True,3,False,3,9,Medium,High,Low,438,Medium,Poor,0.0102600354970476
+24,34,Female,85664,Teacher,High School,6,Domestic,30,Medical,True,Good,True,5,False,1,1,High,High,Medium,738,Low,Poor,0.0476263173087866
+25,54,Female,103090,Doctor,Bachelor,1,International,13,Medical,False,Poor,True,3,True,5,6,High,Medium,High,355,High,Good,0.1876367559586387
+26,62,Female,116057,Doctor,Master,7,Domestic,14,Medical,True,Average,True,3,True,1,8,High,Medium,Low,323,Low,Poor,0.6877150376259559
+27,64,Male,125742,Lawyer,Master,2,Domestic,27,Medical,True,Good,True,4,True,0,5,High,Low,Low,317,High,Average,0.3506974553830373
+28,55,Male,145129,Business,High School,3,Domestic,28,Medical,True,Poor,False,1,True,5,8,High,High,High,417,High,Average,0.4943675841711376
+29,59,Female,61019,Doctor,Master,1,International,26,Business,True,Average,False,0,True,0,10,High,Medium,Medium,461,Low,Good,0.1536648960385922
+30,61,Male,67012,Business,Master,9,International,27,Leisure,False,Poor,False,0,True,5,8,Low,High,High,561,Low,Good,0.5033500536070721
+31,35,Male,34306,Business,Bachelor,6,International,20,Leisure,True,Good,True,5,False,1,5,High,Medium,High,367,Low,Poor,0.0636534196031154
+32,61,Male,81117,Lawyer,High School,4,International,21,Medical,True,Poor,True,6,False,5,5,High,Low,High,797,High,Poor,0.950143067928468
+33,31,Female,96828,Business,High School,2,Domestic,30,Leisure,True,Poor,True,2,False,4,1,High,Low,Low,599,High,Good,0.1118872028349563
+34,71,Male,75840,Doctor,Master,2,Domestic,24,Leisure,True,Poor,True,3,False,5,7,Medium,Low,Medium,838,Medium,Poor,0.9203683303490804
+35,38,Female,71764,Teacher,PhD,8,Domestic,14,Medical,False,Good,False,0,True,2,4,Low,Low,Low,849,Medium,Good,0.1094166537547921
+36,45,Male,107542,Teacher,Bachelor,8,International,24,Medical,False,Average,True,4,True,3,4,Medium,Low,Medium,466,High,Good,0.4611687796314696
+37,44,Male,148450,Doctor,Bachelor,0,International,12,Leisure,False,Good,False,5,False,2,8,Medium,Low,Low,377,Medium,Average,0.1112331965706154
+38,56,Male,122716,Engineer,Master,5,International,10,Leisure,False,Average,True,2,True,2,7,Medium,High,Low,350,High,Poor,0.2764443588481252
+39,83,Female,107500,Lawyer,PhD,7,International,24,Business,True,Poor,True,2,True,4,2,High,Low,Low,450,Low,Poor,0.9917683349411884
+40,32,Male,125994,Doctor,Bachelor,8,International,28,Medical,True,Poor,False,1,False,2,10,Medium,Medium,Medium,352,High,Good,0.4418752750493426
+41,84,Male,38549,Doctor,Bachelor,8,International,18,Business,True,Poor,True,4,True,5,8,Medium,Medium,Medium,536,High,Average,0.984409134493319
+42,68,Female,48637,Engineer,High School,2,Domestic,18,Medical,True,Good,False,3,True,3,10,High,Medium,High,354,High,Poor,0.337825417946036
+43,45,Male,87405,Engineer,High School,4,International,27,Medical,False,Average,False,4,True,1,3,Medium,Medium,Medium,679,Medium,Poor,0.328058919283427
+44,46,Female,133987,Engineer,Master,9,International,16,Business,True,Average,True,0,False,3,5,High,Medium,Medium,419,High,Poor,0.2904513210337212
+45,67,Female,87677,Doctor,High School,3,Domestic,15,Leisure,True,Average,True,2,True,2,4,Medium,High,Low,377,Low,Average,0.9902971457666442
+46,25,Female,148360,Engineer,Master,7,Domestic,6,Leisure,False,Poor,True,0,True,0,3,Low,Low,Medium,717,High,Poor,0.161193726225255
+47,44,Male,85533,Business,Bachelor,0,International,24,Business,False,Average,False,5,False,4,9,Medium,Medium,Medium,340,Medium,Poor,0.0481891975449146
+48,59,Female,69158,Lawyer,High School,0,International,15,Medical,True,Average,True,5,False,1,8,High,Low,Medium,501,Low,Average,0.0646589653047512
+49,26,Male,31296,Engineer,Master,1,Domestic,30,Medical,True,Average,True,4,False,1,2,Medium,High,Low,781,Low,Poor,0.2709827050505372
+50,52,Male,95166,Lawyer,High School,6,Domestic,9,Medical,True,Poor,True,2,True,2,3,Low,High,Medium,313,Medium,Poor,0.0553036388688186
+51,44,Female,77472,Doctor,Master,6,Domestic,2,Leisure,False,Poor,False,1,True,1,10,High,Low,High,640,Low,Good,0.053241159556756
+52,56,Female,60895,Lawyer,Master,8,Domestic,18,Leisure,False,Poor,False,1,True,0,2,High,High,Low,565,Low,Good,0.3861589845897177
+53,66,Female,131182,Artist,PhD,0,International,13,Medical,True,Good,False,3,False,0,4,Low,High,Medium,742,High,Poor,0.4012155049813138
+54,62,Female,99416,Doctor,Master,4,Domestic,2,Medical,True,Average,True,7,False,0,4,Low,High,High,614,Medium,Poor,0.9524161023045642
+55,36,Male,113515,Business,Bachelor,2,International,10,Medical,True,Poor,False,4,False,1,1,Medium,Medium,Low,500,Low,Average,0.6795595649345852
+56,78,Male,51896,Teacher,PhD,10,International,9,Business,True,Poor,True,3,False,3,1,Low,Medium,Low,435,High,Good,0.907208002370409
+57,87,Female,90637,Engineer,Bachelor,4,Domestic,21,Leisure,True,Poor,True,8,False,2,10,High,Medium,Low,831,High,Good,0.9482985545943536
+58,63,Female,45029,Engineer,High School,10,International,12,Medical,True,Average,True,4,True,0,3,Medium,Medium,Low,730,Medium,Average,0.8852084104314161
+59,74,Female,46187,Doctor,High School,4,International,25,Leisure,True,Poor,True,2,True,4,9,Medium,Medium,High,776,Medium,Average,0.8663914273995235
+60,72,Male,66437,Teacher,High School,10,Domestic,8,Business,True,Average,True,7,False,2,5,Medium,Low,Medium,834,Low,Good,0.7456668900393766
+61,64,Female,43947,Teacher,Bachelor,4,International,14,Medical,True,Average,True,4,True,3,5,Medium,Medium,Medium,391,Medium,Poor,0.9819841361884728
+62,27,Female,133871,Engineer,Bachelor,1,Domestic,14,Business,False,Good,False,2,False,2,6,Medium,Medium,High,655,Medium,Poor,0.3540463088401284
+63,64,Male,55709,Doctor,PhD,10,International,2,Leisure,True,Average,False,3,False,5,3,Medium,Medium,Medium,498,Medium,Good,0.6262274138426255
+64,67,Male,96029,Artist,PhD,1,Domestic,19,Leisure,False,Good,True,0,False,2,7,Low,High,Medium,694,Medium,Poor,0.5983019614364963
+65,33,Female,117944,Engineer,Master,10,International,8,Medical,True,Average,True,2,False,2,7,Low,Low,Low,642,High,Good,0.2756317900390486
+66,65,Male,43515,Teacher,Bachelor,6,Domestic,8,Medical,False,Average,False,1,True,3,1,Low,Medium,High,830,Medium,Average,0.4198761927775927
+67,63,Female,66660,Doctor,Bachelor,5,Domestic,4,Business,True,Average,True,6,True,1,1,High,Low,Medium,635,Low,Good,0.9851564061280732
+68,66,Female,44010,Lawyer,Bachelor,1,International,14,Leisure,False,Average,True,0,True,3,8,High,Low,High,657,Medium,Good,0.023895346608366
+69,35,Female,137321,Lawyer,Bachelor,1,International,5,Business,True,Average,True,1,True,3,7,Low,Low,Low,527,Low,Poor,0.1027551561624576
+70,88,Male,92552,Engineer,PhD,9,Domestic,27,Business,True,Average,True,7,True,1,5,High,Low,High,617,High,Poor,0.962216036860095
+71,56,Male,63818,Engineer,Bachelor,10,International,6,Business,False,Good,True,4,False,1,3,High,Low,Low,353,Medium,Good,0.076829953483464
+72,27,Male,33228,Doctor,PhD,7,International,5,Leisure,True,Good,True,0,True,4,8,High,Medium,Low,321,High,Poor,0.2015079573764001
+73,60,Male,45806,Engineer,PhD,9,International,29,Leisure,True,Average,True,9,True,0,10,High,Low,Medium,413,Low,Average,0.7518228635176548
+74,45,Male,99342,Lawyer,High School,0,Domestic,2,Leisure,True,Good,True,0,False,2,2,Low,High,High,566,High,Poor,0.0562312001957741
+75,36,Female,37597,Doctor,Bachelor,7,International,22,Medical,False,Average,False,1,True,1,6,Medium,Medium,High,678,High,Average,0.2914135330248443
+76,82,Male,144669,Artist,Master,9,Domestic,8,Medical,True,Poor,True,8,False,2,9,High,Low,Low,478,Medium,Good,0.8693096435614687
+77,89,Female,108979,Artist,High School,2,International,13,Leisure,True,Poor,True,8,True,3,4,Medium,High,Low,701,High,Average,0.7003245556152462
+78,61,Male,45174,Engineer,PhD,10,International,19,Leisure,True,Average,True,7,False,4,9,Medium,Medium,High,667,High,Poor,0.956364976570173
+79,31,Female,63198,Lawyer,PhD,10,Domestic,11,Business,True,Good,True,3,True,1,1,Low,High,Low,559,High,Good,0.0060671974892327
+80,68,Male,135937,Lawyer,High School,1,International,11,Leisure,True,Average,True,6,True,3,8,Low,High,Medium,716,Low,Good,0.9794002930299648
+81,49,Male,98472,Lawyer,Bachelor,10,International,30,Leisure,True,Good,False,1,False,0,6,Medium,Low,Medium,517,Medium,Poor,0.0498524391367615
+82,41,Female,34893,Engineer,Bachelor,6,Domestic,29,Leisure,False,Average,True,3,True,3,5,High,High,Low,550,Low,Poor,0.6216241743577587
+83,45,Male,64884,Doctor,Master,6,International,6,Medical,False,Average,True,5,True,1,4,Low,Low,Medium,472,High,Good,0.3172665211593471
+84,46,Female,87659,Teacher,High School,3,Domestic,14,Business,False,Average,False,3,False,4,1,Medium,Low,Low,685,High,Poor,0.1914543817143482
+85,62,Male,43231,Lawyer,Master,8,Domestic,14,Leisure,True,Average,True,7,True,2,9,High,High,High,705,Low,Good,0.7813459047013241
+86,24,Male,82191,Doctor,Bachelor,8,Domestic,16,Medical,True,Average,False,5,True,4,8,Low,High,Medium,391,Medium,Average,0.2559887088553797
+87,90,Male,43821,Engineer,Master,5,International,4,Leisure,True,Poor,True,5,True,0,4,Low,Medium,Low,737,High,Poor,0.9971531037645062
+88,56,Male,89322,Artist,High School,1,Domestic,13,Medical,True,Good,False,2,False,1,3,Low,High,Medium,595,High,Poor,0.1847893902770624
+89,54,Male,148435,Engineer,High School,0,Domestic,25,Medical,True,Good,False,2,True,3,9,High,Low,High,484,Medium,Poor,0.2390417674163244
+90,40,Male,98005,Business,High School,9,Domestic,12,Business,False,Good,True,1,True,3,7,High,Low,High,538,High,Good,0.4220116663835077
+91,26,Female,117869,Doctor,Master,1,International,13,Business,True,Good,True,3,True,3,10,Medium,Low,Low,687,High,Good,0.0640630780646777
+92,75,Male,139079,Teacher,PhD,4,Domestic,8,Business,True,Average,True,9,False,5,3,High,Low,High,621,Medium,Poor,0.7045461284387466
+93,62,Female,57170,Teacher,High School,7,International,18,Leisure,False,Poor,True,0,True,2,2,Low,Medium,High,348,Low,Good,0.2620289245750035
+94,77,Male,120568,Artist,High School,7,International,21,Business,True,Average,True,2,False,5,6,Low,High,High,488,Low,Average,0.8046932369052889
+95,67,Female,40062,Engineer,High School,3,International,6,Medical,True,Poor,True,5,False,1,9,Medium,High,Medium,405,Medium,Good,0.7520345642165395
+96,72,Male,35322,Teacher,Master,5,Domestic,15,Medical,True,Average,True,3,True,1,3,Low,High,Medium,367,High,Good,0.7460165299777464
+97,68,Male,64365,Teacher,PhD,7,Domestic,4,Medical,True,Poor,True,8,True,3,9,Low,Medium,High,836,Low,Average,0.8091029654893367
+98,30,Male,101733,Doctor,PhD,0,International,19,Business,False,Average,False,1,False,2,4,High,Low,Low,477,Medium,Poor,0.4677132972003077
+99,64,Male,135568,Engineer,PhD,3,Domestic,23,Business,True,Average,False,1,True,2,3,Medium,Low,Medium,658,Low,Good,0.5858133208501954
+100,74,Female,36180,Artist,Master,10,International,21,Medical,True,Poor,True,2,True,4,1,Medium,Medium,Low,767,Low,Poor,0.7215343628721865
+101,87,Male,73926,Teacher,PhD,5,International,6,Business,True,Average,True,2,True,5,2,High,Low,Medium,643,Medium,Average,0.9154511219084952
+102,46,Male,137543,Artist,High School,0,International,8,Medical,False,Average,True,5,True,5,8,Medium,Medium,Medium,674,Medium,Poor,0.4913362803466778
+103,22,Female,51523,Business,PhD,4,Domestic,11,Business,True,Good,False,3,True,5,5,Low,High,Medium,342,Medium,Average,0.1925191469097238
+104,80,Female,36291,Teacher,Bachelor,3,Domestic,28,Medical,True,Average,True,7,False,1,8,High,High,Medium,444,High,Good,0.8410865974294682
+105,63,Female,90776,Artist,Master,10,Domestic,13,Medical,False,Good,True,4,True,3,9,Low,High,High,344,Medium,Poor,0.0349965453934257
+106,22,Female,104601,Business,PhD,2,International,11,Medical,True,Average,False,4,True,5,5,Low,Medium,Low,845,High,Average,0.055408446915991
+107,32,Male,122625,Business,Master,5,International,11,Business,True,Average,False,2,True,2,3,High,Medium,Medium,593,High,Good,0.1509459006989155
+108,79,Male,100122,Doctor,Bachelor,9,Domestic,23,Business,True,Poor,True,2,False,2,6,Low,Low,Medium,445,High,Poor,0.7058172839910144
+109,20,Male,106193,Doctor,PhD,4,Domestic,24,Business,False,Average,False,0,True,2,6,Medium,Low,Medium,424,High,Good,0.485803166663601
+110,28,Female,120778,Artist,Bachelor,4,International,26,Business,False,Average,False,1,False,1,4,High,Low,Medium,696,High,Good,0.4883310377618671
+111,22,Female,140531,Teacher,High School,5,Domestic,24,Leisure,False,Good,False,5,True,1,9,Medium,Low,Low,493,High,Poor,0.4428719590953226
+112,70,Male,131455,Engineer,Bachelor,5,International,19,Business,True,Poor,True,9,True,4,6,High,Medium,Low,643,Low,Average,0.962661206430192
+113,23,Male,31641,Teacher,Master,1,International,7,Medical,True,Average,True,2,True,1,2,Low,Low,Medium,777,Low,Good,0.083895511380458
+114,42,Female,147200,Teacher,High School,9,International,29,Leisure,False,Poor,False,4,False,2,8,High,High,High,562,High,Good,0.4626469882873342
+115,48,Male,58181,Engineer,PhD,7,Domestic,28,Leisure,True,Poor,True,4,True,5,2,Medium,Medium,High,426,Medium,Poor,0.5634192419611431
+116,60,Female,74645,Engineer,High School,10,Domestic,1,Business,False,Poor,False,4,False,1,2,Low,Low,Medium,595,High,Poor,0.44231921424785
+117,60,Male,80592,Lawyer,Bachelor,2,International,2,Leisure,True,Average,True,9,False,1,10,Low,High,High,844,High,Poor,0.9313534253814684
+118,53,Female,73634,Teacher,High School,6,International,18,Business,False,Average,True,0,True,1,6,High,High,Medium,837,Low,Poor,0.1268208153405767
+119,68,Female,138616,Engineer,Bachelor,2,Domestic,11,Medical,True,Poor,True,9,False,3,9,High,High,High,440,Low,Average,0.7710390586317827
+120,52,Female,96895,Engineer,High School,10,International,30,Business,False,Good,True,2,True,2,5,Low,Low,Medium,588,High,Poor,0.3847640128381958
+121,44,Female,30036,Lawyer,Master,3,Domestic,3,Business,False,Good,True,0,False,3,5,Low,High,Low,539,Medium,Average,0.1766311762152492
+122,65,Female,99963,Artist,Master,0,International,19,Business,False,Good,True,4,True,3,9,High,Medium,High,764,Low,Average,0.430565655425139
+123,34,Male,58016,Lawyer,High School,8,International,17,Leisure,False,Average,True,2,True,3,4,High,High,Low,832,High,Good,0.6575792785273077
+124,35,Female,31897,Lawyer,Bachelor,5,Domestic,6,Leisure,False,Poor,False,1,False,1,6,Low,Medium,Low,835,Low,Poor,0.491187209214014
+125,61,Male,71689,Engineer,PhD,1,Domestic,24,Leisure,True,Average,False,3,True,1,10,Low,Low,Low,475,Low,Poor,0.2276114506688099
+126,66,Male,110295,Artist,High School,7,International,5,Business,False,Good,True,4,False,0,10,Low,High,Medium,378,High,Average,0.4364517370073506
+127,64,Male,143639,Artist,PhD,9,International,8,Medical,True,Good,True,1,False,0,10,Low,Low,Medium,756,High,Poor,0.2781107466518115
+128,73,Female,58434,Business,Bachelor,0,International,15,Business,True,Poor,True,3,False,5,5,High,Medium,High,435,Low,Average,0.8724938367254609
+129,18,Male,73002,Doctor,Bachelor,10,Domestic,17,Leisure,True,Poor,False,0,True,0,10,High,Medium,Medium,808,Medium,Average,0.2687401957256506
+130,53,Male,145843,Engineer,Master,2,Domestic,28,Medical,False,Poor,True,0,True,1,5,Low,High,Medium,708,Low,Poor,0.6847317309033593
+131,69,Male,52695,Doctor,Bachelor,6,International,12,Medical,False,Average,True,4,False,5,8,High,High,High,673,Medium,Average,0.162096324958044
+132,88,Male,38356,Artist,High School,2,Domestic,11,Business,True,Poor,True,7,True,5,1,Low,Low,Low,697,Medium,Average,0.953249050684399
+133,55,Female,102783,Lawyer,PhD,7,Domestic,27,Leisure,False,Poor,False,1,False,5,3,Low,High,High,465,Medium,Average,0.0757424724995623
+134,87,Female,66577,Engineer,PhD,1,Domestic,11,Leisure,True,Average,True,6,True,4,3,Medium,Medium,Medium,392,High,Average,0.8003523303834683
+135,63,Male,139280,Teacher,PhD,5,International,3,Medical,True,Average,False,5,False,3,10,Low,Medium,High,423,Medium,Average,0.2938438099668364
+136,48,Male,89411,Engineer,High School,7,Domestic,9,Business,False,Good,True,1,True,0,10,Low,Medium,Medium,304,High,Average,0.1626170754121669
+137,18,Male,33970,Artist,PhD,2,Domestic,11,Leisure,True,Average,False,2,True,3,6,Low,Low,High,765,Medium,Average,0.6135975441529424
+138,77,Male,31687,Artist,High School,8,Domestic,7,Medical,True,Average,True,4,False,3,7,Medium,High,High,405,Low,Poor,0.972612338455646
+139,39,Male,50455,Business,PhD,8,Domestic,22,Leisure,True,Average,True,4,False,4,8,Low,Low,Medium,496,High,Average,0.2147585784896383
+140,40,Male,67718,Business,PhD,9,Domestic,22,Business,False,Average,False,0,True,5,2,Low,Low,Low,824,Medium,Good,0.6518438287845043
+141,63,Male,139787,Teacher,PhD,8,International,29,Business,True,Poor,False,4,True,0,10,Low,Medium,Medium,827,Medium,Average,0.5983765987060221
+142,76,Female,127817,Engineer,Bachelor,9,Domestic,2,Medical,True,Average,True,7,True,1,7,High,Low,Medium,731,High,Poor,0.8767648328981158
+143,27,Male,116355,Business,Bachelor,1,Domestic,8,Leisure,True,Good,True,4,False,1,10,Low,High,Low,579,Low,Good,0.680140584255932
+144,63,Male,67648,Artist,High School,2,Domestic,21,Medical,False,Average,False,3,True,5,3,Medium,High,High,413,High,Average,0.3181873776103814
+145,68,Female,139397,Lawyer,PhD,5,International,19,Leisure,True,Average,True,6,False,4,6,Medium,Medium,Medium,753,Low,Good,0.9670977806130604
+146,58,Female,114069,Lawyer,Master,8,International,23,Leisure,True,Good,True,5,True,4,2,Medium,High,Medium,662,Low,Good,0.0532792312202835
+147,44,Female,40987,Lawyer,PhD,4,International,27,Leisure,True,Poor,True,2,True,0,8,High,Low,Medium,766,High,Average,0.2472165642934566
+148,64,Male,36369,Artist,High School,7,International,5,Medical,False,Poor,False,2,False,3,8,High,Low,High,631,High,Average,0.6984587728401043
+149,89,Male,53627,Lawyer,High School,0,Domestic,12,Business,True,Average,True,2,True,4,3,Medium,Low,Low,805,Medium,Average,0.977603176664953
+150,60,Male,125963,Lawyer,Master,4,Domestic,11,Business,True,Poor,True,2,False,2,6,Low,Medium,Medium,778,Medium,Average,0.8826655594885922
+151,21,Male,82307,Doctor,PhD,3,International,12,Leisure,False,Good,True,2,False,5,5,Low,Low,High,848,Low,Good,0.2369982425559696
+152,71,Female,134192,Teacher,Bachelor,5,International,17,Leisure,True,Average,True,7,True,4,2,Medium,Medium,Medium,321,Medium,Average,0.9474400017345952
+153,76,Male,137394,Doctor,PhD,10,International,13,Leisure,True,Poor,True,9,True,3,3,Medium,Medium,High,824,Low,Average,0.9782089534443208
+154,70,Female,35909,Teacher,Master,3,International,21,Business,True,Poor,True,8,False,3,3,Medium,Low,High,693,Medium,Poor,0.9239333881591236
+155,71,Female,69813,Lawyer,Bachelor,4,International,30,Medical,True,Average,True,4,False,1,7,High,High,High,824,Low,Good,0.8438365667183063
+156,48,Female,140005,Business,High School,8,Domestic,17,Business,False,Average,False,1,True,1,8,Low,High,Low,720,High,Poor,0.0129268199017259
+157,59,Male,62307,Lawyer,Master,10,International,18,Medical,True,Poor,False,0,False,5,8,Medium,High,High,558,High,Poor,0.3293811862949993
+158,22,Female,30494,Engineer,Master,7,Domestic,29,Leisure,True,Poor,False,3,True,2,8,Medium,Low,Low,677,Medium,Average,0.4306086911377612
+159,27,Female,63795,Engineer,Bachelor,2,Domestic,29,Business,False,Good,False,5,True,1,5,Medium,Low,High,309,High,Poor,0.2841839873832099
+160,37,Female,137674,Artist,High School,1,Domestic,28,Leisure,False,Good,True,5,True,2,4,Low,High,High,637,Medium,Average,0.3786412906023831
+161,47,Male,60400,Doctor,Master,8,International,19,Business,True,Good,True,0,False,2,7,Low,High,Medium,577,High,Average,0.4709093066973734
+162,61,Male,131174,Engineer,High School,6,International,29,Business,False,Good,True,0,True,1,1,High,High,High,742,Medium,Poor,0.680977527384635
+163,69,Male,121638,Lawyer,Master,9,Domestic,5,Business,True,Poor,True,2,True,0,4,Low,Low,Low,487,High,Poor,0.0388094886284219
+164,26,Male,121831,Doctor,Bachelor,1,Domestic,19,Medical,False,Average,True,2,False,4,3,Low,Medium,Low,319,Low,Poor,0.3480053541906635
+165,54,Male,51959,Lawyer,PhD,0,International,17,Business,False,Poor,False,2,False,4,9,Medium,High,High,493,Medium,Good,0.524359793770042
+166,38,Female,130412,Lawyer,PhD,8,International,26,Business,True,Poor,False,4,True,5,6,High,High,High,656,Low,Average,0.651230768980539
+167,77,Female,37636,Teacher,Bachelor,4,Domestic,12,Business,True,Poor,True,3,True,4,9,High,High,Low,529,Medium,Poor,0.9976466945732304
+168,26,Female,76198,Artist,Master,6,Domestic,29,Medical,True,Poor,False,3,True,2,8,Low,High,Medium,432,Low,Good,0.4811047356290974
+169,36,Male,133271,Lawyer,Master,10,Domestic,19,Leisure,False,Good,True,4,True,3,1,High,Low,Low,490,High,Average,0.0865844732232505
+170,68,Female,33258,Doctor,PhD,3,International,2,Business,True,Poor,False,3,True,4,4,Medium,High,High,491,Low,Average,0.6278883038787231
+171,19,Female,32220,Engineer,High School,6,International,4,Medical,False,Good,False,5,False,3,8,Low,High,Low,784,Medium,Poor,0.0352548371329656
+172,81,Female,42723,Artist,High School,5,Domestic,12,Medical,True,Poor,True,7,False,4,1,Medium,Medium,Low,783,Low,Average,0.9093674386375824
+173,63,Male,142878,Business,Bachelor,4,Domestic,25,Leisure,False,Poor,False,3,False,3,4,Medium,Low,Low,780,High,Good,0.348909348454186
+174,68,Female,67279,Engineer,Master,4,Domestic,22,Medical,True,Good,False,2,False,1,4,Medium,High,High,716,Low,Poor,0.166429812247319
+175,53,Female,67333,Doctor,Master,10,Domestic,19,Medical,True,Good,True,5,True,4,3,High,Low,Low,662,High,Average,0.2709662213651734
+176,20,Female,64540,Teacher,Bachelor,2,International,24,Medical,True,Poor,True,3,True,1,9,Medium,Low,Low,626,High,Poor,0.0862400605294372
+177,20,Female,114977,Lawyer,Master,0,Domestic,30,Business,True,Poor,True,5,False,2,4,High,Medium,Medium,695,Medium,Average,0.190614881932467
+178,65,Female,117157,Doctor,PhD,7,Domestic,2,Medical,True,Average,True,2,False,1,6,High,High,Medium,703,Low,Average,0.8880004671760573
+179,64,Female,140010,Artist,PhD,2,International,11,Leisure,True,Poor,True,3,False,4,7,Medium,High,Medium,798,Low,Poor,0.8582706754231341
+180,29,Female,43660,Business,Master,10,International,28,Business,True,Average,True,4,False,2,3,High,Low,High,470,High,Average,0.5691545325555643
+181,23,Male,99637,Lawyer,Bachelor,10,International,4,Leisure,False,Average,False,0,True,2,3,Medium,Low,Low,837,Medium,Average,0.1001327289181204
+182,82,Female,122561,Teacher,High School,9,Domestic,30,Business,True,Average,True,7,False,4,7,Medium,High,Medium,495,High,Average,0.7013146121085387
+183,49,Female,59582,Business,Master,6,Domestic,4,Business,False,Average,False,2,True,1,3,High,Medium,High,372,High,Average,0.6830031848898427
+184,27,Male,130736,Teacher,PhD,3,International,11,Medical,True,Good,False,4,False,5,8,High,Medium,Low,583,Low,Good,0.4062228081258593
+185,60,Female,80449,Business,High School,5,Domestic,19,Medical,True,Poor,True,5,False,5,5,Low,High,Low,659,Low,Good,0.897889568126534
+186,21,Male,49742,Engineer,PhD,1,International,1,Medical,True,Poor,False,3,True,4,7,Medium,Low,Low,302,Medium,Good,0.3014329694207346
+187,71,Male,147571,Artist,High School,5,Domestic,12,Leisure,True,Poor,True,2,True,0,9,Low,Low,High,681,Low,Average,0.8982045685985797
+188,62,Male,117024,Teacher,PhD,2,Domestic,5,Business,True,Poor,True,9,False,5,1,Medium,High,Medium,752,Low,Good,0.7574479439470835
+189,68,Male,93135,Teacher,High School,10,Domestic,23,Business,False,Good,True,2,True,3,2,High,High,High,599,High,Poor,0.0811112524199945
+190,69,Female,110437,Engineer,Bachelor,4,International,12,Business,True,Poor,True,4,False,4,8,Low,High,Low,642,Medium,Good,0.2980888703868853
+191,51,Male,88931,Engineer,High School,9,International,29,Medical,False,Average,False,2,True,4,9,Medium,Medium,Low,717,Low,Good,0.3184338019982488
+192,33,Female,112988,Business,Master,4,Domestic,26,Medical,True,Poor,True,1,True,3,10,High,High,Medium,739,Low,Poor,0.4108190291288603
+193,70,Male,128182,Doctor,PhD,1,Domestic,21,Medical,False,Average,True,5,False,5,7,Medium,Low,Low,823,Low,Average,0.099761263961399
+194,37,Female,93721,Artist,PhD,7,International,26,Medical,False,Poor,False,4,True,0,9,Medium,Low,High,786,Medium,Good,0.4472478134955711
+195,26,Male,135534,Engineer,Bachelor,1,International,26,Medical,False,Average,False,3,False,4,2,Medium,High,High,597,Low,Poor,0.4480845315005721
+196,46,Male,113847,Doctor,High School,10,Domestic,9,Medical,False,Poor,False,5,True,4,10,High,High,Low,326,Low,Average,0.4459678687293168
+197,21,Female,64822,Doctor,Bachelor,3,Domestic,10,Business,True,Good,False,3,False,2,5,High,High,Low,327,Low,Good,0.2827505741443409
+198,76,Male,124831,Teacher,High School,0,International,7,Business,True,Poor,True,9,True,2,3,Low,Medium,Low,849,High,Good,0.7269863131413931
+199,24,Female,104727,Teacher,High School,2,International,23,Leisure,False,Good,True,0,False,4,2,Medium,Low,High,314,High,Poor,0.5396594502103272
+200,55,Male,65263,Doctor,PhD,1,Domestic,6,Business,False,Average,True,5,True,5,9,High,Medium,Medium,683,Medium,Good,0.6369968117266731
+201,47,Male,65612,Doctor,High School,7,Domestic,2,Medical,True,Poor,False,2,True,4,3,Medium,Low,High,422,Low,Average,0.0387331483206767
+202,62,Female,121439,Artist,High School,9,Domestic,20,Business,True,Average,True,3,False,1,7,Medium,High,High,460,High,Average,0.9199111378000764
+203,48,Female,141655,Engineer,PhD,9,Domestic,6,Business,True,Good,False,3,False,3,5,High,Low,High,356,Medium,Good,0.4000757497490331
+204,67,Female,40693,Teacher,High School,10,Domestic,5,Leisure,False,Average,True,1,True,5,9,High,Low,Low,489,Low,Poor,0.5394817318579499
+205,61,Male,48381,Doctor,Master,10,Domestic,8,Business,False,Good,False,5,True,2,6,High,Low,Medium,728,Low,Average,0.4659076524401941
+206,46,Male,123020,Lawyer,Bachelor,9,Domestic,22,Medical,True,Average,True,0,True,4,4,Low,Medium,Low,328,High,Average,0.3056680173810374
+207,40,Male,74036,Lawyer,Master,4,International,28,Business,False,Poor,True,5,True,2,10,High,Medium,Medium,413,Low,Poor,0.2373888815427951
+208,62,Male,129474,Business,PhD,7,Domestic,10,Medical,True,Average,True,2,True,5,4,High,Medium,Low,319,High,Poor,0.2987389828926219
+209,29,Female,118889,Artist,High School,9,International,29,Business,True,Poor,True,4,False,4,1,Medium,High,Low,681,Medium,Average,0.1211431584025658
+210,73,Male,54583,Artist,Master,1,Domestic,24,Leisure,True,Average,True,6,True,1,1,Low,High,Medium,835,High,Poor,0.7546676294777274
+211,69,Female,36408,Doctor,Bachelor,7,International,17,Leisure,True,Poor,True,5,False,3,2,High,Low,High,470,Medium,Good,0.7748865497316041
+212,28,Female,56712,Artist,PhD,6,Domestic,14,Business,False,Good,False,0,True,3,8,High,High,High,611,Medium,Average,0.5589945683816965
+213,22,Male,123445,Business,High School,8,International,30,Medical,True,Average,False,0,True,3,9,High,Medium,Medium,835,Low,Average,0.5632552140328007
+214,28,Female,50057,Artist,Bachelor,1,Domestic,6,Medical,True,Poor,True,5,False,1,2,Low,Low,Low,545,Low,Good,0.4848333124484495
+215,58,Female,93707,Doctor,PhD,10,International,27,Business,False,Average,False,3,False,3,5,Medium,Low,Low,406,High,Average,0.3719742644347058
+216,53,Male,90944,Engineer,Master,7,International,17,Medical,False,Good,True,4,False,5,1,High,Medium,Medium,321,Medium,Poor,0.161395617950635
+217,36,Female,103628,Engineer,PhD,2,Domestic,9,Business,False,Good,False,0,True,5,1,Low,High,High,678,High,Poor,0.0783330289567307
+218,85,Female,114700,Engineer,Bachelor,1,International,9,Leisure,True,Average,True,8,True,0,9,High,Medium,High,505,High,Good,0.7518820736564096
+219,90,Male,44430,Doctor,PhD,8,International,10,Leisure,True,Poor,True,9,False,4,9,High,High,Medium,804,High,Good,0.7759449406503823
+220,81,Female,137335,Engineer,Master,0,International,14,Leisure,True,Average,True,3,True,0,10,Medium,High,High,595,High,Good,0.7430656718873524
+221,46,Male,71808,Business,Bachelor,7,Domestic,6,Business,True,Average,True,1,False,2,9,Low,Low,Low,641,Medium,Poor,0.6383754241959362
+222,40,Female,85138,Lawyer,PhD,9,Domestic,8,Business,True,Average,False,2,False,5,3,Low,Low,Medium,774,Low,Good,0.1169096954814564
+223,25,Male,68572,Lawyer,Bachelor,6,Domestic,29,Business,False,Average,False,3,False,5,3,Low,Low,Medium,689,Low,Poor,0.3938905154268152
+224,66,Female,94863,Artist,Master,3,Domestic,11,Medical,True,Average,True,4,True,3,4,Low,Low,Medium,304,Low,Good,0.0816549202883605
+225,51,Male,72876,Artist,PhD,5,Domestic,21,Medical,True,Poor,False,0,True,0,10,Low,Low,Low,328,High,Good,0.2536887642550719
+226,61,Female,38505,Artist,High School,9,International,14,Business,True,Poor,False,0,True,3,8,High,Medium,Low,667,High,Average,0.0045045019029441
+227,63,Female,59046,Lawyer,High School,0,International,1,Business,True,Poor,True,6,True,2,4,Medium,Medium,Medium,753,Low,Poor,0.7640307081585946
+228,61,Female,60793,Teacher,High School,3,Domestic,2,Business,True,Average,True,5,True,0,1,Low,Low,High,322,Low,Poor,0.7041435619953855
+229,73,Female,88147,Business,PhD,10,International,10,Business,True,Poor,True,5,True,4,6,High,High,Medium,758,High,Poor,0.934988462893262
+230,39,Male,126731,Engineer,High School,10,Domestic,19,Business,True,Poor,False,1,False,5,3,High,Medium,Medium,335,High,Poor,0.5761509458113616
+231,51,Female,112562,Doctor,High School,6,International,16,Leisure,True,Poor,False,5,False,1,2,Medium,Low,Low,401,High,Good,0.4546050985526297
+232,61,Female,128889,Artist,PhD,2,Domestic,5,Business,True,Poor,True,6,False,2,6,High,Medium,High,419,High,Poor,0.8523747075394263
+233,65,Female,115583,Artist,High School,0,International,4,Business,False,Average,True,2,False,4,6,Medium,High,Low,821,Low,Average,0.651388917569832
+234,40,Male,80663,Doctor,Master,5,International,5,Medical,False,Average,True,4,False,4,5,High,Medium,Medium,477,Medium,Poor,0.5599838670124119
+235,68,Female,144385,Artist,High School,3,Domestic,26,Business,True,Average,True,5,False,2,9,High,Medium,Medium,787,High,Poor,0.8079505131886486
+236,62,Female,112967,Doctor,High School,0,Domestic,11,Business,True,Good,True,3,True,1,3,Medium,Medium,Medium,387,High,Good,0.390965250810503
+237,73,Female,139176,Artist,High School,0,Domestic,23,Leisure,True,Poor,True,3,False,1,5,Low,Low,High,315,High,Poor,0.8070001393558432
+238,43,Male,89970,Business,High School,8,Domestic,24,Business,True,Average,True,4,False,3,6,High,Medium,Low,592,Medium,Poor,0.0342157610486225
+239,66,Female,120595,Business,Master,9,Domestic,12,Medical,True,Average,True,7,False,0,10,Medium,Medium,High,414,Low,Average,0.7498960356784622
+240,65,Female,37793,Artist,Bachelor,3,Domestic,8,Medical,True,Good,False,4,True,5,5,High,Medium,Low,369,Low,Poor,0.3069331322853428
+241,72,Female,83501,Artist,High School,10,International,20,Medical,True,Poor,True,4,True,1,5,Medium,Medium,Low,612,High,Poor,0.8656539950693044
+242,68,Female,41096,Doctor,Bachelor,3,Domestic,16,Leisure,False,Poor,False,2,True,4,7,Low,Low,High,449,Low,Average,0.5714651857505686
+243,43,Female,113362,Artist,Master,8,International,8,Business,True,Good,True,1,False,4,9,High,High,High,334,High,Poor,0.5171618798055391
+244,64,Female,31129,Doctor,Master,2,Domestic,2,Leisure,True,Poor,True,9,True,2,7,High,Low,High,812,High,Average,0.7188635329324418
+245,54,Male,83686,Lawyer,Master,3,Domestic,26,Leisure,True,Good,True,5,False,3,7,Medium,High,Medium,543,Medium,Poor,0.0001532534599719
+246,22,Male,81928,Doctor,High School,1,Domestic,19,Medical,False,Good,True,1,True,3,4,High,Low,High,339,Low,Good,0.4338215254430165
+247,63,Female,119725,Business,PhD,5,International,12,Leisure,True,Average,True,8,False,5,6,Medium,Low,Low,763,High,Good,0.7226028516294875
+248,42,Male,105222,Engineer,High School,1,International,16,Business,True,Average,False,0,True,2,9,Medium,Low,High,315,Medium,Good,0.1871211477723248
+249,29,Male,96951,Doctor,Master,4,International,8,Medical,True,Average,False,1,True,1,6,Medium,Low,High,726,Medium,Poor,0.6092433373660344
+250,51,Male,100524,Lawyer,High School,9,Domestic,24,Business,True,Poor,False,1,False,4,8,Low,Medium,Medium,441,Medium,Average,0.6641182204950399
+251,21,Male,149107,Teacher,PhD,4,Domestic,21,Business,False,Good,True,5,False,4,7,High,High,High,378,Low,Good,0.3762920620164954
+252,39,Male,78707,Doctor,High School,1,International,8,Medical,False,Good,True,3,True,0,8,High,Medium,Low,557,Medium,Good,0.695966415396263
+253,63,Male,137973,Teacher,PhD,3,International,2,Medical,True,Average,False,4,True,0,3,Medium,Medium,Medium,451,Medium,Average,0.0370136572512188
+254,75,Female,44571,Lawyer,High School,8,International,9,Leisure,True,Poor,True,5,False,2,10,Low,High,Low,761,Low,Average,0.7750565709154551
+255,30,Female,37498,Teacher,High School,6,Domestic,21,Leisure,False,Average,True,0,True,3,5,High,Medium,High,362,Medium,Poor,0.3534272088312385
+256,43,Female,132811,Lawyer,Bachelor,2,Domestic,25,Medical,True,Poor,True,3,False,2,10,Medium,Low,High,763,Low,Good,0.2090871992675717
+257,87,Male,36324,Artist,High School,5,Domestic,2,Medical,True,Average,True,9,False,0,1,Medium,High,Medium,724,Medium,Average,0.7639951358324943
+258,66,Female,130347,Artist,Bachelor,8,International,21,Business,False,Good,True,1,False,1,10,Medium,High,Low,342,Medium,Poor,0.2393644453709398
+259,88,Female,133695,Artist,High School,8,International,9,Business,True,Average,True,7,True,3,10,Low,Low,Medium,714,Low,Poor,0.8642333408844589
+260,62,Male,77977,Business,High School,8,Domestic,21,Medical,True,Poor,True,4,False,1,8,Low,Medium,High,355,Low,Poor,0.1169542737515544
+261,19,Male,112402,Engineer,High School,5,Domestic,5,Business,False,Good,False,3,True,3,4,High,Low,Low,519,High,Good,0.5590153728323655
+262,48,Female,94844,Artist,PhD,8,International,20,Leisure,False,Poor,False,5,False,4,8,Medium,High,Medium,391,Medium,Poor,0.1760532058089291
+263,90,Female,82778,Business,Master,1,Domestic,22,Medical,True,Poor,True,4,True,4,9,Low,Medium,Low,828,Medium,Good,0.8040301898241342
+264,30,Female,38490,Business,High School,8,International,2,Medical,True,Average,True,1,False,2,3,Low,High,High,654,Medium,Poor,0.3337253628881673
+265,83,Male,54777,Doctor,PhD,7,Domestic,14,Business,True,Poor,True,2,False,2,7,Medium,Low,Low,391,High,Average,0.7666081262034987
+266,70,Female,70625,Teacher,PhD,6,Domestic,19,Medical,True,Average,False,3,True,4,3,Medium,High,Medium,729,Medium,Poor,0.5319599380934648
+267,40,Female,64989,Engineer,High School,10,Domestic,3,Leisure,False,Poor,False,3,True,4,2,Medium,Medium,High,701,Medium,Average,0.3102401331522818
+268,59,Male,142293,Lawyer,PhD,2,International,30,Medical,True,Poor,True,2,False,3,1,High,Medium,High,629,High,Average,0.0726458505923276
+269,23,Male,71089,Doctor,Master,4,International,1,Business,False,Average,True,2,False,1,2,Medium,Medium,High,444,Low,Average,0.269924788499627
+270,21,Male,125483,Artist,High School,4,International,3,Medical,False,Average,True,5,False,4,6,Medium,Medium,High,698,Low,Average,0.4388312130515022
+271,68,Male,101036,Business,Master,1,Domestic,4,Business,False,Good,False,0,False,5,6,High,Low,Low,591,Medium,Good,0.3302867569291441
+272,80,Male,87378,Artist,PhD,1,International,21,Medical,True,Poor,True,8,False,3,8,Medium,Medium,Medium,512,Low,Good,0.7025897984600246
+273,52,Male,138914,Artist,PhD,9,Domestic,9,Leisure,True,Good,False,4,True,2,2,Medium,High,High,541,High,Average,0.3817192863174027
+274,73,Male,105045,Engineer,PhD,2,International,14,Business,True,Average,True,9,False,5,5,Low,High,Medium,699,High,Poor,0.8697171894842032
+275,22,Male,56000,Lawyer,Bachelor,8,Domestic,15,Leisure,False,Poor,False,3,True,3,1,Medium,Medium,Medium,686,High,Poor,0.4327754257415642
+276,24,Female,130019,Teacher,PhD,9,Domestic,10,Business,True,Good,True,0,False,1,8,Low,Low,Low,355,High,Poor,0.4131777867854753
+277,51,Male,137582,Teacher,Bachelor,4,Domestic,12,Medical,False,Good,True,0,True,4,10,Medium,High,Medium,470,Low,Good,0.3015100666992645
+278,46,Male,131257,Artist,Bachelor,6,Domestic,29,Business,False,Average,False,3,True,4,3,Low,Medium,Medium,541,Low,Good,0.5179169182080321
+279,67,Male,134295,Lawyer,PhD,10,Domestic,8,Leisure,True,Average,True,7,True,0,5,Medium,Low,Medium,677,Low,Good,0.8267268703595904
+280,29,Female,130388,Artist,Master,6,Domestic,15,Medical,False,Good,True,1,False,5,5,High,Low,High,509,Low,Average,0.0724696449066331
+281,57,Female,59146,Teacher,Bachelor,4,Domestic,7,Business,True,Poor,False,5,True,4,4,High,High,High,624,Medium,Average,0.4127779050977391
+282,70,Male,33081,Lawyer,PhD,2,Domestic,11,Leisure,True,Average,True,5,True,2,5,High,Medium,High,409,Low,Average,0.4334532864462517
+283,73,Male,64265,Teacher,Bachelor,2,International,20,Leisure,True,Average,True,4,False,3,9,High,Medium,Low,565,Low,Poor,0.8853626714939109
+284,20,Male,58784,Engineer,Bachelor,6,Domestic,27,Medical,True,Good,True,5,False,1,3,High,High,High,526,Low,Good,0.2332494056129697
+285,69,Male,117914,Engineer,PhD,7,International,9,Medical,True,Average,True,5,True,0,3,Low,Medium,Low,677,High,Poor,0.7970657442074986
+286,39,Male,69745,Engineer,Bachelor,9,Domestic,17,Medical,True,Average,False,5,False,5,5,Low,Medium,Medium,441,Low,Average,0.6285610854037468
+287,58,Male,83261,Artist,High School,10,International,7,Medical,True,Good,False,2,True,5,10,High,Medium,Medium,603,Low,Good,0.6839686887794707
+288,54,Male,48896,Business,High School,6,International,11,Business,False,Good,True,0,False,4,10,High,High,Medium,801,High,Average,0.1292155848301677
+289,63,Male,105809,Business,Master,3,International,23,Medical,False,Poor,False,3,False,5,10,Low,High,High,515,Medium,Good,0.2737107605503346
+290,42,Male,93106,Lawyer,High School,10,International,12,Leisure,True,Poor,False,2,False,5,3,Low,Low,Medium,358,High,Poor,0.4331377885804376
+291,82,Male,144022,Doctor,Bachelor,4,Domestic,10,Leisure,True,Poor,True,4,True,1,5,Medium,High,High,555,Medium,Poor,0.7207367635403198
+292,51,Male,65622,Teacher,High School,2,Domestic,19,Medical,True,Poor,False,2,False,3,10,Low,Low,Medium,359,Medium,Good,0.6284595299916237
+293,30,Male,69145,Artist,High School,2,Domestic,19,Business,False,Poor,False,1,True,5,7,Medium,Low,High,476,High,Good,0.3495098890448196
+294,64,Male,38215,Artist,PhD,3,Domestic,28,Business,False,Average,False,1,True,3,3,Medium,Medium,Medium,773,Low,Average,0.314400489773373
+295,22,Female,98047,Artist,Master,4,International,16,Leisure,True,Average,False,3,False,3,7,Low,Medium,High,323,High,Poor,0.6899059477864741
+296,63,Male,117181,Engineer,High School,2,Domestic,16,Medical,True,Poor,True,3,True,5,10,Medium,Medium,Medium,833,Medium,Good,0.8701298043249612
+297,58,Female,137553,Artist,Bachelor,3,International,14,Leisure,True,Good,True,1,True,2,6,Low,Low,Medium,751,Medium,Average,0.3805307293291424
+298,65,Male,126362,Business,Bachelor,0,International,30,Business,True,Average,False,1,False,5,5,Medium,Medium,Low,423,Low,Poor,0.3679560915736062
+299,19,Male,82243,Teacher,Master,1,International,21,Medical,False,Poor,False,1,True,2,8,Medium,High,Medium,384,Low,Poor,0.5035861317561631
+300,52,Female,50875,Teacher,High School,4,Domestic,28,Business,True,Good,True,3,False,1,3,High,Low,Medium,391,High,Average,0.4169314432302031
+301,83,Female,34707,Doctor,PhD,7,Domestic,12,Leisure,True,Average,True,2,True,2,5,Medium,Low,Low,361,Medium,Average,0.7227848937454611
+302,83,Female,100430,Teacher,Master,2,Domestic,3,Business,True,Poor,True,7,False,4,3,Medium,Low,Medium,426,High,Good,0.9730432362480068
+303,79,Female,92385,Artist,Master,4,Domestic,28,Business,True,Poor,True,3,True,2,6,Low,Medium,Medium,628,Medium,Average,0.9595094144795092
+304,19,Male,63536,Business,PhD,3,Domestic,14,Medical,False,Poor,True,3,False,1,4,Low,Low,Low,599,High,Good,0.2585253762341971
+305,37,Male,131125,Lawyer,Bachelor,6,Domestic,6,Medical,True,Average,True,4,False,4,1,Medium,Low,Medium,463,High,Poor,0.1783427557442127
+306,64,Female,74963,Artist,High School,10,Domestic,16,Business,False,Good,True,1,False,0,9,Low,High,High,612,Medium,Good,0.248834065430061
+307,45,Male,131468,Teacher,Master,4,International,24,Business,True,Average,True,2,True,1,10,Medium,Low,Medium,655,Low,Poor,0.6985280386832423
+308,59,Female,141603,Engineer,High School,5,Domestic,6,Medical,True,Average,True,3,False,5,9,Medium,Low,Low,496,Low,Poor,0.6403177399122787
+309,65,Male,69593,Doctor,High School,6,International,26,Business,True,Average,True,7,False,4,3,Medium,Medium,Medium,672,Low,Average,0.7549334196003403
+310,20,Female,76213,Teacher,Master,10,International,26,Leisure,False,Poor,False,5,True,3,10,Medium,Low,Medium,850,Low,Poor,0.3337358680136261
+311,18,Male,96548,Engineer,Bachelor,0,International,15,Leisure,False,Average,False,0,True,1,8,Low,High,Low,737,Low,Average,0.1521263121997931
+312,65,Female,39566,Teacher,PhD,9,International,1,Leisure,True,Poor,False,1,False,1,9,High,High,High,800,High,Poor,0.4146618221802663
+313,36,Male,94881,Engineer,Bachelor,7,Domestic,3,Leisure,False,Good,True,1,False,0,6,Medium,Low,High,366,High,Good,0.1666102598233376
+314,60,Female,104639,Artist,Bachelor,3,International,27,Medical,False,Good,False,2,False,2,3,Medium,Medium,Medium,718,Medium,Average,0.4153319653031998
+315,43,Female,92035,Doctor,PhD,3,Domestic,7,Medical,True,Good,False,0,True,3,2,Medium,Medium,High,438,Medium,Average,0.3165332982280566
+316,63,Male,57580,Artist,Bachelor,7,Domestic,4,Business,True,Average,True,9,False,2,4,Medium,Medium,Low,753,Low,Poor,0.7935752151043333
+317,21,Male,56722,Doctor,Master,6,Domestic,30,Business,False,Average,True,4,True,0,6,High,Low,High,339,Medium,Good,0.6130098461781289
+318,26,Male,35741,Business,High School,7,International,22,Leisure,True,Poor,False,4,True,5,7,Low,Medium,High,311,High,Poor,0.6098128436401423
+319,62,Male,93218,Artist,Master,0,International,21,Medical,True,Poor,True,2,False,0,7,High,Low,High,732,Medium,Good,0.6595899943352602
+320,51,Male,84053,Artist,High School,4,Domestic,9,Leisure,True,Average,False,4,True,0,5,Medium,Low,High,633,Low,Average,0.564134332394576
+321,71,Male,102867,Teacher,High School,8,International,24,Business,True,Average,True,9,False,1,1,High,Medium,Medium,667,High,Poor,0.7017333373797768
+322,29,Male,34276,Lawyer,Master,3,International,4,Leisure,False,Average,True,0,True,2,5,Low,Low,High,644,Medium,Poor,0.6567155809804553
+323,34,Female,34238,Business,Master,1,Domestic,2,Medical,False,Good,False,1,True,1,9,Low,Low,Medium,657,Low,Average,0.6362020672253723
+324,69,Male,116364,Business,High School,1,International,27,Leisure,False,Poor,False,3,False,0,3,Medium,Medium,Medium,386,Medium,Good,0.2796865764228609
+325,26,Male,115888,Teacher,Master,10,International,27,Leisure,True,Poor,True,3,True,5,10,Medium,Medium,High,336,Medium,Good,0.0337596793773662
+326,59,Male,143217,Doctor,High School,9,International,17,Medical,True,Poor,True,0,False,4,4,High,Medium,Low,490,High,Average,0.6364540096717145
+327,52,Female,126847,Artist,PhD,6,International,9,Leisure,True,Average,True,2,False,3,4,High,Low,Low,520,High,Poor,0.5818536231500399
+328,43,Female,67070,Doctor,Bachelor,10,Domestic,10,Medical,False,Average,False,4,True,3,7,Medium,Low,Low,363,Low,Good,0.1190445288366723
+329,43,Female,74416,Business,Bachelor,5,International,5,Leisure,True,Poor,False,3,True,0,4,Low,High,Low,784,High,Good,0.0928277517030776
+330,83,Female,142681,Doctor,High School,1,Domestic,13,Leisure,True,Average,True,9,False,2,7,Medium,Low,High,564,Low,Good,0.7956004083980222
+331,23,Female,43671,Teacher,PhD,5,International,16,Medical,True,Good,False,1,False,1,4,Low,Low,High,372,Medium,Good,0.4381310468416978
+332,82,Female,115501,Teacher,Master,5,Domestic,16,Medical,True,Average,True,5,False,0,2,High,Low,Medium,463,Low,Average,0.8241721467931834
+333,87,Female,47875,Teacher,Master,3,Domestic,10,Leisure,True,Poor,True,7,False,5,6,High,Medium,Low,423,Medium,Good,0.9582377553371326
+334,33,Female,124950,Lawyer,High School,5,Domestic,18,Leisure,False,Good,True,2,True,0,8,Low,Low,Low,310,Medium,Average,0.2298116891441082
+335,19,Male,50244,Doctor,Master,10,Domestic,15,Business,False,Average,False,3,True,0,10,Medium,High,Medium,736,High,Poor,0.0553562049952305
+336,76,Male,46229,Teacher,Bachelor,3,International,25,Leisure,True,Average,True,5,False,0,9,High,Low,Low,362,High,Average,0.7992646333873737
+337,66,Male,146386,Teacher,Bachelor,6,Domestic,7,Leisure,True,Average,True,6,True,3,1,High,Low,High,445,High,Poor,0.8481421585767015
+338,31,Female,97266,Lawyer,High School,8,International,9,Leisure,False,Good,False,2,False,5,4,Medium,Medium,High,490,Medium,Average,0.1909589470346814
+339,36,Female,99388,Engineer,High School,3,International,16,Business,True,Average,True,3,True,0,1,Low,Low,Low,664,Low,Poor,0.0270445203671702
+340,68,Male,137178,Lawyer,Master,8,International,16,Medical,True,Average,True,8,True,0,9,High,Medium,Medium,631,Low,Average,0.774742239036968
+341,71,Male,137358,Teacher,Master,9,International,5,Business,True,Average,True,4,False,3,7,Medium,High,Medium,716,High,Average,0.8638204783254377
+342,18,Female,109403,Business,PhD,8,International,1,Leisure,True,Good,False,1,False,0,6,High,High,Low,751,Low,Good,0.2047688209064758
+343,65,Female,44675,Engineer,Bachelor,3,Domestic,26,Business,False,Good,False,2,False,2,10,Medium,High,Low,789,Low,Good,0.6714292702737625
+344,69,Female,126116,Teacher,Master,6,Domestic,18,Medical,True,Poor,True,3,False,1,5,Low,High,Low,492,Low,Average,0.0254746390928232
+345,44,Female,149555,Artist,PhD,4,Domestic,4,Medical,True,Average,True,3,True,2,8,Low,High,Medium,333,Low,Poor,0.2097099489938759
+346,85,Female,70921,Lawyer,Bachelor,2,Domestic,5,Medical,True,Poor,True,3,True,2,5,Medium,Low,High,418,Medium,Poor,0.9976342909458972
+347,44,Male,38836,Engineer,High School,10,International,7,Leisure,True,Average,False,0,False,4,5,Low,Medium,Medium,631,Medium,Poor,0.3775971063722884
+348,37,Male,49939,Lawyer,Master,4,Domestic,23,Medical,False,Average,True,4,True,4,7,Medium,High,High,709,High,Good,0.4423143251493742
+349,69,Male,113892,Artist,Master,3,Domestic,17,Leisure,True,Poor,True,4,True,3,6,Low,Medium,High,317,Low,Good,0.9421417790204496
+350,59,Female,78877,Artist,High School,4,International,16,Business,False,Poor,False,2,True,2,4,High,High,High,780,Low,Good,0.2986831269563289
+351,18,Male,130532,Engineer,Master,2,International,7,Medical,True,Poor,False,3,False,5,5,High,Low,High,622,Medium,Good,0.3900215618938591
+352,62,Male,76104,Engineer,PhD,6,International,25,Leisure,False,Good,True,4,False,4,9,Medium,Low,Medium,655,Low,Average,0.0520209555716441
+353,42,Female,148361,Business,High School,8,Domestic,10,Medical,True,Good,False,3,False,4,4,High,Medium,High,676,High,Poor,0.0706362758332125
+354,18,Male,135048,Doctor,Bachelor,7,International,25,Business,False,Good,False,3,False,1,9,Medium,High,Low,850,Low,Good,0.3109071914710843
+355,32,Male,56202,Business,High School,10,International,29,Medical,True,Average,False,4,False,0,3,Low,High,Low,699,Low,Poor,0.4663921586674433
+356,79,Male,74821,Lawyer,PhD,2,International,24,Leisure,True,Poor,True,4,True,0,7,Low,Medium,Low,714,Low,Average,0.855488481178492
+357,84,Male,58341,Artist,High School,10,Domestic,13,Business,True,Poor,True,2,True,0,1,Low,High,Medium,834,High,Good,0.9706313727700612
+358,31,Female,105208,Engineer,Master,8,International,25,Medical,False,Poor,True,3,False,4,9,Medium,Low,Medium,612,Medium,Poor,0.0683888527446896
+359,48,Male,56364,Engineer,PhD,8,Domestic,23,Leisure,True,Good,True,4,True,0,10,Low,Low,High,328,Medium,Poor,0.5178623790140995
+360,90,Male,80370,Artist,PhD,9,International,23,Business,True,Poor,True,8,False,1,8,Medium,Medium,Medium,464,High,Poor,0.7625506293943405
+361,51,Female,95853,Engineer,PhD,8,International,19,Medical,False,Average,False,3,False,0,9,Low,Low,Low,537,High,Good,0.1864598274553414
+362,70,Male,144882,Teacher,Master,4,International,21,Business,True,Poor,False,3,True,5,3,High,High,Medium,506,High,Good,0.0438246797464921
+363,38,Female,80372,Engineer,Bachelor,10,Domestic,12,Medical,False,Average,True,2,False,1,8,Low,Medium,Low,709,Medium,Poor,0.5176691479353942
+364,87,Male,48214,Teacher,High School,2,Domestic,17,Leisure,True,Poor,True,4,False,5,9,Medium,High,High,334,Medium,Average,0.8861822912987681
+365,63,Female,32580,Engineer,Master,0,Domestic,26,Medical,True,Good,False,3,True,3,8,High,Low,High,386,Low,Good,0.1301004301196706
+366,59,Female,60472,Business,High School,1,International,13,Business,False,Good,False,5,True,4,10,Low,High,High,688,Low,Good,0.5458252198765866
+367,90,Male,96249,Teacher,Master,5,International,4,Medical,True,Average,True,3,False,0,3,Low,Low,Low,530,Medium,Good,0.8979088105373334
+368,63,Female,89749,Teacher,Master,8,Domestic,20,Business,True,Average,True,2,True,1,5,Low,Medium,High,694,Medium,Average,0.7439916555658191
+369,65,Female,138345,Business,Bachelor,0,International,14,Leisure,True,Average,True,2,False,0,5,Low,Low,Medium,692,High,Poor,0.9431234302640006
+370,87,Male,49695,Artist,High School,2,International,17,Business,True,Average,True,6,False,1,5,Medium,High,High,536,Low,Average,0.9000346590351646
+371,63,Female,68536,Engineer,PhD,7,Domestic,10,Medical,True,Poor,False,1,True,4,10,Medium,Low,Low,507,Low,Poor,0.6400799750654742
+372,89,Female,52000,Teacher,High School,10,International,23,Medical,True,Average,True,2,True,3,2,Low,Low,High,835,Medium,Poor,0.8637171614112186
+373,66,Female,76808,Artist,PhD,4,Domestic,22,Business,True,Poor,True,9,False,2,5,Low,High,Low,431,Medium,Good,0.8353221461712435
+374,31,Male,79538,Business,Master,0,International,6,Medical,False,Average,True,0,False,0,10,Low,Medium,High,371,Low,Average,0.3668388298620744
+375,78,Male,118115,Engineer,PhD,3,Domestic,9,Medical,True,Poor,True,6,False,0,6,Medium,High,High,414,High,Poor,0.7740608179907078
+376,79,Male,30171,Lawyer,Bachelor,4,International,23,Business,True,Average,True,4,False,3,9,Low,Low,Medium,406,High,Average,0.8140154112876842
+377,43,Female,58632,Doctor,Master,0,International,28,Medical,False,Poor,True,1,True,2,5,Medium,Medium,Low,356,High,Good,0.2235712193240491
+378,76,Female,140987,Lawyer,Master,2,Domestic,15,Business,True,Average,True,7,True,4,8,High,High,High,806,Low,Good,0.996739792445286
+379,65,Male,42856,Artist,PhD,5,Domestic,1,Business,False,Average,True,2,False,2,4,Medium,Low,Low,366,High,Poor,0.2785495021613174
+380,84,Male,74950,Lawyer,High School,6,Domestic,3,Business,True,Poor,True,8,False,4,10,Medium,Low,High,688,High,Good,0.7661137386148341
+381,63,Female,46935,Doctor,Master,3,International,6,Business,True,Average,True,3,False,1,6,High,Medium,Medium,802,High,Poor,0.03089240077649
+382,46,Male,72834,Engineer,Bachelor,0,Domestic,14,Leisure,True,Average,True,1,True,1,5,Medium,High,High,491,Medium,Poor,0.6262947063092361
+383,66,Female,135061,Engineer,PhD,9,Domestic,26,Leisure,True,Poor,True,2,True,0,9,Low,Low,Medium,704,Low,Average,0.9349223998289046
+384,41,Female,138606,Business,PhD,9,Domestic,29,Medical,True,Good,False,1,False,1,7,Low,High,High,768,Medium,Poor,0.4561626229717574
+385,21,Female,124681,Engineer,Master,0,International,18,Leisure,True,Poor,True,1,True,5,8,Medium,Medium,Medium,735,Medium,Average,0.5406965931442869
+386,59,Male,49001,Doctor,PhD,6,International,18,Leisure,False,Average,False,5,True,2,4,High,Medium,High,718,Low,Good,0.1966076395247232
+387,39,Female,95623,Lawyer,High School,0,Domestic,20,Leisure,False,Average,False,1,True,0,3,Medium,Medium,Medium,583,High,Good,0.667668525302329
+388,39,Male,107149,Teacher,PhD,3,Domestic,2,Business,True,Good,False,3,True,1,6,High,High,Low,794,High,Poor,0.1061553258127091
+389,87,Female,57289,Engineer,Bachelor,6,International,21,Business,True,Poor,True,5,True,5,3,Medium,High,High,532,Low,Good,0.8077811504806419
+390,66,Female,119302,Doctor,High School,8,International,14,Business,True,Average,True,3,False,5,7,Medium,Medium,High,472,Low,Poor,0.9335593643403516
+391,69,Male,54918,Teacher,PhD,5,International,24,Leisure,False,Average,False,1,False,1,3,High,Low,Medium,630,Medium,Poor,0.1241631306494415
+392,65,Female,130884,Lawyer,PhD,9,Domestic,30,Medical,True,Average,True,2,True,0,6,Medium,Low,High,442,Low,Good,0.6219810473291824
+393,23,Female,67221,Lawyer,Bachelor,6,International,16,Business,True,Poor,True,5,True,4,10,Medium,Low,Medium,316,Low,Average,0.6621569216813559
+394,57,Male,135074,Lawyer,PhD,4,International,20,Leisure,False,Good,True,5,False,4,7,Low,Medium,High,610,Medium,Poor,0.2271508030695648
+395,25,Male,123619,Teacher,Master,0,International,10,Business,False,Poor,False,2,False,2,7,Medium,Low,Low,316,Low,Average,0.2655487788075586
+396,59,Male,85251,Doctor,High School,10,International,3,Leisure,False,Poor,False,2,False,1,6,Medium,High,High,783,High,Good,0.1095572113458156
+397,44,Male,106817,Doctor,Master,7,Domestic,13,Leisure,True,Average,True,0,True,4,1,Low,Medium,Low,569,Medium,Good,0.6793249860439113
+398,56,Female,110017,Artist,PhD,3,Domestic,1,Medical,False,Good,True,1,False,4,1,High,Medium,Low,738,Low,Good,0.2358251685219319
+399,73,Male,115638,Doctor,PhD,10,International,6,Medical,True,Poor,True,2,False,4,2,Medium,Medium,High,531,High,Poor,0.9601343049005704
+400,88,Male,53276,Engineer,High School,5,Domestic,29,Medical,True,Average,True,6,True,0,5,Low,High,Low,755,Low,Average,0.7950964933007407
+401,65,Male,136841,Artist,Master,0,Domestic,5,Business,True,Average,True,2,True,4,6,Medium,Low,High,734,Low,Poor,0.7804269208972181
+402,70,Female,57345,Business,Bachelor,6,Domestic,9,Business,False,Average,False,3,False,3,1,Low,High,Medium,584,Medium,Average,0.2899920827803779
+403,86,Male,66020,Engineer,High School,10,International,2,Leisure,True,Average,True,4,True,5,9,High,Medium,Low,578,Medium,Average,0.9000716240881472
+404,39,Male,112880,Artist,High School,4,Domestic,14,Leisure,True,Good,True,5,False,2,5,Low,High,Medium,841,High,Average,0.4837819623898819
+405,86,Male,146457,Artist,PhD,10,International,3,Business,True,Poor,True,9,False,3,3,Medium,Low,Low,655,Low,Average,0.9735102255030876
+406,36,Male,66716,Lawyer,Master,8,Domestic,19,Medical,True,Good,True,4,True,5,3,Low,Medium,High,656,Low,Average,0.1184122220564455
+407,23,Male,72844,Engineer,High School,10,Domestic,6,Business,True,Average,True,2,True,0,9,High,Low,High,431,Low,Average,0.0663565784810391
+408,67,Female,65332,Engineer,High School,6,Domestic,24,Business,True,Average,True,5,False,3,5,Low,Low,Medium,456,High,Average,0.9561377889442396
+409,51,Female,128740,Lawyer,Master,7,Domestic,15,Medical,False,Average,True,5,True,0,2,Low,Low,Medium,555,High,Average,0.4143447038574328
+410,56,Male,36737,Lawyer,Master,5,Domestic,26,Medical,True,Poor,False,0,False,5,5,Medium,High,Medium,682,High,Poor,0.3068417728736575
+411,27,Male,38412,Doctor,Bachelor,8,Domestic,24,Leisure,True,Poor,True,2,True,4,6,High,Medium,Medium,304,High,Good,0.6086580691877782
+412,72,Female,144374,Business,Master,6,Domestic,13,Leisure,True,Average,True,7,True,1,10,Medium,High,Medium,427,Low,Average,0.8965559836632374
+413,64,Male,65898,Lawyer,Master,9,Domestic,15,Business,True,Average,False,5,False,3,3,Medium,High,High,832,Medium,Poor,0.4104675611377288
+414,58,Male,49315,Engineer,High School,10,International,30,Medical,False,Poor,True,4,True,4,10,Low,Medium,Low,482,Low,Good,0.6046877674167787
+415,69,Male,35241,Doctor,Bachelor,6,Domestic,8,Leisure,False,Good,True,5,False,0,9,Medium,Low,High,545,High,Poor,0.6790465498044076
+416,37,Male,142022,Engineer,PhD,6,Domestic,25,Medical,False,Poor,True,3,True,4,6,Low,Medium,Low,523,High,Good,0.4894295114888146
+417,21,Male,71042,Artist,PhD,7,Domestic,1,Medical,False,Average,False,3,False,4,9,Medium,Medium,Medium,639,Medium,Average,0.1286183545455634
+418,68,Female,51216,Teacher,Master,5,Domestic,15,Business,True,Average,True,4,True,2,2,Medium,Medium,Medium,641,Medium,Good,0.8076673553649466
+419,73,Female,93720,Teacher,Bachelor,1,International,23,Leisure,True,Average,True,7,True,5,3,Low,High,Medium,735,Medium,Average,0.9293245694537386
+420,25,Male,148508,Lawyer,Master,1,International,16,Leisure,False,Average,False,4,True,2,10,Medium,High,Medium,358,Low,Average,0.3134450422267191
+421,60,Female,105727,Engineer,PhD,0,Domestic,18,Business,True,Average,True,6,False,3,10,Low,Low,Medium,394,High,Poor,0.8942791200946263
+422,31,Male,117689,Teacher,High School,8,Domestic,24,Leisure,False,Average,False,2,True,5,8,Medium,High,Medium,829,Medium,Good,0.2105307259352508
+423,49,Male,57932,Engineer,Master,7,Domestic,19,Business,True,Poor,False,3,False,1,1,High,Medium,Medium,459,High,Poor,0.3069962430347904
+424,67,Female,61530,Lawyer,Bachelor,4,Domestic,30,Business,False,Average,True,1,False,4,7,High,High,High,444,Medium,Poor,0.555007394491029
+425,76,Male,115841,Teacher,High School,8,International,3,Leisure,True,Poor,True,3,False,5,3,High,Low,Low,519,Low,Average,0.7017624805791914
+426,23,Female,38579,Business,PhD,8,Domestic,25,Leisure,True,Poor,False,0,True,1,4,Medium,High,Medium,831,Low,Poor,0.6590735116374374
+427,75,Female,142841,Artist,Bachelor,8,International,12,Leisure,True,Average,True,8,True,5,9,Medium,Medium,Low,632,Medium,Good,0.8842952114222392
+428,52,Male,135814,Teacher,Master,7,Domestic,6,Medical,False,Poor,True,1,True,3,5,Low,Low,Medium,411,High,Poor,0.4081270243081956
+429,43,Male,129714,Lawyer,PhD,8,Domestic,17,Business,True,Poor,False,3,True,5,3,Medium,Medium,Low,748,High,Poor,0.3288698913830742
+430,67,Male,58860,Doctor,Bachelor,8,Domestic,4,Medical,True,Average,True,4,False,2,2,Low,Low,High,503,High,Poor,0.7718459143171451
+431,61,Female,31963,Engineer,PhD,10,International,7,Medical,True,Average,True,4,True,4,8,Medium,Medium,Medium,557,Low,Average,0.3883445183619516
+432,49,Female,124120,Artist,Bachelor,6,Domestic,19,Leisure,False,Poor,True,4,False,3,6,Low,Medium,Low,335,Medium,Average,0.2687742228864556
+433,49,Female,96595,Engineer,High School,2,International,6,Leisure,True,Poor,False,5,True,5,1,High,High,Low,725,Medium,Average,0.3845690057631792
+434,49,Male,69315,Engineer,High School,9,International,30,Medical,True,Average,False,5,True,5,9,Low,Low,Low,371,High,Good,0.1568723715092851
+435,33,Female,35570,Artist,PhD,8,International,16,Medical,False,Good,True,1,False,4,8,High,Medium,Medium,434,High,Good,0.5707748263558118
+436,39,Female,118961,Engineer,PhD,9,International,17,Medical,False,Good,True,2,False,1,4,High,Medium,High,463,High,Good,0.6906413603986219
+437,68,Female,40158,Artist,Master,8,International,15,Leisure,False,Poor,False,3,True,5,7,Medium,High,Low,795,Low,Good,0.0549925940358486
+438,43,Male,108745,Engineer,Master,8,International,17,Business,False,Good,True,0,True,4,10,High,Medium,Low,793,High,Poor,0.1444992516712844
+439,73,Female,46871,Engineer,Master,10,Domestic,10,Medical,True,Average,True,2,True,5,7,High,High,Low,596,Medium,Good,0.8614771195098683
+440,25,Female,34517,Business,High School,3,Domestic,27,Medical,False,Average,True,1,True,0,3,Medium,High,High,603,Low,Poor,0.1156319473476708
+441,37,Female,140681,Doctor,Master,8,International,9,Medical,False,Good,False,0,False,0,1,Medium,Medium,High,727,High,Poor,0.4828358075643882
+442,37,Female,52857,Doctor,Master,3,Domestic,16,Leisure,False,Good,True,0,True,2,5,Medium,Medium,High,767,Low,Average,0.4969305529154504
+443,87,Female,59862,Doctor,PhD,9,International,8,Business,True,Poor,True,2,False,0,5,Low,Medium,Low,734,High,Poor,0.7610865864756419
+444,45,Female,144563,Artist,Bachelor,7,Domestic,16,Medical,True,Average,True,4,True,5,1,High,High,Low,735,High,Average,0.5207543830584961
+445,53,Female,130351,Lawyer,High School,9,International,29,Leisure,True,Average,True,1,False,3,1,High,Medium,High,435,Medium,Poor,0.6898493326084387
+446,68,Male,35208,Artist,Bachelor,6,Domestic,12,Leisure,True,Poor,False,5,False,0,9,Low,High,Low,665,High,Average,0.4739145803612183
+447,72,Female,87497,Artist,High School,7,International,3,Business,True,Average,True,9,False,0,5,Medium,Medium,Low,607,Medium,Average,0.7283952669070032
+448,49,Female,31776,Doctor,High School,1,Domestic,15,Medical,True,Good,True,5,False,0,10,Low,Low,Low,539,Low,Average,0.3703763837029061
+449,58,Male,54047,Business,Bachelor,6,Domestic,4,Business,True,Average,True,4,True,0,6,High,Low,Low,491,Medium,Average,0.638873573202737
+450,49,Female,113008,Engineer,Master,5,International,2,Medical,True,Good,False,4,False,1,3,High,Low,Low,715,Medium,Good,0.4070212010924207
+451,46,Female,123488,Doctor,PhD,10,Domestic,22,Leisure,False,Poor,False,3,True,4,1,Low,High,Medium,802,Low,Good,0.4614240831893201
+452,30,Female,114513,Doctor,Bachelor,8,Domestic,19,Medical,False,Average,True,1,False,0,2,Low,High,High,379,High,Poor,0.573633960737834
+453,64,Female,105153,Doctor,High School,4,Domestic,17,Business,True,Poor,True,7,False,5,5,Medium,Medium,High,454,Medium,Poor,0.9770615527810872
+454,27,Male,94348,Business,Bachelor,8,International,11,Medical,True,Poor,False,1,True,0,1,Low,Medium,Low,801,High,Poor,0.3956504078654059
+455,34,Male,118245,Teacher,High School,3,International,30,Medical,True,Poor,True,3,False,5,1,Medium,High,Medium,570,High,Poor,0.0819027776084599
+456,61,Female,87109,Artist,Master,8,International,25,Medical,True,Poor,True,3,True,5,7,Low,High,Low,360,Medium,Average,0.624404952843363
+457,32,Female,124381,Artist,PhD,8,Domestic,24,Medical,False,Average,True,5,False,0,9,High,Low,Low,642,Low,Poor,0.1902719718838736
+458,83,Female,75543,Lawyer,Master,3,International,4,Business,True,Poor,True,6,False,0,10,High,Low,Medium,800,High,Poor,0.970074076516484
+459,28,Male,66291,Lawyer,PhD,7,International,17,Leisure,True,Good,True,1,True,3,8,High,High,Medium,737,High,Poor,0.6196764061684896
+460,71,Female,141538,Teacher,High School,1,Domestic,17,Medical,True,Poor,True,7,False,1,10,Medium,Low,Medium,723,Medium,Poor,0.9568783181400288
+461,70,Male,104376,Business,Master,5,International,2,Medical,True,Average,True,7,True,0,4,Low,Low,Medium,749,Low,Poor,0.9337800809488866
+462,37,Female,55830,Lawyer,Bachelor,1,International,7,Medical,True,Average,False,5,True,1,2,High,Low,Medium,782,Medium,Average,0.2246058007290988
+463,18,Male,48950,Teacher,High School,9,Domestic,16,Medical,True,Average,False,5,True,4,8,High,High,High,527,Low,Average,0.2689560075418296
+464,56,Male,47315,Lawyer,High School,2,International,15,Leisure,True,Good,False,2,False,4,9,Low,Medium,Medium,379,High,Average,0.126831696058571
+465,78,Male,132948,Artist,Bachelor,2,International,17,Medical,True,Poor,True,6,False,0,3,Low,Low,Low,636,High,Average,0.8822777516247897
+466,60,Male,127079,Business,Bachelor,2,International,30,Business,True,Poor,False,0,False,3,4,Medium,High,High,825,Low,Average,0.4066219481363989
+467,63,Male,69154,Engineer,PhD,6,International,12,Medical,True,Average,True,3,True,5,1,High,Medium,Low,328,High,Good,0.3822850339366636
+468,44,Female,130492,Business,PhD,3,Domestic,6,Business,True,Poor,True,1,False,3,8,Medium,Low,Low,343,High,Good,0.113014642805108
+469,54,Male,60151,Doctor,Bachelor,0,International,9,Leisure,False,Average,True,5,True,4,9,High,Low,Low,442,Low,Average,0.2702866862363626
+470,68,Female,135010,Teacher,Bachelor,0,International,13,Medical,False,Average,True,1,False,4,9,Medium,Low,High,326,High,Good,0.2650788827030164
+471,61,Male,107524,Artist,PhD,8,Domestic,19,Business,False,Average,True,3,False,3,9,High,High,Medium,722,High,Good,0.6623900948541613
+472,41,Male,102038,Teacher,Bachelor,7,International,13,Business,True,Poor,False,5,True,5,1,Medium,High,High,816,Low,Average,0.2545465127894927
+473,29,Male,123140,Lawyer,High School,5,International,2,Leisure,True,Average,True,5,True,0,10,Medium,Medium,Medium,672,High,Poor,0.5205730080717967
+474,71,Male,142266,Doctor,Master,1,Domestic,4,Leisure,True,Poor,True,9,True,2,2,Low,High,Medium,566,High,Average,0.9317779203213178
+475,40,Male,144269,Lawyer,High School,8,International,25,Business,False,Poor,True,3,False,3,2,High,High,Medium,334,Medium,Good,0.1961395323868903
+476,24,Female,115786,Engineer,PhD,0,Domestic,6,Leisure,False,Average,False,0,False,5,9,Medium,Medium,High,653,High,Average,0.1383316380748744
+477,60,Female,36205,Engineer,High School,0,International,7,Leisure,True,Poor,False,5,False,2,3,Low,Low,Low,693,High,Poor,0.3168115270565895
+478,73,Male,101407,Teacher,Master,1,International,14,Medical,True,Average,True,4,False,3,2,Low,Medium,Low,691,High,Good,0.7124714745259797
+479,49,Female,70197,Teacher,PhD,6,Domestic,20,Leisure,False,Average,False,4,False,1,4,High,Medium,Medium,535,High,Average,0.6521603828635865
+480,38,Female,99257,Doctor,Bachelor,8,Domestic,13,Leisure,False,Good,True,2,True,3,2,Low,Medium,Medium,567,Low,Average,0.2972757142550523
+481,84,Female,132944,Artist,PhD,9,Domestic,4,Medical,True,Average,True,3,True,0,5,High,Medium,Medium,727,Low,Poor,0.9402594714072348
+482,53,Male,48914,Teacher,Master,8,Domestic,30,Leisure,False,Good,True,4,False,4,3,Low,Low,High,300,Medium,Good,0.1586080836250064
+483,47,Male,113914,Doctor,Master,3,Domestic,30,Leisure,False,Good,True,3,False,4,6,Medium,Low,Low,555,High,Good,0.0807222511260569
+484,36,Female,58128,Doctor,PhD,8,Domestic,22,Business,False,Poor,True,5,True,0,9,Low,Medium,High,656,Medium,Average,0.1854531941678331
+485,68,Female,86434,Doctor,PhD,0,Domestic,16,Business,True,Poor,True,6,False,1,3,Low,High,High,566,High,Average,0.927703390204792
+486,19,Female,111519,Business,High School,6,Domestic,14,Business,True,Poor,True,2,True,5,3,High,High,Medium,419,High,Average,0.4366108668500552
+487,63,Male,53231,Business,Master,3,International,1,Business,True,Average,True,4,False,3,10,Low,Medium,High,720,Low,Average,0.1492905882113645
+488,53,Female,104408,Doctor,PhD,2,International,9,Business,False,Poor,False,5,False,0,9,Low,High,High,449,Medium,Average,0.1258301481588423
+489,78,Female,110271,Doctor,Master,6,International,24,Business,True,Average,True,8,False,2,3,Medium,Medium,Medium,737,High,Average,0.9555971823548512
+490,26,Male,141550,Teacher,Bachelor,3,Domestic,27,Business,False,Good,True,5,True,4,10,Low,High,Medium,743,High,Average,0.5660345694571889
+491,79,Male,119910,Artist,Master,7,Domestic,7,Business,True,Average,True,4,False,5,4,Low,High,Low,333,High,Average,0.8873171463714397
+492,24,Male,129749,Artist,Master,6,Domestic,2,Medical,True,Good,True,5,False,3,4,High,High,Medium,380,Low,Poor,0.6685240316686301
+493,59,Male,50159,Teacher,Bachelor,3,International,22,Business,True,Good,True,2,False,4,2,Low,Medium,Low,751,Low,Poor,0.2065432000078567
+494,62,Female,43939,Lawyer,Bachelor,4,International,7,Leisure,False,Good,True,4,False,1,9,High,High,Medium,819,High,Good,0.6303527925632365
+495,55,Male,107111,Lawyer,Bachelor,4,Domestic,30,Medical,True,Average,True,3,True,2,8,Medium,High,High,820,Low,Good,0.6627824936261971
+496,40,Female,35149,Engineer,PhD,2,International,9,Business,False,Average,False,4,True,3,1,High,High,High,736,Low,Average,0.2817813285070049
+497,22,Female,89535,Engineer,Master,6,Domestic,29,Business,True,Good,True,2,True,4,2,Low,Low,Low,362,Medium,Good,0.538125204344046
+498,64,Male,130006,Lawyer,Bachelor,9,International,15,Business,True,Good,False,1,True,2,10,Medium,High,High,771,High,Poor,0.4169665108616791
+499,26,Male,107785,Business,Bachelor,2,International,26,Business,True,Poor,True,2,True,0,10,Medium,Medium,Low,525,Medium,Good,0.2717175482106945
+500,34,Male,106399,Engineer,Bachelor,0,Domestic,6,Medical,True,Poor,True,0,False,1,8,High,High,Low,731,Medium,Good,0.4522687383853693
+501,66,Male,143762,Engineer,PhD,5,International,14,Leisure,True,Good,True,1,True,1,2,Medium,Medium,Low,740,High,Good,0.5921411596482167
+502,67,Female,56698,Engineer,PhD,7,International,27,Medical,True,Average,False,3,True,5,1,High,High,High,662,Medium,Average,0.1100481592390969
+503,87,Female,134878,Artist,Bachelor,8,International,10,Medical,True,Poor,True,4,True,3,2,Low,High,Medium,509,High,Good,0.796024247874847
+504,65,Male,40231,Business,Bachelor,9,Domestic,7,Leisure,False,Average,True,5,True,2,5,Medium,High,High,847,High,Average,0.2750516324512292
+505,32,Male,112685,Engineer,PhD,10,International,25,Medical,True,Poor,True,5,False,1,8,Low,Medium,Low,537,Low,Good,0.6848089030197749
+506,57,Female,40907,Teacher,Master,7,International,22,Business,False,Poor,False,2,False,4,9,Medium,High,Medium,459,Medium,Average,0.0976976652235787
+507,40,Female,97489,Engineer,Master,7,International,7,Leisure,False,Average,False,4,False,4,10,Medium,High,Low,524,High,Poor,0.6080563805864749
+508,18,Male,51896,Lawyer,Master,8,Domestic,9,Leisure,False,Good,True,3,True,2,9,Low,Low,High,751,High,Poor,0.6735134445264458
+509,61,Male,32795,Lawyer,PhD,2,Domestic,25,Medical,True,Good,False,5,False,3,7,High,Low,Medium,427,High,Poor,0.0586876998504402
+510,76,Female,32258,Teacher,PhD,5,Domestic,1,Business,True,Poor,True,5,False,5,2,Low,High,Medium,591,Low,Good,0.779678075225188
+511,25,Female,33379,Engineer,PhD,9,Domestic,25,Leisure,False,Good,True,0,False,2,10,High,Low,Low,600,Medium,Good,0.4860655858419109
+512,85,Male,120371,Business,Bachelor,7,International,13,Medical,True,Poor,True,4,True,4,9,Medium,Medium,High,685,Low,Good,0.9668379092517536
+513,40,Male,119259,Artist,Master,7,Domestic,30,Leisure,False,Good,True,4,True,1,3,Low,Medium,Low,653,Medium,Average,0.5165853078576172
+514,58,Male,114607,Doctor,Master,9,Domestic,18,Medical,True,Poor,True,4,True,2,6,High,Low,High,350,High,Good,0.1515936484390005
+515,72,Male,81123,Artist,Master,6,International,16,Medical,True,Poor,True,6,True,4,4,High,Low,Medium,706,Low,Average,0.9318583121565988
+516,19,Female,117998,Doctor,High School,6,International,8,Leisure,True,Poor,False,5,True,2,5,Medium,Low,Medium,735,Medium,Poor,0.302521727487955
+517,51,Female,105846,Engineer,High School,3,Domestic,2,Leisure,True,Poor,False,3,False,2,5,Medium,High,Medium,441,Low,Poor,0.3546256898790138
+518,46,Female,122875,Artist,PhD,9,Domestic,22,Medical,True,Average,False,0,True,3,6,High,Medium,Medium,317,High,Good,0.2764017431720226
+519,61,Male,97768,Engineer,High School,4,International,8,Leisure,True,Average,False,1,False,4,10,Medium,Low,High,540,High,Poor,0.1711439755057597
+520,62,Female,91214,Artist,PhD,7,International,16,Business,True,Poor,True,8,True,4,3,Low,Medium,Low,746,High,Average,0.993390729954234
+521,61,Male,128876,Teacher,Master,9,International,17,Medical,False,Average,True,1,False,5,9,Medium,High,Medium,490,Medium,Poor,0.2853863708313645
+522,43,Female,79757,Engineer,Bachelor,4,International,27,Medical,False,Average,True,2,False,4,4,Medium,High,Medium,568,Low,Poor,0.2963292252016122
+523,19,Male,91668,Business,High School,7,International,28,Medical,True,Poor,True,0,False,5,7,Medium,Low,Low,754,High,Poor,0.3719085099252576
+524,90,Female,136447,Artist,Master,0,International,3,Medical,True,Poor,True,5,False,2,3,High,Low,High,522,Medium,Good,0.9678767922890414
+525,24,Female,77546,Business,High School,3,International,22,Business,False,Good,True,0,True,5,9,Medium,Medium,High,676,Medium,Average,0.6819311595110394
+526,78,Female,133891,Doctor,Bachelor,8,Domestic,7,Leisure,True,Poor,True,5,True,1,2,High,Low,Medium,369,High,Poor,0.9600880063918305
+527,28,Female,109021,Doctor,Bachelor,4,Domestic,29,Leisure,False,Poor,True,5,True,3,5,High,Low,Medium,580,Medium,Poor,0.057709500170422
+528,70,Male,43303,Teacher,PhD,3,Domestic,3,Leisure,True,Average,True,6,False,4,1,High,Medium,High,709,High,Average,0.9011685068833696
+529,20,Female,55451,Teacher,PhD,4,International,16,Leisure,True,Good,False,3,True,0,2,Medium,Low,High,681,Medium,Poor,0.1862712863104808
+530,46,Male,43530,Teacher,High School,3,Domestic,25,Business,False,Average,True,4,False,2,3,High,Medium,High,385,Low,Good,0.4522328047868478
+531,77,Male,35820,Engineer,PhD,4,Domestic,25,Leisure,True,Poor,True,4,True,1,1,Medium,Low,Low,769,High,Average,0.8775491399754336
+532,52,Female,45234,Teacher,PhD,9,Domestic,14,Business,True,Good,True,1,True,5,1,Medium,Low,Low,395,Low,Good,0.5413556635053661
+533,66,Male,89486,Teacher,Bachelor,2,Domestic,5,Leisure,True,Good,True,0,True,0,3,High,Medium,Medium,560,Low,Poor,0.4242525758369583
+534,68,Female,144399,Lawyer,Master,1,Domestic,2,Business,True,Poor,True,7,True,3,6,Low,Low,Low,737,Medium,Poor,0.7735768040816855
+535,86,Male,64168,Teacher,Master,7,International,20,Business,True,Poor,True,4,False,5,5,High,High,Low,803,High,Average,0.90454027520385
+536,55,Female,56639,Engineer,High School,7,International,22,Business,False,Poor,True,2,False,3,8,Medium,High,Low,482,High,Good,0.622144998467569
+537,83,Male,147187,Teacher,Master,10,International,21,Medical,True,Average,True,3,True,2,4,High,Medium,High,722,Low,Poor,0.7365443769233329
+538,62,Female,102090,Business,Master,10,Domestic,5,Medical,True,Poor,True,1,False,1,8,Low,Medium,Medium,548,Medium,Poor,0.1795056351657498
+539,41,Male,69583,Teacher,High School,5,Domestic,7,Business,False,Good,False,4,True,1,4,High,Medium,Low,580,Low,Good,0.2293358014010096
+540,83,Female,84727,Lawyer,Bachelor,0,International,24,Medical,True,Average,True,3,True,4,3,Medium,Low,High,492,Medium,Good,0.8314837719068937
+541,63,Female,52950,Artist,Bachelor,4,Domestic,2,Leisure,True,Average,True,7,True,1,5,High,Medium,Low,407,Low,Poor,0.9845218506957594
+542,49,Female,105512,Doctor,PhD,9,International,4,Medical,False,Average,False,1,True,3,6,Medium,Low,Low,777,High,Poor,0.1469104532300692
+543,68,Male,65104,Artist,High School,0,Domestic,29,Medical,True,Average,True,4,True,1,1,High,Medium,Low,536,Low,Good,0.5514791155245704
+544,51,Female,106972,Teacher,PhD,7,International,10,Business,True,Average,False,2,True,3,6,High,Medium,High,752,Medium,Average,0.637379493033758
+545,65,Female,102940,Doctor,High School,10,International,11,Leisure,True,Average,True,4,True,4,2,Low,Low,High,348,High,Average,0.990397059011158
+546,52,Female,119820,Doctor,Bachelor,1,Domestic,11,Medical,True,Poor,False,2,False,3,8,Low,High,High,843,Low,Good,0.3205559604193134
+547,56,Male,110078,Artist,PhD,10,International,29,Business,True,Average,False,0,False,0,2,High,Medium,High,640,High,Poor,0.4553350981283673
+548,42,Female,52475,Teacher,PhD,4,Domestic,21,Leisure,False,Good,True,1,False,2,4,Low,Medium,High,369,Low,Poor,0.0686294158551221
+549,60,Male,82659,Artist,High School,2,Domestic,9,Medical,False,Average,False,3,False,5,1,Low,High,Low,346,High,Average,0.6824271480581426
+550,90,Female,134738,Lawyer,Master,4,International,10,Leisure,True,Average,True,2,False,0,7,Medium,Medium,Low,327,High,Good,0.7653842216166449
+551,48,Male,124985,Teacher,Master,8,Domestic,9,Medical,True,Good,False,3,False,5,5,Medium,Medium,Medium,408,High,Good,0.4925758582557368
+552,76,Male,143600,Teacher,High School,3,International,16,Medical,True,Average,True,2,True,3,3,High,Medium,Medium,716,High,Good,0.838819246168852
+553,51,Male,35519,Engineer,High School,1,International,27,Business,False,Poor,True,2,True,0,2,Low,Low,Low,395,High,Good,0.4406216201916755
+554,42,Male,93362,Doctor,PhD,3,International,24,Medical,True,Poor,True,0,True,5,1,High,Low,High,844,Low,Good,0.0438689542828734
+555,65,Male,112271,Lawyer,Bachelor,4,International,16,Medical,True,Average,True,9,True,4,2,High,Low,Medium,631,Medium,Good,0.918732283159724
+556,70,Male,84487,Engineer,PhD,3,International,24,Leisure,True,Average,True,5,False,1,5,High,Low,High,723,Medium,Poor,0.8741500759073483
+557,78,Male,54388,Teacher,High School,3,Domestic,22,Medical,True,Poor,True,3,False,3,7,High,High,Medium,329,Low,Good,0.7230288238722034
+558,43,Female,125779,Engineer,Master,4,International,25,Medical,False,Average,True,5,False,1,7,High,High,Low,311,High,Average,0.6754194910543379
+559,73,Male,97772,Teacher,High School,0,Domestic,24,Business,True,Average,True,9,False,4,6,Medium,High,Medium,827,Medium,Good,0.7896187419826285
+560,26,Female,121856,Teacher,Master,9,International,29,Business,False,Poor,False,2,False,4,9,High,High,Low,581,High,Good,0.0242955536369711
+561,23,Male,119852,Doctor,High School,10,Domestic,20,Leisure,True,Average,False,4,True,4,2,High,Medium,Low,714,Low,Average,0.3710580935128332
+562,70,Female,148092,Business,Bachelor,5,International,25,Business,True,Average,True,7,True,1,8,Medium,Low,Medium,668,High,Poor,0.8838203518849892
+563,28,Male,107995,Engineer,Bachelor,10,International,17,Business,True,Poor,False,2,True,4,7,Low,Medium,Medium,808,Medium,Good,0.2447865837330035
+564,75,Female,88913,Doctor,High School,2,International,13,Business,True,Poor,True,9,False,5,8,Medium,Medium,Low,355,Medium,Poor,0.8143991240735624
+565,26,Female,144377,Business,Master,9,Domestic,19,Medical,False,Average,True,0,True,1,2,Medium,Medium,High,424,Low,Good,0.360631521309134
+566,52,Male,97127,Engineer,High School,3,Domestic,3,Leisure,False,Poor,True,5,False,0,1,Medium,Medium,Medium,401,High,Average,0.2393991113496609
+567,30,Female,121164,Teacher,PhD,5,International,28,Medical,True,Poor,False,3,True,1,6,Low,Low,High,343,Medium,Good,0.4733090606938237
+568,66,Male,129904,Teacher,Bachelor,7,International,21,Leisure,False,Good,False,2,True,0,9,High,Medium,Medium,610,High,Poor,0.107753126038723
+569,35,Female,34232,Artist,Master,1,Domestic,9,Leisure,True,Poor,False,5,False,3,6,Low,Low,Low,623,Low,Poor,0.6782194467696812
+570,36,Female,119647,Artist,Master,10,International,1,Medical,True,Poor,False,4,True,3,5,Medium,Low,Medium,586,High,Poor,0.5699869304938506
+571,46,Female,145068,Engineer,Master,9,Domestic,26,Leisure,True,Poor,True,0,False,3,7,Medium,High,High,516,Low,Poor,0.130813293948158
+572,84,Male,106003,Business,Bachelor,5,International,28,Medical,True,Average,True,7,False,5,1,Low,Low,Low,635,High,Poor,0.8258190353240273
+573,41,Male,100934,Business,PhD,10,Domestic,9,Business,False,Poor,False,5,False,0,3,High,Low,Medium,632,High,Poor,0.1935949217435627
+574,25,Male,101828,Engineer,Bachelor,10,International,25,Business,False,Average,False,4,True,0,1,Medium,Medium,Medium,701,High,Average,0.5403660804476993
+575,23,Male,35120,Lawyer,PhD,2,Domestic,7,Business,True,Poor,True,3,False,1,9,Low,Low,High,602,High,Average,0.4612422894307585
+576,21,Female,38000,Artist,Master,7,International,13,Medical,False,Average,False,5,True,0,8,Low,Low,High,701,Medium,Average,0.5815399678958536
+577,68,Male,101792,Doctor,Bachelor,9,Domestic,25,Business,True,Poor,False,0,True,3,5,High,High,High,300,Medium,Average,0.5080580341493386
+578,59,Male,57897,Engineer,High School,4,Domestic,22,Leisure,False,Good,False,3,False,2,7,Medium,Medium,Low,438,High,Good,0.2592889666995075
+579,22,Male,111274,Doctor,PhD,4,Domestic,1,Business,True,Good,False,5,True,4,4,High,Medium,Low,574,High,Average,0.5847856163272089
+580,53,Male,102154,Doctor,High School,6,Domestic,6,Medical,False,Good,False,5,True,5,1,Low,Low,Medium,835,Low,Good,0.4751379226354306
+581,69,Female,75046,Artist,High School,10,Domestic,24,Business,True,Poor,True,6,True,4,7,Low,High,High,379,Low,Good,0.9977844785709185
+582,57,Female,53966,Artist,Bachelor,2,Domestic,26,Medical,False,Average,True,0,True,4,10,High,Low,Medium,696,Medium,Average,0.123347280983581
+583,76,Female,84950,Teacher,Bachelor,4,International,26,Leisure,True,Average,True,9,True,5,2,Medium,Low,Medium,659,High,Poor,0.7134525413513959
+584,84,Female,146564,Teacher,High School,2,Domestic,22,Medical,True,Poor,True,3,False,3,4,Low,Low,Low,674,Low,Average,0.7246421176451691
+585,66,Male,44433,Business,PhD,5,Domestic,1,Medical,True,Average,True,2,False,2,6,High,Medium,Medium,691,Low,Poor,0.5392273913807754
+586,51,Female,129748,Doctor,Master,0,International,10,Business,False,Good,True,4,True,5,3,High,High,Medium,696,Medium,Poor,0.1359324333576725
+587,54,Male,49302,Lawyer,High School,3,International,9,Medical,True,Poor,False,1,True,1,7,Low,Low,Medium,546,High,Poor,0.0071423251082579
+588,61,Male,57717,Doctor,High School,6,International,11,Leisure,False,Poor,False,1,True,5,8,Low,Low,Medium,841,High,Average,0.6926886521756348
+589,36,Male,132969,Engineer,High School,9,Domestic,26,Business,True,Poor,True,4,True,1,6,Low,Medium,High,490,High,Average,0.6387277134321999
+590,41,Male,147848,Business,PhD,6,International,6,Leisure,True,Average,False,3,True,2,6,Low,High,Medium,303,High,Poor,0.5411348299277482
+591,60,Male,129364,Doctor,Bachelor,0,International,19,Business,True,Average,True,5,True,5,6,High,Low,High,452,Low,Average,0.7378311649558643
+592,30,Male,109511,Lawyer,PhD,4,International,10,Medical,True,Poor,True,3,False,0,2,Low,Low,High,645,Low,Average,0.5337540672425058
+593,61,Female,98396,Artist,PhD,3,Domestic,23,Medical,False,Average,False,4,True,0,8,High,High,High,774,Medium,Good,0.2019756630596535
+594,29,Female,93224,Business,PhD,1,International,6,Medical,False,Good,True,3,True,0,6,Low,Low,High,407,Medium,Average,0.4804566989329767
+595,56,Male,111297,Doctor,High School,9,International,7,Business,False,Poor,False,4,False,4,8,Low,Medium,Low,630,High,Average,0.0281898000984051
+596,24,Female,138910,Artist,Bachelor,0,International,5,Business,False,Average,True,1,False,4,6,Medium,High,High,599,Low,Average,0.4509569752931375
+597,25,Female,50199,Artist,Bachelor,2,Domestic,19,Leisure,False,Average,True,5,True,1,10,High,High,High,501,High,Good,0.662502474175308
+598,63,Female,113075,Doctor,Bachelor,5,International,3,Business,True,Poor,True,8,False,0,10,Medium,Medium,High,582,Medium,Poor,0.8684939070995188
+599,74,Male,38733,Engineer,PhD,7,Domestic,30,Business,True,Average,True,4,False,2,2,Medium,High,Medium,546,Low,Good,0.7404465012483429
+600,43,Female,104254,Lawyer,Master,2,International,19,Medical,False,Good,True,3,False,2,1,High,Low,Medium,625,Medium,Poor,0.5928940437901997
+601,40,Male,116073,Engineer,High School,0,Domestic,17,Business,True,Good,False,2,False,1,3,Medium,Low,Low,734,High,Average,0.420697893539236
+602,66,Male,149477,Doctor,PhD,5,Domestic,21,Medical,True,Good,False,4,True,0,8,Medium,Low,High,688,High,Poor,0.1892558010945468
+603,67,Female,130662,Engineer,High School,9,International,7,Medical,True,Poor,False,2,False,3,6,Low,High,High,451,Low,Average,0.301540676734634
+604,30,Female,59128,Teacher,Master,0,Domestic,11,Business,False,Average,False,1,True,2,2,High,Medium,Medium,760,Medium,Good,0.4026741305540892
+605,88,Male,99933,Engineer,Bachelor,7,Domestic,3,Business,True,Poor,True,4,False,5,10,Medium,Medium,Medium,579,High,Average,0.7599228393977275
+606,24,Male,92573,Artist,High School,4,International,10,Business,False,Poor,False,4,True,0,2,Medium,High,Low,508,Medium,Good,0.2042241285325471
+607,61,Male,58469,Teacher,High School,5,Domestic,22,Leisure,True,Average,True,7,False,2,4,Medium,Medium,Low,767,High,Average,0.9790763707814806
+608,58,Male,42638,Engineer,Bachelor,4,Domestic,13,Business,False,Good,True,1,False,1,2,Low,Medium,Medium,662,Low,Poor,0.6046716784629974
+609,47,Male,68587,Engineer,Bachelor,0,Domestic,7,Medical,False,Average,False,5,True,1,1,Low,Medium,Low,730,Medium,Poor,0.0766806238386369
+610,29,Female,66715,Artist,Master,3,Domestic,18,Medical,True,Good,True,1,True,3,2,Medium,High,High,322,Medium,Good,0.1205670946121196
+611,90,Female,146646,Business,High School,5,Domestic,14,Leisure,True,Average,True,4,False,2,2,Low,Medium,Low,680,Medium,Poor,0.898266032977342
+612,50,Female,114025,Engineer,Bachelor,2,Domestic,9,Business,True,Average,False,0,False,0,6,High,High,Medium,716,Medium,Poor,0.2147427652475311
+613,24,Female,95018,Business,Master,1,Domestic,26,Business,False,Good,False,1,True,3,9,High,High,Low,495,High,Good,0.0655409877578806
+614,54,Female,99971,Artist,PhD,1,Domestic,28,Business,False,Poor,False,3,True,3,9,Medium,Low,High,438,Low,Good,0.346076419525737
+615,89,Female,66197,Doctor,High School,7,International,27,Medical,True,Average,True,7,True,5,9,Low,Low,High,457,High,Poor,0.9434840688313216
+616,90,Female,117262,Artist,PhD,1,International,24,Medical,True,Poor,True,5,True,4,10,Medium,Low,Low,771,Low,Good,0.982784777946147
+617,50,Female,88970,Lawyer,Bachelor,5,Domestic,9,Medical,True,Good,False,4,True,4,9,High,Low,Medium,846,High,Average,0.6337442098610238
+618,61,Female,68966,Doctor,High School,10,International,12,Leisure,False,Poor,True,0,False,3,5,Medium,Medium,High,314,High,Poor,0.2939078718954456
+619,77,Male,137660,Engineer,PhD,1,Domestic,18,Medical,True,Average,True,4,False,3,10,Medium,Low,High,581,Low,Poor,0.7827420366227156
+620,67,Male,110005,Teacher,High School,0,Domestic,11,Leisure,True,Poor,True,3,False,1,4,High,Medium,Medium,773,High,Average,0.7905618817168637
+621,45,Female,123818,Doctor,PhD,4,International,22,Medical,False,Good,True,3,True,2,2,Low,Medium,Low,671,Low,Good,0.0291094173388895
+622,83,Female,112992,Artist,Master,5,International,22,Business,True,Poor,True,5,False,3,8,Medium,Low,High,659,Medium,Good,0.7403848864786172
+623,34,Female,141217,Engineer,High School,10,Domestic,29,Leisure,True,Poor,True,3,False,1,2,High,High,Low,380,High,Good,0.3174926949738308
+624,70,Female,121126,Teacher,High School,8,Domestic,3,Medical,False,Good,True,5,True,0,8,Medium,High,Low,567,Low,Good,0.144840593817853
+625,23,Male,118019,Lawyer,Master,9,International,27,Medical,False,Good,False,3,False,2,8,High,Medium,Low,702,Medium,Good,0.0405311663062213
+626,29,Male,87232,Lawyer,High School,5,Domestic,3,Business,True,Average,False,4,False,2,8,Medium,Medium,Low,509,Medium,Poor,0.1132817397962528
+627,80,Female,126153,Business,Bachelor,8,Domestic,27,Leisure,True,Poor,True,8,True,2,6,Low,Low,Medium,377,Medium,Good,0.7409743367800218
+628,58,Female,51439,Teacher,PhD,10,Domestic,20,Business,False,Good,True,1,False,3,10,High,Low,Medium,834,Low,Poor,0.1887807529424398
+629,29,Female,71770,Artist,Bachelor,5,Domestic,2,Business,True,Poor,False,4,False,3,8,Low,Medium,High,426,Medium,Good,0.6761542323939028
+630,33,Female,30846,Business,PhD,3,Domestic,21,Business,True,Poor,True,5,True,3,8,Medium,High,High,835,Medium,Average,0.6470728725163694
+631,61,Female,102091,Teacher,PhD,0,Domestic,12,Leisure,True,Average,True,4,True,4,7,Low,Low,Medium,671,Medium,Average,0.3876160818865977
+632,28,Male,65206,Engineer,Master,3,Domestic,14,Medical,False,Good,True,0,False,3,6,Medium,Low,High,423,High,Poor,0.462367247440489
+633,32,Male,64378,Artist,High School,1,Domestic,23,Leisure,False,Average,True,4,True,3,7,Low,Low,High,306,Medium,Good,0.6350580176149149
+634,19,Female,121568,Lawyer,Master,5,Domestic,9,Business,False,Poor,True,3,False,2,10,High,Medium,Medium,412,Medium,Good,0.5784312592493658
+635,20,Female,50305,Business,Master,3,International,6,Leisure,True,Poor,True,0,True,0,1,Low,Medium,High,608,High,Good,0.0761265723061477
+636,47,Male,35850,Teacher,Bachelor,9,International,23,Leisure,False,Poor,True,3,True,4,4,Low,Low,High,730,High,Good,0.6698639758446937
+637,89,Female,136470,Engineer,Bachelor,8,International,12,Medical,True,Average,True,6,True,2,9,High,Low,High,646,High,Good,0.7139616787967172
+638,63,Female,148386,Business,High School,2,Domestic,10,Medical,True,Poor,True,8,False,2,10,High,High,Low,804,Low,Average,0.9371740238151476
+639,68,Female,143944,Business,Master,2,International,2,Medical,False,Good,False,4,False,2,9,High,Medium,Medium,753,High,Good,0.2018874412315959
+640,39,Male,145632,Teacher,High School,2,International,25,Leisure,True,Poor,True,0,True,3,9,High,High,Low,677,Medium,Average,0.4036611929895064
+641,65,Male,83835,Doctor,Bachelor,10,International,1,Business,True,Average,True,5,False,4,7,Low,High,Medium,695,Low,Good,0.1682295962875353
+642,66,Male,130056,Doctor,High School,6,Domestic,28,Business,True,Good,False,1,False,3,3,Medium,Low,Low,456,Low,Average,0.0940032501134382
+643,63,Male,116277,Artist,PhD,5,International,22,Leisure,True,Poor,False,5,False,3,1,High,High,Medium,720,Low,Poor,0.1405778996413353
+644,81,Male,124838,Engineer,Master,4,International,24,Medical,True,Average,True,6,False,0,8,Low,Medium,Low,713,Medium,Poor,0.7651976782333989
+645,30,Female,72627,Lawyer,PhD,6,International,20,Leisure,True,Good,False,0,False,0,3,Medium,High,Low,729,Medium,Average,0.3071281313428654
+646,60,Male,102586,Lawyer,High School,7,International,19,Medical,True,Poor,True,5,True,3,7,Low,Medium,Medium,715,Low,Average,0.7418691080922798
+647,53,Male,53099,Artist,High School,10,International,4,Medical,True,Good,True,2,True,3,8,Medium,Low,Medium,581,Medium,Poor,0.3178425348652679
+648,62,Female,127284,Lawyer,High School,6,Domestic,21,Medical,False,Poor,False,4,True,5,7,Medium,Medium,Low,614,High,Good,0.2261687565302107
+649,85,Female,100874,Teacher,Master,2,Domestic,24,Business,True,Poor,True,5,False,2,2,Low,Low,Low,332,High,Average,0.9967675009505804
+650,71,Male,68109,Lawyer,Bachelor,9,Domestic,29,Medical,True,Poor,True,3,True,2,9,Low,Low,Medium,757,High,Poor,0.7124468683320161
+651,66,Female,64466,Engineer,Bachelor,4,Domestic,15,Business,True,Poor,True,6,True,1,1,Low,Medium,Low,722,Low,Average,0.9191410027824496
+652,88,Female,112790,Doctor,High School,9,Domestic,29,Medical,True,Poor,True,4,True,1,4,High,High,Low,373,Low,Good,0.7156794572602029
+653,24,Female,123410,Business,Master,1,Domestic,18,Leisure,True,Poor,False,5,True,4,6,Low,Medium,High,688,Low,Poor,0.203240037828713
+654,19,Female,149847,Teacher,Bachelor,8,Domestic,4,Business,False,Good,True,1,False,5,7,Medium,Medium,High,347,Medium,Average,0.4309571907017117
+655,79,Female,143578,Engineer,Master,8,Domestic,17,Leisure,True,Average,True,2,False,0,8,Low,Low,High,714,Low,Good,0.9958470247278062
+656,45,Female,70096,Doctor,Bachelor,9,Domestic,21,Leisure,True,Poor,False,2,False,5,2,High,High,Low,731,Low,Average,0.1202417361152585
+657,29,Female,147612,Doctor,Master,0,Domestic,27,Medical,False,Good,False,4,False,4,8,High,High,Low,391,High,Poor,0.1309218192440154
+658,54,Male,53286,Artist,Bachelor,1,Domestic,1,Medical,False,Good,False,3,False,2,7,High,High,Low,316,Low,Good,0.1958578470451302
+659,47,Male,88396,Business,High School,6,International,29,Medical,True,Average,True,3,True,1,7,High,Medium,Low,811,Low,Poor,0.3983802180959829
+660,22,Male,66302,Engineer,High School,10,International,6,Leisure,True,Average,True,3,True,5,2,Medium,Low,Medium,413,Low,Good,0.5033036841433867
+661,30,Male,121858,Artist,PhD,6,Domestic,25,Leisure,True,Good,False,5,False,4,8,Medium,High,Low,481,High,Good,0.3092858309673009
+662,36,Male,129328,Teacher,Master,1,International,11,Medical,True,Good,True,1,True,3,1,High,High,High,367,Medium,Good,0.1638687528621843
+663,77,Male,75272,Lawyer,Bachelor,9,International,15,Medical,True,Average,True,7,False,5,3,High,High,Medium,415,High,Average,0.8217381765916949
+664,76,Male,35712,Lawyer,Bachelor,3,Domestic,18,Medical,True,Poor,True,2,True,1,9,Low,High,Medium,473,Medium,Average,0.953046100765186
+665,46,Female,78281,Teacher,High School,0,Domestic,1,Medical,True,Poor,False,1,True,3,2,Medium,Low,Medium,443,High,Poor,0.0480657393468321
+666,64,Female,57253,Doctor,PhD,2,Domestic,10,Business,True,Average,True,4,True,2,10,High,Low,High,495,Low,Average,0.8944315405302546
+667,83,Male,140431,Teacher,Master,10,Domestic,9,Leisure,True,Poor,True,7,True,4,3,Low,Medium,High,543,High,Poor,0.8775248433262192
+668,62,Male,142572,Teacher,Master,6,Domestic,8,Leisure,False,Poor,True,3,True,4,4,Medium,High,Medium,760,High,Average,0.1679870254670751
+669,66,Male,33419,Teacher,Master,2,Domestic,22,Business,True,Poor,True,7,True,5,4,Low,Medium,High,813,Medium,Poor,0.9361207274634236
+670,70,Male,119713,Teacher,Master,8,Domestic,1,Business,True,Good,True,1,False,2,7,Low,High,Medium,426,Low,Poor,0.3023746219569597
+671,59,Male,141638,Doctor,Bachelor,7,International,14,Medical,True,Average,True,0,False,0,9,Low,High,High,723,Medium,Average,0.1016253806329772
+672,32,Female,37182,Business,Master,4,Domestic,23,Leisure,True,Poor,True,0,True,5,6,High,Medium,Medium,336,Low,Average,0.0805026447811986
+673,54,Female,68055,Teacher,Bachelor,3,Domestic,13,Leisure,False,Average,True,0,True,2,5,Medium,High,Low,578,High,Poor,0.4086647024266984
+674,90,Male,69524,Doctor,Master,6,Domestic,12,Medical,True,Poor,True,4,False,0,5,High,Low,Medium,604,Medium,Poor,0.778508836055679
+675,82,Male,59331,Engineer,Bachelor,5,International,27,Business,True,Average,True,5,False,2,3,Medium,Low,High,629,Low,Good,0.7585680575965679
+676,35,Male,114683,Engineer,Bachelor,6,International,1,Medical,False,Average,True,1,False,5,10,High,High,High,556,Medium,Average,0.3801971132659149
+677,35,Male,61017,Business,Master,2,Domestic,5,Business,False,Poor,False,3,False,4,1,High,Medium,Low,516,Medium,Good,0.2659893462880217
+678,46,Female,105744,Teacher,High School,5,International,14,Business,True,Poor,False,3,False,1,7,High,High,Low,405,High,Average,0.1190309483570691
+679,52,Female,82327,Lawyer,PhD,0,Domestic,6,Medical,False,Average,False,0,False,1,10,Low,High,Low,461,Low,Poor,0.2183667882101009
+680,26,Female,50532,Artist,PhD,9,International,16,Business,True,Average,False,4,True,3,2,Low,Low,High,792,Low,Poor,0.380386332756316
+681,58,Female,128667,Business,Master,9,International,21,Business,True,Poor,True,0,False,5,2,Low,High,High,708,Medium,Average,0.3176698203627737
+682,39,Male,42959,Artist,PhD,5,International,7,Leisure,False,Poor,False,4,False,1,2,High,High,Low,601,High,Poor,0.1026638052027583
+683,84,Female,64213,Lawyer,Bachelor,4,Domestic,18,Medical,True,Poor,True,3,True,2,5,Low,Medium,High,370,Low,Average,0.9433485793563392
+684,59,Female,106505,Engineer,Bachelor,6,International,3,Leisure,False,Good,False,4,False,5,3,High,Medium,Low,599,Low,Poor,0.5388839584115536
+685,46,Female,127977,Teacher,Bachelor,1,Domestic,7,Medical,True,Poor,False,5,False,0,1,Low,Medium,High,565,Low,Poor,0.5713754613758747
+686,20,Male,38965,Engineer,Bachelor,4,Domestic,24,Medical,False,Poor,True,5,True,4,7,Medium,High,High,529,High,Average,0.5641141158766905
+687,78,Female,140029,Artist,Master,10,Domestic,15,Medical,True,Average,True,2,False,4,4,High,Medium,Medium,540,Medium,Average,0.8449245437639166
+688,65,Female,138391,Lawyer,High School,9,Domestic,10,Medical,False,Poor,True,1,True,3,6,Medium,Medium,Medium,322,Medium,Good,0.3512340814933451
+689,62,Female,67656,Engineer,Bachelor,9,International,22,Medical,True,Poor,False,4,False,1,6,High,Low,Low,646,High,Good,0.3847467477255186
+690,88,Female,56610,Artist,Master,4,International,25,Medical,True,Average,True,3,True,2,8,High,Medium,Low,475,High,Good,0.8069974581828065
+691,57,Female,104617,Engineer,Bachelor,6,International,9,Medical,False,Poor,True,5,False,3,5,Low,Low,Low,351,High,Good,0.4332177284261213
+692,25,Female,48414,Business,High School,3,International,22,Business,False,Average,True,5,False,0,4,Low,Low,High,661,Medium,Poor,0.2165647766835747
+693,63,Male,105315,Business,Bachelor,1,International,16,Business,True,Poor,True,5,False,3,9,Medium,High,High,723,High,Average,0.6966843693010523
+694,77,Female,139744,Doctor,PhD,10,International,24,Leisure,True,Average,True,7,True,3,7,Medium,Low,High,678,Medium,Good,0.8334891036614928
+695,69,Female,141846,Artist,PhD,9,Domestic,12,Leisure,True,Average,True,2,False,4,9,Low,High,Low,797,High,Poor,0.851409578363536
+696,69,Female,133622,Business,PhD,8,International,8,Leisure,True,Good,True,0,False,3,9,High,Low,High,596,Medium,Good,0.4243368696843559
+697,72,Female,143164,Business,Bachelor,8,Domestic,20,Leisure,True,Poor,True,2,False,5,7,Medium,Medium,Medium,655,Medium,Average,0.9892627161060978
+698,30,Female,30582,Doctor,Master,1,International,10,Medical,True,Poor,True,3,True,2,3,Medium,Low,Medium,717,High,Average,0.221023720652885
+699,37,Female,74674,Lawyer,Bachelor,9,Domestic,14,Medical,False,Poor,False,1,False,1,7,Medium,Medium,Medium,435,Medium,Poor,0.527413822424946
+700,47,Male,141538,Engineer,High School,7,Domestic,10,Medical,True,Good,False,1,True,5,10,Low,Medium,Medium,440,Low,Poor,0.2121798667528585
+701,58,Female,128366,Engineer,High School,5,Domestic,23,Business,True,Good,True,0,True,4,7,High,Medium,Medium,675,Low,Good,0.1243374720288308
+702,29,Female,122606,Doctor,High School,6,Domestic,4,Business,True,Good,False,3,True,2,9,High,High,Low,639,Medium,Good,0.3943150079643639
+703,53,Male,61827,Engineer,Bachelor,7,International,28,Business,True,Average,False,2,False,2,6,Low,High,Low,704,Low,Good,0.4671219721854395
+704,70,Female,118250,Business,High School,1,International,1,Business,True,Good,True,2,False,5,2,Low,Medium,High,332,Low,Average,0.2920379758519695
+705,36,Male,98128,Business,High School,9,International,5,Medical,True,Poor,False,2,True,4,10,Medium,Medium,Medium,510,Low,Average,0.160005297416841
+706,60,Male,46563,Lawyer,PhD,2,Domestic,25,Medical,True,Poor,True,5,True,4,1,Low,High,High,793,Medium,Average,0.150685012529227
+707,81,Female,104073,Engineer,High School,1,Domestic,1,Business,True,Average,True,6,True,1,8,Medium,Low,Low,568,Medium,Good,0.7601966137047624
+708,83,Female,69370,Artist,High School,0,International,27,Medical,True,Average,True,7,False,0,10,Medium,High,Medium,553,High,Good,0.7015507288996613
+709,55,Male,87231,Business,Bachelor,9,Domestic,18,Medical,False,Average,True,0,True,4,4,High,Low,High,845,High,Good,0.2923791826303356
+710,56,Female,52214,Business,High School,8,International,6,Business,True,Poor,False,0,False,0,6,Medium,Medium,Medium,452,High,Good,0.6657613804090832
+711,21,Male,77147,Teacher,PhD,8,Domestic,23,Business,False,Average,True,4,False,2,6,High,Low,Medium,728,Low,Average,0.0347329117444662
+712,73,Female,109659,Doctor,PhD,2,Domestic,30,Leisure,True,Poor,True,3,False,5,10,High,Medium,High,508,Medium,Good,0.8132758485454691
+713,50,Female,62165,Doctor,Bachelor,6,International,23,Business,False,Good,True,3,True,4,8,Medium,Low,Low,675,Low,Average,0.5142963195029229
+714,21,Male,51199,Business,Bachelor,2,Domestic,3,Medical,False,Good,True,1,True,4,8,Medium,Medium,Low,399,Low,Good,0.6670693535040486
+715,69,Male,32754,Lawyer,Master,1,International,12,Medical,True,Poor,True,9,False,1,7,Low,Low,Low,412,High,Average,0.7667247539274542
+716,44,Female,141503,Doctor,Bachelor,0,International,15,Leisure,True,Average,True,4,False,0,8,High,High,Low,539,Medium,Average,0.4109380523889915
+717,61,Female,120332,Lawyer,Bachelor,9,Domestic,1,Medical,True,Average,False,1,False,0,1,High,Low,Low,324,High,Good,0.1445585374637769
+718,61,Male,144002,Teacher,High School,1,International,25,Leisure,True,Poor,True,8,True,4,6,Low,Medium,Medium,514,Medium,Average,0.8455232660995758
+719,49,Male,128347,Doctor,High School,5,International,26,Medical,False,Poor,True,3,False,5,4,Low,Low,High,798,Medium,Poor,0.4091143247558111
+720,36,Male,32823,Engineer,High School,8,International,20,Medical,True,Average,True,2,False,1,6,Medium,Low,High,770,Low,Good,0.5650481792818611
+721,74,Female,127575,Engineer,PhD,2,International,24,Business,True,Poor,True,6,False,2,8,Low,Medium,Low,439,Medium,Poor,0.899414145026879
+722,77,Male,93216,Lawyer,High School,10,International,19,Medical,True,Average,True,8,False,3,6,High,Low,Low,701,Medium,Good,0.8812889503420306
+723,24,Male,90220,Engineer,Bachelor,8,Domestic,16,Leisure,False,Average,True,5,True,2,3,Medium,Low,Medium,497,Medium,Good,0.2888186345344515
+724,89,Female,88026,Artist,PhD,1,International,2,Leisure,True,Poor,True,8,True,5,4,Low,Medium,High,587,High,Poor,0.7575163126414288
+725,81,Female,85501,Business,Master,1,Domestic,22,Leisure,True,Poor,True,7,False,2,3,High,Medium,High,475,Medium,Poor,0.7905371248951231
+726,36,Female,136607,Doctor,High School,4,Domestic,22,Business,False,Poor,True,0,False,0,5,Medium,Low,High,448,Low,Average,0.1453994625384217
+727,32,Female,67321,Lawyer,Bachelor,0,Domestic,16,Business,False,Average,False,2,True,3,5,Low,High,High,643,High,Good,0.448744234636741
+728,28,Male,38791,Engineer,High School,1,Domestic,1,Business,False,Average,False,4,True,5,7,Medium,Medium,Low,357,Medium,Good,0.2984282282364905
+729,69,Female,116990,Artist,High School,6,Domestic,3,Medical,True,Poor,True,6,False,5,9,Low,High,Medium,504,Medium,Good,0.7015109912512847
+730,86,Male,140283,Teacher,Bachelor,4,Domestic,27,Business,True,Poor,True,9,False,5,4,High,Low,High,321,High,Average,0.9459330082474668
+731,57,Female,141393,Engineer,High School,9,International,7,Leisure,False,Average,True,5,True,5,1,Low,High,Medium,768,Low,Average,0.5982123325170452
+732,53,Male,50632,Teacher,Bachelor,3,Domestic,7,Business,True,Good,False,2,True,1,3,Low,High,Low,701,Medium,Good,0.3041294153875248
+733,68,Female,76648,Engineer,Master,4,Domestic,10,Leisure,True,Average,True,5,True,0,7,Low,Low,Low,542,High,Average,0.7753915072040855
+734,30,Male,146295,Engineer,Bachelor,0,Domestic,24,Leisure,False,Poor,True,2,False,3,2,Medium,High,High,552,Low,Good,0.0269463549141463
+735,53,Male,46238,Doctor,Master,6,Domestic,8,Business,False,Poor,False,3,True,2,7,Low,Low,Low,656,Medium,Poor,0.6200335712769892
+736,25,Female,64207,Engineer,Master,10,International,1,Leisure,False,Good,True,3,False,5,6,Low,High,Medium,397,Low,Good,0.502759520114921
+737,65,Female,96371,Teacher,High School,8,International,1,Medical,True,Poor,True,8,True,5,5,Medium,High,Low,388,High,Good,0.964476051977358
+738,69,Male,109346,Teacher,Master,10,Domestic,25,Business,True,Poor,True,2,True,5,10,Medium,High,Medium,647,Low,Average,0.9815211294201684
+739,49,Male,107916,Teacher,High School,8,Domestic,6,Leisure,False,Average,True,0,True,4,3,Low,High,Medium,463,High,Average,0.0558807078106257
+740,23,Male,143390,Engineer,PhD,5,International,10,Medical,True,Good,False,2,True,0,10,High,Medium,Low,319,High,Poor,0.6595453953803848
+741,88,Female,64439,Lawyer,Bachelor,0,Domestic,3,Business,True,Poor,True,2,False,2,7,Medium,High,Low,503,High,Good,0.7324624494463077
+742,83,Female,92100,Lawyer,Bachelor,5,Domestic,7,Medical,True,Average,True,6,True,3,4,Medium,High,Low,308,Low,Good,0.977621297048994
+743,31,Female,35276,Doctor,Bachelor,9,Domestic,30,Business,False,Good,False,0,True,2,1,Low,High,Low,543,Medium,Good,0.061527251812825
+744,37,Female,51123,Teacher,Bachelor,8,International,26,Business,True,Average,True,0,True,0,9,Low,High,High,834,High,Average,0.3656939098931433
+745,89,Male,145042,Engineer,Bachelor,8,International,5,Medical,True,Poor,True,6,True,3,8,Medium,Medium,Medium,762,Low,Good,0.973272180143152
+746,54,Male,136593,Business,Bachelor,9,International,27,Business,True,Poor,True,2,True,5,6,Medium,Low,High,491,Low,Good,0.3236889152500272
+747,24,Female,138016,Teacher,PhD,2,Domestic,2,Medical,True,Poor,False,3,True,2,1,Medium,Low,Low,359,Low,Good,0.3947511998803431
+748,31,Male,106113,Engineer,High School,2,International,23,Medical,True,Good,True,4,True,2,4,Medium,Low,Medium,548,High,Poor,0.0478462694173085
+749,75,Female,58213,Lawyer,Master,9,Domestic,15,Medical,True,Poor,True,5,False,5,8,Medium,Medium,High,677,High,Good,0.8153956311787307
+750,70,Male,68407,Artist,High School,7,Domestic,26,Business,True,Poor,True,2,True,0,1,Medium,High,Medium,744,Medium,Average,0.9309812313691987
+751,58,Male,131132,Lawyer,High School,8,Domestic,30,Leisure,False,Poor,True,4,False,5,2,High,Medium,Medium,563,Medium,Good,0.4924736083408868
+752,59,Male,92536,Lawyer,Master,2,Domestic,17,Medical,False,Poor,True,5,False,1,4,Medium,Medium,Low,607,Low,Good,0.2885614349869169
+753,55,Female,131387,Artist,High School,10,Domestic,3,Business,True,Average,True,5,True,4,3,High,High,High,329,Medium,Good,0.516020653152371
+754,30,Male,74234,Doctor,Bachelor,10,International,15,Business,True,Poor,False,1,False,3,10,High,Low,Medium,506,High,Average,0.2682929298139817
+755,73,Female,136591,Business,Bachelor,0,International,12,Business,True,Average,True,8,False,0,8,Medium,Low,Medium,304,High,Average,0.7489306850725251
+756,69,Female,83478,Teacher,Bachelor,0,International,25,Business,True,Average,False,0,False,1,1,High,Medium,Low,824,Low,Good,0.5129468851040807
+757,55,Female,147108,Teacher,Master,4,Domestic,28,Leisure,False,Average,True,2,True,4,9,High,Low,High,398,High,Average,0.0064880892043241
+758,63,Male,137826,Engineer,Master,5,Domestic,17,Leisure,False,Average,False,0,True,2,4,High,High,Low,366,Medium,Poor,0.5934118642826635
+759,43,Female,107783,Engineer,Bachelor,2,International,4,Medical,True,Poor,False,5,True,2,7,High,Low,Medium,601,Medium,Average,0.0388103591086794
+760,18,Male,105316,Lawyer,Bachelor,3,International,1,Leisure,False,Poor,False,4,False,5,7,Medium,Medium,High,335,Medium,Good,0.1421951826560235
+761,63,Male,58867,Lawyer,High School,9,Domestic,6,Business,True,Poor,True,5,False,3,3,High,Low,Medium,534,Medium,Average,0.9486997544430934
+762,84,Male,145587,Lawyer,PhD,2,Domestic,29,Medical,True,Poor,True,9,False,4,1,Low,Medium,Low,527,Medium,Average,0.986922142002286
+763,65,Female,137738,Teacher,PhD,1,Domestic,3,Business,True,Average,True,9,True,2,6,Medium,High,High,679,High,Poor,0.7612783508713177
+764,69,Male,61464,Engineer,Bachelor,10,International,25,Leisure,False,Average,True,1,True,3,10,Medium,High,Low,708,Medium,Poor,0.0784048872710275
+765,41,Female,69012,Engineer,High School,8,Domestic,30,Business,False,Average,True,3,True,1,5,Low,High,High,790,Medium,Average,0.1557036888586703
+766,71,Female,85315,Teacher,Master,7,Domestic,19,Medical,True,Average,True,9,False,2,1,Low,Medium,High,455,High,Poor,0.8139616278314417
+767,64,Female,30674,Artist,PhD,7,International,20,Medical,True,Average,True,3,False,1,8,High,High,Low,497,Low,Good,0.996691071425157
+768,47,Male,46957,Teacher,Master,9,International,29,Leisure,True,Good,False,5,False,0,1,High,Medium,Medium,748,High,Good,0.0039184807674571
+769,61,Male,57427,Teacher,Master,4,Domestic,17,Business,True,Average,True,9,True,1,5,High,High,Medium,365,Low,Average,0.9893246041210166
+770,41,Female,46293,Lawyer,PhD,1,Domestic,4,Medical,False,Average,False,1,False,5,9,High,High,Low,575,Low,Good,0.0054811961249678
+771,25,Female,51460,Lawyer,PhD,2,Domestic,8,Leisure,False,Poor,False,5,False,5,1,Medium,Medium,Low,309,High,Average,0.4022518010156046
+772,35,Male,39636,Business,PhD,5,Domestic,1,Business,True,Average,True,0,True,3,5,Medium,Low,High,750,Low,Poor,0.1049657582056535
+773,33,Male,103650,Lawyer,High School,1,International,24,Business,False,Average,True,2,True,1,6,Low,Low,High,686,Low,Poor,0.6380366614281826
+774,35,Female,68588,Teacher,PhD,5,Domestic,4,Business,True,Average,False,4,True,5,10,High,Medium,Medium,652,Medium,Average,0.512326416184093
+775,88,Male,86046,Business,High School,0,International,3,Business,True,Average,True,9,True,4,5,Medium,Medium,Medium,538,Low,Poor,0.8026019293460456
+776,40,Female,143024,Business,PhD,10,International,13,Medical,False,Poor,False,0,False,2,8,Medium,Medium,Low,848,Medium,Poor,0.0478566300531828
+777,82,Male,109735,Teacher,High School,0,International,24,Leisure,True,Average,True,6,True,4,7,Medium,High,Medium,810,Medium,Poor,0.9286274046529616
+778,50,Female,61372,Engineer,High School,3,Domestic,21,Medical,False,Good,True,3,True,4,6,Low,Medium,Low,657,High,Average,0.6116059632698012
+779,77,Male,47690,Teacher,High School,5,Domestic,20,Business,True,Poor,True,8,True,3,10,Low,High,Low,549,Low,Average,0.7974946274620278
+780,63,Male,31035,Doctor,PhD,4,Domestic,2,Business,True,Average,True,2,True,0,7,Medium,High,Low,742,Medium,Good,0.9561225765244128
+781,54,Female,98621,Teacher,Master,6,International,6,Medical,False,Good,False,0,False,2,10,Low,Medium,Medium,361,High,Poor,0.1258879005034023
+782,75,Female,102845,Artist,PhD,3,International,18,Business,True,Poor,True,4,False,2,4,High,High,High,398,Medium,Good,0.8709123475858673
+783,64,Female,33035,Business,Bachelor,0,International,2,Medical,False,Poor,True,5,False,1,8,Low,Medium,Low,348,Medium,Good,0.4044927357874742
+784,61,Female,72250,Lawyer,PhD,4,Domestic,23,Business,True,Poor,True,2,False,0,10,High,Low,Medium,466,Low,Poor,0.1617773751582756
+785,50,Female,135796,Teacher,Master,6,International,17,Medical,False,Average,False,2,False,1,7,High,Low,High,319,High,Good,0.68870916356578
+786,62,Male,61814,Doctor,Master,7,Domestic,13,Leisure,True,Poor,True,7,False,5,9,High,Medium,Low,433,Medium,Average,0.7321623397073699
+787,43,Female,132149,Business,Bachelor,9,International,23,Business,False,Poor,False,5,True,1,10,High,High,Low,479,Medium,Poor,0.4597176289994266
+788,55,Male,78515,Doctor,Bachelor,9,International,10,Business,True,Good,False,2,False,5,3,Low,High,High,707,Low,Poor,0.3995397373891637
+789,26,Male,105323,Teacher,High School,6,Domestic,8,Business,False,Average,True,3,False,1,5,Medium,High,Low,821,Medium,Good,0.6802382996696913
+790,32,Male,50234,Teacher,Bachelor,7,International,10,Leisure,False,Good,False,0,False,1,7,High,Low,High,444,Medium,Good,0.1205090109799512
+791,81,Male,120865,Artist,Bachelor,2,Domestic,4,Medical,True,Average,True,6,True,1,9,Medium,Low,Medium,546,Medium,Poor,0.9289552675120798
+792,48,Male,42450,Doctor,Master,2,International,24,Medical,False,Good,False,3,True,1,1,High,Medium,Medium,390,High,Good,0.6194800766037873
+793,31,Female,65119,Business,Bachelor,1,International,14,Business,True,Poor,False,5,False,3,4,Low,High,Medium,342,High,Good,0.3917009256563578
+794,70,Male,88944,Engineer,Master,8,Domestic,19,Business,True,Poor,True,7,True,2,2,Low,Medium,Medium,715,High,Average,0.8778784542848047
+795,62,Female,54031,Doctor,Bachelor,3,International,21,Business,True,Good,False,3,False,5,9,Low,High,High,395,Low,Good,0.4765801260288703
+796,30,Male,146383,Business,High School,2,Domestic,28,Business,False,Poor,False,4,True,4,2,Low,Low,Low,449,High,Poor,0.4492485119884836
+797,63,Female,112063,Teacher,Master,6,Domestic,20,Leisure,True,Average,True,3,False,1,9,High,Low,Medium,685,Medium,Average,0.9283483270681672
+798,85,Male,78716,Engineer,PhD,2,Domestic,2,Business,True,Average,True,4,True,3,8,Medium,Medium,High,623,Medium,Poor,0.9903733890904706
+799,86,Female,79409,Business,High School,10,Domestic,28,Business,True,Poor,True,4,True,1,8,Medium,Low,High,814,Medium,Average,0.8665855203754026
+800,21,Female,73201,Lawyer,Bachelor,0,Domestic,22,Business,False,Good,False,1,False,2,5,Medium,Low,High,413,Medium,Good,0.1813724934559554
+801,72,Male,114474,Lawyer,High School,1,International,22,Business,True,Average,True,4,True,3,3,Low,Low,Medium,443,High,Average,0.7741775566723074
+802,26,Male,111582,Lawyer,High School,9,Domestic,16,Medical,True,Poor,True,5,False,5,4,Medium,High,Low,542,Low,Good,0.3992767847775044
+803,70,Male,144039,Engineer,Master,3,International,21,Leisure,True,Good,True,2,True,4,2,High,Low,Low,645,High,Poor,0.0661920818510509
+804,47,Male,123431,Artist,High School,4,Domestic,22,Business,False,Good,True,3,False,1,6,High,Low,Low,405,Medium,Poor,0.668170930860323
+805,23,Male,54090,Teacher,PhD,6,International,4,Leisure,True,Poor,True,5,True,5,1,Medium,Medium,High,824,Medium,Average,0.2299805133692022
+806,29,Male,89352,Teacher,PhD,5,Domestic,24,Business,False,Good,True,2,False,4,6,Medium,Medium,Medium,698,Low,Good,0.0058844964442372
+807,74,Male,55979,Teacher,High School,8,International,13,Medical,True,Average,True,4,False,2,9,High,Low,High,599,Low,Poor,0.9793558132076746
+808,88,Female,146942,Business,PhD,3,International,15,Leisure,True,Poor,True,6,True,5,5,Low,High,Low,498,Low,Poor,0.9059723918849978
+809,18,Female,85782,Engineer,PhD,0,Domestic,3,Business,False,Average,False,2,False,5,2,Medium,Low,Low,664,Low,Average,0.5511241426241809
+810,30,Female,104934,Engineer,Bachelor,2,Domestic,2,Business,False,Poor,False,0,True,1,9,Low,High,Medium,664,Medium,Good,0.1643006604993877
+811,85,Female,136227,Business,PhD,0,International,3,Business,True,Average,True,3,False,4,3,Medium,Medium,High,697,Low,Good,0.9670624926408052
+812,30,Female,102254,Doctor,Bachelor,9,International,17,Leisure,False,Good,True,1,False,0,8,Medium,High,Low,684,Low,Average,0.0943342058322385
+813,71,Female,133058,Business,Master,3,International,13,Leisure,True,Average,True,2,False,0,4,Medium,High,Low,450,Low,Average,0.7110822176674022
+814,84,Female,98179,Artist,Master,9,International,25,Medical,True,Average,True,5,True,5,10,Low,Low,Low,325,Medium,Poor,0.7597360006024856
+815,63,Male,136638,Teacher,High School,0,International,13,Medical,True,Average,False,2,True,5,7,Low,Low,Low,720,Low,Good,0.5365913054833222
+816,27,Male,70998,Lawyer,High School,6,Domestic,27,Medical,True,Good,False,2,False,1,2,Medium,Medium,Low,591,High,Poor,0.2731010938256086
+817,27,Male,132687,Artist,Bachelor,9,International,11,Business,False,Good,False,3,True,1,8,High,High,Low,669,Medium,Poor,0.2899376052665245
+818,67,Male,71745,Engineer,Master,8,Domestic,3,Medical,False,Good,True,3,True,0,1,Low,Medium,Low,848,Low,Good,0.5285639998520979
+819,78,Female,48742,Engineer,Master,4,International,17,Business,True,Poor,True,9,True,0,4,Low,Medium,High,355,High,Good,0.847152095080139
+820,83,Female,119721,Artist,High School,6,International,6,Medical,True,Poor,True,5,False,1,1,Low,Medium,Medium,706,Low,Poor,0.9758004394513328
+821,43,Male,132056,Teacher,PhD,1,International,11,Medical,True,Poor,True,0,False,3,7,Medium,Medium,High,351,High,Good,0.2049647427373567
+822,67,Female,85465,Doctor,PhD,9,International,10,Leisure,True,Good,False,0,True,0,4,High,High,Medium,793,Medium,Good,0.6003319358935706
+823,25,Female,50116,Doctor,Bachelor,9,International,3,Business,True,Poor,True,3,True,4,5,Medium,High,Low,711,High,Good,0.2463441201237693
+824,86,Male,31293,Doctor,High School,4,Domestic,5,Business,True,Poor,True,6,True,5,8,Low,Low,Medium,828,High,Poor,0.9504370328745532
+825,84,Female,128269,Artist,High School,0,Domestic,14,Medical,True,Average,True,5,True,3,8,High,High,Low,682,Medium,Average,0.9767690702576024
+826,60,Female,55419,Teacher,High School,1,Domestic,20,Leisure,True,Poor,False,1,True,4,3,Medium,Medium,Low,721,Low,Good,0.2686510841758055
+827,55,Male,55767,Lawyer,Bachelor,3,Domestic,10,Leisure,True,Good,False,3,False,5,8,High,Low,Medium,783,Low,Poor,0.4004716164973126
+828,65,Female,110255,Doctor,Master,6,International,16,Business,True,Good,True,0,False,1,3,Low,Medium,Low,445,Low,Average,0.3884570382158657
+829,27,Male,96981,Lawyer,High School,7,Domestic,3,Medical,True,Good,True,2,False,0,4,Low,Medium,Low,497,Low,Average,0.0922515948283008
+830,69,Female,62919,Artist,High School,7,Domestic,27,Medical,False,Poor,False,2,False,4,8,High,High,High,604,Medium,Average,0.4519149444462921
+831,52,Female,117470,Doctor,Bachelor,2,Domestic,21,Medical,False,Good,False,1,True,2,6,High,Low,Medium,397,Low,Average,0.3100643214700329
+832,83,Female,55373,Business,PhD,4,International,8,Leisure,True,Poor,True,3,True,5,9,Low,Medium,High,410,High,Good,0.710544972669265
+833,18,Male,73790,Lawyer,High School,3,International,5,Business,True,Good,True,3,True,4,4,Low,Low,Low,630,High,Average,0.6805116150189562
+834,30,Male,135378,Business,Master,1,Domestic,28,Leisure,False,Good,False,5,False,2,6,Low,Low,Medium,380,High,Good,0.4692638367899389
+835,44,Male,116392,Business,Bachelor,0,International,9,Leisure,True,Poor,False,4,True,0,5,Low,Low,Low,757,Medium,Average,0.6803563653502277
+836,63,Female,83650,Teacher,High School,10,International,13,Medical,True,Poor,True,5,True,0,9,High,Medium,Medium,335,Medium,Poor,0.1713006211314035
+837,70,Male,141729,Artist,PhD,9,International,1,Medical,True,Average,True,4,False,4,9,Low,Medium,High,474,Medium,Average,0.889631225907991
+838,43,Male,73044,Engineer,Bachelor,9,International,26,Medical,True,Average,True,4,True,4,6,Low,Low,Medium,350,Low,Good,0.0653052219138338
+839,63,Male,52019,Doctor,Master,5,Domestic,21,Leisure,True,Poor,True,6,True,5,8,Low,High,Medium,802,Low,Average,0.8989310294439113
+840,59,Male,69429,Lawyer,High School,6,Domestic,4,Medical,False,Poor,True,0,True,4,10,High,Medium,Medium,507,Medium,Good,0.5783310323580879
+841,65,Male,140704,Engineer,Master,5,Domestic,15,Medical,True,Poor,True,2,False,3,5,High,Low,Low,738,Medium,Good,0.6064341714385982
+842,28,Male,62986,Business,Bachelor,10,Domestic,30,Medical,True,Average,True,5,False,0,9,Low,Medium,Medium,842,Medium,Poor,0.4306263449841443
+843,63,Male,85703,Business,High School,9,Domestic,8,Medical,True,Average,True,4,True,4,4,High,High,High,814,High,Average,0.8300781070846888
+844,35,Female,137272,Business,Bachelor,6,Domestic,12,Business,True,Average,False,3,True,5,5,Low,High,Medium,804,High,Poor,0.0172212849291426
+845,26,Female,94227,Doctor,PhD,9,International,29,Medical,True,Poor,True,1,False,5,4,Medium,High,Low,537,Low,Good,0.0074601993601437
+846,49,Female,127551,Artist,PhD,4,Domestic,15,Business,False,Average,True,2,False,0,5,High,High,Low,662,Low,Good,0.6057932352975725
+847,79,Male,110671,Artist,Master,10,International,12,Medical,True,Average,True,8,True,4,5,Medium,Medium,Medium,674,Medium,Good,0.8850535587707288
+848,69,Female,56341,Artist,Master,8,Domestic,17,Business,True,Good,False,4,False,3,5,High,Medium,Low,357,Medium,Average,0.5926812618706602
+849,69,Male,110711,Lawyer,Master,8,International,8,Medical,True,Poor,True,4,True,0,2,Medium,Medium,Low,563,Low,Poor,0.7137239710045249
+850,19,Female,124997,Lawyer,High School,9,Domestic,10,Medical,True,Average,False,1,False,5,5,High,Low,Low,556,Low,Poor,0.1664735311849255
+851,76,Male,48451,Teacher,Master,10,International,26,Medical,True,Poor,True,6,True,1,3,Low,Low,Low,528,Medium,Average,0.7170193552672414
+852,87,Female,142718,Lawyer,High School,9,International,20,Leisure,True,Average,True,3,True,5,3,Medium,Medium,Medium,483,Low,Poor,0.9265271672484292
+853,62,Male,48606,Engineer,Master,3,Domestic,21,Medical,True,Poor,False,5,False,5,6,Low,Medium,High,533,Low,Good,0.5276269057037887
+854,70,Female,130229,Artist,PhD,4,International,30,Leisure,True,Average,False,0,True,4,3,Medium,High,High,737,Medium,Poor,0.3128569969305922
+855,45,Male,140612,Engineer,High School,5,International,28,Business,True,Average,False,1,True,2,1,Low,High,Low,692,High,Average,0.353216383573713
+856,36,Female,41627,Engineer,PhD,5,Domestic,30,Business,False,Poor,True,3,False,4,2,Medium,High,High,658,High,Good,0.0902023851705846
+857,66,Female,32458,Artist,Bachelor,6,International,16,Business,True,Poor,True,8,True,0,3,Medium,Medium,Low,464,High,Good,0.8184218897634062
+858,19,Male,128303,Doctor,Bachelor,10,Domestic,29,Medical,False,Poor,True,5,True,3,3,Low,High,Low,493,Medium,Poor,0.4027704251356196
+859,49,Male,71875,Doctor,PhD,2,Domestic,29,Business,False,Poor,True,5,False,1,5,Medium,High,Low,685,High,Average,0.3829448785133651
+860,44,Female,108354,Business,High School,4,Domestic,9,Medical,True,Good,True,0,False,0,4,Low,Medium,High,726,High,Good,0.5741968432478795
+861,64,Male,90496,Teacher,Master,3,Domestic,18,Medical,True,Average,True,4,False,1,5,High,Medium,Low,592,Low,Average,0.9787311130319574
+862,65,Male,64845,Artist,PhD,6,International,18,Medical,True,Poor,True,3,False,2,5,Medium,High,Low,491,Low,Average,0.2204947692443252
+863,85,Female,64786,Business,Master,9,International,24,Business,True,Poor,True,4,True,0,3,High,High,High,651,High,Poor,0.7613392353499993
+864,87,Female,141282,Teacher,High School,6,International,5,Medical,True,Average,True,4,True,5,6,High,High,Medium,606,Medium,Average,0.7873963606638992
+865,25,Male,117780,Teacher,Master,2,International,22,Leisure,False,Average,True,0,False,4,4,High,Low,Medium,802,Medium,Poor,0.4456661895791866
+866,18,Male,97794,Artist,PhD,3,Domestic,29,Medical,False,Average,True,5,False,4,10,Medium,Medium,Low,324,Medium,Poor,0.6972791634695589
+867,77,Female,118194,Doctor,PhD,4,International,24,Business,True,Average,True,6,True,2,6,Low,High,Medium,398,High,Average,0.9804373099722586
+868,46,Female,124224,Doctor,PhD,0,Domestic,9,Medical,False,Good,True,0,False,4,9,High,High,Low,507,High,Poor,0.2474445372515892
+869,70,Female,94907,Engineer,Bachelor,4,International,7,Business,False,Good,True,1,True,3,1,High,High,Low,494,High,Good,0.2704009140656948
+870,37,Male,107324,Doctor,Master,7,Domestic,13,Medical,True,Good,True,5,False,2,3,Low,Medium,High,482,Low,Average,0.1140709751432409
+871,52,Female,85845,Lawyer,Bachelor,10,Domestic,3,Leisure,False,Poor,False,1,True,5,3,Medium,Low,Low,721,Low,Poor,0.1700936599712574
+872,63,Male,49955,Artist,Bachelor,1,International,2,Medical,True,Average,True,3,True,5,1,High,Low,High,650,Medium,Average,0.5640420537877733
+873,80,Female,104275,Engineer,Master,6,Domestic,30,Business,True,Average,True,6,False,3,8,Low,Medium,Medium,458,Medium,Average,0.7588518022043872
+874,26,Male,141097,Business,Bachelor,5,Domestic,14,Leisure,True,Good,False,5,True,3,6,Low,Medium,Low,490,Medium,Good,0.6525827638814549
+875,63,Female,35812,Teacher,PhD,6,International,18,Business,True,Poor,True,4,False,3,8,Low,Low,Medium,392,Medium,Poor,0.993601915872436
+876,33,Male,74291,Teacher,Bachelor,9,Domestic,25,Medical,True,Poor,False,4,False,0,3,Low,Medium,Medium,654,Low,Average,0.4762404307021239
+877,28,Female,118857,Lawyer,Master,4,Domestic,9,Leisure,False,Average,False,1,False,3,1,Medium,High,Medium,668,Medium,Average,0.3103160389737869
+878,65,Female,66985,Teacher,High School,8,International,17,Medical,True,Average,True,5,False,5,4,Low,High,Low,748,High,Average,0.0725731835682818
+879,26,Female,92646,Lawyer,PhD,2,Domestic,7,Medical,False,Good,True,5,True,5,2,Low,Low,High,792,High,Good,0.2333384239781893
+880,54,Male,117954,Teacher,Bachelor,1,Domestic,20,Medical,False,Good,True,3,True,5,1,Medium,Medium,Medium,678,High,Good,0.688029865686153
+881,20,Male,96493,Doctor,Master,9,International,30,Leisure,False,Poor,True,2,False,5,10,High,Low,Low,348,High,Good,0.3904918810873384
+882,29,Female,69947,Doctor,High School,7,Domestic,30,Business,False,Good,True,5,True,4,5,Medium,Low,Low,600,Medium,Poor,0.3358000923689231
+883,62,Female,112250,Engineer,Bachelor,2,Domestic,17,Medical,True,Poor,True,8,False,0,10,Low,Medium,High,807,Medium,Good,0.8430279623387766
+884,23,Male,120741,Engineer,PhD,0,International,19,Medical,False,Good,False,5,False,3,6,Medium,High,Low,802,High,Good,0.0802900022614219
+885,71,Male,129261,Engineer,High School,1,International,16,Business,True,Average,True,3,False,1,3,Low,Medium,Low,838,Low,Average,0.9234339500913434
+886,72,Female,108063,Engineer,Bachelor,6,International,26,Leisure,True,Poor,True,8,False,0,7,High,High,Low,384,High,Good,0.9486103879730202
+887,73,Male,60532,Teacher,Master,7,Domestic,12,Leisure,True,Poor,True,7,True,3,10,High,High,Low,486,Low,Poor,0.7853825749433799
+888,39,Male,118340,Doctor,Master,3,International,17,Business,False,Average,False,2,True,3,5,High,Medium,Medium,600,High,Average,0.3492779062895371
+889,50,Male,86025,Business,Bachelor,10,Domestic,15,Medical,False,Average,True,3,True,3,4,Low,High,Low,716,Low,Good,0.6954283908481187
+890,85,Male,32493,Artist,Master,2,International,7,Leisure,True,Poor,True,2,False,3,9,Medium,Low,Medium,403,Medium,Average,0.8903968011335804
+891,45,Female,67481,Doctor,Bachelor,10,International,1,Medical,False,Good,True,4,False,1,7,High,High,Medium,344,High,Poor,0.1607871700648424
+892,83,Female,102678,Teacher,Master,8,Domestic,18,Medical,True,Poor,True,6,False,2,1,Medium,High,Medium,649,Medium,Good,0.75233243436925
+893,31,Female,85835,Doctor,High School,5,Domestic,13,Business,True,Good,True,1,False,0,1,Medium,High,Medium,343,High,Good,0.0919609867482418
+894,66,Male,124923,Doctor,PhD,8,International,9,Business,True,Average,True,8,False,1,1,Low,High,High,618,Low,Average,0.9935003109541922
+895,22,Female,98354,Teacher,High School,3,International,4,Business,True,Good,True,4,True,5,8,Medium,Low,Medium,736,High,Average,0.6624867831465624
+896,75,Male,134012,Business,Master,6,International,30,Business,True,Poor,True,9,False,0,8,High,Medium,High,827,Medium,Poor,0.962497941007911
+897,61,Male,63157,Business,PhD,9,Domestic,1,Leisure,True,Average,False,4,False,1,3,Low,Low,Low,477,Low,Good,0.1967633299166575
+898,44,Female,101208,Lawyer,Master,9,International,10,Business,True,Good,True,1,True,4,9,Low,High,High,735,Low,Good,0.407525063412297
+899,86,Female,42229,Lawyer,PhD,4,International,30,Business,True,Average,True,4,False,3,8,High,High,High,573,Medium,Good,0.8714979856624264
+900,86,Male,127913,Teacher,Master,10,International,2,Leisure,True,Poor,True,5,True,3,2,Low,Medium,High,435,High,Good,0.7361894574236478
+901,85,Female,106144,Artist,Bachelor,3,Domestic,1,Business,True,Poor,True,2,False,2,10,High,Medium,Medium,467,Low,Poor,0.8685272713451735
+902,85,Female,141972,Teacher,High School,5,Domestic,16,Medical,True,Average,True,9,False,5,5,High,Low,Medium,495,Low,Average,0.8930298673761914
+903,29,Male,33939,Doctor,High School,0,Domestic,23,Leisure,True,Poor,True,3,False,2,5,Low,High,Medium,565,Medium,Poor,0.5612026228219453
+904,68,Female,69676,Artist,High School,4,Domestic,2,Medical,True,Poor,True,9,True,5,4,High,Low,Low,840,Low,Poor,0.979357086420593
+905,20,Female,98727,Doctor,Bachelor,4,International,30,Medical,False,Good,False,1,True,2,2,Medium,Medium,Medium,392,Medium,Poor,0.2360571523787552
+906,27,Male,90224,Teacher,Bachelor,5,International,29,Leisure,True,Poor,True,4,True,2,6,Medium,High,Medium,736,High,Good,0.6297734432644969
+907,49,Male,139515,Teacher,Bachelor,7,International,4,Leisure,False,Good,False,4,False,1,8,Low,Low,Low,762,Low,Good,0.1985460229676977
+908,63,Male,70262,Engineer,Master,10,Domestic,7,Leisure,False,Average,True,1,True,1,9,Low,Medium,Low,450,High,Poor,0.4746231651857313
+909,52,Female,80420,Doctor,PhD,2,Domestic,27,Leisure,True,Poor,False,3,False,2,9,Low,High,Medium,689,Medium,Good,0.1446112862331829
+910,66,Male,82497,Lawyer,Bachelor,8,International,5,Business,True,Poor,False,2,False,0,2,Medium,High,High,731,Medium,Average,0.1853197520587752
+911,62,Female,42079,Teacher,PhD,8,Domestic,3,Leisure,False,Good,True,1,False,0,9,Medium,Medium,Medium,481,Medium,Good,0.1477413613006463
+912,81,Female,36778,Doctor,Bachelor,0,International,6,Business,True,Average,True,7,True,5,9,Low,High,Medium,536,Low,Poor,0.7460071645727185
+913,37,Female,68124,Business,PhD,2,International,13,Medical,True,Good,False,0,False,3,8,High,Low,Medium,646,Medium,Average,0.3083455921037634
+914,24,Female,148023,Engineer,Bachelor,9,Domestic,5,Medical,True,Poor,True,2,True,1,4,Low,Low,Medium,677,High,Average,0.4059879649012452
+915,49,Female,83053,Engineer,High School,6,International,16,Medical,True,Average,True,0,True,3,2,Medium,Low,Medium,453,Medium,Average,0.4094282387394058
+916,52,Female,45570,Artist,Bachelor,4,Domestic,22,Business,True,Average,False,2,True,4,4,High,Medium,Medium,767,Medium,Good,0.6638014462278563
+917,85,Male,101700,Lawyer,High School,5,Domestic,22,Business,True,Average,True,3,False,5,8,Medium,Low,Medium,761,High,Good,0.8228730109616242
+918,23,Male,36789,Business,Bachelor,8,International,12,Leisure,False,Good,True,4,True,1,1,Low,Medium,High,697,Medium,Average,0.3283684619475675
+919,69,Male,92922,Doctor,Master,3,Domestic,9,Medical,True,Poor,True,9,False,3,7,Low,Low,Medium,534,Low,Average,0.7988899870656571
+920,49,Female,58555,Engineer,PhD,7,International,16,Medical,True,Average,True,3,True,2,10,Medium,Medium,Medium,762,Medium,Poor,0.1009186518741926
+921,61,Male,64405,Doctor,PhD,9,Domestic,15,Leisure,False,Average,False,0,True,3,6,Medium,Medium,Medium,674,High,Poor,0.4598419057433867
+922,42,Female,94143,Doctor,High School,10,International,1,Business,False,Good,False,0,False,5,3,High,High,Medium,840,Medium,Average,0.5808026552277751
+923,39,Female,96490,Business,PhD,7,International,7,Business,True,Average,False,4,True,2,5,High,Medium,Low,543,Medium,Good,0.6290150605095575
+924,49,Male,68209,Lawyer,Bachelor,3,International,6,Medical,False,Good,False,4,True,4,10,High,Medium,Medium,833,High,Good,0.4105331315630941
+925,43,Male,110640,Artist,PhD,0,International,24,Medical,False,Good,True,3,False,0,9,Low,High,High,650,High,Poor,0.0361373726573877
+926,31,Male,30130,Lawyer,PhD,1,Domestic,5,Medical,True,Poor,True,2,False,3,5,Medium,Medium,Low,530,Medium,Average,0.40877853313663
+927,84,Female,101669,Artist,High School,6,Domestic,20,Leisure,True,Average,True,2,True,0,10,Medium,Medium,High,730,High,Average,0.7427174752382556
+928,79,Female,124371,Engineer,Master,5,International,12,Medical,True,Average,True,3,True,5,8,Medium,Medium,High,532,Low,Average,0.7131503937319157
+929,28,Male,34552,Business,Master,0,Domestic,7,Business,True,Poor,True,3,True,2,9,Medium,Medium,Low,401,High,Poor,0.1116933505913461
+930,24,Male,94914,Lawyer,Bachelor,7,Domestic,3,Business,True,Good,False,2,True,4,2,High,Medium,High,440,Medium,Good,0.2539276171224275
+931,46,Female,91369,Artist,High School,1,International,12,Business,True,Average,False,4,True,5,6,Medium,Medium,High,389,Medium,Average,0.0501461209302587
+932,79,Female,67365,Teacher,PhD,7,Domestic,19,Medical,True,Poor,True,8,False,2,9,Medium,Medium,Low,750,Medium,Good,0.9773847413036466
+933,31,Female,146051,Teacher,Bachelor,9,International,5,Leisure,False,Good,False,4,False,0,6,High,High,High,399,Low,Good,0.4137075919931232
+934,84,Female,81970,Engineer,PhD,7,International,23,Medical,True,Average,True,7,False,4,3,High,Medium,Medium,669,Medium,Good,0.7307258452094991
+935,33,Male,126807,Business,Bachelor,3,International,25,Leisure,False,Poor,False,2,False,1,1,Low,High,Medium,498,Low,Average,0.5507669433148146
+936,62,Male,33336,Artist,PhD,4,International,5,Business,True,Average,True,1,True,0,6,High,Medium,High,629,Medium,Poor,0.323111742211531
+937,70,Female,30481,Engineer,Master,10,Domestic,23,Leisure,True,Poor,True,3,True,2,1,Low,High,High,765,High,Good,0.2120892095795883
+938,61,Male,117106,Lawyer,Bachelor,6,International,12,Medical,True,Good,True,2,True,1,4,Medium,Medium,Low,523,Medium,Poor,0.2320453045774662
+939,79,Female,116308,Lawyer,Bachelor,8,International,3,Leisure,True,Average,True,4,True,5,4,Medium,Low,Low,585,Low,Poor,0.9655976725481478
+940,70,Female,106129,Teacher,Master,8,International,22,Medical,True,Poor,True,4,True,4,2,Medium,High,High,824,Medium,Poor,0.1240135020383754
+941,67,Female,104329,Teacher,PhD,5,Domestic,25,Leisure,True,Average,True,4,False,4,8,High,High,Low,731,High,Poor,0.9092510883601088
+942,57,Male,129123,Doctor,PhD,5,Domestic,30,Business,True,Poor,False,1,False,3,9,Medium,Medium,High,789,High,Average,0.6139515079988106
+943,76,Male,96548,Doctor,PhD,1,Domestic,12,Business,True,Poor,True,2,True,3,9,Medium,Low,High,708,Low,Good,0.7598242647757845
+944,39,Male,55195,Teacher,PhD,1,International,5,Leisure,False,Average,False,3,True,1,9,Medium,High,High,530,High,Good,0.0271944647592329
+945,65,Male,76672,Engineer,PhD,6,International,11,Medical,False,Average,True,3,True,0,2,Low,Low,Medium,456,Low,Poor,0.4180358959168617
+946,63,Female,124955,Lawyer,Bachelor,7,Domestic,28,Business,True,Average,True,5,False,3,3,Medium,Medium,Low,717,Medium,Good,0.046576406175764
+947,60,Male,52559,Lawyer,PhD,4,International,2,Leisure,True,Average,True,1,False,0,7,High,Medium,Medium,443,Medium,Average,0.132051512274821
+948,67,Male,129173,Artist,Bachelor,6,International,27,Business,True,Average,False,4,False,3,9,Low,Medium,Low,570,Low,Average,0.1271924452567076
+949,28,Male,133352,Business,High School,9,International,14,Leisure,True,Good,False,0,True,5,9,High,Medium,Low,690,High,Good,0.202837305657463
+950,90,Female,83602,Teacher,PhD,6,Domestic,30,Business,True,Average,True,6,True,3,1,Low,High,Low,440,Low,Good,0.7530010350427434
+951,22,Male,52580,Teacher,High School,8,International,16,Medical,True,Poor,False,4,True,1,6,Medium,Medium,High,698,High,Good,0.2396663893415511
+952,18,Male,86445,Doctor,Bachelor,8,International,21,Business,False,Poor,False,2,False,5,5,High,High,Medium,429,High,Average,0.0853841871734453
+953,20,Female,96336,Business,Bachelor,4,International,16,Business,True,Good,False,3,True,5,3,Medium,Low,High,634,Low,Average,0.5318419618155226
+954,58,Female,74687,Engineer,PhD,0,International,5,Leisure,True,Good,False,4,False,2,3,High,Medium,High,739,Medium,Good,0.370742569507867
+955,25,Female,103215,Engineer,Master,7,Domestic,11,Business,False,Good,False,0,True,4,10,Low,Low,High,405,Low,Poor,0.2490333058361001
+956,64,Male,55784,Teacher,PhD,9,International,24,Business,True,Poor,False,4,True,1,10,Low,Medium,High,506,High,Poor,0.0844734685821814
+957,52,Male,134017,Doctor,High School,6,International,25,Business,False,Good,False,1,True,3,4,Medium,Medium,Medium,551,Low,Poor,0.2447013309682086
+958,33,Male,99091,Engineer,High School,0,International,1,Business,False,Good,False,3,False,0,8,High,Medium,Low,757,Low,Poor,0.3901172380489254
+959,75,Female,40397,Lawyer,Bachelor,9,International,21,Medical,True,Poor,True,4,True,5,1,High,Medium,High,514,High,Average,0.8515530682458808
+960,52,Female,62664,Business,PhD,0,Domestic,20,Business,True,Poor,True,0,False,1,3,Low,High,Low,455,Medium,Poor,0.2406618693811169
+961,45,Female,84290,Business,Master,10,International,11,Business,True,Good,False,5,True,1,6,High,High,Low,636,High,Good,0.3948751848402888
+962,85,Male,94657,Lawyer,High School,1,International,9,Business,True,Poor,True,7,True,2,9,High,Medium,High,778,High,Average,0.8838653970454405
+963,26,Male,147331,Doctor,Bachelor,2,Domestic,3,Medical,True,Poor,False,1,False,5,9,Medium,Medium,Medium,698,High,Poor,0.4365282054751369
+964,26,Male,51964,Lawyer,High School,8,Domestic,27,Medical,True,Poor,False,5,True,4,4,Low,Medium,High,676,High,Poor,0.4724902403296611
+965,21,Female,131486,Business,Bachelor,5,International,3,Leisure,True,Average,False,3,False,1,4,High,Low,Low,812,Low,Good,0.1756765511407183
+966,75,Female,46795,Teacher,Bachelor,7,Domestic,24,Leisure,True,Poor,True,8,True,5,3,High,High,Medium,465,Low,Good,0.9847903171641784
+967,35,Male,145263,Teacher,Bachelor,6,International,7,Leisure,False,Good,False,0,True,0,7,Low,Medium,Medium,685,Medium,Good,0.285952935146893
+968,60,Female,86184,Engineer,High School,5,Domestic,4,Business,True,Average,True,3,False,3,8,Medium,High,High,715,High,Average,0.1775839084166519
+969,85,Female,138957,Doctor,Bachelor,6,Domestic,4,Business,True,Average,True,6,True,0,4,High,Medium,High,447,Low,Average,0.8637405615301932
+970,42,Male,81826,Doctor,High School,7,Domestic,4,Medical,False,Good,False,4,True,0,4,High,High,High,772,High,Good,0.5108802472039253
+971,57,Female,80330,Doctor,PhD,9,International,6,Medical,False,Poor,False,0,False,4,2,Low,Medium,Low,546,High,Good,0.6242229516771488
+972,74,Male,97260,Artist,Bachelor,7,International,24,Leisure,True,Poor,True,7,True,1,5,Low,Low,Low,792,Low,Good,0.7406007111622015
+973,36,Female,115729,Artist,PhD,6,Domestic,26,Leisure,True,Average,False,5,True,1,1,Low,High,High,837,High,Average,0.4332166359610758
+974,60,Female,126352,Artist,Bachelor,7,Domestic,28,Business,True,Average,True,5,True,1,2,Low,Medium,Medium,613,Low,Average,0.5332811950193541
+975,80,Female,129152,Lawyer,High School,4,Domestic,14,Medical,True,Average,True,8,True,3,10,High,Low,Medium,665,High,Good,0.7260378513124256
+976,67,Female,56533,Artist,Master,5,Domestic,18,Business,True,Good,False,0,False,3,4,Medium,High,Low,678,High,Average,0.3816247759170974
+977,21,Male,138516,Engineer,PhD,5,International,9,Leisure,True,Good,True,0,True,4,4,Low,Low,Low,846,Medium,Poor,0.6738274430895524
+978,38,Male,115860,Engineer,High School,8,Domestic,16,Medical,True,Good,False,3,True,1,8,Medium,Low,Medium,690,Low,Good,0.6948113043672227
+979,32,Female,113145,Doctor,Master,1,International,8,Business,True,Average,False,5,False,0,8,High,Medium,Medium,716,High,Good,0.3671149883338455
+980,58,Female,85935,Lawyer,PhD,8,Domestic,18,Business,False,Good,False,1,False,0,7,Low,Low,Low,633,High,Average,0.3127420845570479
+981,31,Male,75663,Engineer,Bachelor,0,International,3,Leisure,True,Average,False,2,False,2,6,High,Medium,Low,826,Low,Good,0.587945690683249
+982,69,Female,121415,Business,PhD,10,International,20,Business,True,Poor,True,9,True,5,1,Low,High,Medium,810,High,Average,0.8524517806048539
+983,89,Female,84787,Lawyer,Master,2,International,28,Medical,True,Average,True,9,False,2,6,Medium,High,Medium,489,High,Poor,0.8581167501981375
+984,76,Male,105897,Engineer,High School,9,International,22,Medical,True,Poor,True,9,True,3,5,High,Low,Low,724,Medium,Average,0.8501271704129655
+985,71,Male,67065,Artist,PhD,8,Domestic,2,Leisure,True,Average,True,8,True,3,6,Low,Medium,Medium,803,High,Good,0.8794913448097451
+986,35,Male,145598,Engineer,Master,3,Domestic,16,Leisure,False,Poor,True,5,True,1,1,High,Low,Low,721,Low,Average,0.1738718022119324
+987,75,Male,123326,Engineer,High School,6,Domestic,20,Leisure,True,Average,True,6,True,2,5,High,Low,Low,568,Medium,Poor,0.9694175024516902
+988,69,Male,116205,Business,Bachelor,0,International,5,Medical,True,Poor,False,0,False,0,4,Medium,Medium,Medium,556,Medium,Good,0.2744500379486581
+989,33,Female,103096,Business,PhD,5,Domestic,15,Medical,False,Poor,True,1,True,3,8,High,Low,Low,635,High,Poor,0.1095591504835514
+990,43,Female,58551,Artist,Master,8,International,12,Business,False,Poor,True,0,True,4,1,High,High,Medium,690,High,Poor,0.1923122161967796
+991,39,Female,47748,Lawyer,High School,10,Domestic,11,Business,False,Good,False,5,True,5,7,Medium,High,Low,778,High,Good,0.1244065850009791
+992,52,Male,32588,Teacher,Master,10,International,26,Leisure,True,Poor,True,2,False,0,4,High,Low,High,530,Low,Average,0.5970560908354937
+993,33,Male,97113,Engineer,PhD,4,Domestic,7,Medical,True,Poor,False,0,True,5,8,Medium,High,Medium,523,High,Good,0.0603955942002069
+994,68,Male,67931,Teacher,Bachelor,3,International,15,Leisure,True,Good,True,0,False,2,9,High,High,Medium,466,High,Average,0.3488779049632722
+995,22,Female,57082,Teacher,High School,10,Domestic,9,Business,True,Average,True,0,True,5,9,Medium,High,High,825,Low,Poor,0.1073788219786
+996,18,Male,123621,Business,High School,0,Domestic,24,Leisure,True,Average,True,0,True,5,4,High,Medium,Medium,494,Low,Average,0.5363171261520928
+997,62,Male,74198,Teacher,PhD,10,International,18,Business,True,Poor,False,1,False,3,7,High,High,Medium,319,High,Poor,0.251029926535115
+998,48,Female,120081,Teacher,Master,8,International,22,Leisure,False,Average,True,5,False,2,8,Medium,Low,Low,374,Medium,Average,0.4698836428391406
+999,23,Female,79971,Artist,PhD,3,Domestic,3,Leisure,False,Poor,False,3,False,2,7,Medium,Medium,Medium,847,Medium,Average,0.0236291818057668
+1000,66,Male,85196,Doctor,High School,0,Domestic,4,Medical,False,Poor,True,1,False,5,6,Medium,Medium,Low,350,High,Good,0.5729741880251161
