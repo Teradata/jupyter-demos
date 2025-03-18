@@ -18,3 +18,4 @@
 ../UseCases/Recommendations_product_search/Recommendations_product_search_OpenSource_Python.ipynb
 ../ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb
 ../UseCases/Data_Dictionary/Data_Dictionary_Raw.ipynb
+../UseCases/Augmented_call_center_AgenticAI/Augmented_call_center_AgenticAI.ipynb
