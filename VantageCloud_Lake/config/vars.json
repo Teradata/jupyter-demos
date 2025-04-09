@@ -1,0 +1,47 @@
+{
+    "environment":{"host":"54.156.178.22", 
+                   "UES_URI":"https://pmlakeprod.innovationlabs.teradata.com/api/accounts/0507f6df-05a3-4d0b-bea7-2879bd3d64e0/open-analytics", 
+                   "bucket":""},      
+    "hierarchy":{
+        "DBC":{"username":"","password":""},
+        "SYSDBA":{"username":"SYSDBA", "password":"", "perm":"8E11", "spool":"8E11"},
+        "users":{"perm":"1E9",
+                 "spool":"10E9", 
+                 "support_users":[{"username":"", "":""}],
+                 "business_users":[
+                        {"username":"", 
+                                   "password":"", 
+                                   "role":"CSAE_Group_STD",
+                                   "compute_group":"StandardGroup"}, 
+                        {"username":"", 
+                                "password":"", 
+                                "role":"CSAE_Group_ANLY", 
+                                "compute_group":"AnalyticGroup"},
+                        {"username":"", 
+                                "password":"", 
+                                "role":"CSAE_Group_GPU", 
+                                "compute_group":"GPUGroup"}],
+                 "csae_user":[
+                    {"username":"dallas50-88vgt0b5i55ikpx7", 
+                                   "password":"dallas50!", 
+                                   "role":"CSAE_Group_ANLY",
+                                   "compute_group":"GPUGroup",
+                                    "token":"gwxhvOoA0WYfS0BtgFUBwNIRETda",
+                                    "private_key_name":"dallas50-88vgt0b5i55ikpx7",
+                                    "private_key_file":"dallas50-88vgt0b5i55ikpx7.pem"}]},
+        "compute_groups":[{"name":"StandardGroup", "type":"STANDARD", "profiles":
+                           [{"name":"XSmallProfile","type":"STANDARD", "size":"TD_COMPUTE_XSMALL", "min":"1", "max":"1"}]}, 
+                          {"name":"AnalyticGroup", "type":"ANALYTIC", "profiles":
+                           [{"name":"XSmallAnalyticProfile","type":"ANALYTIC","size":"TD_COMPUTE_XSMALL", "min":"1", "max":"1"}]},
+                         {"name":"GPUGroup", "type":"ANALYTIC_L1", "profiles":
+                           [{"name":"GPUProfile2","type":"ANALYTIC_L1","size":"TD_COMPUTE_XSMALL", "min":"1", "max":"1"}]}],
+        "compute_group_roles":[{"name":"CSAE_Group_STD", "type":"STANDARD", "compute_group":"StandardGroup"}, 
+                               {"name":"CSAE_Group_ANLY", "type":"ANALYTIC", "compute_group":"AnalyticGroup"},
+                              {"name":"CSAE_Group_GPU", "type":"ANALYTIC_L1", "compute_group":"GPUGroup"}],
+        "repositories":{"name":"Repositories", 
+                        "perm":"3e11",
+                       "databases":[{"name":"demo", "perm":"1e11", "default_storage":"TD_NDSSTORAGE"}, 
+                                   {"name":"demo_ofs", "perm":"1e11", "default_storage":"TD_OFSSTORAGE"}],
+                       "iam_authorizations":[]}}
+
+}
