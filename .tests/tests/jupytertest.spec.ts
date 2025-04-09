@@ -66,9 +66,13 @@ if(process.env.CSAE_NOTEBOOKS){
 
 
 for (let i = 0; i < files.length ; i++) {
-    const name = files[i];
+    let name = files[i];
     if (name === '') {
         continue;
+    }
+
+    if(name[0]  != '.'){
+        name = '../' + name;
     }
 
     test(`test ${i}: ${name}`, async ({ page }, testInfo) => {
