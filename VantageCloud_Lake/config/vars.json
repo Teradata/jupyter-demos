@@ -22,13 +22,13 @@
                                 "role":"CSAE_Group_GPU", 
                                 "compute_group":"GPUGroup"}],
                  "csae_user":[
-                    {"username":"dallas50-88vgt0b5i55ikpx7", 
-                                   "password":"dallas50!", 
+                    {"username":"{USERNAME}", 
+                                   "password":"{PASSWORD}", 
                                    "role":"CSAE_Group_ANLY",
                                    "compute_group":"GPUGroup",
-                                    "token":"gwxhvOoA0WYfS0BtgFUBwNIRETda",
-                                    "private_key_name":"dallas50-88vgt0b5i55ikpx7",
-                                    "private_key_file":"dallas50-88vgt0b5i55ikpx7.pem"}]},
+                                    "token":"{TOKEN}",
+                                    "private_key_name":"{PRIVATE_KEY_NAME}",
+                                    "private_key_file":"{PRIVATE_KEY_FILENAME"}]},
         "compute_groups":[{"name":"StandardGroup", "type":"STANDARD", "profiles":
                            [{"name":"XSmallProfile","type":"STANDARD", "size":"TD_COMPUTE_XSMALL", "min":"1", "max":"1"}]}, 
                           {"name":"AnalyticGroup", "type":"ANALYTIC", "profiles":
