@@ -504,6 +504,34 @@ In this demo, we use AWS Bedrock's LLMs and LangChain to create a text-to-Terada
 Forecast the amount of future sales by developing a time-series modelling pipeline using Vantage and In-DB analytics<br>
 [Python Version](./UseCases/Sales_Forecasting_AutoArima/Sales_Forecasting_AutoArima_Python.ipynb)
 
+#### ACF and PACF Functions in Vantage
+Convert time series data and then normalize it. Then calculate the partial autocorrelation coefficients using the LEVINSON_DURBIN algorithm.<br>
+[Python Version](./Recipes/ClearScape_Functions/ACF_PACF.ipynb)
+
+#### Arima Functions in Vantage
+Execute the Arima Functions: ArimaEstimate, ArimaValidate, and ArimaForecast and use teradataml to create graphs with results.<br>
+[Python Version](./Recipes/ClearScape_Functions/Arima.ipynb)
+
+#### Convolve Function in Vantage
+Use this function to convolve two series into new time series using the CONV_DFFT algorithm.<br>
+[Python Version](./Recipes/ClearScape_Functions/Convolve.ipynb)
+
+#### Convolve2 Function in Vantage
+Convolve 2 matching payload fields of 2 matrices into a new source matrix.<br>
+[Python Version](./Recipes/ClearScape_Functions/Convolve2.ipynb)
+
+#### Kmeans and KMeansPredict Functions in Vantage
+Group a set of observations into k clusters in which each observation belongs to the cluster with the nearest mean.  Then predict a target class.<br>
+[Python Version](./Recipes/ClearScape_Functions/KMeans_KMeansPredict.ipynb)
+
+#### SentimentExtractor Function in Vantage
+Search a customer's comments and evaluate the sentiments. Return a list of sentiment words along with their scores.<br>
+[Python Version](./Recipes/ClearScape_Functions/SentimentExtractor.ipynb)
+
+#### SVM and SVMPredict Functions in Vantage.
+Perform classification and regression analysis on datasets<br>
+[Python Version](./Recipes/ClearScape_Functions/SVMandSVMPredict.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xTelco'></a>
 ### Telco
@@ -644,6 +672,30 @@ Use the WhichMin function to return a specified minimum value in a specified tab
 #### Automatic Data Pre-Processing with tdprepview
 Prepare datasets for tabular supervised or unsupervised machine learning. Prepare data to predict customer churn for a bank.<br>
 [Python Version](./Recipes/tdprepview/Automatic_DataPreprocessing_tdprepview.ipynb)
+
+#### OrdinalEncodingFit and OrdinalEncodingTransform in Vantage
+Analyze banking data to see if customer geography is influencing churn.<br>
+[Python Version](./Recipes/ClearScape_Functions/OrdinalEncodingFitandTransform.ipynb)
+
+#### Pack and Unpack Functions in Vantage
+Store virtual columns from a dataframe in one physical column and then extract them back into multiple dataframe columns.<br>
+[Python Version](./Recipes/ClearScape_Functions/Pack_Unpack.ipynb)
+
+#### PolynomialFeaturesFit and PolynomialFeaturesTransform Functions in Vantage
+Use these functions to find non-linear relationships between different customer attributes.<br>
+[Python Version](./Recipes/ClearScape_Functions/PolynomialFeaturesFitandTransform.ipynb)
+
+#### RowNormalizeFit and RowNormalizeTransform Functions in Vantage
+Discover how row-wise normalization can standardize financial metrics like CreditScore, Balance, and EstimatedSalary for better comparisons.<br>
+[Python Version](./Recipes/ClearScape_Functions/RowNormalizeFitandTransform.ipynb)
+
+#### ScaleFit and ScaleTransform Functions in Vantage
+Standardize values to a comparable range, making them suitable for machine learning models without being influenced by original magnitudes.<br>
+[Python Version](./Recipes/ClearScape_Functions/ScaleFitandTransform.ipynb)
+
+#### TargetEncodingFit and TargetEncodingTransform Functions in Vantage
+Apply Target Encoding to replace categorical values with statistically meaningful numerical representations based on the churn rate (Exited).<br>
+[Python Version](./Recipes/ClearScape_Functions/TargetEncodingFitandTransform.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xMarketing'></a>
@@ -1871,6 +1923,10 @@ Run this notebook to search all notebooks with a ChatBot.<br>
 Run this notebook to search all notebooks with a ChatBot and Database connectivity.<br>
 [Python Version](./ExperienceBot/ExperienceBot.ipynb)
 
+#### Augmented Call Center: Revolutionizing Customer Support with Advanced AI Technologies
+Experience the next generation of customer support with our Augmented Call Center. Harness the power of advanced AI technologies to deliver exceptional service, drive customer loyalty, and achieve operational excellence.<br>
+[Python Version](./UseCases/Augmented_call_center_AgenticAI/Augmented_call_center_AgenticAI.ipynb)
+
 #### Mortgage Calculator Chatbot using Trusted AI(RAG)
 Experience the integration of LLM models to provide user-friendly responses to queries.  RAG combines retrieval and generative approaches.<br>
 [Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_RAG.ipynb)
@@ -1947,6 +2003,10 @@ Uncover hidden insights from vast amounts of consumer complaints data to enable 
 Create a text-to-SQL autonomous agent that will enable the retrieval of answers and insights from a database.<br>
 [Python Version](./UseCases/Data_Analyst_AI_Agent_Gemini/Data_Analyst_AI_Agent_Gemini.ipynb)
 
+#### Video Analyzer with Google Gemini
+Observe how Gemini 2.0 can be leveraged to generate details about events happening in videos and return those details as readable text.<br>
+[Python Version](./Recipes/Video_Processing_using_Gemini/Video_processing_Gemini.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xHugging-Face'></a>
 ### Hugging Face
@@ -1978,6 +2038,10 @@ Execute a Huggingface model using the Vantage Script Table operator(STO) on Vant
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xDataRobot'></a>
 ### DataRobot
+
+#### DataRobotPredict Function in Vantage
+Use this function to load a pre-built DataRobot Model into Vantage and then use it to score a dataset in the database.<br>
+[Python Version](./Recipes/ClearScape_Functions/DataRobotPredict.ipynb)
 
 #### ModelOps BYOM with Datarobot
 Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a DataRobot model.<br>
@@ -2084,6 +2148,10 @@ Analyzing consumer complaints using audio files conversations<br>
 Use Teradataml Widgets to display interactive prompting to generate datasets from the Vantage database.<br>
 [Python Version](./Getting_Started/Teradataml_Widgets/Tutorial.ipynb)
 
+#### ACF and PACF Functions in Vantage
+Convert time series data and then normalize it. Then calculate the partial autocorrelation coefficients using the LEVINSON_DURBIN algorithm.<br>
+[Python Version](./Recipes/ClearScape_Functions/ACF_PACF.ipynb)
+
 #### Advertising Sales Prediction using teradataml OpenSourceML in Vantage
 Predict sales for multiple channels using Open-Source Machine Learning Functions<br>
 [Python Version](./UseCases/Advertising_Sales_Prediction_OpenSourceML/Advertising_Sales_Prediction_Using_OpensourceML.ipynb)
@@ -2092,33 +2160,137 @@ Predict sales for multiple channels using Open-Source Machine Learning Functions
 Return all columns except those specified in an exclude parameter.<br>
 [Python Version](./Recipes/ClearScape_Functions/Antiselect.ipynb)
 
+#### Arima Functions in Vantage
+Execute the Arima Functions: ArimaEstimate, ArimaValidate, and ArimaForecast and use teradataml to create graphs with results.<br>
+[Python Version](./Recipes/ClearScape_Functions/Arima.ipynb)
+
 #### Attribution Function in Vantage
 Use the Attribution function to assign scores to events that will then  be inserted in an Attribution Model.<br>
 [Python Version](./Recipes/ClearScape_Functions/Attribution.ipynb)
+
+#### Augmented Call Center: Revolutionizing Customer Support with Advanced AI Technologies
+Experience the next generation of customer support with our Augmented Call Center. Harness the power of advanced AI technologies to deliver exceptional service, drive customer loyalty, and achieve operational excellence.<br>
+[Python Version](./UseCases/Augmented_call_center_AgenticAI/Augmented_call_center_AgenticAI.ipynb)
+
+#### BinaryMatrixOP Function in Vantage
+use the BinaryMatrixOp to perform multiplication operation in MATCH mode between two matrices holding REAL payload.<br>
+[Python Version](./Recipes/ClearScape_Functions/BinaryMatrixOp.ipynb)
+
+#### BinarySeriesOp Function in Vantage
+Use BinarySeriesOp to convolve two series with digital signal processing.<br>
+[Python Version](./Recipes/ClearScape_Functions/BinarySeriesOp.ipynb)
 
 #### BincodeFit and BincodeTransform functions in Vantage
 Transform continuous data into bins.  Then apply the transformation to a DataFrame.<br>
 [Python Version](./Recipes/ClearScape_Functions/BincodeFitandTransform.ipynb)
 
+#### BreuschGodfrey Function in Vantage
+Check for the presence of serial correlation among the residual and error terms after running a regression associated with a fitted model.<br>
+[Python Version](./Recipes/ClearScape_Functions/BreuschGodfrey.ipynb)
+
+#### BreuschPaganGodfrey Function in Vantage
+Detect the presence of variability of the error term during regression analysis. Observe the difference between observed values and predicted values, is not constant across all levels of the independent variables.<br>
+[Python Version](./Recipes/ClearScape_Functions/BreuschPaganGodfrey.ipynb)
+
+#### ClassificationEvaluator Function in Vantage
+Compute evaluation metrics to compare multiple classification models and summarize how close predictions are to their expected values.<br>
+[Python Version](./Recipes/ClearScape_Functions/ClassificationEvaluator.ipynb)
+
+#### ColumnTransformer Function in Vantage
+Transform input data columns in a single operation by providing only the FIT dataframes generated by the analytic functions and then runs all the transformations in a single operation.<br>
+[Python Version](./Recipes/ClearScape_Functions/ColumnTransformer.ipynb)
+
 #### Convert PySpark to teradatamlspk
 Convert a PySpark script to teradatamlspk syntax and generate a HTML report using Housing Prices to generate price predictions.<br>
 [Python Version](./Getting_Started/PySpark_to_Teradataml/HousingPrices_pyspark_to_tdml.ipynb)
+
+#### ConvertTo Function in Vantage
+Convert data types in columns of a source table into other data types without using complicated format strings.<br>
+[Python Version](./Recipes/ClearScape_Functions/ConvertTo.ipynb)
+
+#### Convolve Function in Vantage
+Use this function to convolve two series into new time series using the CONV_DFFT algorithm.<br>
+[Python Version](./Recipes/ClearScape_Functions/Convolve.ipynb)
+
+#### Convolve2 Function in Vantage
+Convolve 2 matching payload fields of 2 matrices into a new source matrix.<br>
+[Python Version](./Recipes/ClearScape_Functions/Convolve2.ipynb)
+
+#### CumulPeriodogram Function in Vantage
+Use a cumulative periodogram statistics test to determine if any periodicities (seasonal cycles) exist in the residual series being tested.<br>
+[Python Version](./Recipes/ClearScape_Functions/CumulPeriodogram.ipynb)
 
 #### Customer Complaints Analysis with Customer360 with AWS Bedrock
 Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
 [Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Analysis_Customer360.ipynb)
 
+#### Customer Retail Journeys
+Use Clearscape Analytics functions to analyze customer digital behaviors and experiences in an effort to diagnose issues and events that could possibly inhibit their purchases.<br>
+[Python Version](./UseCases/Retail_Journey/Customer_Retail_Journey.ipynb)
+
+#### Customer Segmentation with K-means Clustering and Data Preparation Pipelines
+Leverage native Vantage processing for efficient and highly scalable data preparation, model training, and evaluation workflows.<br>
+[Python Version](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_Python.ipynb)
+
 #### Data Analyst AI Agent with LangChain and Google Gemini
 Create a text-to-SQL autonomous agent that will enable the retrieval of answers and insights from a database.<br>
 [Python Version](./UseCases/Data_Analyst_AI_Agent_Gemini/Data_Analyst_AI_Agent_Gemini.ipynb)
+
+#### DataRobotPredict Function in Vantage
+Use this function to load a pre-built DataRobot Model into Vantage and then use it to score a dataset in the database.<br>
+[Python Version](./Recipes/ClearScape_Functions/DataRobotPredict.ipynb)
+
+#### DecisionForest and TDDecisionForestPredict Functions in Vantage
+Create predictive models based on the algorithm for decision tree training and prediction.  Then use those models to analyze the input data and make predictions.<br>
+[Python Version](./Recipes/ClearScape_Functions/DecisionForestandTDDecisionForestPredict.ipynb)
 
 #### Deploy a Hyper-Segmented Model Scikit Learn Pipeline
 Deploy a hyper-segmented model created using the Python Scikit-Learn module and then load and run it in Vantage.<br>
 [Python Version](./Recipes/HyperSegmented_Model_Pipelines/Deploy_HyperSegmented_Model_Pipeline.ipynb)
 
+#### DFFT and IDFFT Functions in Vantage
+This is an example of how to use DFFT() when convolving two series with digital signal processing.<br>
+[Python Version](./Recipes/ClearScape_Functions/DFFT_IDFFT.ipynb)
+
+#### DFFT2 and IDFFT2 Functions in Vantage
+Compute the two-dimension fourier transform using the input matrix with real numbers only for a matrix.<br>
+[Python Version](./Recipes/ClearScape_Functions/DFFT2_IDFFT2.ipynb)
+
+#### DFFT2Conv Function in Vantage
+Load time series data and then convert it into a TDMatrix.  Then compute the two-dimension fourier transform with only real numbers. Then convert the output to polar data in Radian format.<br>
+[Python Version](./Recipes/ClearScape_Functions/DFFT2Conv.ipynb)
+
+#### DFFTConv Function in Vantage
+Load time series data and then convert it into a TDSeries.  Then compute the Fourier Transform Coefficients and convert to polar data in Radian format.<br>
+[Python Version](./Recipes/ClearScape_Functions/DFFTConv.ipynb)
+
+#### DickeyFuller Function in Vantage
+Test data in a Time Series to determine if it is stationary or non-stationary.<br>
+[Python Version](./Recipes/ClearScape_Functions/DickeyFuller.ipynb)
+
+#### DTW Function in Vantage
+Measure the similarity between two time series.<br>
+[Python Version](./Recipes/ClearScape_Functions/DTW.ipynb)
+
+#### DurbinWatson Function in Vantage
+Determine if there is evidence of serial correlation between residuals in a residual series.<br>
+[Python Version](./Recipes/ClearScape_Functions/DurbinWatson.ipynb)
+
+#### Extract Results Function in Vantage
+Retrieve the values stored in the Adaptive Radix Tree (ART) that's created by the execution of other analytic functions.<br>
+[Python Version](./Recipes/ClearScape_Functions/ExtractResults.ipynb)
+
+#### FillrowId Function in Vantage
+Add a column of unique row identifiers to a table.<br>
+[Python Version](./Recipes/ClearScape_Functions/FillRowId.ipynb)
+
 #### Fit and Transform functions in Vantage
 Determine if a specific numeric transformation can be applied to target columns and make the output available to the Transform() function.<br>
 [Python Version](./Recipes/ClearScape_Functions/FitandTransform.ipynb)
+
+#### FitMetrics Function in Vantage
+Generate googness-of-fit metrics from multivariate series.<br>
+[Python Version](./Recipes/ClearScape_Functions/FitMetrics.ipynb)
 
 #### Generate Teradata SQL with GenAI and AWS Bedrock
 In this demo, we use AWS Bedrock's LLMs and LangChain to create a text-to-Teradata SQL agent.<br>
@@ -2128,17 +2300,61 @@ In this demo, we use AWS Bedrock's LLMs and LangChain to create a text-to-Terada
 Define and apply a formula to generate a time series.<br>
 [Python Version](./Recipes/ClearScape_Functions/GenseriesFormula.ipynb)
 
+#### GenseriesSinusoids Function in Vantage
+Generate a time series containing a subset of the sinusoidal's element's periodicities, whose payload content value is of type REAL.<br>
+[Python Version](./Recipes/ClearScape_Functions/GenseriesSinusoids.ipynb)
+
+#### GLM and TDGLMPredict Functions in Vantage
+Use a generalized linear model to perform regression and classification analysis on a data set.  Then predict the target values and class labels from that data set.<br>
+[Python Version](./Recipes/ClearScape_Functions/GLMandTDGLMPredict.ipynb)
+
+#### GLMPerSegment and GLMPredictPerSegment Functions in Vantage
+Create models by partitioning datasets on a key value.  Then use those models to predict future values (regressions) and class labels (classifications).<br>
+[Python Version](./Recipes/ClearScape_Functions/GLMPerSegmentandGLMPredictPerSegment.ipynb)
+
+#### Hashing Your Data
+Work through 4 use cases that demonstrate the usage of the Teradata hash function.<br>
+[Python Version](./Recipes/Hashing/Hashing.ipynb)
+
 #### Histogram function in Vantage
 Calculate the frequency distribution of a data set using multiple methods: Sturges, Scot, Variable-width, Equal-width<br>
 [Python Version](./Recipes/ClearScape_Functions/Histogram.ipynb)
+
+#### HoldWintersForecaster Function in Vantage
+Apply exponential smoothing on a combination of level, trend and seasonality components to make predictions.<br>
+[Python Version](./Recipes/ClearScape_Functions/HoltWintersForecaster.ipynb)
+
+#### Image2Matrix and Matrix2Image Functions in Vantage
+Convert JPEG or PNG images to matrices, manipulate any element, then convert the matrices back into images.<br>
+[Python Version](./Recipes/ClearScape_Functions/Image2matrixandMatrix2Image.ipynb)
+
+#### InputValidator Function in Vantage
+Validate data and identify series and matrices that have indiscrete data.<br>
+[Python Version](./Recipes/ClearScape_Functions/InputValidator.ipynb)
 
 #### Introduction to Plot types using Teradataml Widgets.
 This is an introduction to using the various Plot types available as widgets: Line, Bar, Mesh, Wiggle, Geometry, etc.<br>
 [Python Version](./Getting_Started/Teradataml_Widgets/Plot_Notebook.ipynb)
 
+#### Kmeans and KMeansPredict Functions in Vantage
+Group a set of observations into k clusters in which each observation belongs to the cluster with the nearest mean.  Then predict a target class.<br>
+[Python Version](./Recipes/ClearScape_Functions/KMeans_KMeansPredict.ipynb)
+
+#### LineSpec Function in Vantage
+Use this function to identify cycles that may be inherent in an input series.<br>
+[Python Version](./Recipes/ClearScape_Functions/LineSpec.ipynb)
+
+#### MAMean Function in Vantage
+Use historical data to forecast activity 1 period ahead (t+1).<br>
+[Python Version](./Recipes/ClearScape_Functions/MAMean.ipynb)
+
 #### MatricMultiply Function in Vantage
 Create a data series based on two matrixes.<br>
 [Python Version](./Recipes/ClearScape_Functions/MatrixMultiply.ipynb)
+
+#### Minfo Function in Vantage
+Return a one row summary describing the data in a matrix.<br>
+[Python Version](./Recipes/ClearScape_Functions/MInfo.ipynb)
 
 #### ModelOps BYOM with Dataiku
 Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a Dataiku model.<br>
@@ -2148,25 +2364,97 @@ Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a Dataik
 Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a DataRobot model.<br>
 [Python Version](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
 
+#### MovingAverage Function in Vantage
+Calculate the Cumulative Average of the quantities per Invoice in a dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/MovingAverage.ipynb)
+
+#### NaiveBayesTextClassifierTrainer and NaiveBayesTextClassifierPredict Functions in Vantage
+Calculate conditional probabilities.  Train a model with those values and use the predict function to classify documents into categories.<br>
+[Python Version](./Recipes/ClearScape_Functions/NaiveBayesTextClassifierTrainerandPredict.ipynb)
+
+#### NGramSplitter Function in Vantage
+Tokenize an input stream of text and outputs n multigrams (called n-grams) based on the specified delimiter and reset parameters.<br>
+[Python Version](./Recipes/ClearScape_Functions/NGramSplitter.ipynb)
+
 #### NonLinearCombineFit and NonLinearCombineTransform Function in Vantage
 Use the NonLinearCombineFit and NonLinearCombineTransform functions available in Vantage to create new feature columns in a dataset.<br>
 [Python Version](./Recipes/ClearScape_Functions/NonLinearCombineFitandTransform.ipynb)
+
+#### NPath Function in Vantage
+Discover paths leading to Accounts being closed for 'Gold' customers.<br>
+[Python Version](./Recipes/ClearScape_Functions/NPath.ipynb)
+
+#### NumApply Function in Vantage
+Apply a user-defined, numberic operator to a specific column or set of columns in a database table.<br>
+[Python Version](./Recipes/ClearScape_Functions/NumApply.ipynb)
 
 #### OneClassSVM and OneClassSVMPredict functions in Vantage
 See how to use the OneClassSVM and OneClassSVMPredict functions .<br>
 [Python Version](./Recipes/ClearScape_Functions/OneClassSVMandOneClassSVMPredict.ipynb)
 
+#### OneHotEncodingFit and OneHotEncodingTransform in Vantage
+Use these functions to analyze whether gender influences customer churn.<br>
+[Python Version](./Recipes/ClearScape_Functions/OneHotEncodingFitandTransform.ipynb)
+
+#### OrdinalEncodingFit and OrdinalEncodingTransform in Vantage
+Analyze banking data to see if customer geography is influencing churn.<br>
+[Python Version](./Recipes/ClearScape_Functions/OrdinalEncodingFitandTransform.ipynb)
+
 #### OutlierFilterFit and OutlierFilterTransform
 Use outlier filtering to identify and remove outliers from a dataset.<br>
 [Python Version](./Recipes/ClearScape_Functions/OutlierFilterFitandTransform.ipynb)
+
+#### Pack and Unpack Functions in Vantage
+Store virtual columns from a dataframe in one physical column and then extract them back into multiple dataframe columns.<br>
+[Python Version](./Recipes/ClearScape_Functions/Pack_Unpack.ipynb)
+
+#### PolynomialFeaturesFit and PolynomialFeaturesTransform Functions in Vantage
+Use these functions to find non-linear relationships between different customer attributes.<br>
+[Python Version](./Recipes/ClearScape_Functions/PolynomialFeaturesFitandTransform.ipynb)
+
+#### Portman Function in Vantage
+Use the Portmanteau test to execute a series of test to determine whether the residuals can be classified as zeo mean, no serial correlation, or homoscedastic variance (white noise).<br>
+[Python Version](./Recipes/ClearScape_Functions/Portman.ipynb)
+
+#### PowerSpec Function in Vantage
+Converts a time series to a frequency domain to facilitate frequency domain analysis.<br>
+[Python Version](./Recipes/ClearScape_Functions/KNN.ipynb)
+
+#### PowerTransform Function in Vantage
+get forecast values for a heteroscedastic time series using PowerTransform function.<br>
+[Python Version](./Recipes/ClearScape_Functions/PowerTransform.ipynb)
 
 #### QQNorm function in Vantage
 Determine if values in a data column follow normal distribution or not.<br>
 [Python Version](./Recipes/ClearScape_Functions/QQNorm.ipynb)
 
+#### RandomProjectionMinComponents, RandomProjectionFit and RandomProjectionTransform Functions
+Use these functions to perform dimensionality reduction of a dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/RandomProjectionFitandTransform_Python.ipynb)
+
+#### RegressionEvaluator Function in Vantage
+Compute metrics to evaluate and compare multiple models and summarizes how close predictions are to their expected values.<br>
+[Python Version](./Recipes/ClearScape_Functions/RegressionEvaluator.ipynb)
+
+#### ROC Function in Vantage
+Give the function a set of prediction-actual pairs for a binary classification model, and it will calculate values for a range of discrimination thresholds.<br>
+[Python Version](./Recipes/ClearScape_Functions/ROC.ipynb)
+
+#### RoundColumns Function in Vantage
+Convert the decimal precision of multiple columns to be the same.<br>
+[Python Version](./Recipes/ClearScape_Functions/RoundColumns.ipynb)
+
+#### RowNormalizeFit and RowNormalizeTransform Functions in Vantage
+Discover how row-wise normalization can standardize financial metrics like CreditScore, Balance, and EstimatedSalary for better comparisons.<br>
+[Python Version](./Recipes/ClearScape_Functions/RowNormalizeFitandTransform.ipynb)
+
 #### Sales Forecasting using Teradata AUTOARIMA
 Forecast the amount of future sales by developing a time-series modelling pipeline using Vantage and In-DB analytics<br>
 [Python Version](./UseCases/Sales_Forecasting_AutoArima/Sales_Forecasting_AutoArima_Python.ipynb)
+
+#### ScaleFit and ScaleTransform Functions in Vantage
+Standardize values to a comparable range, making them suitable for machine learning models without being influenced by original magnitudes.<br>
+[Python Version](./Recipes/ClearScape_Functions/ScaleFitandTransform.ipynb)
 
 #### Search all notebooks with a ChatBot
 Run this notebook to search all notebooks with a ChatBot.<br>
@@ -2176,9 +2464,61 @@ Run this notebook to search all notebooks with a ChatBot.<br>
 Run this notebook to search all notebooks with a ChatBot and Database connectivity.<br>
 [Python Version](./ExperienceBot/ExperienceBot.ipynb)
 
+#### SelectionCriteria Function in Vantage
+Choose the best algorithm or model from a set of candidate models for a given dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/SelectionCriteria.ipynb)
+
+#### SentimentExtractor Function in Vantage
+Search a customer's comments and evaluate the sentiments. Return a list of sentiment words along with their scores.<br>
+[Python Version](./Recipes/ClearScape_Functions/SentimentExtractor.ipynb)
+
+#### Sessionize Function in Vantage
+Examine user behavior over a 24 hour time span using clickstream data.<br>
+[Python Version](./Recipes/ClearScape_Functions/Sessionize.ipynb)
+
+#### SignifPeriodicities Function in Vantage
+Detecting significant periodicities in time series data is crucial for accurate forecasting, especially in industries such as retail or finance, where it impacts decision making.<br>
+[Python Version](./Recipes/ClearScape_Functions/SignifPeriodicities.ipynb)
+
+#### SignifResidmean Function in Vantage
+Use a statistical test to determine if a passed-in residual series can be classified as being white noise.<br>
+[Python Version](./Recipes/ClearScape_Functions/SignifResidmean.ipynb)
+
+#### Silhouette Function in Vantage
+Determines the similarity of an object to its cluster (cohesion) compared to other clusters (separation).<br>
+[Python Version](./Recipes/ClearScape_Functions/Silhouette.ipynb)
+
+#### SimpleExp Function in Vantage
+Use simple exponential smoothing with time series data to generate forecast with minimal computations.<br>
+[Python Version](./Recipes/ClearScape_Functions/SimpleExp.ipynb)
+
+#### SInfo Function in Vantage
+Return details about each instance of a series found in a table.<br>
+[Python Version](./Recipes/ClearScape_Functions/SInfo.ipynb)
+
+#### Solve Imbalance Class Problems with ClearScape Analytics
+How to address imbalanced classes and build better models.<br>
+[Python Version](./Recipes/Imbalanced_Data_Handling/Solve_Imbalance_Class_Problems.ipynb)
+
+#### StrApply Function in Vantage
+Manipulate a tring by applying a regular expression pattern as well as other standard string operators.<br>
+[Python Version](./Recipes/ClearScape_Functions/StrApply.ipynb)
+
 #### Streamlining Analytics with Hyper-Segmented Models
 By addressing unique customer behaviors and preferences within specific micro-segments, enhance customer satisfaction, boost operational efficiency, and improve profitability by to deploying and managing hyper-segmented models at scale.<br>
 [Python Version](./UseCases/Hyper_Segmented_Models/Hyper_Segmented_Models.ipynb)
+
+#### StringSimilarity Function in Vantage
+Calculates the similarity between two strings, using the specified comparison method (jaro, cosine etc).<br>
+[Python Version](./Recipes/ClearScape_Functions/StringSimilarity.ipynb)
+
+#### SVM and SVMPredict Functions in Vantage.
+Perform classification and regression analysis on datasets<br>
+[Python Version](./Recipes/ClearScape_Functions/SVMandSVMPredict.ipynb)
+
+#### TargetEncodingFit and TargetEncodingTransform Functions in Vantage
+Apply Target Encoding to replace categorical values with statistically meaningful numerical representations based on the churn rate (Exited).<br>
+[Python Version](./Recipes/ClearScape_Functions/TargetEncodingFitandTransform.ipynb)
 
 #### Telco Churn using Enterprise Feature Store
 analyzing a time series of data, where each data point represents the outstanding amount at the end of each month. To detect anomalies,<br>
@@ -2187,6 +2527,18 @@ analyzing a time series of data, where each data point represents the outstandin
 #### Telco Churn using Feature Store in Vantage
 Detect anomalies in monthly bill amounts to detect and prevent churn using pre-calculated features stored in Vantage.<br>
 [Python Version](./UseCases/EFS_Demo/Telco_Churn_using_tdfs4ds_Feature_Store.ipynb)
+
+#### TextParser Function in Vantage
+Use this function to parse text by removing punctuation, stop words and then tokenize the remaining text.<br>
+[Python Version](./Recipes/ClearScape_Functions/TextParser.ipynb)
+
+#### TrackingOp Function in Vantage
+Use geospatial coordinates to track an object's movement and calculate related metrics.<br>
+[Python Version](./Recipes/ClearScape_Functions/TrackingOp.ipynb)
+
+#### TrainTestSplit Function in Vantage
+Divide a dataset for training and testing a model.<br>
+[Python Version](./Recipes/ClearScape_Functions/TrainTestSplit.ipynb)
 
 #### Using Pearson's chi-squared test function in Vantage
 Use the Vantage implementation of Pearson's chi-square test to compare goodness of fit, homogeneity, and independence.<br>
@@ -2199,6 +2551,34 @@ Use the Anova function to execute a statistical test to analyze the difference b
 #### Using the Vantage Enterprise Feature Store Functions
 Work through a series of practical exercises that demonstrate how to use the Enterprise Feature Store capabilities in Vantage. <br>
 [Python Version](./FeaturePreview/Enterprise_Feature_Store/EFS_Getting_Started_Python.ipynb)
+
+#### Variational AutoEncoders (VAE) in Generative AI
+Define a model, define a loss function, train the model, generate new images and then enhance the quality.<br>
+[Python Version](./Recipes/VAE/VAE_Python.ipynb)
+
+#### VectorDistance Function in Vantage
+Compute similarity or dissimilarity between two vectors in multi-dimensional space.<br>
+[Python Version](./Recipes/ClearScape_Functions/VectorDistance.ipynb)
+
+#### Video Analyzer with Google Gemini
+Observe how Gemini 2.0 can be leveraged to generate details about events happening in videos and return those details as readable text.<br>
+[Python Version](./Recipes/Video_Processing_using_Gemini/Video_processing_Gemini.ipynb)
+
+#### WhitesGeneral Function in Vantage
+Check for the presence of correlation among residual terms after running a regression.<br>
+[Python Version](./Recipes/ClearScape_Functions/WhitesGeneral.ipynb)
+
+#### WordEmbeddings Function in Vantage
+Produce vectors for each piece of text and find the fimilarities between those pieces.<br>
+[Python Version](./Recipes/ClearScape_Functions/WordEmbeddings.ipynb)
+
+#### XGBoost and XGBoostPredict Functions in Vantage
+Split a dataset for training and testing.  Then apply XGBoost and XGBoostPredict to generate better models.<br>
+[Python Version](./Recipes/ClearScape_Functions/XGBoostandXGBPredict.ipynb)
+
+#### ZTest Function in Vantage
+Determine if two population means are different when the population standard deviation or variance is known.<br>
+[Python Version](./Recipes/ClearScape_Functions/ZTest.ipynb)
 
 #### Banking Churn Prediction with AutoML
 Implement the entire lifecycle of churn prediction using BYOM, VAL and AutoML.<br>
@@ -2978,33 +3358,321 @@ Anomaly detection in bank accounts can help in identifying unusual patterns, pot
 <a id='xNew'></a>
 ### New
 
-#### Attribution Function in Vantage
-Use the Attribution function to assign scores to events that will then  be inserted in an Attribution Model.<br>
-[Python Version](./Recipes/ClearScape_Functions/Attribution.ipynb)
+#### ACF and PACF Functions in Vantage
+Convert time series data and then normalize it. Then calculate the partial autocorrelation coefficients using the LEVINSON_DURBIN algorithm.<br>
+[Python Version](./Recipes/ClearScape_Functions/ACF_PACF.ipynb)
 
-#### Data Analyst AI Agent with LangChain and Google Gemini
-Create a text-to-SQL autonomous agent that will enable the retrieval of answers and insights from a database.<br>
-[Python Version](./UseCases/Data_Analyst_AI_Agent_Gemini/Data_Analyst_AI_Agent_Gemini.ipynb)
+#### Arima Functions in Vantage
+Execute the Arima Functions: ArimaEstimate, ArimaValidate, and ArimaForecast and use teradataml to create graphs with results.<br>
+[Python Version](./Recipes/ClearScape_Functions/Arima.ipynb)
 
-#### Fit and Transform functions in Vantage
-Determine if a specific numeric transformation can be applied to target columns and make the output available to the Transform() function.<br>
-[Python Version](./Recipes/ClearScape_Functions/FitandTransform.ipynb)
+#### Augmented Call Center: Revolutionizing Customer Support with Advanced AI Technologies
+Experience the next generation of customer support with our Augmented Call Center. Harness the power of advanced AI technologies to deliver exceptional service, drive customer loyalty, and achieve operational excellence.<br>
+[Python Version](./UseCases/Augmented_call_center_AgenticAI/Augmented_call_center_AgenticAI.ipynb)
 
-#### GenseriesFormula Function in Vantage
-Define and apply a formula to generate a time series.<br>
-[Python Version](./Recipes/ClearScape_Functions/GenseriesFormula.ipynb)
+#### BinaryMatrixOP Function in Vantage
+use the BinaryMatrixOp to perform multiplication operation in MATCH mode between two matrices holding REAL payload.<br>
+[Python Version](./Recipes/ClearScape_Functions/BinaryMatrixOp.ipynb)
 
-#### MatricMultiply Function in Vantage
-Create a data series based on two matrixes.<br>
-[Python Version](./Recipes/ClearScape_Functions/MatrixMultiply.ipynb)
+#### BinarySeriesOp Function in Vantage
+Use BinarySeriesOp to convolve two series with digital signal processing.<br>
+[Python Version](./Recipes/ClearScape_Functions/BinarySeriesOp.ipynb)
 
-#### NonLinearCombineFit and NonLinearCombineTransform Function in Vantage
-Use the NonLinearCombineFit and NonLinearCombineTransform functions available in Vantage to create new feature columns in a dataset.<br>
-[Python Version](./Recipes/ClearScape_Functions/NonLinearCombineFitandTransform.ipynb)
+#### BreuschGodfrey Function in Vantage
+Check for the presence of serial correlation among the residual and error terms after running a regression associated with a fitted model.<br>
+[Python Version](./Recipes/ClearScape_Functions/BreuschGodfrey.ipynb)
 
-#### OneClassSVM and OneClassSVMPredict functions in Vantage
-See how to use the OneClassSVM and OneClassSVMPredict functions .<br>
-[Python Version](./Recipes/ClearScape_Functions/OneClassSVMandOneClassSVMPredict.ipynb)
+#### BreuschPaganGodfrey Function in Vantage
+Detect the presence of variability of the error term during regression analysis. Observe the difference between observed values and predicted values, is not constant across all levels of the independent variables.<br>
+[Python Version](./Recipes/ClearScape_Functions/BreuschPaganGodfrey.ipynb)
+
+#### ClassificationEvaluator Function in Vantage
+Compute evaluation metrics to compare multiple classification models and summarize how close predictions are to their expected values.<br>
+[Python Version](./Recipes/ClearScape_Functions/ClassificationEvaluator.ipynb)
+
+#### ColumnTransformer Function in Vantage
+Transform input data columns in a single operation by providing only the FIT dataframes generated by the analytic functions and then runs all the transformations in a single operation.<br>
+[Python Version](./Recipes/ClearScape_Functions/ColumnTransformer.ipynb)
+
+#### ConvertTo Function in Vantage
+Convert data types in columns of a source table into other data types without using complicated format strings.<br>
+[Python Version](./Recipes/ClearScape_Functions/ConvertTo.ipynb)
+
+#### Convolve Function in Vantage
+Use this function to convolve two series into new time series using the CONV_DFFT algorithm.<br>
+[Python Version](./Recipes/ClearScape_Functions/Convolve.ipynb)
+
+#### Convolve2 Function in Vantage
+Convolve 2 matching payload fields of 2 matrices into a new source matrix.<br>
+[Python Version](./Recipes/ClearScape_Functions/Convolve2.ipynb)
+
+#### CumulPeriodogram Function in Vantage
+Use a cumulative periodogram statistics test to determine if any periodicities (seasonal cycles) exist in the residual series being tested.<br>
+[Python Version](./Recipes/ClearScape_Functions/CumulPeriodogram.ipynb)
+
+#### Customer Retail Journeys
+Use Clearscape Analytics functions to analyze customer digital behaviors and experiences in an effort to diagnose issues and events that could possibly inhibit their purchases.<br>
+[Python Version](./UseCases/Retail_Journey/Customer_Retail_Journey.ipynb)
+
+#### Customer Segmentation with K-means Clustering and Data Preparation Pipelines
+Leverage native Vantage processing for efficient and highly scalable data preparation, model training, and evaluation workflows.<br>
+[Python Version](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_Python.ipynb)
+
+#### DataRobotPredict Function in Vantage
+Use this function to load a pre-built DataRobot Model into Vantage and then use it to score a dataset in the database.<br>
+[Python Version](./Recipes/ClearScape_Functions/DataRobotPredict.ipynb)
+
+#### DecisionForest and TDDecisionForestPredict Functions in Vantage
+Create predictive models based on the algorithm for decision tree training and prediction.  Then use those models to analyze the input data and make predictions.<br>
+[Python Version](./Recipes/ClearScape_Functions/DecisionForestandTDDecisionForestPredict.ipynb)
+
+#### DFFT and IDFFT Functions in Vantage
+This is an example of how to use DFFT() when convolving two series with digital signal processing.<br>
+[Python Version](./Recipes/ClearScape_Functions/DFFT_IDFFT.ipynb)
+
+#### DFFT2 and IDFFT2 Functions in Vantage
+Compute the two-dimension fourier transform using the input matrix with real numbers only for a matrix.<br>
+[Python Version](./Recipes/ClearScape_Functions/DFFT2_IDFFT2.ipynb)
+
+#### DFFT2Conv Function in Vantage
+Load time series data and then convert it into a TDMatrix.  Then compute the two-dimension fourier transform with only real numbers. Then convert the output to polar data in Radian format.<br>
+[Python Version](./Recipes/ClearScape_Functions/DFFT2Conv.ipynb)
+
+#### DFFTConv Function in Vantage
+Load time series data and then convert it into a TDSeries.  Then compute the Fourier Transform Coefficients and convert to polar data in Radian format.<br>
+[Python Version](./Recipes/ClearScape_Functions/DFFTConv.ipynb)
+
+#### DickeyFuller Function in Vantage
+Test data in a Time Series to determine if it is stationary or non-stationary.<br>
+[Python Version](./Recipes/ClearScape_Functions/DickeyFuller.ipynb)
+
+#### DTW Function in Vantage
+Measure the similarity between two time series.<br>
+[Python Version](./Recipes/ClearScape_Functions/DTW.ipynb)
+
+#### DurbinWatson Function in Vantage
+Determine if there is evidence of serial correlation between residuals in a residual series.<br>
+[Python Version](./Recipes/ClearScape_Functions/DurbinWatson.ipynb)
+
+#### Extract Results Function in Vantage
+Retrieve the values stored in the Adaptive Radix Tree (ART) that's created by the execution of other analytic functions.<br>
+[Python Version](./Recipes/ClearScape_Functions/ExtractResults.ipynb)
+
+#### FillrowId Function in Vantage
+Add a column of unique row identifiers to a table.<br>
+[Python Version](./Recipes/ClearScape_Functions/FillRowId.ipynb)
+
+#### FitMetrics Function in Vantage
+Generate googness-of-fit metrics from multivariate series.<br>
+[Python Version](./Recipes/ClearScape_Functions/FitMetrics.ipynb)
+
+#### GenseriesSinusoids Function in Vantage
+Generate a time series containing a subset of the sinusoidal's element's periodicities, whose payload content value is of type REAL.<br>
+[Python Version](./Recipes/ClearScape_Functions/GenseriesSinusoids.ipynb)
+
+#### GLM and TDGLMPredict Functions in Vantage
+Use a generalized linear model to perform regression and classification analysis on a data set.  Then predict the target values and class labels from that data set.<br>
+[Python Version](./Recipes/ClearScape_Functions/GLMandTDGLMPredict.ipynb)
+
+#### GLMPerSegment and GLMPredictPerSegment Functions in Vantage
+Create models by partitioning datasets on a key value.  Then use those models to predict future values (regressions) and class labels (classifications).<br>
+[Python Version](./Recipes/ClearScape_Functions/GLMPerSegmentandGLMPredictPerSegment.ipynb)
+
+#### Hashing Your Data
+Work through 4 use cases that demonstrate the usage of the Teradata hash function.<br>
+[Python Version](./Recipes/Hashing/Hashing.ipynb)
+
+#### HoldWintersForecaster Function in Vantage
+Apply exponential smoothing on a combination of level, trend and seasonality components to make predictions.<br>
+[Python Version](./Recipes/ClearScape_Functions/HoltWintersForecaster.ipynb)
+
+#### Image2Matrix and Matrix2Image Functions in Vantage
+Convert JPEG or PNG images to matrices, manipulate any element, then convert the matrices back into images.<br>
+[Python Version](./Recipes/ClearScape_Functions/Image2matrixandMatrix2Image.ipynb)
+
+#### InputValidator Function in Vantage
+Validate data and identify series and matrices that have indiscrete data.<br>
+[Python Version](./Recipes/ClearScape_Functions/InputValidator.ipynb)
+
+#### Kmeans and KMeansPredict Functions in Vantage
+Group a set of observations into k clusters in which each observation belongs to the cluster with the nearest mean.  Then predict a target class.<br>
+[Python Version](./Recipes/ClearScape_Functions/KMeans_KMeansPredict.ipynb)
+
+#### LineSpec Function in Vantage
+Use this function to identify cycles that may be inherent in an input series.<br>
+[Python Version](./Recipes/ClearScape_Functions/LineSpec.ipynb)
+
+#### MAMean Function in Vantage
+Use historical data to forecast activity 1 period ahead (t+1).<br>
+[Python Version](./Recipes/ClearScape_Functions/MAMean.ipynb)
+
+#### Minfo Function in Vantage
+Return a one row summary describing the data in a matrix.<br>
+[Python Version](./Recipes/ClearScape_Functions/MInfo.ipynb)
+
+#### MovingAverage Function in Vantage
+Calculate the Cumulative Average of the quantities per Invoice in a dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/MovingAverage.ipynb)
+
+#### NaiveBayesTextClassifierTrainer and NaiveBayesTextClassifierPredict Functions in Vantage
+Calculate conditional probabilities.  Train a model with those values and use the predict function to classify documents into categories.<br>
+[Python Version](./Recipes/ClearScape_Functions/NaiveBayesTextClassifierTrainerandPredict.ipynb)
+
+#### NGramSplitter Function in Vantage
+Tokenize an input stream of text and outputs n multigrams (called n-grams) based on the specified delimiter and reset parameters.<br>
+[Python Version](./Recipes/ClearScape_Functions/NGramSplitter.ipynb)
+
+#### NPath Function in Vantage
+Discover paths leading to Accounts being closed for 'Gold' customers.<br>
+[Python Version](./Recipes/ClearScape_Functions/NPath.ipynb)
+
+#### NumApply Function in Vantage
+Apply a user-defined, numberic operator to a specific column or set of columns in a database table.<br>
+[Python Version](./Recipes/ClearScape_Functions/NumApply.ipynb)
+
+#### OneHotEncodingFit and OneHotEncodingTransform in Vantage
+Use these functions to analyze whether gender influences customer churn.<br>
+[Python Version](./Recipes/ClearScape_Functions/OneHotEncodingFitandTransform.ipynb)
+
+#### OrdinalEncodingFit and OrdinalEncodingTransform in Vantage
+Analyze banking data to see if customer geography is influencing churn.<br>
+[Python Version](./Recipes/ClearScape_Functions/OrdinalEncodingFitandTransform.ipynb)
+
+#### Pack and Unpack Functions in Vantage
+Store virtual columns from a dataframe in one physical column and then extract them back into multiple dataframe columns.<br>
+[Python Version](./Recipes/ClearScape_Functions/Pack_Unpack.ipynb)
+
+#### PolynomialFeaturesFit and PolynomialFeaturesTransform Functions in Vantage
+Use these functions to find non-linear relationships between different customer attributes.<br>
+[Python Version](./Recipes/ClearScape_Functions/PolynomialFeaturesFitandTransform.ipynb)
+
+#### Portman Function in Vantage
+Use the Portmanteau test to execute a series of test to determine whether the residuals can be classified as zeo mean, no serial correlation, or homoscedastic variance (white noise).<br>
+[Python Version](./Recipes/ClearScape_Functions/Portman.ipynb)
+
+#### PowerSpec Function in Vantage
+Converts a time series to a frequency domain to facilitate frequency domain analysis.<br>
+[Python Version](./Recipes/ClearScape_Functions/KNN.ipynb)
+
+#### PowerTransform Function in Vantage
+get forecast values for a heteroscedastic time series using PowerTransform function.<br>
+[Python Version](./Recipes/ClearScape_Functions/PowerTransform.ipynb)
+
+#### RandomProjectionMinComponents, RandomProjectionFit and RandomProjectionTransform Functions
+Use these functions to perform dimensionality reduction of a dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/RandomProjectionFitandTransform_Python.ipynb)
+
+#### RegressionEvaluator Function in Vantage
+Compute metrics to evaluate and compare multiple models and summarizes how close predictions are to their expected values.<br>
+[Python Version](./Recipes/ClearScape_Functions/RegressionEvaluator.ipynb)
+
+#### ROC Function in Vantage
+Give the function a set of prediction-actual pairs for a binary classification model, and it will calculate values for a range of discrimination thresholds.<br>
+[Python Version](./Recipes/ClearScape_Functions/ROC.ipynb)
+
+#### RoundColumns Function in Vantage
+Convert the decimal precision of multiple columns to be the same.<br>
+[Python Version](./Recipes/ClearScape_Functions/RoundColumns.ipynb)
+
+#### RowNormalizeFit and RowNormalizeTransform Functions in Vantage
+Discover how row-wise normalization can standardize financial metrics like CreditScore, Balance, and EstimatedSalary for better comparisons.<br>
+[Python Version](./Recipes/ClearScape_Functions/RowNormalizeFitandTransform.ipynb)
+
+#### ScaleFit and ScaleTransform Functions in Vantage
+Standardize values to a comparable range, making them suitable for machine learning models without being influenced by original magnitudes.<br>
+[Python Version](./Recipes/ClearScape_Functions/ScaleFitandTransform.ipynb)
+
+#### SelectionCriteria Function in Vantage
+Choose the best algorithm or model from a set of candidate models for a given dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/SelectionCriteria.ipynb)
+
+#### SentimentExtractor Function in Vantage
+Search a customer's comments and evaluate the sentiments. Return a list of sentiment words along with their scores.<br>
+[Python Version](./Recipes/ClearScape_Functions/SentimentExtractor.ipynb)
+
+#### Sessionize Function in Vantage
+Examine user behavior over a 24 hour time span using clickstream data.<br>
+[Python Version](./Recipes/ClearScape_Functions/Sessionize.ipynb)
+
+#### SignifPeriodicities Function in Vantage
+Detecting significant periodicities in time series data is crucial for accurate forecasting, especially in industries such as retail or finance, where it impacts decision making.<br>
+[Python Version](./Recipes/ClearScape_Functions/SignifPeriodicities.ipynb)
+
+#### SignifResidmean Function in Vantage
+Use a statistical test to determine if a passed-in residual series can be classified as being white noise.<br>
+[Python Version](./Recipes/ClearScape_Functions/SignifResidmean.ipynb)
+
+#### Silhouette Function in Vantage
+Determines the similarity of an object to its cluster (cohesion) compared to other clusters (separation).<br>
+[Python Version](./Recipes/ClearScape_Functions/Silhouette.ipynb)
+
+#### SimpleExp Function in Vantage
+Use simple exponential smoothing with time series data to generate forecast with minimal computations.<br>
+[Python Version](./Recipes/ClearScape_Functions/SimpleExp.ipynb)
+
+#### SInfo Function in Vantage
+Return details about each instance of a series found in a table.<br>
+[Python Version](./Recipes/ClearScape_Functions/SInfo.ipynb)
+
+#### Solve Imbalance Class Problems with ClearScape Analytics
+How to address imbalanced classes and build better models.<br>
+[Python Version](./Recipes/Imbalanced_Data_Handling/Solve_Imbalance_Class_Problems.ipynb)
+
+#### StrApply Function in Vantage
+Manipulate a tring by applying a regular expression pattern as well as other standard string operators.<br>
+[Python Version](./Recipes/ClearScape_Functions/StrApply.ipynb)
+
+#### StringSimilarity Function in Vantage
+Calculates the similarity between two strings, using the specified comparison method (jaro, cosine etc).<br>
+[Python Version](./Recipes/ClearScape_Functions/StringSimilarity.ipynb)
+
+#### SVM and SVMPredict Functions in Vantage.
+Perform classification and regression analysis on datasets<br>
+[Python Version](./Recipes/ClearScape_Functions/SVMandSVMPredict.ipynb)
+
+#### TargetEncodingFit and TargetEncodingTransform Functions in Vantage
+Apply Target Encoding to replace categorical values with statistically meaningful numerical representations based on the churn rate (Exited).<br>
+[Python Version](./Recipes/ClearScape_Functions/TargetEncodingFitandTransform.ipynb)
+
+#### TextParser Function in Vantage
+Use this function to parse text by removing punctuation, stop words and then tokenize the remaining text.<br>
+[Python Version](./Recipes/ClearScape_Functions/TextParser.ipynb)
+
+#### TrackingOp Function in Vantage
+Use geospatial coordinates to track an object's movement and calculate related metrics.<br>
+[Python Version](./Recipes/ClearScape_Functions/TrackingOp.ipynb)
+
+#### TrainTestSplit Function in Vantage
+Divide a dataset for training and testing a model.<br>
+[Python Version](./Recipes/ClearScape_Functions/TrainTestSplit.ipynb)
+
+#### Variational AutoEncoders (VAE) in Generative AI
+Define a model, define a loss function, train the model, generate new images and then enhance the quality.<br>
+[Python Version](./Recipes/VAE/VAE_Python.ipynb)
+
+#### VectorDistance Function in Vantage
+Compute similarity or dissimilarity between two vectors in multi-dimensional space.<br>
+[Python Version](./Recipes/ClearScape_Functions/VectorDistance.ipynb)
+
+#### Video Analyzer with Google Gemini
+Observe how Gemini 2.0 can be leveraged to generate details about events happening in videos and return those details as readable text.<br>
+[Python Version](./Recipes/Video_Processing_using_Gemini/Video_processing_Gemini.ipynb)
+
+#### WhitesGeneral Function in Vantage
+Check for the presence of correlation among residual terms after running a regression.<br>
+[Python Version](./Recipes/ClearScape_Functions/WhitesGeneral.ipynb)
+
+#### WordEmbeddings Function in Vantage
+Produce vectors for each piece of text and find the fimilarities between those pieces.<br>
+[Python Version](./Recipes/ClearScape_Functions/WordEmbeddings.ipynb)
+
+#### XGBoost and XGBoostPredict Functions in Vantage
+Split a dataset for training and testing.  Then apply XGBoost and XGBoostPredict to generate better models.<br>
+[Python Version](./Recipes/ClearScape_Functions/XGBoostandXGBPredict.ipynb)
+
+#### ZTest Function in Vantage
+Determine if two population means are different when the population standard deviation or variance is known.<br>
+[Python Version](./Recipes/ClearScape_Functions/ZTest.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xParallel-CPU-Inferencing'></a>
@@ -3300,33 +3968,349 @@ Take a non-stationary series and normalize it.  Then unnormalize the series to p
 Apply smoothing to a time series to highlight the mean of that series.<br>
 [Python Version](./Recipes/ClearScape_Functions/Smoothma.ipynb)
 
+#### ACF and PACF Functions in Vantage
+Convert time series data and then normalize it. Then calculate the partial autocorrelation coefficients using the LEVINSON_DURBIN algorithm.<br>
+[Python Version](./Recipes/ClearScape_Functions/ACF_PACF.ipynb)
+
+#### Arima Functions in Vantage
+Execute the Arima Functions: ArimaEstimate, ArimaValidate, and ArimaForecast and use teradataml to create graphs with results.<br>
+[Python Version](./Recipes/ClearScape_Functions/Arima.ipynb)
+
 #### Attribution Function in Vantage
 Use the Attribution function to assign scores to events that will then  be inserted in an Attribution Model.<br>
 [Python Version](./Recipes/ClearScape_Functions/Attribution.ipynb)
+
+#### Augmented Call Center: Revolutionizing Customer Support with Advanced AI Technologies
+Experience the next generation of customer support with our Augmented Call Center. Harness the power of advanced AI technologies to deliver exceptional service, drive customer loyalty, and achieve operational excellence.<br>
+[Python Version](./UseCases/Augmented_call_center_AgenticAI/Augmented_call_center_AgenticAI.ipynb)
+
+#### BinaryMatrixOP Function in Vantage
+use the BinaryMatrixOp to perform multiplication operation in MATCH mode between two matrices holding REAL payload.<br>
+[Python Version](./Recipes/ClearScape_Functions/BinaryMatrixOp.ipynb)
+
+#### BinarySeriesOp Function in Vantage
+Use BinarySeriesOp to convolve two series with digital signal processing.<br>
+[Python Version](./Recipes/ClearScape_Functions/BinarySeriesOp.ipynb)
+
+#### BreuschGodfrey Function in Vantage
+Check for the presence of serial correlation among the residual and error terms after running a regression associated with a fitted model.<br>
+[Python Version](./Recipes/ClearScape_Functions/BreuschGodfrey.ipynb)
+
+#### BreuschPaganGodfrey Function in Vantage
+Detect the presence of variability of the error term during regression analysis. Observe the difference between observed values and predicted values, is not constant across all levels of the independent variables.<br>
+[Python Version](./Recipes/ClearScape_Functions/BreuschPaganGodfrey.ipynb)
+
+#### ClassificationEvaluator Function in Vantage
+Compute evaluation metrics to compare multiple classification models and summarize how close predictions are to their expected values.<br>
+[Python Version](./Recipes/ClearScape_Functions/ClassificationEvaluator.ipynb)
+
+#### ColumnTransformer Function in Vantage
+Transform input data columns in a single operation by providing only the FIT dataframes generated by the analytic functions and then runs all the transformations in a single operation.<br>
+[Python Version](./Recipes/ClearScape_Functions/ColumnTransformer.ipynb)
+
+#### ConvertTo Function in Vantage
+Convert data types in columns of a source table into other data types without using complicated format strings.<br>
+[Python Version](./Recipes/ClearScape_Functions/ConvertTo.ipynb)
+
+#### Convolve Function in Vantage
+Use this function to convolve two series into new time series using the CONV_DFFT algorithm.<br>
+[Python Version](./Recipes/ClearScape_Functions/Convolve.ipynb)
+
+#### Convolve2 Function in Vantage
+Convolve 2 matching payload fields of 2 matrices into a new source matrix.<br>
+[Python Version](./Recipes/ClearScape_Functions/Convolve2.ipynb)
+
+#### CumulPeriodogram Function in Vantage
+Use a cumulative periodogram statistics test to determine if any periodicities (seasonal cycles) exist in the residual series being tested.<br>
+[Python Version](./Recipes/ClearScape_Functions/CumulPeriodogram.ipynb)
+
+#### Customer Retail Journeys
+Use Clearscape Analytics functions to analyze customer digital behaviors and experiences in an effort to diagnose issues and events that could possibly inhibit their purchases.<br>
+[Python Version](./UseCases/Retail_Journey/Customer_Retail_Journey.ipynb)
+
+#### Customer Segmentation with K-means Clustering and Data Preparation Pipelines
+Leverage native Vantage processing for efficient and highly scalable data preparation, model training, and evaluation workflows.<br>
+[Python Version](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_Python.ipynb)
+
+#### DataRobotPredict Function in Vantage
+Use this function to load a pre-built DataRobot Model into Vantage and then use it to score a dataset in the database.<br>
+[Python Version](./Recipes/ClearScape_Functions/DataRobotPredict.ipynb)
+
+#### DecisionForest and TDDecisionForestPredict Functions in Vantage
+Create predictive models based on the algorithm for decision tree training and prediction.  Then use those models to analyze the input data and make predictions.<br>
+[Python Version](./Recipes/ClearScape_Functions/DecisionForestandTDDecisionForestPredict.ipynb)
+
+#### DFFT and IDFFT Functions in Vantage
+This is an example of how to use DFFT() when convolving two series with digital signal processing.<br>
+[Python Version](./Recipes/ClearScape_Functions/DFFT_IDFFT.ipynb)
+
+#### DFFT2 and IDFFT2 Functions in Vantage
+Compute the two-dimension fourier transform using the input matrix with real numbers only for a matrix.<br>
+[Python Version](./Recipes/ClearScape_Functions/DFFT2_IDFFT2.ipynb)
+
+#### DFFT2Conv Function in Vantage
+Load time series data and then convert it into a TDMatrix.  Then compute the two-dimension fourier transform with only real numbers. Then convert the output to polar data in Radian format.<br>
+[Python Version](./Recipes/ClearScape_Functions/DFFT2Conv.ipynb)
+
+#### DFFTConv Function in Vantage
+Load time series data and then convert it into a TDSeries.  Then compute the Fourier Transform Coefficients and convert to polar data in Radian format.<br>
+[Python Version](./Recipes/ClearScape_Functions/DFFTConv.ipynb)
+
+#### DickeyFuller Function in Vantage
+Test data in a Time Series to determine if it is stationary or non-stationary.<br>
+[Python Version](./Recipes/ClearScape_Functions/DickeyFuller.ipynb)
+
+#### DTW Function in Vantage
+Measure the similarity between two time series.<br>
+[Python Version](./Recipes/ClearScape_Functions/DTW.ipynb)
+
+#### DurbinWatson Function in Vantage
+Determine if there is evidence of serial correlation between residuals in a residual series.<br>
+[Python Version](./Recipes/ClearScape_Functions/DurbinWatson.ipynb)
+
+#### Extract Results Function in Vantage
+Retrieve the values stored in the Adaptive Radix Tree (ART) that's created by the execution of other analytic functions.<br>
+[Python Version](./Recipes/ClearScape_Functions/ExtractResults.ipynb)
 
 #### Feature Store and Feature Engineering using tdfs4ds
 Setup and deploy a Feature Store and then continue with the process of Feature Engineering.<br>
 [Python Version](./Recipes/Feature_Store_Feature_Engg/Feature_Engineering_and_Feature_Store_Usage.ipynb)
 
+#### FillrowId Function in Vantage
+Add a column of unique row identifiers to a table.<br>
+[Python Version](./Recipes/ClearScape_Functions/FillRowId.ipynb)
+
 #### Fit and Transform functions in Vantage
 Determine if a specific numeric transformation can be applied to target columns and make the output available to the Transform() function.<br>
 [Python Version](./Recipes/ClearScape_Functions/FitandTransform.ipynb)
+
+#### FitMetrics Function in Vantage
+Generate googness-of-fit metrics from multivariate series.<br>
+[Python Version](./Recipes/ClearScape_Functions/FitMetrics.ipynb)
 
 #### GenseriesFormula Function in Vantage
 Define and apply a formula to generate a time series.<br>
 [Python Version](./Recipes/ClearScape_Functions/GenseriesFormula.ipynb)
 
+#### GenseriesSinusoids Function in Vantage
+Generate a time series containing a subset of the sinusoidal's element's periodicities, whose payload content value is of type REAL.<br>
+[Python Version](./Recipes/ClearScape_Functions/GenseriesSinusoids.ipynb)
+
+#### GLM and TDGLMPredict Functions in Vantage
+Use a generalized linear model to perform regression and classification analysis on a data set.  Then predict the target values and class labels from that data set.<br>
+[Python Version](./Recipes/ClearScape_Functions/GLMandTDGLMPredict.ipynb)
+
+#### GLMPerSegment and GLMPredictPerSegment Functions in Vantage
+Create models by partitioning datasets on a key value.  Then use those models to predict future values (regressions) and class labels (classifications).<br>
+[Python Version](./Recipes/ClearScape_Functions/GLMPerSegmentandGLMPredictPerSegment.ipynb)
+
+#### Hashing Your Data
+Work through 4 use cases that demonstrate the usage of the Teradata hash function.<br>
+[Python Version](./Recipes/Hashing/Hashing.ipynb)
+
+#### HoldWintersForecaster Function in Vantage
+Apply exponential smoothing on a combination of level, trend and seasonality components to make predictions.<br>
+[Python Version](./Recipes/ClearScape_Functions/HoltWintersForecaster.ipynb)
+
+#### Image2Matrix and Matrix2Image Functions in Vantage
+Convert JPEG or PNG images to matrices, manipulate any element, then convert the matrices back into images.<br>
+[Python Version](./Recipes/ClearScape_Functions/Image2matrixandMatrix2Image.ipynb)
+
+#### InputValidator Function in Vantage
+Validate data and identify series and matrices that have indiscrete data.<br>
+[Python Version](./Recipes/ClearScape_Functions/InputValidator.ipynb)
+
+#### Kmeans and KMeansPredict Functions in Vantage
+Group a set of observations into k clusters in which each observation belongs to the cluster with the nearest mean.  Then predict a target class.<br>
+[Python Version](./Recipes/ClearScape_Functions/KMeans_KMeansPredict.ipynb)
+
+#### LineSpec Function in Vantage
+Use this function to identify cycles that may be inherent in an input series.<br>
+[Python Version](./Recipes/ClearScape_Functions/LineSpec.ipynb)
+
+#### MAMean Function in Vantage
+Use historical data to forecast activity 1 period ahead (t+1).<br>
+[Python Version](./Recipes/ClearScape_Functions/MAMean.ipynb)
+
 #### MatricMultiply Function in Vantage
 Create a data series based on two matrixes.<br>
 [Python Version](./Recipes/ClearScape_Functions/MatrixMultiply.ipynb)
+
+#### Minfo Function in Vantage
+Return a one row summary describing the data in a matrix.<br>
+[Python Version](./Recipes/ClearScape_Functions/MInfo.ipynb)
+
+#### MovingAverage Function in Vantage
+Calculate the Cumulative Average of the quantities per Invoice in a dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/MovingAverage.ipynb)
+
+#### NaiveBayesTextClassifierTrainer and NaiveBayesTextClassifierPredict Functions in Vantage
+Calculate conditional probabilities.  Train a model with those values and use the predict function to classify documents into categories.<br>
+[Python Version](./Recipes/ClearScape_Functions/NaiveBayesTextClassifierTrainerandPredict.ipynb)
+
+#### NGramSplitter Function in Vantage
+Tokenize an input stream of text and outputs n multigrams (called n-grams) based on the specified delimiter and reset parameters.<br>
+[Python Version](./Recipes/ClearScape_Functions/NGramSplitter.ipynb)
 
 #### NonLinearCombineFit and NonLinearCombineTransform Function in Vantage
 Use the NonLinearCombineFit and NonLinearCombineTransform functions available in Vantage to create new feature columns in a dataset.<br>
 [Python Version](./Recipes/ClearScape_Functions/NonLinearCombineFitandTransform.ipynb)
 
+#### NPath Function in Vantage
+Discover paths leading to Accounts being closed for 'Gold' customers.<br>
+[Python Version](./Recipes/ClearScape_Functions/NPath.ipynb)
+
+#### NumApply Function in Vantage
+Apply a user-defined, numberic operator to a specific column or set of columns in a database table.<br>
+[Python Version](./Recipes/ClearScape_Functions/NumApply.ipynb)
+
 #### OneClassSVM and OneClassSVMPredict functions in Vantage
 See how to use the OneClassSVM and OneClassSVMPredict functions .<br>
 [Python Version](./Recipes/ClearScape_Functions/OneClassSVMandOneClassSVMPredict.ipynb)
+
+#### OneHotEncodingFit and OneHotEncodingTransform in Vantage
+Use these functions to analyze whether gender influences customer churn.<br>
+[Python Version](./Recipes/ClearScape_Functions/OneHotEncodingFitandTransform.ipynb)
+
+#### OrdinalEncodingFit and OrdinalEncodingTransform in Vantage
+Analyze banking data to see if customer geography is influencing churn.<br>
+[Python Version](./Recipes/ClearScape_Functions/OrdinalEncodingFitandTransform.ipynb)
+
+#### Pack and Unpack Functions in Vantage
+Store virtual columns from a dataframe in one physical column and then extract them back into multiple dataframe columns.<br>
+[Python Version](./Recipes/ClearScape_Functions/Pack_Unpack.ipynb)
+
+#### PolynomialFeaturesFit and PolynomialFeaturesTransform Functions in Vantage
+Use these functions to find non-linear relationships between different customer attributes.<br>
+[Python Version](./Recipes/ClearScape_Functions/PolynomialFeaturesFitandTransform.ipynb)
+
+#### Portman Function in Vantage
+Use the Portmanteau test to execute a series of test to determine whether the residuals can be classified as zeo mean, no serial correlation, or homoscedastic variance (white noise).<br>
+[Python Version](./Recipes/ClearScape_Functions/Portman.ipynb)
+
+#### PowerSpec Function in Vantage
+Converts a time series to a frequency domain to facilitate frequency domain analysis.<br>
+[Python Version](./Recipes/ClearScape_Functions/KNN.ipynb)
+
+#### PowerTransform Function in Vantage
+get forecast values for a heteroscedastic time series using PowerTransform function.<br>
+[Python Version](./Recipes/ClearScape_Functions/PowerTransform.ipynb)
+
+#### RandomProjectionMinComponents, RandomProjectionFit and RandomProjectionTransform Functions
+Use these functions to perform dimensionality reduction of a dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/RandomProjectionFitandTransform_Python.ipynb)
+
+#### RegressionEvaluator Function in Vantage
+Compute metrics to evaluate and compare multiple models and summarizes how close predictions are to their expected values.<br>
+[Python Version](./Recipes/ClearScape_Functions/RegressionEvaluator.ipynb)
+
+#### ROC Function in Vantage
+Give the function a set of prediction-actual pairs for a binary classification model, and it will calculate values for a range of discrimination thresholds.<br>
+[Python Version](./Recipes/ClearScape_Functions/ROC.ipynb)
+
+#### RoundColumns Function in Vantage
+Convert the decimal precision of multiple columns to be the same.<br>
+[Python Version](./Recipes/ClearScape_Functions/RoundColumns.ipynb)
+
+#### RowNormalizeFit and RowNormalizeTransform Functions in Vantage
+Discover how row-wise normalization can standardize financial metrics like CreditScore, Balance, and EstimatedSalary for better comparisons.<br>
+[Python Version](./Recipes/ClearScape_Functions/RowNormalizeFitandTransform.ipynb)
+
+#### ScaleFit and ScaleTransform Functions in Vantage
+Standardize values to a comparable range, making them suitable for machine learning models without being influenced by original magnitudes.<br>
+[Python Version](./Recipes/ClearScape_Functions/ScaleFitandTransform.ipynb)
+
+#### SelectionCriteria Function in Vantage
+Choose the best algorithm or model from a set of candidate models for a given dataset.<br>
+[Python Version](./Recipes/ClearScape_Functions/SelectionCriteria.ipynb)
+
+#### SentimentExtractor Function in Vantage
+Search a customer's comments and evaluate the sentiments. Return a list of sentiment words along with their scores.<br>
+[Python Version](./Recipes/ClearScape_Functions/SentimentExtractor.ipynb)
+
+#### Sessionize Function in Vantage
+Examine user behavior over a 24 hour time span using clickstream data.<br>
+[Python Version](./Recipes/ClearScape_Functions/Sessionize.ipynb)
+
+#### SignifPeriodicities Function in Vantage
+Detecting significant periodicities in time series data is crucial for accurate forecasting, especially in industries such as retail or finance, where it impacts decision making.<br>
+[Python Version](./Recipes/ClearScape_Functions/SignifPeriodicities.ipynb)
+
+#### SignifResidmean Function in Vantage
+Use a statistical test to determine if a passed-in residual series can be classified as being white noise.<br>
+[Python Version](./Recipes/ClearScape_Functions/SignifResidmean.ipynb)
+
+#### Silhouette Function in Vantage
+Determines the similarity of an object to its cluster (cohesion) compared to other clusters (separation).<br>
+[Python Version](./Recipes/ClearScape_Functions/Silhouette.ipynb)
+
+#### SimpleExp Function in Vantage
+Use simple exponential smoothing with time series data to generate forecast with minimal computations.<br>
+[Python Version](./Recipes/ClearScape_Functions/SimpleExp.ipynb)
+
+#### SInfo Function in Vantage
+Return details about each instance of a series found in a table.<br>
+[Python Version](./Recipes/ClearScape_Functions/SInfo.ipynb)
+
+#### Solve Imbalance Class Problems with ClearScape Analytics
+How to address imbalanced classes and build better models.<br>
+[Python Version](./Recipes/Imbalanced_Data_Handling/Solve_Imbalance_Class_Problems.ipynb)
+
+#### StrApply Function in Vantage
+Manipulate a tring by applying a regular expression pattern as well as other standard string operators.<br>
+[Python Version](./Recipes/ClearScape_Functions/StrApply.ipynb)
+
+#### StringSimilarity Function in Vantage
+Calculates the similarity between two strings, using the specified comparison method (jaro, cosine etc).<br>
+[Python Version](./Recipes/ClearScape_Functions/StringSimilarity.ipynb)
+
+#### SVM and SVMPredict Functions in Vantage.
+Perform classification and regression analysis on datasets<br>
+[Python Version](./Recipes/ClearScape_Functions/SVMandSVMPredict.ipynb)
+
+#### TargetEncodingFit and TargetEncodingTransform Functions in Vantage
+Apply Target Encoding to replace categorical values with statistically meaningful numerical representations based on the churn rate (Exited).<br>
+[Python Version](./Recipes/ClearScape_Functions/TargetEncodingFitandTransform.ipynb)
+
+#### TextParser Function in Vantage
+Use this function to parse text by removing punctuation, stop words and then tokenize the remaining text.<br>
+[Python Version](./Recipes/ClearScape_Functions/TextParser.ipynb)
+
+#### TrackingOp Function in Vantage
+Use geospatial coordinates to track an object's movement and calculate related metrics.<br>
+[Python Version](./Recipes/ClearScape_Functions/TrackingOp.ipynb)
+
+#### TrainTestSplit Function in Vantage
+Divide a dataset for training and testing a model.<br>
+[Python Version](./Recipes/ClearScape_Functions/TrainTestSplit.ipynb)
+
+#### Variational AutoEncoders (VAE) in Generative AI
+Define a model, define a loss function, train the model, generate new images and then enhance the quality.<br>
+[Python Version](./Recipes/VAE/VAE_Python.ipynb)
+
+#### VectorDistance Function in Vantage
+Compute similarity or dissimilarity between two vectors in multi-dimensional space.<br>
+[Python Version](./Recipes/ClearScape_Functions/VectorDistance.ipynb)
+
+#### Video Analyzer with Google Gemini
+Observe how Gemini 2.0 can be leveraged to generate details about events happening in videos and return those details as readable text.<br>
+[Python Version](./Recipes/Video_Processing_using_Gemini/Video_processing_Gemini.ipynb)
+
+#### WhitesGeneral Function in Vantage
+Check for the presence of correlation among residual terms after running a regression.<br>
+[Python Version](./Recipes/ClearScape_Functions/WhitesGeneral.ipynb)
+
+#### WordEmbeddings Function in Vantage
+Produce vectors for each piece of text and find the fimilarities between those pieces.<br>
+[Python Version](./Recipes/ClearScape_Functions/WordEmbeddings.ipynb)
+
+#### XGBoost and XGBoostPredict Functions in Vantage
+Split a dataset for training and testing.  Then apply XGBoost and XGBoostPredict to generate better models.<br>
+[Python Version](./Recipes/ClearScape_Functions/XGBoostandXGBPredict.ipynb)
+
+#### ZTest Function in Vantage
+Determine if two population means are different when the population standard deviation or variance is known.<br>
+[Python Version](./Recipes/ClearScape_Functions/ZTest.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xVantage-Database-Functions'></a>
