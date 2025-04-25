@@ -16,6 +16,7 @@ console.log(`${Math.floor(CSAE_WORKERS_COUNT/CSAE_PARALLEL_TESTS_COUNT)} environ
 for (let i = 0; i < Math.floor(CSAE_WORKERS_COUNT/CSAE_PARALLEL_TESTS_COUNT); i++) {
     const env = new Environments(`jupyter-demos-${ENV_PREFIX}-${i}`, 'us-central', CSAE_ENV_PASSWORD)
 
+    await env.loadEnvDetails();
     //Before deleting the environment, get some debug information
     const connection = new TeradataConnection();
     connection.connect({
