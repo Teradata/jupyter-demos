@@ -8,3 +8,8 @@ Teradata/Config/*
 Teradata/Config/userinfo.db
 .tests/bad_tests/
 .tests/test-results/**/*
+.env
+*.pem
+*.key
+.config/
+VantageCloud_Lake/.config/
