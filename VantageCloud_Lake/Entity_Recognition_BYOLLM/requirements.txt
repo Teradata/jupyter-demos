@@ -3,4 +3,4 @@ transformers==4.35.2
 torch
 pyOpenSSL 
 cryptography
-dot_env
+python-dotenv
