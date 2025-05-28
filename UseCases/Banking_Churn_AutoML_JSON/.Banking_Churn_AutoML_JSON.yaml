@@ -6,16 +6,16 @@ inputs:
     value: '4'
     prompt: 'Enter the list of indices you want to customize in feature engineering phase:'
   - type: text
-    value: '4'
+    value: '1'
     prompt: 'Enter the list of corresponding index categorical encoding methods you want to use:'
   - type: text
     value: 'Gender, Geography, NumOfProducts'
     prompt: 'Enter the feature or list of features for OneHotEncoding:'
   - type: text
-    value: '4'
+    value: '0'
     prompt: 'Enter the indices for generic arguments :'
   - type: text
-    value: '5'
+    value: '1'
     prompt: 'Enter the list of indices you want to customize in feature engineering phase:'
   - type: text
     value: '3'
