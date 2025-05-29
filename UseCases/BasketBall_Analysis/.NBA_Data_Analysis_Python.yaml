@@ -1,5 +1,5 @@
 inputs:
-  -type: env
-   value: 'OPENAI_API_KEY'
-   cell: 32
+  - type: env
+    value: 'OPENAI_API_KEY'
+    cell: 32
 
