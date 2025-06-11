@@ -89,7 +89,7 @@ jobs:
       run: npm ci
     - name: Install Playwright browsers
       run: |
-        npx playwright install --with-deps
+        npx playwright install chromium --with-deps
     - name: Find all Jupyter notebooks
       run: find .. -name '*.ipynb' | sort > ./files.txt
     - name: Start test environments
