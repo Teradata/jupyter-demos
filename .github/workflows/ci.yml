@@ -113,7 +113,7 @@ jobs:
           - name: Install Playwright browsers
             if: ${{ steps.load-files.outputs.tests_exists == 'true' || github.event.inputs.notebooks }}
             run: |
-                npx playwright install --with-deps
+                npx playwright install chromium --with-deps
           - name: Start test environments
             if: ${{ steps.load-files.outputs.tests_exists == 'true' || github.event.inputs.notebooks }}
             id: start-test-environment
