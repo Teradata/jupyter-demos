@@ -134,7 +134,7 @@ def setup_teradata_environment():
     print("\n🔐 Database configuration...")
     import getpass
     password = getpass.getpass("Enter database password for demo_user: ")
-    OPENAI_API_KEY = getpass.getpass("Enter your OpenAI API key:")
+    # OPENAI_API_KEY = getpass.getpass("Enter your OpenAI API key:")
     
     if not password:
         print("❌ Password cannot be empty")
@@ -157,9 +157,9 @@ def setup_teradata_environment():
             if line.startswith("DATABASE_URI="):
                 lines[i] = f"DATABASE_URI={connection_string}"
                 break
-            if line.startswith("OPENAI_API_KEY="):
-                lines[i] = f"OPENAI_API_KEY={OPENAI_API_KEY}"
-                break
+            # if line.startswith("OPENAI_API_KEY="):
+            #     lines[i] = f"OPENAI_API_KEY={OPENAI_API_KEY}"
+            #     break
         env_content = '\n'.join(lines)
     else:
         # Add new
@@ -212,18 +212,8 @@ def setup_teradata_environment():
 
 def start_teradata_server():
     """Start the Teradata MCP Server"""
-    # server_path = "./src/teradata_mcp_server/server.py"
-    import shutil
+    server_path = "./src/teradata_mcp_server/server.py"
     from pathlib import Path
-
-    # Create destination directory if it doesn't exist
-    # Path("./MCP/teradata-mcp-server/").mkdir(parents=True, exist_ok=True)
-
-    # Move the file
-    shutil.move("../../td_mcp_client.py", ".")
-
-    print("✅ File moved successfully!")
-    server_path = 'td_mcp_client.py'
     
     if not os.path.exists(server_path):
         print(f"❌ Server file not found: {server_path}")
@@ -233,13 +223,6 @@ def start_teradata_server():
     print("Press Ctrl+C to stop the server")
     
     try:
-        # process = subprocess.Popen(
-        #     ["uv", "run", "mcp", "dev", server_path],
-        #     stdout=subprocess.PIPE,
-        #     stderr=subprocess.STDOUT,
-        #     universal_newlines=True
-        # )
-        
         process = subprocess.Popen(
             ["uv", "run", server_path],
             stdout=subprocess.PIPE,

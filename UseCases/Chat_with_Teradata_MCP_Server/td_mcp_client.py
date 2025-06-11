@@ -9,9 +9,6 @@ from openai import AsyncOpenAI
 from openai.types.chat import ChatCompletionMessageParam, ChatCompletionToolParam
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
-import panel as pn
-
-pn.extension(design="material")
 
 # Configuration constants
 MAX_RETRIES = 3
@@ -79,6 +76,8 @@ class Chat:
     * Remove unnecessary ORDER BY clauses unless required
     * Use TOP keyword instead of LIMIT or FETCH
     * If you receive "Bad character in format or data" error, change column values to get values from table only
+    
+    * Most critical: Use available Database: "DEMO_GLM_Fraud" and table: "transaction_data"
     
     Response Guidelines: 
     * Give answers in bulleted points with proper markup
@@ -155,7 +154,6 @@ class Chat:
         """Get response from OpenAI API with retry mechanism."""
         max_retries = 3
         retry_delay = 1  # seconds
-
         for attempt in range(max_retries):
             try:
                 response = await openai_client.chat.completions.create(
@@ -169,12 +167,17 @@ class Chat:
                 )
 
                 assistant_message = response.choices[0].message
-                if assistant_message.content is not None:
-                    print(f"AI response: {assistant_message.content}")
+                # if assistant_message.content is not None:
                 if assistant_message.content:
+                    print(f"AI response: {assistant_message.content}")
                     self.messages.append(
                         {"role": "assistant", "content": assistant_message.content}
                     )
+                else:
+                    print(
+                        "Please try again in some time, right now our MCP server seems busy. or try to rephrase your question."
+                    )
+                    self.messages.append({"role": "assistant", "content": ""})
 
                 return assistant_message
 
