@@ -169,7 +169,7 @@ def setup_teradata_environment():
         f.write(env_content)
     
     print("✅ Database connection configured")
-    print("✅ OpenAI key configured")
+    # print("✅ OpenAI key configured")
     
     # Step 7: Install Node.js
     print("\n📦 Installing Node.js...")
