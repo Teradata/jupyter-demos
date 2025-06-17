@@ -1,0 +1,5 @@
+langchain
+langchain-community
+langchain-experimental
+langchain-openai
+numpy==1.26.4

@@ -1,0 +1,8 @@
+inputs:
+  - type: text
+    value: yes
+    prompt: 'Do you want to fetched updated credit card record? (yes to start, stop to end):'
+  - type: text
+    value: stop
+    prompt: 'Do you want to fetched updated credit card record? (yes to start, stop to end):'
+    

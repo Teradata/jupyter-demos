@@ -21,7 +21,7 @@ defaults:
     shell: bash
 
 jobs:
-    tests:
+    playwright-tests:
         permissions:
             contents: 'read'
             id-token: 'write'
@@ -31,7 +31,7 @@ jobs:
             CSAE_PARALLEL_TESTS_COUNT: ${{ vars.CSAE_PARALLEL_TESTS_COUNT }}
             CSAE_WORKERS_COUNT: ${{ vars.CSAE_WORKERS_COUNT }}
             TEST_ENV: ${{ github.event.inputs.test_env || 'PROD' }}
-            CSAE_CI_JOB_IDX: 0
+            CSAE_CI_JOB_IDX: 1
             CSAE_CI_JOB_COUNT: 1
         name: Playwirght Test
         timeout-minutes:  1440
@@ -113,7 +113,7 @@ jobs:
           - name: Install Playwright browsers
             if: ${{ steps.load-files.outputs.tests_exists == 'true' || github.event.inputs.notebooks }}
             run: |
-                npx playwright install --with-deps
+                npx playwright install chromium --with-deps
           - name: Start test environments
             if: ${{ steps.load-files.outputs.tests_exists == 'true' || github.event.inputs.notebooks }}
             id: start-test-environment

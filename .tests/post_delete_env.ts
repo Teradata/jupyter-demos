@@ -1,4 +1,5 @@
 import {Environments} from './environments';
+import {TeradataConnection} from 'teradatasql';
 
 const CSAE_ENV_PASSWORD = process.env.CSAE_ENV_PASSWORD || 'asdfasdf';
 const CSAE_WORKERS_COUNT = parseInt(process.env.CSAE_WORKERS_COUNT || '1');
@@ -14,7 +15,38 @@ console.log(`${Math.floor(CSAE_WORKERS_COUNT/CSAE_PARALLEL_TESTS_COUNT)} environ
 
 for (let i = 0; i < Math.floor(CSAE_WORKERS_COUNT/CSAE_PARALLEL_TESTS_COUNT); i++) {
     const env = new Environments(`jupyter-demos-${ENV_PREFIX}-${i}`, 'us-central', CSAE_ENV_PASSWORD)
-    envs.push(env.delete());
+
+    envs.push((async () => {
+        await env.loadEnvDetails();
+    
+        try{
+            //Before deleting the environment, get some debug information
+            const connection = new TeradataConnection();
+            connection.connect({
+                host: env.envDetails.ip,
+                user: 'demo_user',
+                password: env.password
+            })
+            try {
+                const cur = connection.cursor();
+                try {
+                    cur.execute('select username, count(*) from dbc.sessioninfo group by 1 order by 1');
+                    const rows = cur.fetchall();
+                    for(const row of rows) {
+                        console.log(`DEBUG: DB Sessions for username ${row[0]}: ${row[1]}`);
+                    } 
+                }finally{
+                    cur.close();
+                }
+            }finally {
+                connection.close();
+            }
+        }catch(e) {
+            console.log('DEBUG: Error while connecting to the database', e);
+        }
+
+        return env.delete();
+    })());
 }
 
 console.log(`Deleting ${envs.length} environments`);

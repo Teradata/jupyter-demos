@@ -15,6 +15,10 @@
                 {
                     "subjseq": 3,
                     "subject": "Developer Information"
+                },
+                {
+                    "subjseq": 4,
+                    "subject": "ExperienceBot"
                 }
             ]
         },
@@ -77,7 +81,7 @@
             "subjects": [
                 {
                     "subjseq": 39,
-                    "subject": "Arima"
+                    "subject": "ARIMA"
                 },
                 {
                     "subjseq": 40,
@@ -149,7 +153,7 @@
                 },
                 {
                     "subjseq": 57,
-                    "subject": "Machine learning"
+                    "subject": "Machine Learning"
                 },
                 {
                     "subjseq": 58,
@@ -197,7 +201,7 @@
                 },
                 {
                     "subjseq": 69,
-                    "subject": "TeradataML Open Source Functions"
+                    "subject": "teradataml OpenSourceML"
                 },
                 {
                     "subjseq": 70,
@@ -279,6 +283,18 @@
                 {
                     "subjseq": 19,
                     "subject": "Hugging Face"
+                },
+                {
+                    "subjseq": 20,
+                    "subject": "DataRobot"
+                },
+                {
+                    "subjseq": 21,
+                    "subject": "LangSmith"
+                },
+                {
+                    "subjseq": 22,
+                    "subject": "LangChain"
                 }
             ]
         },
@@ -338,6 +354,10 @@
                 {
                     "subjseq": 4,
                     "subject": "Dashboard Notebook"
+                },
+                {
+                    "subjseq": 5,
+                    "subject": "EFS"
                 }
             ]
         },
@@ -355,6 +375,27 @@
                 {
                     "subjseq": 3,
                     "subject": "Azure"
+                }
+            ]
+        },
+        {
+            "category": "Recipes",
+            "subjects": [
+                {
+                    "subjseq": 1,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "subjseq": 2,
+                    "subject": "Vantage Database Functions"
+                },
+                {
+                    "subjseq": 3,
+                    "subject": "Model Pipelines"
+                },
+                {
+                    "subjseq": 4,
+                    "subject": "Teradata Packages"
                 }
             ]
         }

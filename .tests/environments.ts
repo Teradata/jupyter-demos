@@ -53,6 +53,17 @@ export class Environments {
             });
         }
     }
+
+    public async loadEnvDetails() {
+        const res = await axios.get(`${url}/${this.envName}`, {
+            headers: {
+                'Authorization': `Bearer ${API_KEY}`,
+                'Content-Type': 'application/json'
+            }
+        })
+        this.envDetails = res.data;
+    }
+
     public start() {
         return axios.patch(`${url}/${this.envName}`, { operation: 'start' }, {
             headers: {

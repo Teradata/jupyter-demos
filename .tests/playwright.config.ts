@@ -31,7 +31,7 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. Dave-changed from 1 to 3 */
   workers: process.env.CSAE_WORKERS_COUNT ? parseInt(process.env.CSAE_WORKERS_COUNT):undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+  reporter: process.env.CI_ENV === 'nightly'? 'blob' : 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */

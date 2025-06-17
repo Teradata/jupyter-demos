@@ -27,13 +27,13 @@ defaults:
     shell: bash
     
 jobs:
-  tests:
+  playwright-tests:
     permissions:
-     contents: 'read'
-     id-token: 'write'
+      contents: 'read'
+      id-token: 'write'
     strategy:
       fail-fast: false
-      matrix: ${{ github.event.inputs.notebooks == '' && fromJson('{"idx":[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}') || fromJson('{"idx":[0]}') }}
+      matrix: ${{ github.event.inputs.notebooks == '' && fromJson('{"idx":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}') || fromJson('{"idx":[1]}') }}
     env:
         CSAE_NOTEBOOKS: ${{ github.event.inputs.notebooks }}
         CSAE_ENV_PASSWORD: ${{ secrets.CSAE_ENV_PASSWORD }}
@@ -43,6 +43,7 @@ jobs:
         TEST_ENV: ${{ github.event.inputs.test_env || 'PROD' }}
         CSAE_CI_JOB_COUNT: ${{ github.event.inputs.notebooks == '' && '10' || '1' }}
         IGNORE_BLACKLIST: ${{ github.event.inputs.ignore_blacklist || 'false' }}
+        CI_ENV: 'nightly'
     name: Job ${{ matrix.idx }}
     timeout-minutes:  1440
     runs-on: ubuntu-latest
@@ -88,7 +89,7 @@ jobs:
       run: npm ci
     - name: Install Playwright browsers
       run: |
-        npx playwright install --with-deps
+        npx playwright install chromium --with-deps
     - name: Find all Jupyter notebooks
       run: find .. -name '*.ipynb' | sort > ./files.txt
     - name: Start test environments
@@ -96,13 +97,61 @@ jobs:
       run: npx ts-node pre_create_env.ts
     - name: Run Playwright tests
       run: |
-        npx playwright test
+        npx playwright test --shard=${{matrix.idx}}/10
     - name: Delete test environments
       if: always()
       run: npx ts-node post_delete_env.ts
-    - uses: actions/upload-artifact@v4
-      if: always()
+    - name: Upload blob report to GitHub Actions Artifacts
+      if: ${{ !cancelled() }}
+      uses: actions/upload-artifact@v4
       with:
-        name: playwright-report-job-${{ matrix.idx }}
+        name: blob-report-${{ matrix.idx }}
+        path: .tests/blob-report
+        retention-days: 1
+
+  merge-reports:
+    # Merge reports after playwright-tests, even if some shards have failed
+    if: ${{ !cancelled() }}
+    permissions:
+      pages: 'write'
+      contents: 'read'
+      id-token: 'write'
+    needs: [playwright-tests]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: lts/*
+    - name: Install dependencies
+      run: npm ci
+    - name: Download blob reports from GitHub Actions Artifacts
+      uses: actions/download-artifact@v4
+      with:
+        path: .tests/all-blob-reports
+        pattern: blob-report-*
+        merge-multiple: true
+    - name: Merge into HTML Report
+      run: npx playwright merge-reports --reporter html ./all-blob-reports
+    - name: Upload HTML report
+      uses: actions/upload-artifact@v4
+      with:
+        name: html-report-attempt-${{ github.run_attempt }}
         path: .tests/playwright-report/
-        retention-days: 30
+        retention-days: 14
+        
+    - name: Setup pages
+      uses: actions/configure-pages@v5
+    - name: Upload report to GitHub Pages
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: .tests/playwright-report/
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
+    - name: Job summary
+      run: |
+        echo "# Deployment result" >> $GITHUB_STEP_SUMMARY
+        echo "View the [Playwright report](https://teradata.github.io/jupyter-demos/)" >> $GITHUB_STEP_SUMMARY
+
+      
