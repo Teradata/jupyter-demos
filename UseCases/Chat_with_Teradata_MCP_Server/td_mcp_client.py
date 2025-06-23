@@ -14,7 +14,7 @@ from mcp.client.stdio import stdio_client
 MAX_RETRIES = 3
 RETRY_DELAY = 1  # seconds
 TIMEOUT = 30  # seconds
-MODEL_NAME = "gpt-4.1-mini"
+MODEL_NAME = "gpt-4.1"
 
 # Initialize OpenAI client
 openai_client = AsyncOpenAI()
