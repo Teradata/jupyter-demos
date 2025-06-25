@@ -1,0 +1,4 @@
+inputs:
+  - type: env
+    value: 'OPENAI_API_KEY'
+    cell: 4
