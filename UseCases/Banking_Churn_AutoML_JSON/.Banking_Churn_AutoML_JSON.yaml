@@ -1,0 +1,46 @@
+inputs:
+  - type: text
+    value: '1'
+    prompt: 'Enter the index you want to customize:'
+  - type: text
+    value: '4'
+    prompt: 'Enter the list of indices you want to customize in feature engineering phase:'
+  - type: text
+    value: '1'
+    prompt: 'Enter the list of corresponding index categorical encoding methods you want to use:'
+  - type: text
+    value: 'Gender, Geography, NumOfProducts'
+    prompt: 'Enter the feature or list of features for OneHotEncoding:'
+  - type: text
+    value: '0'
+    prompt: 'Enter the indices for generic arguments :'
+  - type: text
+    value: '1'
+    prompt: 'Enter the list of indices you want to customize in feature engineering phase:'
+  - type: text
+    value: '3'
+    prompt: 'Enter the list of indices for missing value handling methods :'
+  - type: text
+    value: '1'
+    prompt: 'Enter the list of corresponding index missing value imputation methods you want to use:'
+  - type: text
+    value: 'Age, Balance, CreditScore, EstimatedSalary'
+    prompt: 'Enter the feature or list of features for imputing missing values using statistic values:'
+  - type: text
+    value: '5'
+    prompt: 'Enter the index of corresponding statistic imputation method for feature Age:'
+  - type: text
+    value: '5'
+    prompt: 'Enter the index of corresponding statistic imputation method for feature Balance:'
+  - type: text
+    value: '5'
+    prompt: 'Enter the index of corresponding statistic imputation method for feature CreditScore:'
+  - type: text
+    value: '5'
+    prompt: 'Enter the index of corresponding statistic imputation method for feature EstimatedSalary:'
+  - type: text
+    value: '0'
+    prompt: 'Enter the indices for generic arguments :'
+  - type: text
+    value: '9'
+    prompt: 'Enter the list of indices you want to customize in feature engineering phase:'
