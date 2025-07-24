@@ -1,0 +1,7 @@
+teradatagenai 
+teradataml==20.0.0.6
+transformers
+torch
+pyOpenSSL 
+cryptography
+python-dotenv
