@@ -1,0 +1,10 @@
+inputs:
+  - type: env
+    value: 'AWS_ACCESS_KEY_ID'
+    cell: 12
+  - type: env
+    value: 'AWS_SECRET_ACCESS_KEY'
+    cell: 12
+  - type: env
+    value: 'AWS_DEFAULT_REGION'
+    cell: 12
