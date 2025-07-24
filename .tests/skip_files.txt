@@ -19,3 +19,4 @@
 ../ModelOps/12_ModelOps_Model_Factory_REST_Python.ipynb
 ../UseCases/Data_Dictionary/Data_Dictionary_Raw.ipynb
 ../UseCases/Augmented_call_center_AgenticAI/Augmented_call_center_AgenticAI.ipynb
+../VantageCloud_Lake/UseCases/Text_Analytics_teradatagenai_AWS/text_analytics_teradatagenai_aws_huggingface.ipynb
