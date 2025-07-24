@@ -1,5 +1,5 @@
 teradatagenai 
-teradataml==20.00.00.05
+teradataml==20.0.0.6
 transformers
 torch
 pyOpenSSL 
