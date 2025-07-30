@@ -1,7 +1,6 @@
-teradatagenai 
 teradataml==20.0.0.6
+teradatagenai==20.0.0.2
 transformers
-torch
 pyOpenSSL 
 cryptography
 python-dotenv
