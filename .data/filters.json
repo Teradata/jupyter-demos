@@ -19,6 +19,19 @@
                 {
                     "subjseq": 4,
                     "subject": "ExperienceBot"
+                },
+                {
+                    "subjseq": 5,
+                    "subject": "Demo Introduction"
+                }
+            ]
+        },
+        {
+            "category": "VantageCloud Lake",
+            "subjects": [
+                {
+                    "subjseq": 1,
+                    "subject": "Open Analytics Framework"
                 }
             ]
         },
@@ -333,6 +346,10 @@
                 {
                     "subjseq": 4,
                     "subject": "Model Factory"
+                },
+                {
+                    "subjseq": 5,
+                    "subject": "End-to-End"
                 }
             ]
         },

@@ -1,5 +1,5 @@
 <img id=Teradata-logo src="./images/CSAE_Header.png" alt="Teradata" width="100%"  /><br>
-# ClearScape Analytics™ Demonstrations via Jupyter
+#ClearScape Analytics™ Demonstrations via Jupyter
  
 Welcome to ClearScape Analytics Experience.  This service consists of [multiple demonstrations](#Table-of-Contents) of the industry leading in-database analytics that **you can run on your own**.
 You can modify them or use them as examples to use with your own tools against our data or small (not sensitive) data you upload. Each notebook will:
@@ -24,19 +24,19 @@ If you have questions or issues, [**click here**](mailto:SC230208@teradata.com?s
 
 | Getting Started | Industries | Business Function | Analytic Function| 3rd Party Tools|
 |-----------|--------------|---------------|--------------- | --------------- |
-|<a href='#xFirst-Time-User'>**First Time User**</a>|<a href='#xAutomotive'>Automotive</a>|<a href='#xFinance'>Finance</a>| |<a href='#xAWS-SageMaker'>AWS SageMaker</a>|<a href='#xPython'>Python</a>|<a href='#xAnomaly-Detection'>Anomaly Detection</a>|*Beta Review*|<a href='#xAWS'>AWS</a>|<a href='#xClearScape-Analytic-Functions'>ClearScape Analytic Functions</a>|
-|<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>|<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>| |<a href='#xAzure-ML'>Azure ML</a>|<a href='#xSQL'>SQL</a>|<a href='#xCustomer-Complaint-Analysis'>Customer Complaint Analysis</a>|<a href='#xNew'>New</a>|<a href='#xGoogle'>Google</a>|<a href='#xVantage-Database-Functions'>Vantage Database Functions</a>|
-|<a href='#xDeveloper-Information'>Developer Information</a>|<a href='#xFinancial'>Financial</a>| | |<a href='#xCelebrus'>Celebrus</a>| |<a href='#xEnterprise-Feature-Store'>Enterprise Feature Store</a>|<a href='#xParallel-CPU-Inferencing'>Parallel CPU Inferencing</a>|<a href='#xAzure'>Azure</a>|<a href='#xModel-Pipelines'>Model Pipelines</a>|
-|<a href='#xExperienceBot'>ExperienceBot</a>|<a href='#xHealthcare'>Healthcare</a>| | |<a href='#xDataiku'>Dataiku</a>| |*Model Factory*|<a href='#xDashboard-Notebook'>Dashboard Notebook</a>| |<a href='#xTeradata-Packages'>Teradata Packages</a>|
-| |<a href='#xManufacturing'>Manufacturing</a>| | |<a href='#xH2O.ai'>H2O.ai</a>| | |<a href='#xEFS'>EFS</a>| | |
-| |<a href='#xRetail'>Retail</a>| | |*Microsoft PowerBI*| | | | | |
-| |<a href='#xTelco'>Telco</a>| | |*MicroStrategy*| | | | | |
-| |<a href='#xTravel-&-Transportation'>Travel & Transportation</a>| | | |<a href='#xR'>R</a>| | | | |
-| |<a href='#xDefense'>Defense</a>| | |*SAP Business Objects*| | | | | |
-| | | | |<a href='#xSAS'>SAS</a>| | | | | |
-| | | | |*Tableau*| | | | | |
-| | | | |<a href='#xVertex-AI'>Vertex AI</a>| | | | | |
-| | | | |<a href='#xAWS-Bedrock'>AWS Bedrock</a>| | | | | |
+|<a href='#xFirst-Time-User'>**First Time User**</a>|<a href='#xOpen-Analytics-Framework'>Open Analytics Framework</a>|<a href='#xAutomotive'>Automotive</a>|<a href='#xFinance'>Finance</a>| |<a href='#xAWS-SageMaker'>AWS SageMaker</a>|<a href='#xPython'>Python</a>|<a href='#xAnomaly-Detection'>Anomaly Detection</a>|*Beta Review*|<a href='#xAWS'>AWS</a>|<a href='#xClearScape-Analytic-Functions'>ClearScape Analytic Functions</a>|
+|<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>| |<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>| |<a href='#xAzure-ML'>Azure ML</a>|<a href='#xSQL'>SQL</a>|<a href='#xCustomer-Complaint-Analysis'>Customer Complaint Analysis</a>|<a href='#xNew'>New</a>|<a href='#xGoogle'>Google</a>|<a href='#xVantage-Database-Functions'>Vantage Database Functions</a>|
+|<a href='#xDeveloper-Information'>Developer Information</a>| |<a href='#xFinancial'>Financial</a>| | |<a href='#xCelebrus'>Celebrus</a>| |<a href='#xEnterprise-Feature-Store'>Enterprise Feature Store</a>|<a href='#xParallel-CPU-Inferencing'>Parallel CPU Inferencing</a>|<a href='#xAzure'>Azure</a>|<a href='#xModel-Pipelines'>Model Pipelines</a>|
+|<a href='#xExperienceBot'>ExperienceBot</a>| |<a href='#xHealthcare'>Healthcare</a>| | |<a href='#xDataiku'>Dataiku</a>| |*Model Factory*|<a href='#xDashboard-Notebook'>Dashboard Notebook</a>| |<a href='#xTeradata-Packages'>Teradata Packages</a>|
+|<a href='#xDemo-Introduction'>Demo Introduction</a>| |<a href='#xManufacturing'>Manufacturing</a>| | |<a href='#xH2O.ai'>H2O.ai</a>| |<a href='#xEnd-to-End'>End-to-End</a>|<a href='#xEFS'>EFS</a>| | |
+| | |<a href='#xRetail'>Retail</a>| | |*Microsoft PowerBI*| | | | | |
+| | |<a href='#xTelco'>Telco</a>| | |*MicroStrategy*| | | | | |
+| | |<a href='#xTravel-&-Transportation'>Travel & Transportation</a>| | | |<a href='#xR'>R</a>| | | | |
+| | |<a href='#xDefense'>Defense</a>| | |*SAP Business Objects*| | | | | |
+| | | | | |<a href='#xSAS'>SAS</a>| | | | | |
+| | | | | |*Tableau*| | | | | |
+| | | | | |<a href='#xVertex-AI'>Vertex AI</a>| | | | | |
+| | | | | |<a href='#xAWS-Bedrock'>AWS Bedrock</a>| | | | | |
 
 
 
@@ -178,6 +178,39 @@ Run this notebook to search all notebooks with a ChatBot.<br>
 #### Search all notebooks with a ChatBot using Vantage
 Run this notebook to search all notebooks with a ChatBot and Database connectivity.<br>
 [Python Version](./ExperienceBot/ExperienceBot.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xDemo-Introduction'></a>
+### Demo Introduction
+
+#### End-to-End Demo for Customer Churn in Telco
+Introduction to the traditional and automated approaches of building models to identify and predict customer churn.<br>
+[Information](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Introduction_Teradata_End_to_End_Telco_Customer_Churn.ipynb)
+
+#### End-to-End Demo for Financial Fraud Detection using Vantage
+Introduction to the traditional and automated approaches of building models to detect fraud.<br>
+[Information](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Introduction_Teradata_End_to_End_Financial_Fraud_Detection.ipynb)
+
+#### Teradata Use Case Solution Offerings
+Find out how Teradata can help you deliver better customer experience, build customer loyalty, and accelerate value leveraging the most powerful, open, and connected AI/ML capabilities on the market through our use case solution offerings<br>
+[Information](./BusinessSolutions/BusinessSolutionsOfferings.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+
+---
+
+## VantageCloud Lake
+
+<a id='xOpen-Analytics-Framework'></a>
+### Open Analytics Framework
+
+#### Simplify Text Analytics with Teradata Python for Generative AI
+The teradatagenai Python library enables everyone to run analytics on their unstructured data directly within GPU Compute Cluster in VantageCloud Lake.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Text_Analytics_teradatagenai_AWS/text_analytics_teradatagenai_aws_huggingface.ipynb)
+
+#### Unstructured Text Analysis With BYO-LLM and NVIDIA GPU Acceleration
+The teradatagenai Python library enables everyone to run analytics on their unstructured data directly within GPU Compute Cluster in VantageCloud Lake.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Entity_Recognition_BYOLLM/Entity_Recogntion_BYOLLM_VCL.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
@@ -351,6 +384,10 @@ Use a dataset containing variables like age, sex, BMI, smoking status, number of
 #### Cancer Prediction using Teradata and the SageMaker API
 Use the Vantage SageMaker API feature to connect to an Amazon Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker.  Deploy the solution's ML model.<br>
 [Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_Sagemaker.ipynb)
+
+#### Hospital Readmission using Teradata AutoML Functionality
+Identify patients with a history of high hospital utilization, prescribed, or adjusted diabetes medications to derive predictions.<br>
+[Python Version](./UseCases/Hospital_Readmission_AutoML/Hospital_Readmission_AutoML.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xManufacturing'></a>
@@ -560,6 +597,10 @@ analyzing a time series of data, where each data point represents the outstandin
 Detect anomalies in monthly bill amounts to detect and prevent churn using pre-calculated features stored in Vantage.<br>
 [Python Version](./UseCases/EFS_Demo/Telco_Churn_using_tdfs4ds_Feature_Store.ipynb)
 
+#### Telco_EndtoEnd_ModelOps_GIT_Python_indb_DF.ipynb
+Step through a traditional approach of building models to identify and predict customer churn and storing them in the database.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Telco_Customer_Churn_Traditional_Approach.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xTravel-&-Transportation'></a>
 ### Travel & Transportation
@@ -673,6 +714,10 @@ Use the WhichMin function to return a specified minimum value in a specified tab
 Prepare datasets for tabular supervised or unsupervised machine learning. Prepare data to predict customer churn for a bank.<br>
 [Python Version](./Recipes/tdprepview/Automatic_DataPreprocessing_tdprepview.ipynb)
 
+#### End-to-End Demo for Financial Fraud Detection using Vantage
+Introduction to the traditional and automated approaches of building models to detect fraud.<br>
+[Information](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Introduction_Teradata_End_to_End_Financial_Fraud_Detection.ipynb)
+
 #### OrdinalEncodingFit and OrdinalEncodingTransform in Vantage
 Analyze banking data to see if customer geography is influencing churn.<br>
 [Python Version](./Recipes/ClearScape_Functions/OrdinalEncodingFitandTransform.ipynb)
@@ -774,9 +819,25 @@ Extract insights from unstructured data to identify and address customer concern
 Implement the entire lifecycle of churn prediction using BYOM, VAL and AutoML.<br>
 [Python Version](./UseCases/Banking_Customer_Churn_AutoML/Banking_AutoML.ipynb)
 
+#### End-to-End Demo for Financial Fraud Detection using Vantage
+Introduction to the traditional and automated approaches of building models to detect fraud.<br>
+[Information](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Introduction_Teradata_End_to_End_Financial_Fraud_Detection.ipynb)
+
+#### Financial Fraud Detection using AutoML
+Step through an automated approach of building models to identify fraud.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Financial_Fraud_Detection_AutoML_Approach.ipynb)
+
+#### Hospital Readmission using Teradata AutoML Functionality
+Identify patients with a history of high hospital utilization, prescribed, or adjusted diabetes medications to derive predictions.<br>
+[Python Version](./UseCases/Hospital_Readmission_AutoML/Hospital_Readmission_AutoML.ipynb)
+
 #### Telco Churn using Enterprise Feature Store
 analyzing a time series of data, where each data point represents the outstanding amount at the end of each month. To detect anomalies,<br>
 [Python Version](./UseCases/EFS_Demo/Telco_Churn_using_EFS.ipynb)
+
+#### Telco_Customer_Churn_AutoML_Approach.ipynb
+Step through an automated approach of building models to identify and predict customer churn.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Telco_EndtoEnd_ModelOps_GIT_Python_indb_AutoML.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xComplaint-Summarization'></a>
@@ -1402,6 +1463,18 @@ Preprocess and transform data within the ModelOps pipeline<br>
 Use the Teradata OpenSourceML LightGBM model to operationalize the PIMA diabetes use case with Python and ModelOps<br>
 [Python Version](./ModelOps/14_ModelOps_GIT_PIMA_Python_osml_LightGBM.ipynb)
 
+#### Financial Fraud Detection using a Traditional Approach
+Step through a traditional approach of building models to identify and identify fraud.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Financial_Fraud_Detection_Traditional_Approach.ipynb)
+
+#### In-Database XGBoost using ModelOps and Git for Financial Fraud Detection
+Step through a traditional approach of building models to identify and predict customer churn and storing them in the database.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/FinFraud_EndtoEnd_ModelOps_GIT_Python_indb_XGB.ipynb)
+
+#### Telco_EndtoEnd_ModelOps_GIT_Python_indb_DF.ipynb
+Step through a traditional approach of building models to identify and predict customer churn and storing them in the database.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Telco_Customer_Churn_Traditional_Approach.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xNatural-Language-Processing'></a>
 ### Natural Language Processing
@@ -1871,6 +1944,14 @@ Customer reviews analysis is a crucial aspect of understanding customer sentimen
 In this demo, we use AWS Bedrock's LLMs and LangChain to create a text-to-Teradata SQL agent.<br>
 [Python Version](./UseCases/Generative_Question_Answering_GenAI_Bedrock/AWS_Bedrock_LangChain_Text_to_SQL.ipynb)
 
+#### Simplify Text Analytics with Teradata Python for Generative AI
+The teradatagenai Python library enables everyone to run analytics on their unstructured data directly within GPU Compute Cluster in VantageCloud Lake.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Text_Analytics_teradatagenai_AWS/text_analytics_teradatagenai_aws_huggingface.ipynb)
+
+#### Unstructured Text Analysis With BYO-LLM and NVIDIA GPU Acceleration
+The teradatagenai Python library enables everyone to run analytics on their unstructured data directly within GPU Compute Cluster in VantageCloud Lake.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Entity_Recognition_BYOLLM/Entity_Recogntion_BYOLLM_VCL.ipynb)
+
 #### RAG Solution with Vantage Model Catalog and AWS Bedrock
 Explore how to do extract data from metadata tables of Teradata using embedding and vector db style indexing in Vantage and then query LLM with context/prompts to get the details<br>
 [Python Version](./UseCases/Language_Models_InVantage/RAG_and_Bedrock_Querycatalogue.ipynb)
@@ -2035,6 +2116,10 @@ Run Hugging Face Embedding Model in ONNX format to create some embeddings from a
 Execute a Huggingface model using the Vantage Script Table operator(STO) on Vantage Enterprise.<br>
 [Python Version](./Recipes/Huggingface_model_STO_Python/Huggingface_model_STO_Python.ipynb)
 
+#### Hospital Readmission using Teradata AutoML Functionality
+Identify patients with a history of high hospital utilization, prescribed, or adjusted diabetes medications to derive predictions.<br>
+[Python Version](./UseCases/Hospital_Readmission_AutoML/Hospital_Readmission_AutoML.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xDataRobot'></a>
 ### DataRobot
@@ -2054,6 +2139,14 @@ Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a DataRo
 #### Data Analyst AI Agent with LangChain and Google Gemini
 Create a text-to-SQL autonomous agent that will enable the retrieval of answers and insights from a database.<br>
 [Python Version](./UseCases/Data_Analyst_AI_Agent_Gemini/Data_Analyst_AI_Agent_Gemini.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xLangChain'></a>
+### LangChain
+
+#### Augmented Call Center: Revolutionizing Customer Support with Advanced AI Technologies
+Experience the next generation of customer support with our Augmented Call Center. Harness the power of advanced AI technologies to deliver exceptional service, drive customer loyalty, and achieve operational excellence.<br>
+[Python Version](./UseCases/Augmented_call_center_AgenticAI/Augmented_call_center_AgenticAI.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
@@ -2156,6 +2249,10 @@ Convert time series data and then normalize it. Then calculate the partial autoc
 Predict sales for multiple channels using Open-Source Machine Learning Functions<br>
 [Python Version](./UseCases/Advertising_Sales_Prediction_OpenSourceML/Advertising_Sales_Prediction_Using_OpensourceML.ipynb)
 
+#### Analysis of NBA BasketBall Data
+Use Language Modeling to return answers to common NBA Statistics questions for a single game or questions about players over several years.<br>
+[Python Version](./UseCases/BasketBall_Analysis/NBA_Data_Analysis_Python.ipynb)
+
 #### Antiselect function in Vantage
 Return all columns except those specified in an exclude parameter.<br>
 [Python Version](./Recipes/ClearScape_Functions/Antiselect.ipynb)
@@ -2171,6 +2268,10 @@ Use the Attribution function to assign scores to events that will then  be inser
 #### Augmented Call Center: Revolutionizing Customer Support with Advanced AI Technologies
 Experience the next generation of customer support with our Augmented Call Center. Harness the power of advanced AI technologies to deliver exceptional service, drive customer loyalty, and achieve operational excellence.<br>
 [Python Version](./UseCases/Augmented_call_center_AgenticAI/Augmented_call_center_AgenticAI.ipynb)
+
+#### Banking Customer Churn Analysis using AutoML with a JSON Parameter File
+Use Automated Machine Learning to automate the entire process of developing a predictive model by saving parameters into a JSON file and then execute the model to create a Prediction and a ROC curve. <br>
+[Python Version](./UseCases/Banking_Churn_AutoML_JSON/Banking_Churn_AutoML_JSON.ipynb)
 
 #### BinaryMatrixOP Function in Vantage
 use the BinaryMatrixOp to perform multiplication operation in MATCH mode between two matrices holding REAL payload.<br>
@@ -2284,6 +2385,14 @@ Retrieve the values stored in the Adaptive Radix Tree (ART) that's created by th
 Add a column of unique row identifiers to a table.<br>
 [Python Version](./Recipes/ClearScape_Functions/FillRowId.ipynb)
 
+#### Financial Fraud Detection using a Traditional Approach
+Step through a traditional approach of building models to identify and identify fraud.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Financial_Fraud_Detection_Traditional_Approach.ipynb)
+
+#### Financial Fraud Detection using AutoML
+Step through an automated approach of building models to identify fraud.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Financial_Fraud_Detection_AutoML_Approach.ipynb)
+
 #### Fit and Transform functions in Vantage
 Determine if a specific numeric transformation can be applied to target columns and make the output available to the Transform() function.<br>
 [Python Version](./Recipes/ClearScape_Functions/FitandTransform.ipynb)
@@ -2324,9 +2433,17 @@ Calculate the frequency distribution of a data set using multiple methods: Sturg
 Apply exponential smoothing on a combination of level, trend and seasonality components to make predictions.<br>
 [Python Version](./Recipes/ClearScape_Functions/HoltWintersForecaster.ipynb)
 
+#### Hospital Readmission using Teradata AutoML Functionality
+Identify patients with a history of high hospital utilization, prescribed, or adjusted diabetes medications to derive predictions.<br>
+[Python Version](./UseCases/Hospital_Readmission_AutoML/Hospital_Readmission_AutoML.ipynb)
+
 #### Image2Matrix and Matrix2Image Functions in Vantage
 Convert JPEG or PNG images to matrices, manipulate any element, then convert the matrices back into images.<br>
 [Python Version](./Recipes/ClearScape_Functions/Image2matrixandMatrix2Image.ipynb)
+
+#### In-Database XGBoost using ModelOps and Git for Financial Fraud Detection
+Step through a traditional approach of building models to identify and predict customer churn and storing them in the database.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/FinFraud_EndtoEnd_ModelOps_GIT_Python_indb_XGB.ipynb)
 
 #### InputValidator Function in Vantage
 Validate data and identify series and matrices that have indiscrete data.<br>
@@ -2492,6 +2609,10 @@ Determines the similarity of an object to its cluster (cohesion) compared to oth
 Use simple exponential smoothing with time series data to generate forecast with minimal computations.<br>
 [Python Version](./Recipes/ClearScape_Functions/SimpleExp.ipynb)
 
+#### Simplify Text Analytics with Teradata Python for Generative AI
+The teradatagenai Python library enables everyone to run analytics on their unstructured data directly within GPU Compute Cluster in VantageCloud Lake.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Text_Analytics_teradatagenai_AWS/text_analytics_teradatagenai_aws_huggingface.ipynb)
+
 #### SInfo Function in Vantage
 Return details about each instance of a series found in a table.<br>
 [Python Version](./Recipes/ClearScape_Functions/SInfo.ipynb)
@@ -2528,6 +2649,18 @@ analyzing a time series of data, where each data point represents the outstandin
 Detect anomalies in monthly bill amounts to detect and prevent churn using pre-calculated features stored in Vantage.<br>
 [Python Version](./UseCases/EFS_Demo/Telco_Churn_using_tdfs4ds_Feature_Store.ipynb)
 
+#### Telco_Customer_Churn_AutoML_Approach.ipynb
+Step through an automated approach of building models to identify and predict customer churn.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Telco_EndtoEnd_ModelOps_GIT_Python_indb_AutoML.ipynb)
+
+#### Telco_Customer_Churn_Traditional_Approach.ipynb
+Step through a traditional approach of building models to identify and predict customer churn.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Telco_Customer_Churn_AutoML_Approach.ipynb)
+
+#### Telco_EndtoEnd_ModelOps_GIT_Python_indb_DF.ipynb
+Step through a traditional approach of building models to identify and predict customer churn and storing them in the database.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Telco_Customer_Churn_Traditional_Approach.ipynb)
+
 #### TextParser Function in Vantage
 Use this function to parse text by removing punctuation, stop words and then tokenize the remaining text.<br>
 [Python Version](./Recipes/ClearScape_Functions/TextParser.ipynb)
@@ -2539,6 +2672,10 @@ Use geospatial coordinates to track an object's movement and calculate related m
 #### TrainTestSplit Function in Vantage
 Divide a dataset for training and testing a model.<br>
 [Python Version](./Recipes/ClearScape_Functions/TrainTestSplit.ipynb)
+
+#### Unstructured Text Analysis With BYO-LLM and NVIDIA GPU Acceleration
+The teradatagenai Python library enables everyone to run analytics on their unstructured data directly within GPU Compute Cluster in VantageCloud Lake.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Entity_Recognition_BYOLLM/Entity_Recogntion_BYOLLM_VCL.ipynb)
 
 #### Using Pearson's chi-squared test function in Vantage
 Use the Vantage implementation of Pearson's chi-square test to compare goodness of fit, homogeneity, and independence.<br>
@@ -3350,6 +3487,34 @@ Anomaly detection in bank accounts can help in identifying unusual patterns, pot
 [Python Version](./UseCases/AnomalyDetection_OutstandingAmount_FS/AnomalyDetection_OutstandingAmount_FeatureStore.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xEnd-to-End'></a>
+### End-to-End
+
+#### End-to-End Demo for Financial Fraud Detection using Vantage
+Introduction to the traditional and automated approaches of building models to detect fraud.<br>
+[Information](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Introduction_Teradata_End_to_End_Financial_Fraud_Detection.ipynb)
+
+#### Financial Fraud Detection using a Traditional Approach
+Step through a traditional approach of building models to identify and identify fraud.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Financial_Fraud_Detection_Traditional_Approach.ipynb)
+
+#### Financial Fraud Detection using AutoML
+Step through an automated approach of building models to identify fraud.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Financial_Fraud_Detection_AutoML_Approach.ipynb)
+
+#### In-Database XGBoost using ModelOps and Git for Financial Fraud Detection
+Step through a traditional approach of building models to identify and predict customer churn and storing them in the database.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/FinFraud_EndtoEnd_ModelOps_GIT_Python_indb_XGB.ipynb)
+
+#### Telco_Customer_Churn_AutoML_Approach.ipynb
+Step through an automated approach of building models to identify and predict customer churn.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Telco_EndtoEnd_ModelOps_GIT_Python_indb_AutoML.ipynb)
+
+#### Telco_EndtoEnd_ModelOps_GIT_Python_indb_DF.ipynb
+Step through a traditional approach of building models to identify and predict customer churn and storing them in the database.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Telco_Customer_Churn_Traditional_Approach.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
 
 ---
 
@@ -3358,321 +3523,61 @@ Anomaly detection in bank accounts can help in identifying unusual patterns, pot
 <a id='xNew'></a>
 ### New
 
-#### ACF and PACF Functions in Vantage
-Convert time series data and then normalize it. Then calculate the partial autocorrelation coefficients using the LEVINSON_DURBIN algorithm.<br>
-[Python Version](./Recipes/ClearScape_Functions/ACF_PACF.ipynb)
-
-#### Arima Functions in Vantage
-Execute the Arima Functions: ArimaEstimate, ArimaValidate, and ArimaForecast and use teradataml to create graphs with results.<br>
-[Python Version](./Recipes/ClearScape_Functions/Arima.ipynb)
-
-#### Augmented Call Center: Revolutionizing Customer Support with Advanced AI Technologies
-Experience the next generation of customer support with our Augmented Call Center. Harness the power of advanced AI technologies to deliver exceptional service, drive customer loyalty, and achieve operational excellence.<br>
-[Python Version](./UseCases/Augmented_call_center_AgenticAI/Augmented_call_center_AgenticAI.ipynb)
-
-#### BinaryMatrixOP Function in Vantage
-use the BinaryMatrixOp to perform multiplication operation in MATCH mode between two matrices holding REAL payload.<br>
-[Python Version](./Recipes/ClearScape_Functions/BinaryMatrixOp.ipynb)
-
-#### BinarySeriesOp Function in Vantage
-Use BinarySeriesOp to convolve two series with digital signal processing.<br>
-[Python Version](./Recipes/ClearScape_Functions/BinarySeriesOp.ipynb)
-
-#### BreuschGodfrey Function in Vantage
-Check for the presence of serial correlation among the residual and error terms after running a regression associated with a fitted model.<br>
-[Python Version](./Recipes/ClearScape_Functions/BreuschGodfrey.ipynb)
-
-#### BreuschPaganGodfrey Function in Vantage
-Detect the presence of variability of the error term during regression analysis. Observe the difference between observed values and predicted values, is not constant across all levels of the independent variables.<br>
-[Python Version](./Recipes/ClearScape_Functions/BreuschPaganGodfrey.ipynb)
-
-#### ClassificationEvaluator Function in Vantage
-Compute evaluation metrics to compare multiple classification models and summarize how close predictions are to their expected values.<br>
-[Python Version](./Recipes/ClearScape_Functions/ClassificationEvaluator.ipynb)
-
-#### ColumnTransformer Function in Vantage
-Transform input data columns in a single operation by providing only the FIT dataframes generated by the analytic functions and then runs all the transformations in a single operation.<br>
-[Python Version](./Recipes/ClearScape_Functions/ColumnTransformer.ipynb)
-
-#### ConvertTo Function in Vantage
-Convert data types in columns of a source table into other data types without using complicated format strings.<br>
-[Python Version](./Recipes/ClearScape_Functions/ConvertTo.ipynb)
-
-#### Convolve Function in Vantage
-Use this function to convolve two series into new time series using the CONV_DFFT algorithm.<br>
-[Python Version](./Recipes/ClearScape_Functions/Convolve.ipynb)
-
-#### Convolve2 Function in Vantage
-Convolve 2 matching payload fields of 2 matrices into a new source matrix.<br>
-[Python Version](./Recipes/ClearScape_Functions/Convolve2.ipynb)
-
-#### CumulPeriodogram Function in Vantage
-Use a cumulative periodogram statistics test to determine if any periodicities (seasonal cycles) exist in the residual series being tested.<br>
-[Python Version](./Recipes/ClearScape_Functions/CumulPeriodogram.ipynb)
-
-#### Customer Retail Journeys
-Use Clearscape Analytics functions to analyze customer digital behaviors and experiences in an effort to diagnose issues and events that could possibly inhibit their purchases.<br>
-[Python Version](./UseCases/Retail_Journey/Customer_Retail_Journey.ipynb)
-
-#### Customer Segmentation with K-means Clustering and Data Preparation Pipelines
-Leverage native Vantage processing for efficient and highly scalable data preparation, model training, and evaluation workflows.<br>
-[Python Version](./UseCases/K-Means_Clustering_and_ML_model/K-Means_Clustering_and_ML_model_Python.ipynb)
-
-#### DataRobotPredict Function in Vantage
-Use this function to load a pre-built DataRobot Model into Vantage and then use it to score a dataset in the database.<br>
-[Python Version](./Recipes/ClearScape_Functions/DataRobotPredict.ipynb)
-
-#### DecisionForest and TDDecisionForestPredict Functions in Vantage
-Create predictive models based on the algorithm for decision tree training and prediction.  Then use those models to analyze the input data and make predictions.<br>
-[Python Version](./Recipes/ClearScape_Functions/DecisionForestandTDDecisionForestPredict.ipynb)
-
-#### DFFT and IDFFT Functions in Vantage
-This is an example of how to use DFFT() when convolving two series with digital signal processing.<br>
-[Python Version](./Recipes/ClearScape_Functions/DFFT_IDFFT.ipynb)
-
-#### DFFT2 and IDFFT2 Functions in Vantage
-Compute the two-dimension fourier transform using the input matrix with real numbers only for a matrix.<br>
-[Python Version](./Recipes/ClearScape_Functions/DFFT2_IDFFT2.ipynb)
-
-#### DFFT2Conv Function in Vantage
-Load time series data and then convert it into a TDMatrix.  Then compute the two-dimension fourier transform with only real numbers. Then convert the output to polar data in Radian format.<br>
-[Python Version](./Recipes/ClearScape_Functions/DFFT2Conv.ipynb)
-
-#### DFFTConv Function in Vantage
-Load time series data and then convert it into a TDSeries.  Then compute the Fourier Transform Coefficients and convert to polar data in Radian format.<br>
-[Python Version](./Recipes/ClearScape_Functions/DFFTConv.ipynb)
-
-#### DickeyFuller Function in Vantage
-Test data in a Time Series to determine if it is stationary or non-stationary.<br>
-[Python Version](./Recipes/ClearScape_Functions/DickeyFuller.ipynb)
-
-#### DTW Function in Vantage
-Measure the similarity between two time series.<br>
-[Python Version](./Recipes/ClearScape_Functions/DTW.ipynb)
-
-#### DurbinWatson Function in Vantage
-Determine if there is evidence of serial correlation between residuals in a residual series.<br>
-[Python Version](./Recipes/ClearScape_Functions/DurbinWatson.ipynb)
-
-#### Extract Results Function in Vantage
-Retrieve the values stored in the Adaptive Radix Tree (ART) that's created by the execution of other analytic functions.<br>
-[Python Version](./Recipes/ClearScape_Functions/ExtractResults.ipynb)
-
-#### FillrowId Function in Vantage
-Add a column of unique row identifiers to a table.<br>
-[Python Version](./Recipes/ClearScape_Functions/FillRowId.ipynb)
-
-#### FitMetrics Function in Vantage
-Generate googness-of-fit metrics from multivariate series.<br>
-[Python Version](./Recipes/ClearScape_Functions/FitMetrics.ipynb)
-
-#### GenseriesSinusoids Function in Vantage
-Generate a time series containing a subset of the sinusoidal's element's periodicities, whose payload content value is of type REAL.<br>
-[Python Version](./Recipes/ClearScape_Functions/GenseriesSinusoids.ipynb)
-
-#### GLM and TDGLMPredict Functions in Vantage
-Use a generalized linear model to perform regression and classification analysis on a data set.  Then predict the target values and class labels from that data set.<br>
-[Python Version](./Recipes/ClearScape_Functions/GLMandTDGLMPredict.ipynb)
-
-#### GLMPerSegment and GLMPredictPerSegment Functions in Vantage
-Create models by partitioning datasets on a key value.  Then use those models to predict future values (regressions) and class labels (classifications).<br>
-[Python Version](./Recipes/ClearScape_Functions/GLMPerSegmentandGLMPredictPerSegment.ipynb)
-
-#### Hashing Your Data
-Work through 4 use cases that demonstrate the usage of the Teradata hash function.<br>
-[Python Version](./Recipes/Hashing/Hashing.ipynb)
-
-#### HoldWintersForecaster Function in Vantage
-Apply exponential smoothing on a combination of level, trend and seasonality components to make predictions.<br>
-[Python Version](./Recipes/ClearScape_Functions/HoltWintersForecaster.ipynb)
-
-#### Image2Matrix and Matrix2Image Functions in Vantage
-Convert JPEG or PNG images to matrices, manipulate any element, then convert the matrices back into images.<br>
-[Python Version](./Recipes/ClearScape_Functions/Image2matrixandMatrix2Image.ipynb)
-
-#### InputValidator Function in Vantage
-Validate data and identify series and matrices that have indiscrete data.<br>
-[Python Version](./Recipes/ClearScape_Functions/InputValidator.ipynb)
-
-#### Kmeans and KMeansPredict Functions in Vantage
-Group a set of observations into k clusters in which each observation belongs to the cluster with the nearest mean.  Then predict a target class.<br>
-[Python Version](./Recipes/ClearScape_Functions/KMeans_KMeansPredict.ipynb)
-
-#### LineSpec Function in Vantage
-Use this function to identify cycles that may be inherent in an input series.<br>
-[Python Version](./Recipes/ClearScape_Functions/LineSpec.ipynb)
-
-#### MAMean Function in Vantage
-Use historical data to forecast activity 1 period ahead (t+1).<br>
-[Python Version](./Recipes/ClearScape_Functions/MAMean.ipynb)
-
-#### Minfo Function in Vantage
-Return a one row summary describing the data in a matrix.<br>
-[Python Version](./Recipes/ClearScape_Functions/MInfo.ipynb)
-
-#### MovingAverage Function in Vantage
-Calculate the Cumulative Average of the quantities per Invoice in a dataset.<br>
-[Python Version](./Recipes/ClearScape_Functions/MovingAverage.ipynb)
-
-#### NaiveBayesTextClassifierTrainer and NaiveBayesTextClassifierPredict Functions in Vantage
-Calculate conditional probabilities.  Train a model with those values and use the predict function to classify documents into categories.<br>
-[Python Version](./Recipes/ClearScape_Functions/NaiveBayesTextClassifierTrainerandPredict.ipynb)
-
-#### NGramSplitter Function in Vantage
-Tokenize an input stream of text and outputs n multigrams (called n-grams) based on the specified delimiter and reset parameters.<br>
-[Python Version](./Recipes/ClearScape_Functions/NGramSplitter.ipynb)
-
-#### NPath Function in Vantage
-Discover paths leading to Accounts being closed for 'Gold' customers.<br>
-[Python Version](./Recipes/ClearScape_Functions/NPath.ipynb)
-
-#### NumApply Function in Vantage
-Apply a user-defined, numberic operator to a specific column or set of columns in a database table.<br>
-[Python Version](./Recipes/ClearScape_Functions/NumApply.ipynb)
-
-#### OneHotEncodingFit and OneHotEncodingTransform in Vantage
-Use these functions to analyze whether gender influences customer churn.<br>
-[Python Version](./Recipes/ClearScape_Functions/OneHotEncodingFitandTransform.ipynb)
-
-#### OrdinalEncodingFit and OrdinalEncodingTransform in Vantage
-Analyze banking data to see if customer geography is influencing churn.<br>
-[Python Version](./Recipes/ClearScape_Functions/OrdinalEncodingFitandTransform.ipynb)
-
-#### Pack and Unpack Functions in Vantage
-Store virtual columns from a dataframe in one physical column and then extract them back into multiple dataframe columns.<br>
-[Python Version](./Recipes/ClearScape_Functions/Pack_Unpack.ipynb)
-
-#### PolynomialFeaturesFit and PolynomialFeaturesTransform Functions in Vantage
-Use these functions to find non-linear relationships between different customer attributes.<br>
-[Python Version](./Recipes/ClearScape_Functions/PolynomialFeaturesFitandTransform.ipynb)
-
-#### Portman Function in Vantage
-Use the Portmanteau test to execute a series of test to determine whether the residuals can be classified as zeo mean, no serial correlation, or homoscedastic variance (white noise).<br>
-[Python Version](./Recipes/ClearScape_Functions/Portman.ipynb)
-
-#### PowerSpec Function in Vantage
-Converts a time series to a frequency domain to facilitate frequency domain analysis.<br>
-[Python Version](./Recipes/ClearScape_Functions/KNN.ipynb)
-
-#### PowerTransform Function in Vantage
-get forecast values for a heteroscedastic time series using PowerTransform function.<br>
-[Python Version](./Recipes/ClearScape_Functions/PowerTransform.ipynb)
-
-#### RandomProjectionMinComponents, RandomProjectionFit and RandomProjectionTransform Functions
-Use these functions to perform dimensionality reduction of a dataset.<br>
-[Python Version](./Recipes/ClearScape_Functions/RandomProjectionFitandTransform_Python.ipynb)
-
-#### RegressionEvaluator Function in Vantage
-Compute metrics to evaluate and compare multiple models and summarizes how close predictions are to their expected values.<br>
-[Python Version](./Recipes/ClearScape_Functions/RegressionEvaluator.ipynb)
-
-#### ROC Function in Vantage
-Give the function a set of prediction-actual pairs for a binary classification model, and it will calculate values for a range of discrimination thresholds.<br>
-[Python Version](./Recipes/ClearScape_Functions/ROC.ipynb)
-
-#### RoundColumns Function in Vantage
-Convert the decimal precision of multiple columns to be the same.<br>
-[Python Version](./Recipes/ClearScape_Functions/RoundColumns.ipynb)
-
-#### RowNormalizeFit and RowNormalizeTransform Functions in Vantage
-Discover how row-wise normalization can standardize financial metrics like CreditScore, Balance, and EstimatedSalary for better comparisons.<br>
-[Python Version](./Recipes/ClearScape_Functions/RowNormalizeFitandTransform.ipynb)
-
-#### ScaleFit and ScaleTransform Functions in Vantage
-Standardize values to a comparable range, making them suitable for machine learning models without being influenced by original magnitudes.<br>
-[Python Version](./Recipes/ClearScape_Functions/ScaleFitandTransform.ipynb)
-
-#### SelectionCriteria Function in Vantage
-Choose the best algorithm or model from a set of candidate models for a given dataset.<br>
-[Python Version](./Recipes/ClearScape_Functions/SelectionCriteria.ipynb)
-
-#### SentimentExtractor Function in Vantage
-Search a customer's comments and evaluate the sentiments. Return a list of sentiment words along with their scores.<br>
-[Python Version](./Recipes/ClearScape_Functions/SentimentExtractor.ipynb)
-
-#### Sessionize Function in Vantage
-Examine user behavior over a 24 hour time span using clickstream data.<br>
-[Python Version](./Recipes/ClearScape_Functions/Sessionize.ipynb)
-
-#### SignifPeriodicities Function in Vantage
-Detecting significant periodicities in time series data is crucial for accurate forecasting, especially in industries such as retail or finance, where it impacts decision making.<br>
-[Python Version](./Recipes/ClearScape_Functions/SignifPeriodicities.ipynb)
-
-#### SignifResidmean Function in Vantage
-Use a statistical test to determine if a passed-in residual series can be classified as being white noise.<br>
-[Python Version](./Recipes/ClearScape_Functions/SignifResidmean.ipynb)
-
-#### Silhouette Function in Vantage
-Determines the similarity of an object to its cluster (cohesion) compared to other clusters (separation).<br>
-[Python Version](./Recipes/ClearScape_Functions/Silhouette.ipynb)
-
-#### SimpleExp Function in Vantage
-Use simple exponential smoothing with time series data to generate forecast with minimal computations.<br>
-[Python Version](./Recipes/ClearScape_Functions/SimpleExp.ipynb)
-
-#### SInfo Function in Vantage
-Return details about each instance of a series found in a table.<br>
-[Python Version](./Recipes/ClearScape_Functions/SInfo.ipynb)
-
-#### Solve Imbalance Class Problems with ClearScape Analytics
-How to address imbalanced classes and build better models.<br>
-[Python Version](./Recipes/Imbalanced_Data_Handling/Solve_Imbalance_Class_Problems.ipynb)
-
-#### StrApply Function in Vantage
-Manipulate a tring by applying a regular expression pattern as well as other standard string operators.<br>
-[Python Version](./Recipes/ClearScape_Functions/StrApply.ipynb)
-
-#### StringSimilarity Function in Vantage
-Calculates the similarity between two strings, using the specified comparison method (jaro, cosine etc).<br>
-[Python Version](./Recipes/ClearScape_Functions/StringSimilarity.ipynb)
-
-#### SVM and SVMPredict Functions in Vantage.
-Perform classification and regression analysis on datasets<br>
-[Python Version](./Recipes/ClearScape_Functions/SVMandSVMPredict.ipynb)
-
-#### TargetEncodingFit and TargetEncodingTransform Functions in Vantage
-Apply Target Encoding to replace categorical values with statistically meaningful numerical representations based on the churn rate (Exited).<br>
-[Python Version](./Recipes/ClearScape_Functions/TargetEncodingFitandTransform.ipynb)
-
-#### TextParser Function in Vantage
-Use this function to parse text by removing punctuation, stop words and then tokenize the remaining text.<br>
-[Python Version](./Recipes/ClearScape_Functions/TextParser.ipynb)
-
-#### TrackingOp Function in Vantage
-Use geospatial coordinates to track an object's movement and calculate related metrics.<br>
-[Python Version](./Recipes/ClearScape_Functions/TrackingOp.ipynb)
-
-#### TrainTestSplit Function in Vantage
-Divide a dataset for training and testing a model.<br>
-[Python Version](./Recipes/ClearScape_Functions/TrainTestSplit.ipynb)
-
-#### Variational AutoEncoders (VAE) in Generative AI
-Define a model, define a loss function, train the model, generate new images and then enhance the quality.<br>
-[Python Version](./Recipes/VAE/VAE_Python.ipynb)
-
-#### VectorDistance Function in Vantage
-Compute similarity or dissimilarity between two vectors in multi-dimensional space.<br>
-[Python Version](./Recipes/ClearScape_Functions/VectorDistance.ipynb)
-
-#### Video Analyzer with Google Gemini
-Observe how Gemini 2.0 can be leveraged to generate details about events happening in videos and return those details as readable text.<br>
-[Python Version](./Recipes/Video_Processing_using_Gemini/Video_processing_Gemini.ipynb)
-
-#### WhitesGeneral Function in Vantage
-Check for the presence of correlation among residual terms after running a regression.<br>
-[Python Version](./Recipes/ClearScape_Functions/WhitesGeneral.ipynb)
-
-#### WordEmbeddings Function in Vantage
-Produce vectors for each piece of text and find the fimilarities between those pieces.<br>
-[Python Version](./Recipes/ClearScape_Functions/WordEmbeddings.ipynb)
-
-#### XGBoost and XGBoostPredict Functions in Vantage
-Split a dataset for training and testing.  Then apply XGBoost and XGBoostPredict to generate better models.<br>
-[Python Version](./Recipes/ClearScape_Functions/XGBoostandXGBPredict.ipynb)
-
-#### ZTest Function in Vantage
-Determine if two population means are different when the population standard deviation or variance is known.<br>
-[Python Version](./Recipes/ClearScape_Functions/ZTest.ipynb)
+#### Analysis of NBA BasketBall Data
+Use Language Modeling to return answers to common NBA Statistics questions for a single game or questions about players over several years.<br>
+[Python Version](./UseCases/BasketBall_Analysis/NBA_Data_Analysis_Python.ipynb)
+
+#### Banking Customer Churn Analysis using AutoML with a JSON Parameter File
+Use Automated Machine Learning to automate the entire process of developing a predictive model by saving parameters into a JSON file and then execute the model to create a Prediction and a ROC curve. <br>
+[Python Version](./UseCases/Banking_Churn_AutoML_JSON/Banking_Churn_AutoML_JSON.ipynb)
+
+#### End-to-End Demo for Customer Churn in Telco
+Introduction to the traditional and automated approaches of building models to identify and predict customer churn.<br>
+[Information](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Introduction_Teradata_End_to_End_Telco_Customer_Churn.ipynb)
+
+#### End-to-End Demo for Financial Fraud Detection using Vantage
+Introduction to the traditional and automated approaches of building models to detect fraud.<br>
+[Information](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Introduction_Teradata_End_to_End_Financial_Fraud_Detection.ipynb)
+
+#### Financial Fraud Detection using a Traditional Approach
+Step through a traditional approach of building models to identify and identify fraud.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Financial_Fraud_Detection_Traditional_Approach.ipynb)
+
+#### Financial Fraud Detection using AutoML
+Step through an automated approach of building models to identify fraud.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Financial_Fraud_Detection_AutoML_Approach.ipynb)
+
+#### Hospital Readmission using Teradata AutoML Functionality
+Identify patients with a history of high hospital utilization, prescribed, or adjusted diabetes medications to derive predictions.<br>
+[Python Version](./UseCases/Hospital_Readmission_AutoML/Hospital_Readmission_AutoML.ipynb)
+
+#### In-Database XGBoost using ModelOps and Git for Financial Fraud Detection
+Step through a traditional approach of building models to identify and predict customer churn and storing them in the database.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/FinFraud_EndtoEnd_ModelOps_GIT_Python_indb_XGB.ipynb)
+
+#### Simplify Text Analytics with Teradata Python for Generative AI
+The teradatagenai Python library enables everyone to run analytics on their unstructured data directly within GPU Compute Cluster in VantageCloud Lake.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Text_Analytics_teradatagenai_AWS/text_analytics_teradatagenai_aws_huggingface.ipynb)
+
+#### Telco_Customer_Churn_AutoML_Approach.ipynb
+Step through an automated approach of building models to identify and predict customer churn.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Telco_EndtoEnd_ModelOps_GIT_Python_indb_AutoML.ipynb)
+
+#### Telco_Customer_Churn_Traditional_Approach.ipynb
+Step through a traditional approach of building models to identify and predict customer churn.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Telco_Customer_Churn_AutoML_Approach.ipynb)
+
+#### Telco_EndtoEnd_ModelOps_GIT_Python_indb_DF.ipynb
+Step through a traditional approach of building models to identify and predict customer churn and storing them in the database.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Telco_Customer_Churn_Traditional_Approach.ipynb)
+
+#### Teradata Use Case Solution Offerings
+Find out how Teradata can help you deliver better customer experience, build customer loyalty, and accelerate value leveraging the most powerful, open, and connected AI/ML capabilities on the market through our use case solution offerings<br>
+[Information](./BusinessSolutions/BusinessSolutionsOfferings.ipynb)
+
+#### Unstructured Text Analysis With BYO-LLM and NVIDIA GPU Acceleration
+The teradatagenai Python library enables everyone to run analytics on their unstructured data directly within GPU Compute Cluster in VantageCloud Lake.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Entity_Recognition_BYOLLM/Entity_Recogntion_BYOLLM_VCL.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xParallel-CPU-Inferencing'></a>
@@ -3767,9 +3672,17 @@ Uncover hidden insights from vast amounts of consumer complaints data to enable 
 Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
 [Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Analysis_Customer360.ipynb)
 
+#### Simplify Text Analytics with Teradata Python for Generative AI
+The teradatagenai Python library enables everyone to run analytics on their unstructured data directly within GPU Compute Cluster in VantageCloud Lake.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Text_Analytics_teradatagenai_AWS/text_analytics_teradatagenai_aws_huggingface.ipynb)
+
 #### Speech Recognition and Sentiment Analysis with AWS Bedrock
 Analyzing consumer complaints using audio files conversations<br>
 [Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Speech_Recognition.ipynb)
+
+#### Unstructured Text Analysis With BYO-LLM and NVIDIA GPU Acceleration
+The teradatagenai Python library enables everyone to run analytics on their unstructured data directly within GPU Compute Cluster in VantageCloud Lake.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Entity_Recognition_BYOLLM/Entity_Recogntion_BYOLLM_VCL.ipynb)
 
 #### RAG Solution with Embedding/Chunking with Vantage and AWS Bedrock
 Chunk PDFs, run embedding, try vector db style indexing in Vantage and then query Language Model with context/prompts after semantic search<br>
@@ -3972,6 +3885,10 @@ Apply smoothing to a time series to highlight the mean of that series.<br>
 Convert time series data and then normalize it. Then calculate the partial autocorrelation coefficients using the LEVINSON_DURBIN algorithm.<br>
 [Python Version](./Recipes/ClearScape_Functions/ACF_PACF.ipynb)
 
+#### Analysis of NBA BasketBall Data
+Use Language Modeling to return answers to common NBA Statistics questions for a single game or questions about players over several years.<br>
+[Python Version](./UseCases/BasketBall_Analysis/NBA_Data_Analysis_Python.ipynb)
+
 #### Arima Functions in Vantage
 Execute the Arima Functions: ArimaEstimate, ArimaValidate, and ArimaForecast and use teradataml to create graphs with results.<br>
 [Python Version](./Recipes/ClearScape_Functions/Arima.ipynb)
@@ -3983,6 +3900,10 @@ Use the Attribution function to assign scores to events that will then  be inser
 #### Augmented Call Center: Revolutionizing Customer Support with Advanced AI Technologies
 Experience the next generation of customer support with our Augmented Call Center. Harness the power of advanced AI technologies to deliver exceptional service, drive customer loyalty, and achieve operational excellence.<br>
 [Python Version](./UseCases/Augmented_call_center_AgenticAI/Augmented_call_center_AgenticAI.ipynb)
+
+#### Banking Customer Churn Analysis using AutoML with a JSON Parameter File
+Use Automated Machine Learning to automate the entire process of developing a predictive model by saving parameters into a JSON file and then execute the model to create a Prediction and a ROC curve. <br>
+[Python Version](./UseCases/Banking_Churn_AutoML_JSON/Banking_Churn_AutoML_JSON.ipynb)
 
 #### BinaryMatrixOP Function in Vantage
 use the BinaryMatrixOp to perform multiplication operation in MATCH mode between two matrices holding REAL payload.<br>
@@ -4068,6 +3989,10 @@ Measure the similarity between two time series.<br>
 Determine if there is evidence of serial correlation between residuals in a residual series.<br>
 [Python Version](./Recipes/ClearScape_Functions/DurbinWatson.ipynb)
 
+#### End-to-End Demo for Customer Churn in Telco
+Introduction to the traditional and automated approaches of building models to identify and predict customer churn.<br>
+[Information](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Introduction_Teradata_End_to_End_Telco_Customer_Churn.ipynb)
+
 #### Extract Results Function in Vantage
 Retrieve the values stored in the Adaptive Radix Tree (ART) that's created by the execution of other analytic functions.<br>
 [Python Version](./Recipes/ClearScape_Functions/ExtractResults.ipynb)
@@ -4079,6 +4004,14 @@ Setup and deploy a Feature Store and then continue with the process of Feature E
 #### FillrowId Function in Vantage
 Add a column of unique row identifiers to a table.<br>
 [Python Version](./Recipes/ClearScape_Functions/FillRowId.ipynb)
+
+#### Financial Fraud Detection using a Traditional Approach
+Step through a traditional approach of building models to identify and identify fraud.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Financial_Fraud_Detection_Traditional_Approach.ipynb)
+
+#### Financial Fraud Detection using AutoML
+Step through an automated approach of building models to identify fraud.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Financial_Fraud_Detection_AutoML_Approach.ipynb)
 
 #### Fit and Transform functions in Vantage
 Determine if a specific numeric transformation can be applied to target columns and make the output available to the Transform() function.<br>
@@ -4112,9 +4045,17 @@ Work through 4 use cases that demonstrate the usage of the Teradata hash functio
 Apply exponential smoothing on a combination of level, trend and seasonality components to make predictions.<br>
 [Python Version](./Recipes/ClearScape_Functions/HoltWintersForecaster.ipynb)
 
+#### Hospital Readmission using Teradata AutoML Functionality
+Identify patients with a history of high hospital utilization, prescribed, or adjusted diabetes medications to derive predictions.<br>
+[Python Version](./UseCases/Hospital_Readmission_AutoML/Hospital_Readmission_AutoML.ipynb)
+
 #### Image2Matrix and Matrix2Image Functions in Vantage
 Convert JPEG or PNG images to matrices, manipulate any element, then convert the matrices back into images.<br>
 [Python Version](./Recipes/ClearScape_Functions/Image2matrixandMatrix2Image.ipynb)
+
+#### In-Database XGBoost using ModelOps and Git for Financial Fraud Detection
+Step through a traditional approach of building models to identify and predict customer churn and storing them in the database.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/FinFraud_EndtoEnd_ModelOps_GIT_Python_indb_XGB.ipynb)
 
 #### InputValidator Function in Vantage
 Validate data and identify series and matrices that have indiscrete data.<br>
@@ -4272,6 +4213,10 @@ Perform classification and regression analysis on datasets<br>
 Apply Target Encoding to replace categorical values with statistically meaningful numerical representations based on the churn rate (Exited).<br>
 [Python Version](./Recipes/ClearScape_Functions/TargetEncodingFitandTransform.ipynb)
 
+#### Telco_Customer_Churn_AutoML_Approach.ipynb
+Step through an automated approach of building models to identify and predict customer churn.<br>
+[Python Version](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Telco_EndtoEnd_ModelOps_GIT_Python_indb_AutoML.ipynb)
+
 #### TextParser Function in Vantage
 Use this function to parse text by removing punctuation, stop words and then tokenize the remaining text.<br>
 [Python Version](./Recipes/ClearScape_Functions/TextParser.ipynb)
@@ -4341,4 +4286,3 @@ Generate Sankey and Icicle charts from event logs.<br>
 ---
 
 <footer style="padding:10px;background:#f9f9f9;border-bottom:3px solid #394851">©2023 Teradata. All Rights Reserved</footer>
-
