@@ -20,6 +20,9 @@ on:
         description: 'Ignore the blacklist and run all tests'
         required: false
         default: false
+      hostvm_image_type:
+        description: 'The type of hostvm image to use for the tests'
+        required: false
 
 defaults:
   run:
@@ -36,6 +39,7 @@ jobs:
       matrix: ${{ github.event.inputs.notebooks == '' && fromJson('{"idx":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}') || fromJson('{"idx":[1]}') }}
     env:
         CSAE_NOTEBOOKS: ${{ github.event.inputs.notebooks }}
+        CSAE_HOSTVM_IMAGE_TYPE: ${{ github.event.inputs.hostvm_image_type || 'clearscape' }}
         CSAE_ENV_PASSWORD: ${{ secrets.CSAE_ENV_PASSWORD }}
         CSAE_PARALLEL_TESTS_COUNT: ${{ vars.CSAE_PARALLEL_TESTS_COUNT }}
         CSAE_WORKERS_COUNT: ${{ vars.CSAE_WORKERS_COUNT }}
