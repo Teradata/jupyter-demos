@@ -1,5 +1,5 @@
 <img id=Teradata-logo src="./images/CSAE_Header.png" alt="Teradata" width="100%"  /><br>
-#ClearScape Analytics™ Demonstrations via Jupyter
+# ClearScape Analytics™ Demonstrations via Jupyter
  
 Welcome to ClearScape Analytics Experience.  This service consists of [multiple demonstrations](#Table-of-Contents) of the industry leading in-database analytics that **you can run on your own**.
 You can modify them or use them as examples to use with your own tools against our data or small (not sensitive) data you upload. Each notebook will:
