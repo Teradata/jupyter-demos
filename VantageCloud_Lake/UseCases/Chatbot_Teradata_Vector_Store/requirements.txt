@@ -1,0 +1,8 @@
+teradataml==20.0.0.5
+teradatagenai
+streamlit
+python-dotenv
+plotly
+ipykernel
+panel
+jupyter_bokeh
