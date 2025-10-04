@@ -31,7 +31,24 @@
             "subjects": [
                 {
                     "subjseq": 1,
+                    "subject": "Vantage Cloud Lake"
+                },
+                {
+                    "subjseq": 3,
                     "subject": "Open Analytics Framework"
+                },
+                {
+                    "subjseq": 4,
+                    "subject": "Vectore Store"
+                }
+            ]
+        },
+        {
+            "category": "Possible 2025",
+            "subjects": [
+                {
+                    "subjseq": 1,
+                    "subject": "Workshop"
                 }
             ]
         },
@@ -359,6 +376,10 @@
                 {
                     "subjseq": 1,
                     "subject": "Beta Review"
+                },
+                {
+                    "subjseq": 2,
+                    "subject": "MCP Server"
                 },
                 {
                     "subjseq": 2,

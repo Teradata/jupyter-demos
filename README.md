@@ -1,5 +1,5 @@
 <img id=Teradata-logo src="./images/CSAE_Header.png" alt="Teradata" width="100%"  /><br>
-# ClearScape Analytics™ Demonstrations via Jupyter
+#ClearScape Analytics™ Demonstrations via Jupyter
  
 Welcome to ClearScape Analytics Experience.  This service consists of [multiple demonstrations](#Table-of-Contents) of the industry leading in-database analytics that **you can run on your own**.
 You can modify them or use them as examples to use with your own tools against our data or small (not sensitive) data you upload. Each notebook will:
@@ -24,19 +24,19 @@ If you have questions or issues, [**click here**](mailto:SC230208@teradata.com?s
 
 | Getting Started | Industries | Business Function | Analytic Function| 3rd Party Tools|
 |-----------|--------------|---------------|--------------- | --------------- |
-|<a href='#xFirst-Time-User'>**First Time User**</a>|<a href='#xOpen-Analytics-Framework'>Open Analytics Framework</a>|<a href='#xAutomotive'>Automotive</a>|<a href='#xFinance'>Finance</a>| |<a href='#xAWS-SageMaker'>AWS SageMaker</a>|<a href='#xPython'>Python</a>|<a href='#xAnomaly-Detection'>Anomaly Detection</a>|*Beta Review*|<a href='#xAWS'>AWS</a>|<a href='#xClearScape-Analytic-Functions'>ClearScape Analytic Functions</a>|
-|<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>| |<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>| |<a href='#xAzure-ML'>Azure ML</a>|<a href='#xSQL'>SQL</a>|<a href='#xCustomer-Complaint-Analysis'>Customer Complaint Analysis</a>|<a href='#xNew'>New</a>|<a href='#xGoogle'>Google</a>|<a href='#xVantage-Database-Functions'>Vantage Database Functions</a>|
-|<a href='#xDeveloper-Information'>Developer Information</a>| |<a href='#xFinancial'>Financial</a>| | |<a href='#xCelebrus'>Celebrus</a>| |<a href='#xEnterprise-Feature-Store'>Enterprise Feature Store</a>|<a href='#xParallel-CPU-Inferencing'>Parallel CPU Inferencing</a>|<a href='#xAzure'>Azure</a>|<a href='#xModel-Pipelines'>Model Pipelines</a>|
-|<a href='#xExperienceBot'>ExperienceBot</a>| |<a href='#xHealthcare'>Healthcare</a>| | |<a href='#xDataiku'>Dataiku</a>| |*Model Factory*|<a href='#xDashboard-Notebook'>Dashboard Notebook</a>| |<a href='#xTeradata-Packages'>Teradata Packages</a>|
-|<a href='#xDemo-Introduction'>Demo Introduction</a>| |<a href='#xManufacturing'>Manufacturing</a>| | |<a href='#xH2O.ai'>H2O.ai</a>| |<a href='#xEnd-to-End'>End-to-End</a>|<a href='#xEFS'>EFS</a>| | |
-| | |<a href='#xRetail'>Retail</a>| | |*Microsoft PowerBI*| | | | | |
-| | |<a href='#xTelco'>Telco</a>| | |*MicroStrategy*| | | | | |
-| | |<a href='#xTravel-&-Transportation'>Travel & Transportation</a>| | | |<a href='#xR'>R</a>| | | | |
-| | |<a href='#xDefense'>Defense</a>| | |*SAP Business Objects*| | | | | |
-| | | | | |<a href='#xSAS'>SAS</a>| | | | | |
-| | | | | |*Tableau*| | | | | |
-| | | | | |<a href='#xVertex-AI'>Vertex AI</a>| | | | | |
-| | | | | |<a href='#xAWS-Bedrock'>AWS Bedrock</a>| | | | | |
+|<a href='#xFirst-Time-User'>**First Time User**</a>|<a href='#xVantage-Cloud-Lake'>Vantage Cloud Lake</a>|<a href='#xWorkshop'>Workshop</a>|<a href='#xAutomotive'>Automotive</a>|<a href='#xFinance'>Finance</a>| |<a href='#xAWS-SageMaker'>AWS SageMaker</a>|<a href='#xPython'>Python</a>|<a href='#xAnomaly-Detection'>Anomaly Detection</a>|*Beta Review*|<a href='#xAWS'>AWS</a>|<a href='#xClearScape-Analytic-Functions'>ClearScape Analytic Functions</a>|
+|<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>| | |<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>| |<a href='#xAzure-ML'>Azure ML</a>|<a href='#xSQL'>SQL</a>|<a href='#xCustomer-Complaint-Analysis'>Customer Complaint Analysis</a>|<a href='#xNew'>New</a>|*MCP Server*|<a href='#xGoogle'>Google</a>|<a href='#xVantage-Database-Functions'>Vantage Database Functions</a>|
+|<a href='#xDeveloper-Information'>Developer Information</a>|<a href='#xOpen-Analytics-Framework'>Open Analytics Framework</a>| |<a href='#xFinancial'>Financial</a>| | |<a href='#xCelebrus'>Celebrus</a>| |<a href='#xEnterprise-Feature-Store'>Enterprise Feature Store</a>|<a href='#xParallel-CPU-Inferencing'>Parallel CPU Inferencing</a>|<a href='#xAzure'>Azure</a>|<a href='#xModel-Pipelines'>Model Pipelines</a>|
+|<a href='#xExperienceBot'>ExperienceBot</a>|*Vectore Store*| |<a href='#xHealthcare'>Healthcare</a>| | |<a href='#xDataiku'>Dataiku</a>| |*Model Factory*|<a href='#xDashboard-Notebook'>Dashboard Notebook</a>| |<a href='#xTeradata-Packages'>Teradata Packages</a>|
+|<a href='#xDemo-Introduction'>Demo Introduction</a>| | |<a href='#xManufacturing'>Manufacturing</a>| | |<a href='#xH2O.ai'>H2O.ai</a>| |<a href='#xEnd-to-End'>End-to-End</a>|<a href='#xEFS'>EFS</a>| | |
+| | | |<a href='#xRetail'>Retail</a>| | |*Microsoft PowerBI*| | | | | |
+| | | |<a href='#xTelco'>Telco</a>| | |*MicroStrategy*| | | | | |
+| | | |<a href='#xTravel-&-Transportation'>Travel & Transportation</a>| | | |<a href='#xR'>R</a>| | | | |
+| | | |<a href='#xDefense'>Defense</a>| | |*SAP Business Objects*| | | | | |
+| | | | | | |<a href='#xSAS'>SAS</a>| | | | | |
+| | | | | | |*Tableau*| | | | | |
+| | | | | | |<a href='#xVertex-AI'>Vertex AI</a>| | | | | |
+| | | | | | |<a href='#xAWS-Bedrock'>AWS Bedrock</a>| | | | | |
 
 
 
@@ -201,6 +201,14 @@ Find out how Teradata can help you deliver better customer experience, build cus
 
 ## VantageCloud Lake
 
+<a id='xVantage-Cloud-Lake'></a>
+### Vantage Cloud Lake
+
+#### Chat with VantageCloud Lake Using the Google ADK and the Teradata MCP Server
+Use the Google ADK to connect to the Teradata MCP Server and ask questions about the databases in our VantageCloud Lake database.<br>
+[Python Version](./UseCases/Chat_with_Teradata_MCP_Server/Chat_with_Teradata_MCP_Server_Python.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xOpen-Analytics-Framework'></a>
 ### Open Analytics Framework
 
@@ -211,6 +219,19 @@ The teradatagenai Python library enables everyone to run analytics on their unst
 #### Unstructured Text Analysis With BYO-LLM and NVIDIA GPU Acceleration
 The teradatagenai Python library enables everyone to run analytics on their unstructured data directly within GPU Compute Cluster in VantageCloud Lake.<br>
 [Python Version](./VantageCloud_Lake/UseCases/Entity_Recognition_BYOLLM/Entity_Recogntion_BYOLLM_VCL.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+
+---
+
+## Possible 2025
+
+<a id='xWorkshop'></a>
+### Workshop
+
+#### Telco Customer Churn using the GLM Function
+Use Teradata's machine learning and predictive analytics to build a model to predict customers which are likely to churn in the future.<br>
+[Python Version](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_GLM_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
@@ -600,6 +621,18 @@ Detect anomalies in monthly bill amounts to detect and prevent churn using pre-c
 #### Telco_EndtoEnd_ModelOps_GIT_Python_indb_DF.ipynb
 Step through a traditional approach of building models to identify and predict customer churn and storing them in the database.<br>
 [Python Version](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Telco_Customer_Churn_Traditional_Approach.ipynb)
+
+#### ServiceNow Multipath Pattern Analysis
+Use Vantage's nPath® functionality to unlock critical insights from a case history.<br>
+[Python Version](./UseCases/ServiceNow_Multipath_PatternAnalysis/ServiceNow_Multipath_PatternAnalysis_Python.ipynb)
+
+#### Telco Customer Churn Using Enterprise Feature Store (EFS)
+Use the massive parallel architecture of Teradata Vantage to prepare data, train, evaluate, and deploy models at unprecedented scale.<br>
+[Python Version](./UseCases/Telco_EFS/Telco_Customer_Churn_EFS.ipynb)
+
+#### Telco Customer Churn using the GLM Function
+Use Teradata's machine learning and predictive analytics to build a model to predict customers which are likely to churn in the future.<br>
+[Python Version](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_GLM_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xTravel-&-Transportation'></a>
@@ -1711,6 +1744,26 @@ Predict sales for multiple channels using Open-Source Machine Learning Functions
 Use the Teradata OpenSourceML LightGBM model to operationalize the PIMA diabetes use case with Python and ModelOps<br>
 [Python Version](./ModelOps/14_ModelOps_GIT_PIMA_Python_osml_LightGBM.ipynb)
 
+#### An Introduction to Parallel CPU Inferencing of HuggingFace Models in Vantage
+Select a HuggingFace model, export the model into the database in ONNX format and then use Parallel inferencing in the database.<br>
+[Python Version](./UseCases/Telco_Complaints_Analysis_InVantage/Initialization_and_Model_Load.ipynb)
+
+#### From Complaints to Clarity: Uncovering Hidden Trends in Telco Customer Feedback
+See how a fully data-driven approach can help analyze large volumes of text data, automatically identifying topics and tracking their trends over time.<br>
+[Python Version](./UseCases/Telco_Complaints_Analysis_InVantage/Telco_Complaints_Analysis_Ivsm.ipynb)
+
+#### ServiceNow Multipath Pattern Analysis
+Use Vantage's nPath® functionality to unlock critical insights from a case history.<br>
+[Python Version](./UseCases/ServiceNow_Multipath_PatternAnalysis/ServiceNow_Multipath_PatternAnalysis_Python.ipynb)
+
+#### Telco Customer Churn Using Enterprise Feature Store (EFS)
+Use the massive parallel architecture of Teradata Vantage to prepare data, train, evaluate, and deploy models at unprecedented scale.<br>
+[Python Version](./UseCases/Telco_EFS/Telco_Customer_Churn_EFS.ipynb)
+
+#### Telco Customer Churn using the GLM Function
+Use Teradata's machine learning and predictive analytics to build a model to predict customers which are likely to churn in the future.<br>
+[Python Version](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_GLM_Python.ipynb)
+
 #### Predicting Medical Expenses in Healthcare
 Use a dataset containing variables like age, sex, BMI, smoking status, number of children, and region to build machine learning models that accurately predict healthcare costs for insurance policyholders, taking into account factors that affect medical expenses.<br>
 [Python Version](./UseCases/Health_Insurance/Health_Insurance_Costs_Python.ipynb)
@@ -2116,6 +2169,18 @@ Run Hugging Face Embedding Model in ONNX format to create some embeddings from a
 Execute a Huggingface model using the Vantage Script Table operator(STO) on Vantage Enterprise.<br>
 [Python Version](./Recipes/Huggingface_model_STO_Python/Huggingface_model_STO_Python.ipynb)
 
+#### An Introduction to Parallel CPU Inferencing of HuggingFace Models in Vantage
+Select a HuggingFace model, export the model into the database in ONNX format and then use Parallel inferencing in the database.<br>
+[Python Version](./UseCases/Telco_Complaints_Analysis_InVantage/Initialization_and_Model_Load.ipynb)
+
+#### From Complaints to Clarity: Uncovering Hidden Trends in Telco Customer Feedback
+See how a fully data-driven approach can help analyze large volumes of text data, automatically identifying topics and tracking their trends over time.<br>
+[Python Version](./UseCases/Telco_Complaints_Analysis_InVantage/Telco_Complaints_Analysis_Ivsm.ipynb)
+
+#### ServiceNow Multipath Pattern Analysis
+Use Vantage's nPath® functionality to unlock critical insights from a case history.<br>
+[Python Version](./UseCases/ServiceNow_Multipath_PatternAnalysis/ServiceNow_Multipath_PatternAnalysis_Python.ipynb)
+
 #### Hospital Readmission using Teradata AutoML Functionality
 Identify patients with a history of high hospital utilization, prescribed, or adjusted diabetes medications to derive predictions.<br>
 [Python Version](./UseCases/Hospital_Readmission_AutoML/Hospital_Readmission_AutoML.ipynb)
@@ -2249,6 +2314,10 @@ Convert time series data and then normalize it. Then calculate the partial autoc
 Predict sales for multiple channels using Open-Source Machine Learning Functions<br>
 [Python Version](./UseCases/Advertising_Sales_Prediction_OpenSourceML/Advertising_Sales_Prediction_Using_OpensourceML.ipynb)
 
+#### An Introduction to Parallel CPU Inferencing of HuggingFace Models in Vantage
+Select a HuggingFace model, export the model into the database in ONNX format and then use Parallel inferencing in the database.<br>
+[Python Version](./UseCases/Telco_Complaints_Analysis_InVantage/Initialization_and_Model_Load.ipynb)
+
 #### Analysis of NBA BasketBall Data
 Use Language Modeling to return answers to common NBA Statistics questions for a single game or questions about players over several years.<br>
 [Python Version](./UseCases/BasketBall_Analysis/NBA_Data_Analysis_Python.ipynb)
@@ -2292,6 +2361,10 @@ Check for the presence of serial correlation among the residual and error terms 
 #### BreuschPaganGodfrey Function in Vantage
 Detect the presence of variability of the error term during regression analysis. Observe the difference between observed values and predicted values, is not constant across all levels of the independent variables.<br>
 [Python Version](./Recipes/ClearScape_Functions/BreuschPaganGodfrey.ipynb)
+
+#### Chat with VantageCloud Lake Using the Google ADK and the Teradata MCP Server
+Use the Google ADK to connect to the Teradata MCP Server and ask questions about the databases in our VantageCloud Lake database.<br>
+[Python Version](./UseCases/Chat_with_Teradata_MCP_Server/Chat_with_Teradata_MCP_Server_Python.ipynb)
 
 #### ClassificationEvaluator Function in Vantage
 Compute evaluation metrics to compare multiple classification models and summarize how close predictions are to their expected values.<br>
@@ -2400,6 +2473,10 @@ Determine if a specific numeric transformation can be applied to target columns 
 #### FitMetrics Function in Vantage
 Generate googness-of-fit metrics from multivariate series.<br>
 [Python Version](./Recipes/ClearScape_Functions/FitMetrics.ipynb)
+
+#### From Complaints to Clarity: Uncovering Hidden Trends in Telco Customer Feedback
+See how a fully data-driven approach can help analyze large volumes of text data, automatically identifying topics and tracking their trends over time.<br>
+[Python Version](./UseCases/Telco_Complaints_Analysis_InVantage/Telco_Complaints_Analysis_Ivsm.ipynb)
 
 #### Generate Teradata SQL with GenAI and AWS Bedrock
 In this demo, we use AWS Bedrock's LLMs and LangChain to create a text-to-Teradata SQL agent.<br>
@@ -2589,6 +2666,10 @@ Choose the best algorithm or model from a set of candidate models for a given da
 Search a customer's comments and evaluate the sentiments. Return a list of sentiment words along with their scores.<br>
 [Python Version](./Recipes/ClearScape_Functions/SentimentExtractor.ipynb)
 
+#### ServiceNow Multipath Pattern Analysis
+Use Vantage's nPath® functionality to unlock critical insights from a case history.<br>
+[Python Version](./UseCases/ServiceNow_Multipath_PatternAnalysis/ServiceNow_Multipath_PatternAnalysis_Python.ipynb)
+
 #### Sessionize Function in Vantage
 Examine user behavior over a 24 hour time span using clickstream data.<br>
 [Python Version](./Recipes/ClearScape_Functions/Sessionize.ipynb)
@@ -2648,6 +2729,14 @@ analyzing a time series of data, where each data point represents the outstandin
 #### Telco Churn using Feature Store in Vantage
 Detect anomalies in monthly bill amounts to detect and prevent churn using pre-calculated features stored in Vantage.<br>
 [Python Version](./UseCases/EFS_Demo/Telco_Churn_using_tdfs4ds_Feature_Store.ipynb)
+
+#### Telco Customer Churn Using Enterprise Feature Store (EFS)
+Use the massive parallel architecture of Teradata Vantage to prepare data, train, evaluate, and deploy models at unprecedented scale.<br>
+[Python Version](./UseCases/Telco_EFS/Telco_Customer_Churn_EFS.ipynb)
+
+#### Telco Customer Churn using the GLM Function
+Use Teradata's machine learning and predictive analytics to build a model to predict customers which are likely to churn in the future.<br>
+[Python Version](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_GLM_Python.ipynb)
 
 #### Telco_Customer_Churn_AutoML_Approach.ipynb
 Step through an automated approach of building models to identify and predict customer churn.<br>
@@ -3523,61 +3612,29 @@ Step through a traditional approach of building models to identify and predict c
 <a id='xNew'></a>
 ### New
 
-#### Analysis of NBA BasketBall Data
-Use Language Modeling to return answers to common NBA Statistics questions for a single game or questions about players over several years.<br>
-[Python Version](./UseCases/BasketBall_Analysis/NBA_Data_Analysis_Python.ipynb)
+#### An Introduction to Parallel CPU Inferencing of HuggingFace Models in Vantage
+Select a HuggingFace model, export the model into the database in ONNX format and then use Parallel inferencing in the database.<br>
+[Python Version](./UseCases/Telco_Complaints_Analysis_InVantage/Initialization_and_Model_Load.ipynb)
 
-#### Banking Customer Churn Analysis using AutoML with a JSON Parameter File
-Use Automated Machine Learning to automate the entire process of developing a predictive model by saving parameters into a JSON file and then execute the model to create a Prediction and a ROC curve. <br>
-[Python Version](./UseCases/Banking_Churn_AutoML_JSON/Banking_Churn_AutoML_JSON.ipynb)
+#### Chat with VantageCloud Lake Using the Google ADK and the Teradata MCP Server
+Use the Google ADK to connect to the Teradata MCP Server and ask questions about the databases in our VantageCloud Lake database.<br>
+[Python Version](./UseCases/Chat_with_Teradata_MCP_Server/Chat_with_Teradata_MCP_Server_Python.ipynb)
 
-#### End-to-End Demo for Customer Churn in Telco
-Introduction to the traditional and automated approaches of building models to identify and predict customer churn.<br>
-[Information](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Introduction_Teradata_End_to_End_Telco_Customer_Churn.ipynb)
+#### From Complaints to Clarity: Uncovering Hidden Trends in Telco Customer Feedback
+See how a fully data-driven approach can help analyze large volumes of text data, automatically identifying topics and tracking their trends over time.<br>
+[Python Version](./UseCases/Telco_Complaints_Analysis_InVantage/Telco_Complaints_Analysis_Ivsm.ipynb)
 
-#### End-to-End Demo for Financial Fraud Detection using Vantage
-Introduction to the traditional and automated approaches of building models to detect fraud.<br>
-[Information](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Introduction_Teradata_End_to_End_Financial_Fraud_Detection.ipynb)
+#### ServiceNow Multipath Pattern Analysis
+Use Vantage's nPath® functionality to unlock critical insights from a case history.<br>
+[Python Version](./UseCases/ServiceNow_Multipath_PatternAnalysis/ServiceNow_Multipath_PatternAnalysis_Python.ipynb)
 
-#### Financial Fraud Detection using a Traditional Approach
-Step through a traditional approach of building models to identify and identify fraud.<br>
-[Python Version](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Financial_Fraud_Detection_Traditional_Approach.ipynb)
+#### Telco Customer Churn Using Enterprise Feature Store (EFS)
+Use the massive parallel architecture of Teradata Vantage to prepare data, train, evaluate, and deploy models at unprecedented scale.<br>
+[Python Version](./UseCases/Telco_EFS/Telco_Customer_Churn_EFS.ipynb)
 
-#### Financial Fraud Detection using AutoML
-Step through an automated approach of building models to identify fraud.<br>
-[Python Version](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Financial_Fraud_Detection_AutoML_Approach.ipynb)
-
-#### Hospital Readmission using Teradata AutoML Functionality
-Identify patients with a history of high hospital utilization, prescribed, or adjusted diabetes medications to derive predictions.<br>
-[Python Version](./UseCases/Hospital_Readmission_AutoML/Hospital_Readmission_AutoML.ipynb)
-
-#### In-Database XGBoost using ModelOps and Git for Financial Fraud Detection
-Step through a traditional approach of building models to identify and predict customer churn and storing them in the database.<br>
-[Python Version](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/FinFraud_EndtoEnd_ModelOps_GIT_Python_indb_XGB.ipynb)
-
-#### Simplify Text Analytics with Teradata Python for Generative AI
-The teradatagenai Python library enables everyone to run analytics on their unstructured data directly within GPU Compute Cluster in VantageCloud Lake.<br>
-[Python Version](./VantageCloud_Lake/UseCases/Text_Analytics_teradatagenai_AWS/text_analytics_teradatagenai_aws_huggingface.ipynb)
-
-#### Telco_Customer_Churn_AutoML_Approach.ipynb
-Step through an automated approach of building models to identify and predict customer churn.<br>
-[Python Version](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Telco_EndtoEnd_ModelOps_GIT_Python_indb_AutoML.ipynb)
-
-#### Telco_Customer_Churn_Traditional_Approach.ipynb
-Step through a traditional approach of building models to identify and predict customer churn.<br>
-[Python Version](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Telco_Customer_Churn_AutoML_Approach.ipynb)
-
-#### Telco_EndtoEnd_ModelOps_GIT_Python_indb_DF.ipynb
-Step through a traditional approach of building models to identify and predict customer churn and storing them in the database.<br>
-[Python Version](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Telco_Customer_Churn_Traditional_Approach.ipynb)
-
-#### Teradata Use Case Solution Offerings
-Find out how Teradata can help you deliver better customer experience, build customer loyalty, and accelerate value leveraging the most powerful, open, and connected AI/ML capabilities on the market through our use case solution offerings<br>
-[Information](./BusinessSolutions/BusinessSolutionsOfferings.ipynb)
-
-#### Unstructured Text Analysis With BYO-LLM and NVIDIA GPU Acceleration
-The teradatagenai Python library enables everyone to run analytics on their unstructured data directly within GPU Compute Cluster in VantageCloud Lake.<br>
-[Python Version](./VantageCloud_Lake/UseCases/Entity_Recognition_BYOLLM/Entity_Recogntion_BYOLLM_VCL.ipynb)
+#### Telco Customer Churn using the GLM Function
+Use Teradata's machine learning and predictive analytics to build a model to predict customers which are likely to churn in the future.<br>
+[Python Version](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_GLM_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xParallel-CPU-Inferencing'></a>
@@ -3638,6 +3695,10 @@ Detect anomalies in monthly bill amounts to detect and prevent churn using pre-c
 #### Using the Vantage Enterprise Feature Store Functions
 Work through a series of practical exercises that demonstrate how to use the Enterprise Feature Store capabilities in Vantage. <br>
 [Python Version](./FeaturePreview/Enterprise_Feature_Store/EFS_Getting_Started_Python.ipynb)
+
+#### Telco Customer Churn Using Enterprise Feature Store (EFS)
+Use the massive parallel architecture of Teradata Vantage to prepare data, train, evaluate, and deploy models at unprecedented scale.<br>
+[Python Version](./UseCases/Telco_EFS/Telco_Customer_Churn_EFS.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
@@ -3885,6 +3946,10 @@ Apply smoothing to a time series to highlight the mean of that series.<br>
 Convert time series data and then normalize it. Then calculate the partial autocorrelation coefficients using the LEVINSON_DURBIN algorithm.<br>
 [Python Version](./Recipes/ClearScape_Functions/ACF_PACF.ipynb)
 
+#### An Introduction to Parallel CPU Inferencing of HuggingFace Models in Vantage
+Select a HuggingFace model, export the model into the database in ONNX format and then use Parallel inferencing in the database.<br>
+[Python Version](./UseCases/Telco_Complaints_Analysis_InVantage/Initialization_and_Model_Load.ipynb)
+
 #### Analysis of NBA BasketBall Data
 Use Language Modeling to return answers to common NBA Statistics questions for a single game or questions about players over several years.<br>
 [Python Version](./UseCases/BasketBall_Analysis/NBA_Data_Analysis_Python.ipynb)
@@ -3920,6 +3985,10 @@ Check for the presence of serial correlation among the residual and error terms 
 #### BreuschPaganGodfrey Function in Vantage
 Detect the presence of variability of the error term during regression analysis. Observe the difference between observed values and predicted values, is not constant across all levels of the independent variables.<br>
 [Python Version](./Recipes/ClearScape_Functions/BreuschPaganGodfrey.ipynb)
+
+#### Chat with VantageCloud Lake Using the Google ADK and the Teradata MCP Server
+Use the Google ADK to connect to the Teradata MCP Server and ask questions about the databases in our VantageCloud Lake database.<br>
+[Python Version](./UseCases/Chat_with_Teradata_MCP_Server/Chat_with_Teradata_MCP_Server_Python.ipynb)
 
 #### ClassificationEvaluator Function in Vantage
 Compute evaluation metrics to compare multiple classification models and summarize how close predictions are to their expected values.<br>
@@ -4020,6 +4089,10 @@ Determine if a specific numeric transformation can be applied to target columns 
 #### FitMetrics Function in Vantage
 Generate googness-of-fit metrics from multivariate series.<br>
 [Python Version](./Recipes/ClearScape_Functions/FitMetrics.ipynb)
+
+#### From Complaints to Clarity: Uncovering Hidden Trends in Telco Customer Feedback
+See how a fully data-driven approach can help analyze large volumes of text data, automatically identifying topics and tracking their trends over time.<br>
+[Python Version](./UseCases/Telco_Complaints_Analysis_InVantage/Telco_Complaints_Analysis_Ivsm.ipynb)
 
 #### GenseriesFormula Function in Vantage
 Define and apply a formula to generate a time series.<br>
@@ -4169,6 +4242,10 @@ Choose the best algorithm or model from a set of candidate models for a given da
 Search a customer's comments and evaluate the sentiments. Return a list of sentiment words along with their scores.<br>
 [Python Version](./Recipes/ClearScape_Functions/SentimentExtractor.ipynb)
 
+#### ServiceNow Multipath Pattern Analysis
+Use Vantage's nPath® functionality to unlock critical insights from a case history.<br>
+[Python Version](./UseCases/ServiceNow_Multipath_PatternAnalysis/ServiceNow_Multipath_PatternAnalysis_Python.ipynb)
+
 #### Sessionize Function in Vantage
 Examine user behavior over a 24 hour time span using clickstream data.<br>
 [Python Version](./Recipes/ClearScape_Functions/Sessionize.ipynb)
@@ -4212,6 +4289,14 @@ Perform classification and regression analysis on datasets<br>
 #### TargetEncodingFit and TargetEncodingTransform Functions in Vantage
 Apply Target Encoding to replace categorical values with statistically meaningful numerical representations based on the churn rate (Exited).<br>
 [Python Version](./Recipes/ClearScape_Functions/TargetEncodingFitandTransform.ipynb)
+
+#### Telco Customer Churn Using Enterprise Feature Store (EFS)
+Use the massive parallel architecture of Teradata Vantage to prepare data, train, evaluate, and deploy models at unprecedented scale.<br>
+[Python Version](./UseCases/Telco_EFS/Telco_Customer_Churn_EFS.ipynb)
+
+#### Telco Customer Churn using the GLM Function
+Use Teradata's machine learning and predictive analytics to build a model to predict customers which are likely to churn in the future.<br>
+[Python Version](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_GLM_Python.ipynb)
 
 #### Telco_Customer_Churn_AutoML_Approach.ipynb
 Step through an automated approach of building models to identify and predict customer churn.<br>
@@ -4286,3 +4371,4 @@ Generate Sankey and Icicle charts from event logs.<br>
 ---
 
 <footer style="padding:10px;background:#f9f9f9;border-bottom:3px solid #394851">©2023 Teradata. All Rights Reserved</footer>
+
