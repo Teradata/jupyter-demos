@@ -12,11 +12,11 @@
                 },
                 {
                     "id": 2,
-                    "subject": "Time series analytics"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 2,
-                    "subject": "Travel & Transportation"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 2,
@@ -192,11 +192,11 @@
             "subjects": [
                 {
                     "id": 106,
-                    "subject": "Anomaly Detection"
+                    "subject": "Open-and-connected analytics"
                 },
                 {
                     "id": 106,
-                    "subject": "Open-and-connected analytics"
+                    "subject": "Anomaly Detection"
                 },
                 {
                     "id": 106,
@@ -544,11 +544,11 @@
             "subjects": [
                 {
                     "id": 58,
-                    "subject": "Manufacturing"
+                    "subject": "Object Storage"
                 },
                 {
                     "id": 58,
-                    "subject": "Object Storage"
+                    "subject": "Manufacturing"
                 },
                 {
                     "id": 58,
@@ -684,11 +684,11 @@
             "subjects": [
                 {
                     "id": 82,
-                    "subject": "Path Analytics"
+                    "subject": "Retail"
                 },
                 {
                     "id": 82,
-                    "subject": "Retail"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 82,
@@ -784,15 +784,15 @@
             "subjects": [
                 {
                     "id": 103,
+                    "subject": "Automotive"
+                },
+                {
+                    "id": 103,
                     "subject": "Manufacturing"
                 },
                 {
                     "id": 103,
                     "subject": "Geospatial"
-                },
-                {
-                    "id": 103,
-                    "subject": "Automotive"
                 },
                 {
                     "id": 103,
@@ -850,11 +850,11 @@
             "subjects": [
                 {
                     "id": 114,
-                    "subject": "Time series analytics"
+                    "subject": "Financial"
                 },
                 {
                     "id": 114,
-                    "subject": "Financial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 114,
@@ -1003,10 +1003,6 @@
                 {
                     "id": 146,
                     "subject": "SQL"
-                },
-                {
-                    "id": 146,
-                    "subject": "Workshop"
                 }
             ],
             "links": [
@@ -1014,7 +1010,36 @@
                     "type": "notebook",
                     "url": "UseCases/Chat_with_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb",
                     "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 374,
+            "demo": "Chatbot using Vantage & GenAI with Insurance PDF document",
+            "description": "Uses TD_VectorDistance in Vantage to create a chatbot using RAG, Langchain, and LLM to answer questions using a travelers insurance policy PDF.\"",
+            "subjects": [
+                {
+                    "id": 374,
+                    "subject": "New"
                 },
+                {
+                    "id": 374,
+                    "subject": "SQL"
+                },
+                {
+                    "id": 374,
+                    "subject": "ClearScape Analytic Functions"
+                },
+                {
+                    "id": 374,
+                    "subject": "Workshop"
+                },
+                {
+                    "id": 374,
+                    "subject": "Travel & Transportation"
+                }
+            ],
+            "links": [
                 {
                     "type": "notebook",
                     "url": "UseCases/Chat_with_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb",
@@ -1533,11 +1558,11 @@
             "subjects": [
                 {
                     "id": 7,
-                    "subject": "Time series analytics"
+                    "subject": "Financial"
                 },
                 {
                     "id": 7,
-                    "subject": "Financial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 7,
@@ -1676,6 +1701,32 @@
             ]
         },
         {
+            "id": 147,
+            "demo": "Credit Card Data Preparation",
+            "description": "Uses functions from TeradataML Python library to prepare data for analysis using data cleansing, exploration and feature engineering functions.",
+            "subjects": [
+                {
+                    "id": 147,
+                    "subject": "Data Preparation"
+                },
+                {
+                    "id": 147,
+                    "subject": "Financial"
+                },
+                {
+                    "id": 147,
+                    "subject": "Python"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_Python.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 60,
             "demo": "Credit Card Data Preparation",
             "description": "This shows the use of ClearScape analytics to reduce the pre-processing effort of incoming raw credit card data to prepare for analysis of potential loan defaulters.",
@@ -1703,32 +1754,6 @@
                     "type": "nbviewer",
                     "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/80769bb2ee4e7ca5c2ee01bd7a51bd35f2c56891/UseCases/Credit_Card_Data_Preparation/Pop_Credit_Card_Data_Preparation_SQL.ipynb",
                     "label": "Read Only SQL"
-                }
-            ]
-        },
-        {
-            "id": 147,
-            "demo": "Credit Card Data Preparation",
-            "description": "Uses functions from TeradataML Python library to prepare data for analysis using data cleansing, exploration and feature engineering functions.",
-            "subjects": [
-                {
-                    "id": 147,
-                    "subject": "Data Preparation"
-                },
-                {
-                    "id": 147,
-                    "subject": "Financial"
-                },
-                {
-                    "id": 147,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_Python.ipynb",
-                    "label": "Python Version"
                 }
             ]
         },
@@ -2836,11 +2861,11 @@
             "subjects": [
                 {
                     "id": 142,
-                    "subject": "Celebrus"
+                    "subject": "Financial"
                 },
                 {
                     "id": 142,
-                    "subject": "Financial"
+                    "subject": "Celebrus"
                 },
                 {
                     "id": 142,
@@ -3208,42 +3233,6 @@
             ]
         },
         {
-            "id": 4,
-            "demo": "Financial Fraud Detection InDB",
-            "description": "Detect financial transaction fraud  using powerful in-database machine learning functions",
-            "subjects": [
-                {
-                    "id": 4,
-                    "subject": "Financial"
-                },
-                {
-                    "id": 4,
-                    "subject": "Machine Learning"
-                },
-                {
-                    "id": 4,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb",
-                    "label": "Python Version"
-                },
-                {
-                    "type": "nbviewer",
-                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/80769bb2ee4e7ca5c2ee01bd7a51bd35f2c56891/UseCases/Financial_Fraud_Detection_InDB/Pop_Financial_Fraud_Detection_InDB_Python.ipynb",
-                    "label": "Read Only Python"
-                },
-                {
-                    "type": "Web",
-                    "url": "https://storage.googleapis.com/clearscape_analytics_videos/Financial_Fraud_Detection_Use_Case_Demo_SP004465.MP4",
-                    "label": "Video"
-                }
-            ]
-        },
-        {
             "id": 187,
             "demo": "Financial Fraud Detection InDB",
             "description": "Detect financial transaction fraud using powerful in-database machine learning functions",
@@ -3279,6 +3268,42 @@
                     "type": "notebook",
                     "url": "UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb",
                     "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "demo": "Financial Fraud Detection InDB",
+            "description": "Detect financial transaction fraud  using powerful in-database machine learning functions",
+            "subjects": [
+                {
+                    "id": 4,
+                    "subject": "Financial"
+                },
+                {
+                    "id": 4,
+                    "subject": "Machine Learning"
+                },
+                {
+                    "id": 4,
+                    "subject": "Python"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb",
+                    "label": "Python Version"
+                },
+                {
+                    "type": "nbviewer",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/80769bb2ee4e7ca5c2ee01bd7a51bd35f2c56891/UseCases/Financial_Fraud_Detection_InDB/Pop_Financial_Fraud_Detection_InDB_Python.ipynb",
+                    "label": "Read Only Python"
+                },
+                {
+                    "type": "Web",
+                    "url": "https://storage.googleapis.com/clearscape_analytics_videos/Financial_Fraud_Detection_Use_Case_Demo_SP004465.MP4",
+                    "label": "Video"
                 }
             ]
         },
@@ -4115,15 +4140,15 @@
             "subjects": [
                 {
                     "id": 129,
-                    "subject": "Marketing"
-                },
-                {
-                    "id": 129,
                     "subject": "Machine Learning"
                 },
                 {
                     "id": 129,
                     "subject": "Retail"
+                },
+                {
+                    "id": 129,
+                    "subject": "Marketing"
                 },
                 {
                     "id": 129,
@@ -4358,11 +4383,11 @@
             "subjects": [
                 {
                     "id": 47,
-                    "subject": "Financial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 47,
-                    "subject": "Time series analytics"
+                    "subject": "Financial"
                 },
                 {
                     "id": 47,
@@ -4482,11 +4507,11 @@
             "subjects": [
                 {
                     "id": 73,
-                    "subject": "Machine Learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 73,
-                    "subject": "Retail"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 73,
@@ -4675,15 +4700,15 @@
             "subjects": [
                 {
                     "id": 116,
-                    "subject": "Retail"
-                },
-                {
-                    "id": 116,
                     "subject": "Marketing"
                 },
                 {
                     "id": 116,
                     "subject": "Machine Learning"
+                },
+                {
+                    "id": 116,
+                    "subject": "Retail"
                 },
                 {
                     "id": 116,
@@ -5026,11 +5051,11 @@
             "subjects": [
                 {
                     "id": 148,
-                    "subject": "Generative AI"
+                    "subject": "Financial"
                 },
                 {
                     "id": 148,
-                    "subject": "Financial"
+                    "subject": "Generative AI"
                 },
                 {
                     "id": 148,
@@ -5079,7 +5104,7 @@
             "subjects": [
                 {
                     "id": 130,
-                    "subject": "Machine Learning"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 130,
@@ -5087,7 +5112,7 @@
                 },
                 {
                     "id": 130,
-                    "subject": "Marketing"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 130,
@@ -5114,15 +5139,15 @@
             "subjects": [
                 {
                     "id": 131,
+                    "subject": "Machine Learning"
+                },
+                {
+                    "id": 131,
                     "subject": "Marketing"
                 },
                 {
                     "id": 131,
                     "subject": "Retail"
-                },
-                {
-                    "id": 131,
-                    "subject": "Machine Learning"
                 },
                 {
                     "id": 131,
@@ -5840,11 +5865,11 @@
                 },
                 {
                     "id": 165,
-                    "subject": "Python"
+                    "subject": "Retail"
                 },
                 {
                     "id": 165,
-                    "subject": "Retail"
+                    "subject": "Python"
                 }
             ],
             "links": [
@@ -7239,15 +7264,15 @@
             "subjects": [
                 {
                     "id": 134,
-                    "subject": "Retail"
-                },
-                {
-                    "id": 134,
                     "subject": "Marketing"
                 },
                 {
                     "id": 134,
                     "subject": "Machine Learning"
+                },
+                {
+                    "id": 134,
+                    "subject": "Retail"
                 },
                 {
                     "id": 134,
@@ -7375,11 +7400,11 @@
                 },
                 {
                     "id": 150,
-                    "subject": "Geospatial"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 150,
-                    "subject": "Travel & Transportation"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 150,
@@ -7657,11 +7682,11 @@
             "subjects": [
                 {
                     "id": 48,
-                    "subject": "Telco"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 48,
-                    "subject": "Geospatial"
+                    "subject": "Telco"
                 },
                 {
                     "id": 48,
@@ -8042,11 +8067,11 @@
                 },
                 {
                     "id": 105,
-                    "subject": "Path Analytics"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 105,
-                    "subject": "Machine Learning"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 105,
