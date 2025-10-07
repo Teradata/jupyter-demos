@@ -1,0 +1,11 @@
+CustomerID,Quantity,TotalAmount,Region
+1019,7,428.33,North
+1004,4,55.80,South
+1008,8,776.64,East
+1013,6,480.78,West
+1007,2,83.24,North
+1015,9,202.23,South
+1002,1,15.32,East
+1017,5,387.70,West
+1001,3,162.63,North
+1012,7,237.16,South
