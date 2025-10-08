@@ -23,6 +23,10 @@
                 {
                     "subjseq": 5,
                     "subject": "Demo Introduction"
+                },
+                {
+                    "subjseq": 5,
+                    "subject": "EFS"
                 }
             ]
         },
@@ -44,11 +48,15 @@
             ]
         },
         {
-            "category": "Possible 2025",
+            "category": "Workshops",
             "subjects": [
                 {
                     "subjseq": 1,
-                    "subject": "Workshop"
+                    "subject": "Possible 2025"
+                },
+                {
+                    "subjseq": 2,
+                    "subject": "Innovation Day"
                 }
             ]
         },

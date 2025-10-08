@@ -24,11 +24,11 @@ If you have questions or issues, [**click here**](mailto:SC230208@teradata.com?s
 
 | Getting Started | Industries | Business Function | Analytic Function| 3rd Party Tools|
 |-----------|--------------|---------------|--------------- | --------------- |
-|<a href='#xFirst-Time-User'>**First Time User**</a>|<a href='#xVantage-Cloud-Lake'>Vantage Cloud Lake</a>|<a href='#xWorkshop'>Workshop</a>|<a href='#xAutomotive'>Automotive</a>|<a href='#xFinance'>Finance</a>| |<a href='#xAWS-SageMaker'>AWS SageMaker</a>|<a href='#xPython'>Python</a>|<a href='#xAnomaly-Detection'>Anomaly Detection</a>|*Beta Review*|<a href='#xAWS'>AWS</a>|<a href='#xClearScape-Analytic-Functions'>ClearScape Analytic Functions</a>|
-|<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>| | |<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>| |<a href='#xAzure-ML'>Azure ML</a>|<a href='#xSQL'>SQL</a>|<a href='#xCustomer-Complaint-Analysis'>Customer Complaint Analysis</a>|<a href='#xNew'>New</a>|*MCP Server*|<a href='#xGoogle'>Google</a>|<a href='#xVantage-Database-Functions'>Vantage Database Functions</a>|
+|<a href='#xFirst-Time-User'>**First Time User**</a>|<a href='#xVantage-Cloud-Lake'>Vantage Cloud Lake</a>|<a href='#xPossible-2025'>Possible 2025</a>|<a href='#xAutomotive'>Automotive</a>|<a href='#xFinance'>Finance</a>| |<a href='#xAWS-SageMaker'>AWS SageMaker</a>|<a href='#xPython'>Python</a>|<a href='#xAnomaly-Detection'>Anomaly Detection</a>|*Beta Review*|<a href='#xAWS'>AWS</a>|<a href='#xClearScape-Analytic-Functions'>ClearScape Analytic Functions</a>|
+|<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>| |<a href='#xInnovation-Day'>Innovation Day</a>|<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>| |<a href='#xAzure-ML'>Azure ML</a>|<a href='#xSQL'>SQL</a>|<a href='#xCustomer-Complaint-Analysis'>Customer Complaint Analysis</a>|<a href='#xNew'>New</a>|*MCP Server*|<a href='#xGoogle'>Google</a>|<a href='#xVantage-Database-Functions'>Vantage Database Functions</a>|
 |<a href='#xDeveloper-Information'>Developer Information</a>|<a href='#xOpen-Analytics-Framework'>Open Analytics Framework</a>| |<a href='#xFinancial'>Financial</a>| | |<a href='#xCelebrus'>Celebrus</a>| |<a href='#xEnterprise-Feature-Store'>Enterprise Feature Store</a>|<a href='#xParallel-CPU-Inferencing'>Parallel CPU Inferencing</a>|<a href='#xAzure'>Azure</a>|<a href='#xModel-Pipelines'>Model Pipelines</a>|
 |<a href='#xExperienceBot'>ExperienceBot</a>|*Vectore Store*| |<a href='#xHealthcare'>Healthcare</a>| | |<a href='#xDataiku'>Dataiku</a>| |*Model Factory*|<a href='#xDashboard-Notebook'>Dashboard Notebook</a>| |<a href='#xTeradata-Packages'>Teradata Packages</a>|
-|<a href='#xDemo-Introduction'>Demo Introduction</a>| | |<a href='#xManufacturing'>Manufacturing</a>| | |<a href='#xH2O.ai'>H2O.ai</a>| |<a href='#xEnd-to-End'>End-to-End</a>|<a href='#xEFS'>EFS</a>| | |
+|*EFS*|<a href='#xDemo-Introduction'>Demo Introduction</a>| | |<a href='#xManufacturing'>Manufacturing</a>| | |<a href='#xH2O.ai'>H2O.ai</a>| |<a href='#xEnd-to-End'>End-to-End</a>|<a href='#xEFS'>EFS</a>| | |
 | | | |<a href='#xRetail'>Retail</a>| | |*Microsoft PowerBI*| | | | | |
 | | | |<a href='#xTelco'>Telco</a>| | |*MicroStrategy*| | | | | |
 | | | |<a href='#xTravel-&-Transportation'>Travel & Transportation</a>| | | |<a href='#xR'>R</a>| | | | |
@@ -224,14 +224,50 @@ The teradatagenai Python library enables everyone to run analytics on their unst
 
 ---
 
-## Possible 2025
+## Workshops
 
-<a id='xWorkshop'></a>
-### Workshop
+<a id='xPossible-2025'></a>
+### Possible 2025
+
+#### Chatbot using Vantage & GenAI with Insurance PDF document
+Uses TD_VectorDistance in Vantage to create a chatbot using RAG, Langchain, and LLM to answer questions using a travelers insurance policy PDF."<br>
+[Python-SQL Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
 
 #### Telco Customer Churn using the GLM Function
 Use Teradata's machine learning and predictive analytics to build a model to predict customers which are likely to churn in the future.<br>
 [Python Version](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_GLM_Python.ipynb)
+
+#### Simplify Text Analytics with Teradata Python for Generative AI
+The teradatagenai Python library enables everyone to run analytics on their unstructured data directly within GPU Compute Cluster in VantageCloud Lake.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Text_Analytics_teradatagenai_AWS/text_analytics_teradatagenai_aws_huggingface.ipynb)
+
+#### Customer Complaints Analysis with Customer360 with AWS Bedrock
+Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
+[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Analysis_Customer360.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xInnovation-Day'></a>
+### Innovation Day
+
+#### Enterprise Feature Store - DataDomain
+Build and manage a feature store across multiple business domains.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-DataDomain.ipynb)
+
+#### Enterprise Feature Store - DatasetCatalog
+Execute an end-to-end workflow that will build a feature store and dataset catalog.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-DatasetCatalog.ipynb)
+
+#### Enterprise Feature Store - Feature Store 
+Build, manage, and utilize an enterprise feature store. Execute an  end-to-end workflow for feature engineering, ingestion, cataloging, and governance with features derived from business data such as sales, marketing, and transactions.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-FeatureStore.ipynb)
+
+#### Enterprise Feature Store - FeatureProcess
+Build and manage a feature store for sales analytics. Execute an end-to-end process of feature engineering, transformation, and governance for sales transaction data.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-FeatureProcess.ipynb)
+
+#### From Complaints to Clarity: Uncovering Hidden Trends in Telco Customer Feedback
+See how a fully data-driven approach can help analyze large volumes of text data, automatically identifying topics and tracking their trends over time.<br>
+[Python Version](./UseCases/Telco_Complaints_Analysis_InVantage/Telco_Complaints_Analysis_Ivsm.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
@@ -554,6 +590,18 @@ Use NLP for Sentiment Analysis, perform Kmeans clustering, execute Principal Com
 Enhance a product hierarchy by leveraging time series analysis and clustering techniques<br>
 [Python Version](./UseCases/Retail_Product_Hierarchy/Retail_Product_Hierarchy_Clustering_Python.ipynb)
 
+#### Enterprise Feature Store - DatasetCatalog
+Execute an end-to-end workflow that will build a feature store and dataset catalog.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-DatasetCatalog.ipynb)
+
+#### Enterprise Feature Store - Feature Store 
+Build, manage, and utilize an enterprise feature store. Execute an  end-to-end workflow for feature engineering, ingestion, cataloging, and governance with features derived from business data such as sales, marketing, and transactions.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-FeatureStore.ipynb)
+
+#### Enterprise Feature Store - FeatureProcess
+Build and manage a feature store for sales analytics. Execute an end-to-end process of feature engineering, transformation, and governance for sales transaction data.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-FeatureProcess.ipynb)
+
 #### Generate Teradata SQL with GenAI and AWS Bedrock
 In this demo, we use AWS Bedrock's LLMs and LangChain to create a text-to-Teradata SQL agent.<br>
 [Python Version](./UseCases/Generative_Question_Answering_GenAI_Bedrock/AWS_Bedrock_LangChain_Text_to_SQL.ipynb)
@@ -618,6 +666,10 @@ analyzing a time series of data, where each data point represents the outstandin
 Detect anomalies in monthly bill amounts to detect and prevent churn using pre-calculated features stored in Vantage.<br>
 [Python Version](./UseCases/EFS_Demo/Telco_Churn_using_tdfs4ds_Feature_Store.ipynb)
 
+#### Enterprise Feature Store - DataDomain
+Build and manage a feature store across multiple business domains.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-DataDomain.ipynb)
+
 #### Telco_EndtoEnd_ModelOps_GIT_Python_indb_DF.ipynb
 Step through a traditional approach of building models to identify and predict customer churn and storing them in the database.<br>
 [Python Version](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Telco_Customer_Churn_Traditional_Approach.ipynb)
@@ -637,10 +689,6 @@ Use Teradata's machine learning and predictive analytics to build a model to pre
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xTravel-&-Transportation'></a>
 ### Travel & Transportation
-
-#### Chatbot using GenAI with insurance PDF document
-Uses TD_VectorDistance in Vantage to create a chatbot using Retrieval-Augmented Generation (RAG),  Langchain, and LLM to answer questions using a 24 page travelers insurance policy PDF as source data to answer questions about coverage.<br>
-[Python Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
 
 #### Shipping Time Prediction
 Use ClearScape Analytics to develop a robust system that can reliably estimate delivery dates, accounting for handling time, transit time, and other relevant variables affecting the actual delivery timeframe.<br>
@@ -673,6 +721,14 @@ Applies machine learning to predict Remaining Useful Life (RUL) of jet engines, 
 #### Train Delay Path Analysis
 Uses nPath displays to show relationship of delays and predictive models to anticipate potential delays and enable proactive planning.<br>
 [Python Version](./UseCases/Train_Delay/Train_Delay_Python.ipynb)
+
+#### Chatbot using GenAI with insurance PDF document
+Uses TD_VectorDistance in Vantage to create a chatbot using Retrieval-Augmented Generation (RAG),  Langchain, and LLM to answer questions using a 24 page travelers insurance policy PDF as source data to answer questions about coverage.<br>
+[Python Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb)
+
+#### Chatbot using Vantage & GenAI with Insurance PDF document
+Uses TD_VectorDistance in Vantage to create a chatbot using RAG, Langchain, and LLM to answer questions using a travelers insurance policy PDF."<br>
+[Python-SQL Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xDefense'></a>
@@ -1040,10 +1096,6 @@ Detect financial transaction fraud using powerful in-database machine learning f
 <a id='xGenerative-AI'></a>
 ### Generative AI
 
-#### Chatbot using GenAI with insurance PDF document
-Uses TD_VectorDistance in Vantage to create a chatbot using Retrieval-Augmented Generation (RAG),  Langchain, and LLM to answer questions using a 24 page travelers insurance policy PDF as source data to answer questions about coverage.<br>
-[Python Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
-
 #### Mortgage Calculator using GenAI
 Use Retrieval-Augmented Generation (RAG), Lanchain and LLM models to as questions about loans and retrieve relevant data from Vantage.<br>
 [Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python.ipynb)
@@ -1063,6 +1115,10 @@ Uses FlagEmbedding from HuggingFace plus Vantage in-database functions to assess
 #### Product Recommendations via OpenAI
 Uses OpenAIEmbeddings and Vantage in-database function to assists consumers in receiving product recommendations<br>
 [Python Version](./UseCases/Recommendations_product_search/Recommendations_product_search_OpenAI_Python.ipynb)
+
+#### Chatbot using GenAI with insurance PDF document
+Uses TD_VectorDistance in Vantage to create a chatbot using Retrieval-Augmented Generation (RAG),  Langchain, and LLM to answer questions using a 24 page travelers insurance policy PDF as source data to answer questions about coverage.<br>
+[Python Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb)
 
 #### Complaints Classification with OpenAI
 Classify customer complaints to swiftly identify and address concerns.<br>
@@ -2230,10 +2286,6 @@ Anomaly detection in bank accounts can help in identifying unusual patterns, pot
 The td_plot method streamlines large-scale visualizations by providing users with efficient tools to create visualizations directly within the Vantage platform<br>
 [Python Version](./Getting_Started/Charting_and_Visualization/InDB_Visualizations_using_teradataml.ipynb)
 
-#### Chatbot using GenAI with insurance PDF document
-Uses TD_VectorDistance in Vantage to create a chatbot using Retrieval-Augmented Generation (RAG),  Langchain, and LLM to answer questions using a 24 page travelers insurance policy PDF as source data to answer questions about coverage.<br>
-[Python Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
-
 #### Credit Card Data Preparation
 Uses functions from TeradataML Python library to prepare data for analysis using data cleansing, exploration and feature engineering functions.<br>
 [Python Version](./UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_Python.ipynb)
@@ -2449,6 +2501,22 @@ Measure the similarity between two time series.<br>
 #### DurbinWatson Function in Vantage
 Determine if there is evidence of serial correlation between residuals in a residual series.<br>
 [Python Version](./Recipes/ClearScape_Functions/DurbinWatson.ipynb)
+
+#### Enterprise Feature Store - DataDomain
+Build and manage a feature store across multiple business domains.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-DataDomain.ipynb)
+
+#### Enterprise Feature Store - DatasetCatalog
+Execute an end-to-end workflow that will build a feature store and dataset catalog.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-DatasetCatalog.ipynb)
+
+#### Enterprise Feature Store - Feature Store 
+Build, manage, and utilize an enterprise feature store. Execute an  end-to-end workflow for feature engineering, ingestion, cataloging, and governance with features derived from business data such as sales, marketing, and transactions.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-FeatureStore.ipynb)
+
+#### Enterprise Feature Store - FeatureProcess
+Build and manage a feature store for sales analytics. Execute an end-to-end process of feature engineering, transformation, and governance for sales transaction data.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-FeatureProcess.ipynb)
 
 #### Extract Results Function in Vantage
 Retrieve the values stored in the Adaptive Radix Tree (ART) that's created by the execution of other analytic functions.<br>
@@ -2813,6 +2881,10 @@ Implement the entire lifecycle of churn prediction using BYOM, VAL and AutoML.<b
 #### CategoricalSummary function in Vantage
 Display distinct values and counts for a column in a Banking dataset<br>
 [Python Version](./Recipes/ClearScape_Functions/CategoricalSummary.ipynb)
+
+#### Chatbot using GenAI with insurance PDF document
+Uses TD_VectorDistance in Vantage to create a chatbot using Retrieval-Augmented Generation (RAG),  Langchain, and LLM to answer questions using a 24 page travelers insurance policy PDF as source data to answer questions about coverage.<br>
+[Python Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb)
 
 #### ColumnSummary function in Vantage
 Summarize a column and return standard values like positive, negative, nulls, zeros, etc.<br>
@@ -3274,10 +3346,6 @@ Demonstrated the use of Teradataml in Python to perform descriptive statistics, 
 <a id='xSQL'></a>
 ### SQL
 
-#### Chatbot using GenAI with insurance PDF document
-Uses TD_VectorDistance in Vantage to create a chatbot using Retrieval-Augmented Generation (RAG),  Langchain, and LLM to answer questions using a 24 page travelers insurance policy PDF as source data to answer questions about coverage.<br>
-[Python Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb) &ensp; [Python-SQL Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
-
 #### Sales Forecasting with Vantage vs SAS
 This demo walks through how a typical SAS user would use sales data to build a simple sales forecasting model and then will showcase how we can achieve the same using Vantage ClearScape Analytics.<br>
 [Python-SQL Version](./UseCases/SalesForecast_SAS_Vantage/Sales_Forecasting_SAS_Vantage_PY_SQL.ipynb) &ensp; [SQL Version](./UseCases/SalesForecast_SAS_Vantage/Sales_Forecasting_SAS_Vantage_SQL.ipynb)
@@ -3298,6 +3366,10 @@ Analysis of customer purchase behavior using nPath® analysis in Python with vis
 Use context-based product recommendations powered by GenAI Large Language Models to enhance a shopping experience.<br>
 [Python-SQL Version](./UseCases/Grocery_Recommendation/Grocery_Recommendation_PY_SQL.ipynb)
 
+#### Chatbot using Vantage & GenAI with Insurance PDF document
+Uses TD_VectorDistance in Vantage to create a chatbot using RAG, Langchain, and LLM to answer questions using a travelers insurance policy PDF."<br>
+[Python-SQL Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
+
 #### Solve complex inventory issues with Vantage In-DB functions.
 Use resampling to fill-in missing data, find phantom inventory, show key inventory metrics, calculate safe stock levels.<br>
 [SQL Version](./UseCases/Inventory_Management/Inventory_Management_SQL.ipynb)
@@ -3309,6 +3381,10 @@ Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a Dataik
 #### ModelOps BYOM with Datarobot
 Use BYOM in ModelOps to operationalize the PIMA Diabetes use case using a DataRobot model.<br>
 [Python Version](./ModelOps/18_ModelOps_BYOM_PIMA_DataRobot.ipynb)
+
+#### Chatbot using GenAI with insurance PDF document
+Uses TD_VectorDistance in Vantage to create a chatbot using Retrieval-Augmented Generation (RAG),  Langchain, and LLM to answer questions using a 24 page travelers insurance policy PDF as source data to answer questions about coverage.<br>
+[Python Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_OpenSource_GenAI_Python.ipynb)
 
 #### LinearRegr function in Vantage
 Fit data to a curve using a formula that defines the relationship between the explanatory variable and the response variable.<br>
@@ -3620,6 +3696,26 @@ Select a HuggingFace model, export the model into the database in ONNX format an
 Use the Google ADK to connect to the Teradata MCP Server and ask questions about the databases in our VantageCloud Lake database.<br>
 [Python Version](./UseCases/Chat_with_Teradata_MCP_Server/Chat_with_Teradata_MCP_Server_Python.ipynb)
 
+#### Chatbot using Vantage & GenAI with Insurance PDF document
+Uses TD_VectorDistance in Vantage to create a chatbot using RAG, Langchain, and LLM to answer questions using a travelers insurance policy PDF."<br>
+[Python-SQL Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
+
+#### Enterprise Feature Store - DataDomain
+Build and manage a feature store across multiple business domains.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-DataDomain.ipynb)
+
+#### Enterprise Feature Store - DatasetCatalog
+Execute an end-to-end workflow that will build a feature store and dataset catalog.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-DatasetCatalog.ipynb)
+
+#### Enterprise Feature Store - Feature Store 
+Build, manage, and utilize an enterprise feature store. Execute an  end-to-end workflow for feature engineering, ingestion, cataloging, and governance with features derived from business data such as sales, marketing, and transactions.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-FeatureStore.ipynb)
+
+#### Enterprise Feature Store - FeatureProcess
+Build and manage a feature store for sales analytics. Execute an end-to-end process of feature engineering, transformation, and governance for sales transaction data.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-FeatureProcess.ipynb)
+
 #### From Complaints to Clarity: Uncovering Hidden Trends in Telco Customer Feedback
 See how a fully data-driven approach can help analyze large volumes of text data, automatically identifying topics and tracking their trends over time.<br>
 [Python Version](./UseCases/Telco_Complaints_Analysis_InVantage/Telco_Complaints_Analysis_Ivsm.ipynb)
@@ -3683,6 +3779,22 @@ This is a Dashboard with descriptions and links to various notebooks on various 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xEFS'></a>
 ### EFS
+
+#### Enterprise Feature Store - DataDomain
+Build and manage a feature store across multiple business domains.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-DataDomain.ipynb)
+
+#### Enterprise Feature Store - DatasetCatalog
+Execute an end-to-end workflow that will build a feature store and dataset catalog.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-DatasetCatalog.ipynb)
+
+#### Enterprise Feature Store - Feature Store 
+Build, manage, and utilize an enterprise feature store. Execute an  end-to-end workflow for feature engineering, ingestion, cataloging, and governance with features derived from business data such as sales, marketing, and transactions.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-FeatureStore.ipynb)
+
+#### Enterprise Feature Store - FeatureProcess
+Build and manage a feature store for sales analytics. Execute an end-to-end process of feature engineering, transformation, and governance for sales transaction data.<br>
+[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-FeatureProcess.ipynb)
 
 #### Telco Churn using Enterprise Feature Store
 analyzing a time series of data, where each data point represents the outstanding amount at the end of each month. To detect anomalies,<br>
@@ -3989,6 +4101,10 @@ Detect the presence of variability of the error term during regression analysis.
 #### Chat with VantageCloud Lake Using the Google ADK and the Teradata MCP Server
 Use the Google ADK to connect to the Teradata MCP Server and ask questions about the databases in our VantageCloud Lake database.<br>
 [Python Version](./UseCases/Chat_with_Teradata_MCP_Server/Chat_with_Teradata_MCP_Server_Python.ipynb)
+
+#### Chatbot using Vantage & GenAI with Insurance PDF document
+Uses TD_VectorDistance in Vantage to create a chatbot using RAG, Langchain, and LLM to answer questions using a travelers insurance policy PDF."<br>
+[Python-SQL Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
 
 #### ClassificationEvaluator Function in Vantage
 Compute evaluation metrics to compare multiple classification models and summarize how close predictions are to their expected values.<br>
