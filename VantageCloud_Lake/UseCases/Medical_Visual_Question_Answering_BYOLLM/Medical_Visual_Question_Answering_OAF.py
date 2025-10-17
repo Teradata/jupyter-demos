@@ -1,11 +1,10 @@
+
 # -*- coding: utf-8 -*-
 """
 Created on Mon Sept 29 18:54:17 2025
 
 @author: author
 """
-
-# %load detect_sentiment.py
 
 #!/usr/bin/env python3
 import sys
@@ -50,7 +49,7 @@ def initialize_model():
     """Initialize BLIP model components"""
     try:
         print("Loading BLIP model components...", file=sys.stderr)
-        model_path = "Salesforce/blip-vqa-base"
+        model_path = "ChetanHirapara/Salesforce-blip-vqa-base-medical-data"
 
         print(f"---- Loading model from: ---- {model_path}", file=sys.stderr)
         config = BlipConfig.from_pretrained(model_path)
