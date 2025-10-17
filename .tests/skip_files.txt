@@ -20,4 +20,4 @@
 ../UseCases/Data_Dictionary/Data_Dictionary_Raw.ipynb
 ../UseCases/Augmented_call_center_AgenticAI/Augmented_call_center_AgenticAI.ipynb
 ../VantageCloud_Lake/UseCases/Text_Analytics_teradatagenai_AWS/text_analytics_teradatagenai_aws_huggingface.ipynb
-../UseCases/Anomaly_Detection/Anomaly_Detection_Python_TrustedAI.ipynb
+../UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_R.ipynb
