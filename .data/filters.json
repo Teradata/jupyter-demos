@@ -48,15 +48,19 @@
             ]
         },
         {
-            "category": "Workshops",
+            "category": "Conferences & Workshops",
             "subjects": [
                 {
-                    "subjseq": 1,
-                    "subject": "Possible 2025"
+                    "subjseq": 3,
+                    "subject": "Innovation Day"
                 },
                 {
-                    "subjseq": 2,
-                    "subject": "Innovation Day"
+                    "subjseq": 4,
+                    "subject": "nVidia GTC 2025"
+                },
+                {
+                    "subjseq": 5,
+                    "subject": "Possible 2025"
                 }
             ]
         },
