@@ -1,3 +1,0 @@
-teradatagenai==20.0.0.2
-teradataml==20.0.0.7
-teradatamlwidgets==20.0.0.6
