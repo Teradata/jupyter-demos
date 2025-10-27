@@ -1,0 +1,7 @@
+teradatagenai==20.0.0.3
+teradataml==20.0.0.7
+teradatamlwidgets==20.0.0.6
+teradatasqlalchemy==20.0.0.7
+ipywidgets==8.1.7
+hf-xet==1.1.11b1
+ipykernel==6.30.1
