@@ -1,3 +1,0 @@
-openai
-wordcloud
-pyarrow
