@@ -11,7 +11,7 @@
         "TargetColumns": [
             "stockprice"
         ],
-        "IncludeFirst": true,
+        "IncludeFirst": false,
         "Alpha": 0.22,
         "StartRows": 3.0,
         "WindowSize": 11.0,

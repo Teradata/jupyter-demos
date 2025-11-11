@@ -7,7 +7,7 @@
             "kind": "PartitionByNone"
         },
         {
-            "value": "LinearRegression_Output",
+            "value": "Project_OutLinearRegression",
             "partitionAttributes": "",
             "orderByColumn": "",
             "kind": "PartitionByNone"
