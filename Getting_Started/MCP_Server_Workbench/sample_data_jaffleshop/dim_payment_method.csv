@@ -1,0 +1,5 @@
+payment_method,total_amount,frequency_count
+coupon,185,13
+credit_card,871,55
+bank_transfer,411,33
+gift_card,205,12
