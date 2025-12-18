@@ -100,7 +100,7 @@ converters = { 0: sciStrToInt,
               24: sciStrToInt}
 
 # Load model from input file
-fIn = open('myDB/ex1pModForDSS.out', 'rb')   # 'rb' for reading binary file
+fIn = open('demo_user/ex1pModForDSS.out', 'rb')   # 'rb' for reading binary file
 classifierPklB64 = fIn.read()
 fIn.close()
 
