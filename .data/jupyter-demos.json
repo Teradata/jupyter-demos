@@ -12,11 +12,11 @@
                 },
                 {
                     "id": 2,
-                    "subject": "Geospatial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 2,
-                    "subject": "Time series analytics"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 2,
@@ -105,11 +105,11 @@
             "subjects": [
                 {
                     "id": 39,
-                    "subject": "Time series analytics"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 39,
-                    "subject": "Travel & Transportation"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 39,
@@ -230,6 +230,36 @@
             ]
         },
         {
+            "id": 389,
+            "demo": "Anomaly Detection in Credit Card Accounts",
+            "description": "Use K-Means clustering to group similar transactions and identify anomalies based on Euclidean distances.",
+            "subjects": [
+                {
+                    "id": 389,
+                    "subject": "New"
+                },
+                {
+                    "id": 389,
+                    "subject": "Python"
+                },
+                {
+                    "id": 389,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 389,
+                    "subject": "ONNX"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Anomaly_Detection_Credit_Card/Anomaly_Detection_Credit_Card_ONNXEmbeddings.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 177,
             "demo": "Anomaly Detection in Spot Welding Process - Trusted AI",
             "description": "Evaluates potential failures in spot welds based on voltage anomalies during the welding process.",
@@ -278,11 +308,11 @@
                 },
                 {
                     "id": 164,
-                    "subject": "Python"
+                    "subject": "Enterprise Feature Store"
                 },
                 {
                     "id": 164,
-                    "subject": "Enterprise Feature Store"
+                    "subject": "Python"
                 }
             ],
             "links": [
@@ -300,10 +330,6 @@
             "subjects": [
                 {
                     "id": 380,
-                    "subject": "New"
-                },
-                {
-                    "id": 380,
                     "subject": "Python"
                 },
                 {
@@ -316,11 +342,7 @@
                 },
                 {
                     "id": 380,
-                    "subject": "Vantage Cloud Lake"
-                },
-                {
-                    "id": 380,
-                    "subject": "nVidia GTC 2025"
+                    "subject": "VantageCloud"
                 }
             ],
             "links": [
@@ -582,11 +604,11 @@
                 },
                 {
                     "id": 58,
-                    "subject": "Object Storage"
+                    "subject": "Automotive"
                 },
                 {
                     "id": 58,
-                    "subject": "Automotive"
+                    "subject": "Object Storage"
                 },
                 {
                     "id": 58,
@@ -718,11 +740,11 @@
             "subjects": [
                 {
                     "id": 82,
-                    "subject": "Path Analytics"
+                    "subject": "Retail"
                 },
                 {
                     "id": 82,
-                    "subject": "Retail"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 82,
@@ -1002,7 +1024,7 @@
                 },
                 {
                     "id": 368,
-                    "subject": "Vantage Cloud Lake"
+                    "subject": "VantageCloud"
                 }
             ],
             "links": [
@@ -1044,6 +1066,44 @@
             ]
         },
         {
+            "id": 381,
+            "demo": "Chatbot using Teradata's Enterprise Vector Store",
+            "description": "Build a chat interface to ask questions using conversational AI after loading a selection of PDF files.",
+            "subjects": [
+                {
+                    "id": 381,
+                    "subject": "New"
+                },
+                {
+                    "id": 381,
+                    "subject": "Python"
+                },
+                {
+                    "id": 381,
+                    "subject": "VantageCloud"
+                },
+                {
+                    "id": 381,
+                    "subject": "Vector Store"
+                },
+                {
+                    "id": 381,
+                    "subject": "teradataml OpenSourceML"
+                },
+                {
+                    "id": 381,
+                    "subject": "teradatagenai"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "VantageCloud_Lake/UseCases/Chatbot_Teradata_Vector_Store/Chatbot_Teradata_Vector_Store.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 374,
             "demo": "Chatbot using Vantage & GenAI with Insurance PDF document",
             "description": "Uses TD_VectorDistance in Vantage to create a chatbot using RAG, Langchain, and LLM to answer questions using a travelers insurance policy PDF.\"",
@@ -1055,10 +1115,6 @@
                 {
                     "id": 374,
                     "subject": "ClearScape Analytic Functions"
-                },
-                {
-                    "id": 374,
-                    "subject": "Possible 2025"
                 },
                 {
                     "id": 374,
@@ -1139,6 +1195,44 @@
                 {
                     "type": "notebook",
                     "url": "Recipes/ClearScape_Functions/ColumnTransformer.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 385,
+            "demo": "Combining Structured and Unstructured Data for Predictive Modeling",
+            "description": "Turn structured and unstructured data into meaningful features using embeddings and clustering and then send them to a model.",
+            "subjects": [
+                {
+                    "id": 385,
+                    "subject": "New"
+                },
+                {
+                    "id": 385,
+                    "subject": "Python"
+                },
+                {
+                    "id": 385,
+                    "subject": "Healthcare"
+                },
+                {
+                    "id": 385,
+                    "subject": "ONNX"
+                },
+                {
+                    "id": 385,
+                    "subject": "BYOM"
+                },
+                {
+                    "id": 385,
+                    "subject": "teradataml OpenSourceML"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ONNX/Combine_Structured_Unstructured_Predictive_Modelling/Combine_structured_unstructured_predictive_modelling.ipynb",
                     "label": "Python Version"
                 }
             ]
@@ -1584,11 +1678,11 @@
             "subjects": [
                 {
                     "id": 7,
-                    "subject": "Time series analytics"
+                    "subject": "Financial"
                 },
                 {
                     "id": 7,
-                    "subject": "Financial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 7,
@@ -1727,6 +1821,32 @@
             ]
         },
         {
+            "id": 147,
+            "demo": "Credit Card Data Preparation",
+            "description": "Uses functions from TeradataML Python library to prepare data for analysis using data cleansing, exploration and feature engineering functions.",
+            "subjects": [
+                {
+                    "id": 147,
+                    "subject": "Data Preparation"
+                },
+                {
+                    "id": 147,
+                    "subject": "Financial"
+                },
+                {
+                    "id": 147,
+                    "subject": "Python"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_Python.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 60,
             "demo": "Credit Card Data Preparation",
             "description": "This shows the use of ClearScape analytics to reduce the pre-processing effort of incoming raw credit card data to prepare for analysis of potential loan defaulters.",
@@ -1754,32 +1874,6 @@
                     "type": "nbviewer",
                     "url": "https://nbviewer.org/urls/storage.googleapis.com/clearscape_analytics_documents/Experience/UseCases/Credit_Card_Data_Preparation/Pop_Credit_Card_Data_Preparation_SQL.ipynb",
                     "label": "Read Only SQL"
-                }
-            ]
-        },
-        {
-            "id": 147,
-            "demo": "Credit Card Data Preparation",
-            "description": "Uses functions from TeradataML Python library to prepare data for analysis using data cleansing, exploration and feature engineering functions.",
-            "subjects": [
-                {
-                    "id": 147,
-                    "subject": "Data Preparation"
-                },
-                {
-                    "id": 147,
-                    "subject": "Financial"
-                },
-                {
-                    "id": 147,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_Python.ipynb",
-                    "label": "Python Version"
                 }
             ]
         },
@@ -2072,10 +2166,6 @@
                 {
                     "id": 193,
                     "subject": "Sentiment Analysis"
-                },
-                {
-                    "id": 193,
-                    "subject": "Possible 2025"
                 }
             ],
             "links": [
@@ -2887,11 +2977,11 @@
             "subjects": [
                 {
                     "id": 142,
-                    "subject": "Celebrus"
+                    "subject": "Financial"
                 },
                 {
                     "id": 142,
-                    "subject": "Financial"
+                    "subject": "Celebrus"
                 },
                 {
                     "id": 142,
@@ -2912,6 +3002,44 @@
                     "type": "notebook",
                     "url": "UseCases/Digital_Identity_Management/Digital_Identity_Management_SQL.ipynb",
                     "label": "SQL Version"
+                }
+            ]
+        },
+        {
+            "id": 393,
+            "demo": "Discover Customer Lifetime Value using Teradata AgentBuilder",
+            "description": "Explore the capabilities of Teradata AgentBuilder to explore an AgenticAI workflow to ask questions and generate charts about Customer Lifetime Value.",
+            "subjects": [
+                {
+                    "id": 393,
+                    "subject": "New"
+                },
+                {
+                    "id": 393,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 393,
+                    "subject": "Enterprise MCP Server"
+                },
+                {
+                    "id": 393,
+                    "subject": "OpenAI"
+                },
+                {
+                    "id": 393,
+                    "subject": "Flowise"
+                },
+                {
+                    "id": 393,
+                    "subject": "VantageCloud"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "VantageCloud_Lake/UseCases/Customer_Lifetime_Value_Agent/Customer_Lifetime_Value_Agents.ipynb",
+                    "label": "Information"
                 }
             ]
         },
@@ -3066,11 +3194,11 @@
             "subjects": [
                 {
                     "id": 138,
-                    "subject": "Energy & Natural Resources"
+                    "subject": "Azure ML"
                 },
                 {
                     "id": 138,
-                    "subject": "Azure ML"
+                    "subject": "Energy & Natural Resources"
                 },
                 {
                     "id": 138,
@@ -3128,10 +3256,6 @@
                 {
                     "id": 375,
                     "subject": "EFS"
-                },
-                {
-                    "id": 375,
-                    "subject": "Innovation Day"
                 }
             ],
             "links": [
@@ -3158,10 +3282,6 @@
                 {
                     "id": 376,
                     "subject": "EFS"
-                },
-                {
-                    "id": 376,
-                    "subject": "Innovation Day"
                 }
             ],
             "links": [
@@ -3188,10 +3308,6 @@
                 {
                     "id": 378,
                     "subject": "EFS"
-                },
-                {
-                    "id": 378,
-                    "subject": "Innovation Day"
                 }
             ],
             "links": [
@@ -3218,16 +3334,88 @@
                 {
                     "id": 377,
                     "subject": "EFS"
-                },
-                {
-                    "id": 377,
-                    "subject": "Innovation Day"
                 }
             ],
             "links": [
                 {
                     "type": "notebook",
                     "url": "Getting_Started/Enterprise_Feature_Store/EFS-FeatureProcess.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 388,
+            "demo": "Entity Resolution with In-Database Embeddings and Analytics",
+            "description": "Enhance conventional text matching by incorporating semantic embeddngs derived from pre-trained language models.",
+            "subjects": [
+                {
+                    "id": 388,
+                    "subject": "New"
+                },
+                {
+                    "id": 388,
+                    "subject": "Python"
+                },
+                {
+                    "id": 388,
+                    "subject": "H2O.ai"
+                },
+                {
+                    "id": 388,
+                    "subject": "AutoML"
+                },
+                {
+                    "id": 388,
+                    "subject": "ONNX"
+                },
+                {
+                    "id": 388,
+                    "subject": "Hugging Face"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Entity_Resolution_using_Embeddings/Entity_Resolution_Python.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 387,
+            "demo": "Entity Resolution with In-Database Embeddings and Analytics: Model Creation",
+            "description": "Install and run a local H2O instance to build a Binary Classification model using Open Source H2O AutoML.",
+            "subjects": [
+                {
+                    "id": 387,
+                    "subject": "New"
+                },
+                {
+                    "id": 387,
+                    "subject": "Python"
+                },
+                {
+                    "id": 387,
+                    "subject": "H2O.ai"
+                },
+                {
+                    "id": 387,
+                    "subject": "AutoML"
+                },
+                {
+                    "id": 387,
+                    "subject": "ONNX"
+                },
+                {
+                    "id": 387,
+                    "subject": "Hugging Face"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Entity_Resolution_using_Embeddings/Entity_Resolution_Classification_Model_Creation.ipynb",
                     "label": "Python Version"
                 }
             ]
@@ -3674,10 +3862,6 @@
                 {
                     "id": 371,
                     "subject": "Hugging Face"
-                },
-                {
-                    "id": 371,
-                    "subject": "Innovation Day"
                 }
             ],
             "links": [
@@ -4003,6 +4187,32 @@
             ]
         },
         {
+            "id": 383,
+            "demo": "Getting Started with Teradata MCP Server on Teradata Vantage Enterprise - Installation",
+            "description": "Download and install the required infrastructure to run the Teradata MCP Server connected to the local Vantage database.",
+            "subjects": [
+                {
+                    "id": 383,
+                    "subject": "New"
+                },
+                {
+                    "id": 383,
+                    "subject": "Python"
+                },
+                {
+                    "id": 383,
+                    "subject": "Community MCP Server"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Getting_Started/MCP_Server_Workbench/00-Setup_demo.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 128,
             "demo": "Graph Analysis of CDR Records",
             "description": "Uses graph analysis to identify communities and key influencers within Call Data Records.  This uses Script Table Operator to invoke external procedures to work inside the Vantage database without exporting data.",
@@ -4286,15 +4496,15 @@
             "subjects": [
                 {
                     "id": 129,
+                    "subject": "Machine Learning"
+                },
+                {
+                    "id": 129,
                     "subject": "Retail"
                 },
                 {
                     "id": 129,
                     "subject": "Marketing"
-                },
-                {
-                    "id": 129,
-                    "subject": "Machine Learning"
                 },
                 {
                     "id": 129,
@@ -4377,6 +4587,40 @@
                     "type": "notebook",
                     "url": "Recipes/ClearScape_Functions/Image2matrixandMatrix2Image.ipynb",
                     "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 390,
+            "demo": "Improve Customer Satisfaction Through Travel Insights",
+            "description": "Analyze how the distance a customer travels to a bank branch affects customer satisfaction.",
+            "subjects": [
+                {
+                    "id": 390,
+                    "subject": "New"
+                },
+                {
+                    "id": 390,
+                    "subject": "SQL"
+                },
+                {
+                    "id": 390,
+                    "subject": "Geospatial"
+                },
+                {
+                    "id": 390,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 390,
+                    "subject": "Large Language Models"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Improving_Customer_Satisfaction_Travel_Insights/Improving_Customer_Satisfaction_Travel_Insights_SQL.ipynb",
+                    "label": "SQL Version"
                 }
             ]
         },
@@ -4846,15 +5090,15 @@
             "subjects": [
                 {
                     "id": 116,
+                    "subject": "Retail"
+                },
+                {
+                    "id": 116,
                     "subject": "Machine Learning"
                 },
                 {
                     "id": 116,
                     "subject": "Marketing"
-                },
-                {
-                    "id": 116,
-                    "subject": "Retail"
                 },
                 {
                     "id": 116,
@@ -5250,15 +5494,15 @@
             "subjects": [
                 {
                     "id": 130,
-                    "subject": "Machine Learning"
-                },
-                {
-                    "id": 130,
                     "subject": "Retail"
                 },
                 {
                     "id": 130,
                     "subject": "Marketing"
+                },
+                {
+                    "id": 130,
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 130,
@@ -5285,7 +5529,7 @@
             "subjects": [
                 {
                     "id": 131,
-                    "subject": "Marketing"
+                    "subject": "Retail"
                 },
                 {
                     "id": 131,
@@ -5293,7 +5537,7 @@
                 },
                 {
                     "id": 131,
-                    "subject": "Retail"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 131,
@@ -5394,11 +5638,11 @@
             "subjects": [
                 {
                     "id": 26,
-                    "subject": "Geospatial"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 26,
-                    "subject": "Travel & Transportation"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 26,
@@ -5719,10 +5963,6 @@
             "subjects": [
                 {
                     "id": 379,
-                    "subject": "New"
-                },
-                {
-                    "id": 379,
                     "subject": "Python"
                 },
                 {
@@ -5735,7 +5975,7 @@
                 },
                 {
                     "id": 379,
-                    "subject": "Vantage Cloud Lake"
+                    "subject": "VantageCloud"
                 }
             ],
             "links": [
@@ -6268,11 +6508,11 @@
             "subjects": [
                 {
                     "id": 113,
-                    "subject": "Travel & Transportation"
+                    "subject": "Manufacturing"
                 },
                 {
                     "id": 113,
-                    "subject": "Manufacturing"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 113,
@@ -6539,11 +6779,11 @@
             "subjects": [
                 {
                     "id": 143,
-                    "subject": "Hypothesis testing"
+                    "subject": "Descriptive Statistics"
                 },
                 {
                     "id": 143,
-                    "subject": "Descriptive Statistics"
+                    "subject": "Hypothesis testing"
                 },
                 {
                     "id": 143,
@@ -6581,11 +6821,11 @@
                 },
                 {
                     "id": 149,
-                    "subject": "Machine Learning"
+                    "subject": "Python"
                 },
                 {
                     "id": 149,
-                    "subject": "Python"
+                    "subject": "Machine Learning"
                 }
             ],
             "links": [
@@ -7224,10 +7464,6 @@
                 {
                     "id": 366,
                     "subject": "AWS Bedrock"
-                },
-                {
-                    "id": 366,
-                    "subject": "Possible 2025"
                 }
             ],
             "links": [
@@ -7444,11 +7680,11 @@
                 },
                 {
                     "id": 134,
-                    "subject": "Retail"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 134,
-                    "subject": "Marketing"
+                    "subject": "Retail"
                 },
                 {
                     "id": 134,
@@ -7566,17 +7802,55 @@
             ]
         },
         {
+            "id": 386,
+            "demo": "Supervised Text Classification using ONNX Embeddings and BYOM",
+            "description": "Explore a practical approach to text classification using ONNXEmbeddings a a medical dataset.",
+            "subjects": [
+                {
+                    "id": 386,
+                    "subject": "New"
+                },
+                {
+                    "id": 386,
+                    "subject": "Python"
+                },
+                {
+                    "id": 386,
+                    "subject": "Healthcare"
+                },
+                {
+                    "id": 386,
+                    "subject": "ONNX"
+                },
+                {
+                    "id": 386,
+                    "subject": "BYOM"
+                },
+                {
+                    "id": 386,
+                    "subject": "Hugging Face"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ONNX/Supervised_Text_Classification_Onnxembeddings_Byom/Supervised_text_classification_onnxembeddings_byom.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 150,
             "demo": "Supply Chain Visibility",
             "description": "Shows the integration of data from warehouse, trucking company, and customer Order Management Systems (OMS) using temporal  to reconcile different update frequencies and show rerouting when warehouse is unavailable.",
             "subjects": [
                 {
                     "id": 150,
-                    "subject": "Time series analytics"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 150,
-                    "subject": "Travel & Transportation"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 150,
@@ -7828,10 +8102,6 @@
                 },
                 {
                     "id": 373,
-                    "subject": "Possible 2025"
-                },
-                {
-                    "id": 373,
                     "subject": "Telco"
                 }
             ],
@@ -7850,11 +8120,11 @@
             "subjects": [
                 {
                     "id": 48,
-                    "subject": "Geospatial"
+                    "subject": "Telco"
                 },
                 {
                     "id": 48,
-                    "subject": "Telco"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 48,
@@ -7953,6 +8223,32 @@
             ]
         },
         {
+            "id": 384,
+            "demo": "Teradata MCP - Local Vantage Demo",
+            "description": "Explore some of the features of the Teradata MCP Server. Run a chat bot to ask questions about the local Vantage Enterprise database.",
+            "subjects": [
+                {
+                    "id": 384,
+                    "subject": "New"
+                },
+                {
+                    "id": 384,
+                    "subject": "Python"
+                },
+                {
+                    "id": 384,
+                    "subject": "Community MCP Server"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Getting_Started/MCP_Server_Workbench/01-chat_with_MCP.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 181,
             "demo": "Teradata Package for R Basics",
             "description": "Discoverer how the Teradata Package for R (tdplyr) allows users to develop and run R programs to take advantage of Big Data and Machine Learning analytic capabilities of Vantage.",
@@ -7988,6 +8284,44 @@
                 {
                     "type": "notebook",
                     "url": "BusinessSolutions/BusinessSolutionsOfferings.ipynb",
+                    "label": "Information"
+                }
+            ]
+        },
+        {
+            "id": 392,
+            "demo": "Teradata_AgentBuilder Getting Started",
+            "description": "This notebook provides step by step instructions on how to create an agent, connect to the Teradata Enterprise MCP Server, access a Large Language Model, and then create a chat session with our database.",
+            "subjects": [
+                {
+                    "id": 392,
+                    "subject": "New"
+                },
+                {
+                    "id": 392,
+                    "subject": "OpenAI"
+                },
+                {
+                    "id": 392,
+                    "subject": "Enterprise MCP Server"
+                },
+                {
+                    "id": 392,
+                    "subject": "Getting Started"
+                },
+                {
+                    "id": 392,
+                    "subject": "Flowise"
+                },
+                {
+                    "id": 392,
+                    "subject": "VantageCloud"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "VantageCloud_Lake/Getting_Started/Teradata_AgentBuilder/Teradata_AgentBuilder_Getting_Started.ipynb",
                     "label": "Information"
                 }
             ]
@@ -8360,6 +8694,44 @@
             ]
         },
         {
+            "id": 391,
+            "demo": "Use Parallel CPU Inferencing of HuggingFace Models in Vantage to build a model",
+            "description": "Select a HuggingFace Model, Load it into the database, then use Parallel Inferencing in-Db to create model files and embeddings tables for use in other demos.",
+            "subjects": [
+                {
+                    "id": 391,
+                    "subject": "New"
+                },
+                {
+                    "id": 391,
+                    "subject": "Python"
+                },
+                {
+                    "id": 391,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 391,
+                    "subject": "ONNX"
+                },
+                {
+                    "id": 391,
+                    "subject": "Hugging Face"
+                },
+                {
+                    "id": 391,
+                    "subject": "Large Language Models"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Improving_Customer_Satisfaction_Travel_Insights/Initialization_and_Model_Load_Travel_Insights.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 158,
             "demo": "Using ClearScape Analytics with openAI",
             "description": "To ensure optimal utilization of the OpenAI API in generative AI notebooks, it is essential to establish the API keys correctly. This concise guide outlines the process of configuring OpenAI API keys for seamless integration across multiple notebooks.",
@@ -8651,6 +9023,40 @@
                 {
                     "type": "notebook",
                     "url": "Recipes/ClearScape_Functions/VectorDistance.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 382,
+            "demo": "Vectore Store - Getting Started",
+            "description": "Explore the key concepts, vector embedding mechanisms and efficient search techniques using Vector Store in VantageCloud Lake.",
+            "subjects": [
+                {
+                    "id": 382,
+                    "subject": "New"
+                },
+                {
+                    "id": 382,
+                    "subject": "Python"
+                },
+                {
+                    "id": 382,
+                    "subject": "VantageCloud"
+                },
+                {
+                    "id": 382,
+                    "subject": "Vector Store"
+                },
+                {
+                    "id": 382,
+                    "subject": "Getting Started"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "VantageCloud_Lake/Getting_Started/VectorStore/VectorStore_Getting_Started.ipynb",
                     "label": "Python Version"
                 }
             ]
