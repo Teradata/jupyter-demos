@@ -6,7 +6,15 @@
             "subjects": [
                 {
                     "subjseq": 1,
+                    "subject": "Community MCP Server"
+                },
+                {
+                    "subjseq": 1,
                     "subject": "First Time User"
+                },
+                {
+                    "subjseq": 2,
+                    "subject": "Enterprise MCP Server"
                 },
                 {
                     "subjseq": 2,
@@ -31,11 +39,32 @@
             ]
         },
         {
-            "category": "VantageCloud Lake",
+            "category": "Teradata AgentBuilder",
             "subjects": [
                 {
                     "subjseq": 1,
-                    "subject": "Vantage Cloud Lake"
+                    "subject": "Enterprise MCP Server"
+                },
+                {
+                    "subjseq": 2,
+                    "subject": "Flowise"
+                },
+                {
+                    "subjseq": 4,
+                    "subject": "VantageCloud"
+                },
+                {
+                    "subjseq": 5,
+                    "subject": "Vector Store"
+                }
+            ]
+        },
+        {
+            "category": "VantageCloud AWS",
+            "subjects": [
+                {
+                    "subjseq": 1,
+                    "subject": "VantageCloud"
                 },
                 {
                     "subjseq": 3,
@@ -43,24 +72,11 @@
                 },
                 {
                     "subjseq": 4,
-                    "subject": "Vectore Store"
-                }
-            ]
-        },
-        {
-            "category": "Conferences & Workshops",
-            "subjects": [
-                {
-                    "subjseq": 3,
-                    "subject": "Innovation Day"
-                },
-                {
-                    "subjseq": 4,
-                    "subject": "nVidia GTC 2025"
+                    "subject": "Vector Store"
                 },
                 {
                     "subjseq": 5,
-                    "subject": "Possible 2025"
+                    "subject": "Getting Started"
                 }
             ]
         },
@@ -121,6 +137,10 @@
         {
             "category": "Analytic Function",
             "subjects": [
+                {
+                    "subjseq": 4,
+                    "subject": "BYOM"
+                },
                 {
                     "subjseq": 39,
                     "subject": "ARIMA"
@@ -260,6 +280,14 @@
                 {
                     "subjseq": 73,
                     "subject": "Unbounded Array Framework"
+                },
+                {
+                    "subjseq": 74,
+                    "subject": "Enterprise Vector Store"
+                },
+                {
+                    "subjseq": 75,
+                    "subject": "teradatagenai"
                 }
             ]
         },
@@ -337,6 +365,14 @@
                 {
                     "subjseq": 22,
                     "subject": "LangChain"
+                },
+                {
+                    "subjseq": 23,
+                    "subject": "ONNX"
+                },
+                {
+                    "subjseq": 24,
+                    "subject": "Flowise"
                 }
             ]
         },
@@ -383,35 +419,6 @@
             ]
         },
         {
-            "category": "Other",
-            "subjects": [
-                {
-                    "subjseq": 1,
-                    "subject": "Beta Review"
-                },
-                {
-                    "subjseq": 2,
-                    "subject": "MCP Server"
-                },
-                {
-                    "subjseq": 2,
-                    "subject": "New"
-                },
-                {
-                    "subjseq": 3,
-                    "subject": "Parallel CPU Inferencing"
-                },
-                {
-                    "subjseq": 4,
-                    "subject": "Dashboard Notebook"
-                },
-                {
-                    "subjseq": 5,
-                    "subject": "EFS"
-                }
-            ]
-        },
-        {
             "category": "Cloud Provider",
             "subjects": [
                 {
@@ -446,6 +453,35 @@
                 {
                     "subjseq": 4,
                     "subject": "Teradata Packages"
+                }
+            ]
+        },
+        {
+            "category": "Other",
+            "subjects": [
+                {
+                    "subjseq": 1,
+                    "subject": "Beta Review"
+                },
+                {
+                    "subjseq": 2,
+                    "subject": "MCP Server"
+                },
+                {
+                    "subjseq": 2,
+                    "subject": "New"
+                },
+                {
+                    "subjseq": 3,
+                    "subject": "Parallel CPU Inferencing"
+                },
+                {
+                    "subjseq": 4,
+                    "subject": "Dashboard Notebook"
+                },
+                {
+                    "subjseq": 5,
+                    "subject": "EFS"
                 }
             ]
         }

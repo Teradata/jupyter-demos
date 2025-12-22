@@ -24,19 +24,19 @@ If you have questions or issues, [**click here**](mailto:SC230208@teradata.com?s
 
 | Getting Started | Industries | Business Function | Analytic Function| 3rd Party Tools|
 |-----------|--------------|---------------|--------------- | --------------- |
-|<a href='#xFirst-Time-User'>**First Time User**</a>|<a href='#xVantage-Cloud-Lake'>Vantage Cloud Lake</a>|<a href='#xPossible-2025'>Possible 2025</a>|<a href='#xAutomotive'>Automotive</a>|<a href='#xFinance'>Finance</a>| |<a href='#xAWS-SageMaker'>AWS SageMaker</a>|<a href='#xPython'>Python</a>|<a href='#xAnomaly-Detection'>Anomaly Detection</a>|*Beta Review*|<a href='#xAWS'>AWS</a>|<a href='#xClearScape-Analytic-Functions'>ClearScape Analytic Functions</a>|
-|<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>| |<a href='#xInnovation-Day'>Innovation Day</a>|<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>| |<a href='#xAzure-ML'>Azure ML</a>|<a href='#xSQL'>SQL</a>|<a href='#xCustomer-Complaint-Analysis'>Customer Complaint Analysis</a>|<a href='#xNew'>New</a>|*MCP Server*|<a href='#xGoogle'>Google</a>|<a href='#xVantage-Database-Functions'>Vantage Database Functions</a>|
-|<a href='#xDeveloper-Information'>Developer Information</a>|<a href='#xOpen-Analytics-Framework'>Open Analytics Framework</a>| |<a href='#xFinancial'>Financial</a>| | |<a href='#xCelebrus'>Celebrus</a>| |<a href='#xEnterprise-Feature-Store'>Enterprise Feature Store</a>|<a href='#xParallel-CPU-Inferencing'>Parallel CPU Inferencing</a>|<a href='#xAzure'>Azure</a>|<a href='#xModel-Pipelines'>Model Pipelines</a>|
-|<a href='#xExperienceBot'>ExperienceBot</a>|*Vectore Store*| |<a href='#xHealthcare'>Healthcare</a>| | |<a href='#xDataiku'>Dataiku</a>| |*Model Factory*|<a href='#xDashboard-Notebook'>Dashboard Notebook</a>| |<a href='#xTeradata-Packages'>Teradata Packages</a>|
-|*EFS*|<a href='#xDemo-Introduction'>Demo Introduction</a>| | |<a href='#xManufacturing'>Manufacturing</a>| | |<a href='#xH2O.ai'>H2O.ai</a>| |<a href='#xEnd-to-End'>End-to-End</a>|<a href='#xEFS'>EFS</a>| | |
-| | | |<a href='#xRetail'>Retail</a>| | |*Microsoft PowerBI*| | | | | |
-| | | |<a href='#xTelco'>Telco</a>| | |*MicroStrategy*| | | | | |
-| | | |<a href='#xTravel-&-Transportation'>Travel & Transportation</a>| | | |<a href='#xR'>R</a>| | | | |
-| | | |<a href='#xDefense'>Defense</a>| | |*SAP Business Objects*| | | | | |
-| | | | | | |<a href='#xSAS'>SAS</a>| | | | | |
-| | | | | | |*Tableau*| | | | | |
-| | | | | | |<a href='#xVertex-AI'>Vertex AI</a>| | | | | |
-| | | | | | |<a href='#xAWS-Bedrock'>AWS Bedrock</a>| | | | | |
+|<a href='#xCommunity-MCP-Server'>Community MCP Server</a>|<a href='#xFirst-Time-User'>**First Time User**</a>|<a href='#xVantageCloud'>VantageCloud</a>| |<a href='#xAutomotive'>Automotive</a>|<a href='#xFinance'>Finance</a>| |<a href='#xAWS-SageMaker'>AWS SageMaker</a>|<a href='#xPython'>Python</a>|<a href='#xAnomaly-Detection'>Anomaly Detection</a>|*Beta Review*|<a href='#xAWS'>AWS</a>|<a href='#xClearScape-Analytic-Functions'>ClearScape Analytic Functions</a>|*Enterprise MCP Server*|
+|<a href='#xEnterprise-MCP-Server'>Enterprise MCP Server</a>|<a href='#xI-am-**not**-a-programmer'>I am **not** a programmer</a>| | |<a href='#xEnergy-&-Natural-Resources'>Energy & Natural Resources</a>|<a href='#xMarketing'>Marketing</a>| |<a href='#xAzure-ML'>Azure ML</a>|<a href='#xSQL'>SQL</a>|<a href='#xCustomer-Complaint-Analysis'>Customer Complaint Analysis</a>|<a href='#xNew'>New</a>|*MCP Server*|<a href='#xGoogle'>Google</a>|<a href='#xVantage-Database-Functions'>Vantage Database Functions</a>|*Flowise*|
+|<a href='#xDeveloper-Information'>Developer Information</a>|<a href='#xOpen-Analytics-Framework'>Open Analytics Framework</a>| |<a href='#xFinancial'>Financial</a>| | |<a href='#xCelebrus'>Celebrus</a>| |<a href='#xEnterprise-Feature-Store'>Enterprise Feature Store</a>|<a href='#xParallel-CPU-Inferencing'>Parallel CPU Inferencing</a>|<a href='#xAzure'>Azure</a>|<a href='#xModel-Pipelines'>Model Pipelines</a>| |
+|<a href='#xExperienceBot'>ExperienceBot</a>|<a href='#xVector-Store'>Vector Store</a>| |<a href='#xHealthcare'>Healthcare</a>| |<a href='#xBYOM'>BYOM</a>|<a href='#xDataiku'>Dataiku</a>| |*Model Factory*|<a href='#xDashboard-Notebook'>Dashboard Notebook</a>| |<a href='#xTeradata-Packages'>Teradata Packages</a>|*VantageCloud*|
+|*EFS*|<a href='#xDemo-Introduction'>Demo Introduction</a>|<a href='#xGetting-Started'>Getting Started</a>| |<a href='#xManufacturing'>Manufacturing</a>| | |<a href='#xH2O.ai'>H2O.ai</a>| |<a href='#xEnd-to-End'>End-to-End</a>|<a href='#xEFS'>EFS</a>| | |*Vector Store*|
+| | | |<a href='#xRetail'>Retail</a>| | |*Microsoft PowerBI*| | | | | | |
+| | | |<a href='#xTelco'>Telco</a>| | |*MicroStrategy*| | | | | | |
+| | | |<a href='#xTravel-&-Transportation'>Travel & Transportation</a>| | | |<a href='#xR'>R</a>| | | | | |
+| | | |<a href='#xDefense'>Defense</a>| | |*SAP Business Objects*| | | | | | |
+| | | | | | |<a href='#xSAS'>SAS</a>| | | | | | |
+| | | | | | |*Tableau*| | | | | | |
+| | | | | | |<a href='#xVertex-AI'>Vertex AI</a>| | | | | | |
+| | | | | | |<a href='#xAWS-Bedrock'>AWS Bedrock</a>| | | | | | |
 
 
 
@@ -59,6 +59,22 @@ Work through a series of practical exercises that demonstrate how to use the Ent
 Follow these steps to create your first Azure account and create an Azure Machine Learning workspace to complete our AzureML use cases.<br>
 [Information](./UseCases/Energy_Consumption_Forecasting_AzureML/Getting_Started_with_Azure.ipynb)
 
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xCommunity-MCP-Server'></a>
+### Community MCP Server
+
+#### Getting Started with Teradata MCP Server on Teradata Vantage Enterprise - Installation
+Download and install the required infrastructure to run the Teradata MCP Server connected to the local Vantage database.<br>
+[Python Version](./Getting_Started/MCP_Server_Workbench/00-Setup_demo.ipynb)
+
+#### Teradata MCP - Local Vantage Demo
+Explore some of the features of the Teradata MCP Server. Run a chat bot to ask questions about the local Vantage Enterprise database.<br>
+[Python Version](./Getting_Started/MCP_Server_Workbench/01-chat_with_MCP.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xFirst-Time-User'></a>
+### First Time User
+
 #### Getting Started with Azure OpenAI
 Follow these instructions to setup the Azure OpenAI endpoint and generate the access Keys required to run the model.<br>
 [Python Version](./UseCases/Complaints_Analysis_Azure_OpenAI/Azure-OpenAI.ipynb)
@@ -78,6 +94,18 @@ When running a Jupyter Notebook, there are various indicators that show what is 
 #### I am **not** a programmer
 Not everyone that uses this site will want to learn programming. Some will want to review the business cases, look at the steps for the analysis and look at the tables, charts and maps. This is a guide for those people.<br>
 [Information](./Getting_Started/I_am_not_a_programmer/I_am_not_a_programmer.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xEnterprise-MCP-Server'></a>
+### Enterprise MCP Server
+
+#### Discover Customer Lifetime Value using Teradata AgentBuilder
+Explore the capabilities of Teradata AgentBuilder to explore an AgenticAI workflow to ask questions and generate charts about Customer Lifetime Value.<br>
+[Information](./VantageCloud_Lake/UseCases/Customer_Lifetime_Value_Agent/Customer_Lifetime_Value_Agents.ipynb)
+
+#### Teradata_AgentBuilder Getting Started
+This notebook provides step by step instructions on how to create an agent, connect to the Teradata Enterprise MCP Server, access a Large Language Model, and then create a chat session with our database.<br>
+[Information](./VantageCloud_Lake/Getting_Started/Teradata_AgentBuilder/Teradata_AgentBuilder_Getting_Started.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xDeveloper-Information'></a>
@@ -199,18 +227,50 @@ Find out how Teradata can help you deliver better customer experience, build cus
 
 ---
 
-## VantageCloud Lake
+## VantageCloud AWS
 
-<a id='xVantage-Cloud-Lake'></a>
-### Vantage Cloud Lake
+<a id='xVantageCloud'></a>
+### VantageCloud
+
+#### Chatbot using Teradata's Enterprise Vector Store
+Build a chat interface to ask questions using conversational AI after loading a selection of PDF files.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Chatbot_Teradata_Vector_Store/Chatbot_Teradata_Vector_Store.ipynb)
+
+#### Vectore Store - Getting Started
+Explore the key concepts, vector embedding mechanisms and efficient search techniques using Vector Store in VantageCloud Lake.<br>
+[Python Version](./VantageCloud_Lake/Getting_Started/VectorStore/VectorStore_Getting_Started.ipynb)
 
 #### Chat with VantageCloud Lake Using the Google ADK and the Teradata MCP Server
 Use the Google ADK to connect to the Teradata MCP Server and ask questions about the databases in our VantageCloud Lake database.<br>
 [Python Version](./UseCases/Chat_with_Teradata_MCP_Server/Chat_with_Teradata_MCP_Server_Python.ipynb)
 
+#### Answering Medical Questions about Images using VantageCloud and Open-Source Language Models
+Upload a model into an Open Analytics Framework environment and ask medical questions about selected images.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Medical_Visual_Question_Answering_BYOLLM/Medical_Visual_Question_Answering.ipynb)
+
+#### Parkinson's Disease Prediction using Decision Forest Classifier and GLM
+See how Vantage In-Database functions can be used for Model training and scoring by comparing the performance of 2 models.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_Python.ipynb)
+
+#### Discover Customer Lifetime Value using Teradata AgentBuilder
+Explore the capabilities of Teradata AgentBuilder to explore an AgenticAI workflow to ask questions and generate charts about Customer Lifetime Value.<br>
+[Information](./VantageCloud_Lake/UseCases/Customer_Lifetime_Value_Agent/Customer_Lifetime_Value_Agents.ipynb)
+
+#### Teradata_AgentBuilder Getting Started
+This notebook provides step by step instructions on how to create an agent, connect to the Teradata Enterprise MCP Server, access a Large Language Model, and then create a chat session with our database.<br>
+[Information](./VantageCloud_Lake/Getting_Started/Teradata_AgentBuilder/Teradata_AgentBuilder_Getting_Started.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xOpen-Analytics-Framework'></a>
 ### Open Analytics Framework
+
+#### Answering Medical Questions about Images using VantageCloud and Open-Source Language Models
+Upload a model into an Open Analytics Framework environment and ask medical questions about selected images.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Medical_Visual_Question_Answering_BYOLLM/Medical_Visual_Question_Answering.ipynb)
+
+#### Parkinson's Disease Prediction using Decision Forest Classifier and GLM
+See how Vantage In-Database functions can be used for Model training and scoring by comparing the performance of 2 models.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_Python.ipynb)
 
 #### Simplify Text Analytics with Teradata Python for Generative AI
 The teradatagenai Python library enables everyone to run analytics on their unstructured data directly within GPU Compute Cluster in VantageCloud Lake.<br>
@@ -221,53 +281,28 @@ The teradatagenai Python library enables everyone to run analytics on their unst
 [Python Version](./VantageCloud_Lake/UseCases/Entity_Recognition_BYOLLM/Entity_Recogntion_BYOLLM_VCL.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xVector-Store'></a>
+### Vector Store
 
----
+#### Chatbot using Teradata's Enterprise Vector Store
+Build a chat interface to ask questions using conversational AI after loading a selection of PDF files.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Chatbot_Teradata_Vector_Store/Chatbot_Teradata_Vector_Store.ipynb)
 
-## Workshops
-
-<a id='xPossible-2025'></a>
-### Possible 2025
-
-#### Chatbot using Vantage & GenAI with Insurance PDF document
-Uses TD_VectorDistance in Vantage to create a chatbot using RAG, Langchain, and LLM to answer questions using a travelers insurance policy PDF."<br>
-[Python-SQL Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
-
-#### Telco Customer Churn using the GLM Function
-Use Teradata's machine learning and predictive analytics to build a model to predict customers which are likely to churn in the future.<br>
-[Python Version](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_GLM_Python.ipynb)
-
-#### Simplify Text Analytics with Teradata Python for Generative AI
-The teradatagenai Python library enables everyone to run analytics on their unstructured data directly within GPU Compute Cluster in VantageCloud Lake.<br>
-[Python Version](./VantageCloud_Lake/UseCases/Text_Analytics_teradatagenai_AWS/text_analytics_teradatagenai_aws_huggingface.ipynb)
-
-#### Customer Complaints Analysis with Customer360 with AWS Bedrock
-Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
-[Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Analysis_Customer360.ipynb)
+#### Vectore Store - Getting Started
+Explore the key concepts, vector embedding mechanisms and efficient search techniques using Vector Store in VantageCloud Lake.<br>
+[Python Version](./VantageCloud_Lake/Getting_Started/VectorStore/VectorStore_Getting_Started.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
-<a id='xInnovation-Day'></a>
-### Innovation Day
+<a id='xGetting-Started'></a>
+### Getting Started
 
-#### Enterprise Feature Store - DataDomain
-Build and manage a feature store across multiple business domains.<br>
-[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-DataDomain.ipynb)
+#### Teradata_AgentBuilder Getting Started
+This notebook provides step by step instructions on how to create an agent, connect to the Teradata Enterprise MCP Server, access a Large Language Model, and then create a chat session with our database.<br>
+[Information](./VantageCloud_Lake/Getting_Started/Teradata_AgentBuilder/Teradata_AgentBuilder_Getting_Started.ipynb)
 
-#### Enterprise Feature Store - DatasetCatalog
-Execute an end-to-end workflow that will build a feature store and dataset catalog.<br>
-[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-DatasetCatalog.ipynb)
-
-#### Enterprise Feature Store - Feature Store 
-Build, manage, and utilize an enterprise feature store. Execute an  end-to-end workflow for feature engineering, ingestion, cataloging, and governance with features derived from business data such as sales, marketing, and transactions.<br>
-[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-FeatureStore.ipynb)
-
-#### Enterprise Feature Store - FeatureProcess
-Build and manage a feature store for sales analytics. Execute an end-to-end process of feature engineering, transformation, and governance for sales transaction data.<br>
-[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-FeatureProcess.ipynb)
-
-#### From Complaints to Clarity: Uncovering Hidden Trends in Telco Customer Feedback
-See how a fully data-driven approach can help analyze large volumes of text data, automatically identifying topics and tracking their trends over time.<br>
-[Python Version](./UseCases/Telco_Complaints_Analysis_InVantage/Telco_Complaints_Analysis_Ivsm.ipynb)
+#### Vectore Store - Getting Started
+Explore the key concepts, vector embedding mechanisms and efficient search techniques using Vector Store in VantageCloud Lake.<br>
+[Python Version](./VantageCloud_Lake/Getting_Started/VectorStore/VectorStore_Getting_Started.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
@@ -442,9 +477,25 @@ Use a dataset containing variables like age, sex, BMI, smoking status, number of
 Use the Vantage SageMaker API feature to connect to an Amazon Endpoint to orchestrate Extreme Gradient XG Boost model training and score the model in SageMaker.  Deploy the solution's ML model.<br>
 [Python Version](./UseCases/CancerPrediction_TDApiClient/CancerPrediction_tdapiClient_Sagemaker.ipynb)
 
+#### Combining Structured and Unstructured Data for Predictive Modeling
+Turn structured and unstructured data into meaningful features using embeddings and clustering and then send them to a model.<br>
+[Python Version](./Recipes/ONNX/Combine_Structured_Unstructured_Predictive_Modelling/Combine_structured_unstructured_predictive_modelling.ipynb)
+
+#### Supervised Text Classification using ONNX Embeddings and BYOM
+Explore a practical approach to text classification using ONNXEmbeddings a a medical dataset.<br>
+[Python Version](./Recipes/ONNX/Supervised_Text_Classification_Onnxembeddings_Byom/Supervised_text_classification_onnxembeddings_byom.ipynb)
+
+#### Answering Medical Questions about Images using VantageCloud and Open-Source Language Models
+Upload a model into an Open Analytics Framework environment and ask medical questions about selected images.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Medical_Visual_Question_Answering_BYOLLM/Medical_Visual_Question_Answering.ipynb)
+
 #### Hospital Readmission using Teradata AutoML Functionality
 Identify patients with a history of high hospital utilization, prescribed, or adjusted diabetes medications to derive predictions.<br>
 [Python Version](./UseCases/Hospital_Readmission_AutoML/Hospital_Readmission_AutoML.ipynb)
+
+#### Parkinson's Disease Prediction using Decision Forest Classifier and GLM
+See how Vantage In-Database functions can be used for Model training and scoring by comparing the performance of 2 models.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xManufacturing'></a>
@@ -755,6 +806,10 @@ Display distinct values and counts for a column in a Banking dataset<br>
 Summarize a column and return standard values like positive, negative, nulls, zeros, etc.<br>
 [Python Version](./Recipes/ClearScape_Functions/ColumnSummary.ipynb)
 
+#### Discover Customer Lifetime Value using Teradata AgentBuilder
+Explore the capabilities of Teradata AgentBuilder to explore an AgenticAI workflow to ask questions and generate charts about Customer Lifetime Value.<br>
+[Information](./VantageCloud_Lake/UseCases/Customer_Lifetime_Value_Agent/Customer_Lifetime_Value_Agents.ipynb)
+
 #### Ftest function in Vantage
 Compare the variance of two independent populations<br>
 [Python Version](./Recipes/ClearScape_Functions/FTest.ipynb)
@@ -799,6 +854,10 @@ Use the WhichMax function to explore a dataset.  Displays all rows that have the
 Use the WhichMin function to return a specified minimum value in a specified table's column.<br>
 [Python Version](./Recipes/ClearScape_Functions/WhichMin.ipynb)
 
+#### Anomaly Detection in Credit Card Accounts
+Use K-Means clustering to group similar transactions and identify anomalies based on Euclidean distances.<br>
+[Python Version](./UseCases/Anomaly_Detection_Credit_Card/Anomaly_Detection_Credit_Card_ONNXEmbeddings.ipynb)
+
 #### Automatic Data Pre-Processing with tdprepview
 Prepare datasets for tabular supervised or unsupervised machine learning. Prepare data to predict customer churn for a bank.<br>
 [Python Version](./Recipes/tdprepview/Automatic_DataPreprocessing_tdprepview.ipynb)
@@ -806,6 +865,14 @@ Prepare datasets for tabular supervised or unsupervised machine learning. Prepar
 #### End-to-End Demo for Financial Fraud Detection using Vantage
 Introduction to the traditional and automated approaches of building models to detect fraud.<br>
 [Information](./UseCases/Teradata_End_to_End_Demos/Financial_Fraud_Detection/Introduction_Teradata_End_to_End_Financial_Fraud_Detection.ipynb)
+
+#### Use Parallel CPU Inferencing of HuggingFace Models in Vantage to build a model
+Select a HuggingFace Model, Load it into the database, then use Parallel Inferencing in-Db to create model files and embeddings tables for use in other demos.<br>
+[Python Version](./UseCases/Improving_Customer_Satisfaction_Travel_Insights/Initialization_and_Model_Load_Travel_Insights.ipynb)
+
+#### Improve Customer Satisfaction Through Travel Insights
+Analyze how the distance a customer travels to a bank branch affects customer satisfaction.<br>
+[SQL Version](./UseCases/Improving_Customer_Satisfaction_Travel_Insights/Improving_Customer_Satisfaction_Travel_Insights_SQL.ipynb)
 
 #### OrdinalEncodingFit and OrdinalEncodingTransform in Vantage
 Analyze banking data to see if customer geography is influencing churn.<br>
@@ -877,6 +944,18 @@ Forecasts total store sales using ARIMA (AutoRegressive Integrated Moving Averag
 
 ## Analytic Function
 
+<a id='xBYOM'></a>
+### BYOM
+
+#### Combining Structured and Unstructured Data for Predictive Modeling
+Turn structured and unstructured data into meaningful features using embeddings and clustering and then send them to a model.<br>
+[Python Version](./Recipes/ONNX/Combine_Structured_Unstructured_Predictive_Modelling/Combine_structured_unstructured_predictive_modelling.ipynb)
+
+#### Supervised Text Classification using ONNX Embeddings and BYOM
+Explore a practical approach to text classification using ONNXEmbeddings a a medical dataset.<br>
+[Python Version](./Recipes/ONNX/Supervised_Text_Classification_Onnxembeddings_Byom/Supervised_text_classification_onnxembeddings_byom.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xARIMA'></a>
 ### ARIMA
 
@@ -907,6 +986,14 @@ Extract insights from unstructured data to identify and address customer concern
 #### Banking Churn Prediction with AutoML
 Implement the entire lifecycle of churn prediction using BYOM, VAL and AutoML.<br>
 [Python Version](./UseCases/Banking_Customer_Churn_AutoML/Banking_AutoML.ipynb)
+
+#### Entity Resolution with In-Database Embeddings and Analytics
+Enhance conventional text matching by incorporating semantic embeddngs derived from pre-trained language models.<br>
+[Python Version](./UseCases/Entity_Resolution_using_Embeddings/Entity_Resolution_Python.ipynb)
+
+#### Entity Resolution with In-Database Embeddings and Analytics: Model Creation
+Install and run a local H2O instance to build a Binary Classification model using Open Source H2O AutoML.<br>
+[Python Version](./UseCases/Entity_Resolution_using_Embeddings/Entity_Resolution_Classification_Model_Creation.ipynb)
 
 #### End-to-End Demo for Financial Fraud Detection using Vantage
 Introduction to the traditional and automated approaches of building models to detect fraud.<br>
@@ -1220,6 +1307,10 @@ Demonstrates the ability of Geospatial to show signal strength, coverage areas a
 Extract Teradata geospatial data and export it into widely-used formats such as ESRI shapefiles.<br>
 [Python Version](./Recipes/TD_Geo_Esri/TD_Geo_Esri.ipynb)
 
+#### Improve Customer Satisfaction Through Travel Insights
+Analyze how the distance a customer travels to a bank branch affects customer satisfaction.<br>
+[SQL Version](./UseCases/Improving_Customer_Satisfaction_Travel_Insights/Improving_Customer_Satisfaction_Travel_Insights_SQL.ipynb)
+
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xHyperparameter-Tuning'></a>
 ### Hyperparameter Tuning
@@ -1352,6 +1443,10 @@ Uncover hidden insights from vast amounts of consumer complaints data to enable 
 Use advanced clustering techniques using AI Embeddings model to group similar customer complaints together.<br>
 [Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaints_Clustering.ipynb)
 
+#### Improve Customer Satisfaction Through Travel Insights
+Analyze how the distance a customer travels to a bank branch affects customer satisfaction.<br>
+[SQL Version](./UseCases/Improving_Customer_Satisfaction_Travel_Insights/Improving_Customer_Satisfaction_Travel_Insights_SQL.ipynb)
+
 #### Topic Modelling with AWS Bedrock
 Uncover hidden insights from vast amounts of consumer complaints data to enable the identification of trends.<br>
 [Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Topic_Modelling.ipynb)
@@ -1359,6 +1454,10 @@ Uncover hidden insights from vast amounts of consumer complaints data to enable 
 #### Customer Complaints Analysis with Customer360 with AWS Bedrock
 Customer360 which is a comprehensive approach to managing customer complaints and feedback within the framework of a Customer 360-degree view<br>
 [Python Version](./UseCases/Complaints_Analysis_GenAI_Bedrock/Complaint_Analysis_Customer360.ipynb)
+
+#### Use Parallel CPU Inferencing of HuggingFace Models in Vantage to build a model
+Select a HuggingFace Model, Load it into the database, then use Parallel Inferencing in-Db to create model files and embeddings tables for use in other demos.<br>
+[Python Version](./UseCases/Improving_Customer_Satisfaction_Travel_Insights/Initialization_and_Model_Load_Travel_Insights.ipynb)
 
 #### Insights from Sentiment Analysis with AWS Bedrock
 Extract insights from unstructured data to identify and address customer concerns.<br>
@@ -1820,6 +1919,14 @@ Use the massive parallel architecture of Teradata Vantage to prepare data, train
 Use Teradata's machine learning and predictive analytics to build a model to predict customers which are likely to churn in the future.<br>
 [Python Version](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_GLM_Python.ipynb)
 
+#### Chatbot using Teradata's Enterprise Vector Store
+Build a chat interface to ask questions using conversational AI after loading a selection of PDF files.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Chatbot_Teradata_Vector_Store/Chatbot_Teradata_Vector_Store.ipynb)
+
+#### Combining Structured and Unstructured Data for Predictive Modeling
+Turn structured and unstructured data into meaningful features using embeddings and clustering and then send them to a model.<br>
+[Python Version](./Recipes/ONNX/Combine_Structured_Unstructured_Predictive_Modelling/Combine_structured_unstructured_predictive_modelling.ipynb)
+
 #### Predicting Medical Expenses in Healthcare
 Use a dataset containing variables like age, sex, BMI, smoking status, number of children, and region to build machine learning models that accurately predict healthcare costs for insurance policyholders, taking into account factors that affect medical expenses.<br>
 [Python Version](./UseCases/Health_Insurance/Health_Insurance_Costs_Python.ipynb)
@@ -1933,6 +2040,14 @@ Use the Unbounded Array Framework in ClearScape Analytics to classify sonar sign
 [Python Version](./UseCases/Signal_Processing_and_Classification/Signal_Processing_and_Classification_Python.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xteradatagenai'></a>
+### teradatagenai
+
+#### Chatbot using Teradata's Enterprise Vector Store
+Build a chat interface to ask questions using conversational AI after loading a selection of PDF files.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Chatbot_Teradata_Vector_Store/Chatbot_Teradata_Vector_Store.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
 
 ---
 
@@ -1984,6 +2099,14 @@ Demonstration of using Dataiku with Vantage. Instructions provided for use with 
 #### ModelOps Introduction & List of Notebooks
 This introduction and table of contents introduces you to ModelOps and provides a launch for ModelOps. It is **recommended** to go through ModelOps demonstrations in sequence.<br>
 [Information](./ModelOps/00_ModelOps_Introduction.ipynb)
+
+#### Entity Resolution with In-Database Embeddings and Analytics
+Enhance conventional text matching by incorporating semantic embeddngs derived from pre-trained language models.<br>
+[Python Version](./UseCases/Entity_Resolution_using_Embeddings/Entity_Resolution_Python.ipynb)
+
+#### Entity Resolution with In-Database Embeddings and Analytics: Model Creation
+Install and run a local H2O instance to build a Binary Classification model using Open Source H2O AutoML.<br>
+[Python Version](./UseCases/Entity_Resolution_using_Embeddings/Entity_Resolution_Classification_Model_Creation.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xSAS'></a>
@@ -2097,6 +2220,10 @@ Fine-tuned an OpenAI model using RAG, LangChain and LLM models framework.  Query
 Build a conversational chatbot and ask questions about a mortgage and available housing within a predefined area using LangChain.<br>
 [Python Version](./UseCases/Mortgage_Calculator_GenAI/Mortgage_Calculator_Python_TrustedAI_RAG.ipynb)
 
+#### Teradata_AgentBuilder Getting Started
+This notebook provides step by step instructions on how to create an agent, connect to the Teradata Enterprise MCP Server, access a Large Language Model, and then create a chat session with our database.<br>
+[Information](./VantageCloud_Lake/Getting_Started/Teradata_AgentBuilder/Teradata_AgentBuilder_Getting_Started.ipynb)
+
 #### Create a Workshop version of a Notebook
 Use OpenAI to convert code cells into interactive exercises with solutions that can be collapsed or expanded.<br>
 [Python Version](./Recipes/Creating_Workshop_Notebooks/Creating_Workshop_Notebooks.ipynb)
@@ -2116,6 +2243,10 @@ Run this notebook to search all notebooks with a ChatBot and Database connectivi
 #### Augmented Call Center: Revolutionizing Customer Support with Advanced AI Technologies
 Experience the next generation of customer support with our Augmented Call Center. Harness the power of advanced AI technologies to deliver exceptional service, drive customer loyalty, and achieve operational excellence.<br>
 [Python Version](./UseCases/Augmented_call_center_AgenticAI/Augmented_call_center_AgenticAI.ipynb)
+
+#### Discover Customer Lifetime Value using Teradata AgentBuilder
+Explore the capabilities of Teradata AgentBuilder to explore an AgenticAI workflow to ask questions and generate charts about Customer Lifetime Value.<br>
+[Information](./VantageCloud_Lake/UseCases/Customer_Lifetime_Value_Agent/Customer_Lifetime_Value_Agents.ipynb)
 
 #### Mortgage Calculator Chatbot using Trusted AI(RAG)
 Experience the integration of LLM models to provide user-friendly responses to queries.  RAG combines retrieval and generative approaches.<br>
@@ -2237,9 +2368,25 @@ See how a fully data-driven approach can help analyze large volumes of text da
 Use Vantage's nPath® functionality to unlock critical insights from a case history.<br>
 [Python Version](./UseCases/ServiceNow_Multipath_PatternAnalysis/ServiceNow_Multipath_PatternAnalysis_Python.ipynb)
 
+#### Use Parallel CPU Inferencing of HuggingFace Models in Vantage to build a model
+Select a HuggingFace Model, Load it into the database, then use Parallel Inferencing in-Db to create model files and embeddings tables for use in other demos.<br>
+[Python Version](./UseCases/Improving_Customer_Satisfaction_Travel_Insights/Initialization_and_Model_Load_Travel_Insights.ipynb)
+
+#### Entity Resolution with In-Database Embeddings and Analytics
+Enhance conventional text matching by incorporating semantic embeddngs derived from pre-trained language models.<br>
+[Python Version](./UseCases/Entity_Resolution_using_Embeddings/Entity_Resolution_Python.ipynb)
+
+#### Entity Resolution with In-Database Embeddings and Analytics: Model Creation
+Install and run a local H2O instance to build a Binary Classification model using Open Source H2O AutoML.<br>
+[Python Version](./UseCases/Entity_Resolution_using_Embeddings/Entity_Resolution_Classification_Model_Creation.ipynb)
+
 #### Hospital Readmission using Teradata AutoML Functionality
 Identify patients with a history of high hospital utilization, prescribed, or adjusted diabetes medications to derive predictions.<br>
 [Python Version](./UseCases/Hospital_Readmission_AutoML/Hospital_Readmission_AutoML.ipynb)
+
+#### Supervised Text Classification using ONNX Embeddings and BYOM
+Explore a practical approach to text classification using ONNXEmbeddings a a medical dataset.<br>
+[Python Version](./Recipes/ONNX/Supervised_Text_Classification_Onnxembeddings_Byom/Supervised_text_classification_onnxembeddings_byom.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xDataRobot'></a>
@@ -2268,6 +2415,46 @@ Create a text-to-SQL autonomous agent that will enable the retrieval of answers 
 #### Augmented Call Center: Revolutionizing Customer Support with Advanced AI Technologies
 Experience the next generation of customer support with our Augmented Call Center. Harness the power of advanced AI technologies to deliver exceptional service, drive customer loyalty, and achieve operational excellence.<br>
 [Python Version](./UseCases/Augmented_call_center_AgenticAI/Augmented_call_center_AgenticAI.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xONNX'></a>
+### ONNX
+
+#### Anomaly Detection in Credit Card Accounts
+Use K-Means clustering to group similar transactions and identify anomalies based on Euclidean distances.<br>
+[Python Version](./UseCases/Anomaly_Detection_Credit_Card/Anomaly_Detection_Credit_Card_ONNXEmbeddings.ipynb)
+
+#### Combining Structured and Unstructured Data for Predictive Modeling
+Turn structured and unstructured data into meaningful features using embeddings and clustering and then send them to a model.<br>
+[Python Version](./Recipes/ONNX/Combine_Structured_Unstructured_Predictive_Modelling/Combine_structured_unstructured_predictive_modelling.ipynb)
+
+#### Supervised Text Classification using ONNX Embeddings and BYOM
+Explore a practical approach to text classification using ONNXEmbeddings a a medical dataset.<br>
+[Python Version](./Recipes/ONNX/Supervised_Text_Classification_Onnxembeddings_Byom/Supervised_text_classification_onnxembeddings_byom.ipynb)
+
+#### Use Parallel CPU Inferencing of HuggingFace Models in Vantage to build a model
+Select a HuggingFace Model, Load it into the database, then use Parallel Inferencing in-Db to create model files and embeddings tables for use in other demos.<br>
+[Python Version](./UseCases/Improving_Customer_Satisfaction_Travel_Insights/Initialization_and_Model_Load_Travel_Insights.ipynb)
+
+#### Entity Resolution with In-Database Embeddings and Analytics
+Enhance conventional text matching by incorporating semantic embeddngs derived from pre-trained language models.<br>
+[Python Version](./UseCases/Entity_Resolution_using_Embeddings/Entity_Resolution_Python.ipynb)
+
+#### Entity Resolution with In-Database Embeddings and Analytics: Model Creation
+Install and run a local H2O instance to build a Binary Classification model using Open Source H2O AutoML.<br>
+[Python Version](./UseCases/Entity_Resolution_using_Embeddings/Entity_Resolution_Classification_Model_Creation.ipynb)
+
+<a href='#toc'>**Back to Table of Contents**</a><br>
+<a id='xFlowise'></a>
+### Flowise
+
+#### Discover Customer Lifetime Value using Teradata AgentBuilder
+Explore the capabilities of Teradata AgentBuilder to explore an AgenticAI workflow to ask questions and generate charts about Customer Lifetime Value.<br>
+[Information](./VantageCloud_Lake/UseCases/Customer_Lifetime_Value_Agent/Customer_Lifetime_Value_Agents.ipynb)
+
+#### Teradata_AgentBuilder Getting Started
+This notebook provides step by step instructions on how to create an agent, connect to the Teradata Enterprise MCP Server, access a Large Language Model, and then create a chat session with our database.<br>
+[Information](./VantageCloud_Lake/Getting_Started/Teradata_AgentBuilder/Teradata_AgentBuilder_Getting_Started.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 
@@ -2374,6 +2561,14 @@ Select a HuggingFace model, export the model into the database in ONNX format an
 Use Language Modeling to return answers to common NBA Statistics questions for a single game or questions about players over several years.<br>
 [Python Version](./UseCases/BasketBall_Analysis/NBA_Data_Analysis_Python.ipynb)
 
+#### Anomaly Detection in Credit Card Accounts
+Use K-Means clustering to group similar transactions and identify anomalies based on Euclidean distances.<br>
+[Python Version](./UseCases/Anomaly_Detection_Credit_Card/Anomaly_Detection_Credit_Card_ONNXEmbeddings.ipynb)
+
+#### Answering Medical Questions about Images using VantageCloud and Open-Source Language Models
+Upload a model into an Open Analytics Framework environment and ask medical questions about selected images.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Medical_Visual_Question_Answering_BYOLLM/Medical_Visual_Question_Answering.ipynb)
+
 #### Antiselect function in Vantage
 Return all columns except those specified in an exclude parameter.<br>
 [Python Version](./Recipes/ClearScape_Functions/Antiselect.ipynb)
@@ -2418,6 +2613,10 @@ Detect the presence of variability of the error term during regression analysis.
 Use the Google ADK to connect to the Teradata MCP Server and ask questions about the databases in our VantageCloud Lake database.<br>
 [Python Version](./UseCases/Chat_with_Teradata_MCP_Server/Chat_with_Teradata_MCP_Server_Python.ipynb)
 
+#### Chatbot using Teradata's Enterprise Vector Store
+Build a chat interface to ask questions using conversational AI after loading a selection of PDF files.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Chatbot_Teradata_Vector_Store/Chatbot_Teradata_Vector_Store.ipynb)
+
 #### ClassificationEvaluator Function in Vantage
 Compute evaluation metrics to compare multiple classification models and summarize how close predictions are to their expected values.<br>
 [Python Version](./Recipes/ClearScape_Functions/ClassificationEvaluator.ipynb)
@@ -2425,6 +2624,10 @@ Compute evaluation metrics to compare multiple classification models and summari
 #### ColumnTransformer Function in Vantage
 Transform input data columns in a single operation by providing only the FIT dataframes generated by the analytic functions and then runs all the transformations in a single operation.<br>
 [Python Version](./Recipes/ClearScape_Functions/ColumnTransformer.ipynb)
+
+#### Combining Structured and Unstructured Data for Predictive Modeling
+Turn structured and unstructured data into meaningful features using embeddings and clustering and then send them to a model.<br>
+[Python Version](./Recipes/ONNX/Combine_Structured_Unstructured_Predictive_Modelling/Combine_structured_unstructured_predictive_modelling.ipynb)
 
 #### Convert PySpark to teradatamlspk
 Convert a PySpark script to teradatamlspk syntax and generate a HTML report using Housing Prices to generate price predictions.<br>
@@ -2518,6 +2721,14 @@ Build, manage, and utilize an enterprise feature store. Execute an  end-to-end w
 Build and manage a feature store for sales analytics. Execute an end-to-end process of feature engineering, transformation, and governance for sales transaction data.<br>
 [Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-FeatureProcess.ipynb)
 
+#### Entity Resolution with In-Database Embeddings and Analytics
+Enhance conventional text matching by incorporating semantic embeddngs derived from pre-trained language models.<br>
+[Python Version](./UseCases/Entity_Resolution_using_Embeddings/Entity_Resolution_Python.ipynb)
+
+#### Entity Resolution with In-Database Embeddings and Analytics: Model Creation
+Install and run a local H2O instance to build a Binary Classification model using Open Source H2O AutoML.<br>
+[Python Version](./UseCases/Entity_Resolution_using_Embeddings/Entity_Resolution_Classification_Model_Creation.ipynb)
+
 #### Extract Results Function in Vantage
 Retrieve the values stored in the Adaptive Radix Tree (ART) that's created by the execution of other analytic functions.<br>
 [Python Version](./Recipes/ClearScape_Functions/ExtractResults.ipynb)
@@ -2557,6 +2768,10 @@ Define and apply a formula to generate a time series.<br>
 #### GenseriesSinusoids Function in Vantage
 Generate a time series containing a subset of the sinusoidal's element's periodicities, whose payload content value is of type REAL.<br>
 [Python Version](./Recipes/ClearScape_Functions/GenseriesSinusoids.ipynb)
+
+#### Getting Started with Teradata MCP Server on Teradata Vantage Enterprise - Installation
+Download and install the required infrastructure to run the Teradata MCP Server connected to the local Vantage database.<br>
+[Python Version](./Getting_Started/MCP_Server_Workbench/00-Setup_demo.ipynb)
 
 #### GLM and TDGLMPredict Functions in Vantage
 Use a generalized linear model to perform regression and classification analysis on a data set.  Then predict the target values and class labels from that data set.<br>
@@ -2670,6 +2885,10 @@ Use outlier filtering to identify and remove outliers from a dataset.<br>
 Store virtual columns from a dataframe in one physical column and then extract them back into multiple dataframe columns.<br>
 [Python Version](./Recipes/ClearScape_Functions/Pack_Unpack.ipynb)
 
+#### Parkinson's Disease Prediction using Decision Forest Classifier and GLM
+See how Vantage In-Database functions can be used for Model training and scoring by comparing the performance of 2 models.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Parkinsons_Disease_Prediction/Parkinsons_Disease_Prediction_Python.ipynb)
+
 #### PolynomialFeaturesFit and PolynomialFeaturesTransform Functions in Vantage
 Use these functions to find non-linear relationships between different customer attributes.<br>
 [Python Version](./Recipes/ClearScape_Functions/PolynomialFeaturesFitandTransform.ipynb)
@@ -2782,6 +3001,10 @@ By addressing unique customer behaviors and preferences within specific micro-se
 Calculates the similarity between two strings, using the specified comparison method (jaro, cosine etc).<br>
 [Python Version](./Recipes/ClearScape_Functions/StringSimilarity.ipynb)
 
+#### Supervised Text Classification using ONNX Embeddings and BYOM
+Explore a practical approach to text classification using ONNXEmbeddings a a medical dataset.<br>
+[Python Version](./Recipes/ONNX/Supervised_Text_Classification_Onnxembeddings_Byom/Supervised_text_classification_onnxembeddings_byom.ipynb)
+
 #### SVM and SVMPredict Functions in Vantage.
 Perform classification and regression analysis on datasets<br>
 [Python Version](./Recipes/ClearScape_Functions/SVMandSVMPredict.ipynb)
@@ -2818,6 +3041,10 @@ Step through a traditional approach of building models to identify and predict c
 Step through a traditional approach of building models to identify and predict customer churn and storing them in the database.<br>
 [Python Version](./UseCases/Teradata_End_to_End_Demos/Telco_Customer_Churn/Telco_Customer_Churn_Traditional_Approach.ipynb)
 
+#### Teradata MCP - Local Vantage Demo
+Explore some of the features of the Teradata MCP Server. Run a chat bot to ask questions about the local Vantage Enterprise database.<br>
+[Python Version](./Getting_Started/MCP_Server_Workbench/01-chat_with_MCP.ipynb)
+
 #### TextParser Function in Vantage
 Use this function to parse text by removing punctuation, stop words and then tokenize the remaining text.<br>
 [Python Version](./Recipes/ClearScape_Functions/TextParser.ipynb)
@@ -2833,6 +3060,10 @@ Divide a dataset for training and testing a model.<br>
 #### Unstructured Text Analysis With BYO-LLM and NVIDIA GPU Acceleration
 The teradatagenai Python library enables everyone to run analytics on their unstructured data directly within GPU Compute Cluster in VantageCloud Lake.<br>
 [Python Version](./VantageCloud_Lake/UseCases/Entity_Recognition_BYOLLM/Entity_Recogntion_BYOLLM_VCL.ipynb)
+
+#### Use Parallel CPU Inferencing of HuggingFace Models in Vantage to build a model
+Select a HuggingFace Model, Load it into the database, then use Parallel Inferencing in-Db to create model files and embeddings tables for use in other demos.<br>
+[Python Version](./UseCases/Improving_Customer_Satisfaction_Travel_Insights/Initialization_and_Model_Load_Travel_Insights.ipynb)
 
 #### Using Pearson's chi-squared test function in Vantage
 Use the Vantage implementation of Pearson's chi-square test to compare goodness of fit, homogeneity, and independence.<br>
@@ -2853,6 +3084,10 @@ Define a model, define a loss function, train the model, generate new images and
 #### VectorDistance Function in Vantage
 Compute similarity or dissimilarity between two vectors in multi-dimensional space.<br>
 [Python Version](./Recipes/ClearScape_Functions/VectorDistance.ipynb)
+
+#### Vectore Store - Getting Started
+Explore the key concepts, vector embedding mechanisms and efficient search techniques using Vector Store in VantageCloud Lake.<br>
+[Python Version](./VantageCloud_Lake/Getting_Started/VectorStore/VectorStore_Getting_Started.ipynb)
 
 #### Video Analyzer with Google Gemini
 Observe how Gemini 2.0 can be leveraged to generate details about events happening in videos and return those details as readable text.<br>
@@ -3370,6 +3605,10 @@ Use context-based product recommendations powered by GenAI Large Language Models
 Uses TD_VectorDistance in Vantage to create a chatbot using RAG, Langchain, and LLM to answer questions using a travelers insurance policy PDF."<br>
 [Python-SQL Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
 
+#### Improve Customer Satisfaction Through Travel Insights
+Analyze how the distance a customer travels to a bank branch affects customer satisfaction.<br>
+[SQL Version](./UseCases/Improving_Customer_Satisfaction_Travel_Insights/Improving_Customer_Satisfaction_Travel_Insights_SQL.ipynb)
+
 #### Solve complex inventory issues with Vantage In-DB functions.
 Use resampling to fill-in missing data, find phantom inventory, show key inventory metrics, calculate safe stock levels.<br>
 [SQL Version](./UseCases/Inventory_Management/Inventory_Management_SQL.ipynb)
@@ -3688,49 +3927,57 @@ Step through a traditional approach of building models to identify and predict c
 <a id='xNew'></a>
 ### New
 
-#### An Introduction to Parallel CPU Inferencing of HuggingFace Models in Vantage
-Select a HuggingFace model, export the model into the database in ONNX format and then use Parallel inferencing in the database.<br>
-[Python Version](./UseCases/Telco_Complaints_Analysis_InVantage/Initialization_and_Model_Load.ipynb)
+#### Anomaly Detection in Credit Card Accounts
+Use K-Means clustering to group similar transactions and identify anomalies based on Euclidean distances.<br>
+[Python Version](./UseCases/Anomaly_Detection_Credit_Card/Anomaly_Detection_Credit_Card_ONNXEmbeddings.ipynb)
 
-#### Chat with VantageCloud Lake Using the Google ADK and the Teradata MCP Server
-Use the Google ADK to connect to the Teradata MCP Server and ask questions about the databases in our VantageCloud Lake database.<br>
-[Python Version](./UseCases/Chat_with_Teradata_MCP_Server/Chat_with_Teradata_MCP_Server_Python.ipynb)
+#### Chatbot using Teradata's Enterprise Vector Store
+Build a chat interface to ask questions using conversational AI after loading a selection of PDF files.<br>
+[Python Version](./VantageCloud_Lake/UseCases/Chatbot_Teradata_Vector_Store/Chatbot_Teradata_Vector_Store.ipynb)
 
-#### Chatbot using Vantage & GenAI with Insurance PDF document
-Uses TD_VectorDistance in Vantage to create a chatbot using RAG, Langchain, and LLM to answer questions using a travelers insurance policy PDF."<br>
-[Python-SQL Version](./UseCases/Chat_with_docs_GenAI/Chat_with_docs_VantageDB_GenAI_Python.ipynb)
+#### Combining Structured and Unstructured Data for Predictive Modeling
+Turn structured and unstructured data into meaningful features using embeddings and clustering and then send them to a model.<br>
+[Python Version](./Recipes/ONNX/Combine_Structured_Unstructured_Predictive_Modelling/Combine_structured_unstructured_predictive_modelling.ipynb)
 
-#### Enterprise Feature Store - DataDomain
-Build and manage a feature store across multiple business domains.<br>
-[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-DataDomain.ipynb)
+#### Discover Customer Lifetime Value using Teradata AgentBuilder
+Explore the capabilities of Teradata AgentBuilder to explore an AgenticAI workflow to ask questions and generate charts about Customer Lifetime Value.<br>
+[Information](./VantageCloud_Lake/UseCases/Customer_Lifetime_Value_Agent/Customer_Lifetime_Value_Agents.ipynb)
 
-#### Enterprise Feature Store - DatasetCatalog
-Execute an end-to-end workflow that will build a feature store and dataset catalog.<br>
-[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-DatasetCatalog.ipynb)
+#### Entity Resolution with In-Database Embeddings and Analytics
+Enhance conventional text matching by incorporating semantic embeddngs derived from pre-trained language models.<br>
+[Python Version](./UseCases/Entity_Resolution_using_Embeddings/Entity_Resolution_Python.ipynb)
 
-#### Enterprise Feature Store - Feature Store 
-Build, manage, and utilize an enterprise feature store. Execute an  end-to-end workflow for feature engineering, ingestion, cataloging, and governance with features derived from business data such as sales, marketing, and transactions.<br>
-[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-FeatureStore.ipynb)
+#### Entity Resolution with In-Database Embeddings and Analytics: Model Creation
+Install and run a local H2O instance to build a Binary Classification model using Open Source H2O AutoML.<br>
+[Python Version](./UseCases/Entity_Resolution_using_Embeddings/Entity_Resolution_Classification_Model_Creation.ipynb)
 
-#### Enterprise Feature Store - FeatureProcess
-Build and manage a feature store for sales analytics. Execute an end-to-end process of feature engineering, transformation, and governance for sales transaction data.<br>
-[Python Version](./Getting_Started/Enterprise_Feature_Store/EFS-FeatureProcess.ipynb)
+#### Getting Started with Teradata MCP Server on Teradata Vantage Enterprise - Installation
+Download and install the required infrastructure to run the Teradata MCP Server connected to the local Vantage database.<br>
+[Python Version](./Getting_Started/MCP_Server_Workbench/00-Setup_demo.ipynb)
 
-#### From Complaints to Clarity: Uncovering Hidden Trends in Telco Customer Feedback
-See how a fully data-driven approach can help analyze large volumes of text data, automatically identifying topics and tracking their trends over time.<br>
-[Python Version](./UseCases/Telco_Complaints_Analysis_InVantage/Telco_Complaints_Analysis_Ivsm.ipynb)
+#### Improve Customer Satisfaction Through Travel Insights
+Analyze how the distance a customer travels to a bank branch affects customer satisfaction.<br>
+[SQL Version](./UseCases/Improving_Customer_Satisfaction_Travel_Insights/Improving_Customer_Satisfaction_Travel_Insights_SQL.ipynb)
 
-#### ServiceNow Multipath Pattern Analysis
-Use Vantage's nPath® functionality to unlock critical insights from a case history.<br>
-[Python Version](./UseCases/ServiceNow_Multipath_PatternAnalysis/ServiceNow_Multipath_PatternAnalysis_Python.ipynb)
+#### Supervised Text Classification using ONNX Embeddings and BYOM
+Explore a practical approach to text classification using ONNXEmbeddings a a medical dataset.<br>
+[Python Version](./Recipes/ONNX/Supervised_Text_Classification_Onnxembeddings_Byom/Supervised_text_classification_onnxembeddings_byom.ipynb)
 
-#### Telco Customer Churn Using Enterprise Feature Store (EFS)
-Use the massive parallel architecture of Teradata Vantage to prepare data, train, evaluate, and deploy models at unprecedented scale.<br>
-[Python Version](./UseCases/Telco_EFS/Telco_Customer_Churn_EFS.ipynb)
+#### Teradata MCP - Local Vantage Demo
+Explore some of the features of the Teradata MCP Server. Run a chat bot to ask questions about the local Vantage Enterprise database.<br>
+[Python Version](./Getting_Started/MCP_Server_Workbench/01-chat_with_MCP.ipynb)
 
-#### Telco Customer Churn using the GLM Function
-Use Teradata's machine learning and predictive analytics to build a model to predict customers which are likely to churn in the future.<br>
-[Python Version](./UseCases/Telco_Customer_Churn/Telco_Customer_Churn_GLM_Python.ipynb)
+#### Teradata_AgentBuilder Getting Started
+This notebook provides step by step instructions on how to create an agent, connect to the Teradata Enterprise MCP Server, access a Large Language Model, and then create a chat session with our database.<br>
+[Information](./VantageCloud_Lake/Getting_Started/Teradata_AgentBuilder/Teradata_AgentBuilder_Getting_Started.ipynb)
+
+#### Use Parallel CPU Inferencing of HuggingFace Models in Vantage to build a model
+Select a HuggingFace Model, Load it into the database, then use Parallel Inferencing in-Db to create model files and embeddings tables for use in other demos.<br>
+[Python Version](./UseCases/Improving_Customer_Satisfaction_Travel_Insights/Initialization_and_Model_Load_Travel_Insights.ipynb)
+
+#### Vectore Store - Getting Started
+Explore the key concepts, vector embedding mechanisms and efficient search techniques using Vector Store in VantageCloud Lake.<br>
+[Python Version](./VantageCloud_Lake/Getting_Started/VectorStore/VectorStore_Getting_Started.ipynb)
 
 <a href='#toc'>**Back to Table of Contents**</a><br>
 <a id='xParallel-CPU-Inferencing'></a>
