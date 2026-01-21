@@ -1,4 +1,4 @@
 teradataml==20.0.0.5
 teradatagenai>=20.0.0.1
-wordcloud
+wordcloud<=1.9.2
 Pillow
