@@ -6,3 +6,7 @@ ipywidgets==8.1.7
 hf-xet==1.1.11b1
 ipykernel==6.30.1
 pillow
+panel
+python-dotenv
+huggingface-hub
+pillow
