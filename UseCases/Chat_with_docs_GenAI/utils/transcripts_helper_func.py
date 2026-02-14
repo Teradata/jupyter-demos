@@ -2,6 +2,9 @@ import torch
 import torchaudio
 from transformers import WhisperProcessor, WhisperForConditionalGeneration
 
+import os
+os.environ["HF_HUB_ENABLE_HF_TRANSFER"] = "0"  # fall back to Python downloader
+os.environ["HF_HUB_DISABLE_PROGRESS_BARS"] = "1"
 
 def load_and_preprocess_audio(file_path, target_sampling_rate=16000):
     # Load the MP3 audio file
