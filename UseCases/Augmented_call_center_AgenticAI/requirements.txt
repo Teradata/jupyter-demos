@@ -9,5 +9,5 @@ langchain-text-splitters
 teradataml
 pandas
 panel
-langchain-community
 pypdf
+python-dotenv
