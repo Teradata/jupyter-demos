@@ -5,3 +5,11 @@ pyopenssl
 cryptography
 Pillow
 fastparquet
+python-dotenv
+requests
+numpy
+pandas
+plotly
+wordcloud
+matplotlib
+tqdm
