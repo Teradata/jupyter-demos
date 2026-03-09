@@ -13,3 +13,4 @@ Teradata/Config/userinfo.db
 *.key
 .config/
 VantageCloud_Lake/.config/
+node_modules
