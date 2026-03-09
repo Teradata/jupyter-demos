@@ -1,0 +1,39 @@
+name: Cleanup Stale Environments
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # Runs daily at 12:00 PM UTC
+  workflow_dispatch:  # Allows manual trigger
+
+defaults:
+  run:
+    working-directory: .tests
+    shell: bash
+
+jobs:
+  cleanup-environments:
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+    name: Delete Stale Environments
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 16
+    - name: Authenticate with Google Cloud
+      id: auth
+      uses: 'google-github-actions/auth@v2'
+      with:
+        workload_identity_provider: projects/323844706402/locations/global/workloadIdentityPools/github/providers/jupyter-demos
+        service_account: cicd-sa@clearscape-production.iam.gserviceaccount.com
+    - name: Install dependencies
+      run: npm ci
+    - name: Delete stale test environments
+      env:
+        CSAE_ENV_PASSWORD: ${{ secrets.CSAE_ENV_PASSWORD }}
+        CSAE_PARALLEL_TESTS_COUNT: ${{ vars.CSAE_PARALLEL_TESTS_COUNT }}
+        CSAE_WORKERS_COUNT: ${{ vars.CSAE_WORKERS_COUNT }}
+      run: npx ts-node post_delete_env.ts
