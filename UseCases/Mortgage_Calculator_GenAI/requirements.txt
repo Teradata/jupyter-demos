@@ -6,3 +6,4 @@ chromadb
 langchain_community
 langchain_openai
 loguru
+litellm
