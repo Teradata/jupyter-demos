@@ -4,3 +4,5 @@ langchain-community
 langchain_aws 
 langsmith
 teradataml
+langchain_openai
+litellm
