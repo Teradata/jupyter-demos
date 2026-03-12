@@ -4,3 +4,5 @@ tdapiclient
 google-cloud-aiplatform
 pyopenssl 
 cryptography
+pandas
+numpy
