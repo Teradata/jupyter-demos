@@ -1,8 +1,8 @@
 name: Cleanup Stale Environments
 
 on:
-  schedule:
-    - cron: '0 12 * * *'  # Runs daily at 12:00 PM UTC
+  # schedule:
+  #   - cron: '0 12 * * *'  # Runs daily at 12:00 PM UTC
   workflow_dispatch:  # Allows manual trigger
     inputs:
       test_env:
