@@ -1,0 +1,47 @@
+name: Upload JSON files to GCP Storage
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.data/filters.json'
+      - '.data/jupyter-demos.json'
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  upload-to-gcp:
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+    name: Upload to GCP Storage
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Authenticate with Google Cloud
+      id: auth
+      uses: 'google-github-actions/auth@v2'
+      with:
+        workload_identity_provider: projects/323844706402/locations/global/workloadIdentityPools/github/providers/jupyter-demos
+        service_account: cicd-sa@clearscape-production.iam.gserviceaccount.com
+    
+    - name: Set up Cloud SDK
+      uses: 'google-github-actions/setup-gcloud@v2'
+    
+    - name: Upload filters.json to GCP Storage
+      run: |
+        gsutil cp .data/filters.json gs://clearscape-public/carasol/filters.json
+        echo "✓ Uploaded filters.json to gs://clearscape-public/carasol/"
+    
+    - name: Upload jupyter-demos.json to GCP Storage
+      run: |
+        gsutil cp .data/jupyter-demos.json gs://clearscape-public/carasol/jupyter-demos.json
+        echo "✓ Uploaded jupyter-demos.json to gs://clearscape-public/carasol/"
+    
+    - name: Verify uploads
+      run: |
+        echo "Files uploaded to GCP Storage bucket: clearscape-public/carasol"
+        gsutil ls -lh gs://clearscape-public/carasol/filters.json
+        gsutil ls -lh gs://clearscape-public/carasol/jupyter-demos.json
