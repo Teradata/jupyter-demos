@@ -32,16 +32,16 @@ jobs:
     
     - name: Upload filters.json to GCP Storage
       run: |
-        gsutil cp .data/filters.json gs://clearscape-public/carasol/filters.json
-        echo "✓ Uploaded filters.json to gs://clearscape-public/carasol/"
+        gsutil cp .data/filters.json gs://clearscape-public/notebooks/filters.json
+        echo "✓ Uploaded filters.json to gs://clearscape-public/notebooks/"
     
     - name: Upload jupyter-demos.json to GCP Storage
       run: |
-        gsutil cp .data/jupyter-demos.json gs://clearscape-public/carasol/jupyter-demos.json
-        echo "✓ Uploaded jupyter-demos.json to gs://clearscape-public/carasol/"
+        gsutil cp .data/jupyter-demos.json gs://clearscape-public/notebooks/jupyter-demos.json
+        echo "✓ Uploaded jupyter-demos.json to gs://clearscape-public/notebooks/"
     
     - name: Verify uploads
       run: |
-        echo "Files uploaded to GCP Storage bucket: clearscape-public/carasol"
-        gsutil ls -lh gs://clearscape-public/carasol/filters.json
-        gsutil ls -lh gs://clearscape-public/carasol/jupyter-demos.json
+        echo "Files uploaded to GCP Storage bucket: clearscape-public/notebooks"
+        gsutil ls -lh gs://clearscape-public/notebooks/filters.json
+        gsutil ls -lh gs://clearscape-public/notebooks/jupyter-demos.json
