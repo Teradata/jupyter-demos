@@ -1,0 +1,17 @@
+teradataml
+langchain-teradata
+litellm
+
+langchain
+langchain-community
+langchain-core
+langchain-openai  
+
+python-dotenv
+panel
+
+numpy
+pandas
+scikit-learn              
+matplotlib
+plotly
