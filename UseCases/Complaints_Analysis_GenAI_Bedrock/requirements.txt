@@ -5,3 +5,4 @@ pyopenssl
 cryptography
 Pillow
 fastparquet
+litellm
