@@ -1,0 +1,59 @@
+name: Cleanup Stale Environments
+
+on:
+  # schedule:
+  #   - cron: '0 12 * * *'  # Runs daily at 12:00 PM UTC
+  workflow_dispatch:  # Allows manual trigger
+    inputs:
+      test_env:
+        type: choice
+        description: 'Select the environment to cleanup'
+        default: 'PROD'
+        options:
+          - CI
+          - PROD
+
+defaults:
+  run:
+    working-directory: .tests
+    shell: bash
+
+jobs:
+  cleanup-environments:
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+    name: Delete All Environments
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    env:
+      TEST_ENV: ${{ github.event.inputs.test_env || 'PROD' }}
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 16
+    - name: Define GCP credentials
+      id: define-environment
+      run: |
+        if [ "${TEST_ENV}" == "CI" ]; then
+          echo "workload_identity_provider=projects/561066095864/locations/global/workloadIdentityPools/github/providers/jupyter-demos" >> $GITHUB_OUTPUT
+          echo "service_account=cicd-sa@clearscape-ci.iam.gserviceaccount.com" >> $GITHUB_OUTPUT
+          echo "gcp_project=clearscape-ci" >> $GITHUB_OUTPUT
+          echo "CSAE_CLEARSCAPE_API_KEY=${{ secrets.CSAE_CI_CLEARSCAPE_API_KEY }}" >> $GITHUB_ENV
+        else
+          echo "workload_identity_provider=projects/323844706402/locations/global/workloadIdentityPools/github/providers/jupyter-demos" >> $GITHUB_OUTPUT
+          echo "service_account=cicd-sa@clearscape-production.iam.gserviceaccount.com" >> $GITHUB_OUTPUT
+          echo "gcp_project=clearscape-production" >> $GITHUB_OUTPUT
+          echo "CSAE_CLEARSCAPE_API_KEY=${{ secrets.CSAE_CLEARSCAPE_API_KEY }}" >> $GITHUB_ENV
+        fi
+    - name: Authenticate with Google Cloud
+      id: auth
+      uses: 'google-github-actions/auth@v2'
+      with:
+        workload_identity_provider: ${{steps.define-environment.outputs.workload_identity_provider}}
+        service_account: ${{steps.define-environment.outputs.service_account}}
+    - name: Install dependencies
+      run: npm ci
+    - name: List and delete all environments
+      run: npx ts-node cleanup_all_envs.ts

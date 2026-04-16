@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const API_KEY = process.env.CSAE_CLEARSCAPE_API_KEY
 const url = process.env.TEST_ENV === 'CI' ? 'https://api.ci.clearscape.teradata.com/environments' : 'https://api.clearscape.teradata.com/environments';
-
+const CSAE_ENV_TYPE = process.env.CSAE_HOSTVM_IMAGE_TYPE || 'clearscape';
 const CSAE_ENV_PASSWORD = process.env.CSAE_ENV_PASSWORD || 'asdfasdf';
 const ENV_PREFIX = process.env.GITHUB_RUN_ID ? `${process.env.GITHUB_RUN_ID}-${process.env.CSAE_CI_JOB_IDX}` : 'env';
 export class Environments {
@@ -39,7 +39,8 @@ export class Environments {
             this.envDetails = await axios.post(url, {
                 name: this.envName,
                 region: this.region,
-                password: this.password
+                password: this.password,
+                type: CSAE_ENV_TYPE
             }, {
                 headers: {
                     'Authorization': `Bearer ${API_KEY}`,

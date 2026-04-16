@@ -79,7 +79,8 @@ z2['node_j'] = z['node_i']
 z2['cost'] = z['cost']
 z2['link_id'] = np.arange(len(z)+1, len(z)+len(z)+1)
 
-zone_links = z.append(z2).reset_index(drop=True)
+zone_links = pd.concat([z, z2], ignore_index=True)
+# zone_links = z.append(z2).reset_index(drop=True)
 zone_links.sort_values(by='link_id')
 
 #Nodes that require deliveries

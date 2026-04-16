@@ -1,0 +1,7 @@
+pyarrow
+matplotlib
+seaborn
+catboost
+onnxmltools
+tdfs4ds
+openai
