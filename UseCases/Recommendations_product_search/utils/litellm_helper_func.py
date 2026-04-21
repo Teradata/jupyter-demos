@@ -11,7 +11,8 @@ load_dotenv(env_path)
 litellm_api_key = os.getenv('litellm_key')
 litellm_base_url = os.getenv('litellm_base_url')
 
-embedding_model = "text-embedding-3-small"
+embedding_model = os.getenv('embedding_openai_small')
+#"text-embedding-3-small"
 
 def get_embeddings(tdf):
     
