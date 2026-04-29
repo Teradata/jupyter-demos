@@ -60,7 +60,7 @@
             ]
         },
         {
-            "category": "VantageCloud AWS",
+            "category": "VantageCloud",
             "subjects": [
                 {
                     "subjseq": 1,
@@ -77,6 +77,22 @@
                 {
                     "subjseq": 5,
                     "subject": "Getting Started"
+                },
+                {
+                    "subjseq": 6,
+                    "subject": "Open Table Format"
+                },
+                {
+                    "subjseq": 7,
+                    "subject": "Apache Iceburg"
+                },
+                {
+                    "subjseq": 8,
+                    "subject": "AWS Glue"
+                },
+                {
+                    "subjseq": 9,
+                    "subject": "DataLake"
                 }
             ]
         },
