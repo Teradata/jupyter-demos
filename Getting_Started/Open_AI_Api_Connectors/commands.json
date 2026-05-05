@@ -1,0 +1,31 @@
+{
+  "queries": [
+    {
+      "query": "CREATE DATABASE openai_client as perm=8000000*4;"
+    },
+    {
+      "query": "DATABASE openai_client;"
+    },
+    {
+      "query": "GRANT CREATE EXTERNAL PROCEDURE ON openai_client TO dbc;"
+    },
+    {
+      "query": "GRANT CREATE FUNCTION ON openai_client TO dbc;"
+    },
+    {
+      "query": "CALL SQLJ.INSTALL_JAR('cj!./openai.client-1.1.0.jar','OPENAI_CLIENT',0);"
+    },
+    {
+      "query": "REPLACE FUNCTION openai_client.CompleteChat()RETURNS TABLE VARYING USING FUNCTION OpenAIClientTO_contract LANGUAGE JAVA NO SQL PARAMETER STYLE SQLTable EXTERNAL NAME 'OPENAI_CLIENT:com.teradata.openai.client.ChatCompletionTO.execute()';"
+    },
+    {
+      "query": "REPLACE FUNCTION openai_client.Embeddings()RETURNS TABLE VARYING USING FUNCTION EmbeddingsTO_contract LANGUAGE JAVA NO SQL PARAMETER STYLE SQLTable EXTERNAL NAME 'OPENAI_CLIENT:com.teradata.openai.client.EmbeddingsTO.execute()';"
+    },
+     {
+      "query": "GRANT EXECUTE FUNCTION ON openai_client.CompleteChat TO demo_user;"
+    },
+     {
+      "query": "GRANT EXECUTE FUNCTION ON openai_client.Embeddings TO demo_user;"
+    }
+  ]
+}
