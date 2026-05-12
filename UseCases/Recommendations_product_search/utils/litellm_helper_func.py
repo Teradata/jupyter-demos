@@ -5,7 +5,7 @@ import os
 from dotenv import load_dotenv
 from litellm import embedding
 
-env_path = os.path.expanduser('~/JupyterLabRoot/VantageCloud_Lake/.config/.env')
+env_path = os.path.expanduser('~/JupyterLabRoot/TeradataCloud/.config/.env')
 load_dotenv(env_path)
 
 litellm_api_key = os.getenv('litellm_key')
