@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PMML xmlns="http://www.dmg.org/PMML-4_4" xmlns:data="http://jpmml.org/jpmml-model/InlineTable" version="4.4">
 	<Header>
-		<Application name="SkLearn2PMML package" version="0.91.0"/>
-		<Timestamp>2023-05-12T09:57:50Z</Timestamp>
+		<Application name="SkLearn2PMML package" version="0.122.2"/>
+		<Timestamp>2026-04-16T12:40:09Z</Timestamp>
 	</Header>
 	<MiningBuildTask>
 		<Extension name="repr">PMMLPipeline(steps=[('model', RandomForestClassifier(max_depth=3, n_estimators=10, random_state=42))])</Extension>
@@ -28,7 +28,6 @@
 	<MiningModel functionName="classification" algorithmName="sklearn.ensemble._forest.RandomForestClassifier">
 		<MiningSchema>
 			<MiningField name="anomaly" usageType="target"/>
-			<MiningField name="min_RESISTANCE"/>
 			<MiningField name="var_RESISTANCE"/>
 			<MiningField name="mean_RESISTANCE"/>
 			<MiningField name="sum_RESISTANCE"/>
@@ -38,6 +37,7 @@
 			<MiningField name="median_RESISTANCE"/>
 			<MiningField name="max_RESISTANCE"/>
 			<MiningField name="skew_RESISTANCE"/>
+			<MiningField name="min_RESISTANCE"/>
 			<MiningField name="unique_RESISTANCE"/>
 			<MiningField name="kurtosis_RESISTANCE"/>
 		</MiningSchema>
@@ -73,6 +73,9 @@
 			<DerivedField name="double(skew_RESISTANCE)" optype="continuous" dataType="double">
 				<FieldRef field="skew_RESISTANCE"/>
 			</DerivedField>
+			<DerivedField name="double(min_RESISTANCE)" optype="continuous" dataType="double">
+				<FieldRef field="min_RESISTANCE"/>
+			</DerivedField>
 			<DerivedField name="double(unique_RESISTANCE)" optype="continuous" dataType="double">
 				<FieldRef field="unique_RESISTANCE"/>
 			</DerivedField>
@@ -94,48 +97,40 @@
 					<Node>
 						<True/>
 						<Node>
-							<SimplePredicate field="double(var_RESISTANCE)" operator="lessOrEqual" value="0.13538897782564163"/>
+							<SimplePredicate field="double(var_RESISTANCE)" operator="lessOrEqual" value="-0.09988018870353699"/>
 							<Node>
-								<SimplePredicate field="double(mean_RESISTANCE)" operator="lessOrEqual" value="2.685237765312195"/>
-								<Node score="0" recordCount="184">
-									<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="0.8925319910049438"/>
-									<ScoreDistribution value="0" recordCount="176"/>
-									<ScoreDistribution value="1" recordCount="8"/>
+								<SimplePredicate field="double(mean_RESISTANCE)" operator="lessOrEqual" value="2.88824462890625"/>
+								<Node score="0" recordCount="1">
+									<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="1.0022194981575012"/>
+									<ScoreDistribution value="0" recordCount="0.9869281045751634"/>
+									<ScoreDistribution value="1" recordCount="0.013071895424836602"/>
 								</Node>
-								<Node score="0" recordCount="52">
+								<Node score="0" recordCount="1">
 									<True/>
-									<ScoreDistribution value="0" recordCount="30"/>
-									<ScoreDistribution value="1" recordCount="22"/>
+									<ScoreDistribution value="0" recordCount="0.6666666666666666"/>
+									<ScoreDistribution value="1" recordCount="0.3333333333333333"/>
 								</Node>
 							</Node>
-							<Node score="1" recordCount="17">
+							<Node score="1" recordCount="1">
 								<True/>
 								<ScoreDistribution value="0" recordCount="0"/>
-								<ScoreDistribution value="1" recordCount="17"/>
+								<ScoreDistribution value="1" recordCount="1"/>
 							</Node>
 						</Node>
-						<Node>
-							<SimplePredicate field="double(percentile_RESISTANCE)" operator="lessOrEqual" value="-0.5374716520309448"/>
-							<Node score="0" recordCount="18">
-								<SimplePredicate field="double(count_RESISTANCE)" operator="lessOrEqual" value="1.391170620918274"/>
-								<ScoreDistribution value="0" recordCount="18"/>
-								<ScoreDistribution value="1" recordCount="0"/>
-							</Node>
-							<Node score="1" recordCount="5">
-								<True/>
-								<ScoreDistribution value="0" recordCount="0"/>
-								<ScoreDistribution value="1" recordCount="5"/>
-							</Node>
+						<Node score="0" recordCount="1">
+							<SimplePredicate field="double(percentile_RESISTANCE)" operator="lessOrEqual" value="-0.5607703030109406"/>
+							<ScoreDistribution value="0" recordCount="1"/>
+							<ScoreDistribution value="1" recordCount="0"/>
 						</Node>
-						<Node score="1" recordCount="106">
-							<SimplePredicate field="double(count_RESISTANCE)" operator="lessOrEqual" value="-0.2845165580511093"/>
-							<ScoreDistribution value="0" recordCount="45"/>
-							<ScoreDistribution value="1" recordCount="61"/>
+						<Node score="0" recordCount="1">
+							<SimplePredicate field="double(count_RESISTANCE)" operator="lessOrEqual" value="-0.3186783641576767"/>
+							<ScoreDistribution value="0" recordCount="0.5461538461538461"/>
+							<ScoreDistribution value="1" recordCount="0.45384615384615384"/>
 						</Node>
-						<Node score="1" recordCount="136">
+						<Node score="1" recordCount="1">
 							<True/>
-							<ScoreDistribution value="0" recordCount="2"/>
-							<ScoreDistribution value="1" recordCount="134"/>
+							<ScoreDistribution value="0" recordCount="0.11475409836065574"/>
+							<ScoreDistribution value="1" recordCount="0.8852459016393442"/>
 						</Node>
 					</Node>
 				</TreeModel>
@@ -144,9 +139,8 @@
 				<True/>
 				<TreeModel functionName="classification" missingValueStrategy="nullPrediction">
 					<MiningSchema>
-						<MiningField name="double(var_RESISTANCE)"/>
-						<MiningField name="double(mean_RESISTANCE)"/>
 						<MiningField name="double(sum_RESISTANCE)"/>
+						<MiningField name="double(percentile_RESISTANCE)"/>
 						<MiningField name="double(std_RESISTANCE)"/>
 						<MiningField name="double(median_RESISTANCE)"/>
 						<MiningField name="double(max_RESISTANCE)"/>
@@ -154,48 +148,40 @@
 					<Node>
 						<True/>
 						<Node>
-							<SimplePredicate field="double(std_RESISTANCE)" operator="lessOrEqual" value="-0.017349468544125557"/>
+							<SimplePredicate field="double(std_RESISTANCE)" operator="lessOrEqual" value="0.20446516573429108"/>
 							<Node>
 								<SimplePredicate field="double(median_RESISTANCE)" operator="lessOrEqual" value="2.680083155632019"/>
-								<Node score="0" recordCount="93">
-									<SimplePredicate field="double(max_RESISTANCE)" operator="lessOrEqual" value="-0.5316726863384247"/>
-									<ScoreDistribution value="0" recordCount="93"/>
-									<ScoreDistribution value="1" recordCount="0"/>
+								<Node score="0" recordCount="1">
+									<SimplePredicate field="double(max_RESISTANCE)" operator="lessOrEqual" value="-0.4678593873977661"/>
+									<ScoreDistribution value="0" recordCount="0.9813084112149533"/>
+									<ScoreDistribution value="1" recordCount="0.018691588785046728"/>
 								</Node>
-								<Node score="0" recordCount="96">
+								<Node score="0" recordCount="1">
 									<True/>
-									<ScoreDistribution value="0" recordCount="89"/>
-									<ScoreDistribution value="1" recordCount="7"/>
+									<ScoreDistribution value="0" recordCount="0.712"/>
+									<ScoreDistribution value="1" recordCount="0.288"/>
 								</Node>
 							</Node>
-							<Node score="1" recordCount="10">
+							<Node score="1" recordCount="1">
 								<True/>
 								<ScoreDistribution value="0" recordCount="0"/>
-								<ScoreDistribution value="1" recordCount="10"/>
+								<ScoreDistribution value="1" recordCount="1"/>
 							</Node>
 						</Node>
-						<Node>
-							<SimplePredicate field="double(var_RESISTANCE)" operator="lessOrEqual" value="0.46453432738780975"/>
-							<Node score="0" recordCount="59">
-								<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="0.431454673409462"/>
-								<ScoreDistribution value="0" recordCount="53"/>
-								<ScoreDistribution value="1" recordCount="6"/>
-							</Node>
-							<Node score="1" recordCount="66">
-								<True/>
-								<ScoreDistribution value="0" recordCount="5"/>
-								<ScoreDistribution value="1" recordCount="61"/>
-							</Node>
-						</Node>
-						<Node score="0" recordCount="5">
-							<SimplePredicate field="double(mean_RESISTANCE)" operator="lessOrEqual" value="-0.4245547950267792"/>
-							<ScoreDistribution value="0" recordCount="5"/>
+						<Node score="0" recordCount="1">
+							<SimplePredicate field="double(percentile_RESISTANCE)" operator="lessOrEqual" value="-0.5567047595977783"/>
+							<ScoreDistribution value="0" recordCount="1"/>
 							<ScoreDistribution value="1" recordCount="0"/>
 						</Node>
-						<Node score="1" recordCount="189">
+						<Node score="0" recordCount="1">
+							<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="-0.14623535424470901"/>
+							<ScoreDistribution value="0" recordCount="0.6065573770491803"/>
+							<ScoreDistribution value="1" recordCount="0.39344262295081966"/>
+						</Node>
+						<Node score="1" recordCount="1">
 							<True/>
-							<ScoreDistribution value="0" recordCount="20"/>
-							<ScoreDistribution value="1" recordCount="169"/>
+							<ScoreDistribution value="0" recordCount="0.047619047619047616"/>
+							<ScoreDistribution value="1" recordCount="0.9523809523809523"/>
 						</Node>
 					</Node>
 				</TreeModel>
@@ -208,30 +194,30 @@
 						<MiningField name="double(sum_RESISTANCE)"/>
 						<MiningField name="double(std_RESISTANCE)"/>
 						<MiningField name="double(median_RESISTANCE)"/>
-						<MiningField name="double(max_RESISTANCE)"/>
 						<MiningField name="double(skew_RESISTANCE)"/>
+						<MiningField name="double(min_RESISTANCE)"/>
 					</MiningSchema>
 					<Node>
 						<True/>
 						<Node>
-							<SimplePredicate field="double(std_RESISTANCE)" operator="lessOrEqual" value="-0.017349468544125557"/>
+							<SimplePredicate field="double(std_RESISTANCE)" operator="lessOrEqual" value="0.20446516573429108"/>
 							<Node>
 								<SimplePredicate field="double(median_RESISTANCE)" operator="lessOrEqual" value="2.680083155632019"/>
-								<Node score="0" recordCount="84">
-									<SimplePredicate field="double(mean_RESISTANCE)" operator="lessOrEqual" value="-0.7225253880023956"/>
-									<ScoreDistribution value="0" recordCount="84"/>
+								<Node score="0" recordCount="1">
+									<SimplePredicate field="double(mean_RESISTANCE)" operator="lessOrEqual" value="-0.723190188407898"/>
+									<ScoreDistribution value="0" recordCount="1"/>
 									<ScoreDistribution value="1" recordCount="0"/>
 								</Node>
-								<Node score="0" recordCount="107">
+								<Node score="0" recordCount="1">
 									<True/>
-									<ScoreDistribution value="0" recordCount="96"/>
-									<ScoreDistribution value="1" recordCount="11"/>
+									<ScoreDistribution value="0" recordCount="0.7388059701492538"/>
+									<ScoreDistribution value="1" recordCount="0.26119402985074625"/>
 								</Node>
 							</Node>
-							<Node score="1" recordCount="13">
-								<SimplePredicate field="double(std_RESISTANCE)" operator="lessOrEqual" value="-0.45843736827373505"/>
+							<Node score="1" recordCount="1">
+								<SimplePredicate field="double(std_RESISTANCE)" operator="lessOrEqual" value="-0.3096611350774765"/>
 								<ScoreDistribution value="0" recordCount="0"/>
-								<ScoreDistribution value="1" recordCount="13"/>
+								<ScoreDistribution value="1" recordCount="1"/>
 							</Node>
 							<Node score="0" recordCount="1">
 								<True/>
@@ -240,27 +226,27 @@
 							</Node>
 						</Node>
 						<Node>
-							<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="-0.15846656262874603"/>
-							<Node score="1" recordCount="11">
-								<SimplePredicate field="double(skew_RESISTANCE)" operator="lessOrEqual" value="-1.3787771463394165"/>
-								<ScoreDistribution value="0" recordCount="0"/>
-								<ScoreDistribution value="1" recordCount="11"/>
+							<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="-0.0015807259042048827"/>
+							<Node score="1" recordCount="1">
+								<SimplePredicate field="double(skew_RESISTANCE)" operator="lessOrEqual" value="-0.6242252588272095"/>
+								<ScoreDistribution value="0" recordCount="0.3125"/>
+								<ScoreDistribution value="1" recordCount="0.6875"/>
 							</Node>
-							<Node score="0" recordCount="73">
+							<Node score="0" recordCount="1">
 								<True/>
-								<ScoreDistribution value="0" recordCount="62"/>
-								<ScoreDistribution value="1" recordCount="11"/>
+								<ScoreDistribution value="0" recordCount="0.9814814814814815"/>
+								<ScoreDistribution value="1" recordCount="0.018518518518518517"/>
 							</Node>
 						</Node>
-						<Node score="1" recordCount="180">
-							<SimplePredicate field="double(max_RESISTANCE)" operator="lessOrEqual" value="1.3123194575309753"/>
-							<ScoreDistribution value="0" recordCount="5"/>
-							<ScoreDistribution value="1" recordCount="175"/>
+						<Node score="0" recordCount="1">
+							<SimplePredicate field="double(min_RESISTANCE)" operator="lessOrEqual" value="-0.8759395480155945"/>
+							<ScoreDistribution value="0" recordCount="1"/>
+							<ScoreDistribution value="1" recordCount="0"/>
 						</Node>
-						<Node score="1" recordCount="49">
+						<Node score="1" recordCount="1">
 							<True/>
-							<ScoreDistribution value="0" recordCount="20"/>
-							<ScoreDistribution value="1" recordCount="29"/>
+							<ScoreDistribution value="0" recordCount="0.05325443786982249"/>
+							<ScoreDistribution value="1" recordCount="0.9467455621301775"/>
 						</Node>
 					</Node>
 				</TreeModel>
@@ -269,62 +255,49 @@
 				<True/>
 				<TreeModel functionName="classification" missingValueStrategy="nullPrediction">
 					<MiningSchema>
-						<MiningField name="min_RESISTANCE"/>
 						<MiningField name="double(sum_RESISTANCE)"/>
-						<MiningField name="double(percentile_RESISTANCE)"/>
 						<MiningField name="double(count_RESISTANCE)"/>
 						<MiningField name="double(std_RESISTANCE)"/>
+						<MiningField name="double(min_RESISTANCE)"/>
+						<MiningField name="double(unique_RESISTANCE)"/>
 					</MiningSchema>
-					<LocalTransformations>
-						<DerivedField name="double(min_RESISTANCE)" optype="continuous" dataType="double">
-							<FieldRef field="min_RESISTANCE"/>
-						</DerivedField>
-					</LocalTransformations>
 					<Node>
 						<True/>
 						<Node>
-							<SimplePredicate field="double(std_RESISTANCE)" operator="lessOrEqual" value="-0.028838236816227436"/>
+							<SimplePredicate field="double(std_RESISTANCE)" operator="lessOrEqual" value="0.0628604106605053"/>
 							<Node>
-								<SimplePredicate field="double(min_RESISTANCE)" operator="lessOrEqual" value="1.2627074122428894"/>
-								<Node score="0" recordCount="167">
-									<SimplePredicate field="double(percentile_RESISTANCE)" operator="lessOrEqual" value="2.4725462198257446"/>
-									<ScoreDistribution value="0" recordCount="160"/>
-									<ScoreDistribution value="1" recordCount="7"/>
+								<SimplePredicate field="double(min_RESISTANCE)" operator="lessOrEqual" value="1.2549570798873901"/>
+								<Node score="0" recordCount="1">
+									<SimplePredicate field="double(unique_RESISTANCE)" operator="lessOrEqual" value="0.900603175163269"/>
+									<ScoreDistribution value="0" recordCount="0.9833333333333333"/>
+									<ScoreDistribution value="1" recordCount="0.016666666666666666"/>
 								</Node>
-								<Node score="1" recordCount="4">
+								<Node score="0" recordCount="1">
 									<True/>
-									<ScoreDistribution value="0" recordCount="1"/>
-									<ScoreDistribution value="1" recordCount="3"/>
+									<ScoreDistribution value="0" recordCount="0.7926829268292683"/>
+									<ScoreDistribution value="1" recordCount="0.2073170731707317"/>
 								</Node>
 							</Node>
-							<Node score="1" recordCount="13">
+							<Node score="1" recordCount="1">
 								<True/>
 								<ScoreDistribution value="0" recordCount="0"/>
-								<ScoreDistribution value="1" recordCount="13"/>
-							</Node>
-						</Node>
-						<Node>
-							<SimplePredicate field="double(count_RESISTANCE)" operator="lessOrEqual" value="-0.4090540111064911"/>
-							<Node score="0" recordCount="33">
-								<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="-0.7236549854278564"/>
-								<ScoreDistribution value="0" recordCount="32"/>
 								<ScoreDistribution value="1" recordCount="1"/>
 							</Node>
-							<Node score="1" recordCount="62">
-								<True/>
-								<ScoreDistribution value="0" recordCount="16"/>
-								<ScoreDistribution value="1" recordCount="46"/>
-							</Node>
 						</Node>
-						<Node score="1" recordCount="38">
-							<SimplePredicate field="double(std_RESISTANCE)" operator="lessOrEqual" value="0.20898786187171936"/>
-							<ScoreDistribution value="0" recordCount="16"/>
-							<ScoreDistribution value="1" recordCount="22"/>
+						<Node score="0" recordCount="1">
+							<SimplePredicate field="double(count_RESISTANCE)" operator="lessOrEqual" value="-1.2268078923225403"/>
+							<ScoreDistribution value="0" recordCount="1"/>
+							<ScoreDistribution value="1" recordCount="0"/>
 						</Node>
-						<Node score="1" recordCount="201">
+						<Node score="1" recordCount="1">
+							<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="-0.0015807259042048827"/>
+							<ScoreDistribution value="0" recordCount="0.46153846153846156"/>
+							<ScoreDistribution value="1" recordCount="0.5384615384615384"/>
+						</Node>
+						<Node score="1" recordCount="1">
 							<True/>
-							<ScoreDistribution value="0" recordCount="20"/>
-							<ScoreDistribution value="1" recordCount="181"/>
+							<ScoreDistribution value="0" recordCount="0.05"/>
+							<ScoreDistribution value="1" recordCount="0.95"/>
 						</Node>
 					</Node>
 				</TreeModel>
@@ -333,54 +306,57 @@
 				<True/>
 				<TreeModel functionName="classification" missingValueStrategy="nullPrediction">
 					<MiningSchema>
-						<MiningField name="double(var_RESISTANCE)"/>
 						<MiningField name="double(mean_RESISTANCE)"/>
 						<MiningField name="double(sum_RESISTANCE)"/>
+						<MiningField name="double(percentile_RESISTANCE)"/>
 						<MiningField name="double(median_RESISTANCE)"/>
-						<MiningField name="double(unique_RESISTANCE)"/>
+						<MiningField name="double(kurtosis_RESISTANCE)"/>
 					</MiningSchema>
 					<Node>
 						<True/>
 						<Node>
-							<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="-0.15474161505699158"/>
-							<Node score="0" recordCount="102">
-								<SimplePredicate field="double(median_RESISTANCE)" operator="lessOrEqual" value="-0.005945771932601929"/>
-								<ScoreDistribution value="0" recordCount="102"/>
-								<ScoreDistribution value="1" recordCount="0"/>
+							<SimplePredicate field="double(kurtosis_RESISTANCE)" operator="lessOrEqual" value="0.48163333535194397"/>
+							<Node>
+								<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="-0.1301398053765297"/>
+								<Node score="0" recordCount="1">
+									<SimplePredicate field="double(percentile_RESISTANCE)" operator="lessOrEqual" value="0.10861098766326904"/>
+									<ScoreDistribution value="0" recordCount="0.9693877551020408"/>
+									<ScoreDistribution value="1" recordCount="0.030612244897959183"/>
+								</Node>
+								<Node score="1" recordCount="1">
+									<True/>
+									<ScoreDistribution value="0" recordCount="0.4"/>
+									<ScoreDistribution value="1" recordCount="0.6"/>
+								</Node>
 							</Node>
-							<Node score="0" recordCount="58">
-								<SimplePredicate field="double(unique_RESISTANCE)" operator="lessOrEqual" value="-1.130343735218048"/>
-								<ScoreDistribution value="0" recordCount="47"/>
-								<ScoreDistribution value="1" recordCount="11"/>
-							</Node>
-							<Node score="1" recordCount="38">
-								<True/>
-								<ScoreDistribution value="0" recordCount="8"/>
-								<ScoreDistribution value="1" recordCount="30"/>
-							</Node>
-						</Node>
-						<Node>
-							<SimplePredicate field="double(mean_RESISTANCE)" operator="lessOrEqual" value="-0.6031018495559692"/>
-							<Node score="0" recordCount="85">
-								<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="1.6527865529060364"/>
-								<ScoreDistribution value="0" recordCount="83"/>
-								<ScoreDistribution value="1" recordCount="2"/>
+							<Node score="0" recordCount="1">
+								<SimplePredicate field="double(mean_RESISTANCE)" operator="lessOrEqual" value="-0.6656850576400757"/>
+								<ScoreDistribution value="0" recordCount="0.9"/>
+								<ScoreDistribution value="1" recordCount="0.1"/>
 							</Node>
 							<Node score="1" recordCount="1">
 								<True/>
-								<ScoreDistribution value="0" recordCount="0"/>
-								<ScoreDistribution value="1" recordCount="1"/>
+								<ScoreDistribution value="0" recordCount="0.03225806451612903"/>
+								<ScoreDistribution value="1" recordCount="0.967741935483871"/>
 							</Node>
 						</Node>
-						<Node score="0" recordCount="5">
-							<SimplePredicate field="double(var_RESISTANCE)" operator="lessOrEqual" value="-0.21984891593456268"/>
-							<ScoreDistribution value="0" recordCount="5"/>
-							<ScoreDistribution value="1" recordCount="0"/>
+						<Node>
+							<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="2.0191630125045776"/>
+							<Node score="0" recordCount="1">
+								<SimplePredicate field="double(median_RESISTANCE)" operator="lessOrEqual" value="-0.5174803733825684"/>
+								<ScoreDistribution value="0" recordCount="1"/>
+								<ScoreDistribution value="1" recordCount="0"/>
+							</Node>
+							<Node score="0" recordCount="1">
+								<True/>
+								<ScoreDistribution value="0" recordCount="0.5"/>
+								<ScoreDistribution value="1" recordCount="0.5"/>
+							</Node>
 						</Node>
-						<Node score="1" recordCount="229">
+						<Node score="1" recordCount="1">
 							<True/>
-							<ScoreDistribution value="0" recordCount="11"/>
-							<ScoreDistribution value="1" recordCount="218"/>
+							<ScoreDistribution value="0" recordCount="0"/>
+							<ScoreDistribution value="1" recordCount="1"/>
 						</Node>
 					</Node>
 				</TreeModel>
@@ -389,62 +365,45 @@
 				<True/>
 				<TreeModel functionName="classification" missingValueStrategy="nullPrediction">
 					<MiningSchema>
-						<MiningField name="double(var_RESISTANCE)"/>
+						<MiningField name="double(mean_RESISTANCE)"/>
 						<MiningField name="double(sum_RESISTANCE)"/>
 						<MiningField name="double(percentile_RESISTANCE)"/>
-						<MiningField name="double(count_RESISTANCE)"/>
-						<MiningField name="double(kurtosis_RESISTANCE)"/>
+						<MiningField name="double(std_RESISTANCE)"/>
 					</MiningSchema>
 					<Node>
 						<True/>
 						<Node>
-							<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="0.021428685635328293"/>
-							<Node>
-								<SimplePredicate field="double(kurtosis_RESISTANCE)" operator="lessOrEqual" value="-0.769837349653244"/>
-								<Node score="0" recordCount="29">
-									<SimplePredicate field="double(var_RESISTANCE)" operator="lessOrEqual" value="0.33194398880004883"/>
-									<ScoreDistribution value="0" recordCount="20"/>
-									<ScoreDistribution value="1" recordCount="9"/>
-								</Node>
-								<Node score="1" recordCount="39">
-									<True/>
-									<ScoreDistribution value="0" recordCount="7"/>
-									<ScoreDistribution value="1" recordCount="32"/>
-								</Node>
+							<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="-0.0015807259042048827"/>
+							<Node score="1" recordCount="1">
+								<SimplePredicate field="double(std_RESISTANCE)" operator="lessOrEqual" value="-1.6541165113449097"/>
+								<ScoreDistribution value="0" recordCount="0"/>
+								<ScoreDistribution value="1" recordCount="1"/>
 							</Node>
-							<Node score="0" recordCount="145">
-								<SimplePredicate field="double(percentile_RESISTANCE)" operator="lessOrEqual" value="2.680083155632019"/>
-								<ScoreDistribution value="0" recordCount="140"/>
-								<ScoreDistribution value="1" recordCount="5"/>
+							<Node score="0" recordCount="1">
+								<SimplePredicate field="double(mean_RESISTANCE)" operator="lessOrEqual" value="0.15446508675813675"/>
+								<ScoreDistribution value="0" recordCount="0.9921259842519685"/>
+								<ScoreDistribution value="1" recordCount="0.007874015748031496"/>
 							</Node>
-							<Node score="1" recordCount="13">
+							<Node score="0" recordCount="1">
 								<True/>
-								<ScoreDistribution value="0" recordCount="1"/>
-								<ScoreDistribution value="1" recordCount="12"/>
+								<ScoreDistribution value="0" recordCount="0.5063291139240507"/>
+								<ScoreDistribution value="1" recordCount="0.4936708860759494"/>
 							</Node>
 						</Node>
-						<Node>
-							<SimplePredicate field="double(count_RESISTANCE)" operator="lessOrEqual" value="0.4655490517616272"/>
-							<Node score="1" recordCount="122">
-								<SimplePredicate field="double(kurtosis_RESISTANCE)" operator="lessOrEqual" value="-0.2016819640994072"/>
-								<ScoreDistribution value="0" recordCount="1"/>
-								<ScoreDistribution value="1" recordCount="121"/>
-							</Node>
-							<Node score="0" recordCount="5">
-								<True/>
-								<ScoreDistribution value="0" recordCount="5"/>
-								<ScoreDistribution value="1" recordCount="0"/>
-							</Node>
+						<Node score="0" recordCount="1">
+							<SimplePredicate field="double(percentile_RESISTANCE)" operator="lessOrEqual" value="-0.5596681237220764"/>
+							<ScoreDistribution value="0" recordCount="1"/>
+							<ScoreDistribution value="1" recordCount="0"/>
 						</Node>
-						<Node score="0" recordCount="80">
-							<SimplePredicate field="double(percentile_RESISTANCE)" operator="lessOrEqual" value="-0.5549623966217041"/>
-							<ScoreDistribution value="0" recordCount="79"/>
-							<ScoreDistribution value="1" recordCount="1"/>
+						<Node score="0" recordCount="1">
+							<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="0.009216979146003723"/>
+							<ScoreDistribution value="0" recordCount="0.5"/>
+							<ScoreDistribution value="1" recordCount="0.5"/>
 						</Node>
-						<Node score="1" recordCount="85">
+						<Node score="1" recordCount="1">
 							<True/>
-							<ScoreDistribution value="0" recordCount="5"/>
-							<ScoreDistribution value="1" recordCount="80"/>
+							<ScoreDistribution value="0" recordCount="0.06018518518518518"/>
+							<ScoreDistribution value="1" recordCount="0.9398148148148148"/>
 						</Node>
 					</Node>
 				</TreeModel>
@@ -456,59 +415,54 @@
 						<MiningField name="double(mean_RESISTANCE)"/>
 						<MiningField name="double(sum_RESISTANCE)"/>
 						<MiningField name="double(percentile_RESISTANCE)"/>
+						<MiningField name="double(std_RESISTANCE)"/>
 						<MiningField name="double(median_RESISTANCE)"/>
-						<MiningField name="double(kurtosis_RESISTANCE)"/>
 					</MiningSchema>
 					<Node>
 						<True/>
 						<Node>
-							<SimplePredicate field="double(mean_RESISTANCE)" operator="lessOrEqual" value="-0.47626613080501556"/>
+							<SimplePredicate field="double(mean_RESISTANCE)" operator="lessOrEqual" value="-0.5392678380012512"/>
 							<Node>
-								<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="1.4898317456245422"/>
-								<Node score="0" recordCount="147">
-									<SimplePredicate field="double(median_RESISTANCE)" operator="lessOrEqual" value="-0.4931722730398178"/>
-									<ScoreDistribution value="0" recordCount="145"/>
-									<ScoreDistribution value="1" recordCount="2"/>
-								</Node>
-								<Node score="0" recordCount="2">
-									<True/>
+								<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="1.720288634300232"/>
+								<Node score="0" recordCount="1">
+									<SimplePredicate field="double(median_RESISTANCE)" operator="lessOrEqual" value="-0.5622403919696808"/>
 									<ScoreDistribution value="0" recordCount="1"/>
-									<ScoreDistribution value="1" recordCount="1"/>
+									<ScoreDistribution value="1" recordCount="0"/>
+								</Node>
+								<Node score="0" recordCount="1">
+									<True/>
+									<ScoreDistribution value="0" recordCount="0.8648648648648649"/>
+									<ScoreDistribution value="1" recordCount="0.13513513513513514"/>
 								</Node>
 							</Node>
-							<Node score="1" recordCount="6">
-								<SimplePredicate field="double(kurtosis_RESISTANCE)" operator="lessOrEqual" value="0.9379925429821014"/>
-								<ScoreDistribution value="0" recordCount="0"/>
-								<ScoreDistribution value="1" recordCount="6"/>
-							</Node>
-							<Node score="0" recordCount="1">
+							<Node score="1" recordCount="1">
 								<True/>
-								<ScoreDistribution value="0" recordCount="1"/>
-								<ScoreDistribution value="1" recordCount="0"/>
+								<ScoreDistribution value="0" recordCount="0"/>
+								<ScoreDistribution value="1" recordCount="1"/>
 							</Node>
 						</Node>
 						<Node>
-							<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="-0.21109125763177872"/>
-							<Node score="0" recordCount="107">
-								<SimplePredicate field="double(percentile_RESISTANCE)" operator="lessOrEqual" value="1.5767135620117188"/>
-								<ScoreDistribution value="0" recordCount="95"/>
-								<ScoreDistribution value="1" recordCount="12"/>
+							<SimplePredicate field="double(std_RESISTANCE)" operator="lessOrEqual" value="0.35473017394542694"/>
+							<Node score="0" recordCount="1">
+								<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="0.12708812579512596"/>
+								<ScoreDistribution value="0" recordCount="0.7704918032786885"/>
+								<ScoreDistribution value="1" recordCount="0.22950819672131148"/>
 							</Node>
-							<Node score="1" recordCount="47">
+							<Node score="1" recordCount="1">
 								<True/>
-								<ScoreDistribution value="0" recordCount="12"/>
-								<ScoreDistribution value="1" recordCount="35"/>
+								<ScoreDistribution value="0" recordCount="0"/>
+								<ScoreDistribution value="1" recordCount="1"/>
 							</Node>
 						</Node>
-						<Node score="1" recordCount="62">
-							<SimplePredicate field="double(mean_RESISTANCE)" operator="lessOrEqual" value="-0.10748258605599403"/>
-							<ScoreDistribution value="0" recordCount="11"/>
-							<ScoreDistribution value="1" recordCount="51"/>
+						<Node score="1" recordCount="1">
+							<SimplePredicate field="double(percentile_RESISTANCE)" operator="lessOrEqual" value="-0.4899030476808548"/>
+							<ScoreDistribution value="0" recordCount="0.4230769230769231"/>
+							<ScoreDistribution value="1" recordCount="0.5769230769230769"/>
 						</Node>
-						<Node score="1" recordCount="146">
+						<Node score="1" recordCount="1">
 							<True/>
-							<ScoreDistribution value="0" recordCount="1"/>
-							<ScoreDistribution value="1" recordCount="145"/>
+							<ScoreDistribution value="0" recordCount="0.15270935960591134"/>
+							<ScoreDistribution value="1" recordCount="0.8472906403940886"/>
 						</Node>
 					</Node>
 				</TreeModel>
@@ -524,33 +478,33 @@
 					</MiningSchema>
 					<Node>
 						<True/>
-						<Node score="0" recordCount="94">
-							<SimplePredicate field="double(max_RESISTANCE)" operator="lessOrEqual" value="-0.7272566854953766"/>
-							<ScoreDistribution value="0" recordCount="94"/>
+						<Node score="0" recordCount="1">
+							<SimplePredicate field="double(max_RESISTANCE)" operator="lessOrEqual" value="-0.772540956735611"/>
+							<ScoreDistribution value="0" recordCount="1"/>
 							<ScoreDistribution value="1" recordCount="0"/>
 						</Node>
 						<Node>
-							<SimplePredicate field="double(median_RESISTANCE)" operator="lessOrEqual" value="-0.5549623966217041"/>
-							<Node score="0" recordCount="10">
-								<SimplePredicate field="double(kurtosis_RESISTANCE)" operator="lessOrEqual" value="0.3998052626848221"/>
-								<ScoreDistribution value="0" recordCount="8"/>
-								<ScoreDistribution value="1" recordCount="2"/>
+							<SimplePredicate field="double(median_RESISTANCE)" operator="lessOrEqual" value="-0.5427812039852142"/>
+							<Node score="0" recordCount="1">
+								<SimplePredicate field="double(kurtosis_RESISTANCE)" operator="lessOrEqual" value="0.6361166834831238"/>
+								<ScoreDistribution value="0" recordCount="0.6086956521739131"/>
+								<ScoreDistribution value="1" recordCount="0.391304347826087"/>
 							</Node>
-							<Node score="0" recordCount="72">
+							<Node score="0" recordCount="1">
 								<True/>
-								<ScoreDistribution value="0" recordCount="72"/>
+								<ScoreDistribution value="0" recordCount="1"/>
 								<ScoreDistribution value="1" recordCount="0"/>
 							</Node>
 						</Node>
-						<Node score="1" recordCount="219">
-							<SimplePredicate field="double(unique_RESISTANCE)" operator="lessOrEqual" value="0.14524812251329422"/>
-							<ScoreDistribution value="0" recordCount="98"/>
-							<ScoreDistribution value="1" recordCount="121"/>
+						<Node score="1" recordCount="1">
+							<SimplePredicate field="double(unique_RESISTANCE)" operator="lessOrEqual" value="0.11716549098491669"/>
+							<ScoreDistribution value="0" recordCount="0.3684210526315789"/>
+							<ScoreDistribution value="1" recordCount="0.631578947368421"/>
 						</Node>
-						<Node score="1" recordCount="123">
+						<Node score="1" recordCount="1">
 							<True/>
-							<ScoreDistribution value="0" recordCount="5"/>
-							<ScoreDistribution value="1" recordCount="118"/>
+							<ScoreDistribution value="0" recordCount="0.010101010101010102"/>
+							<ScoreDistribution value="1" recordCount="0.98989898989899"/>
 						</Node>
 					</Node>
 				</TreeModel>
@@ -559,39 +513,54 @@
 				<True/>
 				<TreeModel functionName="classification" missingValueStrategy="nullPrediction">
 					<MiningSchema>
+						<MiningField name="double(mean_RESISTANCE)"/>
 						<MiningField name="double(sum_RESISTANCE)"/>
-						<MiningField name="double(count_RESISTANCE)"/>
+						<MiningField name="double(percentile_RESISTANCE)"/>
 						<MiningField name="double(median_RESISTANCE)"/>
+						<MiningField name="double(skew_RESISTANCE)"/>
 					</MiningSchema>
 					<Node>
 						<True/>
-						<Node score="0" recordCount="93">
-							<SimplePredicate field="double(median_RESISTANCE)" operator="lessOrEqual" value="-0.5603716373443604"/>
-							<ScoreDistribution value="0" recordCount="93"/>
-							<ScoreDistribution value="1" recordCount="0"/>
+						<Node>
+							<SimplePredicate field="double(median_RESISTANCE)" operator="lessOrEqual" value="-0.5607703030109406"/>
+							<Node score="0" recordCount="1">
+								<SimplePredicate field="double(percentile_RESISTANCE)" operator="lessOrEqual" value="-0.5619508624076843"/>
+								<ScoreDistribution value="0" recordCount="1"/>
+								<ScoreDistribution value="1" recordCount="0"/>
+							</Node>
+							<Node score="1" recordCount="1">
+								<SimplePredicate field="double(median_RESISTANCE)" operator="lessOrEqual" value="-0.5617870688438416"/>
+								<ScoreDistribution value="0" recordCount="0"/>
+								<ScoreDistribution value="1" recordCount="1"/>
+							</Node>
+							<Node score="0" recordCount="1">
+								<True/>
+								<ScoreDistribution value="0" recordCount="1"/>
+								<ScoreDistribution value="1" recordCount="0"/>
+							</Node>
 						</Node>
 						<Node>
-							<SimplePredicate field="double(count_RESISTANCE)" operator="lessOrEqual" value="0.12582632899284363"/>
-							<Node score="0" recordCount="88">
-								<SimplePredicate field="double(median_RESISTANCE)" operator="lessOrEqual" value="-0.3649906814098358"/>
-								<ScoreDistribution value="0" recordCount="84"/>
-								<ScoreDistribution value="1" recordCount="4"/>
+							<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="0.017468574922531843"/>
+							<Node score="1" recordCount="1">
+								<SimplePredicate field="double(skew_RESISTANCE)" operator="lessOrEqual" value="-0.9606224000453949"/>
+								<ScoreDistribution value="0" recordCount="0.1511627906976744"/>
+								<ScoreDistribution value="1" recordCount="0.8488372093023255"/>
 							</Node>
-							<Node score="1" recordCount="182">
+							<Node score="0" recordCount="1">
 								<True/>
-								<ScoreDistribution value="0" recordCount="56"/>
-								<ScoreDistribution value="1" recordCount="126"/>
+								<ScoreDistribution value="0" recordCount="0.9140625"/>
+								<ScoreDistribution value="1" recordCount="0.0859375"/>
 							</Node>
 						</Node>
-						<Node score="0" recordCount="12">
-							<SimplePredicate field="double(sum_RESISTANCE)" operator="lessOrEqual" value="0.529514342546463"/>
-							<ScoreDistribution value="0" recordCount="12"/>
+						<Node score="0" recordCount="1">
+							<SimplePredicate field="double(mean_RESISTANCE)" operator="lessOrEqual" value="-0.7913075983524323"/>
+							<ScoreDistribution value="0" recordCount="1"/>
 							<ScoreDistribution value="1" recordCount="0"/>
 						</Node>
-						<Node score="1" recordCount="143">
+						<Node score="1" recordCount="1">
 							<True/>
-							<ScoreDistribution value="0" recordCount="2"/>
-							<ScoreDistribution value="1" recordCount="141"/>
+							<ScoreDistribution value="0" recordCount="0.034482758620689655"/>
+							<ScoreDistribution value="1" recordCount="0.9655172413793104"/>
 						</Node>
 					</Node>
 				</TreeModel>
@@ -608,43 +577,48 @@
 					<Node>
 						<True/>
 						<Node>
-							<SimplePredicate field="double(var_RESISTANCE)" operator="lessOrEqual" value="0.14626462012529373"/>
+							<SimplePredicate field="double(var_RESISTANCE)" operator="lessOrEqual" value="0.1337173879146576"/>
 							<Node>
-								<SimplePredicate field="double(percentile_RESISTANCE)" operator="lessOrEqual" value="2.894156575202942"/>
-								<Node score="0" recordCount="135">
-									<SimplePredicate field="double(var_RESISTANCE)" operator="lessOrEqual" value="-0.36909401416778564"/>
-									<ScoreDistribution value="0" recordCount="133"/>
-									<ScoreDistribution value="1" recordCount="2"/>
+								<SimplePredicate field="double(percentile_RESISTANCE)" operator="lessOrEqual" value="2.889954090118408"/>
+								<Node score="0" recordCount="1">
+									<SimplePredicate field="double(var_RESISTANCE)" operator="lessOrEqual" value="-0.37108899652957916"/>
+									<ScoreDistribution value="0" recordCount="0.9913793103448276"/>
+									<ScoreDistribution value="1" recordCount="0.008620689655172414"/>
 								</Node>
-								<Node score="0" recordCount="100">
+								<Node score="0" recordCount="1">
 									<True/>
-									<ScoreDistribution value="0" recordCount="60"/>
-									<ScoreDistribution value="1" recordCount="40"/>
+									<ScoreDistribution value="0" recordCount="0.6701030927835051"/>
+									<ScoreDistribution value="1" recordCount="0.32989690721649484"/>
 								</Node>
 							</Node>
-							<Node score="1" recordCount="15">
+							<Node score="1" recordCount="1">
 								<True/>
 								<ScoreDistribution value="0" recordCount="0"/>
-								<ScoreDistribution value="1" recordCount="15"/>
+								<ScoreDistribution value="1" recordCount="1"/>
 							</Node>
 						</Node>
 						<Node>
-							<SimplePredicate field="double(skew_RESISTANCE)" operator="lessOrEqual" value="0.9120025634765625"/>
-							<Node score="0" recordCount="5">
-								<SimplePredicate field="double(count_RESISTANCE)" operator="lessOrEqual" value="-1.2209771871566772"/>
-								<ScoreDistribution value="0" recordCount="5"/>
-								<ScoreDistribution value="1" recordCount="0"/>
+							<SimplePredicate field="double(count_RESISTANCE)" operator="lessOrEqual" value="-0.3168795108795166"/>
+							<Node score="1" recordCount="1">
+								<SimplePredicate field="double(skew_RESISTANCE)" operator="lessOrEqual" value="-0.6190614700317383"/>
+								<ScoreDistribution value="0" recordCount="0.14516129032258066"/>
+								<ScoreDistribution value="1" recordCount="0.8548387096774194"/>
 							</Node>
-							<Node score="1" recordCount="257">
+							<Node score="0" recordCount="1">
 								<True/>
-								<ScoreDistribution value="0" recordCount="35"/>
-								<ScoreDistribution value="1" recordCount="222"/>
+								<ScoreDistribution value="0" recordCount="0.8888888888888888"/>
+								<ScoreDistribution value="1" recordCount="0.1111111111111111"/>
 							</Node>
 						</Node>
-						<Node score="0" recordCount="6">
+						<Node score="1" recordCount="1">
+							<SimplePredicate field="double(skew_RESISTANCE)" operator="lessOrEqual" value="0.6305301487445831"/>
+							<ScoreDistribution value="0" recordCount="0.03468208092485549"/>
+							<ScoreDistribution value="1" recordCount="0.9653179190751445"/>
+						</Node>
+						<Node score="0" recordCount="1">
 							<True/>
-							<ScoreDistribution value="0" recordCount="6"/>
-							<ScoreDistribution value="1" recordCount="0"/>
+							<ScoreDistribution value="0" recordCount="0.6153846153846154"/>
+							<ScoreDistribution value="1" recordCount="0.38461538461538464"/>
 						</Node>
 					</Node>
 				</TreeModel>

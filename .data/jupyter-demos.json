@@ -105,11 +105,11 @@
             "subjects": [
                 {
                     "id": 39,
-                    "subject": "Travel & Transportation"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 39,
-                    "subject": "Time series analytics"
+                    "subject": "Travel & Transportation"
                 },
                 {
                     "id": 39,
@@ -126,36 +126,6 @@
                     "type": "nbviewer",
                     "url": "https://nbviewer.org/urls/storage.googleapis.com/clearscape_analytics_documents/Experience/UseCases/Air_Passenger_Forecasting/Pop_Air_Passenger_Forecasting_SQL.ipynb",
                     "label": "Read Only SQL"
-                }
-            ]
-        },
-        {
-            "id": 370,
-            "demo": "An Introduction to Parallel CPU Inferencing of HuggingFace Models in Vantage",
-            "description": "Select a HuggingFace model, export the model into the database in ONNX format and then use Parallel inferencing in the database.",
-            "subjects": [
-                {
-                    "id": 370,
-                    "subject": "Python"
-                },
-                {
-                    "id": 370,
-                    "subject": "ClearScape Analytic Functions"
-                },
-                {
-                    "id": 370,
-                    "subject": "teradataml OpenSourceML"
-                },
-                {
-                    "id": 370,
-                    "subject": "Hugging Face"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "UseCases/Telco_Complaints_Analysis_InVantage/Initialization_and_Model_Load.ipynb",
-                    "label": "Python Version"
                 }
             ]
         },
@@ -188,19 +158,19 @@
             "subjects": [
                 {
                     "id": 106,
-                    "subject": "Anomaly Detection"
-                },
-                {
-                    "id": 106,
                     "subject": "Open-and-connected analytics"
                 },
                 {
                     "id": 106,
-                    "subject": "Automotive"
+                    "subject": "Anomaly Detection"
                 },
                 {
                     "id": 106,
                     "subject": "Manufacturing"
+                },
+                {
+                    "id": 106,
+                    "subject": "Automotive"
                 },
                 {
                     "id": 106,
@@ -234,10 +204,6 @@
             "demo": "Anomaly Detection in Credit Card Accounts",
             "description": "Use K-Means clustering to group similar transactions and identify anomalies based on Euclidean distances.",
             "subjects": [
-                {
-                    "id": 389,
-                    "subject": "New"
-                },
                 {
                     "id": 389,
                     "subject": "Python"
@@ -588,7 +554,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/urls/storage.googleapis.com/clearscape_analytics_documents/Experience/Getting_Started/Basic_Jupyter_Navigation/Pop_Basic_Jupyter_Navigation_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/80769bb2ee4e7ca5c2ee01bd7a51bd35f2c56891/Getting_Started/Basic_Jupyter_Navigation/Pop_Basic_Jupyter_Navigation_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -604,11 +570,11 @@
                 },
                 {
                     "id": 58,
-                    "subject": "Automotive"
+                    "subject": "Object Storage"
                 },
                 {
                     "id": 58,
-                    "subject": "Object Storage"
+                    "subject": "Automotive"
                 },
                 {
                     "id": 58,
@@ -740,11 +706,11 @@
             "subjects": [
                 {
                     "id": 82,
-                    "subject": "Retail"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 82,
-                    "subject": "Path Analytics"
+                    "subject": "Retail"
                 },
                 {
                     "id": 82,
@@ -840,15 +806,15 @@
             "subjects": [
                 {
                     "id": 103,
-                    "subject": "Automotive"
-                },
-                {
-                    "id": 103,
                     "subject": "Geospatial"
                 },
                 {
                     "id": 103,
                     "subject": "Manufacturing"
+                },
+                {
+                    "id": 103,
+                    "subject": "Automotive"
                 },
                 {
                     "id": 103,
@@ -906,11 +872,11 @@
             "subjects": [
                 {
                     "id": 114,
-                    "subject": "Financial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 114,
-                    "subject": "Time series analytics"
+                    "subject": "Financial"
                 },
                 {
                     "id": 114,
@@ -982,7 +948,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/urls/storage.googleapis.com/clearscape_analytics_documents/Experience/Getting_Started/Charting_and_Visualization/Pop_Charting_and_Visualization_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/80769bb2ee4e7ca5c2ee01bd7a51bd35f2c56891/Getting_Started/Charting_and_Visualization/Pop_Charting_and_Visualization_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -1070,10 +1036,6 @@
             "demo": "Chatbot using Teradata's Enterprise Vector Store",
             "description": "Build a chat interface to ask questions using conversational AI after loading a selection of PDF files.",
             "subjects": [
-                {
-                    "id": 381,
-                    "subject": "New"
-                },
                 {
                     "id": 381,
                     "subject": "Python"
@@ -1204,10 +1166,6 @@
             "demo": "Combining Structured and Unstructured Data for Predictive Modeling",
             "description": "Turn structured and unstructured data into meaningful features using embeddings and clustering and then send them to a model.",
             "subjects": [
-                {
-                    "id": 385,
-                    "subject": "New"
-                },
                 {
                     "id": 385,
                     "subject": "Python"
@@ -1678,11 +1636,11 @@
             "subjects": [
                 {
                     "id": 7,
-                    "subject": "Financial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 7,
-                    "subject": "Time series analytics"
+                    "subject": "Financial"
                 },
                 {
                     "id": 7,
@@ -1821,32 +1779,6 @@
             ]
         },
         {
-            "id": 147,
-            "demo": "Credit Card Data Preparation",
-            "description": "Uses functions from TeradataML Python library to prepare data for analysis using data cleansing, exploration and feature engineering functions.",
-            "subjects": [
-                {
-                    "id": 147,
-                    "subject": "Data Preparation"
-                },
-                {
-                    "id": 147,
-                    "subject": "Financial"
-                },
-                {
-                    "id": 147,
-                    "subject": "Python"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_Python.ipynb",
-                    "label": "Python Version"
-                }
-            ]
-        },
-        {
             "id": 60,
             "demo": "Credit Card Data Preparation",
             "description": "This shows the use of ClearScape analytics to reduce the pre-processing effort of incoming raw credit card data to prepare for analysis of potential loan defaulters.",
@@ -1874,6 +1806,32 @@
                     "type": "nbviewer",
                     "url": "https://nbviewer.org/urls/storage.googleapis.com/clearscape_analytics_documents/Experience/UseCases/Credit_Card_Data_Preparation/Pop_Credit_Card_Data_Preparation_SQL.ipynb",
                     "label": "Read Only SQL"
+                }
+            ]
+        },
+        {
+            "id": 147,
+            "demo": "Credit Card Data Preparation",
+            "description": "Uses functions from TeradataML Python library to prepare data for analysis using data cleansing, exploration and feature engineering functions.",
+            "subjects": [
+                {
+                    "id": 147,
+                    "subject": "Data Preparation"
+                },
+                {
+                    "id": 147,
+                    "subject": "Financial"
+                },
+                {
+                    "id": 147,
+                    "subject": "Python"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Credit_Card_Data_Preparation/Credit_Card_Data_Preparation_Python.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -1963,11 +1921,11 @@
             "subjects": [
                 {
                     "id": 23,
-                    "subject": "Path Analytics"
+                    "subject": "Retail"
                 },
                 {
                     "id": 23,
-                    "subject": "Retail"
+                    "subject": "Path Analytics"
                 },
                 {
                     "id": 23,
@@ -2340,6 +2298,44 @@
             ]
         },
         {
+            "id": 406,
+            "demo": "Customer Segmentation with AutoCluster",
+            "description": "Use Automated Machine Learning for Clustering functionality to automate the entire process of developing a predictive model.",
+            "subjects": [
+                {
+                    "id": 406,
+                    "subject": "New"
+                },
+                {
+                    "id": 406,
+                    "subject": "Python"
+                },
+                {
+                    "id": 406,
+                    "subject": "Healthcare"
+                },
+                {
+                    "id": 406,
+                    "subject": "AutoML"
+                },
+                {
+                    "id": 406,
+                    "subject": "Prediction Analysis"
+                },
+                {
+                    "id": 406,
+                    "subject": "Feature Engineering"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Customer_Segmentation_using_AutoCluster/Customer_Segmentation_AutoCluster_Python.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 186,
             "demo": "Customer Segmentation with K-means",
             "description": "Use K-means clustering to segment customers by purchase volume and value using R and tdplyr",
@@ -2637,7 +2633,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/urls/storage.googleapis.com/clearscape_analytics_documents/Experience/Getting_Started/Data_Loading/Pop_Data_Loading_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/80769bb2ee4e7ca5c2ee01bd7a51bd35f2c56891/Getting_Started/Data_Loading/Pop_Data_Loading_Python.ipynb",
                     "label": "Read Only Python-SQL"
                 }
             ]
@@ -2664,7 +2660,7 @@
                 },
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/urls/storage.googleapis.com/clearscape_analytics_documents/Experience/Getting_Started/Data_Loading/Pop_Data_Loading_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/80769bb2ee4e7ca5c2ee01bd7a51bd35f2c56891/Getting_Started/Data_Loading/Pop_Data_Loading_SQL.ipynb",
                     "label": "Read Only SQL"
                 }
             ]
@@ -2977,11 +2973,11 @@
             "subjects": [
                 {
                     "id": 142,
-                    "subject": "Financial"
+                    "subject": "Celebrus"
                 },
                 {
                     "id": 142,
-                    "subject": "Celebrus"
+                    "subject": "Financial"
                 },
                 {
                     "id": 142,
@@ -3010,10 +3006,6 @@
             "demo": "Discover Customer Lifetime Value using Teradata AgentBuilder",
             "description": "Explore the capabilities of Teradata AgentBuilder to explore an AgenticAI workflow to ask questions and generate charts about Customer Lifetime Value.",
             "subjects": [
-                {
-                    "id": 393,
-                    "subject": "New"
-                },
                 {
                     "id": 393,
                     "subject": "Finance"
@@ -3163,11 +3155,11 @@
                 },
                 {
                     "id": 111,
-                    "subject": "Energy & Natural Resources"
+                    "subject": "Dataiku"
                 },
                 {
                     "id": 111,
-                    "subject": "Dataiku"
+                    "subject": "Energy & Natural Resources"
                 },
                 {
                     "id": 111,
@@ -3194,11 +3186,11 @@
             "subjects": [
                 {
                     "id": 138,
-                    "subject": "Azure ML"
+                    "subject": "Energy & Natural Resources"
                 },
                 {
                     "id": 138,
-                    "subject": "Energy & Natural Resources"
+                    "subject": "Azure ML"
                 },
                 {
                     "id": 138,
@@ -3351,10 +3343,6 @@
             "subjects": [
                 {
                     "id": 388,
-                    "subject": "New"
-                },
-                {
-                    "id": 388,
                     "subject": "Python"
                 },
                 {
@@ -3387,10 +3375,6 @@
             "demo": "Entity Resolution with In-Database Embeddings and Analytics: Model Creation",
             "description": "Install and run a local H2O instance to build a Binary Classification model using Open Source H2O AutoML.",
             "subjects": [
-                {
-                    "id": 387,
-                    "subject": "New"
-                },
                 {
                     "id": 387,
                     "subject": "Python"
@@ -3438,6 +3422,32 @@
                 {
                     "type": "notebook",
                     "url": "Getting_Started/Script_Table_Operator/Getting_Started_STO_Python.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 400,
+            "demo": "Exploring Data Analysis using TeradataML Widgets",
+            "description": "Use the Exploratory Data Analysis UI to look deeper into a dataset. Analyze, Visualize, Describe and Persist data that's in the Teradata database.",
+            "subjects": [
+                {
+                    "id": 400,
+                    "subject": "New"
+                },
+                {
+                    "id": 400,
+                    "subject": "Python"
+                },
+                {
+                    "id": 400,
+                    "subject": "Financial"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Getting_Started/Teradataml_Widgets/EDA.ipynb",
                     "label": "Python Version"
                 }
             ]
@@ -3638,6 +3648,11 @@
                     "type": "notebook",
                     "url": "UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_Python.ipynb",
                     "label": "Python Version"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Financial_Fraud_Detection_InDB/Financial_Fraud_Detection_InDB_SQL.ipynb",
+                    "label": "SQL Version"
                 }
             ]
         },
@@ -3673,6 +3688,44 @@
                     "type": "nbviewer",
                     "url": "https://nbviewer.org/urls/storage.googleapis.com/clearscape_analytics_documents/Experience/UseCases/Financial_Fraud_Detection_BYOM/Pop_Financial_Fraud_Detection_BYOM_Python.ipynb",
                     "label": "Read Only Python"
+                }
+            ]
+        },
+        {
+            "id": 407,
+            "demo": "Financial Fraud Detection using AutoFraud",
+            "description": "Implement a typical fraud detection machine learning workflow entirely within the Teradata database using our teradataml AutoFraud pipeline.",
+            "subjects": [
+                {
+                    "id": 407,
+                    "subject": "New"
+                },
+                {
+                    "id": 407,
+                    "subject": "Python"
+                },
+                {
+                    "id": 407,
+                    "subject": "Financial"
+                },
+                {
+                    "id": 407,
+                    "subject": "teradataml OpenSourceML"
+                },
+                {
+                    "id": 407,
+                    "subject": "Fraud Detection"
+                },
+                {
+                    "id": 407,
+                    "subject": "Machine Learning"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Financial_Fraud_Detection_using_AutoFraud/Financial_Fraud_Detection_AutoFraud_Python.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -3843,32 +3896,37 @@
             ]
         },
         {
-            "id": 371,
-            "demo": "From Complaints to Clarity: Uncovering Hidden Trends in Telco Customer Feedback",
-            "description": "See how a\u00a0fully data-driven approach\u00a0can help analyze large volumes of text data, automatically identifying topics and tracking their trends over time.",
+            "id": 395,
+            "demo": "Fraud, Waste, and Abuse Detection in HealthCare",
+            "description": "",
             "subjects": [
                 {
-                    "id": 371,
-                    "subject": "Python"
+                    "id": 395,
+                    "subject": "New"
                 },
                 {
-                    "id": 371,
-                    "subject": "ClearScape Analytic Functions"
+                    "id": 395,
+                    "subject": "SQL"
                 },
                 {
-                    "id": 371,
-                    "subject": "teradataml OpenSourceML"
+                    "id": 395,
+                    "subject": "Healthcare"
                 },
                 {
-                    "id": 371,
-                    "subject": "Hugging Face"
+                    "id": 395,
+                    "subject": "Fraud Detection"
                 }
             ],
             "links": [
                 {
                     "type": "notebook",
-                    "url": "UseCases/Telco_Complaints_Analysis_InVantage/Telco_Complaints_Analysis_Ivsm.ipynb",
-                    "label": "Python Version"
+                    "url": "UseCases/FWA_Healthcare/FWA_Dataprocessing_sql.ipynb",
+                    "label": "UseCase Data Prep"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/FWA_Healthcare/FWA_Reporting_in_Healthcare.ipynb",
+                    "label": "SQL Version"
                 }
             ]
         },
@@ -4193,10 +4251,6 @@
             "subjects": [
                 {
                     "id": 383,
-                    "subject": "New"
-                },
-                {
-                    "id": 383,
                     "subject": "Python"
                 },
                 {
@@ -4318,6 +4372,40 @@
                 {
                     "type": "notebook",
                     "url": "Recipes/Hashing/Hashing.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 408,
+            "demo": "Headline Generation using Huggingface models in Vantage",
+            "description": "Transform long articles, product descriptions, or marketing copy into sharp, impactful headlines using a llm.",
+            "subjects": [
+                {
+                    "id": 408,
+                    "subject": "New"
+                },
+                {
+                    "id": 408,
+                    "subject": "Python"
+                },
+                {
+                    "id": 408,
+                    "subject": "Hugging Face"
+                },
+                {
+                    "id": 408,
+                    "subject": "teradataml OpenSourceML"
+                },
+                {
+                    "id": 408,
+                    "subject": "BYOM"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Headline_Generation_ONNXSeq2Seq/Headline_Generation_Python.ipynb",
                     "label": "Python Version"
                 }
             ]
@@ -4496,11 +4584,11 @@
             "subjects": [
                 {
                     "id": 129,
-                    "subject": "Machine Learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 129,
-                    "subject": "Retail"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 129,
@@ -4569,6 +4657,36 @@
             ]
         },
         {
+            "id": 394,
+            "demo": "IVSM Banking Customer Churn",
+            "description": "Implement the entire lifecycle of churn prediction can using Vantage technologies and, specifically, the combination of Bring Your Own Model (BYOM), Vantage Analytics Library (VAL) and teradataml python client library.",
+            "subjects": [
+                {
+                    "id": 394,
+                    "subject": "New"
+                },
+                {
+                    "id": 394,
+                    "subject": "Python"
+                },
+                {
+                    "id": 394,
+                    "subject": "Financial"
+                },
+                {
+                    "id": 394,
+                    "subject": "teradataml OpenSourceML"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Banking_Customer_Churn_IVSM/Step1_Banking_Customer_Churn_Sentiment_Analysis.ipynb",
+                    "label": "UseCase Data Prep"
+                }
+            ]
+        },
+        {
             "id": 350,
             "demo": "Image2Matrix and Matrix2Image Functions in Vantage",
             "description": "Convert JPEG or PNG images to matrices, manipulate any element, then convert the matrices back into images.",
@@ -4597,10 +4715,6 @@
             "subjects": [
                 {
                     "id": 390,
-                    "subject": "New"
-                },
-                {
-                    "id": 390,
                     "subject": "SQL"
                 },
                 {
@@ -4614,6 +4728,36 @@
                 {
                     "id": 390,
                     "subject": "Large Language Models"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Improving_Customer_Satisfaction_Travel_Insights/Improving_Customer_Satisfaction_Travel_Insights_SQL.ipynb",
+                    "label": "SQL Version"
+                }
+            ]
+        },
+        {
+            "id": 397,
+            "demo": "Improve Customer Satisfaction Through Travel Insights",
+            "description": "Analyze how the distance a customer travels to a bank branch affects customer satisfaction.",
+            "subjects": [
+                {
+                    "id": 397,
+                    "subject": "New"
+                },
+                {
+                    "id": 397,
+                    "subject": "SQL"
+                },
+                {
+                    "id": 397,
+                    "subject": "Finance"
+                },
+                {
+                    "id": 397,
+                    "subject": "Geospatial"
                 }
             ],
             "links": [
@@ -4840,7 +4984,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/urls/storage.googleapis.com/clearscape_analytics_documents/Experience/Getting_Started/Intro_to_Pandas_For_Python/Pop_Intro_to_Pandas_For_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/80769bb2ee4e7ca5c2ee01bd7a51bd35f2c56891/Getting_Started/Intro_to_Pandas_For_Python/Pop_Intro_to_Pandas_For_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
@@ -5090,15 +5234,15 @@
             "subjects": [
                 {
                     "id": 116,
+                    "subject": "Marketing"
+                },
+                {
+                    "id": 116,
                     "subject": "Retail"
                 },
                 {
                     "id": 116,
                     "subject": "Machine Learning"
-                },
-                {
-                    "id": 116,
-                    "subject": "Marketing"
                 },
                 {
                     "id": 116,
@@ -5494,7 +5638,7 @@
             "subjects": [
                 {
                     "id": 130,
-                    "subject": "Retail"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 130,
@@ -5502,7 +5646,7 @@
                 },
                 {
                     "id": 130,
-                    "subject": "Machine Learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 130,
@@ -5554,6 +5698,44 @@
                     "type": "notebook",
                     "url": "UseCases/MultiTouch_Attribution/MultiTouch_Attribution_PY_SQL.ipynb",
                     "label": "Python-SQL Version"
+                }
+            ]
+        },
+        {
+            "id": 409,
+            "demo": "Multimodal Agentic Semantic Search with Enterprise Vector Store and Unstructured",
+            "description": "Build a production-grade semantic search pipeline over unstructured data - composite PDF documents and raw images - entirely within Teradata VantageCloud",
+            "subjects": [
+                {
+                    "id": 409,
+                    "subject": "New"
+                },
+                {
+                    "id": 409,
+                    "subject": "Python"
+                },
+                {
+                    "id": 409,
+                    "subject": "Healthcare"
+                },
+                {
+                    "id": 409,
+                    "subject": "Enterprise Vector Store"
+                },
+                {
+                    "id": 409,
+                    "subject": "LangChain"
+                },
+                {
+                    "id": 409,
+                    "subject": "VantageCloud"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "VantageCloud_Lake/UseCases/Multimodal_Agentic_Semantic_Search/Agentic_Semantic_Search_Teradata_Unstructured.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -5826,6 +6008,48 @@
                     "type": "notebook",
                     "url": "Recipes/ClearScape_Functions/OneHotEncodingFitandTransform.ipynb",
                     "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 404,
+            "demo": "Open Table Format - Getting Started",
+            "description": "Work through a quick guide on setting up a connection to and working with Open Format Tables using VantageCloud and Apache Iceberg with AWS Glue.",
+            "subjects": [
+                {
+                    "id": 404,
+                    "subject": "New"
+                },
+                {
+                    "id": 404,
+                    "subject": "SQL"
+                },
+                {
+                    "id": 404,
+                    "subject": "Getting Started"
+                },
+                {
+                    "id": 404,
+                    "subject": "AWS"
+                },
+                {
+                    "id": 404,
+                    "subject": "AWS Glue"
+                },
+                {
+                    "id": 404,
+                    "subject": "Open Table Format"
+                },
+                {
+                    "id": 404,
+                    "subject": "Apache Iceburg"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "VantageCloud_Lake/Getting_Started/OpenTableFormat/OpenTableFormat_Getting_Started.ipynb",
+                    "label": "SQL Version"
                 }
             ]
         },
@@ -6113,6 +6337,41 @@
             ]
         },
         {
+            "id": 403,
+            "demo": "Predicting Customer Churn with Previously Deployed Models",
+            "description": "Implement the entire lifecycle of churn prediction using Bring Your Own Model, and the Vantage Analytics Library. ",
+            "subjects": [
+                {
+                    "id": 403,
+                    "subject": "New"
+                },
+                {
+                    "id": 403,
+                    "subject": "Python"
+                },
+                {
+                    "id": 403,
+                    "subject": "BYOM"
+                },
+                {
+                    "id": 403,
+                    "subject": "Finance"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Banking_Customer_Churn_AutoChurn/Bank_Customer_Churn_Prediction_Load_Models.ipynb",
+                    "label": "UseCase Data Prep"
+                },
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Banking_Customer_Churn_AutoChurn/Bank_Customer_Churn_Prediction_Deploy_Models.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 190,
             "demo": "Predicting Medical Expenses in Healthcare",
             "description": "Use a dataset containing variables like age, sex, BMI, smoking status, number of children, and region to build machine learning models that accurately predict healthcare costs for insurance policyholders, taking into account factors that affect medical expenses.",
@@ -6263,13 +6522,8 @@
             ],
             "links": [
                 {
-                    "type": "nbviewer",
-                    "url": "https://nbviewer.org/urls/storage.googleapis.com/clearscape_analytics_documents/Experience/UseCases/Recommendations_product_search/Pop_Recommendations_product_search_OpenAI_Python.ipynb",
-                    "label": "Read Only Python"
-                },
-                {
                     "type": "notebook",
-                    "url": "UseCases/Recommendations_product_search/Recommendations_product_search_OpenAI_Python.ipynb",
+                    "url": "UseCases/Recommendations_product_search/Recommendations_product_search_LiteLLM_Python.ipynb",
                     "label": "Python Version"
                 }
             ]
@@ -6285,17 +6539,51 @@
                 },
                 {
                     "id": 165,
-                    "subject": "Retail"
+                    "subject": "Python"
                 },
                 {
                     "id": 165,
-                    "subject": "Python"
+                    "subject": "Retail"
                 }
             ],
             "links": [
                 {
                     "type": "notebook",
                     "url": "UseCases/Recommendations_product_search/Recommendations_product_search_OpenAI_using_TDAPIClient_Python.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 411,
+            "demo": "Prompt Engineering",
+            "description": "See our tricks and suggestions for building good prompts",
+            "subjects": [
+                {
+                    "id": 411,
+                    "subject": "New"
+                },
+                {
+                    "id": 411,
+                    "subject": "Python"
+                },
+                {
+                    "id": 411,
+                    "subject": "Large Language Models"
+                },
+                {
+                    "id": 411,
+                    "subject": "LangChain"
+                },
+                {
+                    "id": 411,
+                    "subject": "Financial"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "VantageCloud_Lake/UseCases/Prompt_Engineering/Prompt_Engineering.ipynb",
                     "label": "Python Version"
                 }
             ]
@@ -6710,7 +6998,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/urls/storage.googleapis.com/clearscape_analytics_documents/Experience/Getting_Started/SQL_Basics_in_Jupyter/Pop_SQL_Basics_in_Jupyter_SQL.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/80769bb2ee4e7ca5c2ee01bd7a51bd35f2c56891/Getting_Started/SQL_Basics_in_Jupyter/Pop_SQL_Basics_in_Jupyter_SQL.ipynb",
                     "label": "Read Only SQL"
                 },
                 {
@@ -6779,11 +7067,11 @@
             "subjects": [
                 {
                     "id": 143,
-                    "subject": "Descriptive Statistics"
+                    "subject": "Hypothesis testing"
                 },
                 {
                     "id": 143,
-                    "subject": "Hypothesis testing"
+                    "subject": "Descriptive Statistics"
                 },
                 {
                     "id": 143,
@@ -7275,6 +7563,52 @@
             ]
         },
         {
+            "id": 405,
+            "demo": "Shipping Delivery Delay Prediction using Open Table Format",
+            "description": "Observe how data stored in open table formats can be seamlessly integrated with enterprise analytics workflows, eliminating data silos and reducing the need for complex data movement.",
+            "subjects": [
+                {
+                    "id": 405,
+                    "subject": "New"
+                },
+                {
+                    "id": 405,
+                    "subject": "Python"
+                },
+                {
+                    "id": 405,
+                    "subject": "Travel & Transportation"
+                },
+                {
+                    "id": 405,
+                    "subject": "AWS"
+                },
+                {
+                    "id": 405,
+                    "subject": "AWS Glue"
+                },
+                {
+                    "id": 405,
+                    "subject": "Open Table Format"
+                },
+                {
+                    "id": 405,
+                    "subject": "Apache Iceburg"
+                },
+                {
+                    "id": 405,
+                    "subject": "DataLake"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "VantageCloud_Lake/UseCases/Shiping_Delivery_Delay_Prediction_using_OTF/Shipping_Delivery_Delay_Prediction_using_OTF.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 161,
             "demo": "Shipping Time Prediction",
             "description": "Use ClearScape Analytics to develop a robust system that can reliably estimate delivery dates, accounting for handling time, transit time, and other relevant variables affecting the actual delivery timeframe.",
@@ -7676,11 +8010,11 @@
             "subjects": [
                 {
                     "id": 134,
-                    "subject": "Machine Learning"
+                    "subject": "Marketing"
                 },
                 {
                     "id": 134,
-                    "subject": "Marketing"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 134,
@@ -7711,11 +8045,11 @@
             "subjects": [
                 {
                     "id": 133,
-                    "subject": "Machine Learning"
+                    "subject": "Retail"
                 },
                 {
                     "id": 133,
-                    "subject": "Retail"
+                    "subject": "Machine Learning"
                 },
                 {
                     "id": 133,
@@ -7808,10 +8142,6 @@
             "subjects": [
                 {
                     "id": 386,
-                    "subject": "New"
-                },
-                {
-                    "id": 386,
                     "subject": "Python"
                 },
                 {
@@ -7850,11 +8180,11 @@
                 },
                 {
                     "id": 150,
-                    "subject": "Time series analytics"
+                    "subject": "Geospatial"
                 },
                 {
                     "id": 150,
-                    "subject": "Geospatial"
+                    "subject": "Time series analytics"
                 },
                 {
                     "id": 150,
@@ -8229,10 +8559,6 @@
             "subjects": [
                 {
                     "id": 384,
-                    "subject": "New"
-                },
-                {
-                    "id": 384,
                     "subject": "Python"
                 },
                 {
@@ -8295,10 +8621,6 @@
             "subjects": [
                 {
                     "id": 392,
-                    "subject": "New"
-                },
-                {
-                    "id": 392,
                     "subject": "OpenAI"
                 },
                 {
@@ -8323,6 +8645,44 @@
                     "type": "notebook",
                     "url": "VantageCloud_Lake/Getting_Started/Teradata_AgentBuilder/Teradata_AgentBuilder_Getting_Started.ipynb",
                     "label": "Information"
+                }
+            ]
+        },
+        {
+            "id": 396,
+            "demo": "Text Analytics using teradatagenai",
+            "description": "Use the teradatagenai python library to execute various TeradataAI functions and generate embeddings using AWS Bedrock models.",
+            "subjects": [
+                {
+                    "id": 396,
+                    "subject": "New"
+                },
+                {
+                    "id": 396,
+                    "subject": "Python"
+                },
+                {
+                    "id": 396,
+                    "subject": "VantageCloud"
+                },
+                {
+                    "id": 396,
+                    "subject": "AWS Bedrock"
+                },
+                {
+                    "id": 396,
+                    "subject": "AWS"
+                },
+                {
+                    "id": 396,
+                    "subject": "teradatagenai"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "VantageCloud_Lake/Getting_Started/teradatagenai_package/Teradatagenai_AWS_Demo.ipynb",
+                    "label": "Python Version"
                 }
             ]
         },
@@ -8616,28 +8976,6 @@
             ]
         },
         {
-            "id": 183,
-            "demo": "Tutorial on using Teradataml Widgets",
-            "description": "Use Teradataml Widgets to display interactive prompting to generate datasets from the Vantage database.",
-            "subjects": [
-                {
-                    "id": 183,
-                    "subject": "Python"
-                },
-                {
-                    "id": 183,
-                    "subject": "Developer Information"
-                }
-            ],
-            "links": [
-                {
-                    "type": "notebook",
-                    "url": "Getting_Started/Teradataml_Widgets/Tutorial.ipynb",
-                    "label": "Python Version"
-                }
-            ]
-        },
-        {
             "id": 246,
             "demo": "UnivariateStatistics function in Vantage",
             "description": "Use the UnivariateStatistics function available in Vantage  to explore the descriptive statistics of a dataset",
@@ -8700,10 +9038,6 @@
             "subjects": [
                 {
                     "id": 391,
-                    "subject": "New"
-                },
-                {
-                    "id": 391,
                     "subject": "Python"
                 },
                 {
@@ -8727,6 +9061,66 @@
                 {
                     "type": "notebook",
                     "url": "UseCases/Improving_Customer_Satisfaction_Travel_Insights/Initialization_and_Model_Load_Travel_Insights.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 398,
+            "demo": "Using AutoML with Teradataml Widgets",
+            "description": "Use the AutoML Classification UI for selection various fields and algorithms to generation prediction outcomes.",
+            "subjects": [
+                {
+                    "id": 398,
+                    "subject": "New"
+                },
+                {
+                    "id": 398,
+                    "subject": "Python"
+                },
+                {
+                    "id": 398,
+                    "subject": "AutoML"
+                },
+                {
+                    "id": 398,
+                    "subject": "Machine Learning"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Getting_Started/Teradataml_Widgets/AutoML_Tutorial.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 399,
+            "demo": "Using BYOM with Teradaml Widgets",
+            "description": "Score data in Vantage with the DataRobotPredict function.",
+            "subjects": [
+                {
+                    "id": 399,
+                    "subject": "New"
+                },
+                {
+                    "id": 399,
+                    "subject": "Python"
+                },
+                {
+                    "id": 399,
+                    "subject": "DataRobot"
+                },
+                {
+                    "id": 399,
+                    "subject": "BYOM"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Getting_Started/Teradataml_Widgets/BYOM_Tutorial.ipynb",
                     "label": "Python Version"
                 }
             ]
@@ -8794,6 +9188,58 @@
                     "type": "notebook",
                     "url": "Recipes/ClearScape_Functions/Anova.ipynb",
                     "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 401,
+            "demo": "Using the Script UI in Teradataml",
+            "description": "Install and execute a python script inside the Teradata Database",
+            "subjects": [
+                {
+                    "id": 401,
+                    "subject": "New"
+                },
+                {
+                    "id": 401,
+                    "subject": "Python"
+                },
+                {
+                    "id": 401,
+                    "subject": "teradataml OpenSourceML"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Getting_Started/Teradataml_Widgets/Script_Tutorial.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 402,
+            "demo": "Using the Teradataml Widgets Vector Store UI",
+            "description": "View and Manage Vector Stores that have been created inside the Teradata Database.",
+            "subjects": [
+                {
+                    "id": 402,
+                    "subject": "New"
+                },
+                {
+                    "id": 402,
+                    "subject": "Python"
+                },
+                {
+                    "id": 402,
+                    "subject": "Enterprise Vector Store"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Getting_Started/Teradataml_Widgets/Vector_Store_UI.ipynb",
+                    "label": "Python Verson"
                 }
             ]
         },
@@ -9034,10 +9480,6 @@
             "subjects": [
                 {
                     "id": 382,
-                    "subject": "New"
-                },
-                {
-                    "id": 382,
                     "subject": "Python"
                 },
                 {
@@ -9267,6 +9709,36 @@
             ]
         },
         {
+            "id": 412,
+            "demo": "Yield Prediction in Semiconductor in Semiconductor Wafer Fab",
+            "description": "Use feature selection techniques to systematically identify the most relevant signals from a large pool of collected data.",
+            "subjects": [
+                {
+                    "id": 412,
+                    "subject": "New"
+                },
+                {
+                    "id": 412,
+                    "subject": "Python"
+                },
+                {
+                    "id": 412,
+                    "subject": "Manufacturing"
+                },
+                {
+                    "id": 412,
+                    "subject": "teradataml OpenSourceML"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "UseCases/Yield_Prediction_Semiconductor/Yield_Prediction_Semiconductor.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
             "id": 321,
             "demo": "ZTest Function in Vantage",
             "description": "Determine if two population means are different when the population standard deviation or variance is known.",
@@ -9284,6 +9756,36 @@
                 {
                     "type": "notebook",
                     "url": "Recipes/ClearScape_Functions/ZTest.ipynb",
+                    "label": "Python Version"
+                }
+            ]
+        },
+        {
+            "id": 410,
+            "demo": "td_lightgbm - Open Source Functions in Vantage",
+            "description": "Teradata OpenSourceML allows users to generate distributed models to process and solve use cases where distributed models are needed.",
+            "subjects": [
+                {
+                    "id": 410,
+                    "subject": "New"
+                },
+                {
+                    "id": 410,
+                    "subject": "Python"
+                },
+                {
+                    "id": 410,
+                    "subject": "teradataml OpenSourceML"
+                },
+                {
+                    "id": 410,
+                    "subject": "Large Language Models"
+                }
+            ],
+            "links": [
+                {
+                    "type": "notebook",
+                    "url": "Recipes/ClearScape_Functions/OpenSourceML_td_lightgbm.ipynb",
                     "label": "Python Version"
                 }
             ]
@@ -9331,7 +9833,7 @@
             "links": [
                 {
                     "type": "nbviewer",
-                    "url": "https://nbviewer.org/urls/storage.googleapis.com/clearscape_analytics_documents/Experience/Getting_Started/teradataml_Python_Basics/Pop_teradataml_Python_Basics_Python.ipynb",
+                    "url": "https://nbviewer.org/github/Teradata/jupyter-demos/blob/80769bb2ee4e7ca5c2ee01bd7a51bd35f2c56891/Getting_Started/teradataml_Python_Basics/Pop_teradataml_Python_Basics_Python.ipynb",
                     "label": "Read Only Python"
                 },
                 {
