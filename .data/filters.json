@@ -51,7 +51,7 @@
                 },
                 {
                     "subjseq": 4,
-                    "subject": "VantageCloud"
+                    "subject": "TeradataCloud"
                 },
                 {
                     "subjseq": 5,
@@ -60,11 +60,11 @@
             ]
         },
         {
-            "category": "VantageCloud",
+            "category": "TeradataCloud",
             "subjects": [
                 {
                     "subjseq": 1,
-                    "subject": "VantageCloud"
+                    "subject": "TeradataCloud"
                 },
                 {
                     "subjseq": 3,
@@ -460,7 +460,7 @@
                 },
                 {
                     "subjseq": 2,
-                    "subject": "Vantage Database Functions"
+                    "subject": "Teradata Database Functions"
                 },
                 {
                     "subjseq": 3,
