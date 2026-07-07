@@ -1,0 +1,4 @@
+sentence_transformers
+teradatagenai
+transformers
+python-dotenv
