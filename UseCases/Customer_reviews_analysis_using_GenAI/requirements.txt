@@ -10,3 +10,4 @@ boto3
 awscli
 wordcloud
 pillow
+litellm
