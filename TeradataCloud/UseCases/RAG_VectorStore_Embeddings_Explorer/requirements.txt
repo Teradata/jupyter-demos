@@ -1,5 +1,5 @@
 teradataml
-langchain-teradata
+langchain-teradata==20.00.00.01
 litellm
 
 langchain
@@ -7,12 +7,5 @@ langchain-community
 langchain-core
 langchain-openai  
 
-python-dotenv
 panel
 
-numpy
-pandas
-scikit-learn              
-matplotlib
-plotly
-torch
