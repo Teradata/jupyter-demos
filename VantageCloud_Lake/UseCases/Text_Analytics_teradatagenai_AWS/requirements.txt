@@ -1,5 +1,0 @@
-teradatagenai==20.0.0.2
-transformers
-pyOpenSSL 
-cryptography
-python-dotenv

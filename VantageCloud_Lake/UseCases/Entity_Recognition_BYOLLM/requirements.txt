@@ -1,6 +1,0 @@
-teradataml==20.0.0.6
-teradatagenai==20.0.0.2
-transformers
-pyOpenSSL 
-cryptography
-python-dotenv

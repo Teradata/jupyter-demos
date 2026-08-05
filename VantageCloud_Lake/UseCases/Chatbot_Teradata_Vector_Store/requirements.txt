@@ -1,7 +1,0 @@
-teradatagenai
-streamlit
-python-dotenv
-plotly
-ipykernel
-panel
-jupyter_bokeh
