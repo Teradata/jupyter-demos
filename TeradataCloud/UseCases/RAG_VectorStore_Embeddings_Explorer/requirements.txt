@@ -1,0 +1,11 @@
+teradataml
+langchain-teradata==20.00.00.01
+litellm
+
+langchain
+langchain-community
+langchain-core
+langchain-openai  
+
+panel
+
