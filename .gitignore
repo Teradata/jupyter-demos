@@ -14,5 +14,3 @@ Teradata/Config/userinfo.db
 .config/
 VantageCloud_Lake/.config/
 node_modules
-# Per-user AI chat token; must not be committed
-.usersettings/ai_chat_token
